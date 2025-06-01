@@ -1,0 +1,35 @@
+/*-- scss:defaults --*/
+
+// Bootstrap variable overrides go here
+// (before the base layer is loaded)
+//$font-family-sans-serif: 'Inter', sans-serif;
+// $font-family-serif: 'Merriweather', serif;
+
+$body-bg: #E7ECF2;
+$body-color: #212121;
+$link-color: #003366;
+$link-hover-color: #D9531E;
+
+$primary: #003366;
+$secondary: #3B6E8F;
+$success: #226F54;
+$info: #3E92CC;
+$warning: #D9531E;
+$light: #F8F9FA;
+$dark: #212121;
+
+/*-- scss:rules --*/
+  
+
+// Declare base layer
+// -----------------------------------------------------
+//@layer base {
+//  h1, h2, h3 {
+//    color: $primary;
+//  }
+//
+//  .navbar {
+//    font-weight: 500;
+//  }
+//}
+// -----------------------------------------------------

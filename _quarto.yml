@@ -1,0 +1,77 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "BED3 – Investering og finans"
+  page-navigation: true
+  navbar:
+    background: primary
+    logo: assets/images/nhh.png 
+    search: true
+    left:
+      - text: "Hjem"
+        icon: house-door-fill
+        href: index.qmd
+      - text: "Om kurset"
+        icon: info-circle-fill
+        href: kursinformasjon.qmd
+      - text: "Kursinnhold"
+        icon: journal-richtext
+        href: kursinnhold.qmd
+      - text: "Øving og vurdering"
+        icon: file-earmark-text
+        href: oving_vurdering.qmd
+        
+  sidebar:
+    - id: id-innhold
+      title: "Kursinnhold"
+      style: "docked"
+      background: light
+      contents:
+        - section: "Intro BED3"
+          contents: 
+            - text: "Oversikt"
+              href: kursmateriale/1-intro.qmd
+        - section: "Intro Investeringsanalyse"
+          contents: 
+            - text: "Oversikt investeringsanalyse"
+              href: kursmateriale/2-intro.qmd
+    - id: id-oving
+      title: "Øvingsmateriale"
+      style: "docked"
+      background: primary
+      contents:
+        - section: "Ovingsoppgaver"
+            - text: "Gruppeøving 1"
+              href: gruppeovinger/gruppeoving-1.qmd
+        - section: "Caseinnlevering"
+            - text: "Om innleveringen"
+              href: oblig_innlevering/1-info.qmd
+       # - section: "Frivilling innlevering"
+       # - section: "Tidligere eksamener"
+    
+             
+        
+    
+
+
+  page-footer:
+    center:
+      - text: "© 2025-206 André Wattø Sjuve  <br> <i class='far fa-calendar-alt'></i> {{< var weekday1 >}} - <i class='far fa-clock'></i> {{< var time1 >}}| <i class='far fa-calendar-alt'></i> {{< var weekday2 >}} - <i class='far fa-clock'></i> {{< var time2 >}}  <br><i class='fa fa-map-marker-alt'></i> {{< var room >}}</a>"
+
+
+format:
+  html:
+    theme:
+      light: 
+        - cosmo
+        - assets/styles/custom.scss
+    toc: true
+    toc-depth: 2
+    page-layout: full
+    number-sections: true
+    include-in-header: "_includes/header.html"
+    
+execute: 
+  freeze: auto

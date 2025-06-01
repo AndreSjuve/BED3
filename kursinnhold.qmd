@@ -1,0 +1,5 @@
+---
+title: "Kursinnhold"
+page-layout: article
+sidebar: id-innhold
+---

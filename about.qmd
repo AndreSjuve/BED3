@@ -1,0 +1,15 @@
+---
+title: "About"
+---
+
+::: columns
+::: {.column width="30%"}
+![André Wattø Sjuve, <br> Assistant professor](images/andresjuve.jpg){width="50%"}
+
+![Geir Drage Berentsen, <br> Associate professor](bilder/geirberentsen.jpg){width="70%"}
+:::
+
+::: {.column width="70%"}
+This course and website has been developed by Sondre Hølleland, assistant professor, and Geir Drage Berentsen, associate professor, both at Norwegian School of Economics, Department of Business and Management Science. More about us will be added.
+:::
+:::
