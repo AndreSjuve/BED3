@@ -43,9 +43,13 @@ website:
       background: primary
       contents:
         - section: "Ovingsoppgaver"
+          contents:
             - text: "Gruppeøving 1"
               href: gruppeovinger/gruppeoving-1.qmd
+            - text: "Gruppeøving 2"
+              href: gruppeovinger/gruppeoving-2.qmd
         - section: "Caseinnlevering"
+          contents:
             - text: "Om innleveringen"
               href: oblig_innlevering/1-info.qmd
        # - section: "Frivilling innlevering"
