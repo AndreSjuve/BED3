@@ -2,6 +2,9 @@ project:
   type: website
   output-dir: docs
 
+metadata-files:
+  - _variables.yml
+
 website: 
   title: "BED3 – Investering og finans"
   page-navigation: true

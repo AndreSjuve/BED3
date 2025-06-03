@@ -1,10 +1,25 @@
 ---
+title: "{{< var title >}}"
+author: "{{< var author >}}"
 page-layout: full
 ---
 
 # Introduksjon {.unnumbered}
 
-Velkommen til hjemmesiden for BED3 - Investering og finans. Denne siden er under konstruksjon.
+*Nettsiden er under pågående arbeid*
+
+Dette er den nettsiden for bacheloremnet [BED3 - Investering og finans](https://www.nhh.no/emner/investering-og-finans/) ved NHH, som er et obligatorisk emne på Bachelorprogrammet i Økonomi og Administrasjon ved Norges Handelshøyskole. Her finner du alt du trenger for å følge undervisningen, arbeide med oppgaver og forberede deg til eksamen.
+
+Kurset gir deg en innføring i sentrale begreper og verktøy innen investering og finansiering. Du vil lære å analysere og vurdere investeringsprosjekter, forstå hvordan kapitalmarkedene fungerer, og se hvordan virksomheter kan ta gode finansielle beslutninger.
+
+Nettsiden er delt inn i moduler som speiler undervisningsplanen. Du vil finne:
+
+- Oversiktlige temasider for hver forelesning  
+- Casebaserte oppgaver og løsningsforslag  
+- Tydelig informasjon om vurderingsformer og krav  
+- Praktisk informasjon om undervisning, gruppearbeid og frister
+
+Vi anbefaler at du besøker denne siden jevnlig gjennom semesteret for å holde deg oppdatert og få mest mulig ut av undervisningen.
 
 ## Forelesningsplan
 
