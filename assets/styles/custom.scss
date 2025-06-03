@@ -2,13 +2,15 @@
 
 // Bootstrap variable overrides go here
 // (before the base layer is loaded)
-//$font-family-sans-serif: 'Inter', sans-serif;
-// $font-family-serif: 'Merriweather', serif;
+$font-family-sans-serif: 'Inter', sans-serif;
+$font-family-serif: 'Merriweather', serif;
 
-$body-bg: #E7ECF2;
-$body-color: #212121;
+// === Font and Base Colors ===
+$body-bg: #fffbf2;
+//$body-bg: #F9FAFB;
+$body-color: #1F2937;
 $link-color: #003366;
-$link-hover-color: #D9531E;
+$link-hover-color: #E2765B;
 
 $primary: #003366;
 $secondary: #3B6E8F;
@@ -17,19 +19,100 @@ $info: #3E92CC;
 $warning: #D9531E;
 $light: #F8F9FA;
 $dark: #212121;
+$accent: #F96F46;
+$nhh-yellow: #e2e477;
+$beige: #F1ECE3;
 
 /*-- scss:rules --*/
   
+// === Website title (site name in navbar) ===
+.navbar-brand {
+  color:$primary; // Default NHH blue
 
-// Declare base layer
-// -----------------------------------------------------
-//@layer base {
-//  h1, h2, h3 {
-//    color: $primary;
-//  }
-//
-//  .navbar {
-//    font-weight: 500;
-//  }
-//}
-// -----------------------------------------------------
+  // Optional: Hover effect
+  &:hover {
+    color:$secondary; // Accent on hover
+  }
+}
+  
+// === Navbar Styling ===
+.navbar {
+  background-color: $nhh-yellow;
+  border-bottom: 1px solid #E5E7EB;
+  font-weight: 500;
+}
+
+// === Navbar link color (text in the navbar) ===
+.navbar-nav .nav-link {
+  color: $primary; // <- NHH dark blue for text
+  font-weight: 700;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color:$secondary; // <- Accent color on hover or active
+}
+
+
+// === Site-wide Navigation Sidebar (from _quarto.yml) ===
+.sidebar {
+  background-color: #F3EDE2 !important;
+  color: $primary !important;
+}
+
+.sidebar a {
+  color: $primary !important;
+  font-weight: 600;
+}
+
+.sidebar a:hover {
+  color: $link-hover-color !important;
+}
+
+
+// === Callouts & Cards ===
+.callout {
+  border-left: 4px solid $accent;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+// === Links ===
+a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+// === Headings ===
+h1, h2, h3 {
+  color: $primary;
+}
+
+// === Buttons (Optional) ===
+.btn {
+  background-color: $accent;
+  border: none;
+  color: white;
+  padding: 0.4em 1em;
+  border-radius: 0.5em;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: darken($accent, 10%);
+}
+
+
+// Footer text
+$footer-fg:                   $primary;
+
+// footer
+.nav-footer-center i {
+  color: $primary !important;
+  
+  &:hover {
+    color: $secondary !important;
+  }
+}
+

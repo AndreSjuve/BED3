@@ -1,3 +1,7 @@
+---
+page-layout: full
+---
+
 # Introduksjon {.unnumbered}
 
 Velkommen til hjemmesiden for BED3 - Investering og finans. Denne siden er under konstruksjon.
