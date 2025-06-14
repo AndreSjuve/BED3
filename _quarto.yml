@@ -1,6 +1,10 @@
 project: 
   type: website
   output-dir: docs
+  exclude:
+    - assets/formelark-print.qmd
+    - assets/formelark-print.tex
+    - latex/
 
 metadata-files:
   - _variables.yml
