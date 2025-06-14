@@ -1,0 +1,92 @@
+---
+title: "Forelesningsplan"
+format: html
+page-layout: full
+---
+
+```{r}
+vars <- yaml::read_yaml("_variables.yml")
+deadlines <- vars$deadlines
+```
+
+
+::: {.callout-note title="Viktige datoer"}
+
+::: {.grid .g-2}
+
+::: {.g-col-6}
+<i class="fa fa-users"></i> **Registrering i grupper:**  
+<span title="Alle grupper må være registrert innen fristen."><strong>`r format(as.Date(deadlines$group_registration), "%d.%m.%Y")`</strong></span>  
+<small>Obligatorisk for deltakelse i casearbeidet. Se <a href="oving_vurdering.qmd"><em>Case</em></a> for registreringsinfo.</small>
+
+
+<i class="fa fa-file-alt"></i> **Obligatorisk case:**  
+<span title="Gruppebasert innlevering med vurdering: bestått/ikke bestått."><strong>`r format(as.Date(deadlines$mandatory_case), "%d.%m.%Y")`</strong></span> 
+<small><br> Må bestås for å kunne gå opp til eksamen. Se <a href="oving_vurdering.qmd"><em>Case</em></a> for informasjon.</small>
+
+:::
+
+::: {.g-col-6}
+<i class="fa fa-clipboard-check"></i> **Frivillig oppgave:**  
+<span title="Ekstra øving med tilbakemelding før eksamen"><strong>`r format(as.Date(deadlines$voluntary_case), "%d.%m.%Y")`</strong></span>  
+<small>Frivillig innlevering med kommentarer fra studentassistenter. <br> Se <a href="kursinformasjon.qmd"><em>Om kurset</em></a> for detaljer.</small>
+
+
+<i class="fa fa-university"></i> **Eksamen:**  
+<span title="Skriftlig individuell eksamen i henhold til vurderingsform."><strong>`r format(as.Date(deadlines$exam), "%d.%m.%Y")`</strong></span>  
+<small>Skriftlig skoleeksamen. Se <a href="kursinformasjon.qmd"><em>Vurdering</em></a> for form og hjelpemidler.</small>
+
+:::
+
+:::
+:::
+
+
+
+
+```{r lecturePlanCal,eval=TRUE, echo = FALSE, message = FALSE, warning = FALSE}
+library(tidyverse)
+library(dplyr)
+library(kableExtra)
+options(knitr.kable.NA = '')
+
+current_week <- lubridate::isoweek(Sys.Date())
+
+schedule <- 
+    readxl::read_excel("assets/schedule.xlsx", sheet = "V25")
+
+schedule <- 
+    schedule %>%
+    mutate(is_current = ifelse(week == current_week, TRUE, FALSE))
+
+schedule |>
+     select(Uke = week,
+         Dato = date,
+         Dag = day,
+         Tema = topic,
+         Foreleser = lecturer,
+         Pensum = reading,
+         Type = type) |> 
+    mutate(Dato = format(as.Date(Dato), "%d.%m.%Y")) |> 
+    kable("html", escape = FALSE, align = "rllllll") |> 
+  kable_styling(bootstrap_options = 
+                    c("striped", "hover", "condensed", "responsive"), 
+                full_width = TRUE,
+                position = "left") |> 
+    row_spec(0, 
+             bold = TRUE, 
+             color = "#fffbf2", 
+             background = "#003366") %>%
+    row_spec(1:nrow(schedule), 
+             extra_css = "height: 40px; padding: 10px 10px;") %>%
+     row_spec(seq(2, nrow(schedule), 2), background = "#fef9f0") %>%
+  row_spec(seq(1, nrow(schedule), 2), background = "#f7f3e8") |> 
+  column_spec(4, width = "22em") %>% 
+    row_spec(which(schedule$is_current), 
+             color = "#fffbf2", 
+             background = "#3B6E8F")
+    
+    
+
+```
+

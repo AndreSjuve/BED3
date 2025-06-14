@@ -13,13 +13,16 @@ website:
     #background: primary
     logo: assets/images/nhh.png
     search: true
-    left: 
-      - text: "Hjem"
-        icon: house-door-fill
-        href: index.qmd
+    right: 
       - text: "Om kurset"
         icon: info-circle-fill
         href: kursinformasjon.qmd
+      - text: "Forelesningsplan"
+        icon: calendar-fill
+        href: forelesningsplan.qmd
+      - text: "Formelark"
+        icon: calculator
+        href: formelark.qmd
       - text: "Kursinnhold"
         icon: journal-richtext
         href: kursinnhold.qmd
@@ -59,7 +62,7 @@ website:
   page-footer: 
     border: false
     center: >-
-       &#169; 2025-206 André Wattø Sjuve  <br> <i class='far fa-calendar-alt'></i> {{< var weekday1 >}} - <i class='far fa-clock'></i> {{< var time1 >}} | <i class='far fa-calendar-alt'></i> {{< var weekday2 >}} - <i class='far fa-clock'></i> {{< var time2 >}}  <br><i class='fa fa-map-marker-alt'></i> {{< var room >}}</a>
+       &#169; 2025-2026 André Wattø Sjuve  <br> <i class='far fa-calendar-alt'></i> {{< var weekday1 >}} - <i class='far fa-clock'></i> {{< var time1 >}} | <i class='far fa-calendar-alt'></i> {{< var weekday2 >}} - <i class='far fa-clock'></i> {{< var time2 >}}  <br><i class='fa fa-map-marker-alt'></i> {{< var room >}}</a>
 
 format: 
   html: 
@@ -75,3 +78,6 @@ format:
 
 execute: 
   freeze: auto
+  echo: false
+  warning: false
+  message: false

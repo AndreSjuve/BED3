@@ -1,10 +1,16 @@
 ---
 title: "{{< var title >}}"
-author: "{{< var author >}}"
+subtitle: "En grundig innføring i investering og finansiering, fra vurdering av lønnsomhet og risiko i investeringsprosjekter til prinsipper for verdsettelse og kapitalstruktur."
+format:
+  html:
+    number-sections: false
+sidebar: false
+toc: false
 page-layout: full
 ---
 
-# Introduksjon {.unnumbered}
+
+## Introduksjon
 
 *Nettsiden er under pågående arbeid*
 
@@ -21,15 +27,110 @@ Nettsiden er delt inn i moduler som speiler undervisningsplanen. Du vil finne:
 
 Vi anbefaler at du besøker denne siden jevnlig gjennom semesteret for å holde deg oppdatert og få mest mulig ut av undervisningen.
 
-## Forelesningsplan
+## Hva lærer du i dette kurset?
 
-**Legg inn plan**
+- Vurdere lønnsomhet og risiko i investeringsprosjekter
+- Anvende metoder som nåverdi, internrente og beslutningstreanalyse
+- Forstå sammenhengen mellom kontantstrøm og kapitalkostnad
+- Analysere verdipapirer og porteføljer
+- Ta stilling til finansieringsvalg, kapitalstruktur og utbyttepolitikk
+- Reflektere over etiske dilemmaer i finansielle beslutninger
 
-## Pensum
+---
 
-**List opp pensum**
+## Emneansvarlig
 
-## Læringsmål
+:::{layout="[32,32,32]"}
+```{r}
+#| results: asis
 
-**List opp læringsmål**
+instructors <- 
+    yaml::read_yaml("_variables.yml")$instructors 
+
+names(instructors) |> 
+    purrr::walk(~{
+        
+        person <- instructors[[.x]]
+        
+        cat(glue::glue('
+::: {{.column width="32%" .me-2}}
+::: {{.card .shadow-sm .border-0 .text-center .p-3}}
+![{person$name}](assets/images/{person$name}.jpg){{width=100px .rounded-circle}}  
+[**{person$name}**]({person$page})  
+_{person$title}_  
+_{person$role}_  
+<i class="fa fa-envelope"></i> [{person$email}](mailto:{person$email})
+:::
+:::
+\n
+'))
+        
+    })
+```
+
+:::
+---
+
+
+## Kursinnhold og progresjon (midlertidig)
+
+| Uke | Tema                                 |
+|-----|--------------------------------------|
+| 1   | Introduksjon og investeringsanalyse |
+| 2–3 | Kontantstrøm og kapitalkostnad       |
+| 4   | Prosjektusikkerhet og beslutningsverktøy |
+| 5–6 | Porteføljeteori og verdipapirprising |
+| 7–8 | Derivater og risikostyring           |
+| 9   | Kapitalstruktur og utbyttepolitikk   |
+| 10  | Etiske perspektiver og repetisjon    |
+
+---
+
+## Praktisk informasjon
+
+- **Forelesninger**: Tirsdager kl 12:15-14:00 og fredager, kl. 10:15–12:00 (Aud. Max)
+- **Undervisningsform**: Forelesninger, case og gruppearbeid
+- **Vurdering**: Skriftlig skoleeksamen  
+- **Krav**: Kurset er obligatorisk for bachelorstudenter i økonomi og administrasjon  
+- [Lenke til emnebeskrivelse på nhh.no](https://www.nhh.no/emner/investering-og-finans/)
+
+---
+
+## Hvordan bruke denne siden
+
+Denne nettsiden er strukturert etter forelesningene. Hver temaside inneholder:
+
+- Slides og nøkkelbegreper
+- Øvingsoppgaver og løsninger
+- Casebeskrivelser og støttemateriell
+- Interaktive elementer via Mentimeter
+- Lenker til relevante ressurser
+
+Bruk menyen øverst eller søkefunksjonen for å navigere.
+
+---
+
+## Nyttige lenker
+
+- [Emnebeskrivelse på nhh.no](https://www.nhh.no/emner/investering-og-finans/)
+- [Canvas](https://nhh.instructure.com/courses/2695) – for innlevering og vurdering
+- [Formelsamling (PDF)](docs/formelsamling.pdf)
+- Excel-mal: [Investeringsanalyse.xlsx](docs/investeringsanalyse.xlsx)
+
+---
+
+## Vanlige spørsmål
+
+**Er formelarket vedlagt eksamen?**
+Ja, formelarket får dere utlevert sammen med eksamensoppgaven.
+
+**Må jeg kunne programmering?**  
+Nei, det er ikke nødvendig. Enkel bruk av Excel inngår.
+
+**Er det gruppearbeid?**  
+Ja, deler av kurset, spesifikt kursgodkjenning, er organisert rundt et gruppebasert case.
+
+**Kan jeg bruke kalkulator på eksamen?**  
+Ja, godkjente kalkulatorer er tillatt. Se eksamensregler for detaljer.
+
 
