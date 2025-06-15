@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About – BED3 – Investering og finans</title>
+<title>Formelark – BED3 – Investering og finans</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -80,6 +80,35 @@ ul.task-list li input[type="checkbox"] {
 <!-- google font -->
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -114,7 +143,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Forelesningsplan</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./formelark.html"> <i class="bi bi-calculator" role="img">
+    <a class="nav-link active" href="./formelark.html" aria-current="page"> <i class="bi bi-calculator" role="img">
 </i> 
 <span class="menu-text">Formelark</span></a>
   </li>  
@@ -139,18 +168,36 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tidens-verdi" id="toc-tidens-verdi" class="nav-link active" data-scroll-target="#tidens-verdi"><span class="header-section-number">1</span> Tidens verdi</a></li>
+  <li><a href="#nåverdimetoder" id="toc-nåverdimetoder" class="nav-link" data-scroll-target="#nåverdimetoder"><span class="header-section-number">2</span> Nåverdimetoder</a></li>
+  <li><a href="#skatt-og-avskrivninger" id="toc-skatt-og-avskrivninger" class="nav-link" data-scroll-target="#skatt-og-avskrivninger"><span class="header-section-number">3</span> Skatt og avskrivninger</a></li>
+  <li><a href="#renteregning" id="toc-renteregning" class="nav-link" data-scroll-target="#renteregning"><span class="header-section-number">4</span> Renteregning</a></li>
+  <li><a href="#porteføljeteori-og-risiko" id="toc-porteføljeteori-og-risiko" class="nav-link" data-scroll-target="#porteføljeteori-og-risiko"><span class="header-section-number">5</span> Porteføljeteori og risiko</a></li>
+  <li><a href="#kapitalverdimodellen" id="toc-kapitalverdimodellen" class="nav-link" data-scroll-target="#kapitalverdimodellen"><span class="header-section-number">6</span> Kapitalverdimodellen</a></li>
+  <li><a href="#verdsettelse" id="toc-verdsettelse" class="nav-link" data-scroll-target="#verdsettelse"><span class="header-section-number">7</span> Verdsettelse</a></li>
+  <li><a href="#kapitalstruktur-og-vektstang" id="toc-kapitalstruktur-og-vektstang" class="nav-link" data-scroll-target="#kapitalstruktur-og-vektstang"><span class="header-section-number">8</span> Kapitalstruktur og vektstang</a></li>
+  <li><a href="#obligasjoner-og-durasjon" id="toc-obligasjoner-og-durasjon" class="nav-link" data-scroll-target="#obligasjoner-og-durasjon"><span class="header-section-number">9</span> Obligasjoner og durasjon</a></li>
+  <li><a href="#opsjoner-og-derivater" id="toc-opsjoner-og-derivater" class="nav-link" data-scroll-target="#opsjoner-og-derivater"><span class="header-section-number">10</span> Opsjoner og derivater</a></li>
+  <li><a href="#internasjonal-finans" id="toc-internasjonal-finans" class="nav-link" data-scroll-target="#internasjonal-finans"><span class="header-section-number">11</span> Internasjonal finans</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">Formelark</h1>
 </div>
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -162,26 +209,371 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="columns">
-<div class="column" style="width:30%;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/andresjuve.jpg" class="img-fluid figure-img" style="width:50.0%"></p>
-<figcaption>André Wattø Sjuve, <br> Assistant professor</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="bilder/geirberentsen.jpg" class="img-fluid figure-img" style="width:70.0%"></p>
-<figcaption>Geir Drage Berentsen, <br> Associate professor</figcaption>
-</figure>
-</div>
-</div><div class="column" style="width:70%;">
-<p>This course and website has been developed by Sondre Hølleland, assistant professor, and Geir Drage Berentsen, associate professor, both at Norwegian School of Economics, Department of Business and Management Science. More about us will be added.</p>
-</div>
-</div>
+<section id="tidens-verdi" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="tidens-verdi"><span class="header-section-number">1</span> Tidens verdi</h2>
+<ul>
+<li><p>📈 <strong>Fremtidsverdi av ett beløp:</strong><br>
+<span class="math display">\[
+FV = CF_0 \cdot (1 + k)^T
+\]</span></p></li>
+<li><p>💰 <strong>Nåverdi av ett beløp:</strong><br>
+<span class="math display">\[
+PV = \frac{CF_T}{(1 + k)^T}
+\]</span></p></li>
+<li><p>🔁 <strong>Annuitet (endelig horisont):</strong><br>
+<span class="math display">\[
+ACF = CF \cdot \frac{(1 + k)^T -1}{k \cdot (1 + k)^T} = CF \cdot \frac{1- \left(\frac{1}{1 +k}\right)^T}{k} = CF \cdot A_{k,T}
+\]</span></p></li>
+<li><p>♾️ <strong>Annuitet (uendelig horisont):</strong><br>
+<span class="math display">\[
+ACF =  \frac{CF}{k}
+\]</span></p></li>
+<li><p>🔢 <strong>Fordeling av et beløp til annuitet:</strong></p></li>
+</ul>
+<p><span class="math display">\[
+CF_0 \cdot \frac{k\cdot (1 + k)^T}{(1 + k)^T - 1} = CF_{0} \cdot \frac{k}{1-\left(\frac{1}{1 + k}\right)^T} = CF_{0} \cdot A_{k,T}^{-1}
+\]</span></p>
+<ul>
+<li><p>📈 <strong>Vekstrekke (endelig horisont):</strong><br>
+<span class="math display">\[
+PV = CF_1 \cdot \frac{1 - \left( \frac{1 + g}{1 + k} \right)^T}{k - g}, \quad \text{for } k \neq g
+\]</span></p></li>
+<li><p>📈 <strong>Vekstrekke (uendelig horisont):</strong><br>
+<span class="math display">\[
+PV = \frac{CF_1}{k - g}, \quad \text{for } g &lt; k
+\]</span></p></li>
+</ul>
+</section>
+<section id="nåverdimetoder" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="nåverdimetoder"><span class="header-section-number">2</span> Nåverdimetoder</h2>
+<ul>
+<li><p>🧮 <strong>Netto nåverdi (NPV):</strong><br>
+<span class="math display">\[
+NPV = - I_0 + \sum_{t = 1}^{T} \frac{CF_t}{(1 + k)^t}
+\]</span></p></li>
+<li><p>🧮 <strong>Internrente (IRR):</strong><br>
+<span class="math display">\[
+0 = \sum_{t = 1}^{T} \frac{CF_t}{(1 + y)^t} - I_0
+\]</span></p></li>
+<li><p>🔁 <strong>Annuitetsmetoden:</strong><br>
+<span class="math display">\[
+CF - I_{0} \cdot A_{k,T}^{-1} = NPV \cdot A_{k,T}^{-1}
+\]</span></p></li>
+<li><p>📊 <strong>Nåverdiindeks (PVI):</strong><br>
+<span class="math display">\[
+PVI = \frac{NPV}{I_0}
+\]</span></p></li>
+<li><p>⏱️ <strong>Payback uten renter:</strong><br>
+<span class="math display">\[
+PB = \frac{I_0}{CF}
+\]</span></p></li>
+<li><p>⏱️ <strong>Payback med renter (annuitet):</strong><br>
+<span class="math display">\[
+0 = -I_0 + CF \cdot A_{k, PB}
+\]</span></p></li>
+</ul>
+</section>
+<section id="skatt-og-avskrivninger" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="skatt-og-avskrivninger"><span class="header-section-number">3</span> Skatt og avskrivninger</h2>
+<ul>
+<li><p>🧾 <strong>Effektiv skattesats:</strong><br>
+<span class="math display">\[
+s_{\text{Eff}} = \frac{y - y^s}{y}
+\]</span></p></li>
+<li><p>📉 <strong>Saldoavskrivningsbeløp:</strong><br>
+<span class="math display">\[
+AV_t = I_0 \cdot (1 - a)^{t - 1} \cdot a
+\]</span></p></li>
+<li><p>📒 <strong>Bokført restverdi:</strong><br>
+<span class="math display">\[
+B_t = I_0 \cdot (1 - a)^t
+\]</span></p></li>
+<li><p>🪙 <strong>Skattefordel av avskrivninger:</strong><br>
+<span class="math display">\[
+PV_s = s \cdot \frac{I_0 \cdot a}{k^s + a} = s \cdot \frac{AV_1}{k^s + a}
+\]</span></p></li>
+<li><p>🏁 <strong>Utrangering (nåverdi av sluttverdi med skatt):</strong><br>
+<span class="math display">\[
+PV_T = \frac{S_T}{(1 + k^s)^T} - s \cdot \frac{(S_T - B_T) \cdot a}{(1 + k^s)^T \cdot (k^s + a)}
+\]</span></p></li>
+</ul>
+</section>
+<section id="renteregning" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="renteregning"><span class="header-section-number">4</span> Renteregning</h2>
+<ul>
+<li><p>🔄 <strong>Fra nominell til reell rente:</strong><br>
+<span class="math display">\[
+k_R = \frac{k_N - i}{1 + i}
+\]</span></p></li>
+<li><p>🔄 <strong>Fra reell til nominell rente:</strong><br>
+<span class="math display">\[
+k_N = k_R \cdot (1 + i) + i
+\]</span></p></li>
+<li><p>💸 <strong>Fra nominell lånerente før skatt til reell lånerente etter skatt:</strong><br>
+<span class="math display">\[
+y_R^s = \frac{y_N \cdot (1-s) -i}{1+i}
+\]</span></p></li>
+<li><p>🧮 <strong>Fra delperioderente til effektiv rente:</strong><br>
+<span class="math display">\[
+p = (1 + q)^m - 1
+\]</span></p></li>
+<li><p>🧮 <strong>Fra effektiv rente til delperioderente:</strong><br>
+<span class="math display">\[
+q = (1 + p)^{1/m} - 1
+\]</span></p></li>
+<li><p>↩︎️ <strong>Fra forskuddsrente til etterskuddsrente:</strong><br>
+<span class="math display">\[
+q_e = \frac{q_f}{1 - q_f}
+\]</span></p></li>
+<li><p>↪️ <strong>Fra etterskuddsrente til forskuddsrente:</strong><br>
+<span class="math display">\[
+q_f = \frac{q_e}{1 + q_e}
+\]</span></p></li>
+</ul>
+</section>
+<section id="porteføljeteori-og-risiko" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="porteføljeteori-og-risiko"><span class="header-section-number">5</span> Porteføljeteori og risiko</h2>
+<ul>
+<li><p>📈 <strong>Forventet avkastning, enkeltaktivum:</strong><br>
+<span class="math display">\[
+E(r_i) = \sum_{j = 1}^{n} p_j \cdot r_{ij}
+\]</span></p></li>
+<li><p>📉 <strong>Varians, enkeltaktivum:</strong><br>
+<span class="math display">\[
+\sigma_i^2 = \sum_{j = 1}^{n} p_j \cdot \left[ r_{ij} - E(r_i) \right]^2
+\]</span></p></li>
+<li><p>📉 <strong>Standardavvik, enkeltaktivum:</strong><br>
+<span class="math display">\[
+\sigma_i = \sqrt{\sigma_i^2}
+\]</span></p></li>
+<li><p>🧮 <strong>Forventet avkastning, portefølje to aktiva:</strong><br>
+<span class="math display">\[
+E(r_p) = w_1 \cdot E(r_1) + (1 - w_1) \cdot E(r_2)
+\]</span></p></li>
+<li><p>🧮 <strong>Varians, portefølje med to aktiva:</strong><br>
+<span class="math display">\[
+\sigma_p^2 = w_1^2 \cdot \sigma_1^2 + (1 - w_1)^2 \cdot \sigma_2^2 + 2 \cdot w_1 \cdot (1 - w_1) \cdot \sigma_{12}
+\]</span></p></li>
+<li><p>🔗 <strong>Kovarians mellom to aktiva (korrelasjonsformel):</strong><br>
+<span class="math display">\[
+\sigma_{12} = \rho_{12} \cdot \sigma_1 \cdot \sigma_2
+\]</span></p></li>
+<li><p>🔗 <strong>Kovarians mellom to aktiva (diskret fordeling):</strong><br>
+<span class="math display">\[
+\sigma_{12} = \sum_{j = 1}^{n} p_j \cdot \left[ r_{1j} - E(r_1) \right] \cdot \left[ r_{2j} - E(r_2) \right]
+\]</span></p></li>
+<li><p>🎯 <strong>Minimumsvariansportefølje – andel i aktivum 1:</strong><br>
+<span class="math display">\[
+w_1^* = \frac{\sigma_2^2 - \sigma_{12}}{\sigma_1^2 + \sigma_2^2 - 2\sigma_{12}}
+\]</span></p></li>
+<li><p>📊 <strong>Forventet avkastning, portefølje med N aktiva:</strong><br>
+<span class="math display">\[
+E(r_p) = \sum_{i = 1}^{N} w_i \cdot E(r_i)
+\]</span></p></li>
+<li><p>📊 <strong>Varians, portefølje med N aktiva:</strong><br>
+<span class="math display">\[
+\sigma_p^2 = \sum_{i = 1}^{N} \sum_{j = 1}^{N} w_i \cdot w_j \cdot \sigma_{ij}
+\]</span></p></li>
+<li><p>💡 <strong>Kapitalmarkedslinjen (CML):</strong><br>
+<span class="math display">\[
+E(r_P) = r_f + \frac{E(r_M) - r_f}{\sigma_M} \cdot \sigma_P
+\]</span></p></li>
+</ul>
+</section>
+<section id="kapitalverdimodellen" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="kapitalverdimodellen"><span class="header-section-number">6</span> Kapitalverdimodellen</h2>
+<ul>
+<li><p>📐 <strong>CAPM (grunnform):</strong><br>
+<span class="math display">\[
+E(r_i) = r_f + \beta_i \cdot \left[ E(r_M) - r_f \right]
+\]</span></p></li>
+<li><p>📐 <strong>CAPM (skattejustert):</strong><br>
+<span class="math display">\[
+E(r_i) = r_f \cdot (1-s) + \beta_i \cdot \left[ E(r_M) - r_f \cdot (1 - s) \right]
+\]</span></p></li>
+<li><p>🧭 <strong>Beta:</strong><br>
+<span class="math display">\[
+\beta_i = \frac{\sigma_{iM}}{\sigma_M^2} = \rho_{iM} \cdot \frac{\sigma_i}{\sigma_M}
+\]</span></p></li>
+<li><p>✳️ <strong>Alfa:</strong><br>
+<span class="math display">\[
+\alpha_i = E(r_i) - \left[ r_f + \beta_i \cdot \left( E(r_M) - r_f \right) \right]
+\]</span></p></li>
+<li><p>📉 <strong>Variansdekomponering:</strong><br>
+<span class="math display">\[
+\sigma_i^2 = \beta_i^2 \cdot \sigma_M^2 + \sigma_{\varepsilon i}^2
+\]</span></p></li>
+</ul>
+</section>
+<section id="verdsettelse" class="level2" data-number="7">
+<h2 data-number="7" class="anchored" data-anchor-id="verdsettelse"><span class="header-section-number">7</span> Verdsettelse</h2>
+<ul>
+<li><p>💸 <strong>Dividendemodellen (generell):</strong><br>
+<span class="math display">\[
+P_0 = \sum_{t = 1}^{T} \frac{DIV_t}{(1 + k_E)^t} + \frac{P_T}{(1+k_E)^T}
+\]</span></p></li>
+<li><p>💸 <strong>Dividendemodellen (nullvekst):</strong><br>
+<span class="math display">\[
+P_0 = \frac{DIV_1}{k_E}
+\]</span></p></li>
+<li><p>💸 <strong>Dividendemodellen (evigvarende konstant vekst):</strong><br>
+<span class="math display">\[
+P_0 = \frac{DIV_1}{k_E - g}, \quad \text{for } g &lt; k_E
+\]</span></p></li>
+<li><p>🌱 <strong>Vekst (intern generert):</strong><br>
+<span class="math display">\[
+g = R_E \cdot b
+\]</span></p></li>
+<li><p>🧮 <strong>Pris/Fortjeneste-modellen (P/E):</strong><br>
+<span class="math display">\[
+P/E \triangleq \frac{P_0}{EPS_1} = \frac{d}{k_E - g}
+\]</span></p></li>
+<li><p>🎯 <strong>Vekstmuligheter (PVGO):</strong><br>
+<span class="math display">\[
+P_0 = \frac{EPS_1}{k_E} + PVGO
+\]</span></p></li>
+</ul>
+</section>
+<section id="kapitalstruktur-og-vektstang" class="level2" data-number="8">
+<h2 data-number="8" class="anchored" data-anchor-id="kapitalstruktur-og-vektstang"><span class="header-section-number">8</span> Kapitalstruktur og vektstang</h2>
+<ul>
+<li><p>⚖️ <strong>Vektstangsformel – rentabilitet EK:</strong><br>
+<span class="math display">\[
+R_E = R_T + \frac{G}{E} \cdot (R_T - k_G)
+\]</span></p></li>
+<li><p>⚖️ <strong>Vektstangsformel – risiko på egenkapital (standardavvik):</strong><br>
+<span class="math display">\[
+\sigma_{R_E} = \sigma_{R_T} \cdot \left( 1 + \frac{G}{E} \right)
+\]</span></p></li>
+<li><p>⚖️ <strong>Vektstangsformel – før skatt:</strong><br>
+<span class="math display">\[
+k_T = \frac{E}{E + G} \cdot k_E + \frac{G}{E + G} \cdot k_G
+\]</span></p></li>
+<li><p>⚖️ <strong>Vektstangsformel – etter skatt:</strong><br>
+<span class="math display">\[
+k_T^s = \frac{E}{E + G} \cdot k_E + \frac{G}{E + G} \cdot k_G \cdot (1 - s)
+\]</span></p></li>
+<li><p>⚖️ <strong>Vektstangsformel – krav egenkapital:</strong><br>
+<span class="math display">\[
+k_E = k_T + \frac{G}{E} \cdot (k_T - k_G)
+\]</span></p></li>
+<li><p>🧮 <strong>Beta for totalkapital:</strong><br>
+<span class="math display">\[
+\beta_T = \frac{E}{E + G} \cdot \beta_E + \frac{G}{E + G} \cdot \beta_G
+\]</span></p></li>
+<li><p>🧮 <strong>Beta for egenkapital (dersom } <span class="math inline">\(\beta_G = 0\)</span>):</strong><br>
+<span class="math display">\[
+\beta_E = \beta_T \cdot \left( 1 + \frac{G}{E} \right)
+\]</span></p></li>
+<li><p>💸 <strong>Årlig skattefordel ved gjeld pr. krone:</strong><br>
+<span class="math display">\[
+\text{Skattefordel} =  (1 - s_K) - (1 - s_{B}) \cdot (1 - s_{Ed})
+\]</span></p></li>
+<li><p>💸 <strong>Årlig skattefordel ved dividende pr. krone:</strong><br>
+<span class="math display">\[
+\text{Skattefordel} = (1 - s_{B}) \cdot (s_{Eg} - s_{Ed})
+\]</span></p></li>
+</ul>
+</section>
+<section id="obligasjoner-og-durasjon" class="level2" data-number="9">
+<h2 data-number="9" class="anchored" data-anchor-id="obligasjoner-og-durasjon"><span class="header-section-number">9</span> Obligasjoner og durasjon</h2>
+<ul>
+<li><p>💵 <strong>Obligasjonspris (standardformel):</strong><br>
+<span class="math display">\[
+P_0 = \sum_{t = 1}^{T} \frac{c}{(1 + y)^t} + \frac{\text{Pålydende}}{(1 + y)^T}
+\]</span></p></li>
+<li><p>💵 <strong>Obligasjonspris (med konstant kupong og helt antall år til forfall):</strong><br>
+<span class="math display">\[
+P_0 = \frac{c}{y} \cdot \left[1 - \frac{1}{(1+y)^T}\right] + \frac{\text{Pålydende}}{(1+y)^T} = c \cdot A_{y,T} + \frac{\text{Pålydende}}{(1+y)^T}
+\]</span></p></li>
+<li><p>🕓 <strong>Sertifikatpris:</strong><br>
+<span class="math display">\[
+P_0 = \frac{P_1}{1 + r \cdot \frac{d}{365}} \quad \quad P_0 = \frac{P_1}{(1 + y)^{\frac{d}{365}}}
+\]</span></p></li>
+<li><p>⏳ <strong>Terminrente mellom t−1 og t:</strong><br>
+<span class="math display">\[
+f_{t-1,t} = \frac{(1 + r_t)^t}{(1 + r_{t-1})^{t-1}} - 1
+\]</span></p></li>
+<li><p>📏 <strong>Durasjon:</strong><br>
+<span class="math display">\[
+D = \frac{1}{P_0} \cdot \sum_{t = 1}^{T} t \cdot \frac{CF_t}{(1 + y)^t}
+\]</span></p></li>
+<li><p>📏 <strong>Justert durasjon (modifisert):</strong><br>
+<span class="math display">\[
+D^* = \frac{-D}{1 + y}
+\]</span></p></li>
+<li><p>📉 <strong>Durasjonsbasert prisendring:</strong><br>
+<span class="math display">\[
+\frac{\Delta P}{P} =  \frac{-D}{1 + y} \cdot \Delta y = D^* \cdot \Delta y
+\]</span></p></li>
+</ul>
+</section>
+<section id="opsjoner-og-derivater" class="level2" data-number="10">
+<h2 data-number="10" class="anchored" data-anchor-id="opsjoner-og-derivater"><span class="header-section-number">10</span> Opsjoner og derivater</h2>
+<ul>
+<li><p>🧮 <strong>Black-Scholes (kjøpsopsjon):</strong><br>
+<span class="math display">\[
+C = S_0 \cdot N(d_1) - K \cdot e^{-r_f \cdot T} \cdot N(d_2)
+\]</span></p></li>
+<li><p>🧮 <strong>Parametere i Black-Scholes:</strong><br>
+<span class="math display">\[
+d_1 = \frac{\ln \left( \frac{S_0}{K} \right) + r_f \cdot T}{\sigma \sqrt{T}} + \frac{1}{2} \cdot \sigma \cdot \sqrt{T}, \quad
+d_2 = d_1 - \sigma \sqrt{T}
+\]</span></p></li>
+<li><p>🔁 <strong>Put-call paritet:</strong><br>
+<span class="math display">\[
+C_0 - P_0 = S_0 - PV(K)
+\]</span></p></li>
+<li><p>🏷️ <strong>Lagringskostnadshypotesen (generell form):</strong><br>
+<span class="math display">\[
+F_T = S_0 \cdot (1 + c \cdot T)
+\]</span></p></li>
+<li><p>🏷️ <strong>Lagringskostnadshypotesen (aksjer med utbytte):</strong><br>
+<span class="math display">\[
+F_T = S_0 \cdot \left[1 + (r_f - \text{div}) \cdot T\right]
+\]</span></p></li>
+<li><p>🔮 <strong>Forventningshypotesen (terminpriser):</strong><br>
+<span class="math display">\[
+F_T = E(S_T)
+\]</span></p></li>
+</ul>
+</section>
+<section id="internasjonal-finans" class="level2" data-number="11">
+<h2 data-number="11" class="anchored" data-anchor-id="internasjonal-finans"><span class="header-section-number">11</span> Internasjonal finans</h2>
+<ul>
+<li><p>🌍 <strong>Relativ kjøpekraftsparitet (PPP):</strong><br>
+<span class="math display">\[
+\frac{E(s_{\text{UTL/NOK}})}{s_{\text{UTL/NOK}}} = \frac{1 + i_{\text{NOK}}}{1 + i_{\text{UTL}}}
+\]</span></p></li>
+<li><p>🔄 <strong>Dekket renteparitet (CIP):</strong><br>
+<span class="math display">\[
+\frac{1 + r_{\text{NOK}}}{1 + r_{\text{UTL}}} = \frac{f_{\text{UTL/NOK}}}{s_{\text{UTL/NOK}}}
+\]</span></p></li>
+<li><p>🔁 <strong>Udekket renteparitet (UIP):</strong><br>
+<span class="math display">\[
+\frac{1 + r_{\text{NOK}}}{1 + r_{\text{UTL}}} = \frac{E(s_{\text{UTL/NOK}})}{s_{\text{UTL/NOK}}}
+\]</span></p></li>
+<li><p>🔮 <strong>Fishereffekten (to valutaer):</strong><br>
+<span class="math display">\[
+\frac{1 + r_{\text{NOK}}}{1 + r_{\text{UTL}}} = \frac{E(1 + i_{\text{NOK}})}{E(1 + i_{\text{UTL}})}
+\]</span></p></li>
+<li><p>🔮 <strong>Forventningshypotesen (valuta):</strong><br>
+<span class="math display">\[
+\frac{f_{\text{UTL/NOK}}}{s_{\text{UTL/NOK}}} = \frac{E(s_{\text{UTL/NOK}})}{s_{\text{UTL/NOK}}} \Rightarrow f_{\text{UTL/NOK}} = E(s_{\text{UTL/NOK}})
+\]</span></p></li>
+<li><p>🌐 <strong>Avkastningskrav ved utenlandske investeringer:</strong><br>
+<span class="math display">\[
+1 + k_{\text{NOK}} = (1 + k_{\text{UTL}}) \cdot \frac{1 + r_{\text{NOK}}}{1 + r_{\text{UTL}}}
+\]</span></p></li>
+<li><p>🌐 <strong>Lånekostnad ved utenlandske lån:</strong><br>
+<span class="math display">\[
+\frac{s_{\text{UTL/NOK,1}}}{s_{\text{UTL/NOK,0}}} \cdot (1 + r_{\text{UTL}}) - 1
+\]</span></p></li>
+</ul>
 
 
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
