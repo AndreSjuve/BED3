@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.7.32">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -36,10 +36,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a2252a989a10fba7a63283f0911f8502.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-cd3c3c50ced85efdeddd2b76e2b90705.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -209,6 +209,10 @@ window.Quarto = {
 </header>
 
 
+<blockquote class="blockquote">
+<p>📄 <strong>PDF-versjon:</strong><br>
+<a href="assets/formelark-print.pdf" class="btn btn-primary" target="_blank">Klikk her for å laste ned formelarket som PDF</a></p>
+</blockquote>
 <section id="tidens-verdi" class="level2" data-number="1">
 <h2 data-number="1" class="anchored" data-anchor-id="tidens-verdi"><span class="header-section-number">1</span> Tidens verdi</h2>
 <ul>
@@ -228,12 +232,9 @@ ACF = CF \cdot \frac{(1 + k)^T -1}{k \cdot (1 + k)^T} = CF \cdot \frac{1- \left(
 <span class="math display">\[
 ACF =  \frac{CF}{k}
 \]</span></p></li>
-<li><p>🔢 <strong>Fordeling av et beløp til annuitet:</strong></p></li>
-</ul>
-<p><span class="math display">\[
+<li><p>🔢 <strong>Fordeling av et beløp til annuitet:</strong> <span class="math display">\[
 CF_0 \cdot \frac{k\cdot (1 + k)^T}{(1 + k)^T - 1} = CF_{0} \cdot \frac{k}{1-\left(\frac{1}{1 + k}\right)^T} = CF_{0} \cdot A_{k,T}^{-1}
-\]</span></p>
-<ul>
+\]</span></p></li>
 <li><p>📈 <strong>Vekstrekke (endelig horisont):</strong><br>
 <span class="math display">\[
 PV = CF_1 \cdot \frac{1 - \left( \frac{1 + g}{1 + k} \right)^T}{k - g}, \quad \text{for } k \neq g
@@ -461,7 +462,7 @@ k_E = k_T + \frac{G}{E} \cdot (k_T - k_G)
 <span class="math display">\[
 \beta_T = \frac{E}{E + G} \cdot \beta_E + \frac{G}{E + G} \cdot \beta_G
 \]</span></p></li>
-<li><p>🧮 <strong>Beta for egenkapital (dersom } <span class="math inline">\(\beta_G = 0\)</span>):</strong><br>
+<li><p>🧮 <strong>Beta for egenkapital (dersom <span class="math inline">\(\beta_G = 0\)</span>):</strong><br>
 <span class="math display">\[
 \beta_E = \beta_T \cdot \left( 1 + \frac{G}{E} \right)
 \]</span></p></li>
@@ -517,8 +518,7 @@ C = S_0 \cdot N(d_1) - K \cdot e^{-r_f \cdot T} \cdot N(d_2)
 \]</span></p></li>
 <li><p>🧮 <strong>Parametere i Black-Scholes:</strong><br>
 <span class="math display">\[
-d_1 = \frac{\ln \left( \frac{S_0}{K} \right) + r_f \cdot T}{\sigma \sqrt{T}} + \frac{1}{2} \cdot \sigma \cdot \sqrt{T}, \quad
-d_2 = d_1 - \sigma \sqrt{T}
+d_1 = \frac{\ln \left( \frac{S_0}{K} \right) + r_f \cdot T}{\sigma \sqrt{T}} + \frac{1}{2} \cdot \sigma \cdot \sqrt{T}, \quad_2 = d_1 - \sigma \sqrt{T}
 \]</span></p></li>
 <li><p>🔁 <strong>Put-call paritet:</strong><br>
 <span class="math display">\[

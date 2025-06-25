@@ -40,7 +40,14 @@
     "href": "index.html#hva-lærer-du-i-dette-kurset",
     "title": "Investering og finans",
     "section": "Hva lærer du i dette kurset?",
-    "text": "Hva lærer du i dette kurset?\n\nVurdere lønnsomhet og risiko i investeringsprosjekter\nAnvende metoder som nåverdi, internrente og beslutningstreanalyse\nForstå sammenhengen mellom kontantstrøm og kapitalkostnad\nAnalysere verdipapirer og porteføljer\nTa stilling til finansieringsvalg, kapitalstruktur og utbyttepolitikk\nReflektere over etiske dilemmaer i finansielle beslutninger"
+    "text": "Hva lærer du i dette kurset?\nI dette kurset lærer du å:\n\nVurdere lønnsomhet, risiko og finansiering av investeringer\n\nForstå hvordan kapitalmarkeder fungerer og verdipapirer prises\n\nAnvende sentrale modeller innen investering og finans\n\nAnalysere bærekraftige investeringer og ESG-ratinger\n\nHåndtere risiko med derivater og andre finansielle instrumenter\n\nForeta økonomiske vurderinger i en internasjonal kontekst (valuta og utenlandske investeringer)\n\nReflektere over etiske dilemmaer i finansielle beslutninger\n\nKommunisere finansielle vurderinger klart og profesjonelt"
+  },
+  {
+    "objectID": "index.html#hvordan-skal-du-lære-dette",
+    "href": "index.html#hvordan-skal-du-lære-dette",
+    "title": "Investering og finans",
+    "section": "Hvordan skal du lære dette?",
+    "text": "Hvordan skal du lære dette?\nFor å lykkes i dette kurset er kombinasjonen av arbeid med pensumlitteratur, forelesninger og oppgavetrening de tre sentrale pillarene som danner grunnlaget for læringen. Se Om kurset for detaljer.\nPensumlitteratur, forelesninger og oppgavene dekker en rekke teamer, som overordnet kan organiseres under følgende overskrifter:\n\nInvesteringsanalyse\nPorteføljeteori og kapitalmarkedsteori\nKapitalstruktur og utbyttepolitikk\nDerivater og risikostyring\n\nFor en detaljert oversikt, se Forelesningsplanen."
   },
   {
     "objectID": "index.html#emneansvarlig",
@@ -50,18 +57,11 @@
     "text": "Emneansvarlig\n\n\n\n\n\nFrode Sættem\nProfessor\nHovedemneansvarlig\n frode.saettem@nhh.no\n\n\n\n\n\nAndré Wattø Sjuve\nAssistant Professor\nForeleser\n andre.sjuve@nhh.no\n\n\n\n\n\nAndreas Ørpetveit\nAssistant Professor\nForeleser\n andreas.orpetveit@nhh.no"
   },
   {
-    "objectID": "index.html#kursinnhold-og-progresjon-midlertidig",
-    "href": "index.html#kursinnhold-og-progresjon-midlertidig",
-    "title": "Investering og finans",
-    "section": "Kursinnhold og progresjon (midlertidig)",
-    "text": "Kursinnhold og progresjon (midlertidig)\n\n\n\nUke\nTema\n\n\n\n\n1\nIntroduksjon og investeringsanalyse\n\n\n2–3\nKontantstrøm og kapitalkostnad\n\n\n4\nProsjektusikkerhet og beslutningsverktøy\n\n\n5–6\nPorteføljeteori og verdipapirprising\n\n\n7–8\nDerivater og risikostyring\n\n\n9\nKapitalstruktur og utbyttepolitikk\n\n\n10\nEtiske perspektiver og repetisjon"
-  },
-  {
     "objectID": "index.html#praktisk-informasjon",
     "href": "index.html#praktisk-informasjon",
     "title": "Investering og finans",
     "section": "Praktisk informasjon",
-    "text": "Praktisk informasjon\n\nForelesninger: Tirsdager kl 12:15-14:00 og fredager, kl. 10:15–12:00 (Aud. Max)\nUndervisningsform: Forelesninger, case og gruppearbeid\nVurdering: Skriftlig skoleeksamen\n\nKrav: Kurset er obligatorisk for bachelorstudenter i økonomi og administrasjon\n\nLenke til emnebeskrivelse på nhh.no"
+    "text": "Praktisk informasjon\n\nForelesninger: Tirsdager kl 12:15-14:00 og fredager, kl. 10:15–12:00 (Aud. Max)\nUndervisningsform: Forelesninger, case og gruppearbeid\nVurdering: Skriftlig skoleeksamen\n\nKrav: Kurset er obligatorisk for bachelorstudenter i økonomi og administrasjon"
   },
   {
     "objectID": "index.html#hvordan-bruke-denne-siden",
@@ -82,7 +82,7 @@
     "href": "index.html#vanlige-spørsmål",
     "title": "Investering og finans",
     "section": "Vanlige spørsmål",
-    "text": "Vanlige spørsmål\nEr formelarket vedlagt eksamen? Ja, formelarket får dere utlevert sammen med eksamensoppgaven.\nMå jeg kunne programmering?\nNei, det er ikke nødvendig. Enkel bruk av Excel inngår.\nEr det gruppearbeid?\nJa, deler av kurset, spesifikt kursgodkjenning, er organisert rundt et gruppebasert case.\nKan jeg bruke kalkulator på eksamen?\nJa, godkjente kalkulatorer er tillatt. Se eksamensregler for detaljer."
+    "text": "Vanlige spørsmål\nEr formelarket vedlagt eksamen?\nJa, formelarket får dere utlevert sammen med eksamensoppgaven.\nMå jeg kunne programmering?\nNei, det er ikke nødvendig. Enkel bruk av Excel inngår.\nEr det gruppearbeid?\nJa, deler av kurset, spesifikt kursgodkjenning, er organisert rundt et gruppebasert case.\nKan jeg bruke kalkulator på eksamen?\nJa, godkjente kalkulatorer er tillatt. Se eksamensregler for detaljer."
   },
   {
     "objectID": "gruppeovinger/gruppeoving-1.html",
@@ -111,14 +111,14 @@
     "href": "formelark.html",
     "title": "Formelark",
     "section": "",
-    "text": "📈 Fremtidsverdi av ett beløp:\n\\[\nFV = CF_0 \\cdot (1 + k)^T\n\\]\n💰 Nåverdi av ett beløp:\n\\[\nPV = \\frac{CF_T}{(1 + k)^T}\n\\]\n🔁 Annuitet (endelig horisont):\n\\[\nACF = CF \\cdot \\frac{(1 + k)^T -1}{k \\cdot (1 + k)^T} = CF \\cdot \\frac{1- \\left(\\frac{1}{1 +k}\\right)^T}{k} = CF \\cdot A_{k,T}\n\\]\n♾️ Annuitet (uendelig horisont):\n\\[\nACF =  \\frac{CF}{k}\n\\]\n🔢 Fordeling av et beløp til annuitet:\n\n\\[\nCF_0 \\cdot \\frac{k\\cdot (1 + k)^T}{(1 + k)^T - 1} = CF_{0} \\cdot \\frac{k}{1-\\left(\\frac{1}{1 + k}\\right)^T} = CF_{0} \\cdot A_{k,T}^{-1}\n\\]\n\n📈 Vekstrekke (endelig horisont):\n\\[\nPV = CF_1 \\cdot \\frac{1 - \\left( \\frac{1 + g}{1 + k} \\right)^T}{k - g}, \\quad \\text{for } k \\neq g\n\\]\n📈 Vekstrekke (uendelig horisont):\n\\[\nPV = \\frac{CF_1}{k - g}, \\quad \\text{for } g &lt; k\n\\]"
+    "text": "📄 PDF-versjon:\nKlikk her for å laste ned formelarket som PDF"
   },
   {
     "objectID": "formelark.html#tidens-verdi",
     "href": "formelark.html#tidens-verdi",
     "title": "Formelark",
-    "section": "",
-    "text": "📈 Fremtidsverdi av ett beløp:\n\\[\nFV = CF_0 \\cdot (1 + k)^T\n\\]\n💰 Nåverdi av ett beløp:\n\\[\nPV = \\frac{CF_T}{(1 + k)^T}\n\\]\n🔁 Annuitet (endelig horisont):\n\\[\nACF = CF \\cdot \\frac{(1 + k)^T -1}{k \\cdot (1 + k)^T} = CF \\cdot \\frac{1- \\left(\\frac{1}{1 +k}\\right)^T}{k} = CF \\cdot A_{k,T}\n\\]\n♾️ Annuitet (uendelig horisont):\n\\[\nACF =  \\frac{CF}{k}\n\\]\n🔢 Fordeling av et beløp til annuitet:\n\n\\[\nCF_0 \\cdot \\frac{k\\cdot (1 + k)^T}{(1 + k)^T - 1} = CF_{0} \\cdot \\frac{k}{1-\\left(\\frac{1}{1 + k}\\right)^T} = CF_{0} \\cdot A_{k,T}^{-1}\n\\]\n\n📈 Vekstrekke (endelig horisont):\n\\[\nPV = CF_1 \\cdot \\frac{1 - \\left( \\frac{1 + g}{1 + k} \\right)^T}{k - g}, \\quad \\text{for } k \\neq g\n\\]\n📈 Vekstrekke (uendelig horisont):\n\\[\nPV = \\frac{CF_1}{k - g}, \\quad \\text{for } g &lt; k\n\\]"
+    "section": "1 Tidens verdi",
+    "text": "1 Tidens verdi\n\n📈 Fremtidsverdi av ett beløp:\n\\[\nFV = CF_0 \\cdot (1 + k)^T\n\\]\n💰 Nåverdi av ett beløp:\n\\[\nPV = \\frac{CF_T}{(1 + k)^T}\n\\]\n🔁 Annuitet (endelig horisont):\n\\[\nACF = CF \\cdot \\frac{(1 + k)^T -1}{k \\cdot (1 + k)^T} = CF \\cdot \\frac{1- \\left(\\frac{1}{1 +k}\\right)^T}{k} = CF \\cdot A_{k,T}\n\\]\n♾️ Annuitet (uendelig horisont):\n\\[\nACF =  \\frac{CF}{k}\n\\]\n🔢 Fordeling av et beløp til annuitet: \\[\nCF_0 \\cdot \\frac{k\\cdot (1 + k)^T}{(1 + k)^T - 1} = CF_{0} \\cdot \\frac{k}{1-\\left(\\frac{1}{1 + k}\\right)^T} = CF_{0} \\cdot A_{k,T}^{-1}\n\\]\n📈 Vekstrekke (endelig horisont):\n\\[\nPV = CF_1 \\cdot \\frac{1 - \\left( \\frac{1 + g}{1 + k} \\right)^T}{k - g}, \\quad \\text{for } k \\neq g\n\\]\n📈 Vekstrekke (uendelig horisont):\n\\[\nPV = \\frac{CF_1}{k - g}, \\quad \\text{for } g &lt; k\n\\]"
   },
   {
     "objectID": "formelark.html#nåverdimetoder",
@@ -167,7 +167,7 @@
     "href": "formelark.html#kapitalstruktur-og-vektstang",
     "title": "Formelark",
     "section": "8 Kapitalstruktur og vektstang",
-    "text": "8 Kapitalstruktur og vektstang\n\n⚖️ Vektstangsformel – rentabilitet EK:\n\\[\nR_E = R_T + \\frac{G}{E} \\cdot (R_T - k_G)\n\\]\n⚖️ Vektstangsformel – risiko på egenkapital (standardavvik):\n\\[\n\\sigma_{R_E} = \\sigma_{R_T} \\cdot \\left( 1 + \\frac{G}{E} \\right)\n\\]\n⚖️ Vektstangsformel – før skatt:\n\\[\nk_T = \\frac{E}{E + G} \\cdot k_E + \\frac{G}{E + G} \\cdot k_G\n\\]\n⚖️ Vektstangsformel – etter skatt:\n\\[\nk_T^s = \\frac{E}{E + G} \\cdot k_E + \\frac{G}{E + G} \\cdot k_G \\cdot (1 - s)\n\\]\n⚖️ Vektstangsformel – krav egenkapital:\n\\[\nk_E = k_T + \\frac{G}{E} \\cdot (k_T - k_G)\n\\]\n🧮 Beta for totalkapital:\n\\[\n\\beta_T = \\frac{E}{E + G} \\cdot \\beta_E + \\frac{G}{E + G} \\cdot \\beta_G\n\\]\n🧮 Beta for egenkapital (dersom } \\(\\beta_G = 0\\)):\n\\[\n\\beta_E = \\beta_T \\cdot \\left( 1 + \\frac{G}{E} \\right)\n\\]\n💸 Årlig skattefordel ved gjeld pr. krone:\n\\[\n\\text{Skattefordel} =  (1 - s_K) - (1 - s_{B}) \\cdot (1 - s_{Ed})\n\\]\n💸 Årlig skattefordel ved dividende pr. krone:\n\\[\n\\text{Skattefordel} = (1 - s_{B}) \\cdot (s_{Eg} - s_{Ed})\n\\]"
+    "text": "8 Kapitalstruktur og vektstang\n\n⚖️ Vektstangsformel – rentabilitet EK:\n\\[\nR_E = R_T + \\frac{G}{E} \\cdot (R_T - k_G)\n\\]\n⚖️ Vektstangsformel – risiko på egenkapital (standardavvik):\n\\[\n\\sigma_{R_E} = \\sigma_{R_T} \\cdot \\left( 1 + \\frac{G}{E} \\right)\n\\]\n⚖️ Vektstangsformel – før skatt:\n\\[\nk_T = \\frac{E}{E + G} \\cdot k_E + \\frac{G}{E + G} \\cdot k_G\n\\]\n⚖️ Vektstangsformel – etter skatt:\n\\[\nk_T^s = \\frac{E}{E + G} \\cdot k_E + \\frac{G}{E + G} \\cdot k_G \\cdot (1 - s)\n\\]\n⚖️ Vektstangsformel – krav egenkapital:\n\\[\nk_E = k_T + \\frac{G}{E} \\cdot (k_T - k_G)\n\\]\n🧮 Beta for totalkapital:\n\\[\n\\beta_T = \\frac{E}{E + G} \\cdot \\beta_E + \\frac{G}{E + G} \\cdot \\beta_G\n\\]\n🧮 Beta for egenkapital (dersom \\(\\beta_G = 0\\)):\n\\[\n\\beta_E = \\beta_T \\cdot \\left( 1 + \\frac{G}{E} \\right)\n\\]\n💸 Årlig skattefordel ved gjeld pr. krone:\n\\[\n\\text{Skattefordel} =  (1 - s_K) - (1 - s_{B}) \\cdot (1 - s_{Ed})\n\\]\n💸 Årlig skattefordel ved dividende pr. krone:\n\\[\n\\text{Skattefordel} = (1 - s_{B}) \\cdot (s_{Eg} - s_{Ed})\n\\]"
   },
   {
     "objectID": "formelark.html#obligasjoner-og-durasjon",
@@ -181,7 +181,7 @@
     "href": "formelark.html#opsjoner-og-derivater",
     "title": "Formelark",
     "section": "10 Opsjoner og derivater",
-    "text": "10 Opsjoner og derivater\n\n🧮 Black-Scholes (kjøpsopsjon):\n\\[\nC = S_0 \\cdot N(d_1) - K \\cdot e^{-r_f \\cdot T} \\cdot N(d_2)\n\\]\n🧮 Parametere i Black-Scholes:\n\\[\nd_1 = \\frac{\\ln \\left( \\frac{S_0}{K} \\right) + r_f \\cdot T}{\\sigma \\sqrt{T}} + \\frac{1}{2} \\cdot \\sigma \\cdot \\sqrt{T}, \\quad\nd_2 = d_1 - \\sigma \\sqrt{T}\n\\]\n🔁 Put-call paritet:\n\\[\nC_0 - P_0 = S_0 - PV(K)\n\\]\n🏷️ Lagringskostnadshypotesen (generell form):\n\\[\nF_T = S_0 \\cdot (1 + c \\cdot T)\n\\]\n🏷️ Lagringskostnadshypotesen (aksjer med utbytte):\n\\[\nF_T = S_0 \\cdot \\left[1 + (r_f - \\text{div}) \\cdot T\\right]\n\\]\n🔮 Forventningshypotesen (terminpriser):\n\\[\nF_T = E(S_T)\n\\]"
+    "text": "10 Opsjoner og derivater\n\n🧮 Black-Scholes (kjøpsopsjon):\n\\[\nC = S_0 \\cdot N(d_1) - K \\cdot e^{-r_f \\cdot T} \\cdot N(d_2)\n\\]\n🧮 Parametere i Black-Scholes:\n\\[\nd_1 = \\frac{\\ln \\left( \\frac{S_0}{K} \\right) + r_f \\cdot T}{\\sigma \\sqrt{T}} + \\frac{1}{2} \\cdot \\sigma \\cdot \\sqrt{T}, \\quad_2 = d_1 - \\sigma \\sqrt{T}\n\\]\n🔁 Put-call paritet:\n\\[\nC_0 - P_0 = S_0 - PV(K)\n\\]\n🏷️ Lagringskostnadshypotesen (generell form):\n\\[\nF_T = S_0 \\cdot (1 + c \\cdot T)\n\\]\n🏷️ Lagringskostnadshypotesen (aksjer med utbytte):\n\\[\nF_T = S_0 \\cdot \\left[1 + (r_f - \\text{div}) \\cdot T\\right]\n\\]\n🔮 Forventningshypotesen (terminpriser):\n\\[\nF_T = E(S_T)\n\\]"
   },
   {
     "objectID": "formelark.html#internasjonal-finans",
@@ -202,7 +202,14 @@
     "href": "forelesningsplan.html",
     "title": "Forelesningsplan",
     "section": "",
-    "text": "Viktige datoer\n\n\n\n\n\n Registrering i grupper:\n16.02.2026\nObligatorisk for deltakelse i casearbeidet. Se Case for registreringsinfo.\n Obligatorisk case:\n23.02.2026  Må bestås for å kunne gå opp til eksamen. Se Case for informasjon.\n\n\n Frivillig oppgave:\n24.04.2026\nFrivillig innlevering med kommentarer fra studentassistenter.  Se Om kurset for detaljer.\n Eksamen:\n15.05.2026\nSkriftlig skoleeksamen. Se Vurdering for form og hjelpemidler.\n\n\n\n\n\n\n\n\n\n\nUke\nDato\nDag\nTema\nForeleser\nPensum\nType\n\n\n\n\n2\n06.01.2026\nTirsdag\nIntroduksjon og investeringsprosjekter\nFS/AWS\n1, 2\nForelesning\n\n\n2\n09.01.2026\nFredag\nEffekter av skatt og lån\nAWS\n5.1–5.6, 8, 19\nForelesning\n\n\n3\n13.01.2026\nTirsdag\nEffekter av inflasjon\nAWS\n9, BK\nForelesning\n\n\n3\n16.01.2026\nFredag\nRisikovurderinger\nAWS\n10\nForelesning\n\n\n4\n\n–\nGruppeøving 1\n–\n–\nGruppeøving\n\n\n5\n27.01.2026\nTirsdag\nLåne- og betalingsalternativer\nAWS\n5.7\nForelesning\n\n\n5\n30.01.2026\nFredag\nPorteføljeteori\nOAN\n11\nForelesning\n\n\n6\n03.02.2026\nTirsdag\nKapitalverdimodellen\nOAN\n12\nForelesning\n\n\n6\n06.02.2026\nFredag\nAksjeprising\nOAN\n7\nForelesning\n\n\n7\n\n–\nGruppeøving 2\n–\n–\nGruppeøving\n\n\n8\n17.02.2026\nTirsdag\nKapitalstruktur\nOAN\n13, 16\nForelesning\n\n\n8\n20.02.2026\nFredag\nUtbyttepolitikk og skatt\nOAN\n17\nForelesning\n\n\n9\n\n–\nGruppeøving 3 + innlevering\n–\n–\nGruppeøving\n\n\n10\n03.03.2026\nTirsdag\nKapitalmarked og selskapskontroll\nOAN\n14, 15, 21\nForelesning\n\n\n10\n06.03.2026\nFredag\n–\n–\n–\nIngen forelesning\n\n\n11\n10.03.2026\nTirsdag\nMarkedseffisiens og atferdsfinans\nOAN\n14, 15, 21\nForelesning\n\n\n11\n13.03.2026\nFredag\nBærekraftige investeringer\nTF\n–\nForelesning\n\n\n12\n\n–\nGruppeøving 4\n–\n–\nGruppeøving\n\n\n13\n24.03.2026\nTirsdag\nRentemarkedet\nAWS\n6\nForelesning\n\n\n13\n27.03.2026\nFredag\nOpsjonskontrakter\nAWS\n23, 24.2\nForelesning\n\n\n14\n31.03.2026\nTirsdag\nTerminkontrakter\nAWS\n24.1, 24.3, 24.4, 24.7\nForelesning\n\n\n14\n03.04.2026\nFredag\nInternasjonal finans og investering\nAWS\n22\nForelesning\n\n\n15\n\n–\nGruppeøving 5\n–\n–\nGruppeøving\n\n\n16\n\n–\nPåske\n–\n–\nFerie\n\n\n17\n21.04.2026\nTirsdag\n–\n–\n–\nIngen forelesning\n\n\n17\n24.04.2026\nFredag\nFrist: frivillig oppgaveinnlevering\n–\n–\nFrist"
+    "text": "Viktige datoer\n\n\n\n\n\n Registrering i grupper:\n16.02.2026\nObligatorisk for deltakelse i casearbeidet. Se Case for registreringsinfo.\n Obligatorisk case:\n23.02.2026  Må bestås for å kunne gå opp til eksamen. Se Case for informasjon.\n\n\n Frivillig oppgave:\n24.04.2026\nFrivillig innlevering med kommentarer fra studentassistenter.  Se Om kurset for detaljer.\n Eksamen:\n15.05.2026\nSkriftlig skoleeksamen. Se Vurdering for form og hjelpemidler.\nUke\nDato\nDag\nTema\nForeleser\nPensum\nType\n\n\n\n\n2\n06.01.2026\nTirsdag\nIntroduksjon og investeringsprosjekter\nFS/AWS\n1, 2\nForelesning\n\n\n2\n09.01.2026\nFredag\nEffekter av skatt og lån\nAWS\n5.1–5.6, 8, 19\nForelesning\n\n\n3\n13.01.2026\nTirsdag\nEffekter av inflasjon\nAWS\n9, BK\nForelesning\n\n\n3\n16.01.2026\nFredag\nRisikovurderinger\nAWS\n10\nForelesning\n\n\n4\n\n–\nGruppeøving 1\n–\n–\nGruppeøving\n\n\n5\n27.01.2026\nTirsdag\nLåne- og betalingsalternativer\nAWS\n5.7\nForelesning\n\n\n5\n30.01.2026\nFredag\nPorteføljeteori\nOAN\n11\nForelesning\n\n\n6\n03.02.2026\nTirsdag\nKapitalverdimodellen\nOAN\n12\nForelesning\n\n\n6\n06.02.2026\nFredag\nAksjeprising\nOAN\n7\nForelesning\n\n\n7\n\n–\nGruppeøving 2\n–\n–\nGruppeøving\n\n\n8\n17.02.2026\nTirsdag\nKapitalstruktur\nOAN\n13, 16\nForelesning\n\n\n8\n20.02.2026\nFredag\nUtbyttepolitikk og skatt\nOAN\n17\nForelesning\n\n\n9\n\n–\nGruppeøving 3 + innlevering\n–\n–\nGruppeøving\n\n\n10\n03.03.2026\nTirsdag\nKapitalmarked og selskapskontroll\nOAN\n14, 15, 21\nForelesning\n\n\n10\n06.03.2026\nFredag\n–\n–\n–\nIngen forelesning\n\n\n11\n10.03.2026\nTirsdag\nMarkedseffisiens og atferdsfinans\nOAN\n14, 15, 21\nForelesning\n\n\n11\n13.03.2026\nFredag\nBærekraftige investeringer\nTF\n–\nForelesning\n\n\n12\n\n–\nGruppeøving 4\n–\n–\nGruppeøving\n\n\n13\n24.03.2026\nTirsdag\nRentemarkedet\nAWS\n6\nForelesning\n\n\n13\n27.03.2026\nFredag\nOpsjonskontrakter\nAWS\n23, 24.2\nForelesning\n\n\n14\n31.03.2026\nTirsdag\nTerminkontrakter\nAWS\n24.1, 24.3, 24.4, 24.7\nForelesning\n\n\n14\n03.04.2026\nFredag\nInternasjonal finans og investering\nAWS\n22\nForelesning\n\n\n15\n\n–\nGruppeøving 5\n–\n–\nGruppeøving\n\n\n16\n\n–\nPåske\n–\n–\nFerie\n\n\n17\n21.04.2026\nTirsdag\n–\n–\n–\nIngen forelesning\n\n\n17\n24.04.2026\nFredag\nFrist: frivillig oppgaveinnlevering\n–\n–\nFrist"
+  },
+  {
+    "objectID": "forelesningsplan.html#åpningstider-før-innleveringssett-og-eksamen",
+    "href": "forelesningsplan.html#åpningstider-før-innleveringssett-og-eksamen",
+    "title": "Forelesningsplan",
+    "section": "Åpningstider før innleveringssett og eksamen",
+    "text": "Åpningstider før innleveringssett og eksamen\nOrakeltjenesten vil være åpen både i undervisnings- og eksamensperioden. I undervisningsperioden betjenes den av de kursansvarlige (se treffetid kursansvarlig ovenfor). I tiden før eksamen, herunder i forbindelse med det frivillige innleveringssettet, betjenes den av studentassistentene. Orakeltjenesten er en møteplass hvor studentene kan få hjelp i faglige spørsmål utenom forelesningene.\n\n\n\n\n\n\nUke\nDato\nMerknad\nMandag\nTirsdag\nOnsdag\nTorsdag\nFredag\n\n\n\n\n17\n21.04-25.04\nInnleveringssett har frist 25.04\nAndre påskedag\n\n10:15-12:00 Aud. J\n\n\n\n\n18\n28.04-02.05\n\n\nMET4 eksamen\n\nOff. høytidsdag\n\n\n\n19\n05.05-09.05\n\n\n\n\n\n10:15-14:00 Aud. C\n\n\n20\n12.05-16.05\n\n10:15-14:00 Aud. C\n10:15-14:00 Aud. C\n10:15-14:00 Aud. C\nBED3 eksamen\n\n\n\n21\n19.05-23.05\n\n\n\n\n\n\n\n\n22\n26.05-30.05\n\n\nSAM3 eksamen\n\nHimmelfartsdag"
   },
   {
     "objectID": "gruppeovinger.html",
@@ -236,9 +243,58 @@
   {
     "objectID": "kursinformasjon.html",
     "href": "kursinformasjon.html",
-    "title": "Investering og finans",
+    "title": "Kursinformasjon",
     "section": "",
-    "text": "1 Kursinformasjon\nForelesningsplan mm."
+    "text": "BED3 Investering og finans er et obligatorisk kurs i sekvensen i bedriftsøkonomisk analyse i bachelorstudiet. Kurset er svært sentralt i studiet, og gir kjernekunnskap på et område som er av vesentlig betydning for en bachelorkandidat fra NHH."
+  },
+  {
+    "objectID": "kursinformasjon.html#kunnskap",
+    "href": "kursinformasjon.html#kunnskap",
+    "title": "Kursinformasjon",
+    "section": "1.1 Kunnskap",
+    "text": "1.1 Kunnskap\nEtter å ha fullført kurset vil studentene:\n\nHa innsikt i bedriftens investerings- og finansieringsbeslutninger\nForstå hva bærekraftige investeringer innebærer, herunder måling av bærekraft, ESG-vurderinger og -rating samt tilhørende lønnsomhet\nHa innsikt i etiske normer og hvordan disse uttrykkes i ulike foretak, og i etiske problemstillinger knyttet til innsidehandel og interessekonflikter\nForstå hvordan kapitalmarkedene fungerer og anvendes\nHa kunnskap om utviklingen i kapitalmarkeder og tilhørende verdipapirer\nForstå hvordan ulike verdipapirer prises, og hvilke risikoegenskaper disse instrumentene har\nForstå konsekvensene av å finansiere seg med gjeld kontra egenkapital\nHa kunnskap om viktige sammenhenger i valutamarkedene"
+  },
+  {
+    "objectID": "kursinformasjon.html#ferdigheter",
+    "href": "kursinformasjon.html#ferdigheter",
+    "title": "Kursinformasjon",
+    "section": "1.2 Ferdigheter",
+    "text": "1.2 Ferdigheter\nEtter å ha fullført kurset kan studentene:\n\nAnvende ulike teorier og modeller i sentrale problemstillinger innenfor investering og finans\nForeta beregninger av lønnsomhet, avkastning og risiko for investeringer, verdipapirer og kapitalkilder, herunder bærekraftige investeringer med ESG-rating og lønnsomhet\nVurdere etiske normer og tilhørende beslutninger\nAvgjøre hvordan bedriftens aktiva bør finansieres (gjeld versus egenkapital) og hvordan årlige overskudd bør disponeres (utbyttepolitikk)\nVise hvordan risiko kan håndteres ved bruk av derivater og andre finansielle instrumenter\nForeta lønnsomhetsberegninger for internasjonale investeringer og valutalån"
+  },
+  {
+    "objectID": "kursinformasjon.html#generell-kompetanse",
+    "href": "kursinformasjon.html#generell-kompetanse",
+    "title": "Kursinformasjon",
+    "section": "1.3 Generell kompetanse",
+    "text": "1.3 Generell kompetanse\nEtter å ha fullført kurset kan studentene:\n\nKommunisere de ovennevnte elementer knyttet til kunnskap og ferdigheter\nAnvende denne innsikten på praktiske problemstillinger\nUtveksle synspunkter og erfaringer med andre som har bakgrunn i finans og gjennom dette bidra til god praksis"
+  },
+  {
+    "objectID": "kursinformasjon.html#læringsstøttende-elementer",
+    "href": "kursinformasjon.html#læringsstøttende-elementer",
+    "title": "Kursinformasjon",
+    "section": "2.1 Læringsstøttende elementer",
+    "text": "2.1 Læringsstøttende elementer\n\nEn omfattende hjemmeside for distribusjon av relevant informasjon og materiale\nEn gruppe studentassistenter som deltar aktivt i ulike arbeidsoppgaver\nTilbud om organisert gruppeundervisning, frivillig innlevering av et oppgavesett og obligatorisk innlevering av et caseoppgavesett\nFørstelinjehjelp i form av en orakeltjeneste\nEn chatbot (ChatGPT) – BED3-Buddy – for faglig og administrativ støtte\nGod dialog med studentgruppen, blant annet ved bruk av referansegruppe\n\nPlenumsforelesningene gir oversikt over temaene i kurset og bygger på forelesningsplansjer. Disse utdypes med eksempler og illustrasjoner. Forelesningene er ikke en erstatning for pensumlitteraturen."
+  },
+  {
+    "objectID": "kursinformasjon.html#arbeid-med-oppgaver",
+    "href": "kursinformasjon.html#arbeid-med-oppgaver",
+    "title": "Kursinformasjon",
+    "section": "2.2 📝 Arbeid med oppgaver",
+    "text": "2.2 📝 Arbeid med oppgaver\nKurset tilbyr ulike former for oppgavetrening:\n\nFem sett med øvingsoppgaver – gjennomgås i grupper. Løsningsmomenter er tilgjengelige fra semesterstart.\nEtt frivillig innleveringssett – rettes og kommenteres av studentassistenter. Løsningsforslag publiseres én uke etter innleveringsfrist.\nEtt obligatorisk caseoppgavesett – kreves for kursgodkjenning. Rettes og kommenteres. Løsningsforslag publiseres etter ferdig retting.\nEksamensoppgaver – tidligere eksamensoppgaver med løsningsforslag er tilgjengelige.\n\nDet er også orakeltjeneste gjennom semesteret, betjent av kursansvarlige og studentassistenter, og støtte i forbindelse med frivillig innlevering."
+  },
+  {
+    "objectID": "kursinformasjon.html#emneansvarlige",
+    "href": "kursinformasjon.html#emneansvarlige",
+    "title": "Kursinformasjon",
+    "section": "Emneansvarlige",
+    "text": "Emneansvarlige\n\n\n\nNavn: Frode Sættem\nTittel: Professor\nRolle: Hovedemneansvarlig\nE-post: frode.saettem@nhh.no\nKontor: C523\n\n\nNavn: André Wattø Sjuve\nTittel: Assistant Professor\nRolle: Foreleser\nE-post: andre.sjuve@nhh.no\nKontor: C310\n\n\nNavn: Andreas Ørpetveit\nTittel: Assistant Professor\nRolle: Foreleser\nE-post: andreas.orpetveit@nhh.no\nKontor: C311"
+  },
+  {
+    "objectID": "kursinformasjon.html#studentassistenter",
+    "href": "kursinformasjon.html#studentassistenter",
+    "title": "Kursinformasjon",
+    "section": "Studentassistenter",
+    "text": "Studentassistenter\nStudentassistentene har flere gjøremål i dette kurset. De er gruppeledere ved gjennomgang av øvingsoppgavene, de retter den obligatoriske caseinnleveringen og den frivillige oppgaveinnleveringen, samt at de betjener orakeltjenesten i forbindelse med den frivillige innleveringen og i eksamensperioden.\nFølgende personer er studentassistenter i kurset:\n\n\n\nNavn: P1\nE-post: P1\n\n\nNavn: P2\nE-post: P2\n\n\nNavn: P3\nE-post: P3\n\n\nNavn: P4\nE-post: P4\n\n\nNavn: P5\nE-post: P5"
   },
   {
     "objectID": "kursmateriale/1-intro.html",

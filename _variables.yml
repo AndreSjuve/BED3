@@ -1,0 +1,60 @@
+
+# General info
+
+course:
+  code: BED3
+  semester: "Våren 2026"
+  level: Bachelor
+  credits: 7.5
+  year: 2026
+
+title: "Investering og finans"
+room: 'Aud.Max'
+repo: "https://github.com/AndreSjuve/BED3"
+site_url: "https://andresjuve.github.io/BED3/"
+
+instructors:
+   FS:
+    name: "Frode Sættem"
+    id: "FS"
+    title: "Professor"
+    role: "Hovedemneansvarlig"
+    email: "frode.saettem@nhh.no"
+    office: "C523"
+    page: "https://www.nhh.no/en/employees/faculty/frode-sattem/"
+   AWS:
+     name: "André Wattø Sjuve"
+     id: "AWS"
+     title: "Assistant Professor"
+     role: "Foreleser"
+     email: "andre.sjuve@nhh.no"
+     office: "C310"
+     page: "https://andresjuve.github.io/"
+   AO: 
+     name: "Andreas Ørpetveit"
+     id: "AO"
+     title: "Assistant Professor"
+     role: "Foreleser"
+     email: "andreas.orpetveit@nhh.no"
+     office: "C311"
+     page: "https://www.nhh.no/en/employees/faculty/andreas-orpetveit/"
+
+# Semester specific fields
+
+officehours:
+  time: "10:15-12:00"
+  date_start: 2025-01-20
+  date_end: 2025-04-07
+
+deadlines:
+  group_registration: 2026-02-16
+  mandatory_case: 2026-02-23
+  voluntary_case: 2026-04-24
+  exam: 2026-05-15
+
+
+weekday1: "Tirsdag"
+weekday2: "Fredag"
+time1: "12:15 - 14:00"
+time2: "10:15 - 12:00"
+dates: "Jan. X - April Y, 2026"
