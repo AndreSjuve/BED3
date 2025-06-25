@@ -1,7 +1,195 @@
 ---
 page-layout: full
+title: "Kursinformasjon"
+resources: _variables.yml
 ---
 
-# Kursinformasjon
+# 📘 Kort om kurset {.unnumbered}
 
-**Forelesningsplan mm.**
+**BED3 Investering og finans** er et obligatorisk kurs i sekvensen i bedriftsøkonomisk analyse i bachelorstudiet. Kurset er svært sentralt i studiet, og gir kjernekunnskap på et område som er av vesentlig betydning for en bachelorkandidat fra NHH.
+
+---
+
+# 🎯 Læringsutbytte
+
+Kurset tar sikte på å gi studentene utførlig innsikt i bedriftens investerings- og finansieringsbeslutninger.
+
+## Kunnskap
+Etter å ha fullført kurset vil studentene:
+
+- Ha innsikt i bedriftens investerings- og finansieringsbeslutninger
+- Forstå hva bærekraftige investeringer innebærer, herunder måling av bærekraft, ESG-vurderinger og -rating samt tilhørende lønnsomhet
+- Ha innsikt i etiske normer og hvordan disse uttrykkes i ulike foretak, og i etiske problemstillinger knyttet til innsidehandel og interessekonflikter
+- Forstå hvordan kapitalmarkedene fungerer og anvendes
+- Ha kunnskap om utviklingen i kapitalmarkeder og tilhørende verdipapirer
+- Forstå hvordan ulike verdipapirer prises, og hvilke risikoegenskaper disse instrumentene har
+- Forstå konsekvensene av å finansiere seg med gjeld kontra egenkapital
+- Ha kunnskap om viktige sammenhenger i valutamarkedene
+
+## Ferdigheter
+Etter å ha fullført kurset kan studentene:
+
+- Anvende ulike teorier og modeller i sentrale problemstillinger innenfor investering og finans
+- Foreta beregninger av lønnsomhet, avkastning og risiko for investeringer, verdipapirer og kapitalkilder, herunder bærekraftige investeringer med ESG-rating og lønnsomhet
+- Vurdere etiske normer og tilhørende beslutninger
+- Avgjøre hvordan bedriftens aktiva bør finansieres (gjeld versus egenkapital) og hvordan årlige overskudd bør disponeres (utbyttepolitikk)
+- Vise hvordan risiko kan håndteres ved bruk av derivater og andre finansielle instrumenter
+- Foreta lønnsomhetsberegninger for internasjonale investeringer og valutalån
+
+## Generell kompetanse
+Etter å ha fullført kurset kan studentene:
+
+- Kommunisere de ovennevnte elementer knyttet til kunnskap og ferdigheter
+- Anvende denne innsikten på praktiske problemstillinger
+- Utveksle synspunkter og erfaringer med andre som har bakgrunn i finans og gjennom dette bidra til god praksis
+
+# 🧠 Organisering og tilretteleggelse for effektiv læring
+
+Det pedagogiske opplegget er basert på tre hovedelementer:
+
+1. Pensumboka *Fundamentals of Corporate Finance* av Brealey, Myers & Marcus og tilleggspensum fra *Finansielle emner* av Boye & Koekebakker
+2. En serie med plenumsforelesninger
+3. En rekke ulike oppgavetyper
+
+Fullt utbytte forutsetter at man leser pensumlitteraturen, følger forelesningene og arbeider med forelesningsmaterialet, samt avsetter tid til oppgaveløsning – både på egenhånd og i kollokvier/grupper. Det er samspillet mellom litteratur, forelesninger og oppgavetrening som danner grunnlaget for læring i faget.
+
+## Læringsstøttende elementer
+- En omfattende hjemmeside for distribusjon av relevant informasjon og materiale
+- En gruppe studentassistenter som deltar aktivt i ulike arbeidsoppgaver
+- Tilbud om organisert gruppeundervisning, frivillig innlevering av et oppgavesett og obligatorisk innlevering av et caseoppgavesett
+- Førstelinjehjelp i form av en orakeltjeneste
+- En chatbot (ChatGPT) – BED3-Buddy – for faglig og administrativ støtte
+- God dialog med studentgruppen, blant annet ved bruk av referansegruppe
+
+Plenumsforelesningene gir oversikt over temaene i kurset og bygger på forelesningsplansjer. Disse utdypes med eksempler og illustrasjoner. Forelesningene er ikke en erstatning for pensumlitteraturen.
+
+## 📝 Arbeid med oppgaver
+
+Kurset tilbyr ulike former for oppgavetrening:
+
+1. **Fem sett med øvingsoppgaver** – gjennomgås i grupper. Løsningsmomenter er tilgjengelige fra semesterstart.
+2. **Ett frivillig innleveringssett** – rettes og kommenteres av studentassistenter. Løsningsforslag publiseres én uke etter innleveringsfrist.
+3. **Ett obligatorisk caseoppgavesett** – kreves for kursgodkjenning. Rettes og kommenteres. Løsningsforslag publiseres etter ferdig retting.
+4. **Eksamensoppgaver** – tidligere eksamensoppgaver med løsningsforslag er tilgjengelige.
+
+Det er også orakeltjeneste gjennom semesteret, betjent av kursansvarlige og studentassistenter, og støtte i forbindelse med frivillig innlevering.
+
+# 💬 Evaluering og tilbakemelding
+
+En referansegruppe gir løpende tilbakemelding til kursansvarlige om faglige og pedagogiske forhold. Dette skjer på initiativ fra studenter eller kursansvarlige. Referansegruppen består av representanter for 2. kull i Studentutvalget. I tillegg kan alle studenter ta kontakt direkte.
+
+Evaluering skjer underveis og ved semesterslutt.
+
+# ✅ Kursgodkjenning og vurderingsformer
+
+- Obligatorisk caseinnlevering i grupper (maks tre studenter) kreves for å kunne avlegge eksamen.
+- Eksamen er en **individuell skriftlig skoleeksamen på 4 timer** (karakterskala A–F).
+
+# 🧑‍🎓 Forventninger til studentene
+
+- Du har ansvar for egen læring og forventes å ha faglig interesse for investering og finans, og for formell analyse.
+- Kurset krever jevn innsats, forberedelse og aktiv deltakelse i alle aktiviteter.
+- Pensumlitteratur og forelesninger utgjør samlet pensum.
+- Arbeid i kollokviegrupper anbefales sterkt.
+- Bruk hjemmesiden aktivt og utforsk hvordan BED3-Buddy kan bidra til læringen.
+
+# 💬 Dialog
+
+Kursansvarlige og studentassistenter ønsker tilbakemeldinger gjennom hele semesteret – enten direkte eller via referansegruppen. Studentpanelets evalueringer og kursets sluttevaluering gir viktige innspill til videre utvikling av kurset.
+
+---
+
+# Kontaktinformasjon {.unnumbered}
+
+## Emneansvarlige {.unnumbered}
+
+:::{layout="[32,32,32]"}
+
+::: {.col-md-4}
+**Navn**: {{< var instructors.FS.name >}}
+
+**Tittel**: {{< var instructors.FS.title >}} 
+
+**Rolle**: {{< var instructors.FS.role >}}  
+
+**E-post**: [{{< var instructors.FS.email >}}](mailto:{{< var instructors.FS.email >}})  
+
+**Kontor**: {{< var instructors.FS.office >}}
+:::
+
+::: {.col-md-4}
+**Navn**: {{< var instructors.AWS.name >}}
+
+**Tittel**: {{< var instructors.AWS.title >}} 
+
+**Rolle**: {{< var instructors.AWS.role >}}  
+
+**E-post**: [{{< var instructors.AWS.email >}}](mailto:{{< var instructors.AWS.email >}})  
+
+**Kontor**: {{< var instructors.AWS.office >}}
+:::
+
+::: {.col-md-4}
+**Navn**: {{< var instructors.AO.name >}}
+
+**Tittel**: {{< var instructors.AO.title >}} 
+
+**Rolle**: {{< var instructors.AO.role >}}  
+
+**E-post**: [{{< var instructors.AO.email >}}](mailto:{{< var instructors.AO.email >}})  
+
+**Kontor**: {{< var instructors.AO.office >}}
+:::
+
+:::
+---
+
+## Studentassistenter {.unnumbered}
+
+Studentassistentene har flere gjøremål i dette kurset. De er gruppeledere ved gjennomgang av øvingsoppgavene, de retter den obligatoriske caseinnleveringen og den frivillige oppgaveinnleveringen, samt at de betjener orakeltjenesten i forbindelse med den frivillige innleveringen og i eksamensperioden.
+
+Følgende personer er studentassistenter i kurset:
+
+:::{layout="[20,20,20,20,20]"}
+::: {.col-md-4}
+**Navn**: P1  
+**E-post**: P1  
+:::
+
+::: {.col-md-4}
+**Navn**: P2  
+**E-post**: P2  
+:::
+
+::: {.col-md-4}
+**Navn**: P3  
+**E-post**: P3  
+:::
+
+::: {.col-md-4}
+**Navn**: P4  
+**E-post**: P4  
+:::
+
+::: {.col-md-4}
+**Navn**: P5  
+**E-post**: P5  
+:::
+:::
+
+---
+
+# Referansegruppe {.unnumbered}
+
+En referansegruppe består av en gruppe studenter (kontaktpersoner) som har som oppgave å gi løpende tilbakemelding til de kursansvarlige. Gruppen kan ta opp både pedagogiske og faglige spørsmål på eget initiativ, på initiativ fra andre studenter eller på de kursansvarliges initiativ. Referansegruppen i {{< var title >}} består av representantene for 2. kull i Studentutvalget, og består av følgende kontaktpersoner:
+
+::: {.col-md-4}
+**Navn**: Representat  
+**E-post**: E-post  
+:::
+
+I tillegg kan selvsagt den enkelte student ta opp slike saker direkte med de kursansvarlige. 
+
+I februar vil det (normalt) som et ledd i underveisevalueringen av kurset bli avholdt en midtevaluering i regi av Studentutvalget. Referansegruppen vil deretter utarbeide en evalueringsrapport som presenteres for de kursansvarlige. 
+
+I slutten av undervisningsperioden vil det bli gjennomført en sluttevaluering av kurset.

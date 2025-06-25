@@ -7,6 +7,10 @@ format:
     toc-location: right
 ---
 
+> 📄 **PDF-versjon:**  
+> [Klikk her for å laste ned formelarket som PDF](assets/formelark-print.pdf){.btn .btn-primary target="_blank"}
+
+
 ## Tidens verdi
 
 - 📈 **Fremtidsverdi av ett beløp:**  
@@ -30,7 +34,6 @@ format:
   $$
 
 - 🔢 **Fordeling av et beløp til annuitet:**
-
 $$
 CF_0 \cdot \frac{k\cdot (1 + k)^T}{(1 + k)^T - 1} = CF_{0} \cdot \frac{k}{1-\left(\frac{1}{1 + k}\right)^T} = CF_{0} \cdot A_{k,T}^{-1}
 $$
@@ -269,6 +272,7 @@ $$
   $$
   \sigma_{R_E} = \sigma_{R_T} \cdot \left( 1 + \frac{G}{E} \right)
   $$
+  
 - ⚖️ **Vektstangsformel – før skatt:**  
   $$
   k_T = \frac{E}{E + G} \cdot k_E + \frac{G}{E + G} \cdot k_G 
@@ -279,6 +283,7 @@ $$
   $$
   k_T^s = \frac{E}{E + G} \cdot k_E + \frac{G}{E + G} \cdot k_G \cdot (1 - s)
   $$
+  
 - ⚖️ **Vektstangsformel – krav egenkapital:**  
   $$
   k_E = k_T + \frac{G}{E} \cdot (k_T - k_G) 
@@ -290,7 +295,7 @@ $$
   \beta_T = \frac{E}{E + G} \cdot \beta_E + \frac{G}{E + G} \cdot \beta_G
   $$
 
-- 🧮 **Beta for egenkapital (dersom } $\beta_G = 0$):**  
+- 🧮 **Beta for egenkapital (dersom $\beta_G = 0$):**  
   $$
   \beta_E = \beta_T \cdot \left( 1 + \frac{G}{E} \right)
   $$
@@ -351,8 +356,7 @@ $$
 
 - 🧮 **Parametere i Black-Scholes:**  
   $$
-  d_1 = \frac{\ln \left( \frac{S_0}{K} \right) + r_f \cdot T}{\sigma \sqrt{T}} + \frac{1}{2} \cdot \sigma \cdot \sqrt{T}, \quad
-  d_2 = d_1 - \sigma \sqrt{T}
+  d_1 = \frac{\ln \left( \frac{S_0}{K} \right) + r_f \cdot T}{\sigma \sqrt{T}} + \frac{1}{2} \cdot \sigma \cdot \sqrt{T}, \quad_2 = d_1 - \sigma \sqrt{T}
   $$
 
 - 🔁 **Put-call paritet:**  

@@ -1,6 +1,6 @@
 ---
 title: "{{< var title >}}"
-subtitle: "En grundig innføring i investering og finansiering, fra vurdering av lønnsomhet og risiko i investeringsprosjekter til prinsipper for verdsettelse og kapitalstruktur."
+subtitle: "En grundig innføring i investering og finansiering, fra vurdering av lønnsomhet og risiko i investeringsprosjekter til prinsipper for verdsettelse, risikostyring og kapitalstruktur."
 format:
   html:
     number-sections: false
@@ -8,7 +8,6 @@ sidebar: false
 toc: false
 page-layout: full
 ---
-
 
 ## Introduksjon
 
@@ -29,14 +28,31 @@ Vi anbefaler at du besøker denne siden jevnlig gjennom semesteret for å holde 
 
 ## Hva lærer du i dette kurset?
 
-- Vurdere lønnsomhet og risiko i investeringsprosjekter
-- Anvende metoder som nåverdi, internrente og beslutningstreanalyse
-- Forstå sammenhengen mellom kontantstrøm og kapitalkostnad
-- Analysere verdipapirer og porteføljer
-- Ta stilling til finansieringsvalg, kapitalstruktur og utbyttepolitikk
-- Reflektere over etiske dilemmaer i finansielle beslutninger
+I dette kurset lærer du å:
+
+- Vurdere lønnsomhet, risiko og finansiering av investeringer  
+- Forstå hvordan kapitalmarkeder fungerer og verdipapirer prises  
+- Anvende sentrale modeller innen investering og finans  
+- Analysere bærekraftige investeringer og ESG-ratinger  
+- Håndtere risiko med derivater og andre finansielle instrumenter  
+- Foreta økonomiske vurderinger i en internasjonal kontekst (valuta og utenlandske investeringer)  
+- Reflektere over etiske dilemmaer i finansielle beslutninger  
+- Kommunisere finansielle vurderinger klart og profesjonelt
 
 ---
+
+## Hvordan skal du lære dette?
+
+For å lykkes i dette kurset er kombinasjonen av arbeid med pensumlitteratur, forelesninger og oppgavetrening de tre sentrale pillarene som danner grunnlaget for læringen. Se [Om kurset](kursinformasjon.qmd) for detaljer.
+
+Pensumlitteratur, forelesninger og oppgavene dekker en rekke teamer, som overordnet kan organiseres under følgende overskrifter:
+
+1. Investeringsanalyse
+2. Porteføljeteori og kapitalmarkedsteori
+3. Kapitalstruktur og utbyttepolitikk
+4. Derivater og risikostyring
+
+For en detaljert oversikt, se [Forelesningsplanen](forelesningsplan.qmd).
 
 ## Emneansvarlig
 
@@ -71,28 +87,12 @@ _{person$role}_
 :::
 ---
 
-
-## Kursinnhold og progresjon (midlertidig)
-
-| Uke | Tema                                 |
-|-----|--------------------------------------|
-| 1   | Introduksjon og investeringsanalyse |
-| 2–3 | Kontantstrøm og kapitalkostnad       |
-| 4   | Prosjektusikkerhet og beslutningsverktøy |
-| 5–6 | Porteføljeteori og verdipapirprising |
-| 7–8 | Derivater og risikostyring           |
-| 9   | Kapitalstruktur og utbyttepolitikk   |
-| 10  | Etiske perspektiver og repetisjon    |
-
----
-
 ## Praktisk informasjon
 
 - **Forelesninger**: Tirsdager kl 12:15-14:00 og fredager, kl. 10:15–12:00 (Aud. Max)
 - **Undervisningsform**: Forelesninger, case og gruppearbeid
 - **Vurdering**: Skriftlig skoleeksamen  
 - **Krav**: Kurset er obligatorisk for bachelorstudenter i økonomi og administrasjon  
-- [Lenke til emnebeskrivelse på nhh.no](https://www.nhh.no/emner/investering-og-finans/)
 
 ---
 
@@ -114,14 +114,14 @@ Bruk menyen øverst eller søkefunksjonen for å navigere.
 
 - [Emnebeskrivelse på nhh.no](https://www.nhh.no/emner/investering-og-finans/)
 - [Canvas](https://nhh.instructure.com/courses/2695) – for innlevering og vurdering
-- [Formelsamling (PDF)](docs/formelsamling.pdf)
-- Excel-mal: [Investeringsanalyse.xlsx](docs/investeringsanalyse.xlsx)
+- [Formelsamling (PDF)](assets/formelark-print.pdf)
+- Excel-mal: [Investeringsanalyse.xlsx](assets/investeringsanalyse.xlsx)
 
 ---
 
 ## Vanlige spørsmål
 
-**Er formelarket vedlagt eksamen?**
+**Er formelarket vedlagt eksamen?**  
 Ja, formelarket får dere utlevert sammen med eksamensoppgaven.
 
 **Må jeg kunne programmering?**  

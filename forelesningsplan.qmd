@@ -1,7 +1,9 @@
 ---
 title: "Forelesningsplan"
 format: html
+number-sections: false
 page-layout: full
+resources: _variables.yml
 ---
 
 ```{r}
@@ -89,4 +91,89 @@ schedule |>
     
 
 ```
+
+
+# Orakeltjeneste
+
+```{r}
+info_orakel <- vars$officehours
+
+sdate <- 
+    info_orakel$date_start |> 
+    lubridate::date()
+
+edate <- 
+    info_orakel$date_end |> 
+    lubridate::date()
+
+oh_day <- 
+    sdate|> 
+    weekdays() 
+    
+
+start_week <- 
+    sdate |> 
+    lubridate::isoweek()
+
+start_date_txt <- 
+    sdate |> 
+    lubridate::day() |> 
+    paste0(".", lubridate::month(sdate, label = TRUE, abbr = FALSE))
+    
+end_week <- 
+    edate |> 
+    lubridate::isoweek()
+
+end_date_txt <- 
+    edate |> 
+    lubridate::day() |> 
+    paste0(".", lubridate::month(edate, label = TRUE, abbr = FALSE))
+
+
+```
+
+
+::: {.callout-note appearance="minimal" icon="calendar" title="Treffetid kursansvarlig hver mandag i undervisningsperioden"}
+📍 **Sted**: Kontor `r vars$instructors$AWS$office`  
+🕒 **Tidspunkt**: `r paste0(stringr::str_to_title(oh_day), "er")` kl. `r info_orakel$time`  
+📆 **Periode**: F.o.m. uke `r start_week` (`r oh_day` `r start_date_txt`) t.o.m. `r end_week` (`r oh_day` `r end_date_txt`)
+:::
+
+## Åpningstider før innleveringssett og eksamen
+
+Orakeltjenesten vil være åpen både i undervisnings- og eksamensperioden. I undervisningsperioden betjenes den av de kursansvarlige (se treffetid kursansvarlig ovenfor). I tiden før eksamen, herunder i forbindelse med det frivillige innleveringssettet, betjenes den av studentassistentene. Orakeltjenesten er en møteplass hvor studentene kan få hjelp i faglige spørsmål utenom forelesningene.
+
+```{r orakeltjeneste,eval=TRUE, echo = FALSE, message = FALSE, warning = FALSE}
+library(kableExtra)
+
+exam_support <- 
+    fs::path("assets", "orakeltjeneste", ext = "xlsx") |> 
+    readxl::read_excel()
+
+exam_support |> 
+  dplyr::select(
+    Uke,
+    Dato = Tid,
+    Merknad,
+    Mandag,
+    Tirsdag,
+    Onsdag,
+    Torsdag,
+    Fredag
+  ) |> 
+  kable("html", escape = FALSE, align = "rlllllll") |> 
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed", "responsive"),
+    full_width = TRUE,
+    position = "left"
+  ) |> 
+  row_spec(0, bold = TRUE, color = "#fffbf2", background = "#003366") |> 
+  row_spec(1:nrow(exam_support), extra_css = "height: 40px; padding: 10px 10px;") |> 
+  row_spec(seq(2, nrow(exam_support), 2), background = "#fef9f0") |> 
+  row_spec(seq(1, nrow(exam_support), 2), background = "#f7f3e8")
+
+```
+
+
+
 

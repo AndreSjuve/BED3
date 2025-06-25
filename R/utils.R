@@ -10,25 +10,69 @@
 
 # FUNCTIONS -----------
 
-# Load required packages
-if (!requireNamespace("cli", quietly = TRUE)) install.packages("cli")
-if (!requireNamespace("quarto", quietly = TRUE)) install.packages("quarto")
+# convert_formula_qmd_for_pdf() -----------
 
-#' Convert the formula page to a PDF-friendly version
+#' Convert Quarto formula sheet to print-ready LaTeX version
 #'
-#' @param input_path Path to the source Quarto file (default: "formelark.qmd")
-#' @param output_path Path to the cleaned PDF version (default: "formelark-print.qmd")
-
-
-convert_formula_qmd_for_pdf <- function(input_path = "formelark.qmd",
-                                        output_path = "assets/formelark-print.qmd") {
+#' This function reads a Quarto `.qmd` file containing a formula sheet for the BED3 course, 
+#' and converts it into a print-optimized `.qmd` version using LaTeX tables. 
+#' The output is structured as a single tabularx table with labeled formulas grouped by section.
+#' Emoji bullets and callout panels are removed, and the resulting file is suitable for rendering as a PDF appendix.
+#'
+#' @param input_path Character. Path to the source `.qmd` file (default: `"formelark.qmd"`). 
+#'   This file must use a specific structure: section headers as `##`, followed by bullet points (`-`) 
+#'   with labels in `**bold**`, and each formula enclosed in a three-line math block with `$$` delimiters.
+#' @param output_path Character. Path to write the transformed output `.qmd` file 
+#'   (default: `"assets/formelark-print.qmd"`). The file includes an updated YAML block and a fenced 
+#'   LaTeX block that generates a single `tabularx` table.
+#'
+#' @details
+#' The function performs the following transformations:
+#' - Removes frontmatter YAML from the input file.
+#' - Removes any download link for the PDF version.
+#' - Strips callout panel lines and emoji bullets.
+#' - Extracts formulas and organizes them into a single LaTeX table grouped by topic.
+#' - Adds a new YAML block for PDF rendering, including LaTeX geometry, font size, and preamble inclusion.
+#'
+#' Section headers are rendered inside the table using `\\multicolumn{2}` with bold serif font.
+#' Each formula is wrapped in `$...$` and aligned to its label.
+#'
+#' @return
+#' No return value. The function writes a Quarto file to `output_path` and prints a success message.
+#'
+#' @examples
+#' convert_formula_qmd_for_pdf()  # Use default paths
+#' convert_formula_qmd_for_pdf("formelark.qmd", "assets/formelark-print.qmd")
+#'
+#' @export
+convert_formula_qmd_for_pdf <- function(
+        input_path = "formelark.qmd",
+        output_path = "assets/formelark-print.qmd"
+) {
+    if (!requireNamespace("stringr", quietly = TRUE)) install.packages("stringr")
+    if (!requireNamespace("cli", quietly = TRUE)) install.packages("cli")
+    
     lines <- readLines(input_path, warn = FALSE)
+    
+    # Remove YAML frontmatter
+    start_yaml <- which(lines == "---")[1]
+    end_yaml <- which(lines == "---")[-1][1]
+    lines <- lines[(end_yaml + 1):length(lines)]
+    
+    # Remove download block
+    remove_indices <- which(
+        grepl("formelark-print\\.pdf", lines, fixed = TRUE) |
+            grepl("^> 📄", lines) |
+            grepl("^> \\[", lines)
+    )
+    if (length(remove_indices) > 0) {
+        lines <- lines[-unique(c(remove_indices, remove_indices - 1))]
+    }
     
     # Emoji regex pattern – remove only leading emoji from bullet labels or headers
     emoji_replace <- function(line) {
         stringr::str_replace(line, "^(-\\s*)(\\p{So}|\\p{Sk}|\\p{Emoji_Presentation}|\\p{Cntrl})+\\s*", "\\1")
     }
-    
     
     # Strip ::: panel/callout lines
     lines <- gsub("^:::\\s*\\{.*\\}", "", lines)
@@ -37,40 +81,102 @@ convert_formula_qmd_for_pdf <- function(input_path = "formelark.qmd",
     # Remove emoji from bullets and headers
     lines <- vapply(lines, emoji_replace, character(1), USE.NAMES = FALSE)
     
-    # Replace YAML block
-    start_yaml <- which(grepl("^---", lines))[1]
-    end_yaml <- which(grepl("^---", lines))[-1][1]
-    yaml_block <- c(
+    # Parse blocks
+    entries <- list()
+    current_section <- NULL
+    i <- 1
+    
+    while (i <= length(lines)) {
+        line <- stringr::str_trim(lines[i])
+        
+        # Section header
+        if (stringr::str_detect(line, "^##\\s")) {
+            current_section <- stringr::str_remove(line, "^##\\s+")
+            i <- i + 1
+            next
+        }
+        
+        # Bullet label
+        if (stringr::str_detect(line, "^\\s*-.*?\\*\\*")) {
+            label <- stringr::str_match(line, "\\*\\*(.*?)\\*\\*")[, 2]
+            if ((i + 2) <= length(lines) &&
+                stringr::str_trim(lines[i + 1]) == "$$" &&
+                stringr::str_trim(lines[i + 3]) == "$$") {
+                
+                formula <- stringr::str_trim(lines[i + 2])
+                entries <- append(entries, list(c(current_section, label, formula)))
+                i <- i + 4
+                next
+            }
+        }
+        
+        i <- i + 1
+    }
+    
+    # YAML + LaTeX header
+    output <- c(
         "---",
-        "title: \"Formelark – BED3\"",
+        "title: \"Vedlegg til eksamen i BED3 Investering og finans\"",
         "format:",
         "  pdf:",
         "    documentclass: article",
         "    toc: false",
-        "    include-in-header: formelark-preamble.tex",
-        "    include-before-body: formelark-cover.tex",
         "    number-sections: false",
         "    keep-tex: true",
+        "    include-in-header: latex/minimal_header.tex",
+        "    geometry: top=1cm, bottom=1.5cm, left=1cm, right=1cm",
         "    papersize: a4",
-        "    fontsize: 11pt",
+        "    fontsize: 10pt",
+        "    linestretch: 1",
+        "    pagestyle: plain",
         "mainfont: Latin Modern Roman",
-        "---"
-    )
-    lines <- c(
-        yaml_block,
-        lines[(end_yaml + 1):length(lines)]
+        "---",
+        "",
+        "```{=latex}",
+        "\\renewcommand{\\arraystretch}{2.0}",
+        "\\normalsize",
+        "\\begin{tabularx}{\\textwidth}{@{}lX@{}}"
     )
     
-    writeLines(lines, output_path)
-    cli::cli_alert_success("PDF-ready file written to {.file {output_path}}.")
+    prev_section <- NULL
+    for (entry in entries) {
+        section <- entry[1]
+        label   <- entry[2]
+        formula <- entry[3]
+        
+        if (!identical(section, prev_section)) {
+            output <- c(
+                output,
+                glue::glue("\\multicolumn{{2}}{{@{{}}l@{{}}}}{{\\textbf{{{section}}}}} \\\\ \\addlinespace")
+            )
+            prev_section <- section
+        }
+        
+        output <- c(output, glue::glue("{label} & $ {formula} $ \\\\"))
+    }
+    
+    output <- c(output, "\\end{tabularx}", "```")
+    
+    # Write .qmd file
+    writeLines(output, output_path)
+    cli::cli_alert_success("✅ Longtable PDF-ready file written to {.file {output_path}}")
 }
+
+
+
+
+
+
+
+
+# render_formelark_pdf() -----------
 
 #' Render the PDF version using Quarto
 #'
 #' @param qmd_file Path to the PDF-friendly Quarto file (default: "formelark-print.qmd")
 
 
-render_formelark_pdf <- function(qmd_file = "formelark-print.qmd", 
+render_formelark_pdf <- function(qmd_file = "assets/formelark-print.qmd", 
                                  move_tex_to = "assets/latex") {
     if (!fs::file_exists(qmd_file)) {
         cli::cli_abort("The file {.file {qmd_file}} does not exist.")
