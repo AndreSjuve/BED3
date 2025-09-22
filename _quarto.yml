@@ -40,12 +40,14 @@ website:
       contents:
         - section: "Intro BED3"
           contents:
+            - text: "Forord"
+              href: kursmateriale/0-forord.qmd
             - text: "Oversikt"
-              href: kursmateriale/1-intro.qmd
-        - section: "Intro Investeringsanalyse"
+              href: kursmateriale/0-intro.qmd
+        - section: "Investeringsanalyse"
           contents:
             - text: "Oversikt investeringsanalyse"
-              href: kursmateriale/2-intro.qmd
+              href: kursmateriale/1-intro.qmd
 
     - id: id-oving
       title: "Øvingsmateriale"

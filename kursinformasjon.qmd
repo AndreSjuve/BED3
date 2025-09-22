@@ -6,7 +6,13 @@ resources: _variables.yml
 
 # 📘 Kort om kurset {.unnumbered}
 
-**BED3 Investering og finans** er et obligatorisk kurs i sekvensen i bedriftsøkonomisk analyse i bachelorstudiet. Kurset er svært sentralt i studiet, og gir kjernekunnskap på et område som er av vesentlig betydning for en bachelorkandidat fra NHH.
+Økonomi handler om et enkelt, men evig problem: vi ønsker oss alltid mer enn vi kan få. **BED3 Investering og finans** tar utgangspunkt i dette og undersøker hvordan vi best organiserer den knappe ressursen kapital.  
+
+BED3 er et obligatorisk kurs i sekvensen i bedriftsøkonomisk analyse i bachelorstudiet. Kurset er svært sentralt i studiet, og gir kjernekunnskap på et område som er av vesentlig betydning for en bachelorkandidat fra NHH.
+
+Gjennom kurset lærer du å analysere investeringsprosjekter, forstå hvordan kapitalen fordeles i porteføljer, hvordan risikokapital prises i markedet, og hvordan bedrifter bør velge mellom gjeld og egenkapital.  
+
+I tillegg får du innblikk i temaer som bærekraftig finans, opsjoner, terminkontrakter, rentemarkedet og valuta. Til sammen gir dette en helhetlig forståelse av hvordan kapital investeres, finansieres og prises.
 
 ---
 

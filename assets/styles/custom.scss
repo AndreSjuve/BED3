@@ -25,6 +25,17 @@ $beige: #F1ECE3;
 
 /*-- scss:rules --*/
   
+// === Justify text on page: Not very nice
+  
+// main {
+//  text-align: justify;
+//  text-justify: inter-word;
+//}
+//
+//p {
+//  word-spacing: 0.03em;
+//}
+  
 // === Website title (site name in navbar) ===
 .navbar-brand {
   color:$primary; // Default NHH blue
@@ -115,4 +126,43 @@ $footer-fg:                   $primary;
     color: $secondary !important;
   }
 }
+
+
+// Tooltip - show text when hovering over particular words
+
+
+
+.tooltip-term {
+  border-bottom: 1px dotted #999;
+  color: #003366;
+  font-weight: 600;
+  cursor: help;
+  position: relative;
+}
+
+.tooltip-term::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  left: 0;
+  bottom: 125%;
+  background: #333;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 4px;
+  width: max-content;
+  max-width: 300px; /* Control tooltip width */
+  white-space: normal; /* Wrap text */
+  line-height: 1.4;
+  font-size: 0.85em;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.tooltip-term:hover::after {
+  opacity: 1;
+}
+
+
 
