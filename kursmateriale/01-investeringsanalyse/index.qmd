@@ -1,0 +1,42 @@
+---
+title: Investeringsanalyse
+description: Moduloversikt, læringsmål, innholdsfortegnelse, og anbefalt progresjon.
+number-sections: false
+page-navigation: true
+#listing:
+#  contents: .
+#  type: default
+#  sort: asc
+#  sort-ui: false
+#  fields: [title, description]
+---
+
+## Velkommen
+
+Denne modulen gir deg en komplett pakke for investeringsanalyse. Du får tekstforklaringer, korte videoer, oppgaver, og case. Du kan arbeide i eget tempo.
+
+## Læringsmål
+
+- Du forklarer hva investeringsanalyse er og hvorfor den brukes.
+- Du bygger konsistente kontantstrømmer før og etter skatt.
+- Du anvender NNV som hovedkriterium, samt IRR, payback, og NNV-indeks som støtte.
+- Du håndterer inflasjon på en konsistent måte.
+- Du utfører grunnleggende risikoanalyser gjennom følsomhet, scenarier, og enkel simulering.
+- Du vurderer låne og betalingsalternativer, inkludert leasing, med NNV etter skatt som kriterium.
+
+
+## Slik bruker du modulen
+
+Start på introduksjon. Fortsett kronologisk. Hopp tilbake ved behov. Gjør minioppgaver fortløpende. Ta de større oppgavene mot slutten av hvert kapittel.
+
+## Innhold og anbefalt progresjon
+- [1. Introduksjon](01-introduksjon)
+- [2. Tidens verdi](02-tidens-verdi)
+- [3. Kontantstrøm](03-kontantstrom)
+- [4. Investeringskriterier](04-investeringskriterier)
+- [5. Supplerende metoder](05-supplerende-metoder)
+- [6. Risiko](06-risiko)
+- [7. Lån og betaling](07-lan-og-betaling)
+- [8. Oppsummering og case](08-oppsummering-case)
+
+

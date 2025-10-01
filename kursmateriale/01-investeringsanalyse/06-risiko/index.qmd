@@ -1,0 +1,49 @@
+---
+title: Risiko og usikkerhet
+description: Hvorfor investeringsanalyse er viktig, og hvordan vi tar beslutninger over tid.
+---
+    
+# Heis pitch og motivasjon
+    
+Kort tekst som etablerer relevans. Ett til to avsnitt.
+
+::: callout-note
+## Læringsmål
+Du beskriver hva en investering er.
+Du peker ut de tre byggesteinene. Kontantstrøm, tid, risiko.
+Du forklarer når investeringsanalyse er nødvendig.
+:::
+    
+# Kjerneforklaring
+    
+Konsis forklaring i små bolker. Bruk figur ved behov.
+
+::: callout-tip
+## Podcast
+Bla bla
+<!--<audio controls src="../media/podcasts/01-teori.mp3"></audio> -->
+:::
+    
+# Eksempel
+    
+Lite tall eksempel med trinnvis utregning. Gjerne link til regneark.
+<!-- [Last ned eksempel](../media/downloads/01-eksempel.xlsx) -->
+
+# Interaktiv øving
+
+Korte kontrollspørsmål eller minioppgaver. Bruk learnr eller enkel flervalg om ønskelig.
+
+# Case og diskusjon
+
+Kort casebeskrivelse. Oppgaveformulering. Eventuell diskusjonspodcast.
+<!-- <audio controls src="../media/podcasts/01-case.mp3"></audio> -->
+    
+# Oppsummering
+    
+Tre til fem takeaways i punktliste.
+
+::: callout-note
+## Videoer
+<!-- <video controls src="../media/videos/01-intro.mp4"></video> -->
+:::
+    

@@ -1,0 +1,100 @@
+---
+title: "01 Introduksjon til investeringsanalyse"
+description: "Hva er investeringsanalyse, hvorfor er det viktig, og hvilke byggesteiner består det av?"
+---
+
+# Heis-pitch og motivasjon
+
+Økonomi handler om et enkelt, men evig problem: vi ønsker oss alltid mer enn vi kan få.
+Investeringsanalyse gir oss et systematisk rammeverk for å bestemme om vi skal si **ja** eller **nei** til prosjekter som binder kapital i dag for å skape verdier i fremtiden.
+
+Eksempel: Et selskap kan enten kjøpe en ny maskin, utvide et produktsegment, eller investere i et nytt datasystem. Hvilke prosjekter gir faktisk verdiskaping for eierne?
+
+---
+
+::: callout-note
+## Læringsmål
+
+Etter dette kapittelet skal du kunne:
+- Forklare hva en investering er og hvorfor investeringsanalyse er nødvendig.
+- Kjenne til de tre byggesteinene: kontantstrøm, tid og risiko.
+- Beskrive hovedstegene i en investeringsanalyse.
+- Skille mellom ulike typer investeringsprosjekter.
+:::
+
+---
+
+# Kjerneforklaring
+
+## Hva er investeringsanalyse?
+
+Investeringsanalyse (eller kapitalbudsjettering) er prosessen der vi vurderer lønnsomheten av langsiktige prosjekter.
+Målet er å maksimere verdien for eierne gjennom riktige beslutninger.
+
+### Byggesteinene
+1. **Kontantstrømmer** – vi vurderer inn- og utbetalinger, ikke regnskapsmessige resultat.
+2. **Tidens verdi** – 100 kroner i dag er mer verdt enn 100 kroner i morgen.
+3. **Risiko** – fremtidige kontantstrømmer er usikre, og må vurderes.
+
+### Beslutningsprosessen
+- **Idé og screening**
+- **Analyse og forslag**
+- **Beslutning / godkjenning**
+- **Oppfølging og etterkontroll**
+
+---
+
+# Eksempel
+
+En investering koster **50 000 kr i dag**.
+Den gir en besparelse på **12 000 kr per år i 6 år**.
+Diskonteringsrenten er **5 %**.
+
+Spørsmål: Lønner dette seg?
+
+👉 Dette eksemplet bygger vi videre på i kommende kapitler.
+
+---
+
+# Minioppgaver / Quiz
+
+1. Hva er hovedmålet med investeringsanalyse?
+   - [ ] Å maksimere omsetning
+   - [x] Å maksimere verdien for eierne
+   - [ ] Å minimere risiko
+
+2. Hvor mye er 100 kr i dag verdt om ett år med 5 % rente?
+   - [ ] 95 kr
+   - [ ] 100 kr
+   - [x] 105 kr
+
+---
+
+# Case og diskusjon
+
+**EcoTime AS** vurderer å lansere en ny smartklokke.
+Investeringen er på **10 millioner kroner**, men fremtidige kontantstrømmer er usikre.
+
+Diskuter:
+- Hvilke kontantstrømmer er relevante?
+- Hvordan bør tidshorisonten vurderes?
+- Hvordan kan usikkerhet håndteres?
+
+::: callout-tip
+📢 **Podcast**: Diskusjon av caset i HBS-stil kan legges inn her.
+:::
+
+---
+
+# Oppsummering
+
+- Investeringsanalyse hjelper oss å bestemme hvilke prosjekter vi skal si ja/nei til.
+- Tre grunnpilarer: kontantstrøm, tid og risiko.
+- Prosessen handler om å maksimere verdien for eierne.
+
+---
+
+::: callout-note
+## Video
+<video controls src="../media/videos/01-intro.mp4"></video>
+:::

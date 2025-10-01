@@ -5,25 +5,175 @@
 #' Created: "05 juni, 2025"
 
 #' Description: This script contains functions used to generate various
-#' content across the course website 
+#' content across the course website
 #_______________________________________________________________________________
 
 # FUNCTIONS -----------
+
+# convert_all_figure_qmds() -----------
+
+#' Batch convert all fig_*.qmd in a folder.
+#' @param src_dir Folder with qmd sources.
+#' @param out_dir Output folder.
+#' @param overwrite Overwrite outputs.
+#' @return A data.frame with status per file.
+convert_all_figure_qmds <- function(
+  src_dir,
+  out_dir = fs::path(src_dir, "..", "out"),
+  overwrite = TRUE
+) {
+  if (
+    !requireNamespace("fs", quietly = TRUE) ||
+      !requireNamespace("cli", quietly = TRUE)
+  ) {
+    stop("Install fs and cli.")
+  }
+  fs <- asNamespace("fs")
+  cli <- asNamespace("cli")
+
+  src_dir <- fs$path_norm(src_dir)
+  fs$dir_create(out_dir)
+  qmds <- fs$dir_ls(src_dir, glob = "fig_*.qmd", type = "file", recurse = FALSE)
+  if (length(qmds) == 0) {
+    cli$cli_alert_info("No fig_*.qmd found in: {src_dir}")
+    return(data.frame(
+      file = character(),
+      pdf = character(),
+      svg = character(),
+      ok = logical()
+    ))
+  }
+
+  out <- lapply(qmds, function(f) {
+    cli$cli_div(theme = list(span.emph = list(color = "cyan")))
+    cli$cli_h1("Figure: {.emph {fs::path_file(f)}}")
+    ok <- TRUE
+    pdf <- svg <- NA_character_
+    tryCatch(
+      {
+        res <- convert_figure_qmd(f, out_dir = out_dir, overwrite = overwrite)
+        pdf <- res$pdf
+        svg <- res$svg
+      },
+      error = function(e) {
+        ok <<- FALSE
+        cli$cli_alert_danger(e$message)
+      }
+    )
+    data.frame(file = f, pdf = pdf, svg = svg, ok = ok)
+  })
+  do.call(rbind, out)
+}
+
+# convert_figure_qmd() -----------
+
+#' Render a TikZ figure qmd to PDF, then convert PDF to SVG via Inkscape
+#'
+#' @param qmd Path to the qmd file.
+#' @param out_dir Output directory for pdf and svg. Defaults to sibling "out".
+#' @param overwrite Logical. Overwrite existing outputs.
+#' @return A list with paths pdf and svg.
+#' @examples
+#' convert_figure_qmd("kursmateriale/figures/src/fig_veikart_bedrift.qmd")
+convert_figure_qmd <- function(qmd, out_dir = NULL, overwrite = TRUE) {
+  # deps
+  req_pkgs <- c("fs", "cli", "checkmate")
+  miss <- req_pkgs[
+    !vapply(req_pkgs, requireNamespace, logical(1), quietly = TRUE)
+  ]
+  if (length(miss)) {
+    stop(
+      "Missing packages: ",
+      paste(miss, collapse = ", "),
+      ". Install and retry."
+    )
+  }
+  fs <- asNamespace("fs")
+  cli <- asNamespace("cli")
+  cm <- asNamespace("checkmate")
+
+  # checks
+  cm$assert_string(qmd, min.chars = 3)
+  qmd <- fs$path_norm(qmd)
+  if (!fs$file_exists(qmd)) {
+    stop("File not found: ", qmd, ".")
+  }
+
+  # resolve output dir
+  if (is.null(out_dir)) {
+    out_dir <- fs$path_norm(
+      fs$path(qmd) |> fs$path_dir() |> fs$path("..", "out")
+    )
+  }
+  fs$dir_create(out_dir)
+
+  # resolve tool paths
+  find_tool <- function(cmds) {
+    hit <- unlist(lapply(cmds, Sys.which))
+    hit[hit != ""][1]
+  }
+  quarto <- find_tool(c("quarto"))
+  inks <- find_tool(c("inkscape", "inkscape.com", "inkscape.exe"))
+  if (is.na(quarto) || quarto == "") {
+    stop("Quarto not found on PATH. Install Quarto and ensure it is on PATH.")
+  }
+  if (is.na(inks) || inks == "") {
+    stop(
+      "Inkscape not found on PATH. Install Inkscape and ensure it is on PATH."
+    )
+  }
+
+  # names
+  stem <- fs$path_ext_remove(fs$path_file(qmd))
+  pdf <- fs$path(out_dir, paste0(stem, ".pdf"))
+  svg <- fs$path(out_dir, paste0(stem, ".svg"))
+
+  # render to pdf
+  cli$cli_h2("Rendering PDF")
+  if (fs$file_exists(pdf) && !overwrite) {
+    stop("PDF exists and overwrite is FALSE: ", pdf, ".")
+  }
+  args_q <- c("render", qmd, "--to", "pdf", "--output", pdf)
+  cli$cli_alert_info(paste("Running:", quarto, paste(args_q, collapse = " ")))
+  res_q <- system2(quarto, args = args_q, stdout = TRUE, stderr = TRUE)
+  if (!fs$file_exists(pdf)) {
+    cli$cli_alert_danger("Failed to produce PDF.")
+    stop(paste(res_q, collapse = "\n"))
+  }
+  cli$cli_alert_success(paste("PDF created:", pdf))
+
+  # convert to svg
+  cli$cli_h2("Converting PDF to SVG via Inkscape")
+  if (fs$file_exists(svg) && !overwrite) {
+    stop("SVG exists and overwrite is FALSE: ", svg, ".")
+  }
+  args_i <- c(pdf, "--export-type=svg", paste0("--export-filename=", svg))
+  cli$cli_alert_info(paste("Running:", inks, paste(args_i, collapse = " ")))
+  res_i <- system2(inks, args = args_i, stdout = TRUE, stderr = TRUE)
+  if (!fs$file_exists(svg)) {
+    cli$cli_alert_danger("Failed to produce SVG.")
+    stop(paste(res_i, collapse = "\n"))
+  }
+  cli$cli_alert_success(paste("SVG created:", svg))
+
+  invisible(list(pdf = pdf, svg = svg))
+}
+
 
 # convert_formula_qmd_for_pdf() -----------
 
 #' Convert Quarto formula sheet to print-ready LaTeX version
 #'
-#' This function reads a Quarto `.qmd` file containing a formula sheet for the BED3 course, 
-#' and converts it into a print-optimized `.qmd` version using LaTeX tables. 
+#' This function reads a Quarto `.qmd` file containing a formula sheet for the BED3 course,
+#' and converts it into a print-optimized `.qmd` version using LaTeX tables.
 #' The output is structured as a single tabularx table with labeled formulas grouped by section.
 #' Emoji bullets and callout panels are removed, and the resulting file is suitable for rendering as a PDF appendix.
 #'
-#' @param input_path Character. Path to the source `.qmd` file (default: `"formelark.qmd"`). 
-#'   This file must use a specific structure: section headers as `##`, followed by bullet points (`-`) 
+#' @param input_path Character. Path to the source `.qmd` file (default: `"formelark.qmd"`).
+#'   This file must use a specific structure: section headers as `##`, followed by bullet points (`-`)
 #'   with labels in `**bold**`, and each formula enclosed in a three-line math block with `$$` delimiters.
-#' @param output_path Character. Path to write the transformed output `.qmd` file 
-#'   (default: `"assets/formelark-print.qmd"`). The file includes an updated YAML block and a fenced 
+#' @param output_path Character. Path to write the transformed output `.qmd` file
+#'   (default: `"assets/formelark-print.qmd"`). The file includes an updated YAML block and a fenced
 #'   LaTeX block that generates a single `tabularx` table.
 #'
 #' @details
@@ -46,128 +196,134 @@
 #'
 #' @export
 convert_formula_qmd_for_pdf <- function(
-        input_path = "formelark.qmd",
-        output_path = "assets/formelark-print.qmd"
+  input_path = "formelark.qmd",
+  output_path = "assets/formelark-print.qmd"
 ) {
-    if (!requireNamespace("stringr", quietly = TRUE)) install.packages("stringr")
-    if (!requireNamespace("cli", quietly = TRUE)) install.packages("cli")
-    
-    lines <- readLines(input_path, warn = FALSE)
-    
-    # Remove YAML frontmatter
-    start_yaml <- which(lines == "---")[1]
-    end_yaml <- which(lines == "---")[-1][1]
-    lines <- lines[(end_yaml + 1):length(lines)]
-    
-    # Remove download block
-    remove_indices <- which(
-        grepl("formelark-print\\.pdf", lines, fixed = TRUE) |
-            grepl("^> 📄", lines) |
-            grepl("^> \\[", lines)
+  if (!requireNamespace("stringr", quietly = TRUE)) {
+    install.packages("stringr")
+  }
+  if (!requireNamespace("cli", quietly = TRUE)) {
+    install.packages("cli")
+  }
+
+  lines <- readLines(input_path, warn = FALSE)
+
+  # Remove YAML frontmatter
+  start_yaml <- which(lines == "---")[1]
+  end_yaml <- which(lines == "---")[-1][1]
+  lines <- lines[(end_yaml + 1):length(lines)]
+
+  # Remove download block
+  remove_indices <- which(
+    grepl("formelark-print\\.pdf", lines, fixed = TRUE) |
+      grepl("^> 📄", lines) |
+      grepl("^> \\[", lines)
+  )
+  if (length(remove_indices) > 0) {
+    lines <- lines[-unique(c(remove_indices, remove_indices - 1))]
+  }
+
+  # Emoji regex pattern – remove only leading emoji from bullet labels or headers
+  emoji_replace <- function(line) {
+    stringr::str_replace(
+      line,
+      "^(-\\s*)(\\p{So}|\\p{Sk}|\\p{Emoji_Presentation}|\\p{Cntrl})+\\s*",
+      "\\1"
     )
-    if (length(remove_indices) > 0) {
-        lines <- lines[-unique(c(remove_indices, remove_indices - 1))]
+  }
+
+  # Strip ::: panel/callout lines
+  lines <- gsub("^:::\\s*\\{.*\\}", "", lines)
+  lines <- gsub("^:::$", "", lines)
+
+  # Remove emoji from bullets and headers
+  lines <- vapply(lines, emoji_replace, character(1), USE.NAMES = FALSE)
+
+  # Parse blocks
+  entries <- list()
+  current_section <- NULL
+  i <- 1
+
+  while (i <= length(lines)) {
+    line <- stringr::str_trim(lines[i])
+
+    # Section header
+    if (stringr::str_detect(line, "^##\\s")) {
+      current_section <- stringr::str_remove(line, "^##\\s+")
+      i <- i + 1
+      next
     }
-    
-    # Emoji regex pattern – remove only leading emoji from bullet labels or headers
-    emoji_replace <- function(line) {
-        stringr::str_replace(line, "^(-\\s*)(\\p{So}|\\p{Sk}|\\p{Emoji_Presentation}|\\p{Cntrl})+\\s*", "\\1")
+
+    # Bullet label
+    if (stringr::str_detect(line, "^\\s*-.*?\\*\\*")) {
+      label <- stringr::str_match(line, "\\*\\*(.*?)\\*\\*")[, 2]
+      if (
+        (i + 2) <= length(lines) &&
+          stringr::str_trim(lines[i + 1]) == "$$" &&
+          stringr::str_trim(lines[i + 3]) == "$$"
+      ) {
+        formula <- stringr::str_trim(lines[i + 2])
+        entries <- append(entries, list(c(current_section, label, formula)))
+        i <- i + 4
+        next
+      }
     }
-    
-    # Strip ::: panel/callout lines
-    lines <- gsub("^:::\\s*\\{.*\\}", "", lines)
-    lines <- gsub("^:::$", "", lines)
-    
-    # Remove emoji from bullets and headers
-    lines <- vapply(lines, emoji_replace, character(1), USE.NAMES = FALSE)
-    
-    # Parse blocks
-    entries <- list()
-    current_section <- NULL
-    i <- 1
-    
-    while (i <= length(lines)) {
-        line <- stringr::str_trim(lines[i])
-        
-        # Section header
-        if (stringr::str_detect(line, "^##\\s")) {
-            current_section <- stringr::str_remove(line, "^##\\s+")
-            i <- i + 1
-            next
-        }
-        
-        # Bullet label
-        if (stringr::str_detect(line, "^\\s*-.*?\\*\\*")) {
-            label <- stringr::str_match(line, "\\*\\*(.*?)\\*\\*")[, 2]
-            if ((i + 2) <= length(lines) &&
-                stringr::str_trim(lines[i + 1]) == "$$" &&
-                stringr::str_trim(lines[i + 3]) == "$$") {
-                
-                formula <- stringr::str_trim(lines[i + 2])
-                entries <- append(entries, list(c(current_section, label, formula)))
-                i <- i + 4
-                next
-            }
-        }
-        
-        i <- i + 1
+
+    i <- i + 1
+  }
+
+  # YAML + LaTeX header
+  output <- c(
+    "---",
+    "title: \"Vedlegg til eksamen i BED3 Investering og finans\"",
+    "format:",
+    "  pdf:",
+    "    documentclass: article",
+    "    toc: false",
+    "    number-sections: false",
+    "    keep-tex: true",
+    "    include-in-header: latex/minimal_header.tex",
+    "    geometry: top=1cm, bottom=1.5cm, left=1cm, right=1cm",
+    "    papersize: a4",
+    "    fontsize: 10pt",
+    "    linestretch: 1",
+    "    pagestyle: plain",
+    "mainfont: Latin Modern Roman",
+    "---",
+    "",
+    "```{=latex}",
+    "\\renewcommand{\\arraystretch}{2.0}",
+    "\\normalsize",
+    "\\begin{tabularx}{\\textwidth}{@{}lX@{}}"
+  )
+
+  prev_section <- NULL
+  for (entry in entries) {
+    section <- entry[1]
+    label <- entry[2]
+    formula <- entry[3]
+
+    if (!identical(section, prev_section)) {
+      output <- c(
+        output,
+        glue::glue(
+          "\\multicolumn{{2}}{{@{{}}l@{{}}}}{{\\textbf{{{section}}}}} \\\\ \\addlinespace"
+        )
+      )
+      prev_section <- section
     }
-    
-    # YAML + LaTeX header
-    output <- c(
-        "---",
-        "title: \"Vedlegg til eksamen i BED3 Investering og finans\"",
-        "format:",
-        "  pdf:",
-        "    documentclass: article",
-        "    toc: false",
-        "    number-sections: false",
-        "    keep-tex: true",
-        "    include-in-header: latex/minimal_header.tex",
-        "    geometry: top=1cm, bottom=1.5cm, left=1cm, right=1cm",
-        "    papersize: a4",
-        "    fontsize: 10pt",
-        "    linestretch: 1",
-        "    pagestyle: plain",
-        "mainfont: Latin Modern Roman",
-        "---",
-        "",
-        "```{=latex}",
-        "\\renewcommand{\\arraystretch}{2.0}",
-        "\\normalsize",
-        "\\begin{tabularx}{\\textwidth}{@{}lX@{}}"
-    )
-    
-    prev_section <- NULL
-    for (entry in entries) {
-        section <- entry[1]
-        label   <- entry[2]
-        formula <- entry[3]
-        
-        if (!identical(section, prev_section)) {
-            output <- c(
-                output,
-                glue::glue("\\multicolumn{{2}}{{@{{}}l@{{}}}}{{\\textbf{{{section}}}}} \\\\ \\addlinespace")
-            )
-            prev_section <- section
-        }
-        
-        output <- c(output, glue::glue("{label} & $ {formula} $ \\\\"))
-    }
-    
-    output <- c(output, "\\end{tabularx}", "```")
-    
-    # Write .qmd file
-    writeLines(output, output_path)
-    cli::cli_alert_success("✅ Longtable PDF-ready file written to {.file {output_path}}")
+
+    output <- c(output, glue::glue("{label} & $ {formula} $ \\\\"))
+  }
+
+  output <- c(output, "\\end{tabularx}", "```")
+
+  # Write .qmd file
+  writeLines(output, output_path)
+  cli::cli_alert_success(
+    "✅ Longtable PDF-ready file written to {.file {output_path}}"
+  )
 }
-
-
-
-
-
-
-
 
 # render_formelark_pdf() -----------
 
@@ -175,29 +331,32 @@ convert_formula_qmd_for_pdf <- function(
 #'
 #' @param qmd_file Path to the PDF-friendly Quarto file (default: "formelark-print.qmd")
 
+render_formelark_pdf <- function(
+  qmd_file = "assets/formelark-print.qmd",
+  move_tex_to = "assets/latex"
+) {
+  if (!fs::file_exists(qmd_file)) {
+    cli::cli_abort("The file {.file {qmd_file}} does not exist.")
+  }
 
-render_formelark_pdf <- function(qmd_file = "assets/formelark-print.qmd", 
-                                 move_tex_to = "assets/latex") {
-    if (!fs::file_exists(qmd_file)) {
-        cli::cli_abort("The file {.file {qmd_file}} does not exist.")
-    }
-    
-    # Render the PDF from the qmd file
-    quarto::quarto_render(input = qmd_file, output_format = "pdf")
-    
-    # Define .tex path
-    tex_file <- fs::path_ext_set(qmd_file, "tex")
-    
-    # Create target folder if it doesn't exist
-    if (!fs::dir_exists(move_tex_to)) {
-        fs::dir_create(move_tex_to)
-    }
-    
-    # Construct destination path and move the file
-    new_tex_path <- fs::path(move_tex_to, fs::path_file(tex_file))
-    fs::file_move(tex_file, new_tex_path)
-    
-    cli::cli_alert_success("Rendered PDF and moved .tex to {.file {new_tex_path}}.")
+  # Render the PDF from the qmd file
+  quarto::quarto_render(input = qmd_file, output_format = "pdf")
+
+  # Define .tex path
+  tex_file <- fs::path_ext_set(qmd_file, "tex")
+
+  # Create target folder if it doesn't exist
+  if (!fs::dir_exists(move_tex_to)) {
+    fs::dir_create(move_tex_to)
+  }
+
+  # Construct destination path and move the file
+  new_tex_path <- fs::path(move_tex_to, fs::path_file(tex_file))
+  fs::file_move(tex_file, new_tex_path)
+
+  cli::cli_alert_success(
+    "Rendered PDF and moved .tex to {.file {new_tex_path}}."
+  )
 }
 
 #_______________________________________________________________________________

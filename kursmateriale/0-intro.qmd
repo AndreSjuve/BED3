@@ -1,16 +1,16 @@
 ---
-title: "Introduksjon"
+title: "Investering og finans i en knapp verden"
 page-layout: article
 number-sections: true
 ---
 
 <!-- &#10; Bruke dette for linjeskift inne i tooltip -->
 
-Økonomi handler om et enkelt, men evig problem: vi ønsker oss alltid mer enn vi kan få. Gapet mellom hva vi vil ha og hva vi faktisk kan skaffe er selve motoren i økonomifaget.  
+Økonomi handler om et enkelt, men evig problem: vi ønsker oss alltid mer enn vi kan få. Gapet mellom hva vi vil ha og hva vi faktisk kan skaffe er selve motoren i økonomifaget.
 
-Dette kurset, BED3, tar utgangspunkt i dette grunnleggende problemet og handler i bunn og grunn om hvordan vi organiserer den knappe ressursen kapital. I investeringsanalysen ser vi på hvordan prosjekter må prioriteres når kapitalen ikke strekker til alt. I porteføljeteorien ser vi på hvordan kapitalen kan fordeles mellom aktiva for å balansere risiko og avkastning. I kapitalverdimodellen ser vi hvordan markedet priser risikokapital, og i kapitalstruktur analyserer vi hvordan bedrifter bør hente inn kapital gjennom gjeld eller egenkapital.  
+Dette kurset, BED3, tar utgangspunkt i dette grunnleggende problemet og handler i bunn og grunn om hvordan vi organiserer den knappe ressursen kapital. I investeringsanalysen ser vi på hvordan prosjekter må prioriteres når kapitalen ikke strekker til alt. I porteføljeteorien ser vi på hvordan kapitalen kan fordeles mellom aktiva for å balansere risiko og avkastning. I kapitalverdimodellen ser vi hvordan markedet priser risikokapital, og i kapitalstruktur analyserer vi hvordan bedrifter bør hente inn kapital gjennom gjeld eller egenkapital.
 
-Kurset tar oss også videre inn i nærliggende temaer som gir et bredere bilde av hvordan kapital organiseres i en moderne økonomi. Vi ser på hvordan bærekraft og etiske hensyn påvirker investeringsbeslutninger. Vi introduserer opsjoner og terminkontrakter som verktøy for fleksibilitet og risikostyring. Vi undersøker hvordan rentemarkedet og valutamarkedene setter rammer for investeringer og finansiering i en global sammenheng.  
+Kurset tar oss også videre inn i nærliggende temaer som gir et bredere bilde av hvordan kapital organiseres i en moderne økonomi. Vi ser på hvordan bærekraft og etiske hensyn påvirker investeringsbeslutninger. Vi introduserer opsjoner og terminkontrakter som verktøy for fleksibilitet og risikostyring. Vi undersøker hvordan rentemarkedet og valutamarkedene setter rammer for investeringer og finansiering i en global sammenheng.
 Slik spenner BED3 over flere dimensjoner av det samme problemet: hvordan den knappe ressursen kapital kan brukes og prises på en måte som skaper mest mulig verdi gitt de ønsker og rammer samfunnet står overfor.
 
 # Opphavet og omfanget av økonomi
@@ -26,54 +26,53 @@ Vi har dermed slått fast at økonomifaget først og fremst handler om å skaffe
 
 ### Mer av hva
 
-Økonomifaget retter særlig oppmerksomheten mot hvordan vi kan skaffe mer av <span class="tooltip-term" data-tooltip="Brukes som en samlebetegnelse på varer og tjenester.">goder</span> som både tilfredsstiller ønsker og kan omsettes i et marked. Slike nyttige og knappe goder kalles *økonomiske goder*. Alle andre goder omtales som *ikke-økonomiske goder*. 
+Økonomifaget retter særlig oppmerksomheten mot hvordan vi kan skaffe mer av <span class="tooltip-term" data-tooltip="Brukes som en samlebetegnelse på varer og tjenester.">goder</span> som både tilfredsstiller ønsker og kan omsettes i et marked. Slike nyttige og knappe goder kalles *økonomiske goder*. Alle andre goder omtales som *ikke-økonomiske goder*.
 
-Det finnes mange goder som ikke kan omsettes, som atletiske evner, venners gunst eller familiens kjærlighet. Disse kan være vel så viktige som økonomiske goder, men mennesker ser ut til å foretrekke en kombinasjon av begge typer.  
+Det finnes mange goder som ikke kan omsettes, som atletiske evner, venners gunst eller familiens kjærlighet. Disse kan være vel så viktige som økonomiske goder, men mennesker ser ut til å foretrekke en kombinasjon av begge typer.
 
-Så langt har vi derfor begrenset økonomi til studiet av hvordan mennesker søker å skaffe flere økonomiske goder: mer mat, flere klær, større hus, ny og bedre bil. Mer presist har vi definert økonomi som studiet av hvordan grupper organiserer bruken av ressurser for å oppnå dette målet. 
+Så langt har vi derfor begrenset økonomi til studiet av hvordan mennesker søker å skaffe flere økonomiske goder: mer mat, flere klær, større hus, ny og bedre bil. Mer presist har vi definert økonomi som studiet av hvordan grupper organiserer bruken av ressurser for å oppnå dette målet.
 
 
 ### Bruke ressurser: Produksjon
 
-Ressurser kan grovt deles i to hovedkategorier: **mennesker** og **natur**. Som mennesker bruker vi vår fysiske styrke og intelligens på ressursene som kommer fra naturen, og resultatet blir goder som kan tilfredsstille våre ønsker, som et brød, en fotballkamp eller et fly.  
+Ressurser kan grovt deles i to hovedkategorier: **mennesker** og **natur**. Som mennesker bruker vi vår fysiske styrke og intelligens på ressursene som kommer fra naturen, og resultatet blir goder som kan tilfredsstille våre ønsker, som et brød, en fotballkamp eller et fly.
 
-Dersom ressursene var ubegrensede, eller våre ønsker svært beskjedne, kunne vi produsere alt alle ville ha hele tiden. Da ville det ikke eksistert noe økonomisk problem, og dermed heller ikke noe økonomifag. Ressurser er alltid en mangelvare sammenlignet med hvor mye vi ønsker oss av de godene som produseres. Som en konsekvens må ethvert samfunn ta viktige valg og beslutninger.  
+Dersom ressursene var ubegrensede, eller våre ønsker svært beskjedne, kunne vi produsere alt alle ville ha hele tiden. Da ville det ikke eksistert noe økonomisk problem, og dermed heller ikke noe økonomifag. Ressurser er alltid en mangelvare sammenlignet med hvor mye vi ønsker oss av de godene som produseres. Som en konsekvens må ethvert samfunn ta viktige valg og beslutninger.
 
-Når ressursene settes inn i produksjon, oppstår et samspill mellom husholdninger og bedrifter. Dette samspillet kan vi se tydelig gjennom velstandshjulet. 
+Når ressursene settes inn i produksjon, oppstår et samspill mellom husholdninger og bedrifter. Dette samspillet kan vi se tydelig gjennom velstandshjulet.
 
 ### Velstandshjulet
 
-For å forstå hvordan økonomien henger sammen, kan vi se nærmere på *velstandshjulet*. Husholdningene er de endelige eierne av ressursene og har behovene og ønskene som driver prosessen. Bedriftene er de organiserte enhetene som setter ressursene sammen til varer og tjenester som kan tilfredsstille disse ønskene. Når husholdningene kjøper varene og tjenestene, får bedriftene inntekter som brukes til å betale ressursene tilbake i form av lønn, renter og utbytte. På denne måten går ressursene i sirkel mellom husholdningene og bedriftene.  
+For å forstå hvordan økonomien henger sammen, kan vi se nærmere på *velstandshjulet*. Husholdningene er de endelige eierne av ressursene og har behovene og ønskene som driver prosessen. Bedriftene er de organiserte enhetene som setter ressursene sammen til varer og tjenester som kan tilfredsstille disse ønskene. Når husholdningene kjøper varene og tjenestene, får bedriftene inntekter som brukes til å betale ressursene tilbake i form av lønn, renter og utbytte. På denne måten går ressursene i sirkel mellom husholdningene og bedriftene.
 
 ![Velstandshjulet](figures/wheel_of_wealth.svg){fig-align="center" width="80%"}
 
-Velstandshjulet viser hvordan ressursene sirkulerer mellom husholdninger og bedrifter, men det etterlater tre grunnleggende valg som alle samfunn må ta stilling til: hva, hvem og hvor mye. 
+Velstandshjulet viser hvordan ressursene sirkulerer mellom husholdninger og bedrifter, men det etterlater tre grunnleggende valg som alle samfunn må ta stilling til: hva, hvem og hvor mye.
 
 ### Grunnleggende valg {#sec-grunnleggende-valg}
-Alle økonomiske systemer står overfor tre grunnleggende valg:  
+Alle økonomiske systemer står overfor tre grunnleggende valg:
 
 - **Produksjonsvalget (Hva-beslutningen)**: Hvilke varer og tjenester skal produseres, og hvor mye
 - **Produsentvalget (Hvem-beslutningen)**: Hvem skal produsere dem
 - **Fordelingsvalget (Hvor mye-beslutningen)**: Hvordan resultatene av produksjonen skal fordeles
 
-De institusjonelle ordningene som bestemmer hvordan slike valg tas og håndheves, utgjør samfunnets økonomiske organisering, eller dets økonomiske system. Hvordan disse valgene tas varierer fra samfunn til samfunn. Ulike økonomiske systemer gir ulike svar, og det er nyttig å skille mellom planøkonomi og markedsøkonomi som to idealiserte ytterpunkter. 
+De institusjonelle ordningene som bestemmer hvordan slike valg tas og håndheves, utgjør samfunnets økonomiske organisering, eller dets økonomiske system. Hvordan disse valgene tas varierer fra samfunn til samfunn. Ulike økonomiske systemer gir ulike svar, og det er nyttig å skille mellom planøkonomi og markedsøkonomi som to idealiserte ytterpunkter.
 
 
 ### Typer økonomisk organisering
 
-Alle samfunn har gjennom historien måttet velge hvordan de organiserer økonomien. Selv om dette kurset ikke gir en full gjennomgang, kan vi peke på to idealiserte typer systemer:  
+Alle samfunn har gjennom historien måttet velge hvordan de organiserer økonomien. Selv om dette kurset ikke gir en full gjennomgang, kan vi peke på to idealiserte typer systemer:
 
-- **Planøkonomi**: En sentral myndighet bestemmer hva som skal produseres, hvem som skal produsere det, og hvordan resultatet skal fordeles  
-- **Markedsøkonomi**: Beslutningene overlates til enkeltpersoner og bedrifter som handler ut fra signaler gitt av priser, ofte kalt prissystemet eller frimarkedssystemet  
-I praksis finnes det nesten aldri rene planøkonomier eller rene markedsøkonomier. De fleste systemer er blandinger av sentralisert kontroll og individuelle beslutninger. 
+- **Planøkonomi**: En sentral myndighet bestemmer hva som skal produseres, hvem som skal produsere det, og hvordan resultatet skal fordeles
+- **Markedsøkonomi**: Beslutningene overlates til enkeltpersoner og bedrifter som handler ut fra signaler gitt av priser, ofte kalt prissystemet eller frimarkedssystemet
+I praksis finnes det nesten aldri rene planøkonomier eller rene markedsøkonomier. De fleste systemer er blandinger av sentralisert kontroll og individuelle beslutninger.
 
-Vestlige samfunn er i hovedsak markedsorienterte, og vi kan derfor legge vekt på hvordan de tre grunnleggende valgene fra kapittel @sec-grunnleggende-valg faktisk tas i en slik økonomi. I en markedsøkonomi skjer dette desentralisert. Hva som produseres avgjøres av husholdningene gjennom hvordan de bruker sine penger; kjøpene deres er i praksis stemmer som styrer produksjonen. Hvem som produserer avgjøres av bedriftene, men styres av profitt og tap: de som møter husholdningenes ønsker belønnes, mens de som ikke gjør det, taper. Hvor mye hver person får av det som produseres avgjøres gjennom prisene i markedet og størrelsen på inntekten; varer går til den som er villig til å betale mest, og inntekt bestemmes i stor grad av hvor produktive ressursene er. Dette gir sterke insentiver til effektiv ressursbruk, men skaper også ulikheter i fordeling. Hva som er en rettferdig fordeling ligger utenfor rammene for dette kurset; her fokuserer vi på hvordan ressursene best kan brukes til å maksimere antallet ønsker som faktisk blir tilfredsstilt.  
+Vestlige samfunn er i hovedsak markedsorienterte, og vi kan derfor legge vekt på hvordan de tre grunnleggende valgene fra kapittel @sec-grunnleggende-valg faktisk tas i en slik økonomi. I en markedsøkonomi skjer dette desentralisert. Hva som produseres avgjøres av husholdningene gjennom hvordan de bruker sine penger; kjøpene deres er i praksis stemmer som styrer produksjonen. Hvem som produserer avgjøres av bedriftene, men styres av profitt og tap: de som møter husholdningenes ønsker belønnes, mens de som ikke gjør det, taper. Hvor mye hver person får av det som produseres avgjøres gjennom prisene i markedet og størrelsen på inntekten; varer går til den som er villig til å betale mest, og inntekt bestemmes i stor grad av hvor produktive ressursene er. Dette gir sterke insentiver til effektiv ressursbruk, men skaper også ulikheter i fordeling. Hva som er en rettferdig fordeling ligger utenfor rammene for dette kurset; her fokuserer vi på hvordan ressursene best kan brukes til å maksimere antallet ønsker som faktisk blir tilfredsstilt.
 
-Disse mekanismene viser hvordan markedsøkonomien organiserer ressursbruken på en måte som både skaper verdier og setter rammer for fordeling. Med dette rammeverket på plass kan vi oppsummere hva økonomi handler om, og samtidig se hvordan BED3 passer inn som en konkret anvendelse av disse prinsippene. Vi kan dermed oppsummere økonomifaget med en raffinert definisjon: 
+Disse mekanismene viser hvordan markedsøkonomien organiserer ressursbruken på en måte som både skaper verdier og setter rammer for fordeling. Med dette rammeverket på plass kan vi oppsummere hva økonomi handler om, og samtidig se hvordan BED3 passer inn som en konkret anvendelse av disse prinsippene. Vi kan dermed oppsummere økonomifaget med en raffinert definisjon:
 
 ::: {.callout-quote}
 *Studiet av hvordan mennesker organiserer bruken av knappe ressurser for å tilfredsstille sine ønsker.*
 :::
 
 Når vi sier at økonomi er studiet av hvordan mennesker organiserer bruken av knappe ressurser for å tilfredsstille sine ønsker, får dette konkret innhold i BED3. Bedrifter må velge prosjekter som møter husholdningenes behov, og belønnes med profitt dersom de lykkes. Individer må investere sine midler slik at de balanserer avkastning og risiko, og disse investeringene gir samtidig kapital til bedrifter. Markedene samordner ressursbruken gjennom priser som sender signaler om hvor ressursene skaper mest verdi og tilfredsstiller flest ønsker. Samfunnet setter rammene gjennom lover, skatter, etikk og bærekraft. BED3 handler derfor om å forstå og analysere de grunnleggende mekanismene og modellene for hvordan knappe ressurser bør investeres og finansieres.
-

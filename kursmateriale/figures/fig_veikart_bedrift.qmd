@@ -1,0 +1,84 @@
+---
+published: false
+draft: true
+format:
+  pdf:
+    documentclass: standalone
+    keep-tex: true
+    include-in-header: ../../assets/latex/fig_preamble.tex
+---
+
+
+\begin{tikzpicture}[
+  scale=0.95,
+  every node/.style={transform shape},
+  thick,
+  node distance=8mm and 12mm
+]
+
+% Farger.
+\definecolor{cTop}{RGB}{230,170,160}
+\definecolor{cInvest}{RGB}{32,75,111}
+\definecolor{cFinance}{RGB}{146,185,221}
+\definecolor{cPayout}{RGB}{0,128,128}
+\definecolor{cContext}{RGB}{240,200,160}
+\definecolor{cRisk}{RGB}{200,160,200}
+
+% Stiler.
+\tikzset{
+  box/.style={rectangle, rounded corners=3pt, inner sep=6pt, align=center, text width=44mm},
+  lvlA/.style={box, fill=cTop, text=black},
+  lvlB/.style={box, fill=black!3, draw=black!50, text=black},
+  colInvest/.style={fill=cInvest!90, text=white},
+  colFinance/.style={fill=cFinance!90, text=white},
+  colPayout/.style={fill=cPayout!90, text=white},
+  side/.style={box, draw=black!40, fill=white, text=black, text width=36mm}
+}
+
+% Topp.
+\node (top) [lvlA] {Bedriftens finansielle beslutninger};
+
+% Nivå 2.
+\node (invest)  [box,colInvest, below=14mm of top, xshift=-55mm] {Investeringsbeslutninger};
+\node (finance) [box,colFinance, below=14mm of top]               {Finansieringsbeslutninger};
+\node (payout)  [box,colPayout,  below=14mm of top, xshift=55mm]  {Utdelingsbeslutninger};
+
+% Piler topp til nivå 2.
+\draw[thick] (top) -- (invest);
+\draw[thick] (top) -- (finance);
+\draw[thick] (top) -- (payout);
+
+% Nivå 3 under Investering.
+\node (inv1) [lvlB, below=of invest, yshift=-2mm] {Frie kontantstrømmer og drift};
+\node (inv2) [lvlB, below=of inv1] {Nåverdi og internrente};
+\node (inv3) [lvlB, below=of inv2] {Avkastningskrav og kapitalkostnad};
+\node (inv4) [lvlB, below=of inv3] {Risikoanalyse og scenarier};
+
+% Nivå 3 under Finansiering.
+\node (fin1) [lvlB, below=of finance, yshift=-2mm] {Gjeld og egenkapital};
+\node (fin2) [lvlB, below=of fin1] {WACC og skattefordel};
+\node (fin3) [lvlB, below=of fin2] {Kapitalstruktur og fleksibilitet};
+\node (fin4) [lvlB, below=of fin3] {Kapitaltilgang og emisjonsmarked};
+
+% Nivå 3 under Utdeling.
+\node (pay1) [lvlB, below=of payout, yshift=-2mm] {Utbytte og tilbakekjøp};
+\node (pay2) [lvlB, below=of pay1] {Retensjon og vekst};
+\node (pay3) [lvlB, below=of pay2] {Signaler og investorrettede valg};
+\node (pay4) [lvlB, below=of pay3] {Likviditet og utdelingspolitikk};
+
+% Piler nivå 2 til nivå 3.
+\foreach \a/\b in {invest/inv1, inv1/inv2, inv2/inv3, inv3/inv4,
+                   finance/fin1, fin1/fin2, fin2/fin3, fin3/fin4,
+                   payout/pay1, pay1/pay2, pay2/pay3, pay3/pay4}{
+  \draw[thick] (\a) -- (\b);
+}
+
+% Sidebokser for kontekst og for tid og risiko.
+\node (context) [side, left=50mm of finance, above=of invest, yshift=-2mm] {Kontekst. Skatt. Inflasjon. Markeder. Institusjoner.};
+\node (risk)    [side, right=50mm of finance, above=of payout, yshift=-2mm] {Tid og risiko. Diskontering. Kapitalkostnad. Usikkerhet.};
+
+% Diskret rammer som grupperer hver søyle.
+\node[draw=black!15, rounded corners=4pt, fit=(invest) (inv4), inner sep=6pt] {};
+\node[draw=black!15, rounded corners=4pt, fit=(finance) (fin4), inner sep=6pt] {};
+\node[draw=black!15, rounded corners=4pt, fit=(payout) (pay4), inner sep=6pt] {};
+\end{tikzpicture}

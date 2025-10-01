@@ -1,22 +1,28 @@
-project: 
+project:
   type: website
   output-dir: docs
+  #resources:
+  #  - assets/latex/fig_preamble.tex
   render:
     - "**/*.qmd"
     - "!assets/formelark-print.qmd"
+    - "!fig_*.qmd"
+
+exclude:
+- "fig_*.qmd"
 
 metadata-files:
   - _variables.yml
 
-website: 
+website:
   title: "BED3 – Investering og finans"
   page-navigation: true
 
-  navbar: 
-    #background: primary
+
+  navbar:
     logo: assets/images/nhh.png
     search: true
-    right: 
+    right:
       - text: "Om kurset"
         icon: info-circle-fill
         href: kursinformasjon.qmd
@@ -33,25 +39,51 @@ website:
         icon: file-earmark-text
         href: oving_vurdering.qmd
 
-  sidebar: 
+  # Sidebar for hub sider. Ikke for modul sider.
+
+  sidebar:
     - id: id-innhold
       title: "Kursinnhold"
-      style: "docked"
+      style: docked
       contents:
-        - section: "Intro BED3"
+        - section: "Introduksjon til kursinnholdet"
+          collapse: true
           contents:
             - text: "Forord"
               href: kursmateriale/0-forord.qmd
-            - text: "Oversikt"
+            - text: "Kursets plassering i økonomi"
               href: kursmateriale/0-intro.qmd
-        - section: "Investeringsanalyse"
+            - text: "Innledning til investering og finans"
+              href: kursmateriale/0-intro_finans.qmd
+        - section: "Moduler"
+          collapse: true
           contents:
-            - text: "Oversikt investeringsanalyse"
-              href: kursmateriale/1-intro.qmd
+            - section: "Investeringsanalyse"
+              href: kursmateriale/01-investeringsanalyse/index.qmd
+              collapse: true
+              contents:
+                - text: "1. Introduksjon"
+                  href: kursmateriale/01-investeringsanalyse/01-introduksjon/index.qmd
+                - text: "2. Tidens verdi av penger"
+                  href: kursmateriale/01-investeringsanalyse/02-tidens-verdi/index.qmd
+                - text: "3. Kontantstrømmer"
+                  href: kursmateriale/01-investeringsanalyse/03-kontantstrom/index.qmd
+                - text: "4. Investeringskriterier"
+                  href: kursmateriale/01-investeringsanalyse/04-investeringskriterier/index.qmd
+                - text: "5. Supplerende metoder"
+                  href: kursmateriale/01-investeringsanalyse/05-supplerende-metoder/index.qmd
+                - text: "6. Risiko og usikkerhet"
+                  href: kursmateriale/01-investeringsanalyse/06-risiko/index.qmd
+                - text: "7. Lån og betalingsalternativer"
+                  href: kursmateriale/01-investeringsanalyse/07-lan-og-betaling/index.qmd
+                - text: "8. Oppsummering og case"
+                  href: kursmateriale/01-investeringsanalyse/08-oppsummering-case/index.qmd
+
+
 
     - id: id-oving
       title: "Øvingsmateriale"
-      style: "docked"
+      style: docked
       contents:
         - section: "Øvingsoppgaver"
           contents:
@@ -64,24 +96,23 @@ website:
             - text: "Om innleveringen"
               href: oblig_innlevering/1-info.qmd
 
-  page-footer: 
+  page-footer:
     border: false
     center: >-
        &#169; 2025-2026 André Wattø Sjuve  <br> <i class='far fa-calendar-alt'></i> {{< var weekday1 >}} - <i class='far fa-clock'></i> {{< var time1 >}} | <i class='far fa-calendar-alt'></i> {{< var weekday2 >}} - <i class='far fa-clock'></i> {{< var time2 >}}  <br><i class='fa fa-map-marker-alt'></i> {{< var room >}}</a>
 
-format: 
-  html: 
-    theme: 
-      light: 
+format:
+  html:
+    theme:
+      light:
         - flatly
         - assets/styles/custom.scss
     toc: false
-    #toc-depth: 2
     page-layout: full
     number-sections: true
     include-in-header: "_includes/header.html"
 
-execute: 
+execute:
   freeze: auto
   echo: false
   warning: false
