@@ -1,0 +1,116 @@
+---
+title: "Fra økonomi til bedriftsøkonomi: Bedriftens finansielle beslutninger"
+page-layout: article
+number-sections: true
+---
+
+<!-- &#10; Bruke dette for linjeskift inne i tooltip -->
+
+## Innledning
+Økonomi springer ut av knapphet. Vi ønsker oss alltid mer enn vi kan få. Dette gjelder ikke bare for husholdninger og samfunn, men også for bedrifter. Når vi studerer knapphetsproblemet i bedriftens kontekst, kaller vi det bedriftsøkonomi. Studerer vi det på individ- eller samfunnsnivå, kaller vi det personlig økonomi eller samfunnsøkonomi.
+
+I dette kapittelet vil få oversikt over hele faget investering og finans. Vi skal se hvordan de ulike delene henger sammen, og hvordan de bygger på grunnleggende prinsipper i økonomi. Dette gir oss et veikart som hjelper oss å navigere resten av faget.
+
+I finans stiller vi et mer spesifikt spørsmål: **Hvordan allokerer individer og samfunnet knappe ressurser gjennom et prissystem som verdsetter risikable aktiva?** Her er det særlig <span class="tooltip-term" data-tooltip="Med kapital mener vi både penger, men også fysiske maskiner og annet &#10 som er laget for bruk i produksjon av varer og tjenester (såkalte capital goods)">kapital</span> som står i sentrum i finans. Vi er opptatt av hvordan sparing fra husholdninger og investorer kanaliseres til bedrifter, og hvordan kapitalmarkedene setter prisen på risikable aktiva underveis.
+
+![Veikart finans](media/fig_veikart_finans.svg){#fig-veikart-finans fig-align="center" width="80%"}
+
+Figur @fig-veikart-finans ovenfor viser hvordan denne prosessen ser ut i praksis. Til venstre finner vi investorene som tilbyr kapital. Til høyre finner vi bedrifter som etterspør kapital for å investere i prosjekter. Mellom dem står kapitalmarkedet, der prisen på risikable aktiva fastsettes. Nederst ser du de viktigste byggesteinene i moderne finans, som gir oss teoriene og verktøyene vi bruker til å analysere samspillet mellom investorere, bedrifter og kapitalmarkedet.
+
+## Investorer: husholdningenes rolle i finans
+
+Husholdningene er de ultimate eierne av kapital i samfunnet. Selv om kapital ofte forvaltes gjennom banker, forsikringsselskaper eller pensjonsfond, er det til syvende og sist husholdningenes sparing som ligger bak. Når husholdninger har mer kapital enn de trenger til forbruk i dag, kan de velge å utsette noe av forbruket og heller spare. Det gjør dem til investorer og tilbydere av kapital.
+
+Å spare betyr å flytte forbruk fra nåtid til fremtid. Husholdninger tar derfor alltid stilling til tre spørsmål:
+
+- Hvor mye vil jeg bruke i dag, og hvor mye vil jeg spare til senere
+- Hvor lenge kan jeg binde pengene
+- Hvor stor risiko er jeg villig til å ta for muligheten til høyere avkastning
+
+Kapitalmarkedene gjør denne avveiningen langt enklere. De gir husholdningene mulighet til å plassere pengene i alt fra en trygg sparekonto til aksjer med høyere risiko og potensielt høyere avkastning. Markedet setter en pris på hva det koster å utsette forbruket, og denne prisen ser vi som renter og avkastningskrav.
+
+For bedriftene er dette avgjørende. Uten kapitalmarkedene måtte husholdningene selv investere direkte i prosjekter eller eiendeler, noe som er upraktisk og risikabelt. Med kapitalmarkedene kan kapital flyttes fra husholdninger som har penger, til bedrifter som har prosjekter, men mangler finansiering. Dette gjør at ressursene i samfunnet brukes der de skaper mest verdi.
+
+Noen investorer har dessuten mål utover ren avkastning. De kan ønske å bidra til bærekraftige investeringer eller påvirke hvordan bedrifter driver sin virksomhet. Slik viser investorene at de ikke bare er opptatt av forbruk i dag og i morgen, men også av hvilken fremtid de er med på å skape.
+
+::: {.callout-example title="Eksempel"}
+Tenk på en student som har tjent 40 000 kroner på sommerjobb. Hun kan bruke hele beløpet på en ferie nå, eller hun kan spare halvparten i et aksjefond. Ferie gir høy nytte i dag, men ingen fremtidig avkastning. Sparing gir mulighet for mer forbruk i fremtiden, men innebærer risiko. Valget illustrerer investorens grunnleggende avveiing: forbruk nå eller senere, og hvor mye risiko man er villig til å ta.
+:::
+
+::: {.callout-note title="Hva vi kommer tilbake til senere"}
+I dette kapittelet har vi bare introdusert investorens rolle. Senere i kurset skal vi se nærmere på:
+- **Sparing og investering**: Hvordan risiko og avkastning henger sammen når man velger å investere i ulike aktiva
+- **Porteføljeteori**: hvordan diversifisering gjør at risiko kan reduseres uten å senke forventet avkastning
+- **Kapitalverdimodellen (CAPM)**: hvordan risiko prises i markedet, og hvordan det danner grunnlag for avkastningskrav
+:::
+
+## Kapitalmarkedet: prissetting og allokering
+
+For å forstå verdien av kapitalmarkedet, kan vi tenke oss en økonomi uten markeder. I en slik økonomi er det vanskelig for husholdninger å flytte forbruk over tid, og bedrifter kan bare investere i prosjekter de har kontanter til her og nå. All investering må skje med egne midler.
+
+Kapitalmarkedet løser dette problemet. Det gir mulighet til å låne, spare og flytte ressurser på en måte som gjør alle bedre stilt enn de ville vært alene. Markedet knytter sammen tilbydere og etterspørrere av kapital. Ressurser allokeres gjennom et prissystem som reflekterer informasjon om risiko og avkastning. Dette skjer desentralisert, ved at prissignaler gir aktørene grunnlag for sine valg. Den sentrale funksjonen er å sørge for en effektiv ressursallokering.
+
+Effektiv allokering oppnås ved at kapitalmarkedet leverer tre grunnleggende tjenester. Disse er oppsummert i figur @fig-finservices nedenfor (basert på Døskeland, *Investing for the Long Term*, 2025).
+
+![Finansielle tjenester](media/fig_finansielle_tjenester.svg){#fig-finservices fig-align="center" width="80%"}
+
+- **Sparing**: gjør det mulig å utsette konsum. De som har mer kapital enn de trenger i dag, kan plassere pengene og bruke dem senere. Prisen på utsatt konsum settes i form av renter og avkastning.
+- **Lån**: gjør det mulig å investere i dag selv uten egne midler. På den måten kan prosjekter med høy verdi realiseres. Å låne er å flytte forbruk fra fremtid til nåtid.
+- **Risikohåndtering**: gjør det mulig å beskytte seg mot uønskede utfall. Dette kan skje gjennom forsikring eller ved å flytte kapital mellom aktiva med ulik risiko. Kapitalmarkedet sprer og deler risiko på en effektiv måte.
+
+Effektiv ressursallokering er avgjørende for økonomisk vekst. Vekst er igjen en forutsetning for økt konsum og velferd over tid. Kapitalmarkedet bidrar til dette ved å kanalisere sparing til de mest lønnsomme investeringene og ved å gi både husholdninger og bedrifter mulighet til å håndtere risiko effektivt.
+
+::: {.callout-note title="Oppsummert: Kapitalmarkedet"}
+- Uten kapitalmarkeder kan husholdninger ikke spare over tid, og bedrifter kan ikke investere utover egne midler.
+- Kapitalmarkedet gjør det mulig å låne, spare og håndtere risiko, slik at ressursene brukes der de skaper mest verdi.
+- Gjennom prissystemet allokeres kapital desentralisert basert på informasjon om risiko og avkastning.
+- Effektiv ressursallokering er en forutsetning for økonomisk vekst og økt velferd over tid.
+:::
+
+## Foretaket: investering, finansiering og utbyte
+
+I figur @fig-veikart-finans er foretaket plassert på høyre side. Foretaket er den aktøren som etterspør kapital. Samtidig er det selve motoren i verdiskapingen: det bruker kapital, arbeidskraft og ledelse til å produsere varer og tjenester som tilfredsstiller husholdningenes ønsker gjennom å investere i prosjekter. Prosjekter er investeringer i realaktiva, som består av fysiske (fabrikker, maskiner etc.) og immaterielle (patenter, merkevarer osv.) eiendeler. Når bedriften lykkes bedre med sine prosjekter enn konkurrentene, skaper den overskudd. Overskuddet gir eierne profitt, og profitt som er stabil og fremtidsrettet løfter verdien av bedriften.
+
+I bedriftsøkonomi antar vi ofte at målet er <span class="tooltip-term" data-tooltip="Her menes økonomisk overskudd, definert som inntekter minus både &#10 eksplisitte og implisitte kostnader, inkludert alternativkostnader">profittmaksimering</span>. Bedriften skal da bruke ressursene slik at inntekter minus kostnader blir størst mulig. To grunnprinsipper følger av dette:
+
+- *De minste midler*: produser med minst mulig ressursbruk
+- *De største resultater*: få mest mulig ut av gitte ressurser
+
+I finans går vi et steg videre. Vi antar ofte at bedriften er børsnotert, og at målet er å maksimere <span class="tooltip-term" data-tooltip="Med dette menes verdien av selskapets egenkapital som er &#10 aksjekurs multiplisert med antall utestående aksjer">markedsverdien av selskapets aksjer</span>. Markedsverdien reflekterer størrelsen, tidspunktet og sikkerheten til de forventede betalingene til aksjonærene. En usikker betalingsstrøm verdsettes lavere enn en sikker strøm med samme forventede størrelse. Dette målet er mer omfattende enn profittmaksimering, fordi det tar hensyn til både tid og risiko.
+
+For å nå målet om verdimaksimering må bedriften ta tre typer beslutninger:
+
+- **Investeringsbeslutninger**: hvilke prosjekter skal gjennomføres
+- **Finansieringsbeslutninger**: hvordan prosjektene skal betales, med gjeld eller egenkapital
+- **Utbyttebeslutninger**: hvordan overskuddet skal disponeres mellom eierne og videre investeringer
+
+Målet om verdimaksimering har møtt kritikk. Mange mener at bedrifter også bør ivareta interessene til ansatte, kunder, leverandører og samfunnet for øvrig. Andre hevder at beslutningstakere i praksis ikke maksimerer, men heller søker en tilfredsstillende løsning, et prinsipp kjent som <span class="tooltip-term" data-tooltip="Begrepet kommer fra Herbert Simons konsept satisficing, og beskriver &#10 en beslutningsprosess hvor man velger en løsning som er god nok heller en den absolutt beste.">satisfiering</span>.
+
+I dette kurset legger vi likevel til grunn at bedriftens mål er å maksimere markedsverdien av aksjene, fordi dette best reflekterer eiernes interesser. Det betyr ikke at hensyn som bærekraft og samfunnsansvar er uviktige, men at de må integreres i beslutningene på en måte som også skaper verdi for eierne. Vi legger derfor til grunn at valg først og fremst må være **økonomisk bærekraftige**: prosjekter må gi kontantstrømmer som dekker kostnader, forrenter kapitalen og skaper avkastning i forhold til risiko. Uten økonomisk bærekraft kan selv gode intensjoner ikke opprettholdes over tid.
+
+## Oppsummering
+
+Så, nå har du fått rammen for faget investering og finans. Vi har sett hvordan de tre hovedaktørene henger sammen:
+
+- Husholdningene er de ultimate tilbyderne av kapital.
+- Kapitalmarkedet binder sammen sparere og bedrifter, og tilbyr sparing, lån og risikohåndtering.
+- Bedriftene er motoren som bruker kapital til å skape verdier, styrt av målet om verdimaksimering.
+
+Med denne forståelsen har du et klart bilde av hva faget handler om. Resten av faget handler om å fylle inn detaljene. Her kan du bla deg gjennom en kort presentasjon som oppsummerer hovedpunktene i kapittelet:
+
+<iframe src="../../docs/kursmateriale/00-introduksjon/0-introduksjon-slides.html" width="100%" height="600px" style="border:none; margin-top: 1em; margin-bottom: 1em;"></iframe>
+
+[📥 Last ned presentasjonen som egen fil](../../docs/kursmateriale/00-introduksjon/0-introduksjon-slides.html){.btn .btn-primary target="_blank"}
+
+<!--
+## Hør introduksjonen som podcast
+<div style="position:relative;padding-bottom:152px;height:0;overflow:hidden;border-radius:8px;">
+  <iframe style="position:absolute;top:0;left:0;width:100%;height:152px;border:0;"
+    src="https://open.spotify.com/embed/episode/EPISODE_ID?utm_source=generator"
+    loading="lazy"
+    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+  </iframe>
+</div>
+
+[Åpne i Spotify](https://open.spotify.com/episode/EPISODE_ID){.btn .btn-primary target="_blank"}
+-->

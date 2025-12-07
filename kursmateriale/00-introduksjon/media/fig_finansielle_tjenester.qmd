@@ -1,0 +1,49 @@
+---
+published: false
+draft: true
+format:
+  pdf:
+    documentclass: standalone
+    keep-tex: true
+    include-in-header: ../../assets/latex/fig_preamble.tex
+---
+
+
+\begin{tikzpicture}[
+  scale=0.95,
+  every node/.style={transform shape},
+  thick,
+  node distance=20mm and 25mm
+]
+
+% Farger
+\definecolor{cTop}{RGB}{230,170,160}    % rødaktig
+\definecolor{cSparing}{RGB}{146,185,221} % blå
+\definecolor{cLaan}{RGB}{32,75,111}      % mørk blå
+\definecolor{cRisiko}{RGB}{0,128,128}    % grønn-blå
+
+% Stiler
+\tikzset{
+  box/.style={rectangle, rounded corners=3pt, minimum width=40mm, minimum height=12mm,
+              text centered, draw=black, very thick, font=\bfseries},
+}
+
+% Toppboks
+\node[box, fill=cTop, text=black] (top) {Finansielle tjenester};
+
+% Tjenestebokser
+\node[box, fill=cSparing, text=white, below left=of top, xshift=-5mm, yshift=-0mm] (sparing) {Sparing};
+\node[box, fill=cLaan, text=white, below=of top, yshift=-0mm] (laan) {Lån};
+\node[box, fill=cRisiko, text=white, below right=of top, xshift=5mm, yshift=-0mm] (risiko) {Risikohåndtering};
+
+% Piler fra toppboks til tjenester med vinkel
+\draw[->, thick, bend right=5] (top.south) to (sparing.north);
+\draw[->, thick] (top.south) -- (laan.north);
+\draw[->, thick, bend left=5] (top.south) to (risiko.north);
+
+% Forklaringer under hver boks
+\node[below=5mm of sparing, text width=50mm, align=center] {Utsette konsum \\ Renter og avkastning};
+\node[below=5mm of laan, text width=50mm, align=center] {Investere uten egne midler \\ Flytte forbruk til nåtid};
+\node[below=5mm of risiko, text width=50mm, align=center] {Beskytte mot usikkerhet \\ Forsikring og aktiva med ulik risiko};
+
+\end{tikzpicture}

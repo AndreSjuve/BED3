@@ -1,8 +1,9 @@
 ---
 title: "01 Introduksjon til investeringsanalyse"
-description: "Hva er investeringsanalyse, hvorfor er det viktig, og hvilke byggesteiner består det av?"
+description: "Hva er investeringsanalyse?"
 ---
 
+<!--
 # Heis-pitch og motivasjon
 
 Økonomi handler om et enkelt, men evig problem: vi ønsker oss alltid mer enn vi kan få.
@@ -98,3 +99,4 @@ Diskuter:
 ## Video
 <video controls src="../media/videos/01-intro.mp4"></video>
 :::
+-->

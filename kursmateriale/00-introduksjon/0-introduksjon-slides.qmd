@@ -1,0 +1,139 @@
+---
+title: "BED3 - Investering og finans"
+subtitle: "Oversikt og hovedideer"
+author: "André Wattø Sjuve"
+format:
+  revealjs:
+    embed-resources: true
+    width: 1600
+    height: 900
+    theme: solarized
+    slide-number: true
+    controls: true
+    incremental: true
+    code-overflow: wrap
+    preview-links: auto
+---
+
+## Hvorfor dette faget
+
+- Økonomi springer ut av knapphet.
+- Finans svarer på hvordan knappe ressurser allokeres gjennom et prissystem.
+- Kapital står i sentrum.
+
+---
+
+## Hva du lærer i denne delen
+
+- Se sammenhengen mellom husholdninger, kapitalmarked, og foretak.
+- Forstå tre tjenester i kapitalmarkedet: sparing, lån, risikohåndtering.
+- Kjenne tre beslutninger i foretak: investering, finansiering, utdeling.
+- Forstå målet om verdimaksimering.
+
+---
+
+## Veikart for faget
+
+![Veikart finans](media/fig_veikart_finans.svg){#fig-veikart width="85%"}
+
+- Vi bruker veikartet som anker gjennom kurset.
+
+---
+
+## Husholdninger: investorer
+
+- Husholdninger er de ultimate eierne av kapital.
+- Sparing flytter forbruk over tid.
+- Tre valg: hvor mye du sparer, hvor lenge du binder, hvor mye risiko du tåler.
+
+::: notes
+Knytt til figuren på venstre side.
+:::
+
+---
+
+## Kapitalmarkedet: kjernefunksjon
+
+- Bindeleddet mellom investorer og foretak.
+- Desentraliserer beslutninger gjennom prissignaler.
+- Gjør alle bedre stilt enn uten markeder.
+
+---
+
+## Kapitalmarkedet: tjenester
+
+![Finansmarkedets tjenester](media/fig_finansielle_tjenester.svg){#fig-tjenester width="85%"}
+
+- Sparing: pris på utsatt konsum gjennom renter og avkastning.
+- Lån: realiserer prosjekter med høy verdi.
+- Risikohåndtering: deler og sprer risiko effektivt.
+
+---
+
+## Foretaket: verdiskapende motor
+
+- Omdanner kapital, arbeid, og ledelse til varer og tjenester.
+- Konkurranse skjerper effektivitet og kvalitet.
+- Stabil og fremtidsrettet profitt løfter verdi.
+
+---
+
+## Foretaket: beslutninger
+
+![Bedriftens beslutninger](media/fig_veikart_bedrift.svg){width="100%"}
+
+- Investering: hvilke prosjekter skal gjennomføres.
+- Finansiering: gjeld eller egenkapital, og hvorfor.
+- Utdeling: utbytte, tilbakekjøp, og retensjon.
+
+---
+
+## Mål og rammer
+
+- Bedriftsøkonomi: **profittmaksimering**.
+- Finans: **maksimering av markedsverdien av aksjene**.
+- Rammer: tid, risiko, skatt, inflasjon, markeder, institusjoner.
+
+---
+
+## Økonomisk bærekraft
+
+- Prosjekter må bære seg over tid.
+- Kontantstrømmer må dekke kostnader og forrente kapitalen.
+- Avkastning må stå i forhold til risiko.
+
+---
+
+## Slik henger det sammen
+
+- Husholdninger tilbyr kapital.
+- Kapitalmarkedet priser risiko og allokerer ressurser.
+- Foretak investerer og skaper verdier.
+- Kontantstrømmer går tilbake til eierne.
+- Sirkelen lukkes.
+
+---
+
+## Hovedpoenger
+
+- Finans handler om allokering av knappe ressurser gjennom priser.
+- Kapitalmarkedet leverer sparing, lån, og risikohåndtering.
+- Foretak skaper verdi gjennom tre beslutninger: investering, finansiering, utdeling.
+- Tid og risiko binder alt sammen.
+
+---
+
+## Hva kommer nå
+
+- Del 1: investeringsanalyse: kontantstrømmer, nåverdi, risiko.
+- Del 2: Kapitalmarkedet: priser, risiko, diversifisering.
+- Del 3: finansiering: kapitalstruktur, utbyttepolitikk, skatt og markedseffisiens.
+- Del 4: Rentemarkedet, derivatmarkedet, internasjonal finans.
+
+---
+
+## Miniøvelser
+
+- Nevn ett valg en investor tar om tid, risiko, og beløp.
+- Nevn ett eksempel på risikohåndtering i praksis.
+- Nevn ett valg et foretak tar som øker markedsverdi.

@@ -8,7 +8,7 @@ number-sections: true
 
 Økonomi handler om et enkelt, men evig problem: vi ønsker oss alltid mer enn vi kan få. Gapet mellom hva vi vil ha og hva vi faktisk kan skaffe er selve motoren i økonomifaget.
 
-Dette kurset, BED3, tar utgangspunkt i dette grunnleggende problemet og handler i bunn og grunn om hvordan vi organiserer den knappe ressursen kapital. I investeringsanalysen ser vi på hvordan prosjekter må prioriteres når kapitalen ikke strekker til alt. I porteføljeteorien ser vi på hvordan kapitalen kan fordeles mellom aktiva for å balansere risiko og avkastning. I kapitalverdimodellen ser vi hvordan markedet priser risikokapital, og i kapitalstruktur analyserer vi hvordan bedrifter bør hente inn kapital gjennom gjeld eller egenkapital.
+Dette kurset, BED3, tar utgangspunkt i dette grunnleggende problemet og handler i bunn og grunn om hvordan vi organiserer de <span class="tooltip-term" data-tooltip="Vi har knapphet når vi er i en situasjon der behov er større enn tilgjengelige ressurser">knappe</span> ressursene som bedrifter trekker på i sin daglige drift, hovedsakelig kapital. I investeringsanalysen ser vi på hvordan prosjekter må prioriteres når kapitalen ikke strekker til alt. I porteføljeteorien ser vi på hvordan kapitalen kan fordeles mellom aktiva for å balansere risiko og avkastning. I kapitalverdimodellen ser vi hvordan markedet priser risikokapital, og i kapitalstruktur analyserer vi hvordan bedrifter bør hente inn kapital gjennom gjeld eller egenkapital.
 
 Kurset tar oss også videre inn i nærliggende temaer som gir et bredere bilde av hvordan kapital organiseres i en moderne økonomi. Vi ser på hvordan bærekraft og etiske hensyn påvirker investeringsbeslutninger. Vi introduserer opsjoner og terminkontrakter som verktøy for fleksibilitet og risikostyring. Vi undersøker hvordan rentemarkedet og valutamarkedene setter rammer for investeringer og finansiering i en global sammenheng.
 Slik spenner BED3 over flere dimensjoner av det samme problemet: hvordan den knappe ressursen kapital kan brukes og prises på en måte som skaper mest mulig verdi gitt de ønsker og rammer samfunnet står overfor.
@@ -17,7 +17,7 @@ Slik spenner BED3 over flere dimensjoner av det samme problemet: hvordan den kna
 
 ## Hva er økonomi?
 
-Et spørsmål det er naturlig å kunne svare på etter flere år med økonomistudier er: **Hva er økonomi**. En foreløpig definisjon er at *økonomi er studiet av hvordan mennesker bruker ressurser til å tilfredsstille sine ønsker*. Ordet ønsker krever presisering. Vi ønsker alle mat, klær og et tak over hodet for å leve, men de fleste ønsker seg langt mer. Vi ønsker oss biler, større hus og feriereiser. Vår evne til å ønske er nesten uendelig, men ressursene i verden er begrensede. Tilgangen er aldri stor nok til å dekke alles ønsker hele tiden. Dermed oppstår et gap mellom hva vi ønsker og hva vi faktisk kan få tak i. **Å redusere dette gapet er den grunnleggende problemstillingen som studeres i økonomi.**
+Et spørsmål det er naturlig å kunne svare på etter flere år med økonomistudier er: **Hva er økonomi**. En foreløpig definisjon er at *økonomi er studiet av hvordan mennesker bruker ressurser til å tilfredsstille sine ønsker*. Ordet ønsker krever presisering. Vi ønsker alle mat, klær og et tak over hodet for å leve, men de fleste ønsker seg langt mer. Vi ønsker oss biler, større hus og feriereiser. Vår evne til å ønske er nesten uendelig, men ressursene i verden er begrensede. Med andre ord har vi <span class="tooltip-term" data-tooltip="Vi har knapphet når vi er i en situasjon der behov er større enn tilgjengelige ressurser">knapphet</span> på ressurser. Tilgangen er aldri stor nok til å dekke alles ønsker hele tiden. Dermed oppstår et gap mellom hva vi ønsker og hva vi faktisk kan få tak i. **Å redusere dette gapet er den grunnleggende problemstillingen som studeres i økonomi.** Sag på en annen måte: knapphet tvinger oss til å velge, og økonomi er studiet av hvordan vi bør ta slike valg slik at vi ikke sløser med ressurser.
 
 
 **Redusere gapet:** Det finnes to måter å minske avstanden mellom det vi ønsker oss og det vi kan få tak i. Vi kan enten redusere ønskene våre, eller vi kan skaffe mer. Poeter, filosofer og religiøse tenkere har ofte anbefalt den første veien. Historien viser oss derimot at vi stort sett har valgt den andre, med varierende og ofte vanskelig målbar suksess. Som økonomer tar vi ikke stilling til hvilken vei som er best, men  fagfeltet vårt er avgrenset til å studere den andre, hvordan vi kan skaffe mer heller enn å ønske oss mindre.
@@ -28,7 +28,7 @@ Vi har dermed slått fast at økonomifaget først og fremst handler om å skaffe
 
 Økonomifaget retter særlig oppmerksomheten mot hvordan vi kan skaffe mer av <span class="tooltip-term" data-tooltip="Brukes som en samlebetegnelse på varer og tjenester.">goder</span> som både tilfredsstiller ønsker og kan omsettes i et marked. Slike nyttige og knappe goder kalles *økonomiske goder*. Alle andre goder omtales som *ikke-økonomiske goder*.
 
-Det finnes mange goder som ikke kan omsettes, som atletiske evner, venners gunst eller familiens kjærlighet. Disse kan være vel så viktige som økonomiske goder, men mennesker ser ut til å foretrekke en kombinasjon av begge typer.
+Det finnes mange goder som ikke kan omsettes, som atletiske evner, venners gunst eller familiens kjærlighet. Disse kan være vel så viktige som økonomiske goder, men mennesker ser ut til å foretrekke en kombinasjon av begge typer. Videre finnes det goder som det er rikelig med tilgang på, som luft og sjøvann. Luft er livsviktig, men siden det ikke er knapphet på det, regnes det ikke som et økonomisk gode.
 
 Så langt har vi derfor begrenset økonomi til studiet av hvordan mennesker søker å skaffe flere økonomiske goder: mer mat, flere klær, større hus, ny og bedre bil. Mer presist har vi definert økonomi som studiet av hvordan grupper organiserer bruken av ressurser for å oppnå dette målet.
 
@@ -45,7 +45,7 @@ Når ressursene settes inn i produksjon, oppstår et samspill mellom husholdning
 
 For å forstå hvordan økonomien henger sammen, kan vi se nærmere på *velstandshjulet*. Husholdningene er de endelige eierne av ressursene og har behovene og ønskene som driver prosessen. Bedriftene er de organiserte enhetene som setter ressursene sammen til varer og tjenester som kan tilfredsstille disse ønskene. Når husholdningene kjøper varene og tjenestene, får bedriftene inntekter som brukes til å betale ressursene tilbake i form av lønn, renter og utbytte. På denne måten går ressursene i sirkel mellom husholdningene og bedriftene.
 
-![Velstandshjulet](figures/wheel_of_wealth.svg){fig-align="center" width="80%"}
+![Velstandshjulet](media/wheel_of_wealth.svg){fig-align="center" width="80%"}
 
 Velstandshjulet viser hvordan ressursene sirkulerer mellom husholdninger og bedrifter, men det etterlater tre grunnleggende valg som alle samfunn må ta stilling til: hva, hvem og hvor mye.
 

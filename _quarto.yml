@@ -50,11 +50,11 @@ website:
           collapse: true
           contents:
             - text: "Forord"
-              href: kursmateriale/0-forord.qmd
+              href: kursmateriale/00-introduksjon/0-forord.qmd
             - text: "Kursets plassering i økonomi"
-              href: kursmateriale/0-intro.qmd
+              href: kursmateriale/00-introduksjon/0-intro.qmd
             - text: "Innledning til investering og finans"
-              href: kursmateriale/0-intro_finans.qmd
+              href: kursmateriale/00-introduksjon/0-intro_finans.qmd
         - section: "Moduler"
           collapse: true
           contents:
