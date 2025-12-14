@@ -1,14 +1,12 @@
 
 ## Forord {.unnumbered}
 
-**Ikke ferdig**
+Denne nettsiden, med dens innhold og struktur er mitt forsøk på å modernisere kurset BED3 - Investering og finans, som undervises som en del av den bedriftsøkonomiske sekvensen av kurs på bachelorstudiet i Økonomi og Administrasjon (BØA) ved Norges Handelshøyskole. Kurset er svært sentralt i studiet, og bidrar med kjernekunnskap på et område som er av vesentlig betydning for en bachelorkandidat fra NHH.
 
-Denne nettsiden, med dens innhold og struktur er mitt forsøk på å modernisere kurset BED3 - Investering og finans, som undervises som en del av den bedriftsøkonomiske sekvensen av kurs på bachelorstudiet i Økonomi og Administrasjon ved Norges Handelshøyskole. Kurset er svært sentralt i studiet, og bidrar med kjernekunnskap på et område som er av vesentlig betydning for en bachelorkandidat fra NHH.
+<!--Kjernen av kurset
 
-Kjernen av kurset...
+Innholdet her belager seg på bruk av arbeid gjort av mange andre. Jeg håper å få sitert alle relevante kilder...-->
 
-Innholdet her belager seg på bruk av arbeid gjort av mange andre. Jeg håper å få sitert alle relevante kilder...
+Formålet med denne siden er ikke å være statisk, men å utvikle seg over tid. Videre, når en sitter med nesen tett til skjermen, er det lett å overse skrivefeil og andre rare ting som ferske øyne fanger opp umiddelbart. Om du ser noe direkte galt eller noe som virker rart, gi meg gjerne beskjed.
 
-Formålet med denne siden er ikke å være statisk, men å utvikle seg over tid. Videre, når en sitter med nesen tett til skjermen, er det lett å overse skrivefeil og andre rare ting som ferske øyne fanger opp umiddelbart. Om du ser noe direkte galt eller noe som virker rart, gi meg beskjed.
-
-Om noen andre enn studenter ved Norges Handelshøyskole eller utenfor sfæren av økonomer og økonomistudenter generelt skulle finne frem til siden i søken etter kunnskap om investeringer, finansiering, finansmarkeder etc. så håper jeg denne siden kan være av nytte.
+Om noen andre enn studenter ved Norges Handelshøyskole eller utenfor sfæren av økonomer og økonomistudenter generelt skulle finne frem til siden i søken etter kunnskap om investeringer, finansiering, finansmarkeder etc. så håper jeg innholdet oppleves som nyttig og relevant.

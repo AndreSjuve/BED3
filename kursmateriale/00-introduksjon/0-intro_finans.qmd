@@ -67,7 +67,7 @@ Effektiv ressursallokering er avgjørende for økonomisk vekst. Vekst er igjen e
 - Effektiv ressursallokering er en forutsetning for økonomisk vekst og økt velferd over tid.
 :::
 
-## Foretaket: investering, finansiering og utbyte
+## Foretaket: investering, finansiering og utbytte
 
 I figur @fig-veikart-finans er foretaket plassert på høyre side. Foretaket er den aktøren som etterspør kapital. Samtidig er det selve motoren i verdiskapingen: det bruker kapital, arbeidskraft og ledelse til å produsere varer og tjenester som tilfredsstiller husholdningenes ønsker gjennom å investere i prosjekter. Prosjekter er investeringer i realaktiva, som består av fysiske (fabrikker, maskiner etc.) og immaterielle (patenter, merkevarer osv.) eiendeler. Når bedriften lykkes bedre med sine prosjekter enn konkurrentene, skaper den overskudd. Overskuddet gir eierne profitt, og profitt som er stabil og fremtidsrettet løfter verdien av bedriften.
 

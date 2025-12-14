@@ -17,25 +17,31 @@ deadlines <- vars$deadlines
 ::: {.grid .g-2}
 
 ::: {.g-col-6}
-<i class="fa fa-users"></i> **Registrering i grupper:**  
-<span title="Alle grupper må være registrert innen fristen."><strong>`r format(as.Date(deadlines$group_registration), "%d.%m.%Y")`</strong></span>  
-<small>Obligatorisk for deltakelse i casearbeidet. Se <a href="oving_vurdering.qmd"><em>Case</em></a> for registreringsinfo.</small>
+<i class="fa fa-users"></i> **Registrering i grupper:**
+<span title="Alle grupper må være registrert innen fristen."><strong>`r format(as.Date(deadlines$group_registration), "%d.%m.%Y")`</strong></span>
+
+<small>Obligatorisk for deltakelse i casearbeidet.
+Se <a href="oving_vurdering.qmd"><em>Case</em></a> for registreringsinfo.</small>
 
 
-<i class="fa fa-file-alt"></i> **Obligatorisk case:**  
-<span title="Gruppebasert innlevering med vurdering: bestått/ikke bestått."><strong>`r format(as.Date(deadlines$mandatory_case), "%d.%m.%Y")`</strong></span> 
-<small><br> Må bestås for å kunne gå opp til eksamen. Se <a href="oving_vurdering.qmd"><em>Case</em></a> for informasjon.</small>
+<i class="fa fa-file-alt"></i> **Obligatorisk case:**
+
+<span title="Gruppebasert innlevering med vurdering: bestått/ikke bestått."><strong>`r format(as.Date(deadlines$mandatory_case), "%d.%m.%Y")`</strong></span>
+<small><br> Må bestås for å kunne gå opp til eksamen.
+
+Se Canvas for informasjon <!--<a href="oving_vurdering.qmd"><em>Case</em></a> for informasjon.</small> -->
 
 :::
 
 ::: {.g-col-6}
-<i class="fa fa-clipboard-check"></i> **Frivillig oppgave:**  
-<span title="Ekstra øving med tilbakemelding før eksamen"><strong>`r format(as.Date(deadlines$voluntary_case), "%d.%m.%Y")`</strong></span>  
-<small>Frivillig innlevering med kommentarer fra studentassistenter. <br> Se <a href="kursinformasjon.qmd"><em>Om kurset</em></a> for detaljer.</small>
+<i class="fa fa-clipboard-check"></i> **Frivillig oppgave:**
+<span title="Ekstra øving med tilbakemelding før eksamen"><strong>`r format(as.Date(deadlines$voluntary_case), "%d.%m.%Y")`</strong></span>
+<small>Frivillig innlevering med kommentarer fra studentassistenter. <br>
+Se <a href="kursinformasjon.qmd"><em>Om kurset</em></a> for detaljer.</small>
 
 
-<i class="fa fa-university"></i> **Eksamen:**  
-<span title="Skriftlig individuell eksamen i henhold til vurderingsform."><strong>`r format(as.Date(deadlines$exam), "%d.%m.%Y")`</strong></span>  
+<i class="fa fa-university"></i> **Eksamen:**
+<span title="Skriftlig individuell eksamen i henhold til vurderingsform."><strong>`r format(as.Date(deadlines$exam), "%d.%m.%Y")`</strong></span>
 <small>Skriftlig skoleeksamen. Se <a href="kursinformasjon.qmd"><em>Vurdering</em></a> for form og hjelpemidler.</small>
 
 :::
@@ -54,88 +60,94 @@ options(knitr.kable.NA = '')
 
 current_week <- lubridate::isoweek(Sys.Date())
 
-schedule <- 
-    readxl::read_excel("assets/schedule.xlsx", sheet = "V25")
+schedule <-
+  readxl::read_excel("assets/schedule.xlsx", sheet = "V25")
 
-schedule <- 
-    schedule %>%
-    mutate(is_current = ifelse(week == current_week, TRUE, FALSE))
+schedule <-
+  schedule %>%
+  mutate(is_current = ifelse(week == current_week, TRUE, FALSE))
 
 schedule |>
-     select(Uke = week,
-         Dato = date,
-         Dag = day,
-         Tema = topic,
-         Foreleser = lecturer,
-         Pensum = reading,
-         Type = type) |> 
-    mutate(Dato = format(as.Date(Dato), "%d.%m.%Y")) |> 
-    kable("html", escape = FALSE, align = "rllllll") |> 
-  kable_styling(bootstrap_options = 
-                    c("striped", "hover", "condensed", "responsive"), 
-                full_width = TRUE,
-                position = "left") |> 
-    row_spec(0, 
-             bold = TRUE, 
-             color = "#fffbf2", 
-             background = "#003366") %>%
-    row_spec(1:nrow(schedule), 
-             extra_css = "height: 40px; padding: 10px 10px;") %>%
-     row_spec(seq(2, nrow(schedule), 2), background = "#fef9f0") %>%
-  row_spec(seq(1, nrow(schedule), 2), background = "#f7f3e8") |> 
-  column_spec(4, width = "22em") %>% 
-    row_spec(which(schedule$is_current), 
-             color = "#fffbf2", 
-             background = "#3B6E8F")
-    
-    
+  select(
+    Uke = week,
+    Dato = date,
+    Dag = day,
+    Tema = topic,
+    Foreleser = lecturer,
+    Pensum = reading,
+    Type = type
+  ) |>
+  mutate(Dato = format(as.Date(Dato), "%d.%m.%Y")) |>
+  kable("html", escape = FALSE, align = "rllllll") |>
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed", "responsive"),
+    full_width = TRUE,
+    position = "left"
+  ) |>
+  row_spec(0, bold = TRUE, color = "#fffbf2", background = "#003366") %>%
+  row_spec(
+    1:nrow(schedule),
+    extra_css = "height: 40px; padding: 10px 10px;"
+  ) %>%
+  row_spec(seq(2, nrow(schedule), 2), background = "#fef9f0") %>%
+  row_spec(seq(1, nrow(schedule), 2), background = "#f7f3e8") |>
+  column_spec(4, width = "22em") %>%
+  row_spec(
+    which(schedule$is_current),
+    color = "#fffbf2",
+    background = "#3B6E8F"
+  )
+
 
 ```
 
 
 # Orakeltjeneste
 
-```{r}
+```{r OfficeHours,eval=TRUE, echo = FALSE, message = FALSE, warning = FALSE}
+Sys.setlocale("LC_TIME", "nb-NO")
+
 info_orakel <- vars$officehours
 
-sdate <- 
-    info_orakel$date_start |> 
-    lubridate::date()
+sdate <-
+  info_orakel$date_start |>
+  lubridate::date()
 
-edate <- 
-    info_orakel$date_end |> 
-    lubridate::date()
+edate <-
+  info_orakel$date_end |>
+  lubridate::date()
 
-oh_day <- 
-    sdate|> 
-    weekdays() 
-    
+oh_day <-
+  sdate |>
+  weekdays() |>
+  stringr::str_to_title()
 
-start_week <- 
-    sdate |> 
-    lubridate::isoweek()
 
-start_date_txt <- 
-    sdate |> 
-    lubridate::day() |> 
-    paste0(".", lubridate::month(sdate, label = TRUE, abbr = FALSE))
-    
-end_week <- 
-    edate |> 
-    lubridate::isoweek()
+start_week <-
+  sdate |>
+  lubridate::isoweek()
 
-end_date_txt <- 
-    edate |> 
-    lubridate::day() |> 
-    paste0(".", lubridate::month(edate, label = TRUE, abbr = FALSE))
+start_date_txt <-
+  sdate |>
+  lubridate::day() |>
+  paste0(".", lubridate::month(sdate, label = FALSE, abbr = FALSE))
+
+end_week <-
+  edate |>
+  lubridate::isoweek()
+
+end_date_txt <-
+  edate |>
+  lubridate::day() |>
+  paste0(".", lubridate::month(edate, label = FALSE, abbr = FALSE))
 
 
 ```
 
 
 ::: {.callout-note appearance="minimal" icon="calendar" title="Treffetid kursansvarlig hver mandag i undervisningsperioden"}
-📍 **Sted**: Kontor `r vars$instructors$AWS$office`  
-🕒 **Tidspunkt**: `r paste0(stringr::str_to_title(oh_day), "er")` kl. `r info_orakel$time`  
+📍 **Sted**: Kontor `r vars$instructors$AWS$office`
+🕒 **Tidspunkt**: `r paste0(stringr::str_to_title(oh_day), "er")` kl. `r info_orakel$time`
 📆 **Periode**: F.o.m. uke `r start_week` (`r oh_day` `r start_date_txt`) t.o.m. `r end_week` (`r oh_day` `r end_date_txt`)
 :::
 
@@ -146,11 +158,11 @@ Orakeltjenesten vil være åpen både i undervisnings- og eksamensperioden. I un
 ```{r orakeltjeneste,eval=TRUE, echo = FALSE, message = FALSE, warning = FALSE}
 library(kableExtra)
 
-exam_support <- 
-    fs::path("assets", "orakeltjeneste", ext = "xlsx") |> 
-    readxl::read_excel()
+exam_support <-
+  fs::path("assets", "orakeltjeneste", ext = "xlsx") |>
+  readxl::read_excel()
 
-exam_support |> 
+exam_support |>
   dplyr::select(
     Uke,
     Dato = Tid,
@@ -160,20 +172,19 @@ exam_support |>
     Onsdag,
     Torsdag,
     Fredag
-  ) |> 
-  kable("html", escape = FALSE, align = "rlllllll") |> 
+  ) |>
+  kable("html", escape = FALSE, align = "rlllllll") |>
   kable_styling(
     bootstrap_options = c("striped", "hover", "condensed", "responsive"),
     full_width = TRUE,
     position = "left"
-  ) |> 
-  row_spec(0, bold = TRUE, color = "#fffbf2", background = "#003366") |> 
-  row_spec(1:nrow(exam_support), extra_css = "height: 40px; padding: 10px 10px;") |> 
-  row_spec(seq(2, nrow(exam_support), 2), background = "#fef9f0") |> 
+  ) |>
+  row_spec(0, bold = TRUE, color = "#fffbf2", background = "#003366") |>
+  row_spec(
+    1:nrow(exam_support),
+    extra_css = "height: 40px; padding: 10px 10px;"
+  ) |>
+  row_spec(seq(2, nrow(exam_support), 2), background = "#fef9f0") |>
   row_spec(seq(1, nrow(exam_support), 2), background = "#f7f3e8")
 
 ```
-
-
-
-

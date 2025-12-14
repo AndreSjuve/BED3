@@ -35,9 +35,9 @@ website:
       - text: "Kursinnhold"
         icon: journal-richtext
         href: kursinnhold.qmd
-      - text: "Øving og vurdering"
-        icon: file-earmark-text
-        href: oving_vurdering.qmd
+      #- text: "Øving og vurdering"
+      #  icon: file-earmark-text
+      #  href: oving_vurdering.qmd
 
   # Sidebar for hub sider. Ikke for modul sider.
 
@@ -64,20 +64,16 @@ website:
               contents:
                 - text: "1. Introduksjon"
                   href: kursmateriale/01-investeringsanalyse/01-introduksjon/index.qmd
-                - text: "2. Tidens verdi av penger"
-                  href: kursmateriale/01-investeringsanalyse/02-tidens-verdi/index.qmd
-                - text: "3. Kontantstrømmer"
-                  href: kursmateriale/01-investeringsanalyse/03-kontantstrom/index.qmd
-                - text: "4. Investeringskriterier"
-                  href: kursmateriale/01-investeringsanalyse/04-investeringskriterier/index.qmd
-                - text: "5. Supplerende metoder"
-                  href: kursmateriale/01-investeringsanalyse/05-supplerende-metoder/index.qmd
-                - text: "6. Risiko og usikkerhet"
-                  href: kursmateriale/01-investeringsanalyse/06-risiko/index.qmd
-                - text: "7. Lån og betalingsalternativer"
-                  href: kursmateriale/01-investeringsanalyse/07-lan-og-betaling/index.qmd
-                - text: "8. Oppsummering og case"
-                  href: kursmateriale/01-investeringsanalyse/08-oppsummering-case/index.qmd
+                - text: "2. Investeringsprosjekter"
+                  href: kursmateriale/01-investeringsanalyse/02-investeringsprosjekter/index.qmd
+                - text: "3. Effekter av skatt og lån"
+                  href: kursmateriale/01-investeringsanalyse/03-skatt-og-lån/index.qmd
+                - text: "4. Effekter av inflasjon"
+                  href: kursmateriale/01-investeringsanalyse/04-inflasjon/index.qmd
+                - text: "5. Risikovurderinger"
+                  href: kursmateriale/01-investeringsanalyse/05-risikovurderinger/index.qmd
+                - text: "6. Låne- og betalingsalternativer"
+                  href: kursmateriale/01-investeringsanalyse/06-låne-og-betalingsalternativer/index.qmd
 
 
 

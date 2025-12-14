@@ -13,30 +13,29 @@ page-navigation: true
 
 ## Velkommen
 
-Denne modulen gir deg en komplett pakke for investeringsanalyse. Du får tekstforklaringer, korte videoer, oppgaver, og case. Du kan arbeide i eget tempo.
+Hensikten med denne modulen er å flytte det som tidligere ble gitt som forelesninger i Aud.Max over til en nettbasert læringsmodul. Grunnen til dette er at investeringsanalyse består av mange regnetekniske detaljer som best fordøyes med tid og ro. Ved å tilby dette som en nettbasert modul kan du arbeide i ditt eget tempo, stoppe opp, spole tilbake, og repetere inntil du mestrer innholdet.
+
+Modulen følger samme struktur som tidligere års forelesninger, og videoene gjenspeiler det som tidligere ble gjennomgått i forelesningene. Med dette overført til en nettbasert modul er ideen at forelesningstid i Aud.Max kan brukes til å arbeide med caseoppgaver, diskutere problemstillinger, og svare på spørsmål.
 
 ## Læringsmål
 
-- Du forklarer hva investeringsanalyse er og hvorfor den brukes.
-- Du bygger konsistente kontantstrømmer før og etter skatt.
-- Du anvender NNV som hovedkriterium, samt IRR, payback, og NNV-indeks som støtte.
-- Du håndterer inflasjon på en konsistent måte.
-- Du utfører grunnleggende risikoanalyser gjennom følsomhet, scenarier, og enkel simulering.
-- Du vurderer låne og betalingsalternativer, inkludert leasing, med NNV etter skatt som kriterium.
+Når du mestrer denne modulen, skal du kunne:
 
+- Forklarer hva investeringsanalyse er og hvorfor den brukes.
+- Bygge konsistente kontantstrømmer før og etter skatt.
+- Anvende NNV som hovedkriterium, samt IRR, payback, og NNV-indeks som støtte.
+- Håndtere inflasjon på en konsistent måte.
+- Utføre grunnleggende risikoanalyser gjennom følsomhet, scenarier, og enkel simulering.
+- Vurdere låne og betalingsalternativer, inkludert leasing, med NNV etter skatt som kriterium.
 
 ## Slik bruker du modulen
 
-Start på introduksjon. Fortsett kronologisk. Hopp tilbake ved behov. Gjør minioppgaver fortløpende. Ta de større oppgavene mot slutten av hvert kapittel.
+Siden modulen er bygget opp kronologisk, anbefales det at du følger innholdet i rekkefølge for å få oversikt og sammenheng. Deretter kan du hoppe tilbake til spesifikke temaer etter behov.
 
 ## Innhold og anbefalt progresjon
 - [1. Introduksjon](01-introduksjon)
-- [2. Tidens verdi](02-tidens-verdi)
-- [3. Kontantstrøm](03-kontantstrom)
-- [4. Investeringskriterier](04-investeringskriterier)
-- [5. Supplerende metoder](05-supplerende-metoder)
-- [6. Risiko](06-risiko)
-- [7. Lån og betaling](07-lan-og-betaling)
-- [8. Oppsummering og case](08-oppsummering-case)
-
-
+- [2. Investeringsprosjekter](02-investeringsprosjekter)
+- [3. Effekter av skatt og lån](03-skatt-og-lån)
+- [4. Effekter av inflasjon](04-inflasjon)
+- [5. Risikovurderinger](05-risikovurderinger)
+- [6. Låne- og betalingsalternativer](06-låne-og-betalingsalternativer)
