@@ -4,7 +4,7 @@
     "href": "kursmateriale/01-investeringsanalyse/index.html",
     "title": "Investeringsanalyse",
     "section": "",
-    "text": "Denne modulen gir deg en komplett pakke for investeringsanalyse. Du får tekstforklaringer, korte videoer, oppgaver, og case. Du kan arbeide i eget tempo.",
+    "text": "Hensikten med denne modulen er å flytte det som tidligere ble gitt som forelesninger i Aud.Max over til en nettbasert læringsmodul. Grunnen til dette er at investeringsanalyse består av mange regnetekniske detaljer som best fordøyes med tid og ro. Ved å tilby dette som en nettbasert modul kan du arbeide i ditt eget tempo, stoppe opp, spole tilbake, og repetere inntil du mestrer innholdet.\nModulen følger samme struktur som tidligere års forelesninger, og videoene gjenspeiler det som tidligere ble gjennomgått i forelesningene. Med dette overført til en nettbasert modul er ideen at forelesningstid i Aud.Max kan brukes til å arbeide med caseoppgaver, diskutere problemstillinger, og svare på spørsmål.",
     "crumbs": [
       "Om kurset",
       "Moduler",
@@ -16,7 +16,7 @@
     "href": "kursmateriale/01-investeringsanalyse/index.html#velkommen",
     "title": "Investeringsanalyse",
     "section": "",
-    "text": "Denne modulen gir deg en komplett pakke for investeringsanalyse. Du får tekstforklaringer, korte videoer, oppgaver, og case. Du kan arbeide i eget tempo.",
+    "text": "Hensikten med denne modulen er å flytte det som tidligere ble gitt som forelesninger i Aud.Max over til en nettbasert læringsmodul. Grunnen til dette er at investeringsanalyse består av mange regnetekniske detaljer som best fordøyes med tid og ro. Ved å tilby dette som en nettbasert modul kan du arbeide i ditt eget tempo, stoppe opp, spole tilbake, og repetere inntil du mestrer innholdet.\nModulen følger samme struktur som tidligere års forelesninger, og videoene gjenspeiler det som tidligere ble gjennomgått i forelesningene. Med dette overført til en nettbasert modul er ideen at forelesningstid i Aud.Max kan brukes til å arbeide med caseoppgaver, diskutere problemstillinger, og svare på spørsmål.",
     "crumbs": [
       "Om kurset",
       "Moduler",
@@ -28,7 +28,7 @@
     "href": "kursmateriale/01-investeringsanalyse/index.html#læringsmål",
     "title": "Investeringsanalyse",
     "section": "Læringsmål",
-    "text": "Læringsmål\n\nDu forklarer hva investeringsanalyse er og hvorfor den brukes.\nDu bygger konsistente kontantstrømmer før og etter skatt.\nDu anvender NNV som hovedkriterium, samt IRR, payback, og NNV-indeks som støtte.\nDu håndterer inflasjon på en konsistent måte.\nDu utfører grunnleggende risikoanalyser gjennom følsomhet, scenarier, og enkel simulering.\nDu vurderer låne og betalingsalternativer, inkludert leasing, med NNV etter skatt som kriterium.",
+    "text": "Læringsmål\nNår du mestrer denne modulen, skal du kunne:\n\nForklarer hva investeringsanalyse er og hvorfor den brukes.\nBygge konsistente kontantstrømmer før og etter skatt.\nAnvende NNV som hovedkriterium, samt IRR, payback, og NNV-indeks som støtte.\nHåndtere inflasjon på en konsistent måte.\nUtføre grunnleggende risikoanalyser gjennom følsomhet, scenarier, og enkel simulering.\nVurdere låne og betalingsalternativer, inkludert leasing, med NNV etter skatt som kriterium.",
     "crumbs": [
       "Om kurset",
       "Moduler",
@@ -40,7 +40,7 @@
     "href": "kursmateriale/01-investeringsanalyse/index.html#slik-bruker-du-modulen",
     "title": "Investeringsanalyse",
     "section": "Slik bruker du modulen",
-    "text": "Slik bruker du modulen\nStart på introduksjon. Fortsett kronologisk. Hopp tilbake ved behov. Gjør minioppgaver fortløpende. Ta de større oppgavene mot slutten av hvert kapittel.",
+    "text": "Slik bruker du modulen\nSiden modulen er bygget opp kronologisk, anbefales det at du følger innholdet i rekkefølge for å få oversikt og sammenheng. Deretter kan du hoppe tilbake til spesifikke temaer etter behov.",
     "crumbs": [
       "Om kurset",
       "Moduler",
@@ -52,11 +52,76 @@
     "href": "kursmateriale/01-investeringsanalyse/index.html#innhold-og-anbefalt-progresjon",
     "title": "Investeringsanalyse",
     "section": "Innhold og anbefalt progresjon",
-    "text": "Innhold og anbefalt progresjon\n\n1. Introduksjon\n2. Tidens verdi\n3. Kontantstrøm\n4. Investeringskriterier\n5. Supplerende metoder\n6. Risiko\n7. Lån og betaling\n8. Oppsummering og case",
+    "text": "Innhold og anbefalt progresjon\n\n1. Introduksjon\n2. Investeringsprosjekter\n3. Effekter av skatt og lån\n4. Effekter av inflasjon\n5. Risikovurderinger\n6. Låne- og betalingsalternativer",
     "crumbs": [
       "Om kurset",
       "Moduler",
       "Investeringsanalyse"
+    ]
+  },
+  {
+    "objectID": "kursmateriale/01-investeringsanalyse/01-introduksjon/index.html",
+    "href": "kursmateriale/01-investeringsanalyse/01-introduksjon/index.html",
+    "title": "Introduksjon til investeringsanalyse",
+    "section": "",
+    "text": "Investeringsanalysemodulen starter her.\nI innledningen til investering og finans ble foretakets rolle diskutert. Kort oppsummert har foretaket ett overordnet mål. Å maksimere foretakets verdi. For å nå dette målet må foretaket ta tre sentrale beslutninger. Investeringsbeslutningen, finansieringsbeslutningen og utbyttebeslutningen. Investeringsanalyse handler om den første av disse. Hvilke prosjekter foretaket skal velge å investere i.",
+    "crumbs": [
+      "Om kurset",
+      "Moduler",
+      "Investeringsanalyse",
+      "1. Introduksjon"
+    ]
+  },
+  {
+    "objectID": "kursmateriale/01-investeringsanalyse/01-introduksjon/index.html#introduksjon",
+    "href": "kursmateriale/01-investeringsanalyse/01-introduksjon/index.html#introduksjon",
+    "title": "Introduksjon til investeringsanalyse",
+    "section": "",
+    "text": "Investeringsanalysemodulen starter her.\nI innledningen til investering og finans ble foretakets rolle diskutert. Kort oppsummert har foretaket ett overordnet mål. Å maksimere foretakets verdi. For å nå dette målet må foretaket ta tre sentrale beslutninger. Investeringsbeslutningen, finansieringsbeslutningen og utbyttebeslutningen. Investeringsanalyse handler om den første av disse. Hvilke prosjekter foretaket skal velge å investere i.",
+    "crumbs": [
+      "Om kurset",
+      "Moduler",
+      "Investeringsanalyse",
+      "1. Introduksjon"
+    ]
+  },
+  {
+    "objectID": "kursmateriale/01-investeringsanalyse/01-introduksjon/index.html#hva-er-investeringsanalyse",
+    "href": "kursmateriale/01-investeringsanalyse/01-introduksjon/index.html#hva-er-investeringsanalyse",
+    "title": "Introduksjon til investeringsanalyse",
+    "section": "2 Hva er investeringsanalyse",
+    "text": "2 Hva er investeringsanalyse\nInvesteringsanalyse dreier seg om realinvesteringer i prosjekter. Det kan være investeringer i maskiner, teknologi, nye produkter eller utvidelse av eksisterende virksomhet. Felles for slike prosjekter er at de krever en investering i dag, og forventes å generere kontantstrømmer i fremtiden.\nBeslutningsregelen er i seg selv enkel. Aksepter gode prosjekter. Et prosjekt er godt dersom det skaper verdi for foretaket. Mer presist betyr dette at prosjektets forventede avkastning er høyere enn det laveste akseptable avkastningskravet. Avkastningskravet skal reflektere risikoen i prosjektet og hvordan prosjektet finansieres gjennom egenkapital og gjeld.\nI praksis må avkastning måles gjennom diskonterte kontantstrømmer. Det er ikke prosjektets regnskapsmessige resultat som er avgjørende, men verdien av fremtidige kontantstrømmer vurdert i dag.",
+    "crumbs": [
+      "Om kurset",
+      "Moduler",
+      "Investeringsanalyse",
+      "1. Introduksjon"
+    ]
+  },
+  {
+    "objectID": "kursmateriale/01-investeringsanalyse/01-introduksjon/index.html#hva-må-vi-kunne-for-å-ta-investeringsbeslutninger",
+    "href": "kursmateriale/01-investeringsanalyse/01-introduksjon/index.html#hva-må-vi-kunne-for-å-ta-investeringsbeslutninger",
+    "title": "Introduksjon til investeringsanalyse",
+    "section": "3 Hva må vi kunne for å ta investeringsbeslutninger",
+    "text": "3 Hva må vi kunne for å ta investeringsbeslutninger\nÅ avgjøre om et prosjekt er godt krever to ting. For det første må vi kunne si noe om prosjektets forventede kontantstrømmer. For det andre må vi kjenne det relevante avkastningskravet gitt prosjektets risiko og finansieringsstruktur.\nI denne modulen ligger hovedvekten på det første punktet. Hvordan beregne prosjektets forventede kontantstrømmer. Beregning av avkastningskrav og eksplisitt prising av risiko behandles i senere moduler om finansiering, kapitalstruktur og risiko.\nFor å kunne analysere et prosjekts forventede avkastning må vi ha oversikt over tre forhold.\n\nProsjektets kontantstrømmer.\nTidshorisonten for kontantstrømmene.\nRisikoen knyttet til kontantstrømmene.\n\nI denne modulen håndteres risiko i hovedsak indirekte, gjennom sensitivitetsanalyser og scenarieanalyser.",
+    "crumbs": [
+      "Om kurset",
+      "Moduler",
+      "Investeringsanalyse",
+      "1. Introduksjon"
+    ]
+  },
+  {
+    "objectID": "kursmateriale/01-investeringsanalyse/01-introduksjon/index.html#hvordan-modulen-er-bygget-opp",
+    "href": "kursmateriale/01-investeringsanalyse/01-introduksjon/index.html#hvordan-modulen-er-bygget-opp",
+    "title": "Introduksjon til investeringsanalyse",
+    "section": "4 Hvordan modulen er bygget opp",
+    "text": "4 Hvordan modulen er bygget opp\nHoveddelen av modulen fokuserer på kontantstrømmene. Vi går gjennom hvordan kontantstrømmer beregnes, hvilke kontantstrømmer som er relevante, og hvilke som ikke er det. Videre ser vi på hvordan skatter og lån påvirker kontantstrømmene, hvordan inflasjon skal hensyntas, og hvordan analysen kan stresstestes ved hjelp av sensitivitetsanalyser og scenarieanalyser. Avslutningsvis ser vi på hvordan ulike låne og betalingsalternativer påvirker kontantstrømmene. Disse temaene dekkes i kapittel 3 til 6 i modulen.\nKapittel 2, investeringsprosjekter, tar et annet utgangspunkt. Her antar vi at korrekte kontantstrømmer allerede er identifisert, og at et relevant avkastningskrav er fastsatt. Fokuset ligger på hvordan denne informasjonen brukes til å fatte en konkret investeringsbeslutning. Vi ser på metoder for å vurdere lønnsomhet, som nåverdimetoden, internrente, tilbakebetalingsmetoden og annuitetsmetoden. I tillegg diskuteres hvordan prosjekter kan rangeres når foretaket har begrensede ressurser.",
+    "crumbs": [
+      "Om kurset",
+      "Moduler",
+      "Investeringsanalyse",
+      "1. Introduksjon"
     ]
   },
   {
@@ -104,11 +169,11 @@
     ]
   },
   {
-    "objectID": "kursmateriale/00-introduksjon/0-intro_finans.html#foretaket-investering-finansiering-og-utbyte",
-    "href": "kursmateriale/00-introduksjon/0-intro_finans.html#foretaket-investering-finansiering-og-utbyte",
+    "objectID": "kursmateriale/00-introduksjon/0-intro_finans.html#foretaket-investering-finansiering-og-utbytte",
+    "href": "kursmateriale/00-introduksjon/0-intro_finans.html#foretaket-investering-finansiering-og-utbytte",
     "title": "Fra økonomi til bedriftsøkonomi: Bedriftens finansielle beslutninger",
-    "section": "4 Foretaket: investering, finansiering og utbyte",
-    "text": "4 Foretaket: investering, finansiering og utbyte\nI figur Figure 1 er foretaket plassert på høyre side. Foretaket er den aktøren som etterspør kapital. Samtidig er det selve motoren i verdiskapingen: det bruker kapital, arbeidskraft og ledelse til å produsere varer og tjenester som tilfredsstiller husholdningenes ønsker gjennom å investere i prosjekter. Prosjekter er investeringer i realaktiva, som består av fysiske (fabrikker, maskiner etc.) og immaterielle (patenter, merkevarer osv.) eiendeler. Når bedriften lykkes bedre med sine prosjekter enn konkurrentene, skaper den overskudd. Overskuddet gir eierne profitt, og profitt som er stabil og fremtidsrettet løfter verdien av bedriften.\nI bedriftsøkonomi antar vi ofte at målet er profittmaksimering. Bedriften skal da bruke ressursene slik at inntekter minus kostnader blir størst mulig. To grunnprinsipper følger av dette:\n\nDe minste midler: produser med minst mulig ressursbruk\nDe største resultater: få mest mulig ut av gitte ressurser\n\nI finans går vi et steg videre. Vi antar ofte at bedriften er børsnotert, og at målet er å maksimere markedsverdien av selskapets aksjer. Markedsverdien reflekterer størrelsen, tidspunktet og sikkerheten til de forventede betalingene til aksjonærene. En usikker betalingsstrøm verdsettes lavere enn en sikker strøm med samme forventede størrelse. Dette målet er mer omfattende enn profittmaksimering, fordi det tar hensyn til både tid og risiko.\nFor å nå målet om verdimaksimering må bedriften ta tre typer beslutninger:\n\nInvesteringsbeslutninger: hvilke prosjekter skal gjennomføres\nFinansieringsbeslutninger: hvordan prosjektene skal betales, med gjeld eller egenkapital\nUtbyttebeslutninger: hvordan overskuddet skal disponeres mellom eierne og videre investeringer\n\nMålet om verdimaksimering har møtt kritikk. Mange mener at bedrifter også bør ivareta interessene til ansatte, kunder, leverandører og samfunnet for øvrig. Andre hevder at beslutningstakere i praksis ikke maksimerer, men heller søker en tilfredsstillende løsning, et prinsipp kjent som satisfiering.\nI dette kurset legger vi likevel til grunn at bedriftens mål er å maksimere markedsverdien av aksjene, fordi dette best reflekterer eiernes interesser. Det betyr ikke at hensyn som bærekraft og samfunnsansvar er uviktige, men at de må integreres i beslutningene på en måte som også skaper verdi for eierne. Vi legger derfor til grunn at valg først og fremst må være økonomisk bærekraftige: prosjekter må gi kontantstrømmer som dekker kostnader, forrenter kapitalen og skaper avkastning i forhold til risiko. Uten økonomisk bærekraft kan selv gode intensjoner ikke opprettholdes over tid.",
+    "section": "4 Foretaket: investering, finansiering og utbytte",
+    "text": "4 Foretaket: investering, finansiering og utbytte\nI figur Figure 1 er foretaket plassert på høyre side. Foretaket er den aktøren som etterspør kapital. Samtidig er det selve motoren i verdiskapingen: det bruker kapital, arbeidskraft og ledelse til å produsere varer og tjenester som tilfredsstiller husholdningenes ønsker gjennom å investere i prosjekter. Prosjekter er investeringer i realaktiva, som består av fysiske (fabrikker, maskiner etc.) og immaterielle (patenter, merkevarer osv.) eiendeler. Når bedriften lykkes bedre med sine prosjekter enn konkurrentene, skaper den overskudd. Overskuddet gir eierne profitt, og profitt som er stabil og fremtidsrettet løfter verdien av bedriften.\nI bedriftsøkonomi antar vi ofte at målet er profittmaksimering. Bedriften skal da bruke ressursene slik at inntekter minus kostnader blir størst mulig. To grunnprinsipper følger av dette:\n\nDe minste midler: produser med minst mulig ressursbruk\nDe største resultater: få mest mulig ut av gitte ressurser\n\nI finans går vi et steg videre. Vi antar ofte at bedriften er børsnotert, og at målet er å maksimere markedsverdien av selskapets aksjer. Markedsverdien reflekterer størrelsen, tidspunktet og sikkerheten til de forventede betalingene til aksjonærene. En usikker betalingsstrøm verdsettes lavere enn en sikker strøm med samme forventede størrelse. Dette målet er mer omfattende enn profittmaksimering, fordi det tar hensyn til både tid og risiko.\nFor å nå målet om verdimaksimering må bedriften ta tre typer beslutninger:\n\nInvesteringsbeslutninger: hvilke prosjekter skal gjennomføres\nFinansieringsbeslutninger: hvordan prosjektene skal betales, med gjeld eller egenkapital\nUtbyttebeslutninger: hvordan overskuddet skal disponeres mellom eierne og videre investeringer\n\nMålet om verdimaksimering har møtt kritikk. Mange mener at bedrifter også bør ivareta interessene til ansatte, kunder, leverandører og samfunnet for øvrig. Andre hevder at beslutningstakere i praksis ikke maksimerer, men heller søker en tilfredsstillende løsning, et prinsipp kjent som satisfiering.\nI dette kurset legger vi likevel til grunn at bedriftens mål er å maksimere markedsverdien av aksjene, fordi dette best reflekterer eiernes interesser. Det betyr ikke at hensyn som bærekraft og samfunnsansvar er uviktige, men at de må integreres i beslutningene på en måte som også skaper verdi for eierne. Vi legger derfor til grunn at valg først og fremst må være økonomisk bærekraftige: prosjekter må gi kontantstrømmer som dekker kostnader, forrenter kapitalen og skaper avkastning i forhold til risiko. Uten økonomisk bærekraft kan selv gode intensjoner ikke opprettholdes over tid.",
     "crumbs": [
       "Introduksjon til kursinnholdet",
       "Innledning til investering og finans"
@@ -130,7 +195,7 @@
     "href": "kursmateriale/00-introduksjon/0-forord.html",
     "title": "Investering og finans",
     "section": "",
-    "text": "Ikke ferdig\nDenne nettsiden, med dens innhold og struktur er mitt forsøk på å modernisere kurset BED3 - Investering og finans, som undervises som en del av den bedriftsøkonomiske sekvensen av kurs på bachelorstudiet i Økonomi og Administrasjon ved Norges Handelshøyskole. Kurset er svært sentralt i studiet, og bidrar med kjernekunnskap på et område som er av vesentlig betydning for en bachelorkandidat fra NHH.\nKjernen av kurset…\nInnholdet her belager seg på bruk av arbeid gjort av mange andre. Jeg håper å få sitert alle relevante kilder…\nFormålet med denne siden er ikke å være statisk, men å utvikle seg over tid. Videre, når en sitter med nesen tett til skjermen, er det lett å overse skrivefeil og andre rare ting som ferske øyne fanger opp umiddelbart. Om du ser noe direkte galt eller noe som virker rart, gi meg beskjed.\nOm noen andre enn studenter ved Norges Handelshøyskole eller utenfor sfæren av økonomer og økonomistudenter generelt skulle finne frem til siden i søken etter kunnskap om investeringer, finansiering, finansmarkeder etc. så håper jeg denne siden kan være av nytte.",
+    "text": "Denne nettsiden, med dens innhold og struktur er mitt forsøk på å modernisere kurset BED3 - Investering og finans, som undervises som en del av den bedriftsøkonomiske sekvensen av kurs på bachelorstudiet i Økonomi og Administrasjon (BØA) ved Norges Handelshøyskole. Kurset er svært sentralt i studiet, og bidrar med kjernekunnskap på et område som er av vesentlig betydning for en bachelorkandidat fra NHH.\n\nFormålet med denne siden er ikke å være statisk, men å utvikle seg over tid. Videre, når en sitter med nesen tett til skjermen, er det lett å overse skrivefeil og andre rare ting som ferske øyne fanger opp umiddelbart. Om du ser noe direkte galt eller noe som virker rart, gi meg gjerne beskjed.\nOm noen andre enn studenter ved Norges Handelshøyskole eller utenfor sfæren av økonomer og økonomistudenter generelt skulle finne frem til siden i søken etter kunnskap om investeringer, finansiering, finansmarkeder etc. så håper jeg innholdet oppleves som nyttig og relevant.",
     "crumbs": [
       "Introduksjon til kursinnholdet",
       "Forord"
@@ -141,7 +206,7 @@
     "href": "kursmateriale/00-introduksjon/0-forord.html#forord",
     "title": "Investering og finans",
     "section": "",
-    "text": "Ikke ferdig\nDenne nettsiden, med dens innhold og struktur er mitt forsøk på å modernisere kurset BED3 - Investering og finans, som undervises som en del av den bedriftsøkonomiske sekvensen av kurs på bachelorstudiet i Økonomi og Administrasjon ved Norges Handelshøyskole. Kurset er svært sentralt i studiet, og bidrar med kjernekunnskap på et område som er av vesentlig betydning for en bachelorkandidat fra NHH.\nKjernen av kurset…\nInnholdet her belager seg på bruk av arbeid gjort av mange andre. Jeg håper å få sitert alle relevante kilder…\nFormålet med denne siden er ikke å være statisk, men å utvikle seg over tid. Videre, når en sitter med nesen tett til skjermen, er det lett å overse skrivefeil og andre rare ting som ferske øyne fanger opp umiddelbart. Om du ser noe direkte galt eller noe som virker rart, gi meg beskjed.\nOm noen andre enn studenter ved Norges Handelshøyskole eller utenfor sfæren av økonomer og økonomistudenter generelt skulle finne frem til siden i søken etter kunnskap om investeringer, finansiering, finansmarkeder etc. så håper jeg denne siden kan være av nytte.",
+    "text": "Denne nettsiden, med dens innhold og struktur er mitt forsøk på å modernisere kurset BED3 - Investering og finans, som undervises som en del av den bedriftsøkonomiske sekvensen av kurs på bachelorstudiet i Økonomi og Administrasjon (BØA) ved Norges Handelshøyskole. Kurset er svært sentralt i studiet, og bidrar med kjernekunnskap på et område som er av vesentlig betydning for en bachelorkandidat fra NHH.\n\nFormålet med denne siden er ikke å være statisk, men å utvikle seg over tid. Videre, når en sitter med nesen tett til skjermen, er det lett å overse skrivefeil og andre rare ting som ferske øyne fanger opp umiddelbart. Om du ser noe direkte galt eller noe som virker rart, gi meg gjerne beskjed.\nOm noen andre enn studenter ved Norges Handelshøyskole eller utenfor sfæren av økonomer og økonomistudenter generelt skulle finne frem til siden i søken etter kunnskap om investeringer, finansiering, finansmarkeder etc. så håper jeg innholdet oppleves som nyttig og relevant.",
     "crumbs": [
       "Introduksjon til kursinnholdet",
       "Forord"
@@ -194,7 +259,7 @@
     "href": "kursinformasjon.html#emneansvarlige",
     "title": "Kursinformasjon",
     "section": "Emneansvarlige",
-    "text": "Emneansvarlige\n\n\n\nNavn: Frode Sættem\nTittel: Professor\nRolle: Hovedemneansvarlig\nE-post: frode.saettem@nhh.no\nKontor: C523\n\n\nNavn: André Wattø Sjuve\nTittel: Assistant Professor\nRolle: Foreleser\nE-post: andre.sjuve@nhh.no\nKontor: C310\n\n\nNavn: Andreas Ørpetveit\nTittel: Assistant Professor\nRolle: Foreleser\nE-post: andreas.orpetveit@nhh.no\nKontor: C311"
+    "text": "Emneansvarlige\n\n\n\nNavn: Frode Sættem\nTittel: Professor\nRolle: Hovedemneansvarlig\nE-post: frode.saettem@nhh.no\nKontor: C523\n\n\nNavn: André Wattø Sjuve\nTittel: Førsteamanuensis\nRolle: Foreleser\nE-post: andre.sjuve@nhh.no\nKontor: C310\n\n\nNavn: Andreas Ørpetveit\nTittel: Førsteamanuensis\nRolle: Foreleser\nE-post: andreas.orpetveit@nhh.no\nKontor: C311"
   },
   {
     "objectID": "kursinformasjon.html#studentassistenter",
@@ -237,14 +302,14 @@
     "href": "forelesningsplan.html",
     "title": "Forelesningsplan",
     "section": "",
-    "text": "NoteViktige datoer\n\n\n\n\n\n Registrering i grupper:\n16.02.2026\nObligatorisk for deltakelse i casearbeidet. Se Case for registreringsinfo.\n Obligatorisk case:\n23.02.2026  Må bestås for å kunne gå opp til eksamen. Se Case for informasjon.\n\n\n Frivillig oppgave:\n24.04.2026\nFrivillig innlevering med kommentarer fra studentassistenter.  Se Om kurset for detaljer.\n Eksamen:\n15.05.2026\nSkriftlig skoleeksamen. Se Vurdering for form og hjelpemidler.\nUke\nDato\nDag\nTema\nForeleser\nPensum\nType\n\n\n\n\n2\n06.01.2026\nTirsdag\nIntroduksjon og investeringsprosjekter\nFS/AWS\n1, 2\nForelesning\n\n\n2\n09.01.2026\nFredag\nEffekter av skatt og lån\nAWS\n5.1–5.6, 8, 19\nForelesning\n\n\n3\n13.01.2026\nTirsdag\nEffekter av inflasjon\nAWS\n9, BK\nForelesning\n\n\n3\n16.01.2026\nFredag\nRisikovurderinger\nAWS\n10\nForelesning\n\n\n4\n\n–\nGruppeøving 1\n–\n–\nGruppeøving\n\n\n5\n27.01.2026\nTirsdag\nLåne- og betalingsalternativer\nAWS\n5.7\nForelesning\n\n\n5\n30.01.2026\nFredag\nPorteføljeteori\nOAN\n11\nForelesning\n\n\n6\n03.02.2026\nTirsdag\nKapitalverdimodellen\nOAN\n12\nForelesning\n\n\n6\n06.02.2026\nFredag\nAksjeprising\nOAN\n7\nForelesning\n\n\n7\n\n–\nGruppeøving 2\n–\n–\nGruppeøving\n\n\n8\n17.02.2026\nTirsdag\nKapitalstruktur\nOAN\n13, 16\nForelesning\n\n\n8\n20.02.2026\nFredag\nUtbyttepolitikk og skatt\nOAN\n17\nForelesning\n\n\n9\n\n–\nGruppeøving 3 + innlevering\n–\n–\nGruppeøving\n\n\n10\n03.03.2026\nTirsdag\nKapitalmarked og selskapskontroll\nOAN\n14, 15, 21\nForelesning\n\n\n10\n06.03.2026\nFredag\n–\n–\n–\nIngen forelesning\n\n\n11\n10.03.2026\nTirsdag\nMarkedseffisiens og atferdsfinans\nOAN\n14, 15, 21\nForelesning\n\n\n11\n13.03.2026\nFredag\nBærekraftige investeringer\nTF\n–\nForelesning\n\n\n12\n\n–\nGruppeøving 4\n–\n–\nGruppeøving\n\n\n13\n24.03.2026\nTirsdag\nRentemarkedet\nAWS\n6\nForelesning\n\n\n13\n27.03.2026\nFredag\nOpsjonskontrakter\nAWS\n23, 24.2\nForelesning\n\n\n14\n31.03.2026\nTirsdag\nTerminkontrakter\nAWS\n24.1, 24.3, 24.4, 24.7\nForelesning\n\n\n14\n03.04.2026\nFredag\nInternasjonal finans og investering\nAWS\n22\nForelesning\n\n\n15\n\n–\nGruppeøving 5\n–\n–\nGruppeøving\n\n\n16\n\n–\nPåske\n–\n–\nFerie\n\n\n17\n21.04.2026\nTirsdag\n–\n–\n–\nIngen forelesning\n\n\n17\n24.04.2026\nFredag\nFrist: frivillig oppgaveinnlevering\n–\n–\nFrist"
+    "text": "NoteViktige datoer\n\n\n\n\n\n Registrering i grupper: 16.02.2026\nObligatorisk for deltakelse i casearbeidet. Se Case for registreringsinfo.\n Obligatorisk case:\n23.02.2026  Må bestås for å kunne gå opp til eksamen.\nSe Canvas for informasjon \n\n\n Frivillig oppgave: 17.04.2026 Frivillig innlevering med kommentarer fra studentassistenter.  Se Om kurset for detaljer.\n Eksamen: 15.05.2026 Skriftlig skoleeksamen. Se Vurdering for form og hjelpemidler."
   },
   {
     "objectID": "forelesningsplan.html#åpningstider-før-innleveringssett-og-eksamen",
     "href": "forelesningsplan.html#åpningstider-før-innleveringssett-og-eksamen",
     "title": "Forelesningsplan",
     "section": "Åpningstider før innleveringssett og eksamen",
-    "text": "Åpningstider før innleveringssett og eksamen\nOrakeltjenesten vil være åpen både i undervisnings- og eksamensperioden. I undervisningsperioden betjenes den av de kursansvarlige (se treffetid kursansvarlig ovenfor). I tiden før eksamen, herunder i forbindelse med det frivillige innleveringssettet, betjenes den av studentassistentene. Orakeltjenesten er en møteplass hvor studentene kan få hjelp i faglige spørsmål utenom forelesningene.\n\n\n\n\n\n\nUke\nDato\nMerknad\nMandag\nTirsdag\nOnsdag\nTorsdag\nFredag\n\n\n\n\n17\n21.04-25.04\nInnleveringssett har frist 25.04\nAndre påskedag\n\n10:15-12:00 Aud. J\n\n\n\n\n18\n28.04-02.05\n\n\nMET4 eksamen\n\nOff. høytidsdag\n\n\n\n19\n05.05-09.05\n\n\n\n\n\n10:15-14:00 Aud. C\n\n\n20\n12.05-16.05\n\n10:15-14:00 Aud. C\n10:15-14:00 Aud. C\n10:15-14:00 Aud. C\nBED3 eksamen\n\n\n\n21\n19.05-23.05\n\n\n\n\n\n\n\n\n22\n26.05-30.05\n\n\nSAM3 eksamen\n\nHimmelfartsdag"
+    "text": "Åpningstider før innleveringssett og eksamen\nOrakeltjenesten vil være åpen både i undervisnings- og eksamensperioden. I undervisningsperioden betjenes den av de kursansvarlige (se treffetid kursansvarlig ovenfor). I tiden før eksamen, herunder i forbindelse med det frivillige innleveringssettet, betjenes den av studentassistentene. Orakeltjenesten er en møteplass hvor studentene kan få hjelp i faglige spørsmål utenom forelesningene.\n\n\n\n\n\n\nUke\nDato\nMerknad\nMandag\nTirsdag\nOnsdag\nTorsdag\nFredag\n\n\n\n\n17\n21.04-25.04\nInnleveringssett har frist 17.04\nAndre påskedag\n\n10:15-12:00 Aud. J\n\n\n\n\n18\n28.04-02.05\n\n\nMET4 eksamen\n\nOff. høytidsdag\n\n\n\n19\n05.05-09.05\n\n\n\n\n\n10:15-14:00 Aud. C\n\n\n20\n12.05-16.05\n\n10:15-14:00 Aud. C\n10:15-14:00 Aud. C\n10:15-14:00 Aud. C\nBED3 eksamen\n\n\n\n21\n19.05-23.05\n\n\n\n\n\n\n\n\n22\n26.05-30.05\n\n\nSAM3 eksamen\n\nHimmelfartsdag"
   },
   {
     "objectID": "about.html",
@@ -576,6 +641,19 @@
     "title": "BED3 - Investering og finans",
     "section": "Miniøvelser",
     "text": "Miniøvelser\n\nNevn ett valg en investor tar om tid, risiko, og beløp.\nNevn ett eksempel på risikohåndtering i praksis.\nNevn ett valg et foretak tar som øker markedsverdi."
+  },
+  {
+    "objectID": "kursmateriale/01-investeringsanalyse/02-investeringsprosjekter/index.html#forelesningsplansjer",
+    "href": "kursmateriale/01-investeringsanalyse/02-investeringsprosjekter/index.html#forelesningsplansjer",
+    "title": "Investeringsprosjekter",
+    "section": "2 Forelesningsplansjer",
+    "text": "2 Forelesningsplansjer\n\n\n📥 Last ned presentasjonen som pdf",
+    "crumbs": [
+      "Om kurset",
+      "Moduler",
+      "Investeringsanalyse",
+      "2. Investeringsprosjekter"
+    ]
   },
   {
     "objectID": "oblig_innlevering/1-info.html",

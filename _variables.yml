@@ -25,15 +25,15 @@ instructors:
    AWS:
      name: "André Wattø Sjuve"
      id: "AWS"
-     title: "Assistant Professor"
+     title: "Førsteamanuensis"
      role: "Foreleser"
      email: "andre.sjuve@nhh.no"
      office: "C310"
      page: "https://andresjuve.github.io/"
-   AO: 
+   AO:
      name: "Andreas Ørpetveit"
      id: "AO"
-     title: "Assistant Professor"
+     title: "Førsteamanuensis"
      role: "Foreleser"
      email: "andreas.orpetveit@nhh.no"
      office: "C311"
@@ -49,7 +49,7 @@ officehours:
 deadlines:
   group_registration: 2026-02-16
   mandatory_case: 2026-02-23
-  voluntary_case: 2026-04-24
+  voluntary_case: 2026-04-17
   exam: 2026-05-15
 
 
@@ -57,4 +57,4 @@ weekday1: "Tirsdag"
 weekday2: "Fredag"
 time1: "12:15 - 14:00"
 time2: "10:15 - 12:00"
-dates: "Jan. X - April Y, 2026"
+dates: "Jan. 6 - April 17, 2026"
