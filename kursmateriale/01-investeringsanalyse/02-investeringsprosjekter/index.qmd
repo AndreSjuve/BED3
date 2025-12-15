@@ -5,6 +5,8 @@ description: Beslutningsregler og lønnsomhetsmålinger for investeringsprosjekt
 
 ## Videoer
 
+<iframe src="https://nhh.cloud.panopto.eu/Panopto/Pages/EmbeddedList.aspx?folderID=48a4c950-f45b-434d-a42e-b3b40104efef&embedded=1" style="border: 0; width: 100%; height: 550px;"></iframe>
+
 ## Forelesningsplansjer
 
 <iframe src="../../../assets/slides/BED3_F01_Investeringsprosjekter.pdf" width="100%" height="600px" style="border:none; margin-top: 1em; margin-bottom: 1em;"></iframe>
