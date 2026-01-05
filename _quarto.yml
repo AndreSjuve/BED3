@@ -67,13 +67,13 @@ website:
                 - text: "2. Investeringsprosjekter"
                   href: kursmateriale/01-investeringsanalyse/02-investeringsprosjekter/index.qmd
                 - text: "3. Effekter av skatt og lån"
-                  href: kursmateriale/01-investeringsanalyse/03-skatt-og-lån/index.qmd
+                  href: kursmateriale/01-investeringsanalyse/03-skatt-og-laan/index.qmd
                 - text: "4. Effekter av inflasjon"
                   href: kursmateriale/01-investeringsanalyse/04-inflasjon/index.qmd
                 - text: "5. Risikovurderinger"
                   href: kursmateriale/01-investeringsanalyse/05-risikovurderinger/index.qmd
                 - text: "6. Låne- og betalingsalternativer"
-                  href: kursmateriale/01-investeringsanalyse/06-låne-og-betalingsalternativer/index.qmd
+                  href: kursmateriale/01-investeringsanalyse/06-laane-og-betalingsalternativer/index.qmd
 
 
 

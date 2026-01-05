@@ -35,7 +35,7 @@ Siden modulen er bygget opp kronologisk, anbefales det at du følger innholdet i
 ## Innhold og anbefalt progresjon
 - [1. Introduksjon](01-introduksjon)
 - [2. Investeringsprosjekter](02-investeringsprosjekter)
-- [3. Effekter av skatt og lån](03-skatt-og-lån)
+- [3. Effekter av skatt og lån](03-skatt-og-laan)
 - [4. Effekter av inflasjon](04-inflasjon)
 - [5. Risikovurderinger](05-risikovurderinger)
-- [6. Låne- og betalingsalternativer](06-låne-og-betalingsalternativer)
+- [6. Låne- og betalingsalternativer](06-laane-og-betalingsalternativer)

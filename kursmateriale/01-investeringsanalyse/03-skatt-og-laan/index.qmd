@@ -1,0 +1,14 @@
+---
+title: Kontantstrømmer
+description: Hvordan bygge kontantstrømmer som inngår i investeringsbeslutningen.
+---
+
+## Videoer {.unnumbered}
+
+<iframe src="https://nhh.cloud.panopto.eu/Panopto/Pages/EmbeddedList.aspx?folderID=8a93998b-dfe1-41a4-9825-b3c900e132df&embedded=1" style="border: 0; width: 100%; height: 550px;"></iframe>
+
+## Forelesningsplansjer {.unnumbered}
+
+<iframe src="../../../assets/slides/BED3-F02-Effekter_av_skatt_og_laan.pdf" width="100%" height="600px" style="border:none; margin-top: 1em; margin-bottom: 1em;"></iframe>
+
+[📥 Last ned presentasjonen som pdf](../../../assets/slides/BED3-F02-Effekter_av_skatt_og_laan.pdf){.btn .btn-primary target="_blank"}

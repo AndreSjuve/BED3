@@ -9,8 +9,10 @@ resources: _variables.yml
 ```{r}
 vars <- yaml::read_yaml("_variables.yml")
 deadlines <- vars$deadlines
-```
 
+invisible(Sys.setlocale("LC_TIME", "nb-NO"))
+
+```
 
 ::: {.callout-note title="Viktige datoer"}
 
@@ -91,22 +93,25 @@ schedule |>
   ) %>%
   row_spec(seq(2, nrow(schedule), 2), background = "#fef9f0") %>%
   row_spec(seq(1, nrow(schedule), 2), background = "#f7f3e8") |>
-  column_spec(4, width = "22em") %>%
-  row_spec(
-    which(schedule$is_current),
-    color = "#fffbf2",
-    background = "#3B6E8F"
-  )
-
+  column_spec(4, width = "22em") #%>%
+#row_spec(
+#  which(schedule$is_current),
+#  color = "#fffbf2",
+#  background = "#3B6E8F"
+#)
 
 ```
 
 
 # Orakeltjeneste
 
-```{r OfficeHours,eval=TRUE, echo = FALSE, message = FALSE, warning = FALSE}
-Sys.setlocale("LC_TIME", "nb-NO")
+::: {.callout-warning}
+## Tidspunkter for 2026
+**Denne delen vil bli oppdatert for vårsemester 2026 så fort vi har detaljene klare**
+:::
 
+
+```{r OfficeHours,eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
 info_orakel <- vars$officehours
 
 sdate <-
@@ -155,7 +160,7 @@ end_date_txt <-
 
 Orakeltjenesten vil være åpen både i undervisnings- og eksamensperioden. I undervisningsperioden betjenes den av de kursansvarlige (se treffetid kursansvarlig ovenfor). I tiden før eksamen, herunder i forbindelse med det frivillige innleveringssettet, betjenes den av studentassistentene. Orakeltjenesten er en møteplass hvor studentene kan få hjelp i faglige spørsmål utenom forelesningene.
 
-```{r orakeltjeneste,eval=TRUE, echo = FALSE, message = FALSE, warning = FALSE}
+```{r orakeltjeneste, eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
 library(kableExtra)
 
 exam_support <-

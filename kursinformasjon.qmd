@@ -4,19 +4,19 @@ title: "Kursinformasjon"
 resources: _variables.yml
 ---
 
-# 📘 Kort om kurset {.unnumbered}
+# Kort om kurset {.unnumbered}
 
-Økonomi handler om et enkelt, men evig problem: vi ønsker oss alltid mer enn vi kan få. **BED3 Investering og finans** tar utgangspunkt i dette og undersøker hvordan vi best organiserer den knappe ressursen kapital.  
+Økonomi handler om et enkelt, men evig problem: vi ønsker oss alltid mer enn vi kan få. **BED3 Investering og finans** tar utgangspunkt i dette og undersøker hvordan vi best organiserer den knappe ressursen kapital.
 
 BED3 er et obligatorisk kurs i sekvensen i bedriftsøkonomisk analyse i bachelorstudiet. Kurset er svært sentralt i studiet, og gir kjernekunnskap på et område som er av vesentlig betydning for en bachelorkandidat fra NHH.
 
-Gjennom kurset lærer du å analysere investeringsprosjekter, forstå hvordan kapitalen fordeles i porteføljer, hvordan risikokapital prises i markedet, og hvordan bedrifter bør velge mellom gjeld og egenkapital.  
+Gjennom kurset lærer du å analysere investeringsprosjekter, forstå hvordan kapitalen fordeles i porteføljer, hvordan risikokapital prises i markedet, og hvordan bedrifter bør velge mellom gjeld og egenkapital.
 
 I tillegg får du innblikk i temaer som bærekraftig finans, opsjoner, terminkontrakter, rentemarkedet og valuta. Til sammen gir dette en helhetlig forståelse av hvordan kapital investeres, finansieres og prises.
 
 ---
 
-# 🎯 Læringsutbytte
+# Læringsutbytte
 
 Kurset tar sikte på å gi studentene utførlig innsikt i bedriftens investerings- og finansieringsbeslutninger.
 
@@ -49,7 +49,7 @@ Etter å ha fullført kurset kan studentene:
 - Anvende denne innsikten på praktiske problemstillinger
 - Utveksle synspunkter og erfaringer med andre som har bakgrunn i finans og gjennom dette bidra til god praksis
 
-# 🧠 Organisering og tilretteleggelse for effektiv læring
+# Organisering og tilretteleggelse for effektiv læring
 
 Det pedagogiske opplegget er basert på tre hovedelementer:
 
@@ -57,51 +57,49 @@ Det pedagogiske opplegget er basert på tre hovedelementer:
 2. En serie med plenumsforelesninger
 3. En rekke ulike oppgavetyper
 
-Fullt utbytte forutsetter at man leser pensumlitteraturen, følger forelesningene og arbeider med forelesningsmaterialet, samt avsetter tid til oppgaveløsning – både på egenhånd og i kollokvier/grupper. Det er samspillet mellom litteratur, forelesninger og oppgavetrening som danner grunnlaget for læring i faget.
+Fullt utbytte forutsetter at man leser pensumlitteraturen, følger forelesningsopplegget og arbeider med forelesningsmaterialet, samt avsetter tid til oppgaveløsning – både på egenhånd og i kollokvier/grupper. Det er samspillet mellom litteratur, forelesninger og oppgavetrening som danner grunnlaget for læring i faget.
 
 ## Læringsstøttende elementer
 - En omfattende hjemmeside for distribusjon av relevant informasjon og materiale
 - En gruppe studentassistenter som deltar aktivt i ulike arbeidsoppgaver
-- Tilbud om organisert gruppeundervisning, frivillig innlevering av et oppgavesett og obligatorisk innlevering av et caseoppgavesett
-- Førstelinjehjelp i form av en orakeltjeneste
-- En chatbot (ChatGPT) – BED3-Buddy – for faglig og administrativ støtte
-- God dialog med studentgruppen, blant annet ved bruk av referansegruppe
+- Et yilbud om organisert gruppeundervisning, frivillig innlevering av et oppgavesett og obligatorisk innlevering av et caseoppgavesett
+- Et tilbud om førstelinjehjelp i form av en orakeltjeneste
+- En chatbot (ChatGPT) (samtalerobot) – BED3-Buddy – designet for å underbygge det faglige innholdet i kurset, samt kunne besvare eventuelle administrative spørsmål
+- Et ønske om god dialog med studentgruppen, blant annet ved bruk av referansegruppe
 
-Plenumsforelesningene gir oversikt over temaene i kurset og bygger på forelesningsplansjer. Disse utdypes med eksempler og illustrasjoner. Forelesningene er ikke en erstatning for pensumlitteraturen.
+Plenumsforelesningene har som formål å gi oversikt over de aktuelle temaene som tas opp i kurset. Forelesningene bygger på en serie forelesningsplansjer. Forelesningene vil bli brukt til å utdype disse plansjene, herunder presentere relevante eksempler og illustrasjoner. Forelesningene representerer ingen direkte gjengivelse av pensumlitteraturen og er heller ingen erstatning for pensumlitteraturen.
 
-## 📝 Arbeid med oppgaver
+## Arbeid med oppgaver
 
-Kurset tilbyr ulike former for oppgavetrening:
+I kurset tilbys ulike former for oppgavetrening:
 
-1. **Fem sett med øvingsoppgaver** – gjennomgås i grupper. Løsningsmomenter er tilgjengelige fra semesterstart.
-2. **Ett frivillig innleveringssett** – rettes og kommenteres av studentassistenter. Løsningsforslag publiseres én uke etter innleveringsfrist.
-3. **Ett obligatorisk caseoppgavesett** – kreves for kursgodkjenning. Rettes og kommenteres. Løsningsforslag publiseres etter ferdig retting.
-4. **Eksamensoppgaver** – tidligere eksamensoppgaver med løsningsforslag er tilgjengelige.
+1. Fem sett med øvingsoppgaver: Disse gjennomgås i grupper av studentassistentene. Løsningsmomenter til alle de fem oppgavesettene er lagt ut på hjemmesiden allerede ved starten av semesteret. Det betyr at gruppeundervisningen vil ha rom for diskusjon og refleksjon i tillegg til å fokusere på løsningene
+2. Ett sett med innleveringsoppgaver (frivillig innlevering): Dette rettes og kommenteres av studentassistentene. Løsningsmomenter legges ut på hjemmesiden ca. en uke etter at innleveringsfristen er gått ut
+3. Ett sett med caseoppgaver (obligatorisk innlevering og grunnlag for kursgodkjenning): Dette rettes og kommenteres av studentassistentene.Løsningsmomenter legges ut på hjemmesiden når rettingen er avsluttet
+4. Eksamensoppgaver: Tidligere eksamensoppgaver, med tilhørende løsningsmomenter, er lagt ut på hjemmesiden
 
-Det er også orakeltjeneste gjennom semesteret, betjent av kursansvarlige og studentassistenter, og støtte i forbindelse med frivillig innlevering.
+Øvingsoppgaver og innleveringsoppgaver er i hovedsak utformet som typiske eksamensoppgaver, og er dermed representative for hvordan man kan forvente å bli prøvd ved eksamen. Unntaket er at ingen av oppgavene som vil bli gitt til eksamen baseres på bruk av Excel. Merk at det er lagt ut en (kortfattet) fasit til innleveringsoppgavesettet på hjemmesiden. Oppgavene utdyper problemstillinger som tas opp i forelesningene, og i så måte er det aktiv innsats knyttet til å lese pensum, følge forelesninger og gjøre oppgaver som samlet sett gjør det mulig å
+nå læringsmålene. Kurset vil ha orakeltjeneste i undervisningsperioden, betjent av de kursansvarlige (= treffetid kursansvarlig), og før eksamen, betjent av studentassistentene. I tillegg vil det være orakeltilbud i forbindelse med den frivillige innleveringen. Det er opprettet en referansegruppe. Gruppen har som oppgave å gi løpende tilbakemelding til de kursansvarlige. Gruppen kan ta opp både pedagogiske og faglige spørsmål på eget initiativ, på initiativ fra andre studenter eller på de kursansvarliges initiativ. Referansegruppen består av representantene for 2. kull i Studentutvalget. I tillegg kan den enkelte student selvsagt ta opp slike saker på eget initiativ direkte med de kursansvarlige. Denne form for løpende tilbakemelding, sammen med Studentutvalgets panel, utgjør kursets underveisevaluering. Det vil være en sluttevaluering av kurset ved enden av undervisningsperioden.
 
-# 💬 Evaluering og tilbakemelding
+# Kursgodkjenning og vurderingsformer
 
-En referansegruppe gir løpende tilbakemelding til kursansvarlige om faglige og pedagogiske forhold. Dette skjer på initiativ fra studenter eller kursansvarlige. Referansegruppen består av representanter for 2. kull i Studentutvalget. I tillegg kan alle studenter ta kontakt direkte.
+Det formelle kravet til kursgodkjenning er godkjent obligatorisk caseinnlevering, fortrinnsvis i grupper (med maksimalt tre deltakere). Godkjent caseinnlevering er en forutsetning for å kunne avlegge eksamen. Vi minner om regelverket om skriftlig arbeid som danner grunnlag for kursgodkjenning, som finnes i Forskrift om fulltidsstudiene ved Norges Handelshøyskole og i Utfyllende bestemmelser til Forskrift om fulltidsstudiene ved Norges Handelshøyskole.
 
-Evaluering skjer underveis og ved semesterslutt.
+Vurderingsformen i kurset er individuell skriftlig skoleeksamen på 4 timer, med karakterskala A-F. For generell informasjon om eksamen vises det til NHH sine nettsider om eksamen.
 
-# ✅ Kursgodkjenning og vurderingsformer
+For øvrig har studentene gode muligheter underveis til å vise frem det de har lært og forstått i kurset. Dette gjelder først og fremst gjennom arbeid med oppgaver – med påfølgende diskusjoner under ledelse av studentassistentene ved gruppegjennomgang av øvingsoppgaver og ved innlevering av det frivillige oppgavesettet og det obligatoriske caset med påfølgende tilbakemelding fra studentassistentene.
 
-- Obligatorisk caseinnlevering i grupper (maks tre studenter) kreves for å kunne avlegge eksamen.
-- Eksamen er en **individuell skriftlig skoleeksamen på 4 timer** (karakterskala A–F).
+# Forventninger til studentene
 
-# 🧑‍🎓 Forventninger til studentene
+Undervisningsopplegget bygger på prinsippet om at alle studenter har ansvar for egen læring. Studenter ved NHH forutsettes å ha spesiell faglig interesse for bedriftsøkonomisk analyse, herunder investering og finans. Likeledes forutsettes studenter ved NHH å ha interesse for formell analyse (formler og beregninger).
 
-- Du har ansvar for egen læring og forventes å ha faglig interesse for investering og finans, og for formell analyse.
-- Kurset krever jevn innsats, forberedelse og aktiv deltakelse i alle aktiviteter.
-- Pensumlitteratur og forelesninger utgjør samlet pensum.
-- Arbeid i kollokviegrupper anbefales sterkt.
-- Bruk hjemmesiden aktivt og utforsk hvordan BED3-Buddy kan bidra til læringen.
+Kurset krever utstrakt aktiv og fortløpende innsats. Det er viktig å delta i, og å møte forberedt til, de organiserte undervisningsaktivitetene. Dette gjelder både plenumsforelesninger og gruppeøvinger. Benytt det frivillige tilbudet om innlevering av et oppgavesett. Det understrekes at både pensumlitteratur og plenumsforelesninger inngår som pensum. På dette nivået er arbeid i studentkollokvier/-grupper viktig, både for diskusjon av oppgaver og av materiale som behandles på forelesningene.
 
-# 💬 Dialog
+Bruk hjemmesiden aktivt – det legges ut mye relevant informasjon på disse sidene. Og utforsk aktivt hvilke læringsmuligheter som chatboten BED3-Buddy kan gi!
 
-Kursansvarlige og studentassistenter ønsker tilbakemeldinger gjennom hele semesteret – enten direkte eller via referansegruppen. Studentpanelets evalueringer og kursets sluttevaluering gir viktige innspill til videre utvikling av kurset.
+# Dialog
+
+Både de kursansvarlige og studentassistentene er åpne for respons og innspill (både positive og negative) fra studentene (enten direkte eller gjennom referansegruppen) på faglig innhold og undervisningsopplegg, slik at den faglige og pedagogiske kvaliteten kan videreutvikles. Dette gjelder både som løpende tilbakemelding, gjennom underveisevalueringen i regi av studentpanelet og avslutningsvis gjennom sluttevalueringen. Alle studenter som aktivt følger undervisningsopplegget dette semesteret oppfordres til å delta i evalueringen av kurset.
 
 ---
 
@@ -114,11 +112,11 @@ Kursansvarlige og studentassistenter ønsker tilbakemeldinger gjennom hele semes
 ::: {.col-md-4}
 **Navn**: {{< var instructors.FS.name >}}
 
-**Tittel**: {{< var instructors.FS.title >}} 
+**Tittel**: {{< var instructors.FS.title >}}
 
-**Rolle**: {{< var instructors.FS.role >}}  
+**Rolle**: {{< var instructors.FS.role >}}
 
-**E-post**: [{{< var instructors.FS.email >}}](mailto:{{< var instructors.FS.email >}})  
+**E-post**: [{{< var instructors.FS.email >}}](mailto:{{< var instructors.FS.email >}})
 
 **Kontor**: {{< var instructors.FS.office >}}
 :::
@@ -126,11 +124,11 @@ Kursansvarlige og studentassistenter ønsker tilbakemeldinger gjennom hele semes
 ::: {.col-md-4}
 **Navn**: {{< var instructors.AWS.name >}}
 
-**Tittel**: {{< var instructors.AWS.title >}} 
+**Tittel**: {{< var instructors.AWS.title >}}
 
-**Rolle**: {{< var instructors.AWS.role >}}  
+**Rolle**: {{< var instructors.AWS.role >}}
 
-**E-post**: [{{< var instructors.AWS.email >}}](mailto:{{< var instructors.AWS.email >}})  
+**E-post**: [{{< var instructors.AWS.email >}}](mailto:{{< var instructors.AWS.email >}})
 
 **Kontor**: {{< var instructors.AWS.office >}}
 :::
@@ -138,11 +136,11 @@ Kursansvarlige og studentassistenter ønsker tilbakemeldinger gjennom hele semes
 ::: {.col-md-4}
 **Navn**: {{< var instructors.AO.name >}}
 
-**Tittel**: {{< var instructors.AO.title >}} 
+**Tittel**: {{< var instructors.AO.title >}}
 
-**Rolle**: {{< var instructors.AO.role >}}  
+**Rolle**: {{< var instructors.AO.role >}}
 
-**E-post**: [{{< var instructors.AO.email >}}](mailto:{{< var instructors.AO.email >}})  
+**E-post**: [{{< var instructors.AO.email >}}](mailto:{{< var instructors.AO.email >}})
 
 **Kontor**: {{< var instructors.AO.office >}}
 :::
@@ -150,6 +148,7 @@ Kursansvarlige og studentassistenter ønsker tilbakemeldinger gjennom hele semes
 :::
 ---
 
+<!--
 ## Studentassistenter {.unnumbered}
 
 Studentassistentene har flere gjøremål i dette kurset. De er gruppeledere ved gjennomgang av øvingsoppgavene, de retter den obligatoriske caseinnleveringen og den frivillige oppgaveinnleveringen, samt at de betjener orakeltjenesten i forbindelse med den frivillige innleveringen og i eksamensperioden.
@@ -158,28 +157,28 @@ Følgende personer er studentassistenter i kurset:
 
 :::{layout="[20,20,20,20,20]"}
 ::: {.col-md-4}
-**Navn**: P1  
-**E-post**: P1  
+**Navn**: P1
+**E-post**: P1
 :::
 
 ::: {.col-md-4}
-**Navn**: P2  
-**E-post**: P2  
+**Navn**: P2
+**E-post**: P2
 :::
 
 ::: {.col-md-4}
-**Navn**: P3  
-**E-post**: P3  
+**Navn**: P3
+**E-post**: P3
 :::
 
 ::: {.col-md-4}
-**Navn**: P4  
-**E-post**: P4  
+**Navn**: P4
+**E-post**: P4
 :::
 
 ::: {.col-md-4}
-**Navn**: P5  
-**E-post**: P5  
+**Navn**: P5
+**E-post**: P5
 :::
 :::
 
@@ -190,12 +189,13 @@ Følgende personer er studentassistenter i kurset:
 En referansegruppe består av en gruppe studenter (kontaktpersoner) som har som oppgave å gi løpende tilbakemelding til de kursansvarlige. Gruppen kan ta opp både pedagogiske og faglige spørsmål på eget initiativ, på initiativ fra andre studenter eller på de kursansvarliges initiativ. Referansegruppen i {{< var title >}} består av representantene for 2. kull i Studentutvalget, og består av følgende kontaktpersoner:
 
 ::: {.col-md-4}
-**Navn**: Representat  
-**E-post**: E-post  
+**Navn**: Representat
+**E-post**: E-post
 :::
 
-I tillegg kan selvsagt den enkelte student ta opp slike saker direkte med de kursansvarlige. 
+I tillegg kan selvsagt den enkelte student ta opp slike saker direkte med de kursansvarlige.
 
-I februar vil det (normalt) som et ledd i underveisevalueringen av kurset bli avholdt en midtevaluering i regi av Studentutvalget. Referansegruppen vil deretter utarbeide en evalueringsrapport som presenteres for de kursansvarlige. 
+I februar vil det (normalt) som et ledd i underveisevalueringen av kurset bli avholdt en midtevaluering i regi av Studentutvalget. Referansegruppen vil deretter utarbeide en evalueringsrapport som presenteres for de kursansvarlige.
 
 I slutten av undervisningsperioden vil det bli gjennomført en sluttevaluering av kurset.
+-->

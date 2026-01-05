@@ -13,30 +13,27 @@ page-layout: full
 
 *Nettsiden er under pågående arbeid*
 
-Dette er den nettsiden for bacheloremnet [BED3 - Investering og finans](https://www.nhh.no/emner/investering-og-finans/) ved NHH, som er et obligatorisk emne på Bachelorprogrammet i Økonomi og Administrasjon ved Norges Handelshøyskole. Her finner du alt du trenger for å følge undervisningen, arbeide med oppgaver og forberede deg til eksamen.
+Dette er den nettsiden for bacheloremnet [BED3 - Investering og finans](https://www.nhh.no/emner/investering-og-finans/) ved NHH, som er et obligatorisk emne på Bachelorprogrammet i Økonomi og Administrasjon ved Norges Handelshøyskole.
 
 Kurset gir deg en innføring i sentrale begreper og verktøy innen investering og finansiering. Du vil lære å analysere og vurdere investeringsprosjekter, forstå hvordan kapitalmarkedene fungerer, og se hvordan virksomheter kan ta gode finansielle beslutninger.
 
 Nettsiden er delt inn i moduler som speiler undervisningsplanen. Du vil finne:
 
-- Oversiktlige temasider for hver forelesning  
-- Casebaserte oppgaver og løsningsforslag  
-- Tydelig informasjon om vurderingsformer og krav  
+- Oversiktlige temasider for hver forelesning
+- Tydelig informasjon om vurderingsformer og krav
 - Praktisk informasjon om undervisning, gruppearbeid og frister
-
-Vi anbefaler at du besøker denne siden jevnlig gjennom semesteret for å holde deg oppdatert og få mest mulig ut av undervisningen.
 
 ## Hva lærer du i dette kurset?
 
 I dette kurset lærer du å:
 
-- Vurdere lønnsomhet, risiko og finansiering av investeringer  
-- Forstå hvordan kapitalmarkeder fungerer og verdipapirer prises  
-- Anvende sentrale modeller innen investering og finans  
-- Analysere bærekraftige investeringer og ESG-ratinger  
-- Håndtere risiko med derivater og andre finansielle instrumenter  
-- Foreta økonomiske vurderinger i en internasjonal kontekst (valuta og utenlandske investeringer)  
-- Reflektere over etiske dilemmaer i finansielle beslutninger  
+- Vurdere lønnsomhet, risiko og finansiering av investeringer
+- Forstå hvordan kapitalmarkeder fungerer og verdipapirer prises
+- Anvende sentrale modeller innen investering og finans
+- Analysere bærekraftige investeringer og ESG-ratinger
+- Håndtere risiko med derivater og andre finansielle instrumenter
+- Foreta økonomiske vurderinger i en internasjonal kontekst (valuta og utenlandske investeringer)
+- Reflektere over etiske dilemmaer i finansielle beslutninger
 - Kommunisere finansielle vurderinger klart og profesjonelt
 
 ---
@@ -60,28 +57,30 @@ For en detaljert oversikt, se [Forelesningsplanen](forelesningsplan.qmd).
 ```{r}
 #| results: asis
 
-instructors <- 
-    yaml::read_yaml("_variables.yml")$instructors 
+instructors <-
+  yaml::read_yaml("_variables.yml")$instructors
 
-names(instructors) |> 
-    purrr::walk(~{
-        
-        person <- instructors[[.x]]
-        
-        cat(glue::glue('
+names(instructors) |>
+  purrr::walk(
+    ~ {
+      person <- instructors[[.x]]
+
+      cat(glue::glue(
+        '
 ::: {{.column width="32%" .me-2}}
 ::: {{.card .shadow-sm .border-0 .text-center .p-3}}
-![{person$name}](assets/images/{person$name}.jpg){{width=100px .rounded-circle}}  
-[**{person$name}**]({person$page})  
-_{person$title}_  
-_{person$role}_  
+![{person$name}](assets/images/{person$name}.jpg){{width=100px .rounded-circle}}
+[**{person$name}**]({person$page})
+_{person$title}_
+_{person$role}_
 <i class="fa fa-envelope"></i> [{person$email}](mailto:{person$email})
 :::
 :::
 \n
-'))
-        
-    })
+'
+      ))
+    }
+  )
 ```
 
 :::
@@ -91,9 +90,10 @@ _{person$role}_
 
 - **Forelesninger**: Tirsdager kl 12:15-14:00 og fredager, kl. 10:15–12:00 (Aud. Max)
 - **Undervisningsform**: Forelesninger, case og gruppearbeid
-- **Vurdering**: Skriftlig skoleeksamen  
-- **Krav**: Kurset er obligatorisk for bachelorstudenter i økonomi og administrasjon  
+- **Vurdering**: Skriftlig skoleeksamen
+- **Krav**: Kurset er obligatorisk for bachelorstudenter i økonomi og administrasjon
 
+<!--
 ---
 
 ## Hvordan bruke denne siden
@@ -121,16 +121,15 @@ Bruk menyen øverst eller søkefunksjonen for å navigere.
 
 ## Vanlige spørsmål
 
-**Er formelarket vedlagt eksamen?**  
+**Er formelarket vedlagt eksamen?**
 Ja, formelarket får dere utlevert sammen med eksamensoppgaven.
 
-**Må jeg kunne programmering?**  
+**Må jeg kunne programmering?**
 Nei, det er ikke nødvendig. Enkel bruk av Excel inngår.
 
-**Er det gruppearbeid?**  
+**Er det gruppearbeid?**
 Ja, deler av kurset, spesifikt kursgodkjenning, er organisert rundt et gruppebasert case.
 
-**Kan jeg bruke kalkulator på eksamen?**  
+**Kan jeg bruke kalkulator på eksamen?**
 Ja, godkjente kalkulatorer er tillatt. Se eksamensregler for detaljer.
-
-
+-->

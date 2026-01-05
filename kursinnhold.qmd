@@ -9,9 +9,9 @@ page-navigation: false
 
 ## Velkommen
 
-Denne siden samler alt læringsinnhold i BED3.  
-Materialet er **fortsatt under utvikling**. For vårsemesteret 2026 er det kun modulen **Investeringsanalyse** som er tilgjengelig i dette formatet.  
-Flere moduler (porteføljeteori, kapitalstruktur osv.) vil gradvis bli lagt til i senere semestre.
+Denne siden samler alt læringsinnhold i BED3.
+Materialet er **fortsatt under utvikling**. For vårsemesteret 2026 er det i utgangspunktet modulen **Investeringsanalyse** som er tilgjengelig i dette formatet.
+Flere moduler (porteføljeteori, kapitalstruktur osv.) vil gradvis bli lagt til senere.
 
 ## Moduler
 
@@ -19,19 +19,20 @@ Flere moduler (porteføljeteori, kapitalstruktur osv.) vil gradvis bli lagt til 
 
 Beslutninger om ja eller nei til prosjekter. Bygg riktige kontantstrømmer, bruk netto nåverdi som hovedregel, og håndter risiko på en strukturert måte.
 
-👉 [Gå til modulen Investeringsanalyse](kursmateriale/01-investeringsanalyse/index.qmd)
+[Gå til modulen Investeringsanalyse](kursmateriale/01-investeringsanalyse/index.qmd)
 
+<!--
 ## Slik bruker du kursinnholdet
 
-1. Start på introduksjon i modulen.  
-2. Les teksten i små bolker og gjør minioppgavene underveis.  
-3. Se korte videoer som støtte til teksten.  
-4. Gjør quiz og refleksjonsspørsmål for å sjekke forståelse.  
-5. Jobb med større oppgaver og case mot slutten av kapitlet.  
+1. Start på introduksjon i modulen.
+2. Les teksten i små bolker og gjør minioppgavene underveis.
+3. Se korte videoer som støtte til teksten.
+4. Gjør quiz og refleksjonsspørsmål for å sjekke forståelse.
+5. Jobb med større oppgaver og case mot slutten av kapitlet.
 6. Bruk oppsummeringene for repetisjon før du går videre.
+-->
 
 ## Ressurser
 
-- [Formelark](assets/formelark-print.pdf)  
+- [Formelark](assets/formelark-print.pdf)
 - Kontakt og praktisk informasjon under [Om kurset](kursinformasjon.qmd)
-

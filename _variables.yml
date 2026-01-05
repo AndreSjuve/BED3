@@ -9,7 +9,7 @@ course:
   year: 2026
 
 title: "Investering og finans"
-room: 'Aud.Max'
+room: 'Aud. Max.'
 repo: "https://github.com/AndreSjuve/BED3"
 site_url: "https://andresjuve.github.io/BED3/"
 
@@ -50,7 +50,7 @@ deadlines:
   group_registration: 2026-02-16
   mandatory_case: 2026-02-23
   voluntary_case: 2026-04-17
-  exam: 2026-05-15
+  exam: 2026-05-20
 
 
 weekday1: "Tirsdag"

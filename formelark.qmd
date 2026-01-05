@@ -7,43 +7,43 @@ format:
     toc-location: right
 ---
 
-> 📄 **PDF-versjon:**  
+> 📄 **PDF-versjon:**
 > [Klikk her for å laste ned formelarket som PDF](assets/formelark-print.pdf){.btn .btn-primary target="_blank"}
 
 
 ## Tidens verdi
 
-- 📈 **Fremtidsverdi av ett beløp:**  
+- **Fremtidsverdi av ett beløp:**
   $$
   FV = CF_0 \cdot (1 + k)^T
   $$
 
-- 💰 **Nåverdi av ett beløp:**  
+- **Nåverdi av ett beløp:**
   $$
   PV = \frac{CF_T}{(1 + k)^T}
   $$
 
-- 🔁 **Annuitet (endelig horisont):**  
+- **Annuitet (endelig horisont):**
   $$
   ACF = CF \cdot \frac{(1 + k)^T -1}{k \cdot (1 + k)^T} = CF \cdot \frac{1- \left(\frac{1}{1 +k}\right)^T}{k} = CF \cdot A_{k,T}
   $$
 
-- ♾️ **Annuitet (uendelig horisont):**  
+- **Annuitet (uendelig horisont):**
   $$
   ACF =  \frac{CF}{k}
   $$
 
-- 🔢 **Fordeling av et beløp til annuitet:**
+- **Fordeling av et beløp til annuitet:**
 $$
 CF_0 \cdot \frac{k\cdot (1 + k)^T}{(1 + k)^T - 1} = CF_{0} \cdot \frac{k}{1-\left(\frac{1}{1 + k}\right)^T} = CF_{0} \cdot A_{k,T}^{-1}
 $$
 
-- 📈 **Vekstrekke (endelig horisont):**  
+- **Vekstrekke (endelig horisont):**
   $$
   PV = CF_1 \cdot \frac{1 - \left( \frac{1 + g}{1 + k} \right)^T}{k - g}, \quad \text{for } k \neq g
   $$
 
-- 📈 **Vekstrekke (uendelig horisont):**  
+- **Vekstrekke (uendelig horisont):**
   $$
   PV = \frac{CF_1}{k - g}, \quad \text{for } g < k
   $$
@@ -51,32 +51,32 @@ $$
 
 ## Nåverdimetoder
 
-- 🧮 **Netto nåverdi (NPV):**  
+- **Netto nåverdi (NPV):**
   $$
-  NPV = - I_0 + \sum_{t = 1}^{T} \frac{CF_t}{(1 + k)^t} 
+  NPV = - I_0 + \sum_{t = 1}^{T} \frac{CF_t}{(1 + k)^t}
   $$
 
-- 🧮 **Internrente (IRR):**  
+- **Internrente (IRR):**
   $$
   0 = \sum_{t = 1}^{T} \frac{CF_t}{(1 + y)^t} - I_0
   $$
 
-- 🔁 **Annuitetsmetoden:**  
+- **Annuitetsmetoden:**
   $$
   CF - I_{0} \cdot A_{k,T}^{-1} = NPV \cdot A_{k,T}^{-1}
   $$
 
-- 📊 **Nåverdiindeks (PVI):**  
+- **Nåverdiindeks (PVI):**
   $$
   PVI = \frac{NPV}{I_0}
   $$
 
-- ⏱️ **Payback uten renter:**  
+- **Payback uten renter:**
   $$
   PB = \frac{I_0}{CF}
   $$
 
-- ⏱️ **Payback med renter (annuitet):**  
+- **Payback med renter (annuitet):**
   $$
   0 = -I_0 + CF \cdot A_{k, PB}
   $$
@@ -84,336 +84,335 @@ $$
 
 ## Skatt og avskrivninger
 
-- 🧾 **Effektiv skattesats:**  
+- **Effektiv skattesats:**
   $$
   s_{\text{Eff}} = \frac{y - y^s}{y}
   $$
 
-- 📉 **Saldoavskrivningsbeløp:**  
+- **Saldoavskrivningsbeløp:**
   $$
   AV_t = I_0 \cdot (1 - a)^{t - 1} \cdot a
   $$
 
-- 📒 **Bokført restverdi:**  
+- **Bokført restverdi:**
   $$
   B_t = I_0 \cdot (1 - a)^t
   $$
 
-- 🪙 **Skattefordel av avskrivninger:**  
+- **Skattefordel av avskrivninger:**
   $$
   PV_s = s \cdot \frac{I_0 \cdot a}{k^s + a} = s \cdot \frac{AV_1}{k^s + a}
   $$
 
-- 🏁 **Utrangering (nåverdi av sluttverdi med skatt):**  
+- **Utrangering (nåverdi av sluttverdi med skatt):**
   $$
   PV_T = \frac{S_T}{(1 + k^s)^T} - s \cdot \frac{(S_T - B_T) \cdot a}{(1 + k^s)^T \cdot (k^s + a)}
   $$
 
 ## Renteregning
 
-- 🔄 **Fra nominell til reell rente:**  
+- **Fra nominell til reell rente:**
   $$
   k_R = \frac{k_N - i}{1 + i}
   $$
 
-- 🔄 **Fra reell til nominell rente:**  
+- **Fra reell til nominell rente:**
   $$
   k_N = k_R \cdot (1 + i) + i
   $$
 
-- 💸 **Fra nominell lånerente før skatt til reell lånerente etter skatt:**  
+- **Fra nominell lånerente før skatt til reell lånerente etter skatt:**
   $$
   y_R^s = \frac{y_N \cdot (1-s) -i}{1+i}
   $$
 
-- 🧮 **Fra delperioderente til effektiv rente:**  
+- **Fra delperioderente til effektiv rente:**
   $$
   p = (1 + q)^m - 1
   $$
 
-- 🧮 **Fra effektiv rente til delperioderente:**  
+- **Fra effektiv rente til delperioderente:**
   $$
   q = (1 + p)^{1/m} - 1
   $$
 
-- ↩️ **Fra forskuddsrente til etterskuddsrente:**  
+- **Fra forskuddsrente til etterskuddsrente:**
   $$
   q_e = \frac{q_f}{1 - q_f}
   $$
 
-- ↪️ **Fra etterskuddsrente til forskuddsrente:**  
+- **Fra etterskuddsrente til forskuddsrente:**
   $$
   q_f = \frac{q_e}{1 + q_e}
   $$
 
 ## Porteføljeteori og risiko
 
-- 📈 **Forventet avkastning, enkeltaktivum:**  
+- **Forventet avkastning, enkeltaktivum:**
   $$
   E(r_i) = \sum_{j = 1}^{n} p_j \cdot r_{ij}
   $$
 
-- 📉 **Varians, enkeltaktivum:**  
+- **Varians, enkeltaktivum:**
   $$
   \sigma_i^2 = \sum_{j = 1}^{n} p_j \cdot \left[ r_{ij} - E(r_i) \right]^2
   $$
 
-- 📉 **Standardavvik, enkeltaktivum:**  
+- **Standardavvik, enkeltaktivum:**
   $$
   \sigma_i = \sqrt{\sigma_i^2}
   $$
 
-- 🧮 **Forventet avkastning, portefølje to aktiva:**  
+- **Forventet avkastning, portefølje to aktiva:**
   $$
   E(r_p) = w_1 \cdot E(r_1) + (1 - w_1) \cdot E(r_2)
   $$
 
-- 🧮 **Varians, portefølje med to aktiva:**  
+- **Varians, portefølje med to aktiva:**
   $$
   \sigma_p^2 = w_1^2 \cdot \sigma_1^2 + (1 - w_1)^2 \cdot \sigma_2^2 + 2 \cdot w_1 \cdot (1 - w_1) \cdot \sigma_{12}
   $$
 
-- 🔗 **Kovarians mellom to aktiva (korrelasjonsformel):**  
+- **Kovarians mellom to aktiva (korrelasjonsformel):**
   $$
   \sigma_{12} = \rho_{12} \cdot \sigma_1 \cdot \sigma_2
   $$
 
-- 🔗 **Kovarians mellom to aktiva (diskret fordeling):**  
+- **Kovarians mellom to aktiva (diskret fordeling):**
   $$
   \sigma_{12} = \sum_{j = 1}^{n} p_j \cdot \left[ r_{1j} - E(r_1) \right] \cdot \left[ r_{2j} - E(r_2) \right]
   $$
 
-- 🎯 **Minimumsvariansportefølje – andel i aktivum 1:**  
+- **Minimumsvariansportefølje – andel i aktivum 1:**
   $$
   w_1^* = \frac{\sigma_2^2 - \sigma_{12}}{\sigma_1^2 + \sigma_2^2 - 2\sigma_{12}}
   $$
 
-- 📊 **Forventet avkastning, portefølje med N aktiva:**  
+- **Forventet avkastning, portefølje med N aktiva:**
   $$
   E(r_p) = \sum_{i = 1}^{N} w_i \cdot E(r_i)
   $$
 
-- 📊 **Varians, portefølje med N aktiva:**  
+- **Varians, portefølje med N aktiva:**
   $$
   \sigma_p^2 = \sum_{i = 1}^{N} \sum_{j = 1}^{N} w_i \cdot w_j \cdot \sigma_{ij}
   $$
 
-- 💡 **Kapitalmarkedslinjen (CML):**  
+- **Kapitalmarkedslinjen (CML):**
   $$
   E(r_P) = r_f + \frac{E(r_M) - r_f}{\sigma_M} \cdot \sigma_P
   $$
 
 ## Kapitalverdimodellen
 
-- 📐 **CAPM (grunnform):**  
+- **CAPM (grunnform):**
   $$
   E(r_i) = r_f + \beta_i \cdot \left[ E(r_M) - r_f \right]
   $$
 
-- 📐 **CAPM (skattejustert):**  
+- **CAPM (skattejustert):**
   $$
   E(r_i) = r_f \cdot (1-s) + \beta_i \cdot \left[ E(r_M) - r_f \cdot (1 - s) \right]
   $$
 
-- 🧭 **Beta:**  
+- **Beta:**
   $$
   \beta_i = \frac{\sigma_{iM}}{\sigma_M^2} = \rho_{iM} \cdot \frac{\sigma_i}{\sigma_M}
   $$
-- ✳️ **Alfa:**  
+
+- **Alfa:**
   $$
   \alpha_i = E(r_i) - \left[ r_f + \beta_i \cdot \left( E(r_M) - r_f \right) \right]
   $$
 
-- 📉 **Variansdekomponering:**  
+- **Variansdekomponering:**
   $$
   \sigma_i^2 = \beta_i^2 \cdot \sigma_M^2 + \sigma_{\varepsilon i}^2
   $$
 
 ## Verdsettelse
 
-- 💸 **Dividendemodellen (generell):**  
+- **Dividendemodellen (generell):**
   $$
   P_0 = \sum_{t = 1}^{T} \frac{DIV_t}{(1 + k_E)^t} + \frac{P_T}{(1+k_E)^T}
   $$
 
-- 💸 **Dividendemodellen (nullvekst):**  
+- **Dividendemodellen (nullvekst):**
   $$
   P_0 = \frac{DIV_1}{k_E}
   $$
 
-- 💸 **Dividendemodellen (evigvarende konstant vekst):**  
+- **Dividendemodellen (evigvarende konstant vekst):**
   $$
   P_0 = \frac{DIV_1}{k_E - g}, \quad \text{for } g < k_E
   $$
 
-- 🌱 **Vekst (intern generert):**  
+- **Vekst (intern generert):**
   $$
   g = R_E \cdot b
   $$
 
-- 🧮 **Pris/Fortjeneste-modellen (P/E):**  
+- **Pris/Fortjeneste-modellen (P/E):**
   $$
   P/E \triangleq \frac{P_0}{EPS_1} = \frac{d}{k_E - g}
   $$
 
-- 🎯 **Vekstmuligheter (PVGO):**  
+- **Vekstmuligheter (PVGO):**
   $$
   P_0 = \frac{EPS_1}{k_E} + PVGO
   $$
 
 ## Kapitalstruktur og vektstang
 
-- ⚖️ **Vektstangsformel – rentabilitet EK:**  
+- **Vektstangsformel – rentabilitet EK:**
   $$
   R_E = R_T + \frac{G}{E} \cdot (R_T - k_G)
   $$
 
-- ⚖️ **Vektstangsformel – risiko på egenkapital (standardavvik):**  
+- **Vektstangsformel – risiko på egenkapital (standardavvik):**
   $$
   \sigma_{R_E} = \sigma_{R_T} \cdot \left( 1 + \frac{G}{E} \right)
   $$
-  
-- ⚖️ **Vektstangsformel – før skatt:**  
+
+- **Vektstangsformel – før skatt:**
   $$
-  k_T = \frac{E}{E + G} \cdot k_E + \frac{G}{E + G} \cdot k_G 
+  k_T = \frac{E}{E + G} \cdot k_E + \frac{G}{E + G} \cdot k_G
   $$
 
 
-- ⚖️ **Vektstangsformel – etter skatt:**  
+- **Vektstangsformel – etter skatt:**
   $$
   k_T^s = \frac{E}{E + G} \cdot k_E + \frac{G}{E + G} \cdot k_G \cdot (1 - s)
   $$
-  
-- ⚖️ **Vektstangsformel – krav egenkapital:**  
+
+- **Vektstangsformel – krav egenkapital:**
   $$
-  k_E = k_T + \frac{G}{E} \cdot (k_T - k_G) 
+  k_E = k_T + \frac{G}{E} \cdot (k_T - k_G)
   $$
 
 
-- 🧮 **Beta for totalkapital:**  
+- **Beta for totalkapital:**
   $$
   \beta_T = \frac{E}{E + G} \cdot \beta_E + \frac{G}{E + G} \cdot \beta_G
   $$
 
-- 🧮 **Beta for egenkapital (dersom $\beta_G = 0$):**  
+- **Beta for egenkapital (dersom $\beta_G = 0$):**
   $$
   \beta_E = \beta_T \cdot \left( 1 + \frac{G}{E} \right)
   $$
 
-- 💸 **Årlig skattefordel ved gjeld pr. krone:**  
+- **Årlig skattefordel ved gjeld pr. krone:**
   $$
   \text{Skattefordel} =  (1 - s_K) - (1 - s_{B}) \cdot (1 - s_{Ed})
   $$
 
-- 💸 **Årlig skattefordel ved dividende pr. krone:**  
+- **Årlig skattefordel ved dividende pr. krone:**
   $$
   \text{Skattefordel} = (1 - s_{B}) \cdot (s_{Eg} - s_{Ed})
   $$
-  
+
 ## Obligasjoner og durasjon
 
-- 💵 **Obligasjonspris (standardformel):**  
+- **Obligasjonspris (standardformel):**
   $$
   P_0 = \sum_{t = 1}^{T} \frac{c}{(1 + y)^t} + \frac{\text{Pålydende}}{(1 + y)^T}
   $$
 
-- 💵 **Obligasjonspris (med konstant kupong og helt antall år til forfall):**  
+- **Obligasjonspris (med konstant kupong og helt antall år til forfall):**
   $$
   P_0 = \frac{c}{y} \cdot \left[1 - \frac{1}{(1+y)^T}\right] + \frac{\text{Pålydende}}{(1+y)^T} = c \cdot A_{y,T} + \frac{\text{Pålydende}}{(1+y)^T}
   $$
 
-- 🕓 **Sertifikatpris:**  
+- **Sertifikatpris:**
   $$
   P_0 = \frac{P_1}{1 + r \cdot \frac{d}{365}} \quad \quad P_0 = \frac{P_1}{(1 + y)^{\frac{d}{365}}}
   $$
 
-- ⏳ **Terminrente mellom t−1 og t:**  
+- **Terminrente mellom t−1 og t:**
   $$
   f_{t-1,t} = \frac{(1 + r_t)^t}{(1 + r_{t-1})^{t-1}} - 1
   $$
 
-- 📏 **Durasjon:**  
+- **Durasjon:**
   $$
   D = \frac{1}{P_0} \cdot \sum_{t = 1}^{T} t \cdot \frac{CF_t}{(1 + y)^t}
   $$
 
-- 📏 **Justert durasjon (modifisert):**  
+- **Justert durasjon (modifisert):**
   $$
   D^* = \frac{-D}{1 + y}
   $$
 
-- 📉 **Durasjonsbasert prisendring:**  
+- **Durasjonsbasert prisendring:**
   $$
   \frac{\Delta P}{P} =  \frac{-D}{1 + y} \cdot \Delta y = D^* \cdot \Delta y
  $$
 
 ## Opsjoner og derivater
 
-- 🧮 **Black-Scholes (kjøpsopsjon):**  
+- **Black-Scholes (kjøpsopsjon):**
   $$
   C = S_0 \cdot N(d_1) - K \cdot e^{-r_f \cdot T} \cdot N(d_2)
   $$
 
-- 🧮 **Parametere i Black-Scholes:**  
+- **Parametere i Black-Scholes:**
   $$
   d_1 = \frac{\ln \left( \frac{S_0}{K} \right) + r_f \cdot T}{\sigma \sqrt{T}} + \frac{1}{2} \cdot \sigma \cdot \sqrt{T}, \quad_2 = d_1 - \sigma \sqrt{T}
   $$
 
-- 🔁 **Put-call paritet:**  
+- **Put-call paritet:**
   $$
   C_0 - P_0 = S_0 - PV(K)
   $$
 
-- 🏷️ **Lagringskostnadshypotesen (generell form):**  
+- **Lagringskostnadshypotesen (generell form):**
   $$
   F_T = S_0 \cdot (1 + c \cdot T)
   $$
 
-- 🏷️ **Lagringskostnadshypotesen (aksjer med utbytte):**  
+- **Lagringskostnadshypotesen (aksjer med utbytte):**
   $$
   F_T = S_0 \cdot \left[1 + (r_f - \text{div}) \cdot T\right]
   $$
 
-- 🔮 **Forventningshypotesen (terminpriser):**  
+- **Forventningshypotesen (terminpriser):**
   $$
   F_T = E(S_T)
   $$
 
 ## Internasjonal finans
 
-- 🌍 **Relativ kjøpekraftsparitet (PPP):**  
+- **Relativ kjøpekraftsparitet (PPP):**
   $$
   \frac{E(s_{\text{UTL/NOK}})}{s_{\text{UTL/NOK}}} = \frac{1 + i_{\text{NOK}}}{1 + i_{\text{UTL}}}
   $$
 
-- 🔄 **Dekket renteparitet (CIP):**  
+- **Dekket renteparitet (CIP):**
   $$
   \frac{1 + r_{\text{NOK}}}{1 + r_{\text{UTL}}} = \frac{f_{\text{UTL/NOK}}}{s_{\text{UTL/NOK}}}
   $$
 
-- 🔁 **Udekket renteparitet (UIP):**  
+- **Udekket renteparitet (UIP):**
   $$
   \frac{1 + r_{\text{NOK}}}{1 + r_{\text{UTL}}} = \frac{E(s_{\text{UTL/NOK}})}{s_{\text{UTL/NOK}}}
   $$
 
-- 🔮 **Fishereffekten (to valutaer):**  
+- **Fishereffekten (to valutaer):**
   $$
   \frac{1 + r_{\text{NOK}}}{1 + r_{\text{UTL}}} = \frac{E(1 + i_{\text{NOK}})}{E(1 + i_{\text{UTL}})}
   $$
 
-- 🔮 **Forventningshypotesen (valuta):**  
+- **Forventningshypotesen (valuta):**
   $$
   \frac{f_{\text{UTL/NOK}}}{s_{\text{UTL/NOK}}} = \frac{E(s_{\text{UTL/NOK}})}{s_{\text{UTL/NOK}}} \Rightarrow f_{\text{UTL/NOK}} = E(s_{\text{UTL/NOK}})
   $$
 
-- 🌐 **Avkastningskrav ved utenlandske investeringer:**  
+- **Avkastningskrav ved utenlandske investeringer:**
   $$
   1 + k_{\text{NOK}} = (1 + k_{\text{UTL}}) \cdot \frac{1 + r_{\text{NOK}}}{1 + r_{\text{UTL}}}
   $$
 
-- 🌐 **Lånekostnad ved utenlandske lån:**  
+- **Lånekostnad ved utenlandske lån:**
   $$
    \frac{s_{\text{UTL/NOK,1}}}{s_{\text{UTL/NOK,0}}} \cdot (1 + r_{\text{UTL}}) - 1
   $$
-
-  

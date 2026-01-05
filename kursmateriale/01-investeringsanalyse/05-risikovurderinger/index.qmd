@@ -1,49 +1,19 @@
 ---
-title: Supplerende metoder
-description: Hvorfor investeringsanalyse er viktig, og hvordan vi tar beslutninger over tid.
+title: Risikovurderinger
+description: Hvordan vurdere og håndtere risiko i investeringsanalyser.
 ---
-<!--
-# Heis pitch og motivasjon
 
-Kort tekst som etablerer relevans. Ett til to avsnitt.
+## Videoer {.unnumbered}
 
-::: callout-note
-## Læringsmål
-Du beskriver hva en investering er.
-Du peker ut de tre byggesteinene. Kontantstrøm, tid, risiko.
-Du forklarer når investeringsanalyse er nødvendig.
+::: {.callout-warning}
+## Videoer er under produksjon
+**Videoer til denne modulen publiseres fortløpende.**
 :::
 
-# Kjerneforklaring
+<iframe src="https://nhh.cloud.panopto.eu/Panopto/Pages/EmbeddedList.aspx?folderID=1e3f6c19-339c-443f-82a3-b3c900fd9efc&embedded=1" style="border: 0; width: 100%; height: 550px;"></iframe>
 
-Konsis forklaring i små bolker. Bruk figur ved behov.
+## Forelesningsplansjer {.unnumbered}
 
-::: callout-tip
-## Podcast
-Bla bla
-<audio controls src="../media/podcasts/01-teori.mp3"></audio>
-:::
+<iframe src="../../../assets/slides/BED3-F04-Risikovurderinger.pdf" width="100%" height="600px" style="border:none; margin-top: 1em; margin-bottom: 1em;"></iframe>
 
-# Eksempel
-
-Lite tall eksempel med trinnvis utregning. Gjerne link til regneark.
- [Last ned eksempel](../media/downloads/01-eksempel.xlsx)
-
-# Interaktiv øving
-
-Korte kontrollspørsmål eller minioppgaver. Bruk learnr eller enkel flervalg om ønskelig.
-
-# Case og diskusjon
-
-Kort casebeskrivelse. Oppgaveformulering. Eventuell diskusjonspodcast.
- <audio controls src="../media/podcasts/01-case.mp3"></audio>
-
-# Oppsummering
-
-Tre til fem takeaways i punktliste.
-
-::: callout-note
-## Videoer
-<video controls src="../media/videos/01-intro.mp4"></video>
-:::
--->
+[📥 Last ned presentasjonen som pdf](../../../assets/slides/BED3-F04-Risikovurderinger.pdf){.btn .btn-primary target="_blank"}
