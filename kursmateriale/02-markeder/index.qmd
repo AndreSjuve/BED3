@@ -17,7 +17,7 @@ Modulen følger samme struktur som tidligere års forelesninger, og videoene gje
 
 ## Slik bruker du modulen
 
-Siden modulen er bygget opp kronologisk, anbefales det at du følger innholdet i rekkefølge for å få oversikt og sammenheng. Deretter kan du hoppe tilbake til spesifikke temaer etter behov.
+Denne modulen inneholder fire selvstendige temaer. Det er derfor ikke nødvendig å se hvert tema i rekkefølge.
 
 ## Innhold og anbefalt progresjon
 - [1. Rentemarkedet](01-rentemarkedet)
