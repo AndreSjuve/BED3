@@ -1,564 +1,157 @@
 [
   {
-    "objectID": "kursmateriale/01-investeringsanalyse/index.html",
-    "href": "kursmateriale/01-investeringsanalyse/index.html",
-    "title": "Investeringsanalyse",
+    "objectID": "kursmateriale/02-markeder/index.html",
+    "href": "kursmateriale/02-markeder/index.html",
+    "title": "Selvstendige temaer",
     "section": "",
-    "text": "Hensikten med denne modulen er å flytte det som tidligere ble gitt som forelesninger i Aud.Max over til en nettbasert læringsmodul. Grunnen til dette er at investeringsanalyse består av mange regnetekniske detaljer som best fordøyes med tid og ro. Ved å tilby dette som en nettbasert modul kan du arbeide i ditt eget tempo, stoppe opp, spole tilbake, og repetere inntil du mestrer innholdet.\nModulen følger samme struktur som tidligere års forelesninger, og videoene gjenspeiler det som tidligere ble gjennomgått i forelesningene. Med dette overført til en nettbasert modul er ideen at forelesningstid i Aud.Max kan brukes til å arbeide med caseoppgaver, diskutere problemstillinger, og svare på spørsmål.",
+    "text": "Modulen følger samme struktur som tidligere års forelesninger, og videoene gjenspeiler det som tidligere ble gjennomgått i forelesningene. Med dette overført til en nettbasert modul er ideen at forelesningstid i Aud.Max kan brukes til å arbeide med caseoppgaver, diskutere problemstillinger, og svare på spørsmål.",
     "crumbs": [
-      "Om kurset",
       "Moduler",
-      "Investeringsanalyse"
+      "Selvstendige temaer"
     ]
   },
   {
-    "objectID": "kursmateriale/01-investeringsanalyse/index.html#velkommen",
-    "href": "kursmateriale/01-investeringsanalyse/index.html#velkommen",
-    "title": "Investeringsanalyse",
+    "objectID": "kursmateriale/02-markeder/index.html#velkommen",
+    "href": "kursmateriale/02-markeder/index.html#velkommen",
+    "title": "Selvstendige temaer",
     "section": "",
-    "text": "Hensikten med denne modulen er å flytte det som tidligere ble gitt som forelesninger i Aud.Max over til en nettbasert læringsmodul. Grunnen til dette er at investeringsanalyse består av mange regnetekniske detaljer som best fordøyes med tid og ro. Ved å tilby dette som en nettbasert modul kan du arbeide i ditt eget tempo, stoppe opp, spole tilbake, og repetere inntil du mestrer innholdet.\nModulen følger samme struktur som tidligere års forelesninger, og videoene gjenspeiler det som tidligere ble gjennomgått i forelesningene. Med dette overført til en nettbasert modul er ideen at forelesningstid i Aud.Max kan brukes til å arbeide med caseoppgaver, diskutere problemstillinger, og svare på spørsmål.",
+    "text": "Modulen følger samme struktur som tidligere års forelesninger, og videoene gjenspeiler det som tidligere ble gjennomgått i forelesningene. Med dette overført til en nettbasert modul er ideen at forelesningstid i Aud.Max kan brukes til å arbeide med caseoppgaver, diskutere problemstillinger, og svare på spørsmål.",
     "crumbs": [
-      "Om kurset",
       "Moduler",
-      "Investeringsanalyse"
+      "Selvstendige temaer"
     ]
   },
   {
-    "objectID": "kursmateriale/01-investeringsanalyse/index.html#læringsmål",
-    "href": "kursmateriale/01-investeringsanalyse/index.html#læringsmål",
-    "title": "Investeringsanalyse",
-    "section": "Læringsmål",
-    "text": "Læringsmål\nNår du mestrer denne modulen, skal du kunne:\n\nForklarer hva investeringsanalyse er og hvorfor den brukes.\nBygge konsistente kontantstrømmer før og etter skatt.\nAnvende NNV som hovedkriterium, samt IRR, payback, og NNV-indeks som støtte.\nHåndtere inflasjon på en konsistent måte.\nUtføre grunnleggende risikoanalyser gjennom følsomhet, scenarier, og enkel simulering.\nVurdere låne og betalingsalternativer, inkludert leasing, med NNV etter skatt som kriterium.",
-    "crumbs": [
-      "Om kurset",
-      "Moduler",
-      "Investeringsanalyse"
-    ]
-  },
-  {
-    "objectID": "kursmateriale/01-investeringsanalyse/index.html#slik-bruker-du-modulen",
-    "href": "kursmateriale/01-investeringsanalyse/index.html#slik-bruker-du-modulen",
-    "title": "Investeringsanalyse",
+    "objectID": "kursmateriale/02-markeder/index.html#slik-bruker-du-modulen",
+    "href": "kursmateriale/02-markeder/index.html#slik-bruker-du-modulen",
+    "title": "Selvstendige temaer",
     "section": "Slik bruker du modulen",
     "text": "Slik bruker du modulen\nSiden modulen er bygget opp kronologisk, anbefales det at du følger innholdet i rekkefølge for å få oversikt og sammenheng. Deretter kan du hoppe tilbake til spesifikke temaer etter behov.",
     "crumbs": [
-      "Om kurset",
       "Moduler",
-      "Investeringsanalyse"
+      "Selvstendige temaer"
     ]
   },
   {
-    "objectID": "kursmateriale/01-investeringsanalyse/index.html#innhold-og-anbefalt-progresjon",
-    "href": "kursmateriale/01-investeringsanalyse/index.html#innhold-og-anbefalt-progresjon",
-    "title": "Investeringsanalyse",
+    "objectID": "kursmateriale/02-markeder/index.html#innhold-og-anbefalt-progresjon",
+    "href": "kursmateriale/02-markeder/index.html#innhold-og-anbefalt-progresjon",
+    "title": "Selvstendige temaer",
     "section": "Innhold og anbefalt progresjon",
-    "text": "Innhold og anbefalt progresjon\n\n1. Introduksjon\n2. Investeringsprosjekter\n3. Effekter av skatt og lån\n4. Effekter av inflasjon\n5. Risikovurderinger\n6. Låne- og betalingsalternativer",
+    "text": "Innhold og anbefalt progresjon\n\n1. Rentemarkedet\n2. Investeringsprosjekter\n3. Effekter av skatt og lån\n4. Effekter av inflasjon",
     "crumbs": [
-      "Om kurset",
       "Moduler",
-      "Investeringsanalyse"
+      "Selvstendige temaer"
     ]
   },
   {
-    "objectID": "kursmateriale/01-investeringsanalyse/05-risikovurderinger/index.html",
-    "href": "kursmateriale/01-investeringsanalyse/05-risikovurderinger/index.html",
-    "title": "Risikovurderinger",
+    "objectID": "kursmateriale/02-markeder/03-terminer/index.html",
+    "href": "kursmateriale/02-markeder/03-terminer/index.html",
+    "title": "Terminkontrakter",
     "section": "",
-    "text": "WarningVideoer er under produksjon\n\n\n\nVideoer til denne modulen publiseres fortløpende.",
+    "text": "WarningVideokatalog\n\n\n\nVideoer er under produksjon og blir lagt ut fortløpende",
     "crumbs": [
-      "Om kurset",
       "Moduler",
-      "Investeringsanalyse",
-      "5. Risikovurderinger"
+      "Selvstendige temaer",
+      "9. Terminkontrakter"
     ]
   },
   {
-    "objectID": "kursmateriale/01-investeringsanalyse/05-risikovurderinger/index.html#videoer",
-    "href": "kursmateriale/01-investeringsanalyse/05-risikovurderinger/index.html#videoer",
-    "title": "Risikovurderinger",
+    "objectID": "kursmateriale/02-markeder/03-terminer/index.html#videoer",
+    "href": "kursmateriale/02-markeder/03-terminer/index.html#videoer",
+    "title": "Terminkontrakter",
     "section": "",
-    "text": "WarningVideoer er under produksjon\n\n\n\nVideoer til denne modulen publiseres fortløpende.",
+    "text": "WarningVideokatalog\n\n\n\nVideoer er under produksjon og blir lagt ut fortløpende",
     "crumbs": [
-      "Om kurset",
       "Moduler",
-      "Investeringsanalyse",
-      "5. Risikovurderinger"
+      "Selvstendige temaer",
+      "9. Terminkontrakter"
     ]
   },
   {
-    "objectID": "kursmateriale/01-investeringsanalyse/05-risikovurderinger/index.html#forelesningsplansjer",
-    "href": "kursmateriale/01-investeringsanalyse/05-risikovurderinger/index.html#forelesningsplansjer",
-    "title": "Risikovurderinger",
+    "objectID": "kursmateriale/02-markeder/03-terminer/index.html#forelesningsplansjer",
+    "href": "kursmateriale/02-markeder/03-terminer/index.html#forelesningsplansjer",
+    "title": "Terminkontrakter",
+    "section": "Forelesningsplansjer",
+    "text": "Forelesningsplansjer",
+    "crumbs": [
+      "Moduler",
+      "Selvstendige temaer",
+      "9. Terminkontrakter"
+    ]
+  },
+  {
+    "objectID": "kursmateriale/02-markeder/01-rentemarkedet/index.html",
+    "href": "kursmateriale/02-markeder/01-rentemarkedet/index.html",
+    "title": "Rentemarkedet",
+    "section": "",
+    "text": "WarningVideokatalog\n\n\n\nVideoer er under produksjon og blir lagt ut fortløpende",
+    "crumbs": [
+      "Moduler",
+      "Selvstendige temaer",
+      "7. Rentemarkedet"
+    ]
+  },
+  {
+    "objectID": "kursmateriale/02-markeder/01-rentemarkedet/index.html#videoer",
+    "href": "kursmateriale/02-markeder/01-rentemarkedet/index.html#videoer",
+    "title": "Rentemarkedet",
+    "section": "",
+    "text": "WarningVideokatalog\n\n\n\nVideoer er under produksjon og blir lagt ut fortløpende",
+    "crumbs": [
+      "Moduler",
+      "Selvstendige temaer",
+      "7. Rentemarkedet"
+    ]
+  },
+  {
+    "objectID": "kursmateriale/02-markeder/01-rentemarkedet/index.html#forelesningsplansjer",
+    "href": "kursmateriale/02-markeder/01-rentemarkedet/index.html#forelesningsplansjer",
+    "title": "Rentemarkedet",
+    "section": "Forelesningsplansjer",
+    "text": "Forelesningsplansjer",
+    "crumbs": [
+      "Moduler",
+      "Selvstendige temaer",
+      "7. Rentemarkedet"
+    ]
+  },
+  {
+    "objectID": "kursmateriale/01-investeringsanalyse/06-laane-og-betalingsalternativer/index.html#forelesningsplansjer",
+    "href": "kursmateriale/01-investeringsanalyse/06-laane-og-betalingsalternativer/index.html#forelesningsplansjer",
+    "title": "Låne- og betalingsalternativer",
     "section": "Forelesningsplansjer",
     "text": "Forelesningsplansjer\n\n\n📥 Last ned presentasjonen som pdf",
     "crumbs": [
       "Om kurset",
       "Moduler",
       "Investeringsanalyse",
-      "5. Risikovurderinger"
+      "6. Låne- og betalingsalternativer"
     ]
   },
   {
-    "objectID": "kursmateriale/01-investeringsanalyse/03-skatt-og-laan/index.html#forelesningsplansjer",
-    "href": "kursmateriale/01-investeringsanalyse/03-skatt-og-laan/index.html#forelesningsplansjer",
-    "title": "Kontantstrømmer",
+    "objectID": "kursmateriale/01-investeringsanalyse/04-inflasjon/index.html#forelesningsplansjer",
+    "href": "kursmateriale/01-investeringsanalyse/04-inflasjon/index.html#forelesningsplansjer",
+    "title": "Effekter av inflasjon",
     "section": "Forelesningsplansjer",
     "text": "Forelesningsplansjer\n\n\n📥 Last ned presentasjonen som pdf",
     "crumbs": [
       "Om kurset",
       "Moduler",
       "Investeringsanalyse",
-      "3. Effekter av skatt og lån"
+      "4. Effekter av inflasjon"
     ]
   },
   {
-    "objectID": "kursmateriale/01-investeringsanalyse/01-introduksjon/index.html",
-    "href": "kursmateriale/01-investeringsanalyse/01-introduksjon/index.html",
-    "title": "Introduksjon til investeringsanalyse",
-    "section": "",
-    "text": "Investeringsanalysemodulen starter her.\nI innledningen til investering og finans ble foretakets rolle diskutert. Kort oppsummert har foretaket ett overordnet mål. Å maksimere foretakets verdi. For å nå dette målet må foretaket ta tre sentrale beslutninger. Investeringsbeslutningen, finansieringsbeslutningen og utbyttebeslutningen. Investeringsanalyse handler om den første av disse. Hvilke prosjekter foretaket skal velge å investere i.",
+    "objectID": "kursmateriale/01-investeringsanalyse/02-investeringsprosjekter/index.html#forelesningsplansjer",
+    "href": "kursmateriale/01-investeringsanalyse/02-investeringsprosjekter/index.html#forelesningsplansjer",
+    "title": "Investeringsprosjekter",
+    "section": "Forelesningsplansjer",
+    "text": "Forelesningsplansjer\n\n\n📥 Last ned presentasjonen som pdf",
     "crumbs": [
       "Om kurset",
       "Moduler",
       "Investeringsanalyse",
-      "1. Introduksjon"
-    ]
-  },
-  {
-    "objectID": "kursmateriale/01-investeringsanalyse/01-introduksjon/index.html#introduksjon",
-    "href": "kursmateriale/01-investeringsanalyse/01-introduksjon/index.html#introduksjon",
-    "title": "Introduksjon til investeringsanalyse",
-    "section": "",
-    "text": "Investeringsanalysemodulen starter her.\nI innledningen til investering og finans ble foretakets rolle diskutert. Kort oppsummert har foretaket ett overordnet mål. Å maksimere foretakets verdi. For å nå dette målet må foretaket ta tre sentrale beslutninger. Investeringsbeslutningen, finansieringsbeslutningen og utbyttebeslutningen. Investeringsanalyse handler om den første av disse. Hvilke prosjekter foretaket skal velge å investere i.",
-    "crumbs": [
-      "Om kurset",
-      "Moduler",
-      "Investeringsanalyse",
-      "1. Introduksjon"
-    ]
-  },
-  {
-    "objectID": "kursmateriale/01-investeringsanalyse/01-introduksjon/index.html#hva-er-investeringsanalyse",
-    "href": "kursmateriale/01-investeringsanalyse/01-introduksjon/index.html#hva-er-investeringsanalyse",
-    "title": "Introduksjon til investeringsanalyse",
-    "section": "2 Hva er investeringsanalyse",
-    "text": "2 Hva er investeringsanalyse\nInvesteringsanalyse dreier seg om realinvesteringer i prosjekter. Det kan være investeringer i maskiner, teknologi, nye produkter eller utvidelse av eksisterende virksomhet. Felles for slike prosjekter er at de krever en investering i dag, og forventes å generere kontantstrømmer i fremtiden.\nBeslutningsregelen er i seg selv enkel. Aksepter gode prosjekter. Et prosjekt er godt dersom det skaper verdi for foretaket. Mer presist betyr dette at prosjektets forventede avkastning er høyere enn det laveste akseptable avkastningskravet. Avkastningskravet skal reflektere risikoen i prosjektet og hvordan prosjektet finansieres gjennom egenkapital og gjeld.\nI praksis må avkastning måles gjennom diskonterte kontantstrømmer. Det er ikke prosjektets regnskapsmessige resultat som er avgjørende, men verdien av fremtidige kontantstrømmer vurdert i dag.",
-    "crumbs": [
-      "Om kurset",
-      "Moduler",
-      "Investeringsanalyse",
-      "1. Introduksjon"
-    ]
-  },
-  {
-    "objectID": "kursmateriale/01-investeringsanalyse/01-introduksjon/index.html#hva-må-vi-kunne-for-å-ta-investeringsbeslutninger",
-    "href": "kursmateriale/01-investeringsanalyse/01-introduksjon/index.html#hva-må-vi-kunne-for-å-ta-investeringsbeslutninger",
-    "title": "Introduksjon til investeringsanalyse",
-    "section": "3 Hva må vi kunne for å ta investeringsbeslutninger",
-    "text": "3 Hva må vi kunne for å ta investeringsbeslutninger\nÅ avgjøre om et prosjekt er godt krever to ting. For det første må vi kunne si noe om prosjektets forventede kontantstrømmer. For det andre må vi kjenne det relevante avkastningskravet gitt prosjektets risiko og finansieringsstruktur.\nI denne modulen ligger hovedvekten på det første punktet. Hvordan beregne prosjektets forventede kontantstrømmer. Beregning av avkastningskrav og eksplisitt prising av risiko behandles i senere moduler om finansiering, kapitalstruktur og risiko.\nFor å kunne analysere et prosjekts forventede avkastning må vi ha oversikt over tre forhold.\n\nProsjektets kontantstrømmer.\nTidshorisonten for kontantstrømmene.\nRisikoen knyttet til kontantstrømmene.\n\nI denne modulen håndteres risiko i hovedsak indirekte, gjennom sensitivitetsanalyser og scenarieanalyser.",
-    "crumbs": [
-      "Om kurset",
-      "Moduler",
-      "Investeringsanalyse",
-      "1. Introduksjon"
-    ]
-  },
-  {
-    "objectID": "kursmateriale/01-investeringsanalyse/01-introduksjon/index.html#hvordan-modulen-er-bygget-opp",
-    "href": "kursmateriale/01-investeringsanalyse/01-introduksjon/index.html#hvordan-modulen-er-bygget-opp",
-    "title": "Introduksjon til investeringsanalyse",
-    "section": "4 Hvordan modulen er bygget opp",
-    "text": "4 Hvordan modulen er bygget opp\nHoveddelen av modulen fokuserer på kontantstrømmene. Vi går gjennom hvordan kontantstrømmer beregnes, hvilke kontantstrømmer som er relevante, og hvilke som ikke er det. Videre ser vi på hvordan skatter og lån påvirker kontantstrømmene, hvordan inflasjon skal hensyntas, og hvordan analysen kan stresstestes ved hjelp av sensitivitetsanalyser og scenarieanalyser. Avslutningsvis ser vi på hvordan ulike låne og betalingsalternativer påvirker kontantstrømmene. Disse temaene dekkes i kapittel 3 til 6 i modulen.\nKapittel 2, investeringsprosjekter, tar et annet utgangspunkt. Her antar vi at korrekte kontantstrømmer allerede er identifisert, og at et relevant avkastningskrav er fastsatt. Fokuset ligger på hvordan denne informasjonen brukes til å fatte en konkret investeringsbeslutning. Vi ser på metoder for å vurdere lønnsomhet, som nåverdimetoden, internrente, tilbakebetalingsmetoden og annuitetsmetoden. I tillegg diskuteres hvordan prosjekter kan rangeres når foretaket har begrensede ressurser.",
-    "crumbs": [
-      "Om kurset",
-      "Moduler",
-      "Investeringsanalyse",
-      "1. Introduksjon"
-    ]
-  },
-  {
-    "objectID": "kursmateriale/00-introduksjon/0-intro_finans.html",
-    "href": "kursmateriale/00-introduksjon/0-intro_finans.html",
-    "title": "Fra økonomi til bedriftsøkonomi: Bedriftens finansielle beslutninger",
-    "section": "",
-    "text": "Økonomi springer ut av knapphet. Vi ønsker oss alltid mer enn vi kan få. Dette gjelder ikke bare for husholdninger og samfunn, men også for bedrifter. Når vi studerer knapphetsproblemet i bedriftens kontekst, kaller vi det bedriftsøkonomi. Studerer vi det på individ- eller samfunnsnivå, kaller vi det personlig økonomi eller samfunnsøkonomi.\nI dette kapittelet vil få oversikt over hele faget investering og finans. Vi skal se hvordan de ulike delene henger sammen, og hvordan de bygger på grunnleggende prinsipper i økonomi. Dette gir oss et veikart som hjelper oss å navigere resten av faget.\nI finans stiller vi et mer spesifikt spørsmål: Hvordan allokerer individer og samfunnet knappe ressurser gjennom et prissystem som verdsetter risikable aktiva? Her er det særlig kapital som står i sentrum i finans. Vi er opptatt av hvordan sparing fra husholdninger og investorer kanaliseres til bedrifter, og hvordan kapitalmarkedene setter prisen på risikable aktiva underveis.\n\n\n\n\n\n\nFigure 1: Veikart finans\n\n\n\nFigur Figure 1 ovenfor viser hvordan denne prosessen ser ut i praksis. Til venstre finner vi investorene som tilbyr kapital. Til høyre finner vi bedrifter som etterspør kapital for å investere i prosjekter. Mellom dem står kapitalmarkedet, der prisen på risikable aktiva fastsettes. Nederst ser du de viktigste byggesteinene i moderne finans, som gir oss teoriene og verktøyene vi bruker til å analysere samspillet mellom investorere, bedrifter og kapitalmarkedet.",
-    "crumbs": [
-      "Introduksjon til kursinnholdet",
-      "Innledning til investering og finans"
-    ]
-  },
-  {
-    "objectID": "kursmateriale/00-introduksjon/0-intro_finans.html#innledning",
-    "href": "kursmateriale/00-introduksjon/0-intro_finans.html#innledning",
-    "title": "Fra økonomi til bedriftsøkonomi: Bedriftens finansielle beslutninger",
-    "section": "",
-    "text": "Økonomi springer ut av knapphet. Vi ønsker oss alltid mer enn vi kan få. Dette gjelder ikke bare for husholdninger og samfunn, men også for bedrifter. Når vi studerer knapphetsproblemet i bedriftens kontekst, kaller vi det bedriftsøkonomi. Studerer vi det på individ- eller samfunnsnivå, kaller vi det personlig økonomi eller samfunnsøkonomi.\nI dette kapittelet vil få oversikt over hele faget investering og finans. Vi skal se hvordan de ulike delene henger sammen, og hvordan de bygger på grunnleggende prinsipper i økonomi. Dette gir oss et veikart som hjelper oss å navigere resten av faget.\nI finans stiller vi et mer spesifikt spørsmål: Hvordan allokerer individer og samfunnet knappe ressurser gjennom et prissystem som verdsetter risikable aktiva? Her er det særlig kapital som står i sentrum i finans. Vi er opptatt av hvordan sparing fra husholdninger og investorer kanaliseres til bedrifter, og hvordan kapitalmarkedene setter prisen på risikable aktiva underveis.\n\n\n\n\n\n\nFigure 1: Veikart finans\n\n\n\nFigur Figure 1 ovenfor viser hvordan denne prosessen ser ut i praksis. Til venstre finner vi investorene som tilbyr kapital. Til høyre finner vi bedrifter som etterspør kapital for å investere i prosjekter. Mellom dem står kapitalmarkedet, der prisen på risikable aktiva fastsettes. Nederst ser du de viktigste byggesteinene i moderne finans, som gir oss teoriene og verktøyene vi bruker til å analysere samspillet mellom investorere, bedrifter og kapitalmarkedet.",
-    "crumbs": [
-      "Introduksjon til kursinnholdet",
-      "Innledning til investering og finans"
-    ]
-  },
-  {
-    "objectID": "kursmateriale/00-introduksjon/0-intro_finans.html#investorer-husholdningenes-rolle-i-finans",
-    "href": "kursmateriale/00-introduksjon/0-intro_finans.html#investorer-husholdningenes-rolle-i-finans",
-    "title": "Fra økonomi til bedriftsøkonomi: Bedriftens finansielle beslutninger",
-    "section": "2 Investorer: husholdningenes rolle i finans",
-    "text": "2 Investorer: husholdningenes rolle i finans\nHusholdningene er de ultimate eierne av kapital i samfunnet. Selv om kapital ofte forvaltes gjennom banker, forsikringsselskaper eller pensjonsfond, er det til syvende og sist husholdningenes sparing som ligger bak. Når husholdninger har mer kapital enn de trenger til forbruk i dag, kan de velge å utsette noe av forbruket og heller spare. Det gjør dem til investorer og tilbydere av kapital.\nÅ spare betyr å flytte forbruk fra nåtid til fremtid. Husholdninger tar derfor alltid stilling til tre spørsmål:\n\nHvor mye vil jeg bruke i dag, og hvor mye vil jeg spare til senere\nHvor lenge kan jeg binde pengene\nHvor stor risiko er jeg villig til å ta for muligheten til høyere avkastning\n\nKapitalmarkedene gjør denne avveiningen langt enklere. De gir husholdningene mulighet til å plassere pengene i alt fra en trygg sparekonto til aksjer med høyere risiko og potensielt høyere avkastning. Markedet setter en pris på hva det koster å utsette forbruket, og denne prisen ser vi som renter og avkastningskrav.\nFor bedriftene er dette avgjørende. Uten kapitalmarkedene måtte husholdningene selv investere direkte i prosjekter eller eiendeler, noe som er upraktisk og risikabelt. Med kapitalmarkedene kan kapital flyttes fra husholdninger som har penger, til bedrifter som har prosjekter, men mangler finansiering. Dette gjør at ressursene i samfunnet brukes der de skaper mest verdi.\nNoen investorer har dessuten mål utover ren avkastning. De kan ønske å bidra til bærekraftige investeringer eller påvirke hvordan bedrifter driver sin virksomhet. Slik viser investorene at de ikke bare er opptatt av forbruk i dag og i morgen, men også av hvilken fremtid de er med på å skape.\n\nTenk på en student som har tjent 40 000 kroner på sommerjobb. Hun kan bruke hele beløpet på en ferie nå, eller hun kan spare halvparten i et aksjefond. Ferie gir høy nytte i dag, men ingen fremtidig avkastning. Sparing gir mulighet for mer forbruk i fremtiden, men innebærer risiko. Valget illustrerer investorens grunnleggende avveiing: forbruk nå eller senere, og hvor mye risiko man er villig til å ta.\n\n\n\n\n\n\n\nNoteHva vi kommer tilbake til senere\n\n\n\nI dette kapittelet har vi bare introdusert investorens rolle. Senere i kurset skal vi se nærmere på: - Sparing og investering: Hvordan risiko og avkastning henger sammen når man velger å investere i ulike aktiva - Porteføljeteori: hvordan diversifisering gjør at risiko kan reduseres uten å senke forventet avkastning - Kapitalverdimodellen (CAPM): hvordan risiko prises i markedet, og hvordan det danner grunnlag for avkastningskrav",
-    "crumbs": [
-      "Introduksjon til kursinnholdet",
-      "Innledning til investering og finans"
-    ]
-  },
-  {
-    "objectID": "kursmateriale/00-introduksjon/0-intro_finans.html#kapitalmarkedet-prissetting-og-allokering",
-    "href": "kursmateriale/00-introduksjon/0-intro_finans.html#kapitalmarkedet-prissetting-og-allokering",
-    "title": "Fra økonomi til bedriftsøkonomi: Bedriftens finansielle beslutninger",
-    "section": "3 Kapitalmarkedet: prissetting og allokering",
-    "text": "3 Kapitalmarkedet: prissetting og allokering\nFor å forstå verdien av kapitalmarkedet, kan vi tenke oss en økonomi uten markeder. I en slik økonomi er det vanskelig for husholdninger å flytte forbruk over tid, og bedrifter kan bare investere i prosjekter de har kontanter til her og nå. All investering må skje med egne midler.\nKapitalmarkedet løser dette problemet. Det gir mulighet til å låne, spare og flytte ressurser på en måte som gjør alle bedre stilt enn de ville vært alene. Markedet knytter sammen tilbydere og etterspørrere av kapital. Ressurser allokeres gjennom et prissystem som reflekterer informasjon om risiko og avkastning. Dette skjer desentralisert, ved at prissignaler gir aktørene grunnlag for sine valg. Den sentrale funksjonen er å sørge for en effektiv ressursallokering.\nEffektiv allokering oppnås ved at kapitalmarkedet leverer tre grunnleggende tjenester. Disse er oppsummert i figur Figure 2 nedenfor (basert på Døskeland, Investing for the Long Term, 2025).\n\n\n\n\n\n\nFigure 2: Finansielle tjenester\n\n\n\n\nSparing: gjør det mulig å utsette konsum. De som har mer kapital enn de trenger i dag, kan plassere pengene og bruke dem senere. Prisen på utsatt konsum settes i form av renter og avkastning.\nLån: gjør det mulig å investere i dag selv uten egne midler. På den måten kan prosjekter med høy verdi realiseres. Å låne er å flytte forbruk fra fremtid til nåtid.\nRisikohåndtering: gjør det mulig å beskytte seg mot uønskede utfall. Dette kan skje gjennom forsikring eller ved å flytte kapital mellom aktiva med ulik risiko. Kapitalmarkedet sprer og deler risiko på en effektiv måte.\n\nEffektiv ressursallokering er avgjørende for økonomisk vekst. Vekst er igjen en forutsetning for økt konsum og velferd over tid. Kapitalmarkedet bidrar til dette ved å kanalisere sparing til de mest lønnsomme investeringene og ved å gi både husholdninger og bedrifter mulighet til å håndtere risiko effektivt.\n\n\n\n\n\n\nNoteOppsummert: Kapitalmarkedet\n\n\n\n\nUten kapitalmarkeder kan husholdninger ikke spare over tid, og bedrifter kan ikke investere utover egne midler.\nKapitalmarkedet gjør det mulig å låne, spare og håndtere risiko, slik at ressursene brukes der de skaper mest verdi.\nGjennom prissystemet allokeres kapital desentralisert basert på informasjon om risiko og avkastning.\nEffektiv ressursallokering er en forutsetning for økonomisk vekst og økt velferd over tid.",
-    "crumbs": [
-      "Introduksjon til kursinnholdet",
-      "Innledning til investering og finans"
-    ]
-  },
-  {
-    "objectID": "kursmateriale/00-introduksjon/0-intro_finans.html#foretaket-investering-finansiering-og-utbytte",
-    "href": "kursmateriale/00-introduksjon/0-intro_finans.html#foretaket-investering-finansiering-og-utbytte",
-    "title": "Fra økonomi til bedriftsøkonomi: Bedriftens finansielle beslutninger",
-    "section": "4 Foretaket: investering, finansiering og utbytte",
-    "text": "4 Foretaket: investering, finansiering og utbytte\nI figur Figure 1 er foretaket plassert på høyre side. Foretaket er den aktøren som etterspør kapital. Samtidig er det selve motoren i verdiskapingen: det bruker kapital, arbeidskraft og ledelse til å produsere varer og tjenester som tilfredsstiller husholdningenes ønsker gjennom å investere i prosjekter. Prosjekter er investeringer i realaktiva, som består av fysiske (fabrikker, maskiner etc.) og immaterielle (patenter, merkevarer osv.) eiendeler. Når bedriften lykkes bedre med sine prosjekter enn konkurrentene, skaper den overskudd. Overskuddet gir eierne profitt, og profitt som er stabil og fremtidsrettet løfter verdien av bedriften.\nI bedriftsøkonomi antar vi ofte at målet er profittmaksimering. Bedriften skal da bruke ressursene slik at inntekter minus kostnader blir størst mulig. To grunnprinsipper følger av dette:\n\nDe minste midler: produser med minst mulig ressursbruk\nDe største resultater: få mest mulig ut av gitte ressurser\n\nI finans går vi et steg videre. Vi antar ofte at bedriften er børsnotert, og at målet er å maksimere markedsverdien av selskapets aksjer. Markedsverdien reflekterer størrelsen, tidspunktet og sikkerheten til de forventede betalingene til aksjonærene. En usikker betalingsstrøm verdsettes lavere enn en sikker strøm med samme forventede størrelse. Dette målet er mer omfattende enn profittmaksimering, fordi det tar hensyn til både tid og risiko.\nFor å nå målet om verdimaksimering må bedriften ta tre typer beslutninger:\n\nInvesteringsbeslutninger: hvilke prosjekter skal gjennomføres\nFinansieringsbeslutninger: hvordan prosjektene skal betales, med gjeld eller egenkapital\nUtbyttebeslutninger: hvordan overskuddet skal disponeres mellom eierne og videre investeringer\n\nMålet om verdimaksimering har møtt kritikk. Mange mener at bedrifter også bør ivareta interessene til ansatte, kunder, leverandører og samfunnet for øvrig. Andre hevder at beslutningstakere i praksis ikke maksimerer, men heller søker en tilfredsstillende løsning, et prinsipp kjent som satisfiering.\nI dette kurset legger vi likevel til grunn at bedriftens mål er å maksimere markedsverdien av aksjene, fordi dette best reflekterer eiernes interesser. Det betyr ikke at hensyn som bærekraft og samfunnsansvar er uviktige, men at de må integreres i beslutningene på en måte som også skaper verdi for eierne. Vi legger derfor til grunn at valg først og fremst må være økonomisk bærekraftige: prosjekter må gi kontantstrømmer som dekker kostnader, forrenter kapitalen og skaper avkastning i forhold til risiko. Uten økonomisk bærekraft kan selv gode intensjoner ikke opprettholdes over tid.",
-    "crumbs": [
-      "Introduksjon til kursinnholdet",
-      "Innledning til investering og finans"
-    ]
-  },
-  {
-    "objectID": "kursmateriale/00-introduksjon/0-intro_finans.html#oppsummering",
-    "href": "kursmateriale/00-introduksjon/0-intro_finans.html#oppsummering",
-    "title": "Fra økonomi til bedriftsøkonomi: Bedriftens finansielle beslutninger",
-    "section": "5 Oppsummering",
-    "text": "5 Oppsummering\nSå, nå har du fått rammen for faget investering og finans. Vi har sett hvordan de tre hovedaktørene henger sammen:\n\nHusholdningene er de ultimate tilbyderne av kapital.\nKapitalmarkedet binder sammen sparere og bedrifter, og tilbyr sparing, lån og risikohåndtering.\nBedriftene er motoren som bruker kapital til å skape verdier, styrt av målet om verdimaksimering.\n\nMed denne forståelsen har du et klart bilde av hva faget handler om. Resten av faget handler om å fylle inn detaljene. Her kan du bla deg gjennom en kort presentasjon som oppsummerer hovedpunktene i kapittelet:\n\n\n📥 Last ned presentasjonen som egen fil",
-    "crumbs": [
-      "Introduksjon til kursinnholdet",
-      "Innledning til investering og finans"
-    ]
-  },
-  {
-    "objectID": "kursmateriale/00-introduksjon/0-forord.html",
-    "href": "kursmateriale/00-introduksjon/0-forord.html",
-    "title": "Investering og finans",
-    "section": "",
-    "text": "Denne nettsiden, med dens innhold og struktur er mitt forsøk på å modernisere kurset BED3 - Investering og finans, som undervises som en del av den bedriftsøkonomiske sekvensen av kurs på bachelorstudiet i Økonomi og Administrasjon (BØA) ved Norges Handelshøyskole. Kurset er svært sentralt i studiet, og bidrar med kjernekunnskap på et område som er av vesentlig betydning for en bachelorkandidat fra NHH.\n\nFormålet med denne siden er ikke å være statisk, men å utvikle seg over tid. Videre, når en sitter med nesen tett til skjermen, er det lett å overse skrivefeil og andre rare ting som ferske øyne fanger opp umiddelbart. Om du ser noe direkte galt eller noe som virker rart, gi meg gjerne beskjed.\nOm noen andre enn studenter ved Norges Handelshøyskole eller utenfor sfæren av økonomer og økonomistudenter generelt skulle finne frem til siden i søken etter kunnskap om investeringer, finansiering, finansmarkeder etc. så håper jeg innholdet oppleves som nyttig og relevant.",
-    "crumbs": [
-      "Introduksjon til kursinnholdet",
-      "Forord"
-    ]
-  },
-  {
-    "objectID": "kursmateriale/00-introduksjon/0-forord.html#forord",
-    "href": "kursmateriale/00-introduksjon/0-forord.html#forord",
-    "title": "Investering og finans",
-    "section": "",
-    "text": "Denne nettsiden, med dens innhold og struktur er mitt forsøk på å modernisere kurset BED3 - Investering og finans, som undervises som en del av den bedriftsøkonomiske sekvensen av kurs på bachelorstudiet i Økonomi og Administrasjon (BØA) ved Norges Handelshøyskole. Kurset er svært sentralt i studiet, og bidrar med kjernekunnskap på et område som er av vesentlig betydning for en bachelorkandidat fra NHH.\n\nFormålet med denne siden er ikke å være statisk, men å utvikle seg over tid. Videre, når en sitter med nesen tett til skjermen, er det lett å overse skrivefeil og andre rare ting som ferske øyne fanger opp umiddelbart. Om du ser noe direkte galt eller noe som virker rart, gi meg gjerne beskjed.\nOm noen andre enn studenter ved Norges Handelshøyskole eller utenfor sfæren av økonomer og økonomistudenter generelt skulle finne frem til siden i søken etter kunnskap om investeringer, finansiering, finansmarkeder etc. så håper jeg innholdet oppleves som nyttig og relevant.",
-    "crumbs": [
-      "Introduksjon til kursinnholdet",
-      "Forord"
-    ]
-  },
-  {
-    "objectID": "kursinformasjon.html",
-    "href": "kursinformasjon.html",
-    "title": "Kursinformasjon",
-    "section": "",
-    "text": "Økonomi handler om et enkelt, men evig problem: vi ønsker oss alltid mer enn vi kan få. BED3 Investering og finans tar utgangspunkt i dette og undersøker hvordan vi best organiserer den knappe ressursen kapital.\nBED3 er et obligatorisk kurs i sekvensen i bedriftsøkonomisk analyse i bachelorstudiet. Kurset er svært sentralt i studiet, og gir kjernekunnskap på et område som er av vesentlig betydning for en bachelorkandidat fra NHH.\nGjennom kurset lærer du å analysere investeringsprosjekter, forstå hvordan kapitalen fordeles i porteføljer, hvordan risikokapital prises i markedet, og hvordan bedrifter bør velge mellom gjeld og egenkapital.\nI tillegg får du innblikk i temaer som bærekraftig finans, opsjoner, terminkontrakter, rentemarkedet og valuta. Til sammen gir dette en helhetlig forståelse av hvordan kapital investeres, finansieres og prises."
-  },
-  {
-    "objectID": "kursinformasjon.html#kunnskap",
-    "href": "kursinformasjon.html#kunnskap",
-    "title": "Kursinformasjon",
-    "section": "1.1 Kunnskap",
-    "text": "1.1 Kunnskap\nEtter å ha fullført kurset vil studentene:\n\nHa innsikt i bedriftens investerings- og finansieringsbeslutninger\nForstå hva bærekraftige investeringer innebærer, herunder måling av bærekraft, ESG-vurderinger og -rating samt tilhørende lønnsomhet\nHa innsikt i etiske normer og hvordan disse uttrykkes i ulike foretak, og i etiske problemstillinger knyttet til innsidehandel og interessekonflikter\nForstå hvordan kapitalmarkedene fungerer og anvendes\nHa kunnskap om utviklingen i kapitalmarkeder og tilhørende verdipapirer\nForstå hvordan ulike verdipapirer prises, og hvilke risikoegenskaper disse instrumentene har\nForstå konsekvensene av å finansiere seg med gjeld kontra egenkapital\nHa kunnskap om viktige sammenhenger i valutamarkedene"
-  },
-  {
-    "objectID": "kursinformasjon.html#ferdigheter",
-    "href": "kursinformasjon.html#ferdigheter",
-    "title": "Kursinformasjon",
-    "section": "1.2 Ferdigheter",
-    "text": "1.2 Ferdigheter\nEtter å ha fullført kurset kan studentene:\n\nAnvende ulike teorier og modeller i sentrale problemstillinger innenfor investering og finans\nForeta beregninger av lønnsomhet, avkastning og risiko for investeringer, verdipapirer og kapitalkilder, herunder bærekraftige investeringer med ESG-rating og lønnsomhet\nVurdere etiske normer og tilhørende beslutninger\nAvgjøre hvordan bedriftens aktiva bør finansieres (gjeld versus egenkapital) og hvordan årlige overskudd bør disponeres (utbyttepolitikk)\nVise hvordan risiko kan håndteres ved bruk av derivater og andre finansielle instrumenter\nForeta lønnsomhetsberegninger for internasjonale investeringer og valutalån"
-  },
-  {
-    "objectID": "kursinformasjon.html#generell-kompetanse",
-    "href": "kursinformasjon.html#generell-kompetanse",
-    "title": "Kursinformasjon",
-    "section": "1.3 Generell kompetanse",
-    "text": "1.3 Generell kompetanse\nEtter å ha fullført kurset kan studentene:\n\nKommunisere de ovennevnte elementer knyttet til kunnskap og ferdigheter\nAnvende denne innsikten på praktiske problemstillinger\nUtveksle synspunkter og erfaringer med andre som har bakgrunn i finans og gjennom dette bidra til god praksis"
-  },
-  {
-    "objectID": "kursinformasjon.html#læringsstøttende-elementer",
-    "href": "kursinformasjon.html#læringsstøttende-elementer",
-    "title": "Kursinformasjon",
-    "section": "2.1 Læringsstøttende elementer",
-    "text": "2.1 Læringsstøttende elementer\n\nEn omfattende hjemmeside for distribusjon av relevant informasjon og materiale\nEn gruppe studentassistenter som deltar aktivt i ulike arbeidsoppgaver\nEt yilbud om organisert gruppeundervisning, frivillig innlevering av et oppgavesett og obligatorisk innlevering av et caseoppgavesett\nEt tilbud om førstelinjehjelp i form av en orakeltjeneste\nEn chatbot (ChatGPT) (samtalerobot) – BED3-Buddy – designet for å underbygge det faglige innholdet i kurset, samt kunne besvare eventuelle administrative spørsmål\nEt ønske om god dialog med studentgruppen, blant annet ved bruk av referansegruppe\n\nPlenumsforelesningene har som formål å gi oversikt over de aktuelle temaene som tas opp i kurset. Forelesningene bygger på en serie forelesningsplansjer. Forelesningene vil bli brukt til å utdype disse plansjene, herunder presentere relevante eksempler og illustrasjoner. Forelesningene representerer ingen direkte gjengivelse av pensumlitteraturen og er heller ingen erstatning for pensumlitteraturen."
-  },
-  {
-    "objectID": "kursinformasjon.html#arbeid-med-oppgaver",
-    "href": "kursinformasjon.html#arbeid-med-oppgaver",
-    "title": "Kursinformasjon",
-    "section": "2.2 Arbeid med oppgaver",
-    "text": "2.2 Arbeid med oppgaver\nI kurset tilbys ulike former for oppgavetrening:\n\nFem sett med øvingsoppgaver: Disse gjennomgås i grupper av studentassistentene. Løsningsmomenter til alle de fem oppgavesettene er lagt ut på hjemmesiden allerede ved starten av semesteret. Det betyr at gruppeundervisningen vil ha rom for diskusjon og refleksjon i tillegg til å fokusere på løsningene\nEtt sett med innleveringsoppgaver (frivillig innlevering): Dette rettes og kommenteres av studentassistentene. Løsningsmomenter legges ut på hjemmesiden ca. en uke etter at innleveringsfristen er gått ut\nEtt sett med caseoppgaver (obligatorisk innlevering og grunnlag for kursgodkjenning): Dette rettes og kommenteres av studentassistentene.Løsningsmomenter legges ut på hjemmesiden når rettingen er avsluttet\nEksamensoppgaver: Tidligere eksamensoppgaver, med tilhørende løsningsmomenter, er lagt ut på hjemmesiden\n\nØvingsoppgaver og innleveringsoppgaver er i hovedsak utformet som typiske eksamensoppgaver, og er dermed representative for hvordan man kan forvente å bli prøvd ved eksamen. Unntaket er at ingen av oppgavene som vil bli gitt til eksamen baseres på bruk av Excel. Merk at det er lagt ut en (kortfattet) fasit til innleveringsoppgavesettet på hjemmesiden. Oppgavene utdyper problemstillinger som tas opp i forelesningene, og i så måte er det aktiv innsats knyttet til å lese pensum, følge forelesninger og gjøre oppgaver som samlet sett gjør det mulig å nå læringsmålene. Kurset vil ha orakeltjeneste i undervisningsperioden, betjent av de kursansvarlige (= treffetid kursansvarlig), og før eksamen, betjent av studentassistentene. I tillegg vil det være orakeltilbud i forbindelse med den frivillige innleveringen. Det er opprettet en referansegruppe. Gruppen har som oppgave å gi løpende tilbakemelding til de kursansvarlige. Gruppen kan ta opp både pedagogiske og faglige spørsmål på eget initiativ, på initiativ fra andre studenter eller på de kursansvarliges initiativ. Referansegruppen består av representantene for 2. kull i Studentutvalget. I tillegg kan den enkelte student selvsagt ta opp slike saker på eget initiativ direkte med de kursansvarlige. Denne form for løpende tilbakemelding, sammen med Studentutvalgets panel, utgjør kursets underveisevaluering. Det vil være en sluttevaluering av kurset ved enden av undervisningsperioden."
-  },
-  {
-    "objectID": "kursinformasjon.html#emneansvarlige",
-    "href": "kursinformasjon.html#emneansvarlige",
-    "title": "Kursinformasjon",
-    "section": "Emneansvarlige",
-    "text": "Emneansvarlige\n\n\n\nNavn: Frode Sættem\nTittel: Professor\nRolle: Hovedemneansvarlig\nE-post: frode.saettem@nhh.no\nKontor: C523\n\n\nNavn: André Wattø Sjuve\nTittel: Førsteamanuensis\nRolle: Foreleser\nE-post: andre.sjuve@nhh.no\nKontor: C310\n\n\nNavn: Andreas Ørpetveit\nTittel: Førsteamanuensis\nRolle: Foreleser\nE-post: andreas.orpetveit@nhh.no\nKontor: C311"
-  },
-  {
-    "objectID": "gruppeovinger/gruppeoving-2.html",
-    "href": "gruppeovinger/gruppeoving-2.html",
-    "title": "Investering og finans",
-    "section": "",
-    "text": "Her kommer oppgaver for andre uke…",
-    "crumbs": [
-      "Øvingsoppgaver",
-      "Gruppeøving 2"
-    ]
-  },
-  {
-    "objectID": "gruppeovinger/gruppeoving-2.html#gruppeøving-2",
-    "href": "gruppeovinger/gruppeoving-2.html#gruppeøving-2",
-    "title": "Investering og finans",
-    "section": "",
-    "text": "Her kommer oppgaver for andre uke…",
-    "crumbs": [
-      "Øvingsoppgaver",
-      "Gruppeøving 2"
-    ]
-  },
-  {
-    "objectID": "gruppeovinger.html",
-    "href": "gruppeovinger.html",
-    "title": "Investering og finans",
-    "section": "",
-    "text": "1 Gruppeøvinger\nOppgaver til de fem gruppeøvingene"
-  },
-  {
-    "objectID": "forelesningsplan.html",
-    "href": "forelesningsplan.html",
-    "title": "Forelesningsplan",
-    "section": "",
-    "text": "NoteViktige datoer\n\n\n\n\n\n Registrering i grupper: 16.02.2026\nObligatorisk for deltakelse i casearbeidet. Se Case for registreringsinfo.\n Obligatorisk case:\n23.02.2026  Må bestås for å kunne gå opp til eksamen.\nSe Canvas for informasjon \n\n\n Frivillig oppgave: 17.04.2026 Frivillig innlevering med kommentarer fra studentassistenter.  Se Om kurset for detaljer.\n Eksamen: 20.05.2026 Skriftlig skoleeksamen. Se Vurdering for form og hjelpemidler."
-  },
-  {
-    "objectID": "forelesningsplan.html#åpningstider-før-innleveringssett-og-eksamen",
-    "href": "forelesningsplan.html#åpningstider-før-innleveringssett-og-eksamen",
-    "title": "Forelesningsplan",
-    "section": "Åpningstider før innleveringssett og eksamen",
-    "text": "Åpningstider før innleveringssett og eksamen\nOrakeltjenesten vil være åpen både i undervisnings- og eksamensperioden. I undervisningsperioden betjenes den av de kursansvarlige (se treffetid kursansvarlig ovenfor). I tiden før eksamen, herunder i forbindelse med det frivillige innleveringssettet, betjenes den av studentassistentene. Orakeltjenesten er en møteplass hvor studentene kan få hjelp i faglige spørsmål utenom forelesningene.\n\n\n\n\n\n\nUke\nDato\nMerknad\nMandag\nTirsdag\nOnsdag\nTorsdag\nFredag\n\n\n\n\n17\n21.04-25.04\nInnleveringssett har frist 17.04\nAndre påskedag\n\n10:15-12:00 Aud. J\n\n\n\n\n18\n28.04-02.05\n\n\nMET4 eksamen\n\nOff. høytidsdag\n\n\n\n19\n05.05-09.05\n\n\n\n\n\n10:15-14:00 Aud. C\n\n\n20\n12.05-16.05\n\n10:15-14:00 Aud. C\n10:15-14:00 Aud. C\n10:15-14:00 Aud. C\nBED3 eksamen\n\n\n\n21\n19.05-23.05\n\n\n\n\n\n\n\n\n22\n26.05-30.05\n\n\nSAM3 eksamen\n\nHimmelfartsdag"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "André Wattø Sjuve,  Assistant professor\n\n\n\n\n\nGeir Drage Berentsen,  Associate professor\n\n\n\nThis course and website has been developed by Sondre Hølleland, assistant professor, and Geir Drage Berentsen, associate professor, both at Norwegian School of Economics, Department of Business and Management Science. More about us will be added."
-  },
-  {
-    "objectID": "formelark.html",
-    "href": "formelark.html",
-    "title": "Formelark",
-    "section": "",
-    "text": "📄 PDF-versjon: Klikk her for å laste ned formelarket som PDF"
-  },
-  {
-    "objectID": "formelark.html#tidens-verdi",
-    "href": "formelark.html#tidens-verdi",
-    "title": "Formelark",
-    "section": "1 Tidens verdi",
-    "text": "1 Tidens verdi\n\nFremtidsverdi av ett beløp: \\[\nFV = CF_0 \\cdot (1 + k)^T\n\\]\nNåverdi av ett beløp: \\[\nPV = \\frac{CF_T}{(1 + k)^T}\n\\]\nAnnuitet (endelig horisont): \\[\nACF = CF \\cdot \\frac{(1 + k)^T -1}{k \\cdot (1 + k)^T} = CF \\cdot \\frac{1- \\left(\\frac{1}{1 +k}\\right)^T}{k} = CF \\cdot A_{k,T}\n\\]\nAnnuitet (uendelig horisont): \\[\nACF =  \\frac{CF}{k}\n\\]\nFordeling av et beløp til annuitet: \\[\nCF_0 \\cdot \\frac{k\\cdot (1 + k)^T}{(1 + k)^T - 1} = CF_{0} \\cdot \\frac{k}{1-\\left(\\frac{1}{1 + k}\\right)^T} = CF_{0} \\cdot A_{k,T}^{-1}\n\\]\nVekstrekke (endelig horisont): \\[\nPV = CF_1 \\cdot \\frac{1 - \\left( \\frac{1 + g}{1 + k} \\right)^T}{k - g}, \\quad \\text{for } k \\neq g\n\\]\nVekstrekke (uendelig horisont): \\[\nPV = \\frac{CF_1}{k - g}, \\quad \\text{for } g &lt; k\n\\]"
-  },
-  {
-    "objectID": "formelark.html#nåverdimetoder",
-    "href": "formelark.html#nåverdimetoder",
-    "title": "Formelark",
-    "section": "2 Nåverdimetoder",
-    "text": "2 Nåverdimetoder\n\nNetto nåverdi (NPV): \\[\nNPV = - I_0 + \\sum_{t = 1}^{T} \\frac{CF_t}{(1 + k)^t}\n\\]\nInternrente (IRR): \\[\n0 = \\sum_{t = 1}^{T} \\frac{CF_t}{(1 + y)^t} - I_0\n\\]\nAnnuitetsmetoden: \\[\nCF - I_{0} \\cdot A_{k,T}^{-1} = NPV \\cdot A_{k,T}^{-1}\n\\]\nNåverdiindeks (PVI): \\[\nPVI = \\frac{NPV}{I_0}\n\\]\nPayback uten renter: \\[\nPB = \\frac{I_0}{CF}\n\\]\nPayback med renter (annuitet): \\[\n0 = -I_0 + CF \\cdot A_{k, PB}\n\\]"
-  },
-  {
-    "objectID": "formelark.html#skatt-og-avskrivninger",
-    "href": "formelark.html#skatt-og-avskrivninger",
-    "title": "Formelark",
-    "section": "3 Skatt og avskrivninger",
-    "text": "3 Skatt og avskrivninger\n\nEffektiv skattesats: \\[\ns_{\\text{Eff}} = \\frac{y - y^s}{y}\n\\]\nSaldoavskrivningsbeløp: \\[\nAV_t = I_0 \\cdot (1 - a)^{t - 1} \\cdot a\n\\]\nBokført restverdi: \\[\nB_t = I_0 \\cdot (1 - a)^t\n\\]\nSkattefordel av avskrivninger: \\[\nPV_s = s \\cdot \\frac{I_0 \\cdot a}{k^s + a} = s \\cdot \\frac{AV_1}{k^s + a}\n\\]\nUtrangering (nåverdi av sluttverdi med skatt): \\[\nPV_T = \\frac{S_T}{(1 + k^s)^T} - s \\cdot \\frac{(S_T - B_T) \\cdot a}{(1 + k^s)^T \\cdot (k^s + a)}\n\\]"
-  },
-  {
-    "objectID": "formelark.html#renteregning",
-    "href": "formelark.html#renteregning",
-    "title": "Formelark",
-    "section": "4 Renteregning",
-    "text": "4 Renteregning\n\nFra nominell til reell rente: \\[\nk_R = \\frac{k_N - i}{1 + i}\n\\]\nFra reell til nominell rente: \\[\nk_N = k_R \\cdot (1 + i) + i\n\\]\nFra nominell lånerente før skatt til reell lånerente etter skatt: \\[\ny_R^s = \\frac{y_N \\cdot (1-s) -i}{1+i}\n\\]\nFra delperioderente til effektiv rente: \\[\np = (1 + q)^m - 1\n\\]\nFra effektiv rente til delperioderente: \\[\nq = (1 + p)^{1/m} - 1\n\\]\nFra forskuddsrente til etterskuddsrente: \\[\nq_e = \\frac{q_f}{1 - q_f}\n\\]\nFra etterskuddsrente til forskuddsrente: \\[\nq_f = \\frac{q_e}{1 + q_e}\n\\]"
-  },
-  {
-    "objectID": "formelark.html#porteføljeteori-og-risiko",
-    "href": "formelark.html#porteføljeteori-og-risiko",
-    "title": "Formelark",
-    "section": "5 Porteføljeteori og risiko",
-    "text": "5 Porteføljeteori og risiko\n\nForventet avkastning, enkeltaktivum: \\[\nE(r_i) = \\sum_{j = 1}^{n} p_j \\cdot r_{ij}\n\\]\nVarians, enkeltaktivum: \\[\n\\sigma_i^2 = \\sum_{j = 1}^{n} p_j \\cdot \\left[ r_{ij} - E(r_i) \\right]^2\n\\]\nStandardavvik, enkeltaktivum: \\[\n\\sigma_i = \\sqrt{\\sigma_i^2}\n\\]\nForventet avkastning, portefølje to aktiva: \\[\nE(r_p) = w_1 \\cdot E(r_1) + (1 - w_1) \\cdot E(r_2)\n\\]\nVarians, portefølje med to aktiva: \\[\n\\sigma_p^2 = w_1^2 \\cdot \\sigma_1^2 + (1 - w_1)^2 \\cdot \\sigma_2^2 + 2 \\cdot w_1 \\cdot (1 - w_1) \\cdot \\sigma_{12}\n\\]\nKovarians mellom to aktiva (korrelasjonsformel): \\[\n\\sigma_{12} = \\rho_{12} \\cdot \\sigma_1 \\cdot \\sigma_2\n\\]\nKovarians mellom to aktiva (diskret fordeling): \\[\n\\sigma_{12} = \\sum_{j = 1}^{n} p_j \\cdot \\left[ r_{1j} - E(r_1) \\right] \\cdot \\left[ r_{2j} - E(r_2) \\right]\n\\]\nMinimumsvariansportefølje – andel i aktivum 1: \\[\nw_1^* = \\frac{\\sigma_2^2 - \\sigma_{12}}{\\sigma_1^2 + \\sigma_2^2 - 2\\sigma_{12}}\n\\]\nForventet avkastning, portefølje med N aktiva: \\[\nE(r_p) = \\sum_{i = 1}^{N} w_i \\cdot E(r_i)\n\\]\nVarians, portefølje med N aktiva: \\[\n\\sigma_p^2 = \\sum_{i = 1}^{N} \\sum_{j = 1}^{N} w_i \\cdot w_j \\cdot \\sigma_{ij}\n\\]\nKapitalmarkedslinjen (CML): \\[\nE(r_P) = r_f + \\frac{E(r_M) - r_f}{\\sigma_M} \\cdot \\sigma_P\n\\]"
-  },
-  {
-    "objectID": "formelark.html#kapitalverdimodellen",
-    "href": "formelark.html#kapitalverdimodellen",
-    "title": "Formelark",
-    "section": "6 Kapitalverdimodellen",
-    "text": "6 Kapitalverdimodellen\n\nCAPM (grunnform): \\[\nE(r_i) = r_f + \\beta_i \\cdot \\left[ E(r_M) - r_f \\right]\n\\]\nCAPM (skattejustert): \\[\nE(r_i) = r_f \\cdot (1-s) + \\beta_i \\cdot \\left[ E(r_M) - r_f \\cdot (1 - s) \\right]\n\\]\nBeta: \\[\n\\beta_i = \\frac{\\sigma_{iM}}{\\sigma_M^2} = \\rho_{iM} \\cdot \\frac{\\sigma_i}{\\sigma_M}\n\\]\nAlfa: \\[\n\\alpha_i = E(r_i) - \\left[ r_f + \\beta_i \\cdot \\left( E(r_M) - r_f \\right) \\right]\n\\]\nVariansdekomponering: \\[\n\\sigma_i^2 = \\beta_i^2 \\cdot \\sigma_M^2 + \\sigma_{\\varepsilon i}^2\n\\]"
-  },
-  {
-    "objectID": "formelark.html#verdsettelse",
-    "href": "formelark.html#verdsettelse",
-    "title": "Formelark",
-    "section": "7 Verdsettelse",
-    "text": "7 Verdsettelse\n\nDividendemodellen (generell): \\[\nP_0 = \\sum_{t = 1}^{T} \\frac{DIV_t}{(1 + k_E)^t} + \\frac{P_T}{(1+k_E)^T}\n\\]\nDividendemodellen (nullvekst): \\[\nP_0 = \\frac{DIV_1}{k_E}\n\\]\nDividendemodellen (evigvarende konstant vekst): \\[\nP_0 = \\frac{DIV_1}{k_E - g}, \\quad \\text{for } g &lt; k_E\n\\]\nVekst (intern generert): \\[\ng = R_E \\cdot b\n\\]\nPris/Fortjeneste-modellen (P/E): \\[\nP/E \\triangleq \\frac{P_0}{EPS_1} = \\frac{d}{k_E - g}\n\\]\nVekstmuligheter (PVGO): \\[\nP_0 = \\frac{EPS_1}{k_E} + PVGO\n\\]"
-  },
-  {
-    "objectID": "formelark.html#kapitalstruktur-og-vektstang",
-    "href": "formelark.html#kapitalstruktur-og-vektstang",
-    "title": "Formelark",
-    "section": "8 Kapitalstruktur og vektstang",
-    "text": "8 Kapitalstruktur og vektstang\n\nVektstangsformel – rentabilitet EK: \\[\nR_E = R_T + \\frac{G}{E} \\cdot (R_T - k_G)\n\\]\nVektstangsformel – risiko på egenkapital (standardavvik): \\[\n\\sigma_{R_E} = \\sigma_{R_T} \\cdot \\left( 1 + \\frac{G}{E} \\right)\n\\]\nVektstangsformel – før skatt: \\[\nk_T = \\frac{E}{E + G} \\cdot k_E + \\frac{G}{E + G} \\cdot k_G\n\\]\nVektstangsformel – etter skatt: \\[\nk_T^s = \\frac{E}{E + G} \\cdot k_E + \\frac{G}{E + G} \\cdot k_G \\cdot (1 - s)\n\\]\nVektstangsformel – krav egenkapital: \\[\nk_E = k_T + \\frac{G}{E} \\cdot (k_T - k_G)\n\\]\nBeta for totalkapital: \\[\n\\beta_T = \\frac{E}{E + G} \\cdot \\beta_E + \\frac{G}{E + G} \\cdot \\beta_G\n\\]\nBeta for egenkapital (dersom \\(\\beta_G = 0\\)): \\[\n\\beta_E = \\beta_T \\cdot \\left( 1 + \\frac{G}{E} \\right)\n\\]\nÅrlig skattefordel ved gjeld pr. krone: \\[\n\\text{Skattefordel} =  (1 - s_K) - (1 - s_{B}) \\cdot (1 - s_{Ed})\n\\]\nÅrlig skattefordel ved dividende pr. krone: \\[\n\\text{Skattefordel} = (1 - s_{B}) \\cdot (s_{Eg} - s_{Ed})\n\\]"
-  },
-  {
-    "objectID": "formelark.html#obligasjoner-og-durasjon",
-    "href": "formelark.html#obligasjoner-og-durasjon",
-    "title": "Formelark",
-    "section": "9 Obligasjoner og durasjon",
-    "text": "9 Obligasjoner og durasjon\n\nObligasjonspris (standardformel): \\[\nP_0 = \\sum_{t = 1}^{T} \\frac{c}{(1 + y)^t} + \\frac{\\text{Pålydende}}{(1 + y)^T}\n\\]\nObligasjonspris (med konstant kupong og helt antall år til forfall): \\[\nP_0 = \\frac{c}{y} \\cdot \\left[1 - \\frac{1}{(1+y)^T}\\right] + \\frac{\\text{Pålydende}}{(1+y)^T} = c \\cdot A_{y,T} + \\frac{\\text{Pålydende}}{(1+y)^T}\n\\]\nSertifikatpris: \\[\nP_0 = \\frac{P_1}{1 + r \\cdot \\frac{d}{365}} \\quad \\quad P_0 = \\frac{P_1}{(1 + y)^{\\frac{d}{365}}}\n\\]\nTerminrente mellom t−1 og t: \\[\nf_{t-1,t} = \\frac{(1 + r_t)^t}{(1 + r_{t-1})^{t-1}} - 1\n\\]\nDurasjon: \\[\nD = \\frac{1}{P_0} \\cdot \\sum_{t = 1}^{T} t \\cdot \\frac{CF_t}{(1 + y)^t}\n\\]\nJustert durasjon (modifisert): \\[\nD^* = \\frac{-D}{1 + y}\n\\]\nDurasjonsbasert prisendring: \\[\n\\frac{\\Delta P}{P} =  \\frac{-D}{1 + y} \\cdot \\Delta y = D^* \\cdot \\Delta y\n\\]"
-  },
-  {
-    "objectID": "formelark.html#opsjoner-og-derivater",
-    "href": "formelark.html#opsjoner-og-derivater",
-    "title": "Formelark",
-    "section": "10 Opsjoner og derivater",
-    "text": "10 Opsjoner og derivater\n\nBlack-Scholes (kjøpsopsjon): \\[\nC = S_0 \\cdot N(d_1) - K \\cdot e^{-r_f \\cdot T} \\cdot N(d_2)\n\\]\nParametere i Black-Scholes: \\[\nd_1 = \\frac{\\ln \\left( \\frac{S_0}{K} \\right) + r_f \\cdot T}{\\sigma \\sqrt{T}} + \\frac{1}{2} \\cdot \\sigma \\cdot \\sqrt{T}, \\quad_2 = d_1 - \\sigma \\sqrt{T}\n\\]\nPut-call paritet: \\[\nC_0 - P_0 = S_0 - PV(K)\n\\]\nLagringskostnadshypotesen (generell form): \\[\nF_T = S_0 \\cdot (1 + c \\cdot T)\n\\]\nLagringskostnadshypotesen (aksjer med utbytte): \\[\nF_T = S_0 \\cdot \\left[1 + (r_f - \\text{div}) \\cdot T\\right]\n\\]\nForventningshypotesen (terminpriser): \\[\nF_T = E(S_T)\n\\]"
-  },
-  {
-    "objectID": "formelark.html#internasjonal-finans",
-    "href": "formelark.html#internasjonal-finans",
-    "title": "Formelark",
-    "section": "11 Internasjonal finans",
-    "text": "11 Internasjonal finans\n\nRelativ kjøpekraftsparitet (PPP): \\[\n\\frac{E(s_{\\text{UTL/NOK}})}{s_{\\text{UTL/NOK}}} = \\frac{1 + i_{\\text{NOK}}}{1 + i_{\\text{UTL}}}\n\\]\nDekket renteparitet (CIP): \\[\n\\frac{1 + r_{\\text{NOK}}}{1 + r_{\\text{UTL}}} = \\frac{f_{\\text{UTL/NOK}}}{s_{\\text{UTL/NOK}}}\n\\]\nUdekket renteparitet (UIP): \\[\n\\frac{1 + r_{\\text{NOK}}}{1 + r_{\\text{UTL}}} = \\frac{E(s_{\\text{UTL/NOK}})}{s_{\\text{UTL/NOK}}}\n\\]\nFishereffekten (to valutaer): \\[\n\\frac{1 + r_{\\text{NOK}}}{1 + r_{\\text{UTL}}} = \\frac{E(1 + i_{\\text{NOK}})}{E(1 + i_{\\text{UTL}})}\n\\]\nForventningshypotesen (valuta): \\[\n\\frac{f_{\\text{UTL/NOK}}}{s_{\\text{UTL/NOK}}} = \\frac{E(s_{\\text{UTL/NOK}})}{s_{\\text{UTL/NOK}}} \\Rightarrow f_{\\text{UTL/NOK}} = E(s_{\\text{UTL/NOK}})\n\\]\nAvkastningskrav ved utenlandske investeringer: \\[\n1 + k_{\\text{NOK}} = (1 + k_{\\text{UTL}}) \\cdot \\frac{1 + r_{\\text{NOK}}}{1 + r_{\\text{UTL}}}\n\\]\nLånekostnad ved utenlandske lån: \\[\n\\frac{s_{\\text{UTL/NOK,1}}}{s_{\\text{UTL/NOK,0}}} \\cdot (1 + r_{\\text{UTL}}) - 1\n\\]"
-  },
-  {
-    "objectID": "gruppeovinger/gruppeoving-1.html",
-    "href": "gruppeovinger/gruppeoving-1.html",
-    "title": "Investering og finans",
-    "section": "",
-    "text": "Her kommer oppgaver for første uke…",
-    "crumbs": [
-      "Øvingsoppgaver",
-      "Gruppeøving 1"
-    ]
-  },
-  {
-    "objectID": "gruppeovinger/gruppeoving-1.html#gruppeøving-1",
-    "href": "gruppeovinger/gruppeoving-1.html#gruppeøving-1",
-    "title": "Investering og finans",
-    "section": "",
-    "text": "Her kommer oppgaver for første uke…",
-    "crumbs": [
-      "Øvingsoppgaver",
-      "Gruppeøving 1"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Investering og finans",
-    "section": "",
-    "text": "Nettsiden er under pågående arbeid\nDette er den nettsiden for bacheloremnet BED3 - Investering og finans ved NHH, som er et obligatorisk emne på Bachelorprogrammet i Økonomi og Administrasjon ved Norges Handelshøyskole.\nKurset gir deg en innføring i sentrale begreper og verktøy innen investering og finansiering. Du vil lære å analysere og vurdere investeringsprosjekter, forstå hvordan kapitalmarkedene fungerer, og se hvordan virksomheter kan ta gode finansielle beslutninger.\nNettsiden er delt inn i moduler som speiler undervisningsplanen. Du vil finne:\n\nOversiktlige temasider for hver forelesning\nTydelig informasjon om vurderingsformer og krav\nPraktisk informasjon om undervisning, gruppearbeid og frister"
-  },
-  {
-    "objectID": "index.html#introduksjon",
-    "href": "index.html#introduksjon",
-    "title": "Investering og finans",
-    "section": "",
-    "text": "Nettsiden er under pågående arbeid\nDette er den nettsiden for bacheloremnet BED3 - Investering og finans ved NHH, som er et obligatorisk emne på Bachelorprogrammet i Økonomi og Administrasjon ved Norges Handelshøyskole.\nKurset gir deg en innføring i sentrale begreper og verktøy innen investering og finansiering. Du vil lære å analysere og vurdere investeringsprosjekter, forstå hvordan kapitalmarkedene fungerer, og se hvordan virksomheter kan ta gode finansielle beslutninger.\nNettsiden er delt inn i moduler som speiler undervisningsplanen. Du vil finne:\n\nOversiktlige temasider for hver forelesning\nTydelig informasjon om vurderingsformer og krav\nPraktisk informasjon om undervisning, gruppearbeid og frister"
-  },
-  {
-    "objectID": "index.html#hva-lærer-du-i-dette-kurset",
-    "href": "index.html#hva-lærer-du-i-dette-kurset",
-    "title": "Investering og finans",
-    "section": "Hva lærer du i dette kurset?",
-    "text": "Hva lærer du i dette kurset?\nI dette kurset lærer du å:\n\nVurdere lønnsomhet, risiko og finansiering av investeringer\nForstå hvordan kapitalmarkeder fungerer og verdipapirer prises\nAnvende sentrale modeller innen investering og finans\nAnalysere bærekraftige investeringer og ESG-ratinger\nHåndtere risiko med derivater og andre finansielle instrumenter\nForeta økonomiske vurderinger i en internasjonal kontekst (valuta og utenlandske investeringer)\nReflektere over etiske dilemmaer i finansielle beslutninger\nKommunisere finansielle vurderinger klart og profesjonelt"
-  },
-  {
-    "objectID": "index.html#hvordan-skal-du-lære-dette",
-    "href": "index.html#hvordan-skal-du-lære-dette",
-    "title": "Investering og finans",
-    "section": "Hvordan skal du lære dette?",
-    "text": "Hvordan skal du lære dette?\nFor å lykkes i dette kurset er kombinasjonen av arbeid med pensumlitteratur, forelesninger og oppgavetrening de tre sentrale pillarene som danner grunnlaget for læringen. Se Om kurset for detaljer.\nPensumlitteratur, forelesninger og oppgavene dekker en rekke teamer, som overordnet kan organiseres under følgende overskrifter:\n\nInvesteringsanalyse\nPorteføljeteori og kapitalmarkedsteori\nKapitalstruktur og utbyttepolitikk\nDerivater og risikostyring\n\nFor en detaljert oversikt, se Forelesningsplanen."
-  },
-  {
-    "objectID": "index.html#emneansvarlig",
-    "href": "index.html#emneansvarlig",
-    "title": "Investering og finans",
-    "section": "Emneansvarlig",
-    "text": "Emneansvarlig\n\n\n\n\n Frode Sættem Professor Hovedemneansvarlig  frode.saettem@nhh.no\n\n\n\n\n André Wattø Sjuve Førsteamanuensis Foreleser  andre.sjuve@nhh.no\n\n\n\n\n Andreas Ørpetveit Førsteamanuensis Foreleser  andreas.orpetveit@nhh.no"
-  },
-  {
-    "objectID": "index.html#praktisk-informasjon",
-    "href": "index.html#praktisk-informasjon",
-    "title": "Investering og finans",
-    "section": "Praktisk informasjon",
-    "text": "Praktisk informasjon\n\nForelesninger: Tirsdager kl 12:15-14:00 og fredager, kl. 10:15–12:00 (Aud. Max)\nUndervisningsform: Forelesninger, case og gruppearbeid\nVurdering: Skriftlig skoleeksamen\nKrav: Kurset er obligatorisk for bachelorstudenter i økonomi og administrasjon"
-  },
-  {
-    "objectID": "kursinnhold.html",
-    "href": "kursinnhold.html",
-    "title": "Kursinnhold",
-    "section": "",
-    "text": "Denne siden samler alt læringsinnhold i BED3. Materialet er fortsatt under utvikling. For vårsemesteret 2026 er det i utgangspunktet modulen Investeringsanalyse som er tilgjengelig i dette formatet. Flere moduler (porteføljeteori, kapitalstruktur osv.) vil gradvis bli lagt til senere."
-  },
-  {
-    "objectID": "kursinnhold.html#velkommen",
-    "href": "kursinnhold.html#velkommen",
-    "title": "Kursinnhold",
-    "section": "",
-    "text": "Denne siden samler alt læringsinnhold i BED3. Materialet er fortsatt under utvikling. For vårsemesteret 2026 er det i utgangspunktet modulen Investeringsanalyse som er tilgjengelig i dette formatet. Flere moduler (porteføljeteori, kapitalstruktur osv.) vil gradvis bli lagt til senere."
-  },
-  {
-    "objectID": "kursinnhold.html#moduler",
-    "href": "kursinnhold.html#moduler",
-    "title": "Kursinnhold",
-    "section": "Moduler",
-    "text": "Moduler\n\nInvesteringsanalyse\nBeslutninger om ja eller nei til prosjekter. Bygg riktige kontantstrømmer, bruk netto nåverdi som hovedregel, og håndter risiko på en strukturert måte.\nGå til modulen Investeringsanalyse"
-  },
-  {
-    "objectID": "kursinnhold.html#ressurser",
-    "href": "kursinnhold.html#ressurser",
-    "title": "Kursinnhold",
-    "section": "Ressurser",
-    "text": "Ressurser\n\nFormelark\nKontakt og praktisk informasjon under Om kurset"
-  },
-  {
-    "objectID": "kursmateriale/00-introduksjon/0-intro.html",
-    "href": "kursmateriale/00-introduksjon/0-intro.html",
-    "title": "Investering og finans i en knapp verden",
-    "section": "",
-    "text": "Økonomi handler om et enkelt, men evig problem: vi ønsker oss alltid mer enn vi kan få. Gapet mellom hva vi vil ha og hva vi faktisk kan skaffe er selve motoren i økonomifaget.\nDette kurset, BED3, tar utgangspunkt i dette grunnleggende problemet og handler i bunn og grunn om hvordan vi organiserer de knappe ressursene som bedrifter trekker på i sin daglige drift, hovedsakelig kapital. I investeringsanalysen ser vi på hvordan prosjekter må prioriteres når kapitalen ikke strekker til alt. I porteføljeteorien ser vi på hvordan kapitalen kan fordeles mellom aktiva for å balansere risiko og avkastning. I kapitalverdimodellen ser vi hvordan markedet priser risikokapital, og i kapitalstruktur analyserer vi hvordan bedrifter bør hente inn kapital gjennom gjeld eller egenkapital.\nKurset tar oss også videre inn i nærliggende temaer som gir et bredere bilde av hvordan kapital organiseres i en moderne økonomi. Vi ser på hvordan bærekraft og etiske hensyn påvirker investeringsbeslutninger. Vi introduserer opsjoner og terminkontrakter som verktøy for fleksibilitet og risikostyring. Vi undersøker hvordan rentemarkedet og valutamarkedene setter rammer for investeringer og finansiering i en global sammenheng. Slik spenner BED3 over flere dimensjoner av det samme problemet: hvordan den knappe ressursen kapital kan brukes og prises på en måte som skaper mest mulig verdi gitt de ønsker og rammer samfunnet står overfor.",
-    "crumbs": [
-      "Introduksjon til kursinnholdet",
-      "Kursets plassering i økonomi"
-    ]
-  },
-  {
-    "objectID": "kursmateriale/00-introduksjon/0-intro.html#hva-er-økonomi",
-    "href": "kursmateriale/00-introduksjon/0-intro.html#hva-er-økonomi",
-    "title": "Investering og finans i en knapp verden",
-    "section": "1.1 Hva er økonomi?",
-    "text": "1.1 Hva er økonomi?\nEt spørsmål det er naturlig å kunne svare på etter flere år med økonomistudier er: Hva er økonomi. En foreløpig definisjon er at økonomi er studiet av hvordan mennesker bruker ressurser til å tilfredsstille sine ønsker. Ordet ønsker krever presisering. Vi ønsker alle mat, klær og et tak over hodet for å leve, men de fleste ønsker seg langt mer. Vi ønsker oss biler, større hus og feriereiser. Vår evne til å ønske er nesten uendelig, men ressursene i verden er begrensede. Med andre ord har vi knapphet på ressurser. Tilgangen er aldri stor nok til å dekke alles ønsker hele tiden. Dermed oppstår et gap mellom hva vi ønsker og hva vi faktisk kan få tak i. Å redusere dette gapet er den grunnleggende problemstillingen som studeres i økonomi. Sag på en annen måte: knapphet tvinger oss til å velge, og økonomi er studiet av hvordan vi bør ta slike valg slik at vi ikke sløser med ressurser.\nRedusere gapet: Det finnes to måter å minske avstanden mellom det vi ønsker oss og det vi kan få tak i. Vi kan enten redusere ønskene våre, eller vi kan skaffe mer. Poeter, filosofer og religiøse tenkere har ofte anbefalt den første veien. Historien viser oss derimot at vi stort sett har valgt den andre, med varierende og ofte vanskelig målbar suksess. Som økonomer tar vi ikke stilling til hvilken vei som er best, men fagfeltet vårt er avgrenset til å studere den andre, hvordan vi kan skaffe mer heller enn å ønske oss mindre.\nVi har dermed slått fast at økonomifaget først og fremst handler om å skaffe mer snarere enn å ønske seg mindre. Men hva er det egentlig vi ønsker oss mer av, og hva faller innenfor økonomiens domene?\n\n1.1.1 Mer av hva\nØkonomifaget retter særlig oppmerksomheten mot hvordan vi kan skaffe mer av goder som både tilfredsstiller ønsker og kan omsettes i et marked. Slike nyttige og knappe goder kalles økonomiske goder. Alle andre goder omtales som ikke-økonomiske goder.\nDet finnes mange goder som ikke kan omsettes, som atletiske evner, venners gunst eller familiens kjærlighet. Disse kan være vel så viktige som økonomiske goder, men mennesker ser ut til å foretrekke en kombinasjon av begge typer. Videre finnes det goder som det er rikelig med tilgang på, som luft og sjøvann. Luft er livsviktig, men siden det ikke er knapphet på det, regnes det ikke som et økonomisk gode.\nSå langt har vi derfor begrenset økonomi til studiet av hvordan mennesker søker å skaffe flere økonomiske goder: mer mat, flere klær, større hus, ny og bedre bil. Mer presist har vi definert økonomi som studiet av hvordan grupper organiserer bruken av ressurser for å oppnå dette målet.\n\n\n1.1.2 Bruke ressurser: Produksjon\nRessurser kan grovt deles i to hovedkategorier: mennesker og natur. Som mennesker bruker vi vår fysiske styrke og intelligens på ressursene som kommer fra naturen, og resultatet blir goder som kan tilfredsstille våre ønsker, som et brød, en fotballkamp eller et fly.\nDersom ressursene var ubegrensede, eller våre ønsker svært beskjedne, kunne vi produsere alt alle ville ha hele tiden. Da ville det ikke eksistert noe økonomisk problem, og dermed heller ikke noe økonomifag. Ressurser er alltid en mangelvare sammenlignet med hvor mye vi ønsker oss av de godene som produseres. Som en konsekvens må ethvert samfunn ta viktige valg og beslutninger.\nNår ressursene settes inn i produksjon, oppstår et samspill mellom husholdninger og bedrifter. Dette samspillet kan vi se tydelig gjennom velstandshjulet.\n\n\n1.1.3 Velstandshjulet\nFor å forstå hvordan økonomien henger sammen, kan vi se nærmere på velstandshjulet. Husholdningene er de endelige eierne av ressursene og har behovene og ønskene som driver prosessen. Bedriftene er de organiserte enhetene som setter ressursene sammen til varer og tjenester som kan tilfredsstille disse ønskene. Når husholdningene kjøper varene og tjenestene, får bedriftene inntekter som brukes til å betale ressursene tilbake i form av lønn, renter og utbytte. På denne måten går ressursene i sirkel mellom husholdningene og bedriftene.\n\n\n\nVelstandshjulet\n\n\nVelstandshjulet viser hvordan ressursene sirkulerer mellom husholdninger og bedrifter, men det etterlater tre grunnleggende valg som alle samfunn må ta stilling til: hva, hvem og hvor mye.\n\n\n1.1.4 Grunnleggende valg\nAlle økonomiske systemer står overfor tre grunnleggende valg:\n\nProduksjonsvalget (Hva-beslutningen): Hvilke varer og tjenester skal produseres, og hvor mye\nProdusentvalget (Hvem-beslutningen): Hvem skal produsere dem\nFordelingsvalget (Hvor mye-beslutningen): Hvordan resultatene av produksjonen skal fordeles\n\nDe institusjonelle ordningene som bestemmer hvordan slike valg tas og håndheves, utgjør samfunnets økonomiske organisering, eller dets økonomiske system. Hvordan disse valgene tas varierer fra samfunn til samfunn. Ulike økonomiske systemer gir ulike svar, og det er nyttig å skille mellom planøkonomi og markedsøkonomi som to idealiserte ytterpunkter.\n\n\n1.1.5 Typer økonomisk organisering\nAlle samfunn har gjennom historien måttet velge hvordan de organiserer økonomien. Selv om dette kurset ikke gir en full gjennomgang, kan vi peke på to idealiserte typer systemer:\n\nPlanøkonomi: En sentral myndighet bestemmer hva som skal produseres, hvem som skal produsere det, og hvordan resultatet skal fordeles\nMarkedsøkonomi: Beslutningene overlates til enkeltpersoner og bedrifter som handler ut fra signaler gitt av priser, ofte kalt prissystemet eller frimarkedssystemet I praksis finnes det nesten aldri rene planøkonomier eller rene markedsøkonomier. De fleste systemer er blandinger av sentralisert kontroll og individuelle beslutninger.\n\nVestlige samfunn er i hovedsak markedsorienterte, og vi kan derfor legge vekt på hvordan de tre grunnleggende valgene fra kapittel Section 1.1.4 faktisk tas i en slik økonomi. I en markedsøkonomi skjer dette desentralisert. Hva som produseres avgjøres av husholdningene gjennom hvordan de bruker sine penger; kjøpene deres er i praksis stemmer som styrer produksjonen. Hvem som produserer avgjøres av bedriftene, men styres av profitt og tap: de som møter husholdningenes ønsker belønnes, mens de som ikke gjør det, taper. Hvor mye hver person får av det som produseres avgjøres gjennom prisene i markedet og størrelsen på inntekten; varer går til den som er villig til å betale mest, og inntekt bestemmes i stor grad av hvor produktive ressursene er. Dette gir sterke insentiver til effektiv ressursbruk, men skaper også ulikheter i fordeling. Hva som er en rettferdig fordeling ligger utenfor rammene for dette kurset; her fokuserer vi på hvordan ressursene best kan brukes til å maksimere antallet ønsker som faktisk blir tilfredsstilt.\nDisse mekanismene viser hvordan markedsøkonomien organiserer ressursbruken på en måte som både skaper verdier og setter rammer for fordeling. Med dette rammeverket på plass kan vi oppsummere hva økonomi handler om, og samtidig se hvordan BED3 passer inn som en konkret anvendelse av disse prinsippene. Vi kan dermed oppsummere økonomifaget med en raffinert definisjon:\n\nStudiet av hvordan mennesker organiserer bruken av knappe ressurser for å tilfredsstille sine ønsker.\n\nNår vi sier at økonomi er studiet av hvordan mennesker organiserer bruken av knappe ressurser for å tilfredsstille sine ønsker, får dette konkret innhold i BED3. Bedrifter må velge prosjekter som møter husholdningenes behov, og belønnes med profitt dersom de lykkes. Individer må investere sine midler slik at de balanserer avkastning og risiko, og disse investeringene gir samtidig kapital til bedrifter. Markedene samordner ressursbruken gjennom priser som sender signaler om hvor ressursene skaper mest verdi og tilfredsstiller flest ønsker. Samfunnet setter rammene gjennom lover, skatter, etikk og bærekraft. BED3 handler derfor om å forstå og analysere de grunnleggende mekanismene og modellene for hvordan knappe ressurser bør investeres og finansieres.",
-    "crumbs": [
-      "Introduksjon til kursinnholdet",
-      "Kursets plassering i økonomi"
+      "2. Investeringsprosjekter"
     ]
   },
   {
@@ -660,94 +253,611 @@
     "text": "Miniøvelser\n\nNevn ett valg en investor tar om tid, risiko, og beløp.\nNevn ett eksempel på risikohåndtering i praksis.\nNevn ett valg et foretak tar som øker markedsverdi."
   },
   {
-    "objectID": "kursmateriale/01-investeringsanalyse/02-investeringsprosjekter/index.html#forelesningsplansjer",
-    "href": "kursmateriale/01-investeringsanalyse/02-investeringsprosjekter/index.html#forelesningsplansjer",
-    "title": "Investeringsprosjekter",
+    "objectID": "kursmateriale/00-introduksjon/0-intro.html",
+    "href": "kursmateriale/00-introduksjon/0-intro.html",
+    "title": "Investering og finans i en knapp verden",
+    "section": "",
+    "text": "Økonomi handler om et enkelt, men evig problem: vi ønsker oss alltid mer enn vi kan få. Gapet mellom hva vi vil ha og hva vi faktisk kan skaffe er selve motoren i økonomifaget.\nDette kurset, BED3, tar utgangspunkt i dette grunnleggende problemet og handler i bunn og grunn om hvordan vi organiserer de knappe ressursene som bedrifter trekker på i sin daglige drift, hovedsakelig kapital. I investeringsanalysen ser vi på hvordan prosjekter må prioriteres når kapitalen ikke strekker til alt. I porteføljeteorien ser vi på hvordan kapitalen kan fordeles mellom aktiva for å balansere risiko og avkastning. I kapitalverdimodellen ser vi hvordan markedet priser risikokapital, og i kapitalstruktur analyserer vi hvordan bedrifter bør hente inn kapital gjennom gjeld eller egenkapital.\nKurset tar oss også videre inn i nærliggende temaer som gir et bredere bilde av hvordan kapital organiseres i en moderne økonomi. Vi ser på hvordan bærekraft og etiske hensyn påvirker investeringsbeslutninger. Vi introduserer opsjoner og terminkontrakter som verktøy for fleksibilitet og risikostyring. Vi undersøker hvordan rentemarkedet og valutamarkedene setter rammer for investeringer og finansiering i en global sammenheng. Slik spenner BED3 over flere dimensjoner av det samme problemet: hvordan den knappe ressursen kapital kan brukes og prises på en måte som skaper mest mulig verdi gitt de ønsker og rammer samfunnet står overfor.",
+    "crumbs": [
+      "Introduksjon til kursinnholdet",
+      "Kursets plassering i økonomi"
+    ]
+  },
+  {
+    "objectID": "kursmateriale/00-introduksjon/0-intro.html#hva-er-økonomi",
+    "href": "kursmateriale/00-introduksjon/0-intro.html#hva-er-økonomi",
+    "title": "Investering og finans i en knapp verden",
+    "section": "1.1 Hva er økonomi?",
+    "text": "1.1 Hva er økonomi?\nEt spørsmål det er naturlig å kunne svare på etter flere år med økonomistudier er: Hva er økonomi. En foreløpig definisjon er at økonomi er studiet av hvordan mennesker bruker ressurser til å tilfredsstille sine ønsker. Ordet ønsker krever presisering. Vi ønsker alle mat, klær og et tak over hodet for å leve, men de fleste ønsker seg langt mer. Vi ønsker oss biler, større hus og feriereiser. Vår evne til å ønske er nesten uendelig, men ressursene i verden er begrensede. Med andre ord har vi knapphet på ressurser. Tilgangen er aldri stor nok til å dekke alles ønsker hele tiden. Dermed oppstår et gap mellom hva vi ønsker og hva vi faktisk kan få tak i. Å redusere dette gapet er den grunnleggende problemstillingen som studeres i økonomi. Sag på en annen måte: knapphet tvinger oss til å velge, og økonomi er studiet av hvordan vi bør ta slike valg slik at vi ikke sløser med ressurser.\nRedusere gapet: Det finnes to måter å minske avstanden mellom det vi ønsker oss og det vi kan få tak i. Vi kan enten redusere ønskene våre, eller vi kan skaffe mer. Poeter, filosofer og religiøse tenkere har ofte anbefalt den første veien. Historien viser oss derimot at vi stort sett har valgt den andre, med varierende og ofte vanskelig målbar suksess. Som økonomer tar vi ikke stilling til hvilken vei som er best, men fagfeltet vårt er avgrenset til å studere den andre, hvordan vi kan skaffe mer heller enn å ønske oss mindre.\nVi har dermed slått fast at økonomifaget først og fremst handler om å skaffe mer snarere enn å ønske seg mindre. Men hva er det egentlig vi ønsker oss mer av, og hva faller innenfor økonomiens domene?\n\n1.1.1 Mer av hva\nØkonomifaget retter særlig oppmerksomheten mot hvordan vi kan skaffe mer av goder som både tilfredsstiller ønsker og kan omsettes i et marked. Slike nyttige og knappe goder kalles økonomiske goder. Alle andre goder omtales som ikke-økonomiske goder.\nDet finnes mange goder som ikke kan omsettes, som atletiske evner, venners gunst eller familiens kjærlighet. Disse kan være vel så viktige som økonomiske goder, men mennesker ser ut til å foretrekke en kombinasjon av begge typer. Videre finnes det goder som det er rikelig med tilgang på, som luft og sjøvann. Luft er livsviktig, men siden det ikke er knapphet på det, regnes det ikke som et økonomisk gode.\nSå langt har vi derfor begrenset økonomi til studiet av hvordan mennesker søker å skaffe flere økonomiske goder: mer mat, flere klær, større hus, ny og bedre bil. Mer presist har vi definert økonomi som studiet av hvordan grupper organiserer bruken av ressurser for å oppnå dette målet.\n\n\n1.1.2 Bruke ressurser: Produksjon\nRessurser kan grovt deles i to hovedkategorier: mennesker og natur. Som mennesker bruker vi vår fysiske styrke og intelligens på ressursene som kommer fra naturen, og resultatet blir goder som kan tilfredsstille våre ønsker, som et brød, en fotballkamp eller et fly.\nDersom ressursene var ubegrensede, eller våre ønsker svært beskjedne, kunne vi produsere alt alle ville ha hele tiden. Da ville det ikke eksistert noe økonomisk problem, og dermed heller ikke noe økonomifag. Ressurser er alltid en mangelvare sammenlignet med hvor mye vi ønsker oss av de godene som produseres. Som en konsekvens må ethvert samfunn ta viktige valg og beslutninger.\nNår ressursene settes inn i produksjon, oppstår et samspill mellom husholdninger og bedrifter. Dette samspillet kan vi se tydelig gjennom velstandshjulet.\n\n\n1.1.3 Velstandshjulet\nFor å forstå hvordan økonomien henger sammen, kan vi se nærmere på velstandshjulet. Husholdningene er de endelige eierne av ressursene og har behovene og ønskene som driver prosessen. Bedriftene er de organiserte enhetene som setter ressursene sammen til varer og tjenester som kan tilfredsstille disse ønskene. Når husholdningene kjøper varene og tjenestene, får bedriftene inntekter som brukes til å betale ressursene tilbake i form av lønn, renter og utbytte. På denne måten går ressursene i sirkel mellom husholdningene og bedriftene.\n\n\n\nVelstandshjulet\n\n\nVelstandshjulet viser hvordan ressursene sirkulerer mellom husholdninger og bedrifter, men det etterlater tre grunnleggende valg som alle samfunn må ta stilling til: hva, hvem og hvor mye.\n\n\n1.1.4 Grunnleggende valg\nAlle økonomiske systemer står overfor tre grunnleggende valg:\n\nProduksjonsvalget (Hva-beslutningen): Hvilke varer og tjenester skal produseres, og hvor mye\nProdusentvalget (Hvem-beslutningen): Hvem skal produsere dem\nFordelingsvalget (Hvor mye-beslutningen): Hvordan resultatene av produksjonen skal fordeles\n\nDe institusjonelle ordningene som bestemmer hvordan slike valg tas og håndheves, utgjør samfunnets økonomiske organisering, eller dets økonomiske system. Hvordan disse valgene tas varierer fra samfunn til samfunn. Ulike økonomiske systemer gir ulike svar, og det er nyttig å skille mellom planøkonomi og markedsøkonomi som to idealiserte ytterpunkter.\n\n\n1.1.5 Typer økonomisk organisering\nAlle samfunn har gjennom historien måttet velge hvordan de organiserer økonomien. Selv om dette kurset ikke gir en full gjennomgang, kan vi peke på to idealiserte typer systemer:\n\nPlanøkonomi: En sentral myndighet bestemmer hva som skal produseres, hvem som skal produsere det, og hvordan resultatet skal fordeles\nMarkedsøkonomi: Beslutningene overlates til enkeltpersoner og bedrifter som handler ut fra signaler gitt av priser, ofte kalt prissystemet eller frimarkedssystemet I praksis finnes det nesten aldri rene planøkonomier eller rene markedsøkonomier. De fleste systemer er blandinger av sentralisert kontroll og individuelle beslutninger.\n\nVestlige samfunn er i hovedsak markedsorienterte, og vi kan derfor legge vekt på hvordan de tre grunnleggende valgene fra kapittel Section 1.1.4 faktisk tas i en slik økonomi. I en markedsøkonomi skjer dette desentralisert. Hva som produseres avgjøres av husholdningene gjennom hvordan de bruker sine penger; kjøpene deres er i praksis stemmer som styrer produksjonen. Hvem som produserer avgjøres av bedriftene, men styres av profitt og tap: de som møter husholdningenes ønsker belønnes, mens de som ikke gjør det, taper. Hvor mye hver person får av det som produseres avgjøres gjennom prisene i markedet og størrelsen på inntekten; varer går til den som er villig til å betale mest, og inntekt bestemmes i stor grad av hvor produktive ressursene er. Dette gir sterke insentiver til effektiv ressursbruk, men skaper også ulikheter i fordeling. Hva som er en rettferdig fordeling ligger utenfor rammene for dette kurset; her fokuserer vi på hvordan ressursene best kan brukes til å maksimere antallet ønsker som faktisk blir tilfredsstilt.\nDisse mekanismene viser hvordan markedsøkonomien organiserer ressursbruken på en måte som både skaper verdier og setter rammer for fordeling. Med dette rammeverket på plass kan vi oppsummere hva økonomi handler om, og samtidig se hvordan BED3 passer inn som en konkret anvendelse av disse prinsippene. Vi kan dermed oppsummere økonomifaget med en raffinert definisjon:\n\nStudiet av hvordan mennesker organiserer bruken av knappe ressurser for å tilfredsstille sine ønsker.\n\nNår vi sier at økonomi er studiet av hvordan mennesker organiserer bruken av knappe ressurser for å tilfredsstille sine ønsker, får dette konkret innhold i BED3. Bedrifter må velge prosjekter som møter husholdningenes behov, og belønnes med profitt dersom de lykkes. Individer må investere sine midler slik at de balanserer avkastning og risiko, og disse investeringene gir samtidig kapital til bedrifter. Markedene samordner ressursbruken gjennom priser som sender signaler om hvor ressursene skaper mest verdi og tilfredsstiller flest ønsker. Samfunnet setter rammene gjennom lover, skatter, etikk og bærekraft. BED3 handler derfor om å forstå og analysere de grunnleggende mekanismene og modellene for hvordan knappe ressurser bør investeres og finansieres.",
+    "crumbs": [
+      "Introduksjon til kursinnholdet",
+      "Kursets plassering i økonomi"
+    ]
+  },
+  {
+    "objectID": "kursinnhold.html",
+    "href": "kursinnhold.html",
+    "title": "Kursinnhold",
+    "section": "",
+    "text": "Denne siden samler alt læringsinnhold i BED3. Materialet er fortsatt under utvikling. For vårsemesteret 2026 er det i utgangspunktet modulen Investeringsanalyse som er tilgjengelig i dette formatet. Flere moduler (porteføljeteori, kapitalstruktur osv.) vil gradvis bli lagt til senere."
+  },
+  {
+    "objectID": "kursinnhold.html#velkommen",
+    "href": "kursinnhold.html#velkommen",
+    "title": "Kursinnhold",
+    "section": "",
+    "text": "Denne siden samler alt læringsinnhold i BED3. Materialet er fortsatt under utvikling. For vårsemesteret 2026 er det i utgangspunktet modulen Investeringsanalyse som er tilgjengelig i dette formatet. Flere moduler (porteføljeteori, kapitalstruktur osv.) vil gradvis bli lagt til senere."
+  },
+  {
+    "objectID": "kursinnhold.html#moduler",
+    "href": "kursinnhold.html#moduler",
+    "title": "Kursinnhold",
+    "section": "Moduler",
+    "text": "Moduler\n\nInvesteringsanalyse\nBeslutninger om ja eller nei til prosjekter. Bygg riktige kontantstrømmer, bruk netto nåverdi som hovedregel, og håndter risiko på en strukturert måte.\nGå til modulen Investeringsanalyse"
+  },
+  {
+    "objectID": "kursinnhold.html#ressurser",
+    "href": "kursinnhold.html#ressurser",
+    "title": "Kursinnhold",
+    "section": "Ressurser",
+    "text": "Ressurser\n\nFormelark\nKontakt og praktisk informasjon under Om kurset"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Investering og finans",
+    "section": "",
+    "text": "Nettsiden er under pågående arbeid\nDette er den nettsiden for bacheloremnet BED3 - Investering og finans ved NHH, som er et obligatorisk emne på Bachelorprogrammet i Økonomi og Administrasjon ved Norges Handelshøyskole.\nKurset gir deg en innføring i sentrale begreper og verktøy innen investering og finansiering. Du vil lære å analysere og vurdere investeringsprosjekter, forstå hvordan kapitalmarkedene fungerer, og se hvordan virksomheter kan ta gode finansielle beslutninger.\nNettsiden er delt inn i moduler som speiler undervisningsplanen. Du vil finne:\n\nOversiktlige temasider for hver forelesning\nTydelig informasjon om vurderingsformer og krav\nPraktisk informasjon om undervisning, gruppearbeid og frister"
+  },
+  {
+    "objectID": "index.html#introduksjon",
+    "href": "index.html#introduksjon",
+    "title": "Investering og finans",
+    "section": "",
+    "text": "Nettsiden er under pågående arbeid\nDette er den nettsiden for bacheloremnet BED3 - Investering og finans ved NHH, som er et obligatorisk emne på Bachelorprogrammet i Økonomi og Administrasjon ved Norges Handelshøyskole.\nKurset gir deg en innføring i sentrale begreper og verktøy innen investering og finansiering. Du vil lære å analysere og vurdere investeringsprosjekter, forstå hvordan kapitalmarkedene fungerer, og se hvordan virksomheter kan ta gode finansielle beslutninger.\nNettsiden er delt inn i moduler som speiler undervisningsplanen. Du vil finne:\n\nOversiktlige temasider for hver forelesning\nTydelig informasjon om vurderingsformer og krav\nPraktisk informasjon om undervisning, gruppearbeid og frister"
+  },
+  {
+    "objectID": "index.html#hva-lærer-du-i-dette-kurset",
+    "href": "index.html#hva-lærer-du-i-dette-kurset",
+    "title": "Investering og finans",
+    "section": "Hva lærer du i dette kurset?",
+    "text": "Hva lærer du i dette kurset?\nI dette kurset lærer du å:\n\nVurdere lønnsomhet, risiko og finansiering av investeringer\nForstå hvordan kapitalmarkeder fungerer og verdipapirer prises\nAnvende sentrale modeller innen investering og finans\nAnalysere bærekraftige investeringer og ESG-ratinger\nHåndtere risiko med derivater og andre finansielle instrumenter\nForeta økonomiske vurderinger i en internasjonal kontekst (valuta og utenlandske investeringer)\nReflektere over etiske dilemmaer i finansielle beslutninger\nKommunisere finansielle vurderinger klart og profesjonelt"
+  },
+  {
+    "objectID": "index.html#hvordan-skal-du-lære-dette",
+    "href": "index.html#hvordan-skal-du-lære-dette",
+    "title": "Investering og finans",
+    "section": "Hvordan skal du lære dette?",
+    "text": "Hvordan skal du lære dette?\nFor å lykkes i dette kurset er kombinasjonen av arbeid med pensumlitteratur, forelesninger og oppgavetrening de tre sentrale pillarene som danner grunnlaget for læringen. Se Om kurset for detaljer.\nPensumlitteratur, forelesninger og oppgavene dekker en rekke teamer, som overordnet kan organiseres under følgende overskrifter:\n\nInvesteringsanalyse\nPorteføljeteori og kapitalmarkedsteori\nKapitalstruktur og utbyttepolitikk\nDerivater og risikostyring\n\nFor en detaljert oversikt, se Forelesningsplanen."
+  },
+  {
+    "objectID": "index.html#emneansvarlig",
+    "href": "index.html#emneansvarlig",
+    "title": "Investering og finans",
+    "section": "Emneansvarlig",
+    "text": "Emneansvarlig\n\n\n\n\n Frode Sættem Professor Hovedemneansvarlig  frode.saettem@nhh.no\n\n\n\n\n André Wattø Sjuve Førsteamanuensis Foreleser  andre.sjuve@nhh.no\n\n\n\n\n Andreas Ørpetveit Førsteamanuensis Foreleser  andreas.orpetveit@nhh.no"
+  },
+  {
+    "objectID": "index.html#praktisk-informasjon",
+    "href": "index.html#praktisk-informasjon",
+    "title": "Investering og finans",
+    "section": "Praktisk informasjon",
+    "text": "Praktisk informasjon\n\nForelesninger: Tirsdager kl 12:15-14:00 og fredager, kl. 10:15–12:00 (Aud. Max)\nUndervisningsform: Forelesninger, case og gruppearbeid\nVurdering: Skriftlig skoleeksamen\nKrav: Kurset er obligatorisk for bachelorstudenter i økonomi og administrasjon"
+  },
+  {
+    "objectID": "gruppeovinger/gruppeoving-1.html",
+    "href": "gruppeovinger/gruppeoving-1.html",
+    "title": "Investering og finans",
+    "section": "",
+    "text": "Her kommer oppgaver for første uke…",
+    "crumbs": [
+      "Øvingsoppgaver",
+      "Gruppeøving 1"
+    ]
+  },
+  {
+    "objectID": "gruppeovinger/gruppeoving-1.html#gruppeøving-1",
+    "href": "gruppeovinger/gruppeoving-1.html#gruppeøving-1",
+    "title": "Investering og finans",
+    "section": "",
+    "text": "Her kommer oppgaver for første uke…",
+    "crumbs": [
+      "Øvingsoppgaver",
+      "Gruppeøving 1"
+    ]
+  },
+  {
+    "objectID": "formelark.html",
+    "href": "formelark.html",
+    "title": "Formelark",
+    "section": "",
+    "text": "📄 PDF-versjon: Klikk her for å laste ned formelarket som PDF"
+  },
+  {
+    "objectID": "formelark.html#tidens-verdi",
+    "href": "formelark.html#tidens-verdi",
+    "title": "Formelark",
+    "section": "1 Tidens verdi",
+    "text": "1 Tidens verdi\n\nFremtidsverdi av ett beløp: \\[\nFV = CF_0 \\cdot (1 + k)^T\n\\]\nNåverdi av ett beløp: \\[\nPV = \\frac{CF_T}{(1 + k)^T}\n\\]\nAnnuitet (endelig horisont): \\[\nACF = CF \\cdot \\frac{(1 + k)^T -1}{k \\cdot (1 + k)^T} = CF \\cdot \\frac{1- \\left(\\frac{1}{1 +k}\\right)^T}{k} = CF \\cdot A_{k,T}\n\\]\nAnnuitet (uendelig horisont): \\[\nACF =  \\frac{CF}{k}\n\\]\nFordeling av et beløp til annuitet: \\[\nCF_0 \\cdot \\frac{k\\cdot (1 + k)^T}{(1 + k)^T - 1} = CF_{0} \\cdot \\frac{k}{1-\\left(\\frac{1}{1 + k}\\right)^T} = CF_{0} \\cdot A_{k,T}^{-1}\n\\]\nVekstrekke (endelig horisont): \\[\nPV = CF_1 \\cdot \\frac{1 - \\left( \\frac{1 + g}{1 + k} \\right)^T}{k - g}, \\quad \\text{for } k \\neq g\n\\]\nVekstrekke (uendelig horisont): \\[\nPV = \\frac{CF_1}{k - g}, \\quad \\text{for } g &lt; k\n\\]"
+  },
+  {
+    "objectID": "formelark.html#nåverdimetoder",
+    "href": "formelark.html#nåverdimetoder",
+    "title": "Formelark",
+    "section": "2 Nåverdimetoder",
+    "text": "2 Nåverdimetoder\n\nNetto nåverdi (NPV): \\[\nNPV = - I_0 + \\sum_{t = 1}^{T} \\frac{CF_t}{(1 + k)^t}\n\\]\nInternrente (IRR): \\[\n0 = \\sum_{t = 1}^{T} \\frac{CF_t}{(1 + y)^t} - I_0\n\\]\nAnnuitetsmetoden: \\[\nCF - I_{0} \\cdot A_{k,T}^{-1} = NPV \\cdot A_{k,T}^{-1}\n\\]\nNåverdiindeks (PVI): \\[\nPVI = \\frac{NPV}{I_0}\n\\]\nPayback uten renter: \\[\nPB = \\frac{I_0}{CF}\n\\]\nPayback med renter (annuitet): \\[\n0 = -I_0 + CF \\cdot A_{k, PB}\n\\]"
+  },
+  {
+    "objectID": "formelark.html#skatt-og-avskrivninger",
+    "href": "formelark.html#skatt-og-avskrivninger",
+    "title": "Formelark",
+    "section": "3 Skatt og avskrivninger",
+    "text": "3 Skatt og avskrivninger\n\nEffektiv skattesats: \\[\ns_{\\text{Eff}} = \\frac{y - y^s}{y}\n\\]\nSaldoavskrivningsbeløp: \\[\nAV_t = I_0 \\cdot (1 - a)^{t - 1} \\cdot a\n\\]\nBokført restverdi: \\[\nB_t = I_0 \\cdot (1 - a)^t\n\\]\nSkattefordel av avskrivninger: \\[\nPV_s = s \\cdot \\frac{I_0 \\cdot a}{k^s + a} = s \\cdot \\frac{AV_1}{k^s + a}\n\\]\nUtrangering (nåverdi av sluttverdi med skatt): \\[\nPV_T = \\frac{S_T}{(1 + k^s)^T} - s \\cdot \\frac{(S_T - B_T) \\cdot a}{(1 + k^s)^T \\cdot (k^s + a)}\n\\]"
+  },
+  {
+    "objectID": "formelark.html#renteregning",
+    "href": "formelark.html#renteregning",
+    "title": "Formelark",
+    "section": "4 Renteregning",
+    "text": "4 Renteregning\n\nFra nominell til reell rente: \\[\nk_R = \\frac{k_N - i}{1 + i}\n\\]\nFra reell til nominell rente: \\[\nk_N = k_R \\cdot (1 + i) + i\n\\]\nFra nominell lånerente før skatt til reell lånerente etter skatt: \\[\ny_R^s = \\frac{y_N \\cdot (1-s) -i}{1+i}\n\\]\nFra delperioderente til effektiv rente: \\[\np = (1 + q)^m - 1\n\\]\nFra effektiv rente til delperioderente: \\[\nq = (1 + p)^{1/m} - 1\n\\]\nFra forskuddsrente til etterskuddsrente: \\[\nq_e = \\frac{q_f}{1 - q_f}\n\\]\nFra etterskuddsrente til forskuddsrente: \\[\nq_f = \\frac{q_e}{1 + q_e}\n\\]"
+  },
+  {
+    "objectID": "formelark.html#porteføljeteori-og-risiko",
+    "href": "formelark.html#porteføljeteori-og-risiko",
+    "title": "Formelark",
+    "section": "5 Porteføljeteori og risiko",
+    "text": "5 Porteføljeteori og risiko\n\nForventet avkastning, enkeltaktivum: \\[\nE(r_i) = \\sum_{j = 1}^{n} p_j \\cdot r_{ij}\n\\]\nVarians, enkeltaktivum: \\[\n\\sigma_i^2 = \\sum_{j = 1}^{n} p_j \\cdot \\left[ r_{ij} - E(r_i) \\right]^2\n\\]\nStandardavvik, enkeltaktivum: \\[\n\\sigma_i = \\sqrt{\\sigma_i^2}\n\\]\nForventet avkastning, portefølje to aktiva: \\[\nE(r_p) = w_1 \\cdot E(r_1) + (1 - w_1) \\cdot E(r_2)\n\\]\nVarians, portefølje med to aktiva: \\[\n\\sigma_p^2 = w_1^2 \\cdot \\sigma_1^2 + (1 - w_1)^2 \\cdot \\sigma_2^2 + 2 \\cdot w_1 \\cdot (1 - w_1) \\cdot \\sigma_{12}\n\\]\nKovarians mellom to aktiva (korrelasjonsformel): \\[\n\\sigma_{12} = \\rho_{12} \\cdot \\sigma_1 \\cdot \\sigma_2\n\\]\nKovarians mellom to aktiva (diskret fordeling): \\[\n\\sigma_{12} = \\sum_{j = 1}^{n} p_j \\cdot \\left[ r_{1j} - E(r_1) \\right] \\cdot \\left[ r_{2j} - E(r_2) \\right]\n\\]\nMinimumsvariansportefølje – andel i aktivum 1: \\[\nw_1^* = \\frac{\\sigma_2^2 - \\sigma_{12}}{\\sigma_1^2 + \\sigma_2^2 - 2\\sigma_{12}}\n\\]\nForventet avkastning, portefølje med N aktiva: \\[\nE(r_p) = \\sum_{i = 1}^{N} w_i \\cdot E(r_i)\n\\]\nVarians, portefølje med N aktiva: \\[\n\\sigma_p^2 = \\sum_{i = 1}^{N} \\sum_{j = 1}^{N} w_i \\cdot w_j \\cdot \\sigma_{ij}\n\\]\nKapitalmarkedslinjen (CML): \\[\nE(r_P) = r_f + \\frac{E(r_M) - r_f}{\\sigma_M} \\cdot \\sigma_P\n\\]"
+  },
+  {
+    "objectID": "formelark.html#kapitalverdimodellen",
+    "href": "formelark.html#kapitalverdimodellen",
+    "title": "Formelark",
+    "section": "6 Kapitalverdimodellen",
+    "text": "6 Kapitalverdimodellen\n\nCAPM (grunnform): \\[\nE(r_i) = r_f + \\beta_i \\cdot \\left[ E(r_M) - r_f \\right]\n\\]\nCAPM (skattejustert): \\[\nE(r_i) = r_f \\cdot (1-s) + \\beta_i \\cdot \\left[ E(r_M) - r_f \\cdot (1 - s) \\right]\n\\]\nBeta: \\[\n\\beta_i = \\frac{\\sigma_{iM}}{\\sigma_M^2} = \\rho_{iM} \\cdot \\frac{\\sigma_i}{\\sigma_M}\n\\]\nAlfa: \\[\n\\alpha_i = E(r_i) - \\left[ r_f + \\beta_i \\cdot \\left( E(r_M) - r_f \\right) \\right]\n\\]\nVariansdekomponering: \\[\n\\sigma_i^2 = \\beta_i^2 \\cdot \\sigma_M^2 + \\sigma_{\\varepsilon i}^2\n\\]"
+  },
+  {
+    "objectID": "formelark.html#verdsettelse",
+    "href": "formelark.html#verdsettelse",
+    "title": "Formelark",
+    "section": "7 Verdsettelse",
+    "text": "7 Verdsettelse\n\nDividendemodellen (generell): \\[\nP_0 = \\sum_{t = 1}^{T} \\frac{DIV_t}{(1 + k_E)^t} + \\frac{P_T}{(1+k_E)^T}\n\\]\nDividendemodellen (nullvekst): \\[\nP_0 = \\frac{DIV_1}{k_E}\n\\]\nDividendemodellen (evigvarende konstant vekst): \\[\nP_0 = \\frac{DIV_1}{k_E - g}, \\quad \\text{for } g &lt; k_E\n\\]\nVekst (intern generert): \\[\ng = R_E \\cdot b\n\\]\nPris/Fortjeneste-modellen (P/E): \\[\nP/E \\triangleq \\frac{P_0}{EPS_1} = \\frac{d}{k_E - g}\n\\]\nVekstmuligheter (PVGO): \\[\nP_0 = \\frac{EPS_1}{k_E} + PVGO\n\\]"
+  },
+  {
+    "objectID": "formelark.html#kapitalstruktur-og-vektstang",
+    "href": "formelark.html#kapitalstruktur-og-vektstang",
+    "title": "Formelark",
+    "section": "8 Kapitalstruktur og vektstang",
+    "text": "8 Kapitalstruktur og vektstang\n\nVektstangsformel – rentabilitet EK: \\[\nR_E = R_T + \\frac{G}{E} \\cdot (R_T - k_G)\n\\]\nVektstangsformel – risiko på egenkapital (standardavvik): \\[\n\\sigma_{R_E} = \\sigma_{R_T} \\cdot \\left( 1 + \\frac{G}{E} \\right)\n\\]\nVektstangsformel – før skatt: \\[\nk_T = \\frac{E}{E + G} \\cdot k_E + \\frac{G}{E + G} \\cdot k_G\n\\]\nVektstangsformel – etter skatt: \\[\nk_T^s = \\frac{E}{E + G} \\cdot k_E + \\frac{G}{E + G} \\cdot k_G \\cdot (1 - s)\n\\]\nVektstangsformel – krav egenkapital: \\[\nk_E = k_T + \\frac{G}{E} \\cdot (k_T - k_G)\n\\]\nBeta for totalkapital: \\[\n\\beta_T = \\frac{E}{E + G} \\cdot \\beta_E + \\frac{G}{E + G} \\cdot \\beta_G\n\\]\nBeta for egenkapital (dersom \\(\\beta_G = 0\\)): \\[\n\\beta_E = \\beta_T \\cdot \\left( 1 + \\frac{G}{E} \\right)\n\\]\nÅrlig skattefordel ved gjeld pr. krone: \\[\n\\text{Skattefordel} =  (1 - s_K) - (1 - s_{B}) \\cdot (1 - s_{Ed})\n\\]\nÅrlig skattefordel ved dividende pr. krone: \\[\n\\text{Skattefordel} = (1 - s_{B}) \\cdot (s_{Eg} - s_{Ed})\n\\]"
+  },
+  {
+    "objectID": "formelark.html#obligasjoner-og-durasjon",
+    "href": "formelark.html#obligasjoner-og-durasjon",
+    "title": "Formelark",
+    "section": "9 Obligasjoner og durasjon",
+    "text": "9 Obligasjoner og durasjon\n\nObligasjonspris (standardformel): \\[\nP_0 = \\sum_{t = 1}^{T} \\frac{c}{(1 + y)^t} + \\frac{\\text{Pålydende}}{(1 + y)^T}\n\\]\nObligasjonspris (med konstant kupong og helt antall år til forfall): \\[\nP_0 = \\frac{c}{y} \\cdot \\left[1 - \\frac{1}{(1+y)^T}\\right] + \\frac{\\text{Pålydende}}{(1+y)^T} = c \\cdot A_{y,T} + \\frac{\\text{Pålydende}}{(1+y)^T}\n\\]\nSertifikatpris: \\[\nP_0 = \\frac{P_1}{1 + r \\cdot \\frac{d}{365}} \\quad \\quad P_0 = \\frac{P_1}{(1 + y)^{\\frac{d}{365}}}\n\\]\nTerminrente mellom t−1 og t: \\[\nf_{t-1,t} = \\frac{(1 + r_t)^t}{(1 + r_{t-1})^{t-1}} - 1\n\\]\nDurasjon: \\[\nD = \\frac{1}{P_0} \\cdot \\sum_{t = 1}^{T} t \\cdot \\frac{CF_t}{(1 + y)^t}\n\\]\nJustert durasjon (modifisert): \\[\nD^* = \\frac{-D}{1 + y}\n\\]\nDurasjonsbasert prisendring: \\[\n\\frac{\\Delta P}{P} =  \\frac{-D}{1 + y} \\cdot \\Delta y = D^* \\cdot \\Delta y\n\\]"
+  },
+  {
+    "objectID": "formelark.html#opsjoner-og-derivater",
+    "href": "formelark.html#opsjoner-og-derivater",
+    "title": "Formelark",
+    "section": "10 Opsjoner og derivater",
+    "text": "10 Opsjoner og derivater\n\nBlack-Scholes (kjøpsopsjon): \\[\nC = S_0 \\cdot N(d_1) - K \\cdot e^{-r_f \\cdot T} \\cdot N(d_2)\n\\]\nParametere i Black-Scholes: \\[\nd_1 = \\frac{\\ln \\left( \\frac{S_0}{K} \\right) + r_f \\cdot T}{\\sigma \\sqrt{T}} + \\frac{1}{2} \\cdot \\sigma \\cdot \\sqrt{T}, \\quad_2 = d_1 - \\sigma \\sqrt{T}\n\\]\nPut-call paritet: \\[\nC_0 - P_0 = S_0 - PV(K)\n\\]\nLagringskostnadshypotesen (generell form): \\[\nF_T = S_0 \\cdot (1 + c \\cdot T)\n\\]\nLagringskostnadshypotesen (aksjer med utbytte): \\[\nF_T = S_0 \\cdot \\left[1 + (r_f - \\text{div}) \\cdot T\\right]\n\\]\nForventningshypotesen (terminpriser): \\[\nF_T = E(S_T)\n\\]"
+  },
+  {
+    "objectID": "formelark.html#internasjonal-finans",
+    "href": "formelark.html#internasjonal-finans",
+    "title": "Formelark",
+    "section": "11 Internasjonal finans",
+    "text": "11 Internasjonal finans\n\nRelativ kjøpekraftsparitet (PPP): \\[\n\\frac{E(s_{\\text{UTL/NOK}})}{s_{\\text{UTL/NOK}}} = \\frac{1 + i_{\\text{NOK}}}{1 + i_{\\text{UTL}}}\n\\]\nDekket renteparitet (CIP): \\[\n\\frac{1 + r_{\\text{NOK}}}{1 + r_{\\text{UTL}}} = \\frac{f_{\\text{UTL/NOK}}}{s_{\\text{UTL/NOK}}}\n\\]\nUdekket renteparitet (UIP): \\[\n\\frac{1 + r_{\\text{NOK}}}{1 + r_{\\text{UTL}}} = \\frac{E(s_{\\text{UTL/NOK}})}{s_{\\text{UTL/NOK}}}\n\\]\nFishereffekten (to valutaer): \\[\n\\frac{1 + r_{\\text{NOK}}}{1 + r_{\\text{UTL}}} = \\frac{E(1 + i_{\\text{NOK}})}{E(1 + i_{\\text{UTL}})}\n\\]\nForventningshypotesen (valuta): \\[\n\\frac{f_{\\text{UTL/NOK}}}{s_{\\text{UTL/NOK}}} = \\frac{E(s_{\\text{UTL/NOK}})}{s_{\\text{UTL/NOK}}} \\Rightarrow f_{\\text{UTL/NOK}} = E(s_{\\text{UTL/NOK}})\n\\]\nAvkastningskrav ved utenlandske investeringer: \\[\n1 + k_{\\text{NOK}} = (1 + k_{\\text{UTL}}) \\cdot \\frac{1 + r_{\\text{NOK}}}{1 + r_{\\text{UTL}}}\n\\]\nLånekostnad ved utenlandske lån: \\[\n\\frac{s_{\\text{UTL/NOK,1}}}{s_{\\text{UTL/NOK,0}}} \\cdot (1 + r_{\\text{UTL}}) - 1\n\\]"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "André Wattø Sjuve,  Assistant professor\n\n\n\n\n\nGeir Drage Berentsen,  Associate professor\n\n\n\nThis course and website has been developed by Sondre Hølleland, assistant professor, and Geir Drage Berentsen, associate professor, both at Norwegian School of Economics, Department of Business and Management Science. More about us will be added."
+  },
+  {
+    "objectID": "forelesningsplan.html",
+    "href": "forelesningsplan.html",
+    "title": "Forelesningsplan",
+    "section": "",
+    "text": "NoteViktige datoer\n\n\n\n\n\n Registrering i grupper: 16.02.2026\nObligatorisk for deltakelse i casearbeidet. Se Case for registreringsinfo.\n Obligatorisk case:\n23.02.2026  Må bestås for å kunne gå opp til eksamen.\nSe Canvas for informasjon \n\n\n Frivillig oppgave: 17.04.2026 Frivillig innlevering med kommentarer fra studentassistenter.  Se Om kurset for detaljer.\n Eksamen: 20.05.2026 Skriftlig skoleeksamen. Se Vurdering for form og hjelpemidler."
+  },
+  {
+    "objectID": "forelesningsplan.html#åpningstider-før-innleveringssett-og-eksamen",
+    "href": "forelesningsplan.html#åpningstider-før-innleveringssett-og-eksamen",
+    "title": "Forelesningsplan",
+    "section": "Åpningstider før innleveringssett og eksamen",
+    "text": "Åpningstider før innleveringssett og eksamen\nOrakeltjenesten vil være åpen både i undervisnings- og eksamensperioden. I undervisningsperioden betjenes den av de kursansvarlige (se treffetid kursansvarlig ovenfor). I tiden før eksamen, herunder i forbindelse med det frivillige innleveringssettet, betjenes den av studentassistentene. Orakeltjenesten er en møteplass hvor studentene kan få hjelp i faglige spørsmål utenom forelesningene.\n\n\n\n\n\n\nUke\nDato\nMerknad\nMandag\nTirsdag\nOnsdag\nTorsdag\nFredag\n\n\n\n\n17\n21.04-25.04\nInnleveringssett har frist 17.04\nAndre påskedag\n\n10:15-12:00 Aud. J\n\n\n\n\n18\n28.04-02.05\n\n\nMET4 eksamen\n\nOff. høytidsdag\n\n\n\n19\n05.05-09.05\n\n\n\n\n\n10:15-14:00 Aud. C\n\n\n20\n12.05-16.05\n\n10:15-14:00 Aud. C\n10:15-14:00 Aud. C\n10:15-14:00 Aud. C\nBED3 eksamen\n\n\n\n21\n19.05-23.05\n\n\n\n\n\n\n\n\n22\n26.05-30.05\n\n\nSAM3 eksamen\n\nHimmelfartsdag"
+  },
+  {
+    "objectID": "gruppeovinger.html",
+    "href": "gruppeovinger.html",
+    "title": "Investering og finans",
+    "section": "",
+    "text": "1 Gruppeøvinger\nOppgaver til de fem gruppeøvingene"
+  },
+  {
+    "objectID": "gruppeovinger/gruppeoving-2.html",
+    "href": "gruppeovinger/gruppeoving-2.html",
+    "title": "Investering og finans",
+    "section": "",
+    "text": "Her kommer oppgaver for andre uke…",
+    "crumbs": [
+      "Øvingsoppgaver",
+      "Gruppeøving 2"
+    ]
+  },
+  {
+    "objectID": "gruppeovinger/gruppeoving-2.html#gruppeøving-2",
+    "href": "gruppeovinger/gruppeoving-2.html#gruppeøving-2",
+    "title": "Investering og finans",
+    "section": "",
+    "text": "Her kommer oppgaver for andre uke…",
+    "crumbs": [
+      "Øvingsoppgaver",
+      "Gruppeøving 2"
+    ]
+  },
+  {
+    "objectID": "kursinformasjon.html",
+    "href": "kursinformasjon.html",
+    "title": "Kursinformasjon",
+    "section": "",
+    "text": "Økonomi handler om et enkelt, men evig problem: vi ønsker oss alltid mer enn vi kan få. BED3 Investering og finans tar utgangspunkt i dette og undersøker hvordan vi best organiserer den knappe ressursen kapital.\nBED3 er et obligatorisk kurs i sekvensen i bedriftsøkonomisk analyse i bachelorstudiet. Kurset er svært sentralt i studiet, og gir kjernekunnskap på et område som er av vesentlig betydning for en bachelorkandidat fra NHH.\nGjennom kurset lærer du å analysere investeringsprosjekter, forstå hvordan kapitalen fordeles i porteføljer, hvordan risikokapital prises i markedet, og hvordan bedrifter bør velge mellom gjeld og egenkapital.\nI tillegg får du innblikk i temaer som bærekraftig finans, opsjoner, terminkontrakter, rentemarkedet og valuta. Til sammen gir dette en helhetlig forståelse av hvordan kapital investeres, finansieres og prises."
+  },
+  {
+    "objectID": "kursinformasjon.html#kunnskap",
+    "href": "kursinformasjon.html#kunnskap",
+    "title": "Kursinformasjon",
+    "section": "1.1 Kunnskap",
+    "text": "1.1 Kunnskap\nEtter å ha fullført kurset vil studentene:\n\nHa innsikt i bedriftens investerings- og finansieringsbeslutninger\nForstå hva bærekraftige investeringer innebærer, herunder måling av bærekraft, ESG-vurderinger og -rating samt tilhørende lønnsomhet\nHa innsikt i etiske normer og hvordan disse uttrykkes i ulike foretak, og i etiske problemstillinger knyttet til innsidehandel og interessekonflikter\nForstå hvordan kapitalmarkedene fungerer og anvendes\nHa kunnskap om utviklingen i kapitalmarkeder og tilhørende verdipapirer\nForstå hvordan ulike verdipapirer prises, og hvilke risikoegenskaper disse instrumentene har\nForstå konsekvensene av å finansiere seg med gjeld kontra egenkapital\nHa kunnskap om viktige sammenhenger i valutamarkedene"
+  },
+  {
+    "objectID": "kursinformasjon.html#ferdigheter",
+    "href": "kursinformasjon.html#ferdigheter",
+    "title": "Kursinformasjon",
+    "section": "1.2 Ferdigheter",
+    "text": "1.2 Ferdigheter\nEtter å ha fullført kurset kan studentene:\n\nAnvende ulike teorier og modeller i sentrale problemstillinger innenfor investering og finans\nForeta beregninger av lønnsomhet, avkastning og risiko for investeringer, verdipapirer og kapitalkilder, herunder bærekraftige investeringer med ESG-rating og lønnsomhet\nVurdere etiske normer og tilhørende beslutninger\nAvgjøre hvordan bedriftens aktiva bør finansieres (gjeld versus egenkapital) og hvordan årlige overskudd bør disponeres (utbyttepolitikk)\nVise hvordan risiko kan håndteres ved bruk av derivater og andre finansielle instrumenter\nForeta lønnsomhetsberegninger for internasjonale investeringer og valutalån"
+  },
+  {
+    "objectID": "kursinformasjon.html#generell-kompetanse",
+    "href": "kursinformasjon.html#generell-kompetanse",
+    "title": "Kursinformasjon",
+    "section": "1.3 Generell kompetanse",
+    "text": "1.3 Generell kompetanse\nEtter å ha fullført kurset kan studentene:\n\nKommunisere de ovennevnte elementer knyttet til kunnskap og ferdigheter\nAnvende denne innsikten på praktiske problemstillinger\nUtveksle synspunkter og erfaringer med andre som har bakgrunn i finans og gjennom dette bidra til god praksis"
+  },
+  {
+    "objectID": "kursinformasjon.html#læringsstøttende-elementer",
+    "href": "kursinformasjon.html#læringsstøttende-elementer",
+    "title": "Kursinformasjon",
+    "section": "2.1 Læringsstøttende elementer",
+    "text": "2.1 Læringsstøttende elementer\n\nEn omfattende hjemmeside for distribusjon av relevant informasjon og materiale\nEn gruppe studentassistenter som deltar aktivt i ulike arbeidsoppgaver\nEt yilbud om organisert gruppeundervisning, frivillig innlevering av et oppgavesett og obligatorisk innlevering av et caseoppgavesett\nEt tilbud om førstelinjehjelp i form av en orakeltjeneste\nEn chatbot (ChatGPT) (samtalerobot) – BED3-Buddy – designet for å underbygge det faglige innholdet i kurset, samt kunne besvare eventuelle administrative spørsmål\nEt ønske om god dialog med studentgruppen, blant annet ved bruk av referansegruppe\n\nPlenumsforelesningene har som formål å gi oversikt over de aktuelle temaene som tas opp i kurset. Forelesningene bygger på en serie forelesningsplansjer. Forelesningene vil bli brukt til å utdype disse plansjene, herunder presentere relevante eksempler og illustrasjoner. Forelesningene representerer ingen direkte gjengivelse av pensumlitteraturen og er heller ingen erstatning for pensumlitteraturen."
+  },
+  {
+    "objectID": "kursinformasjon.html#arbeid-med-oppgaver",
+    "href": "kursinformasjon.html#arbeid-med-oppgaver",
+    "title": "Kursinformasjon",
+    "section": "2.2 Arbeid med oppgaver",
+    "text": "2.2 Arbeid med oppgaver\nI kurset tilbys ulike former for oppgavetrening:\n\nFem sett med øvingsoppgaver: Disse gjennomgås i grupper av studentassistentene. Løsningsmomenter til alle de fem oppgavesettene er lagt ut på hjemmesiden allerede ved starten av semesteret. Det betyr at gruppeundervisningen vil ha rom for diskusjon og refleksjon i tillegg til å fokusere på løsningene\nEtt sett med innleveringsoppgaver (frivillig innlevering): Dette rettes og kommenteres av studentassistentene. Løsningsmomenter legges ut på hjemmesiden ca. en uke etter at innleveringsfristen er gått ut\nEtt sett med caseoppgaver (obligatorisk innlevering og grunnlag for kursgodkjenning): Dette rettes og kommenteres av studentassistentene.Løsningsmomenter legges ut på hjemmesiden når rettingen er avsluttet\nEksamensoppgaver: Tidligere eksamensoppgaver, med tilhørende løsningsmomenter, er lagt ut på hjemmesiden\n\nØvingsoppgaver og innleveringsoppgaver er i hovedsak utformet som typiske eksamensoppgaver, og er dermed representative for hvordan man kan forvente å bli prøvd ved eksamen. Unntaket er at ingen av oppgavene som vil bli gitt til eksamen baseres på bruk av Excel. Merk at det er lagt ut en (kortfattet) fasit til innleveringsoppgavesettet på hjemmesiden. Oppgavene utdyper problemstillinger som tas opp i forelesningene, og i så måte er det aktiv innsats knyttet til å lese pensum, følge forelesninger og gjøre oppgaver som samlet sett gjør det mulig å nå læringsmålene. Kurset vil ha orakeltjeneste i undervisningsperioden, betjent av de kursansvarlige (= treffetid kursansvarlig), og før eksamen, betjent av studentassistentene. I tillegg vil det være orakeltilbud i forbindelse med den frivillige innleveringen. Det er opprettet en referansegruppe. Gruppen har som oppgave å gi løpende tilbakemelding til de kursansvarlige. Gruppen kan ta opp både pedagogiske og faglige spørsmål på eget initiativ, på initiativ fra andre studenter eller på de kursansvarliges initiativ. Referansegruppen består av representantene for 2. kull i Studentutvalget. I tillegg kan den enkelte student selvsagt ta opp slike saker på eget initiativ direkte med de kursansvarlige. Denne form for løpende tilbakemelding, sammen med Studentutvalgets panel, utgjør kursets underveisevaluering. Det vil være en sluttevaluering av kurset ved enden av undervisningsperioden."
+  },
+  {
+    "objectID": "kursinformasjon.html#emneansvarlige",
+    "href": "kursinformasjon.html#emneansvarlige",
+    "title": "Kursinformasjon",
+    "section": "Emneansvarlige",
+    "text": "Emneansvarlige\n\n\n\nNavn: Frode Sættem\nTittel: Professor\nRolle: Hovedemneansvarlig\nE-post: frode.saettem@nhh.no\nKontor: C523\n\n\nNavn: André Wattø Sjuve\nTittel: Førsteamanuensis\nRolle: Foreleser\nE-post: andre.sjuve@nhh.no\nKontor: C310\n\n\nNavn: Andreas Ørpetveit\nTittel: Førsteamanuensis\nRolle: Foreleser\nE-post: andreas.orpetveit@nhh.no\nKontor: C311"
+  },
+  {
+    "objectID": "kursmateriale/00-introduksjon/0-forord.html",
+    "href": "kursmateriale/00-introduksjon/0-forord.html",
+    "title": "Investering og finans",
+    "section": "",
+    "text": "Denne nettsiden, med dens innhold og struktur er mitt forsøk på å modernisere kurset BED3 - Investering og finans, som undervises som en del av den bedriftsøkonomiske sekvensen av kurs på bachelorstudiet i Økonomi og Administrasjon (BØA) ved Norges Handelshøyskole. Kurset er svært sentralt i studiet, og bidrar med kjernekunnskap på et område som er av vesentlig betydning for en bachelorkandidat fra NHH.\n\nFormålet med denne siden er ikke å være statisk, men å utvikle seg over tid. Videre, når en sitter med nesen tett til skjermen, er det lett å overse skrivefeil og andre rare ting som ferske øyne fanger opp umiddelbart. Om du ser noe direkte galt eller noe som virker rart, gi meg gjerne beskjed.\nOm noen andre enn studenter ved Norges Handelshøyskole eller utenfor sfæren av økonomer og økonomistudenter generelt skulle finne frem til siden i søken etter kunnskap om investeringer, finansiering, finansmarkeder etc. så håper jeg innholdet oppleves som nyttig og relevant.",
+    "crumbs": [
+      "Introduksjon til kursinnholdet",
+      "Forord"
+    ]
+  },
+  {
+    "objectID": "kursmateriale/00-introduksjon/0-forord.html#forord",
+    "href": "kursmateriale/00-introduksjon/0-forord.html#forord",
+    "title": "Investering og finans",
+    "section": "",
+    "text": "Denne nettsiden, med dens innhold og struktur er mitt forsøk på å modernisere kurset BED3 - Investering og finans, som undervises som en del av den bedriftsøkonomiske sekvensen av kurs på bachelorstudiet i Økonomi og Administrasjon (BØA) ved Norges Handelshøyskole. Kurset er svært sentralt i studiet, og bidrar med kjernekunnskap på et område som er av vesentlig betydning for en bachelorkandidat fra NHH.\n\nFormålet med denne siden er ikke å være statisk, men å utvikle seg over tid. Videre, når en sitter med nesen tett til skjermen, er det lett å overse skrivefeil og andre rare ting som ferske øyne fanger opp umiddelbart. Om du ser noe direkte galt eller noe som virker rart, gi meg gjerne beskjed.\nOm noen andre enn studenter ved Norges Handelshøyskole eller utenfor sfæren av økonomer og økonomistudenter generelt skulle finne frem til siden i søken etter kunnskap om investeringer, finansiering, finansmarkeder etc. så håper jeg innholdet oppleves som nyttig og relevant.",
+    "crumbs": [
+      "Introduksjon til kursinnholdet",
+      "Forord"
+    ]
+  },
+  {
+    "objectID": "kursmateriale/00-introduksjon/0-intro_finans.html",
+    "href": "kursmateriale/00-introduksjon/0-intro_finans.html",
+    "title": "Fra økonomi til bedriftsøkonomi: Bedriftens finansielle beslutninger",
+    "section": "",
+    "text": "Økonomi springer ut av knapphet. Vi ønsker oss alltid mer enn vi kan få. Dette gjelder ikke bare for husholdninger og samfunn, men også for bedrifter. Når vi studerer knapphetsproblemet i bedriftens kontekst, kaller vi det bedriftsøkonomi. Studerer vi det på individ- eller samfunnsnivå, kaller vi det personlig økonomi eller samfunnsøkonomi.\nI dette kapittelet vil få oversikt over hele faget investering og finans. Vi skal se hvordan de ulike delene henger sammen, og hvordan de bygger på grunnleggende prinsipper i økonomi. Dette gir oss et veikart som hjelper oss å navigere resten av faget.\nI finans stiller vi et mer spesifikt spørsmål: Hvordan allokerer individer og samfunnet knappe ressurser gjennom et prissystem som verdsetter risikable aktiva? Her er det særlig kapital som står i sentrum i finans. Vi er opptatt av hvordan sparing fra husholdninger og investorer kanaliseres til bedrifter, og hvordan kapitalmarkedene setter prisen på risikable aktiva underveis.\n\n\n\n\n\n\nFigure 1: Veikart finans\n\n\n\nFigur Figure 1 ovenfor viser hvordan denne prosessen ser ut i praksis. Til venstre finner vi investorene som tilbyr kapital. Til høyre finner vi bedrifter som etterspør kapital for å investere i prosjekter. Mellom dem står kapitalmarkedet, der prisen på risikable aktiva fastsettes. Nederst ser du de viktigste byggesteinene i moderne finans, som gir oss teoriene og verktøyene vi bruker til å analysere samspillet mellom investorere, bedrifter og kapitalmarkedet.",
+    "crumbs": [
+      "Introduksjon til kursinnholdet",
+      "Innledning til investering og finans"
+    ]
+  },
+  {
+    "objectID": "kursmateriale/00-introduksjon/0-intro_finans.html#innledning",
+    "href": "kursmateriale/00-introduksjon/0-intro_finans.html#innledning",
+    "title": "Fra økonomi til bedriftsøkonomi: Bedriftens finansielle beslutninger",
+    "section": "",
+    "text": "Økonomi springer ut av knapphet. Vi ønsker oss alltid mer enn vi kan få. Dette gjelder ikke bare for husholdninger og samfunn, men også for bedrifter. Når vi studerer knapphetsproblemet i bedriftens kontekst, kaller vi det bedriftsøkonomi. Studerer vi det på individ- eller samfunnsnivå, kaller vi det personlig økonomi eller samfunnsøkonomi.\nI dette kapittelet vil få oversikt over hele faget investering og finans. Vi skal se hvordan de ulike delene henger sammen, og hvordan de bygger på grunnleggende prinsipper i økonomi. Dette gir oss et veikart som hjelper oss å navigere resten av faget.\nI finans stiller vi et mer spesifikt spørsmål: Hvordan allokerer individer og samfunnet knappe ressurser gjennom et prissystem som verdsetter risikable aktiva? Her er det særlig kapital som står i sentrum i finans. Vi er opptatt av hvordan sparing fra husholdninger og investorer kanaliseres til bedrifter, og hvordan kapitalmarkedene setter prisen på risikable aktiva underveis.\n\n\n\n\n\n\nFigure 1: Veikart finans\n\n\n\nFigur Figure 1 ovenfor viser hvordan denne prosessen ser ut i praksis. Til venstre finner vi investorene som tilbyr kapital. Til høyre finner vi bedrifter som etterspør kapital for å investere i prosjekter. Mellom dem står kapitalmarkedet, der prisen på risikable aktiva fastsettes. Nederst ser du de viktigste byggesteinene i moderne finans, som gir oss teoriene og verktøyene vi bruker til å analysere samspillet mellom investorere, bedrifter og kapitalmarkedet.",
+    "crumbs": [
+      "Introduksjon til kursinnholdet",
+      "Innledning til investering og finans"
+    ]
+  },
+  {
+    "objectID": "kursmateriale/00-introduksjon/0-intro_finans.html#investorer-husholdningenes-rolle-i-finans",
+    "href": "kursmateriale/00-introduksjon/0-intro_finans.html#investorer-husholdningenes-rolle-i-finans",
+    "title": "Fra økonomi til bedriftsøkonomi: Bedriftens finansielle beslutninger",
+    "section": "2 Investorer: husholdningenes rolle i finans",
+    "text": "2 Investorer: husholdningenes rolle i finans\nHusholdningene er de ultimate eierne av kapital i samfunnet. Selv om kapital ofte forvaltes gjennom banker, forsikringsselskaper eller pensjonsfond, er det til syvende og sist husholdningenes sparing som ligger bak. Når husholdninger har mer kapital enn de trenger til forbruk i dag, kan de velge å utsette noe av forbruket og heller spare. Det gjør dem til investorer og tilbydere av kapital.\nÅ spare betyr å flytte forbruk fra nåtid til fremtid. Husholdninger tar derfor alltid stilling til tre spørsmål:\n\nHvor mye vil jeg bruke i dag, og hvor mye vil jeg spare til senere\nHvor lenge kan jeg binde pengene\nHvor stor risiko er jeg villig til å ta for muligheten til høyere avkastning\n\nKapitalmarkedene gjør denne avveiningen langt enklere. De gir husholdningene mulighet til å plassere pengene i alt fra en trygg sparekonto til aksjer med høyere risiko og potensielt høyere avkastning. Markedet setter en pris på hva det koster å utsette forbruket, og denne prisen ser vi som renter og avkastningskrav.\nFor bedriftene er dette avgjørende. Uten kapitalmarkedene måtte husholdningene selv investere direkte i prosjekter eller eiendeler, noe som er upraktisk og risikabelt. Med kapitalmarkedene kan kapital flyttes fra husholdninger som har penger, til bedrifter som har prosjekter, men mangler finansiering. Dette gjør at ressursene i samfunnet brukes der de skaper mest verdi.\nNoen investorer har dessuten mål utover ren avkastning. De kan ønske å bidra til bærekraftige investeringer eller påvirke hvordan bedrifter driver sin virksomhet. Slik viser investorene at de ikke bare er opptatt av forbruk i dag og i morgen, men også av hvilken fremtid de er med på å skape.\n\nTenk på en student som har tjent 40 000 kroner på sommerjobb. Hun kan bruke hele beløpet på en ferie nå, eller hun kan spare halvparten i et aksjefond. Ferie gir høy nytte i dag, men ingen fremtidig avkastning. Sparing gir mulighet for mer forbruk i fremtiden, men innebærer risiko. Valget illustrerer investorens grunnleggende avveiing: forbruk nå eller senere, og hvor mye risiko man er villig til å ta.\n\n\n\n\n\n\n\nNoteHva vi kommer tilbake til senere\n\n\n\nI dette kapittelet har vi bare introdusert investorens rolle. Senere i kurset skal vi se nærmere på: - Sparing og investering: Hvordan risiko og avkastning henger sammen når man velger å investere i ulike aktiva - Porteføljeteori: hvordan diversifisering gjør at risiko kan reduseres uten å senke forventet avkastning - Kapitalverdimodellen (CAPM): hvordan risiko prises i markedet, og hvordan det danner grunnlag for avkastningskrav",
+    "crumbs": [
+      "Introduksjon til kursinnholdet",
+      "Innledning til investering og finans"
+    ]
+  },
+  {
+    "objectID": "kursmateriale/00-introduksjon/0-intro_finans.html#kapitalmarkedet-prissetting-og-allokering",
+    "href": "kursmateriale/00-introduksjon/0-intro_finans.html#kapitalmarkedet-prissetting-og-allokering",
+    "title": "Fra økonomi til bedriftsøkonomi: Bedriftens finansielle beslutninger",
+    "section": "3 Kapitalmarkedet: prissetting og allokering",
+    "text": "3 Kapitalmarkedet: prissetting og allokering\nFor å forstå verdien av kapitalmarkedet, kan vi tenke oss en økonomi uten markeder. I en slik økonomi er det vanskelig for husholdninger å flytte forbruk over tid, og bedrifter kan bare investere i prosjekter de har kontanter til her og nå. All investering må skje med egne midler.\nKapitalmarkedet løser dette problemet. Det gir mulighet til å låne, spare og flytte ressurser på en måte som gjør alle bedre stilt enn de ville vært alene. Markedet knytter sammen tilbydere og etterspørrere av kapital. Ressurser allokeres gjennom et prissystem som reflekterer informasjon om risiko og avkastning. Dette skjer desentralisert, ved at prissignaler gir aktørene grunnlag for sine valg. Den sentrale funksjonen er å sørge for en effektiv ressursallokering.\nEffektiv allokering oppnås ved at kapitalmarkedet leverer tre grunnleggende tjenester. Disse er oppsummert i figur Figure 2 nedenfor (basert på Døskeland, Investing for the Long Term, 2025).\n\n\n\n\n\n\nFigure 2: Finansielle tjenester\n\n\n\n\nSparing: gjør det mulig å utsette konsum. De som har mer kapital enn de trenger i dag, kan plassere pengene og bruke dem senere. Prisen på utsatt konsum settes i form av renter og avkastning.\nLån: gjør det mulig å investere i dag selv uten egne midler. På den måten kan prosjekter med høy verdi realiseres. Å låne er å flytte forbruk fra fremtid til nåtid.\nRisikohåndtering: gjør det mulig å beskytte seg mot uønskede utfall. Dette kan skje gjennom forsikring eller ved å flytte kapital mellom aktiva med ulik risiko. Kapitalmarkedet sprer og deler risiko på en effektiv måte.\n\nEffektiv ressursallokering er avgjørende for økonomisk vekst. Vekst er igjen en forutsetning for økt konsum og velferd over tid. Kapitalmarkedet bidrar til dette ved å kanalisere sparing til de mest lønnsomme investeringene og ved å gi både husholdninger og bedrifter mulighet til å håndtere risiko effektivt.\n\n\n\n\n\n\nNoteOppsummert: Kapitalmarkedet\n\n\n\n\nUten kapitalmarkeder kan husholdninger ikke spare over tid, og bedrifter kan ikke investere utover egne midler.\nKapitalmarkedet gjør det mulig å låne, spare og håndtere risiko, slik at ressursene brukes der de skaper mest verdi.\nGjennom prissystemet allokeres kapital desentralisert basert på informasjon om risiko og avkastning.\nEffektiv ressursallokering er en forutsetning for økonomisk vekst og økt velferd over tid.",
+    "crumbs": [
+      "Introduksjon til kursinnholdet",
+      "Innledning til investering og finans"
+    ]
+  },
+  {
+    "objectID": "kursmateriale/00-introduksjon/0-intro_finans.html#foretaket-investering-finansiering-og-utbytte",
+    "href": "kursmateriale/00-introduksjon/0-intro_finans.html#foretaket-investering-finansiering-og-utbytte",
+    "title": "Fra økonomi til bedriftsøkonomi: Bedriftens finansielle beslutninger",
+    "section": "4 Foretaket: investering, finansiering og utbytte",
+    "text": "4 Foretaket: investering, finansiering og utbytte\nI figur Figure 1 er foretaket plassert på høyre side. Foretaket er den aktøren som etterspør kapital. Samtidig er det selve motoren i verdiskapingen: det bruker kapital, arbeidskraft og ledelse til å produsere varer og tjenester som tilfredsstiller husholdningenes ønsker gjennom å investere i prosjekter. Prosjekter er investeringer i realaktiva, som består av fysiske (fabrikker, maskiner etc.) og immaterielle (patenter, merkevarer osv.) eiendeler. Når bedriften lykkes bedre med sine prosjekter enn konkurrentene, skaper den overskudd. Overskuddet gir eierne profitt, og profitt som er stabil og fremtidsrettet løfter verdien av bedriften.\nI bedriftsøkonomi antar vi ofte at målet er profittmaksimering. Bedriften skal da bruke ressursene slik at inntekter minus kostnader blir størst mulig. To grunnprinsipper følger av dette:\n\nDe minste midler: produser med minst mulig ressursbruk\nDe største resultater: få mest mulig ut av gitte ressurser\n\nI finans går vi et steg videre. Vi antar ofte at bedriften er børsnotert, og at målet er å maksimere markedsverdien av selskapets aksjer. Markedsverdien reflekterer størrelsen, tidspunktet og sikkerheten til de forventede betalingene til aksjonærene. En usikker betalingsstrøm verdsettes lavere enn en sikker strøm med samme forventede størrelse. Dette målet er mer omfattende enn profittmaksimering, fordi det tar hensyn til både tid og risiko.\nFor å nå målet om verdimaksimering må bedriften ta tre typer beslutninger:\n\nInvesteringsbeslutninger: hvilke prosjekter skal gjennomføres\nFinansieringsbeslutninger: hvordan prosjektene skal betales, med gjeld eller egenkapital\nUtbyttebeslutninger: hvordan overskuddet skal disponeres mellom eierne og videre investeringer\n\nMålet om verdimaksimering har møtt kritikk. Mange mener at bedrifter også bør ivareta interessene til ansatte, kunder, leverandører og samfunnet for øvrig. Andre hevder at beslutningstakere i praksis ikke maksimerer, men heller søker en tilfredsstillende løsning, et prinsipp kjent som satisfiering.\nI dette kurset legger vi likevel til grunn at bedriftens mål er å maksimere markedsverdien av aksjene, fordi dette best reflekterer eiernes interesser. Det betyr ikke at hensyn som bærekraft og samfunnsansvar er uviktige, men at de må integreres i beslutningene på en måte som også skaper verdi for eierne. Vi legger derfor til grunn at valg først og fremst må være økonomisk bærekraftige: prosjekter må gi kontantstrømmer som dekker kostnader, forrenter kapitalen og skaper avkastning i forhold til risiko. Uten økonomisk bærekraft kan selv gode intensjoner ikke opprettholdes over tid.",
+    "crumbs": [
+      "Introduksjon til kursinnholdet",
+      "Innledning til investering og finans"
+    ]
+  },
+  {
+    "objectID": "kursmateriale/00-introduksjon/0-intro_finans.html#oppsummering",
+    "href": "kursmateriale/00-introduksjon/0-intro_finans.html#oppsummering",
+    "title": "Fra økonomi til bedriftsøkonomi: Bedriftens finansielle beslutninger",
+    "section": "5 Oppsummering",
+    "text": "5 Oppsummering\nSå, nå har du fått rammen for faget investering og finans. Vi har sett hvordan de tre hovedaktørene henger sammen:\n\nHusholdningene er de ultimate tilbyderne av kapital.\nKapitalmarkedet binder sammen sparere og bedrifter, og tilbyr sparing, lån og risikohåndtering.\nBedriftene er motoren som bruker kapital til å skape verdier, styrt av målet om verdimaksimering.\n\nMed denne forståelsen har du et klart bilde av hva faget handler om. Resten av faget handler om å fylle inn detaljene. Her kan du bla deg gjennom en kort presentasjon som oppsummerer hovedpunktene i kapittelet:\n\n\n📥 Last ned presentasjonen som egen fil",
+    "crumbs": [
+      "Introduksjon til kursinnholdet",
+      "Innledning til investering og finans"
+    ]
+  },
+  {
+    "objectID": "kursmateriale/01-investeringsanalyse/01-introduksjon/index.html",
+    "href": "kursmateriale/01-investeringsanalyse/01-introduksjon/index.html",
+    "title": "Introduksjon til investeringsanalyse",
+    "section": "",
+    "text": "Investeringsanalysemodulen starter her.\nI innledningen til investering og finans ble foretakets rolle diskutert. Kort oppsummert har foretaket ett overordnet mål. Å maksimere foretakets verdi. For å nå dette målet må foretaket ta tre sentrale beslutninger. Investeringsbeslutningen, finansieringsbeslutningen og utbyttebeslutningen. Investeringsanalyse handler om den første av disse. Hvilke prosjekter foretaket skal velge å investere i.",
+    "crumbs": [
+      "Om kurset",
+      "Moduler",
+      "Investeringsanalyse",
+      "1. Introduksjon"
+    ]
+  },
+  {
+    "objectID": "kursmateriale/01-investeringsanalyse/01-introduksjon/index.html#introduksjon",
+    "href": "kursmateriale/01-investeringsanalyse/01-introduksjon/index.html#introduksjon",
+    "title": "Introduksjon til investeringsanalyse",
+    "section": "",
+    "text": "Investeringsanalysemodulen starter her.\nI innledningen til investering og finans ble foretakets rolle diskutert. Kort oppsummert har foretaket ett overordnet mål. Å maksimere foretakets verdi. For å nå dette målet må foretaket ta tre sentrale beslutninger. Investeringsbeslutningen, finansieringsbeslutningen og utbyttebeslutningen. Investeringsanalyse handler om den første av disse. Hvilke prosjekter foretaket skal velge å investere i.",
+    "crumbs": [
+      "Om kurset",
+      "Moduler",
+      "Investeringsanalyse",
+      "1. Introduksjon"
+    ]
+  },
+  {
+    "objectID": "kursmateriale/01-investeringsanalyse/01-introduksjon/index.html#hva-er-investeringsanalyse",
+    "href": "kursmateriale/01-investeringsanalyse/01-introduksjon/index.html#hva-er-investeringsanalyse",
+    "title": "Introduksjon til investeringsanalyse",
+    "section": "2 Hva er investeringsanalyse",
+    "text": "2 Hva er investeringsanalyse\nInvesteringsanalyse dreier seg om realinvesteringer i prosjekter. Det kan være investeringer i maskiner, teknologi, nye produkter eller utvidelse av eksisterende virksomhet. Felles for slike prosjekter er at de krever en investering i dag, og forventes å generere kontantstrømmer i fremtiden.\nBeslutningsregelen er i seg selv enkel. Aksepter gode prosjekter. Et prosjekt er godt dersom det skaper verdi for foretaket. Mer presist betyr dette at prosjektets forventede avkastning er høyere enn det laveste akseptable avkastningskravet. Avkastningskravet skal reflektere risikoen i prosjektet og hvordan prosjektet finansieres gjennom egenkapital og gjeld.\nI praksis må avkastning måles gjennom diskonterte kontantstrømmer. Det er ikke prosjektets regnskapsmessige resultat som er avgjørende, men verdien av fremtidige kontantstrømmer vurdert i dag.",
+    "crumbs": [
+      "Om kurset",
+      "Moduler",
+      "Investeringsanalyse",
+      "1. Introduksjon"
+    ]
+  },
+  {
+    "objectID": "kursmateriale/01-investeringsanalyse/01-introduksjon/index.html#hva-må-vi-kunne-for-å-ta-investeringsbeslutninger",
+    "href": "kursmateriale/01-investeringsanalyse/01-introduksjon/index.html#hva-må-vi-kunne-for-å-ta-investeringsbeslutninger",
+    "title": "Introduksjon til investeringsanalyse",
+    "section": "3 Hva må vi kunne for å ta investeringsbeslutninger",
+    "text": "3 Hva må vi kunne for å ta investeringsbeslutninger\nÅ avgjøre om et prosjekt er godt krever to ting. For det første må vi kunne si noe om prosjektets forventede kontantstrømmer. For det andre må vi kjenne det relevante avkastningskravet gitt prosjektets risiko og finansieringsstruktur.\nI denne modulen ligger hovedvekten på det første punktet. Hvordan beregne prosjektets forventede kontantstrømmer. Beregning av avkastningskrav og eksplisitt prising av risiko behandles i senere moduler om finansiering, kapitalstruktur og risiko.\nFor å kunne analysere et prosjekts forventede avkastning må vi ha oversikt over tre forhold.\n\nProsjektets kontantstrømmer.\nTidshorisonten for kontantstrømmene.\nRisikoen knyttet til kontantstrømmene.\n\nI denne modulen håndteres risiko i hovedsak indirekte, gjennom sensitivitetsanalyser og scenarieanalyser.",
+    "crumbs": [
+      "Om kurset",
+      "Moduler",
+      "Investeringsanalyse",
+      "1. Introduksjon"
+    ]
+  },
+  {
+    "objectID": "kursmateriale/01-investeringsanalyse/01-introduksjon/index.html#hvordan-modulen-er-bygget-opp",
+    "href": "kursmateriale/01-investeringsanalyse/01-introduksjon/index.html#hvordan-modulen-er-bygget-opp",
+    "title": "Introduksjon til investeringsanalyse",
+    "section": "4 Hvordan modulen er bygget opp",
+    "text": "4 Hvordan modulen er bygget opp\nHoveddelen av modulen fokuserer på kontantstrømmene. Vi går gjennom hvordan kontantstrømmer beregnes, hvilke kontantstrømmer som er relevante, og hvilke som ikke er det. Videre ser vi på hvordan skatter og lån påvirker kontantstrømmene, hvordan inflasjon skal hensyntas, og hvordan analysen kan stresstestes ved hjelp av sensitivitetsanalyser og scenarieanalyser. Avslutningsvis ser vi på hvordan ulike låne og betalingsalternativer påvirker kontantstrømmene. Disse temaene dekkes i kapittel 3 til 6 i modulen.\nKapittel 2, investeringsprosjekter, tar et annet utgangspunkt. Her antar vi at korrekte kontantstrømmer allerede er identifisert, og at et relevant avkastningskrav er fastsatt. Fokuset ligger på hvordan denne informasjonen brukes til å fatte en konkret investeringsbeslutning. Vi ser på metoder for å vurdere lønnsomhet, som nåverdimetoden, internrente, tilbakebetalingsmetoden og annuitetsmetoden. I tillegg diskuteres hvordan prosjekter kan rangeres når foretaket har begrensede ressurser.",
+    "crumbs": [
+      "Om kurset",
+      "Moduler",
+      "Investeringsanalyse",
+      "1. Introduksjon"
+    ]
+  },
+  {
+    "objectID": "kursmateriale/01-investeringsanalyse/03-skatt-og-laan/index.html#forelesningsplansjer",
+    "href": "kursmateriale/01-investeringsanalyse/03-skatt-og-laan/index.html#forelesningsplansjer",
+    "title": "Kontantstrømmer",
     "section": "Forelesningsplansjer",
     "text": "Forelesningsplansjer\n\n\n📥 Last ned presentasjonen som pdf",
     "crumbs": [
       "Om kurset",
       "Moduler",
       "Investeringsanalyse",
-      "2. Investeringsprosjekter"
+      "3. Effekter av skatt og lån"
     ]
   },
   {
-    "objectID": "kursmateriale/01-investeringsanalyse/04-inflasjon/index.html",
-    "href": "kursmateriale/01-investeringsanalyse/04-inflasjon/index.html",
-    "title": "Effekter av inflasjon",
-    "section": "",
-    "text": "WarningVideoer er under produksjon\n\n\n\nVideoer til denne modulen publiseres fortløpende.",
-    "crumbs": [
-      "Om kurset",
-      "Moduler",
-      "Investeringsanalyse",
-      "4. Effekter av inflasjon"
-    ]
-  },
-  {
-    "objectID": "kursmateriale/01-investeringsanalyse/04-inflasjon/index.html#videoer",
-    "href": "kursmateriale/01-investeringsanalyse/04-inflasjon/index.html#videoer",
-    "title": "Effekter av inflasjon",
-    "section": "",
-    "text": "WarningVideoer er under produksjon\n\n\n\nVideoer til denne modulen publiseres fortløpende.",
-    "crumbs": [
-      "Om kurset",
-      "Moduler",
-      "Investeringsanalyse",
-      "4. Effekter av inflasjon"
-    ]
-  },
-  {
-    "objectID": "kursmateriale/01-investeringsanalyse/04-inflasjon/index.html#forelesningsplansjer",
-    "href": "kursmateriale/01-investeringsanalyse/04-inflasjon/index.html#forelesningsplansjer",
-    "title": "Effekter av inflasjon",
+    "objectID": "kursmateriale/01-investeringsanalyse/05-risikovurderinger/index.html#forelesningsplansjer",
+    "href": "kursmateriale/01-investeringsanalyse/05-risikovurderinger/index.html#forelesningsplansjer",
+    "title": "Risikovurderinger",
     "section": "Forelesningsplansjer",
     "text": "Forelesningsplansjer\n\n\n📥 Last ned presentasjonen som pdf",
     "crumbs": [
       "Om kurset",
       "Moduler",
       "Investeringsanalyse",
-      "4. Effekter av inflasjon"
+      "5. Risikovurderinger"
     ]
   },
   {
-    "objectID": "kursmateriale/01-investeringsanalyse/06-laane-og-betalingsalternativer/index.html",
-    "href": "kursmateriale/01-investeringsanalyse/06-laane-og-betalingsalternativer/index.html",
-    "title": "Låne- og betalingsalternativer",
+    "objectID": "kursmateriale/01-investeringsanalyse/index.html",
+    "href": "kursmateriale/01-investeringsanalyse/index.html",
+    "title": "Investeringsanalyse",
     "section": "",
-    "text": "WarningVideoer er under produksjon\n\n\n\nVideoer til denne modulen publiseres fortløpende.",
+    "text": "Hensikten med denne modulen er å flytte det som tidligere ble gitt som forelesninger i Aud.Max over til en nettbasert læringsmodul. Grunnen til dette er at investeringsanalyse består av mange regnetekniske detaljer som best fordøyes med tid og ro. Ved å tilby dette som en nettbasert modul kan du arbeide i ditt eget tempo, stoppe opp, spole tilbake, og repetere inntil du mestrer innholdet.\nModulen følger samme struktur som tidligere års forelesninger, og videoene gjenspeiler det som tidligere ble gjennomgått i forelesningene. Med dette overført til en nettbasert modul er ideen at forelesningstid i Aud.Max kan brukes til å arbeide med caseoppgaver, diskutere problemstillinger, og svare på spørsmål.",
     "crumbs": [
       "Om kurset",
       "Moduler",
-      "Investeringsanalyse",
-      "6. Låne- og betalingsalternativer"
+      "Investeringsanalyse"
     ]
   },
   {
-    "objectID": "kursmateriale/01-investeringsanalyse/06-laane-og-betalingsalternativer/index.html#videoer",
-    "href": "kursmateriale/01-investeringsanalyse/06-laane-og-betalingsalternativer/index.html#videoer",
-    "title": "Låne- og betalingsalternativer",
+    "objectID": "kursmateriale/01-investeringsanalyse/index.html#velkommen",
+    "href": "kursmateriale/01-investeringsanalyse/index.html#velkommen",
+    "title": "Investeringsanalyse",
     "section": "",
-    "text": "WarningVideoer er under produksjon\n\n\n\nVideoer til denne modulen publiseres fortløpende.",
+    "text": "Hensikten med denne modulen er å flytte det som tidligere ble gitt som forelesninger i Aud.Max over til en nettbasert læringsmodul. Grunnen til dette er at investeringsanalyse består av mange regnetekniske detaljer som best fordøyes med tid og ro. Ved å tilby dette som en nettbasert modul kan du arbeide i ditt eget tempo, stoppe opp, spole tilbake, og repetere inntil du mestrer innholdet.\nModulen følger samme struktur som tidligere års forelesninger, og videoene gjenspeiler det som tidligere ble gjennomgått i forelesningene. Med dette overført til en nettbasert modul er ideen at forelesningstid i Aud.Max kan brukes til å arbeide med caseoppgaver, diskutere problemstillinger, og svare på spørsmål.",
     "crumbs": [
       "Om kurset",
       "Moduler",
-      "Investeringsanalyse",
-      "6. Låne- og betalingsalternativer"
+      "Investeringsanalyse"
     ]
   },
   {
-    "objectID": "kursmateriale/01-investeringsanalyse/06-laane-og-betalingsalternativer/index.html#forelesningsplansjer",
-    "href": "kursmateriale/01-investeringsanalyse/06-laane-og-betalingsalternativer/index.html#forelesningsplansjer",
-    "title": "Låne- og betalingsalternativer",
+    "objectID": "kursmateriale/01-investeringsanalyse/index.html#læringsmål",
+    "href": "kursmateriale/01-investeringsanalyse/index.html#læringsmål",
+    "title": "Investeringsanalyse",
+    "section": "Læringsmål",
+    "text": "Læringsmål\nNår du mestrer denne modulen, skal du kunne:\n\nForklarer hva investeringsanalyse er og hvorfor den brukes.\nBygge konsistente kontantstrømmer før og etter skatt.\nAnvende NNV som hovedkriterium, samt IRR, payback, og NNV-indeks som støtte.\nHåndtere inflasjon på en konsistent måte.\nUtføre grunnleggende risikoanalyser gjennom følsomhet, scenarier, og enkel simulering.\nVurdere låne og betalingsalternativer, inkludert leasing, med NNV etter skatt som kriterium.",
+    "crumbs": [
+      "Om kurset",
+      "Moduler",
+      "Investeringsanalyse"
+    ]
+  },
+  {
+    "objectID": "kursmateriale/01-investeringsanalyse/index.html#slik-bruker-du-modulen",
+    "href": "kursmateriale/01-investeringsanalyse/index.html#slik-bruker-du-modulen",
+    "title": "Investeringsanalyse",
+    "section": "Slik bruker du modulen",
+    "text": "Slik bruker du modulen\nSiden modulen er bygget opp kronologisk, anbefales det at du følger innholdet i rekkefølge for å få oversikt og sammenheng. Deretter kan du hoppe tilbake til spesifikke temaer etter behov.",
+    "crumbs": [
+      "Om kurset",
+      "Moduler",
+      "Investeringsanalyse"
+    ]
+  },
+  {
+    "objectID": "kursmateriale/01-investeringsanalyse/index.html#innhold-og-anbefalt-progresjon",
+    "href": "kursmateriale/01-investeringsanalyse/index.html#innhold-og-anbefalt-progresjon",
+    "title": "Investeringsanalyse",
+    "section": "Innhold og anbefalt progresjon",
+    "text": "Innhold og anbefalt progresjon\n\n1. Introduksjon\n2. Investeringsprosjekter\n3. Effekter av skatt og lån\n4. Effekter av inflasjon\n5. Risikovurderinger\n6. Låne- og betalingsalternativer",
+    "crumbs": [
+      "Om kurset",
+      "Moduler",
+      "Investeringsanalyse"
+    ]
+  },
+  {
+    "objectID": "kursmateriale/02-markeder/02-opsjoner/index.html",
+    "href": "kursmateriale/02-markeder/02-opsjoner/index.html",
+    "title": "Opsjonskontrakter",
+    "section": "",
+    "text": "WarningVideokatalog\n\n\n\nVideoer er under produksjon og blir lagt ut fortløpende",
+    "crumbs": [
+      "Moduler",
+      "Selvstendige temaer",
+      "8. Opsjonskontrakter"
+    ]
+  },
+  {
+    "objectID": "kursmateriale/02-markeder/02-opsjoner/index.html#videoer",
+    "href": "kursmateriale/02-markeder/02-opsjoner/index.html#videoer",
+    "title": "Opsjonskontrakter",
+    "section": "",
+    "text": "WarningVideokatalog\n\n\n\nVideoer er under produksjon og blir lagt ut fortløpende",
+    "crumbs": [
+      "Moduler",
+      "Selvstendige temaer",
+      "8. Opsjonskontrakter"
+    ]
+  },
+  {
+    "objectID": "kursmateriale/02-markeder/02-opsjoner/index.html#forelesningsplansjer",
+    "href": "kursmateriale/02-markeder/02-opsjoner/index.html#forelesningsplansjer",
+    "title": "Opsjonskontrakter",
     "section": "Forelesningsplansjer",
-    "text": "Forelesningsplansjer\n\n\n📥 Last ned presentasjonen som pdf",
+    "text": "Forelesningsplansjer",
     "crumbs": [
-      "Om kurset",
       "Moduler",
-      "Investeringsanalyse",
-      "6. Låne- og betalingsalternativer"
+      "Selvstendige temaer",
+      "8. Opsjonskontrakter"
+    ]
+  },
+  {
+    "objectID": "kursmateriale/02-markeder/04-valuta/index.html",
+    "href": "kursmateriale/02-markeder/04-valuta/index.html",
+    "title": "Internasjonal finans",
+    "section": "",
+    "text": "WarningVideokatalog\n\n\n\nVideoer er under produksjon og blir lagt ut fortløpende",
+    "crumbs": [
+      "Moduler",
+      "Selvstendige temaer",
+      "10. Internasjonal finans"
+    ]
+  },
+  {
+    "objectID": "kursmateriale/02-markeder/04-valuta/index.html#videoer",
+    "href": "kursmateriale/02-markeder/04-valuta/index.html#videoer",
+    "title": "Internasjonal finans",
+    "section": "",
+    "text": "WarningVideokatalog\n\n\n\nVideoer er under produksjon og blir lagt ut fortløpende",
+    "crumbs": [
+      "Moduler",
+      "Selvstendige temaer",
+      "10. Internasjonal finans"
+    ]
+  },
+  {
+    "objectID": "kursmateriale/02-markeder/04-valuta/index.html#forelesningsplansjer",
+    "href": "kursmateriale/02-markeder/04-valuta/index.html#forelesningsplansjer",
+    "title": "Internasjonal finans",
+    "section": "Forelesningsplansjer",
+    "text": "Forelesningsplansjer",
+    "crumbs": [
+      "Moduler",
+      "Selvstendige temaer",
+      "10. Internasjonal finans"
     ]
   },
   {
