@@ -74,6 +74,18 @@ website:
                   href: kursmateriale/01-investeringsanalyse/05-risikovurderinger/index.qmd
                 - text: "6. Låne- og betalingsalternativer"
                   href: kursmateriale/01-investeringsanalyse/06-laane-og-betalingsalternativer/index.qmd
+            - section: "Selvstendige temaer"
+              href: kursmateriale/02-markeder/index.qmd
+              collapse: true
+              contents:
+                - text: "7. Rentemarkedet"
+                  href: kursmateriale/02-markeder/01-rentemarkedet/index.qmd
+                - text: "8. Opsjonskontrakter"
+                  href: kursmateriale/02-markeder/02-opsjoner/index.qmd
+                - text: "9. Terminkontrakter"
+                  href: kursmateriale/02-markeder/03-terminer/index.qmd
+                - text: "10. Internasjonal finans"
+                  href: kursmateriale/02-markeder/04-valuta/index.qmd
 
 
 

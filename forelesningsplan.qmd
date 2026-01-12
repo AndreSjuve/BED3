@@ -51,7 +51,10 @@ Se <a href="kursinformasjon.qmd"><em>Om kurset</em></a> for detaljer.</small>
 :::
 :::
 
-
+::: {.callout-warning}
+## UTDATERT
+**Korrekt forelesningsplan og informasjon om orakeltjeneste finnes på Canvas**
+:::
 
 
 ```{r lecturePlanCal,eval=TRUE, echo = FALSE, message = FALSE, warning = FALSE}

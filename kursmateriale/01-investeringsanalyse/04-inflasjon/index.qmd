@@ -4,11 +4,6 @@ description: Hvordan inflasjon påvirker investeringsanalyse.
 ---
 ## Videoer {.unnumbered}
 
-::: {.callout-warning}
-## Videoer er under produksjon
-**Videoer til denne modulen publiseres fortløpende.**
-:::
-
 <iframe src="https://nhh.cloud.panopto.eu/Panopto/Pages/EmbeddedList.aspx?folderID=09cb074c-18c9-4651-bd47-b3c900fd95bd&embedded=1" style="border: 0; width: 100%; height: 550px;"></iframe>
 
 ## Forelesningsplansjer {.unnumbered}

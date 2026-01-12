@@ -1,14 +1,21 @@
 ---
-title: Låne- og betalingsalternativer
-description: Ulike låne- og betalingsalternativer for investeringer, effektiv rente og sammenligning av alternativer.
+title: Internasjonal finans
+description: Valuta og paritetsbetingelser
 ---
 
 ## Videoer {.unnumbered}
 
-<iframe src="https://nhh.cloud.panopto.eu/Panopto/Pages/EmbeddedList.aspx?folderID=fbcdb4ff-7d88-4cff-b26c-b3c900fdadb2&embedded=1" style="border: 0; width: 100%; height: 550px;"></iframe>
+::: {.callout-warning}
+## Videokatalog
+**Videoer er under produksjon og blir lagt ut fortløpende**
+:::
+
+<iframe src="https://nhh.cloud.panopto.eu/Panopto/Pages/EmbeddedList.aspx?folderID=f8feb25e-8478-416a-959a-b3d00112dc57&embedded=1" style="border: 0; width: 100%; height: 550px;"></iframe>
 
 ## Forelesningsplansjer {.unnumbered}
 
+<!--
 <iframe src="../../../assets/slides/BED3-F05-Laane_og_betalingsalternativer.pdf" width="100%" height="600px" style="border:none; margin-top: 1em; margin-bottom: 1em;"></iframe>
 
 [📥 Last ned presentasjonen som pdf](../../../assets/slides/BED3-F05-Laane_og_betalingsalternativer.pdf){.btn .btn-primary target="_blank"}
+-->

@@ -1,0 +1,21 @@
+---
+title: Terminkontrakter
+description: Introduksjon til terminkontrakter, deres bruk og prising.
+---
+
+## Videoer {.unnumbered}
+
+::: {.callout-warning}
+## Videokatalog
+**Videoer er under produksjon og blir lagt ut fortløpende**
+:::
+
+<iframe src="https://nhh.cloud.panopto.eu/Panopto/Pages/EmbeddedList.aspx?folderID=8e73c88a-e61c-40eb-b060-b3d00112cf92&embedded=1" style="border: 0; width: 100%; height: 550px;"></iframe>
+
+## Forelesningsplansjer {.unnumbered}
+
+<!--
+<iframe src="../../../assets/slides/BED3-F05-Laane_og_betalingsalternativer.pdf" width="100%" height="600px" style="border:none; margin-top: 1em; margin-bottom: 1em;"></iframe>
+
+[📥 Last ned presentasjonen som pdf](../../../assets/slides/BED3-F05-Laane_og_betalingsalternativer.pdf){.btn .btn-primary target="_blank"}
+-->
