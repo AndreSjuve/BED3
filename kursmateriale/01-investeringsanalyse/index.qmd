@@ -11,11 +11,11 @@ page-navigation: true
 #  fields: [title, description]
 ---
 
-## Velkommen
-
+<!--
 Hensikten med denne modulen er å flytte det som tidligere ble gitt som forelesninger i Aud.Max over til en nettbasert læringsmodul. Grunnen til dette er at investeringsanalyse består av mange regnetekniske detaljer som best fordøyes med tid og ro. Ved å tilby dette som en nettbasert modul kan du arbeide i ditt eget tempo, stoppe opp, spole tilbake, og repetere inntil du mestrer innholdet.
 
 Modulen følger samme struktur som tidligere års forelesninger, og videoene gjenspeiler det som tidligere ble gjennomgått i forelesningene. Med dette overført til en nettbasert modul er ideen at forelesningstid i Aud.Max kan brukes til å arbeide med caseoppgaver, diskutere problemstillinger, og svare på spørsmål.
+-->
 
 ## Læringsmål
 
@@ -28,9 +28,11 @@ Når du mestrer denne modulen, skal du kunne:
 - Utføre grunnleggende risikoanalyser gjennom følsomhet, scenarier, og enkel simulering.
 - Vurdere låne og betalingsalternativer, inkludert leasing, med NNV etter skatt som kriterium.
 
+<!--
 ## Slik bruker du modulen
 
 Siden modulen er bygget opp kronologisk, anbefales det at du følger innholdet i rekkefølge for å få oversikt og sammenheng. Deretter kan du hoppe tilbake til spesifikke temaer etter behov.
+-->
 
 ## Innhold og anbefalt progresjon
 - [1. Introduksjon](01-introduksjon)

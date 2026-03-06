@@ -17,11 +17,13 @@ Dette er den nettsiden for bacheloremnet [BED3 - Investering og finans](https://
 
 Kurset gir deg en innføring i sentrale begreper og verktøy innen investering og finansiering. Du vil lære å analysere og vurdere investeringsprosjekter, forstå hvordan kapitalmarkedene fungerer, og se hvordan virksomheter kan ta gode finansielle beslutninger.
 
+<!--
 Nettsiden er delt inn i moduler som speiler undervisningsplanen. Du vil finne:
 
 - Oversiktlige temasider for hver forelesning
 - Tydelig informasjon om vurderingsformer og krav
 - Praktisk informasjon om undervisning, gruppearbeid og frister
+-->
 
 ## Hva lærer du i dette kurset?
 
@@ -38,6 +40,11 @@ I dette kurset lærer du å:
 
 ---
 
+## Navigasjon
+
+På denne siden finner du relevant informasjon om kurset ([Om kurset](kursinformasjon.qmd)), formelarket ([formelark](formelark.qmd)), og teorivideoer knyttet til kursets moduler om investeringsanalyse og finansielle markeder og kontrakter ([kursinnhold](kursinnhold.qmd)).
+
+<!--
 ## Hvordan skal du lære dette?
 
 For å lykkes i dette kurset er kombinasjonen av arbeid med pensumlitteratur, forelesninger og oppgavetrening de tre sentrale pillarene som danner grunnlaget for læringen. Se [Om kurset](kursinformasjon.qmd) for detaljer.
@@ -50,6 +57,7 @@ Pensumlitteratur, forelesninger og oppgavene dekker en rekke teamer, som overord
 4. Derivater og risikostyring
 
 For en detaljert oversikt, se [Forelesningsplanen](forelesningsplan.qmd).
+-->
 
 ## Emneansvarlig
 
@@ -86,6 +94,7 @@ _{person$role}_
 :::
 ---
 
+<!--
 ## Praktisk informasjon
 
 - **Forelesninger**: Tirsdager kl 12:15-14:00 og fredager, kl. 10:15–12:00 (Aud. Max)
@@ -93,7 +102,6 @@ _{person$role}_
 - **Vurdering**: Skriftlig skoleeksamen
 - **Krav**: Kurset er obligatorisk for bachelorstudenter i økonomi og administrasjon
 
-<!--
 ---
 
 ## Hvordan bruke denne siden

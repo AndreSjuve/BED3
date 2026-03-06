@@ -1,6 +1,6 @@
 ---
-title: Selvstendige temaer
-description: Moduloversikt, læringsmål, og innholdsfortegnelse
+title: Finansielle markeder og kontrakter
+description: Moduloversikt, læringsmål, innholdsfortegnelse, og anbefalt progresjon.
 number-sections: false
 page-navigation: true
 #listing:
@@ -11,16 +11,20 @@ page-navigation: true
 #  fields: [title, description]
 ---
 
-## Velkommen
+## Læringsmål
 
-Modulen følger samme struktur som tidligere års forelesninger, og videoene gjenspeiler det som tidligere ble gjennomgått i forelesningene. Med dette overført til en nettbasert modul er ideen at forelesningstid i Aud.Max kan brukes til å arbeide med caseoppgaver, diskutere problemstillinger, og svare på spørsmål.
+Når du mestrer denne modulen, skal du kunne:
 
-## Slik bruker du modulen
-
-Denne modulen inneholder fire selvstendige temaer. Det er derfor ikke nødvendig å se hvert tema i rekkefølge.
+- Forklare hvordan finansielle markeder priser fremtidige kontantstrømmer gjennom renter, derivater og valuta.
+- Analysere obligasjoner og forstå sammenhengen mellom pris, rente, løpetid og rentekurven.
+- Tolke rentekurven og forklare hva den kan si om forventninger til økonomisk utvikling.
+- Forklare og beregne terminrenter og forstå sammenhengen mellom spotrenter og fremtidige renter.
+- Forstå hvordan termin- og futureskontrakter brukes til prising og sikring av fremtidige priser.
+- Forklare grunnleggende prinsipper for opsjonsprising og hvordan opsjoner brukes til å håndtere risiko.
+- Forstå sentrale sammenhenger i internasjonal finans, inkludert valutakurser og renteparitet.
 
 ## Innhold og anbefalt progresjon
 - [1. Rentemarkedet](01-rentemarkedet)
-- [2. Investeringsprosjekter](02-opsjoner)
-- [3. Effekter av skatt og lån](03-terminer)
-- [4. Effekter av inflasjon](04-valuta)
+- [2. Opsjonskontrakter](02-opsjoner)
+- [3. Terminkontrakter](03-terminer)
+- [4. Internasjonal finans](04-valuta)

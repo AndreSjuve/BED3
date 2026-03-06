@@ -26,9 +26,9 @@ website:
       - text: "Om kurset"
         icon: info-circle-fill
         href: kursinformasjon.qmd
-      - text: "Forelesningsplan"
-        icon: calendar-fill
-        href: forelesningsplan.qmd
+     # - text: "Forelesningsplan"
+     #   icon: calendar-fill
+     #   href: forelesningsplan.qmd
       - text: "Formelark"
         icon: calculator
         href: formelark.qmd
@@ -47,7 +47,7 @@ website:
       style: docked
       contents:
         - section: "Introduksjon til kursinnholdet"
-          collapse: true
+          collapse: false
           contents:
             - text: "Forord"
               href: kursmateriale/00-introduksjon/0-forord.qmd
@@ -56,7 +56,7 @@ website:
             - text: "Innledning til investering og finans"
               href: kursmateriale/00-introduksjon/0-intro_finans.qmd
         - section: "Moduler"
-          collapse: true
+          collapse: false
           contents:
             - section: "Investeringsanalyse"
               href: kursmateriale/01-investeringsanalyse/index.qmd
@@ -74,18 +74,20 @@ website:
                   href: kursmateriale/01-investeringsanalyse/05-risikovurderinger/index.qmd
                 - text: "6. Låne- og betalingsalternativer"
                   href: kursmateriale/01-investeringsanalyse/06-laane-og-betalingsalternativer/index.qmd
-            - section: "Selvstendige temaer"
+            - section: "Finansielle markeder og kontrakter"
               href: kursmateriale/02-markeder/index.qmd
               collapse: true
               contents:
-                - text: "7. Rentemarkedet"
-                  href: kursmateriale/02-markeder/01-rentemarkedet/index.qmd
-                - text: "8. Opsjonskontrakter"
-                  href: kursmateriale/02-markeder/02-opsjoner/index.qmd
-                - text: "9. Terminkontrakter"
-                  href: kursmateriale/02-markeder/03-terminer/index.qmd
-                - text: "10. Internasjonal finans"
-                  href: kursmateriale/02-markeder/04-valuta/index.qmd
+                - text: "Introduksjon"
+                  href: kursmateriale/02-markeder/01-introduksjon/index.qmd
+                - text: "13. Rentemarkedet"
+                  href: kursmateriale/02-markeder/02-rentemarkedet/index.qmd
+                - text: "14. Opsjonskontrakter"
+                  href: kursmateriale/02-markeder/03-opsjoner/index.qmd
+                - text: "15. Terminkontrakter"
+                  href: kursmateriale/02-markeder/04-terminer/index.qmd
+                - text: "16. Internasjonal finans"
+                  href: kursmateriale/02-markeder/05-valuta/index.qmd
 
 
 

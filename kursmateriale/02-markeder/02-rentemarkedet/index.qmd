@@ -14,8 +14,6 @@ description: Oversikt, prising av obligasjoner og risikoberegninger
 
 ## Forelesningsplansjer {.unnumbered}
 
-<!--
-<iframe src="../../../assets/slides/BED3-F05-Laane_og_betalingsalternativer.pdf" width="100%" height="600px" style="border:none; margin-top: 1em; margin-bottom: 1em;"></iframe>
+<iframe src="../../../assets/slides/BED3-F13-Rentemarkedet.pdf" width="100%" height="600px" style="border:none; margin-top: 1em; margin-bottom: 1em;"></iframe>
 
-[📥 Last ned presentasjonen som pdf](../../../assets/slides/BED3-F05-Laane_og_betalingsalternativer.pdf){.btn .btn-primary target="_blank"}
--->
+[📥 Last ned presentasjonen som pdf](../../../assets/slides/BED3-F13-Rentemarkedet.pdf){.btn .btn-primary target="_blank"}
