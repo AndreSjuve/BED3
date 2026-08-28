@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <style>
+        @layer base {
+
+            html,
+            body {
+                margin: 0;
+                padding: 0;
+            }
+
+            body {
+                overscroll-behavior: none;
+            }
+
+            main>:first-child {
+                margin-top: 0 !important;
+            }
+
+            main>:last-child {
+                margin-bottom: 0 !important;
+            }
+        }
+
+        ::-webkit-scrollbar {
+            display: none;
+        }
+
+        header nav a {
+            font-variant: all-small-caps;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Eb+Garamond:wght@400;500;700&amp;display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@100..900&amp;display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+        id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "tertiary-fixed-dim": "#e0bfb8", "surface-dim": "#e0d9cf", "primary-fixed-dim": "#ffb3ae", "on-primary": "#ffffff", "error": "#ba1a1a", "primary-fixed": "#ffdad7", "surface-bright": "#fff8f2", "surface": "#fff8f2", "on-tertiary-fixed-variant": "#59413c", "inverse-on-surface": "#f8f0e6", "secondary-container": "#ffd6d5", "on-tertiary-fixed": "#291713", "tertiary-container": "#4c3631", "primary": "#50070b", "secondary-fixed-dim": "#e5bdbc", "on-secondary-fixed-variant": "#5c3f3f", "on-error": "#ffffff", "primary-container": "#6e1e1e", "on-surface-variant": "#554241", "background": "#fff8f2", "surface-container-high": "#efe7dd", "secondary-fixed": "#ffdad9", "tertiary-fixed": "#fedbd3", "error-container": "#ffdad6", "on-primary-fixed-variant": "#7e2a29", "surface-container-low": "#fbf2e8", "on-error-container": "#93000a", "on-primary-container": "#f4857f", "on-tertiary-container": "#be9f98", "on-background": "#1e1b15", "surface-container-lowest": "#ffffff", "on-secondary": "#ffffff", "on-surface": "#1e1b15", "inverse-primary": "#ffb3ae", "inverse-surface": "#343029", "on-tertiary": "#ffffff", "surface-variant": "#e9e1d8", "surface-container": "#f5ede3", "outline": "#887270", "tertiary": "#34211c", "on-secondary-fixed": "#2c1515", "outline-variant": "#dbc0be", "on-primary-fixed": "#410005", "surface-container-highest": "#e9e1d8", "on-secondary-container": "#7a5b5a", "surface-tint": "#9d413e", "secondary": "#765756" }, "borderRadius": { "DEFAULT": "0px", "lg": "0px", "xl": "0px", "full": "9999px" }, "spacing": { "unit": "8px", "margin-page": "64px", "margin-mobile": "24px", "gutter": "32px", "section-gap": "80px", "hairline": "1px" }, "fontFamily": { "headline": ["EB Garamond"], "display": ["EB Garamond"], "body": ["EB Garamond"], "label": ["EB Garamond"] } } } }</script>
+</head>
+
+<body class="bg-[#F5EDE3] font-body text-[#2A1414]">
+    <header class="fixed top-0 w-full z-50 bg-[#F5EDE3]/95 border-b border-[#6E1E1E]">
+        <div class="h-20 max-w-7xl mx-auto px-margin-page flex items-center justify-between">
+            <div class="flex items-center gap-gutter"><span
+                    class="font-headline text-[#6E1E1E] text-2xl uppercase tracking-widest">Capital Budgeting &amp;
+                    Finance</span>
+                <nav class="hidden md:flex items-center gap-8" data-active-classes="text-[#6E1E1E] font-bold"><a
+                        aria-current="page" class="transition-colors tracking-widest uppercase text-[#6E1E1E] font-bold"
+                        data-path="overview" href="#">overview</a><a
+                        class="text-label text-on-surface-variant hover:text-[#6E1E1E] transition-colors tracking-widest uppercase"
+                        data-path="syllabus" href="#">syllabus</a><a
+                        class="text-label text-on-surface-variant hover:text-[#6E1E1E] transition-colors tracking-widest uppercase"
+                        data-path="modules" href="#">modules</a><a
+                        class="text-label text-on-surface-variant hover:text-[#6E1E1E] transition-colors tracking-widest uppercase"
+                        data-path="formula-sheet" href="#">formula sheet</a><a
+                        class="text-label text-on-surface-variant hover:text-[#6E1E1E] transition-colors tracking-widest uppercase"
+                        data-path="schedule" href="#">schedule</a></nav>
+            </div>
+            <div class="flex items-center gap-4"><img alt="Profile"
+                    class="w-8 h-8 object-cover grayscale hover:grayscale-0 transition-all border border-[#6E1E1E]"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCG_7bnZcmRBKtyQg3dCMyESZHek4gw_zQT3IXMOXGPu38wkT-ADwze6pV6HhK5NGofRrzJ6bEi75vqtqn9DMXf-2BQafCX7hLr2WUNEkrMcivhntQ_ft0ETMr1z11G3betTa0n_8bzEr-3bbpSlcdKxlYBZ82edHqprUVdib1MdSbF1JE14PR5K__Uezy4JoeQ-SbFVTjhoZy1SsLSJy1YbgCvH33Cyeeg1BbrMQBAO3H-aNFAaYxf">
+            </div>
+        </div>
+    </header>
+    <main class="w-full pt-20 min-h-screen bg-[#F5EDE3]">
+        <div class="flex flex-col w-full text-[#2A1414]">
+            <div class="w-full h-hairline bg-[#6E1E1E]"></div>
+            <div
+                class="max-w-7xl mx-auto px-margin-page py-section-gap grid grid-cols-1 md:grid-cols-12 gap-gutter w-full">
+                <div class="md:col-span-8 flex flex-col gap-16">
+                    <section class="flex flex-col gap-8">
+                        <h1 class="font-display text-display-lg text-[#6E1E1E] uppercase tracking-widest leading-tight">
+                            Course<br>Overview</h1>
+                        <p class="font-body text-body-lg text-on-surface-variant leading-relaxed max-w-prose">
+                            Capital budgeting is the process a business uses to evaluate potential major projects or
+                            investments. Building a new plant or taking a large stake in an outside venture are examples
+                            of projects that typically require capital budgeting before they are approved or rejected.
+                        </p>
+                        <p class="font-body text-body-lg text-on-surface-variant leading-relaxed max-w-prose">
+                            This course provides a rigorous, quantitative foundation in corporate financial theory,
+                            focusing primarily on the valuation of real assets and the optimal financing of those
+                            investments. Students will master techniques such as Net Present Value (NPV), Internal Rate
+                            of Return (IRR), and real options analysis within the context of uncertainty and strategic
+                            market behavior.
+                        </p>
+                        <div class="flex items-center gap-6 mt-4">
+                            <a class="inline-flex items-center justify-center bg-[#6E1E1E] text-[#F5EDE3] font-label px-8 py-4 tracking-widest uppercase hover:bg-[#2A1414] transition-colors w-fit"
+                                href="#">Download Syllabus</a>
+                            <a class="inline-flex items-center justify-center text-[#6E1E1E] font-label tracking-widest uppercase hover:text-[#2A1414] transition-colors w-fit group relative"
+                                href="#">
+                                View Schedule
+                                <div
+                                    class="absolute bottom-0 left-0 w-full h-hairline bg-[#6E1E1E] origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-300">
+                                </div>
+                            </a>
+                        </div>
+                    </section>
+                    <div class="w-full h-hairline bg-[#6E1E1E]"></div>
+                    <section class="flex flex-col gap-12">
+                        <h2
+                            class="font-headline text-headline-md text-[#6E1E1E] uppercase tracking-widest flex items-center gap-4">
+                            <span class="text-sm opacity-50 font-label">I.</span> Distinguished Faculty
+                        </h2>
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                            <!-- Instructor 1 -->
+                            <div class="flex flex-col gap-6 group">
+                                <img alt="Prof. Alistair Sterling"
+                                    class="w-32 h-32 rounded-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
+                                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuAvDzA7JL2a7WPBUisaNDzIpoNVQH0npMAMtuwL9FQ733HCAWsqwdPxD_PYBWCOVlskjJmUTmPnRFBenkKNKGZ-F51f0_JTRuwPExS6D4oNu0xH9QYxcJ4oHjp25r4YslgmD6u-t8KNHSBtpVRq1324jDnThyULOMzDk6C-utp_J2HpzEWYecRIl0jDua6xYoplNzxZwTvohoTTPP1dWHzfOsCNrB0WjNAwFRXsr6tBiDOeb4a8dMQy">
+                                <div class="flex flex-col gap-2">
+                                    <h3 class="font-headline text-xl text-[#6E1E1E] tracking-wide">Prof. Alistair
+                                        Sterling</h3>
+                                    <span
+                                        class="font-label text-label-caps text-on-surface-variant uppercase tracking-widest">Lead
+                                        Instructor</span>
+                                </div>
+                                <div class="flex flex-col gap-1 font-body text-sm text-on-surface-variant">
+                                    <a class="hover:text-[#6E1E1E] transition-colors inline-flex items-center gap-2"
+                                        href="mailto:asterling@university.edu">
+                                        <span class="material-symbols-outlined text-[16px]">mail</span>
+                                        asterling@university.edu
+                                    </a>
+                                    <div class="inline-flex items-center gap-2">
+                                        <span class="material-symbols-outlined text-[16px]">schedule</span>
+                                        Tue/Thu 14:00 - 16:00
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Instructor 2 -->
+                            <div class="flex flex-col gap-6 group">
+                                <img alt="Dr. Eleanor Vance"
+                                    class="w-32 h-32 rounded-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
+                                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuBObTGShsbGm4Ie0i8sKIGocEQAZc88zsFX9NtfegwKt7fB_TuAN0Kv04E1SaBIFD3-7C-n_ll0UUHX8mqfthLfEb7Urx7wkk0_481ij3Ta_-tiTl7bLldSz9bAaSqD05EJz9zOhl8pia_gs5J6RM1Hn-vlziOUBFr_RU9xBolUba5o4xWw7MqJl8KbGLJ6aOPfuKAleRIF5wyZIriTPSoL8e50OacZH-aROrau5_p-HDxA53ih6e7T">
+                                <div class="flex flex-col gap-2">
+                                    <h3 class="font-headline text-xl text-[#6E1E1E] tracking-wide">Dr. Eleanor Vance
+                                    </h3>
+                                    <span
+                                        class="font-label text-label-caps text-on-surface-variant uppercase tracking-widest">Co-Instructor</span>
+                                </div>
+                                <div class="flex flex-col gap-1 font-body text-sm text-on-surface-variant">
+                                    <a class="hover:text-[#6E1E1E] transition-colors inline-flex items-center gap-2"
+                                        href="mailto:evance@university.edu">
+                                        <span class="material-symbols-outlined text-[16px]">mail</span>
+                                        evance@university.edu
+                                    </a>
+                                    <div class="inline-flex items-center gap-2">
+                                        <span class="material-symbols-outlined text-[16px]">schedule</span>
+                                        Wed 10:00 - 12:00
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Instructor 3 -->
+                            <div class="flex flex-col gap-6 group">
+                                <img alt="Prof. Julian Thorne"
+                                    class="w-32 h-32 rounded-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
+                                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuAJLSZZLs09wtTQnYdcX_swcX2QjcgrLS7RKuNL4DZikS-eUH7YcKUzMzOlj5xVHzYcpuw5VQIWsUY1THK9gkccbQR9beAsewrRz97s3JWCl27FuZJN6lkWDv8N9TylOlhUR71KhV7K9uL3uDT5E0SoogKKsdFtSSBybBHmi2WDnhIfK0mdYm2Cmebq5c9SPpzyFcvJMXnKVRtM1naiDablM481ypkwcCPYgn64cXIp5d8BBNy5ehfl">
+                                <div class="flex flex-col gap-2">
+                                    <h3 class="font-headline text-xl text-[#6E1E1E] tracking-wide">Prof. Julian Thorne
+                                    </h3>
+                                    <span
+                                        class="font-label text-label-caps text-on-surface-variant uppercase tracking-widest">Guest
+                                        Lecturer</span>
+                                </div>
+                                <div class="flex flex-col gap-1 font-body text-sm text-on-surface-variant">
+                                    <a class="hover:text-[#6E1E1E] transition-colors inline-flex items-center gap-2"
+                                        href="mailto:jthorne@university.edu">
+                                        <span class="material-symbols-outlined text-[16px]">mail</span>
+                                        jthorne@university.edu
+                                    </a>
+                                    <div class="inline-flex items-center gap-2">
+                                        <span class="material-symbols-outlined text-[16px]">schedule</span>
+                                        Mon 13:00 - 15:00
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="w-full h-hairline bg-[#6E1E1E]"></div>
+                    <section class="flex flex-col gap-12">
+                        <h2
+                            class="font-headline text-headline-md text-[#6E1E1E] uppercase tracking-widest flex items-center gap-4">
+                            <span class="text-sm opacity-50 font-label">II.</span> Theoretical Framework
+                        </h2>
+                        <div class="flex flex-col gap-8 bg-surface-container p-12">
+                            <h3 class="font-headline text-2xl text-[#2A1414] tracking-wide">Net Present Value (NPV)
+                                Profile</h3>
+                            <p class="font-body text-body-md text-on-surface-variant max-w-2xl">
+                                The NPV profile graphically illustrates the relationship between a project's net present
+                                value and the discount rate applied. The intersection with the horizontal axis
+                                represents the project's Internal Rate of Return (IRR).
+                            </p>
+                            <div class="w-full">
+                                <img alt="NPV Diagram" class="w-full h-auto object-contain"
+                                    src="https://lh3.googleusercontent.com/aida/AEtjO1WZzFSOzYa2UI0dJeXVqAu5t2bzORDUsjwbamCPPDBlZHgQJM7P3dWri2PJdZNCeyfAx6SPAmB7V6jLnyiOQVbLyYQZ6-_2ndN0izjX56huxWhEwR_yNMFNYrAJWWpdXbaM8w0ctojWXa-YHI0aeb1yc0GT_Dvwk1jdtFhAczNLLNECBgDFrEk4cPrvk9Doies-Aerho-oXdzEi6w7jeF6pvBLWOxfzx0tvOjxo4tCfKjYfkcVMAC7dKs8">
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <aside class="md:col-span-4 flex flex-col gap-12 border-l border-[#6E1E1E] pl-gutter">
+                    <div class="flex flex-col gap-6">
+                        <h3
+                            class="font-label text-label-caps text-on-surface-variant uppercase tracking-widest pb-4 border-b border-[#6E1E1E]">
+                            Quick Resources</h3>
+                        <ul class="flex flex-col gap-4 font-headline text-lg">
+                            <li class=""><a
+                                    class="text-[#6E1E1E] hover:text-[#2A1414] transition-colors flex items-center justify-between group"
+                                    href="#"><span class="">Required Texts</span><span
+                                        class="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-opacity">arrow_forward</span></a>
+                            </li>
+                            <li class=""><a
+                                    class="text-[#6E1E1E] hover:text-[#2A1414] transition-colors flex items-center justify-between group"
+                                    href="#"><span class="">Case Studies Archive</span><span
+                                        class="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-opacity">arrow_forward</span></a>
+                            </li>
+                            <li class=""><a
+                                    class="text-[#6E1E1E] hover:text-[#2A1414] transition-colors flex items-center justify-between group"
+                                    href="#"><span class="">Financial Modeling Templates</span><span
+                                        class="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-opacity">arrow_forward</span></a>
+                            </li>
+                            <li class=""><a
+                                    class="text-[#6E1E1E] hover:text-[#2A1414] transition-colors flex items-center justify-between group"
+                                    href="#"><span class="">Grading Rubric</span><span
+                                        class="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-opacity">arrow_forward</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="flex flex-col gap-6 p-8 border-t border-b border-[#6E1E1E]">
+                        <h3 class="font-label text-label-caps text-[#6E1E1E] uppercase tracking-widest">Notice</h3>
+                        <p class="font-body text-sm text-[#2A1414] italic">
+                            All case write-ups must be submitted via the department portal prior to the commencement of
+                            the lecture. Late submissions will incur a half-grade penalty per diurnal period.
+                        </p>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+    <footer class="w-full bg-[#F5EDE3] border-t border-[#6E1E1E] py-section-gap">
+        <div class="max-w-7xl mx-auto px-margin-page">
+            <div class="w-full h-hairline bg-[#6E1E1E] mb-8"></div>
+            <div class="w-full mb-8 flex flex-col gap-2"><span
+                    class="text-label-caps text-[#6E1E1E] uppercase tracking-widest text-sm">Schedule &amp;
+                    Location</span>
+                <p class="text-body text-[#2A1414] opacity-80">Lectures: Tuesdays &amp; Thursdays, 2:00 PM — 4:00 PM |
+                    Room 402, Economics Building</p>
+            </div>
+            <div class="flex justify-between items-end">
+                <div class="max-w-md">
+                    <h4 class="font-headline text-[#6E1E1E] text-xl uppercase mb-4 tracking-widest">Academic Integrity
+                        &amp; Excellence</h4>
+                    <p class="text-body text-[#2A1414] opacity-80">All course materials are copyright of the University
+                        Finance Department. For scholarly use only.</p>
+                </div>
+                <div class="text-right"><span class="text-label text-[#2A1414] tracking-widest">EST. MCMXXIV</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
