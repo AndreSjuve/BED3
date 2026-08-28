@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Formelark — BED3</title>
+<meta name="description" content="Formelark for BED3: nåverdi, kontantstrømmer, kapitalkostnad og verdsetting.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 fill=%27%23F5EDE3%27/%3E%3Ctext x=%2716%27 y=%2723%27 font-family=%27Georgia,serif%27 font-size=%2720%27 fill=%27%236E1E1E%27 text-anchor=%27middle%27%3EB%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="shell">
+    <div class="masthead__inner">
+      <a class="wordmark" href="index.html">BED3 <span>· Investering og finans</span></a>
+      <nav class="nav" aria-label="Hovedmeny">
+        <a href="index.html">Forsiden</a>
+        <a href="om-kurset.html">Om kurset</a>
+        <a href="kursinnhold.html">Kursinnhold</a>
+        <a href="formelark.html" aria-current="page">Formelark</a>
+        <a href="timeplan.html">Timeplan</a>
+      </nav>
+    </div>
+    <details class="nav-toggle">
+      <summary>Formelark</summary>
+      <nav class="nav" aria-label="Hovedmeny">
+        <a href="index.html">Forsiden</a>
+        <a href="om-kurset.html">Om kurset</a>
+        <a href="kursinnhold.html">Kursinnhold</a>
+        <a href="formelark.html" aria-current="page">Formelark</a>
+        <a href="timeplan.html">Timeplan</a>
+      </nav>
+    </details>
+  </div>
+</header>
+
+<main class="shell">
+
+  <div class="page-head">
+    <div class="aside-col">
+      <div>
+        <h1>Formelark</h1>
+        <p class="lead measure">Formlene du får ha med deg på eksamen, samlet med
+          symbolforklaringer. Symbolene er de samme som brukes i videoene.</p>
+        <p style="margin-top:var(--sp-3)">
+          <a class="button button--quiet" href="#">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11m0 0l-4-4m4 4l4-4M5 19h14"/></svg>
+            Last ned som PDF
+          </a>
+        </p>
+      </div>
+      <aside>
+        <h3 style="margin-top:0">Hopp til</h3>
+        <hr class="rule rule--tight">
+        <ul class="marked" style="font-size:var(--size-small)">
+          <li><a href="#naaverdi">Nåverdi og kontantstrømmer</a></li>
+          <li><a href="#risiko">Risiko og avkastning</a></li>
+          <li><a href="#kapitalkostnad">Kapitalkostnad</a></li>
+          <li><a href="#verdsetting">Verdsetting</a></li>
+        </ul>
+      </aside>
+    </div>
+  </div>
+
+  <section id="naaverdi" aria-labelledby="h-naaverdi">
+    <h2 id="h-naaverdi">Nåverdi og kontantstrømmer</h2>
+
+    <div class="formula-grid">
+
+      <div class="formula">
+        <h3>Nåverdi</h3>
+        <div class="formula__body" data-tex="\text{NPV} = -C_0 + \sum_{t=1}^{T} \frac{C_t}{(1+r)^t}"></div>
+        <dl class="glossary">
+          <div><dt>C<sub>t</sub></dt><dd>kontantstrøm i periode t</dd></div>
+          <div><dt>r</dt><dd>avkastningskrav (alternativkostnad)</dd></div>
+          <div><dt>C<sub>0</sub></dt><dd>investering i dag</dd></div>
+        </dl>
+      </div>
+
+      <div class="formula">
+        <h3>Internrente</h3>
+        <div class="formula__body" data-tex="0 = -C_0 + \sum_{t=1}^{T} \frac{C_t}{(1+\text{IRR})^t}"></div>
+        <p class="note">Renten der nåverdien er null. Løses numerisk eller ved
+          interpolasjon; kan ha flere løsninger når kontantstrømmen skifter fortegn
+          mer enn én gang.</p>
+      </div>
+
+      <div class="formula">
+        <h3>Annuitet</h3>
+        <div class="formula__body" data-tex="\text{PV} = C \cdot \frac{1 - (1+r)^{-T}}{r}"></div>
+        <dl class="glossary">
+          <div><dt>C</dt><dd>fast beløp per periode</dd></div>
+          <div><dt>T</dt><dd>antall perioder</dd></div>
+        </dl>
+      </div>
+
+      <div class="formula">
+        <h3>Evigvarende kontantstrøm</h3>
+        <div class="formula__body" data-tex="\text{PV} = \frac{C}{r - g}"></div>
+        <p class="note">Krever <em>g</em> &lt; <em>r</em>. Med konstant vekst
+          <em>g</em>; sett <em>g</em> = 0 for en vanlig evigvarende strøm.</p>
+      </div>
+
+      <div class="formula">
+        <h3>Effektiv rente</h3>
+        <div class="formula__body" data-tex="r_{\text{eff}} = \left(1 + \frac{r_{\text{nom}}}{m}\right)^{m} - 1"></div>
+        <dl class="glossary">
+          <div><dt>m</dt><dd>antall renteperioder per år</dd></div>
+        </dl>
+      </div>
+
+      <div class="formula">
+        <h3>Realrente</h3>
+        <div class="formula__body" data-tex="1 + r_{\text{real}} = \frac{1 + r_{\text{nom}}}{1 + i}"></div>
+        <dl class="glossary">
+          <div><dt>i</dt><dd>inflasjonsrate</dd></div>
+        </dl>
+        <p class="note">Diskonter nominelle kontantstrømmer med nominell rente, reelle
+          med reell. Å blande de to er den vanligste feilen på eksamen.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="asterism" aria-hidden="true"></div>
+
+  <section id="risiko" aria-labelledby="h-risiko">
+    <h2 id="h-risiko">Risiko og avkastning</h2>
+
+    <div class="formula-grid">
+
+      <div class="formula">
+        <h3>Forventet avkastning</h3>
+        <div class="formula__body" data-tex="E(R) = \sum_{s} p_s R_s"></div>
+        <dl class="glossary">
+          <div><dt>p<sub>s</sub></dt><dd>sannsynlighet for tilstand s</dd></div>
+        </dl>
+      </div>
+
+      <div class="formula">
+        <h3>Varians og standardavvik</h3>
+        <div class="formula__body" data-tex="\sigma^2 = \sum_{s} p_s \big(R_s - E(R)\big)^2"></div>
+        <p class="note">Standardavviket er kvadratroten av variansen, og måles i samme
+          enhet som avkastningen.</p>
+      </div>
+
+      <div class="formula">
+        <h3>Porteføljeavkastning</h3>
+        <div class="formula__body" data-tex="E(R_p) = w_A E(R_A) + w_B E(R_B)"></div>
+        <dl class="glossary">
+          <div><dt>w</dt><dd>andel av porteføljen</dd></div>
+        </dl>
+      </div>
+
+      <div class="formula formula--wide">
+        <h3>Porteføljevarians</h3>
+        <div class="formula__body" data-tex="\sigma_p^2 = w_A^2\sigma_A^2 + w_B^2\sigma_B^2 + 2w_A w_B \rho_{AB}\sigma_A\sigma_B"></div>
+        <p class="note">Det er korrelasjonsleddet som gir diversifiseringsgevinsten.
+          Når <em>ρ</em> &lt; 1 er porteføljens risiko lavere enn det veide snittet av
+          de enkelte risikoene.</p>
+      </div>
+
+      <div class="formula">
+        <h3>Beta</h3>
+        <div class="formula__body" data-tex="\beta_i = \frac{\operatorname{Cov}(R_i, R_m)}{\sigma_m^2}"></div>
+        <dl class="glossary">
+          <div><dt>R<sub>m</sub></dt><dd>markedsavkastning</dd></div>
+        </dl>
+      </div>
+
+      <div class="formula">
+        <h3>Kapitalverdimodellen</h3>
+        <div class="formula__body" data-tex="E(R_i) = R_f + \beta_i \big(E(R_m) - R_f\big)"></div>
+        <dl class="glossary">
+          <div><dt>R<sub>f</sub></dt><dd>risikofri rente</dd></div>
+          <div><dt>E(R<sub>m</sub>) − R<sub>f</sub></dt><dd>markedets risikopremie</dd></div>
+        </dl>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="asterism" aria-hidden="true"></div>
+
+  <section id="kapitalkostnad" aria-labelledby="h-kapitalkostnad">
+    <h2 id="h-kapitalkostnad">Kapitalkostnad</h2>
+
+    <div class="formula-grid">
+
+      <div class="formula">
+        <h3>Veid kapitalkostnad</h3>
+        <div class="formula__body" data-tex="\text{WACC} = \frac{E}{V} r_E + \frac{D}{V} r_D (1 - s)"></div>
+        <dl class="glossary">
+          <div><dt>E, D</dt><dd>markedsverdi av egenkapital og gjeld</dd></div>
+          <div><dt>V</dt><dd>E + D</dd></div>
+          <div><dt>s</dt><dd>skattesats</dd></div>
+        </dl>
+      </div>
+
+      <div class="formula">
+        <h3>Ugiret beta</h3>
+        <div class="formula__body" data-tex="\beta_U = \frac{\beta_E}{1 + (1-s)\frac{D}{E}}"></div>
+        <p class="note">Fjerner effekten av finansieringsstrukturen, slik at bare den
+          underliggende driftsrisikoen står igjen.</p>
+      </div>
+
+      <div class="formula formula--wide">
+        <h3>Fri kontantstrøm til totalkapitalen</h3>
+        <div class="formula__body" data-tex="\text{FCFF} = \text{EBIT}(1-s) + \text{avskrivninger} - \Delta \text{AK} - \text{investeringer}"></div>
+        <dl class="glossary">
+          <div><dt>ΔAK</dt><dd>endring i arbeidskapital</dd></div>
+        </dl>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="asterism" aria-hidden="true"></div>
+
+  <section id="verdsetting" aria-labelledby="h-verdsetting">
+    <h2 id="h-verdsetting">Verdsetting</h2>
+
+    <div class="formula-grid">
+
+      <div class="formula">
+        <h3>Obligasjonspris</h3>
+        <div class="formula__body" data-tex="P = \sum_{t=1}^{T} \frac{K}{(1+y)^t} + \frac{P_{\text{pålydende}}}{(1+y)^T}"></div>
+        <dl class="glossary">
+          <div><dt>K</dt><dd>kupongbetaling</dd></div>
+          <div><dt>y</dt><dd>effektiv rente til forfall</dd></div>
+        </dl>
+      </div>
+
+      <div class="formula">
+        <h3>Dividendemodellen</h3>
+        <div class="formula__body" data-tex="P_0 = \frac{D_1}{r_E - g}"></div>
+        <p class="note">Samme struktur som en evigvarende kontantstrøm med vekst.
+          Følsom for <em>g</em>: små endringer gir store utslag når <em>g</em> nærmer
+          seg <em>r</em>.</p>
+      </div>
+
+      <div class="formula formula--wide">
+        <h3>Selskapsverdi</h3>
+        <div class="formula__body" data-tex="\text{EV} = \text{markedsverdi EK} + \text{gjeld} - \text{kontanter}"></div>
+      </div>
+
+    </div>
+  </section>
+
+  <p class="note" style="margin-top:var(--sp-6)">Formelutvalget er en designskisse.
+    Det endelige formelarket avklares mot eksamensreglementet.</p>
+
+</main>
+
+<footer class="colophon">
+  <div class="shell colophon__grid">
+    <div>
+      <h4>BED3 – Investering og finans</h4>
+      <p>Norges Handelshøyskole</p>
+    </div>
+    <div>
+      <h4>Forelesninger</h4>
+      <p class="tnum">Tirsdag 12:15 – 14:00<br>Fredag 10:15 – 12:00<br>Aud. Max.</p>
+    </div>
+    <div>
+      <h4>Sider</h4>
+      <p><a href="om-kurset.html">Om kurset</a><br>
+         <a href="kursinnhold.html">Kursinnhold</a><br>
+         <a href="formelark.html">Formelark</a><br>
+         <a href="timeplan.html">Timeplan</a></p>
+    </div>
+    <div>
+      <h4>Kontakt</h4>
+      <p><a href="mailto:andre.sjuve@nhh.no">andre.sjuve@nhh.no</a></p>
+      <p>© 2025–2026 André Wattø Sjuve</p>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.js"></script>
+<script>
+document.querySelectorAll('[data-tex]').forEach(function (el) {
+  try {
+    katex.render(el.getAttribute('data-tex'), el, { displayMode: true, throwOnError: false });
+  } catch (e) {
+    el.textContent = el.getAttribute('data-tex');
+  }
+});
+</script>
+
+</body>
+</html>

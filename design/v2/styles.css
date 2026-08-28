@@ -1,0 +1,734 @@
+/* ==========================================================================
+   BED3 — Investering og finans
+   Visual system v2. One stylesheet, one source of truth.
+
+   Derived from the two Stitch v1 screens that worked (formelark, timeplan):
+   hairline rules, horizontal-only tables, roman numerals, italic marginalia.
+   Corrections applied: real type scale, ink headings, oxblood reserved for
+   function, mixed case, no vertical rules, mobile tokens actually used.
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+
+/* --------------------------------------------------------------------------
+   Tokens
+   -------------------------------------------------------------------------- */
+
+:root {
+  /* Ink on paper. Four colours; everything else is a tint of the oxblood. */
+  --paper:        #F5EDE3;
+  --ink:          #2A1414;  /* headings, primary text      — 14.98:1 on paper */
+  --sepia:        #4A342F;  /* body copy                   —  9.93:1 on paper */
+  --muted:        #6B5750;  /* metadata, captions          —  5.71:1 on paper */
+  --oxblood:      #6E1E1E;  /* links, marks, rules, button —  9.70:1 on paper */
+
+  /* Oxblood tints. The hairline is a rule you read past, not one you read. */
+  --rule:         #E1CEC5;  /* oxblood 15% over paper */
+  --rule-strong:  #C9A9A1;  /* oxblood 32% — the page's one hard rule */
+  --wash:         #EFE3DB;  /* oxblood  6% — the single permitted fill */
+
+  /* Type */
+  --display-face: 'Cormorant Garamond', 'EB Garamond', Georgia, serif;
+  --text-face:    'EB Garamond', Georgia, 'Times New Roman', serif;
+
+  --size-display: clamp(2.5rem, 1.55rem + 3.8vw, 4.25rem);   /*  40 →  68 */
+  --size-h2:      clamp(1.75rem, 1.45rem + 1.2vw, 2.375rem); /*  28 →  38 */
+  --size-h3:      clamp(1.3rem, 1.2rem + 0.4vw, 1.5rem);     /*  21 →  24 */
+  --size-body:    clamp(1.125rem, 1.05rem + 0.3vw, 1.25rem); /*  18 →  20 */
+  --size-small:   0.9375rem;                                  /*  15 */
+  --size-label:   0.8125rem;                                  /*  13 */
+
+  --measure:      68ch;
+  --measure-wide: 92ch;
+
+  /* Space. 8px unit; sections breathe far wider than v1's 80px. */
+  --sp-1: 0.5rem;
+  --sp-2: 1rem;
+  --sp-3: 1.5rem;
+  --sp-4: 2rem;
+  --sp-5: 3rem;
+  --sp-6: 4rem;
+  --page-margin: clamp(1.5rem, 5vw, 6rem);   /*  24 →  96 — mobile is real */
+  --section-gap: clamp(4rem, 7vw, 8.5rem);   /*  64 → 136 */
+  --shell:       78rem;
+}
+
+/* --------------------------------------------------------------------------
+   Base
+   -------------------------------------------------------------------------- */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--sepia);
+  font-family: var(--text-face);
+  font-size: var(--size-body);
+  line-height: 1.65;
+  /* Old-style figures belong in prose; tables opt out below. */
+  font-variant-numeric: oldstyle-nums proportional-nums;
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
+}
+
+/* The surfaces we did not draw still belong to the design. */
+::selection      { background: #E5D0C8; color: var(--ink); }
+:focus-visible   { outline: 2px solid var(--oxblood); outline-offset: 3px; }
+:focus:not(:focus-visible) { outline: none; }
+* { caret-color: var(--oxblood); }
+html { scrollbar-color: var(--rule-strong) var(--paper); scrollbar-width: thin; }
+::-webkit-scrollbar { width: 12px; height: 12px; }
+::-webkit-scrollbar-track { background: var(--paper); }
+::-webkit-scrollbar-thumb { background: var(--rule-strong); border: 4px solid var(--paper); }
+
+/* --------------------------------------------------------------------------
+   Typography
+   -------------------------------------------------------------------------- */
+
+h1, h2, h3, h4 {
+  font-family: var(--display-face);
+  color: var(--ink);
+  font-weight: 500;
+  line-height: 1.12;
+  text-wrap: balance;
+  margin: 0;
+}
+
+h1 {
+  font-size: var(--size-display);
+  font-weight: 400;
+  letter-spacing: -0.015em;
+  line-height: 1.04;
+  max-width: 18ch;
+}
+
+h2 {
+  font-size: var(--size-h2);
+  letter-spacing: -0.01em;
+  /* More room above than below — the heading belongs to what follows. */
+  margin-block: var(--sp-6) var(--sp-3);
+}
+
+h3 {
+  font-size: var(--size-h3);
+  font-weight: 600;
+  margin-block: var(--sp-4) var(--sp-1);
+}
+
+h4 {
+  font-family: var(--text-face);
+  font-size: var(--size-body);
+  font-weight: 600;
+  color: var(--ink);
+}
+
+p { margin: 0 0 var(--sp-3); max-width: var(--measure); }
+p:last-child { margin-bottom: 0; }
+
+strong { font-weight: 600; color: var(--ink); }
+em { font-style: italic; }
+
+.lead {
+  font-size: clamp(1.25rem, 1.1rem + 0.6vw, 1.5rem);
+  line-height: 1.55;
+  color: var(--sepia);
+}
+
+/* Marginalia — italic, the voice of a note in the margin of a book. */
+.note {
+  font-style: italic;
+  color: var(--muted);
+  font-size: var(--size-small);
+  max-width: 46ch;
+}
+
+/* Functional metadata. Mixed case: the all-caps register was rejected. */
+.meta {
+  font-family: var(--text-face);
+  font-size: var(--size-small);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+/* Available to screen readers, absent from the page. */
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* Figures that must line up in a column. */
+.figures, table, .formula, .tnum {
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+/* --------------------------------------------------------------------------
+   Links, marks, rules
+   -------------------------------------------------------------------------- */
+
+a {
+  color: var(--oxblood);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+  text-decoration-color: var(--rule-strong);
+  transition: text-decoration-color 160ms ease-out, color 160ms ease-out;
+}
+a:hover { text-decoration-color: var(--oxblood); }
+a:visited { color: #5A2430; }
+
+/* Navigation and other links whose underline would be noise. */
+a.plain { text-decoration: none; }
+a.plain:hover { text-decoration: underline; text-decoration-color: var(--oxblood); }
+
+hr, .rule {
+  border: 0;
+  height: 1px;
+  background: var(--rule);
+  margin: var(--sp-5) 0;
+}
+.rule--strong { background: var(--rule-strong); }
+.rule--tight  { margin: var(--sp-3) 0; }
+
+.button {
+  display: inline-block;
+  background: var(--oxblood);
+  color: var(--paper);
+  font-family: var(--text-face);
+  font-size: var(--size-small);
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid var(--oxblood);
+  transition: background 160ms ease-out;
+}
+.button:hover { background: var(--ink); border-color: var(--ink); }
+
+.button--quiet {
+  background: transparent;
+  color: var(--oxblood);
+  border-color: var(--rule-strong);
+}
+.button--quiet:hover { background: var(--wash); border-color: var(--oxblood); color: var(--oxblood); }
+
+.icon {
+  width: 1em; height: 1em;
+  vertical-align: -0.12em;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.25;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* --------------------------------------------------------------------------
+   Shell: header, nav, main, footer
+   -------------------------------------------------------------------------- */
+
+.shell {
+  max-width: var(--shell);
+  margin-inline: auto;
+  padding-inline: var(--page-margin);
+}
+
+.masthead {
+  border-bottom: 1px solid var(--rule);
+  background: var(--paper);
+}
+
+.masthead__inner {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--sp-4);
+  padding-block: var(--sp-3);
+  flex-wrap: wrap;
+}
+
+.wordmark {
+  font-family: var(--display-face);
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--ink);
+  text-decoration: none;
+  letter-spacing: -0.005em;
+  white-space: nowrap;
+  /* "BED3" is a name, not prose — the 3 must not descend like a text figure. */
+  font-variant-numeric: lining-nums;
+}
+.wordmark span { color: var(--muted); font-weight: 400; }
+.wordmark:hover { color: var(--oxblood); }
+
+.nav { display: flex; gap: var(--sp-4); align-items: baseline; }
+.nav a {
+  color: var(--sepia);
+  text-decoration: none;
+  font-size: var(--size-small);
+  padding-bottom: 2px;
+  border-bottom: 1px solid transparent;
+}
+.nav a:hover { color: var(--oxblood); border-bottom-color: var(--rule-strong); }
+.nav a[aria-current="page"] { color: var(--ink); border-bottom-color: var(--oxblood); }
+
+/* Mobile navigation. A <details> disclosure — no JS, keyboard-operable. */
+.nav-toggle { display: none; }
+.nav-toggle > summary {
+  list-style: none;
+  cursor: pointer;
+  font-size: var(--size-small);
+  color: var(--oxblood);
+  padding: var(--sp-1) 0;
+}
+.nav-toggle > summary::-webkit-details-marker { display: none; }
+.nav-toggle > summary::after { content: ' \2014  meny'; color: var(--muted); }
+.nav-toggle[open] > summary::after { content: ' \2014  lukk'; }
+
+main { display: block; }
+
+.page-head { padding-block: var(--section-gap) var(--sp-5); }
+.page-head p { color: var(--sepia); }
+/* The deck is a second voice, not a continuation of the headline. */
+h1 + .lead, h1 + p { margin-top: var(--sp-3); }
+
+section { margin-block: var(--section-gap); }
+section:first-of-type { margin-top: var(--sp-6); }
+
+.colophon {
+  border-top: 1px solid var(--rule);
+  margin-top: var(--section-gap);
+  padding-block: var(--sp-6) var(--sp-5);
+  font-size: var(--size-small);
+  color: var(--muted);
+}
+.colophon h4 { margin-bottom: var(--sp-1); }
+.colophon__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: var(--sp-5);
+}
+.colophon a { color: var(--muted); text-decoration-color: var(--rule); }
+.colophon a:hover { color: var(--oxblood); }
+
+/* --------------------------------------------------------------------------
+   Layout helpers — space separates, never a vertical rule
+   -------------------------------------------------------------------------- */
+
+.measure { max-width: var(--measure); }
+.measure-wide { max-width: var(--measure-wide); }
+
+.two-col {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: var(--sp-5) var(--sp-6);
+}
+
+.aside-col {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 19rem);
+  gap: var(--sp-6) var(--sp-6);
+  align-items: start;
+}
+
+.stack > * + * { margin-top: var(--sp-3); }
+.stack-tight > * + * { margin-top: var(--sp-1); }
+
+/* --------------------------------------------------------------------------
+   Lists
+   -------------------------------------------------------------------------- */
+
+ul.marked, ol.roman { padding-left: 0; list-style: none; margin: 0 0 var(--sp-3); max-width: var(--measure); }
+
+ul.marked li {
+  position: relative;
+  padding-left: 1.25rem;
+  margin-bottom: var(--sp-1);
+}
+ul.marked li::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 0.66em;
+  width: 5px; height: 5px;
+  background: var(--oxblood);
+}
+
+ol.roman { counter-reset: roman; }
+ol.roman > li {
+  counter-increment: roman;
+  position: relative;
+  padding-left: 3rem;
+  margin-bottom: var(--sp-2);
+}
+ol.roman > li::before {
+  content: counter(roman, upper-roman) '.';
+  position: absolute;
+  left: 0;
+  color: var(--muted);
+  font-variant-numeric: lining-nums;
+}
+
+/* Definition list — the formula sheet's variable glossaries. */
+.glossary { margin: 0; }
+.glossary div {
+  display: grid;
+  grid-template-columns: minmax(4.5rem, auto) 1fr;
+  gap: 0 var(--sp-2);
+  padding: 0.2rem 0;
+}
+.glossary dt { color: var(--oxblood); font-weight: 500; }
+.glossary dd { margin: 0; font-size: var(--size-small); color: var(--sepia); }
+
+/* --------------------------------------------------------------------------
+   Tables — horizontal hairlines only, no vertical rules, no striping
+   -------------------------------------------------------------------------- */
+
+.table-scroll { overflow-x: auto; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--size-small);
+  text-align: left;
+}
+
+caption {
+  text-align: left;
+  color: var(--muted);
+  font-style: italic;
+  font-size: var(--size-small);
+  padding-bottom: var(--sp-2);
+}
+
+th {
+  font-family: var(--text-face);
+  font-size: var(--size-small);
+  font-weight: 500;
+  font-style: italic;
+  letter-spacing: 0;
+  color: var(--muted);
+  border-bottom: 1px solid var(--rule-strong);
+  padding: 0 var(--sp-3) var(--sp-2) 0;
+  vertical-align: bottom;
+}
+
+td {
+  border-bottom: 1px solid var(--rule);
+  padding: var(--sp-3) var(--sp-3) var(--sp-3) 0;
+  vertical-align: top;
+}
+td:last-child, th:last-child { padding-right: 0; }
+
+tbody tr:last-child td { border-bottom: 0; }
+
+/* Row headers stay <th> for screen readers but read as ordinary cells.
+   Every first cell carries the same left padding, and the table is pulled
+   left by that amount, so the marked row's spine costs no alignment. */
+table { margin-left: calc(var(--sp-2) * -1); }
+tr > *:first-child { padding-left: var(--sp-2); }
+
+th[scope="row"] {
+  font-family: var(--text-face);
+  font-size: var(--size-small);
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0;
+  color: var(--sepia);
+  border-bottom: 1px solid var(--rule);
+  padding: var(--sp-3) var(--sp-3) var(--sp-3) var(--sp-2);
+  vertical-align: top;
+}
+tbody tr:last-child th[scope="row"] { border-bottom: 0; }
+
+td .topic { color: var(--ink); font-size: var(--size-body); display: block; margin-bottom: 0.25rem; }
+td .week  { color: var(--muted); font-variant-numeric: lining-nums; }
+
+/* The single permitted fill on the whole site: the current week.
+   It earns the exception by marking one row on one page — and the
+   spine belongs to the row, so it is drawn once, on the first cell. */
+tr.marked td, tr.marked th[scope="row"] { background: var(--wash); }
+tr.marked th[scope="row"] { color: var(--ink); }
+tr.marked > *:first-child { box-shadow: inset 2px 0 0 var(--oxblood); }
+
+/* --------------------------------------------------------------------------
+   Formulas
+   -------------------------------------------------------------------------- */
+
+.formula-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: var(--sp-5) var(--sp-6);
+}
+
+.formula {
+  border-top: 1px solid var(--rule);
+  padding-top: var(--sp-3);
+}
+/* A formula wider than a column takes the full measure rather than
+   scrolling sideways inside it — a clipped equation is a wrong equation. */
+.formula--wide { grid-column: 1 / -1; }
+.formula h3 { margin-top: 0; }
+.formula .katex { font-size: 1.15em; }
+.formula__body { margin: var(--sp-3) 0; overflow-x: auto; }
+
+/* Asterism — the printer's mark for a break in thought. Earned, not decorative. */
+.asterism {
+  text-align: center;
+  color: var(--rule-strong);
+  letter-spacing: 1.4em;
+  font-size: 1.1rem;
+  margin: var(--section-gap) 0;
+}
+.asterism::before { content: '\2042'; }
+
+/* --------------------------------------------------------------------------
+   Video
+   -------------------------------------------------------------------------- */
+
+.video {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  border: 1px solid var(--rule);
+  display: grid;
+  place-items: center;
+  max-width: var(--measure-wide);
+}
+.video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.video__placeholder { text-align: center; color: var(--muted); }
+.video__placeholder .icon { width: 2.5rem; height: 2.5rem; color: var(--oxblood); display: block; margin: 0 auto var(--sp-2); }
+
+.video-meta {
+  display: flex;
+  gap: var(--sp-3);
+  flex-wrap: wrap;
+  margin-top: var(--sp-2);
+  color: var(--muted);
+  font-size: var(--size-small);
+  font-variant-numeric: lining-nums;
+}
+
+/* Video index — typographic index rows, not thumbnail cards. */
+.index-list { border-top: 1px solid var(--rule-strong); }
+.index-row {
+  display: grid;
+  grid-template-columns: 3.5rem minmax(0, 1fr) auto;
+  gap: var(--sp-3);
+  align-items: baseline;
+  padding: var(--sp-3) 0;
+  border-bottom: 1px solid var(--rule);
+  text-decoration: none;
+  color: inherit;
+}
+.index-row:hover { background: var(--wash); }
+.index-row:hover .index-row__title { color: var(--oxblood); }
+.index-row__no { color: var(--muted); font-variant-numeric: lining-nums; }
+.index-row__title { color: var(--ink); font-family: var(--display-face); font-size: var(--size-h3); font-weight: 500; display: block; }
+.index-row__sub { color: var(--muted); font-size: var(--size-small); }
+.index-row__dur { color: var(--muted); font-size: var(--size-small); font-variant-numeric: lining-nums tabular-nums; white-space: nowrap; }
+.index-row[data-watched="true"] .index-row__no::after { content: ' \00B7'; color: var(--oxblood); }
+
+/* --------------------------------------------------------------------------
+   Problem set
+   -------------------------------------------------------------------------- */
+
+.problem { border-top: 1px solid var(--rule); padding-top: var(--sp-3); margin-bottom: var(--sp-5); }
+.problem__no { color: var(--muted); font-variant-numeric: lining-nums; }
+
+details.solution { margin-top: var(--sp-2); }
+details.solution > summary {
+  cursor: pointer;
+  color: var(--oxblood);
+  font-size: var(--size-small);
+  list-style: none;
+  display: inline-block;
+  border-bottom: 1px solid var(--rule-strong);
+  padding-bottom: 1px;
+}
+details.solution > summary::-webkit-details-marker { display: none; }
+details.solution > summary:hover { border-bottom-color: var(--oxblood); }
+details.solution[open] > summary { color: var(--muted); border-bottom-color: transparent; }
+details.solution > .solution__body {
+  margin-top: var(--sp-2);
+  padding-left: var(--sp-3);
+  box-shadow: inset 1px 0 0 var(--rule-strong);
+  font-size: var(--size-small);
+}
+
+/* --------------------------------------------------------------------------
+   Quiz — states carry the whole interaction, so they are drawn, not assumed
+   -------------------------------------------------------------------------- */
+
+.quiz { max-width: var(--measure); }
+.quiz__q { border-top: 1px solid var(--rule); padding-top: var(--sp-3); margin-bottom: var(--sp-5); }
+.quiz__prompt { color: var(--ink); font-size: var(--size-body); margin-bottom: var(--sp-2); }
+
+.choice {
+  display: flex;
+  gap: var(--sp-2);
+  align-items: baseline;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: 0;
+  border-bottom: 1px solid var(--rule);
+  padding: 0.7rem 0.5rem 0.7rem 0;
+  font: inherit;
+  font-size: var(--size-small);
+  color: var(--sepia);
+  cursor: pointer;
+  transition: background 140ms ease-out, color 140ms ease-out;
+}
+.choice:hover:not([disabled]) { background: var(--wash); color: var(--ink); }
+.choice__key { color: var(--muted); min-width: 1.4rem; }
+.choice__mark {
+  margin-left: auto;
+  opacity: 0;
+  font-size: var(--size-label);
+  font-style: italic;
+  white-space: nowrap;
+  padding-left: var(--sp-2);
+}
+
+.choice[data-state="correct"] { color: var(--ink); background: var(--wash); }
+.choice[data-state="correct"] .choice__key { color: var(--oxblood); }
+.choice[data-state="correct"] .choice__mark { opacity: 1; color: var(--oxblood); }
+.choice[data-state="wrong"] { color: var(--muted); }
+.choice[data-state="wrong"] .choice__mark { opacity: 1; color: var(--muted); }
+.choice[disabled] { cursor: default; }
+
+.quiz__feedback {
+  margin-top: var(--sp-2);
+  font-style: italic;
+  font-size: var(--size-small);
+  color: var(--muted);
+  max-width: 52ch;
+}
+.quiz__score { color: var(--ink); font-family: var(--display-face); font-size: var(--size-h3); }
+
+/* --------------------------------------------------------------------------
+   Instructors — editorial portraits, cropped square, permanently muted
+   -------------------------------------------------------------------------- */
+
+.people {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: var(--sp-5) var(--sp-4);
+}
+.person img {
+  width: 100%;
+  max-width: 11rem;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  filter: grayscale(1) contrast(0.92) sepia(0.14);
+  margin-bottom: var(--sp-2);
+  display: block;
+}
+.person__name { font-family: var(--display-face); font-size: var(--size-h3); color: var(--ink); font-weight: 500; }
+.person__role { color: var(--muted); font-size: var(--size-small); font-style: italic; }
+.person a { font-size: var(--size-small); }
+
+.portrait-placeholder {
+  width: 100%;
+  max-width: 11rem;
+  aspect-ratio: 4 / 5;
+  background: var(--wash);
+  border: 1px solid var(--rule);
+  display: grid;
+  place-items: center;
+  color: var(--rule-strong);
+  font-family: var(--display-face);
+  font-size: var(--size-h2);
+  margin-bottom: var(--sp-2);
+}
+
+/* --------------------------------------------------------------------------
+   Responsive
+   -------------------------------------------------------------------------- */
+
+@media (max-width: 60rem) {
+  .aside-col { grid-template-columns: minmax(0, 1fr); }
+  .aside-col > aside { border-top: 1px solid var(--rule); padding-top: var(--sp-4); }
+}
+
+@media (max-width: 46rem) {
+  .two-col { grid-template-columns: minmax(0, 1fr); }
+  .formula-grid { grid-template-columns: minmax(0, 1fr); }
+
+  .masthead__inner { padding-block: var(--sp-2); }
+  .wordmark { font-size: 1.25rem; white-space: normal; }
+
+  .nav-toggle { display: block; }
+  .nav-toggle .nav {
+    flex-direction: column;
+    gap: 0;
+    padding-block: var(--sp-2);
+  }
+  .nav-toggle .nav a {
+    padding: 0.6rem 0;
+    border-bottom: 1px solid var(--rule);
+    font-size: var(--size-body);
+  }
+  .nav-toggle .nav a:last-child { border-bottom: 0; }
+  .masthead__inner > .nav { display: none; }
+
+  .index-row { grid-template-columns: 2.5rem minmax(0, 1fr); }
+  .index-row__dur { grid-column: 2; }
+
+  /* A three-column schedule does not fit a phone, and sideways scrolling is
+     not an answer for nine rows. Each row becomes a block; the ARIA roles in
+     the markup keep the semantics that display:block would otherwise strip. */
+  .table-scroll table, .table-scroll thead, .table-scroll tbody,
+  .table-scroll tr, .table-scroll th, .table-scroll td {
+    display: block;
+    width: auto;
+    margin-left: 0;
+  }
+  .table-scroll thead {
+    position: absolute;
+    width: 1px; height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+  }
+  .table-scroll tr {
+    border-bottom: 1px solid var(--rule);
+    padding: var(--sp-3) 0;
+  }
+  .table-scroll tbody tr:last-child { border-bottom: 0; }
+  .table-scroll th[scope="row"],
+  .table-scroll td {
+    border-bottom: 0;
+    padding: 0 0 var(--sp-1) 0;
+  }
+  .table-scroll tr > *:first-child { padding-left: 0; }
+  .table-scroll tr.marked {
+    background: var(--wash);
+    box-shadow: inset 2px 0 0 var(--oxblood);
+    padding-left: var(--sp-2);
+  }
+  .table-scroll tr.marked td,
+  .table-scroll tr.marked th[scope="row"] { background: none; box-shadow: none; }
+}
+
+@media print {
+  .masthead, .nav-toggle, .button { display: none; }
+  body { background: #fff; color: #000; font-size: 11pt; }
+  a { text-decoration: none; color: #000; }
+}
