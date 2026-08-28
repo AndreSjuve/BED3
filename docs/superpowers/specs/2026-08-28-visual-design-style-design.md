@@ -52,10 +52,26 @@ elements.
   rule line
 - No drop shadows or heavy depth effects
 
-**Imagery** — none. Purely typographic. No photography, no illustration, no
-decorative icons. Type and whitespace carry the entire design. (Functional
-icons, if the interactive-features sub-project needs them later, are out of
-scope for this document.)
+**Imagery** — no decorative/stock photography and no standalone atmosphere
+imagery (e.g. a hero photo). Type and whitespace carry the overall design.
+Three exceptions, all functional rather than decorative:
+
+- **Instructor photos** — the current site's instructor photos on the
+  contact/about section carry over. Treat editorially: small, muted, cropped
+  consistently — not glossy headshots.
+- **Lecture index thumbnails** — the video lecture library needs some
+  scannable visual unit per lecture. Prefer a typographic index card
+  (topic, number, duration) over a video-still grid, so it stays in the
+  established language rather than introducing photography. Exact treatment
+  is decided in the information-architecture sub-project.
+- **Finance diagrams** — NPV timelines, cash-flow diagrams, discount curves,
+  and similar course content. Render as spare linework in the oxblood accent
+  color (like a diagram in a well-typeset textbook), not full-color charts
+  or stock illustration.
+
+Still excluded: campus/stock photography, "students studying" imagery, and
+any purely decorative illustration or hero photo. (Functional icons for
+interactive features are out of scope for this document.)
 
 ## Stitch prompt
 
@@ -87,8 +103,14 @@ small uppercase eyebrow label, or between sections. No boxed/bordered cards,
 no drop shadows, no decorative dividers or flourishes beyond that single
 rule line.
 
-Imagery: none at all. No photography, no illustration, no decorative icons.
-The entire design should be carried by typography, color, and whitespace.
+Imagery: no decorative or stock photography, and no standalone atmosphere/
+hero imagery — typography, color, and whitespace carry the overall design.
+The only imagery allowed is functional: small, editorially-treated instructor
+portrait photos (muted, consistently cropped, not glossy headshots), and
+spare finance diagrams (NPV timelines, cash-flow diagrams, discount curves)
+rendered as fine linework in the single oxblood accent color, in the style
+of a diagram in a well-typeset textbook rather than a full-color chart or
+illustration.
 ```
 
 ## Out of scope
