@@ -386,13 +386,15 @@ ol.roman > li::before {
   font-variant-numeric: lining-nums;
 }
 
-/* Definition list — the formula sheet's variable glossaries. */
-.glossary { margin: 0; }
-.glossary div {
+/* Definition list — the formula sheet's variable glossaries. The grid lives on
+   the <dl> with dt/dd as direct children; wrapper <div>s inside a <dl> are read
+   by Pandoc as native divs and break the Quarto build that shares this system. */
+.glossary {
+  margin: 0;
   display: grid;
   grid-template-columns: minmax(4.5rem, auto) 1fr;
-  gap: 0 var(--sp-2);
-  padding: 0.2rem 0;
+  gap: 0.4rem var(--sp-2);
+  align-items: baseline;
 }
 .glossary dt { color: var(--oxblood); font-weight: 500; }
 .glossary dd { margin: 0; font-size: var(--size-small); color: var(--sepia); }
