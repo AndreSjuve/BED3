@@ -1,0 +1,44 @@
+<script>
+// Quiz behaviour. Loaded site-wide but inert on pages with no .quiz block.
+// One answer per question, immediate feedback, and the explanation is shown
+// whichever way the answer went — a wrong answer is the teachable one.
+(function () {
+  document.querySelectorAll('.quiz').forEach(function (quiz) {
+    var questions = quiz.querySelectorAll('.quiz__q');
+    var score = quiz.querySelector('.quiz__score');
+    var answered = 0, correct = 0;
+
+    questions.forEach(function (q) {
+      var right = q.getAttribute('data-answer');
+      var feedback = q.querySelector('.quiz__feedback');
+
+      q.querySelectorAll('.choice').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          if (q.dataset.done) return;
+          q.dataset.done = '1';
+          answered++;
+
+          if (btn.getAttribute('data-key') === right) correct++;
+
+          q.querySelectorAll('.choice').forEach(function (b) {
+            b.disabled = true;
+            if (b.getAttribute('data-key') === right) {
+              b.dataset.state = 'correct';
+              b.querySelector('.choice__mark').textContent = 'riktig';
+            } else if (b === btn) {
+              b.dataset.state = 'wrong';
+              b.querySelector('.choice__mark').textContent = 'ditt svar';
+            }
+          });
+
+          if (feedback) feedback.hidden = false;
+
+          if (score && answered === questions.length) {
+            score.textContent = correct + ' av ' + questions.length + ' riktig.';
+          }
+        });
+      });
+    });
+  });
+})();
+</script>

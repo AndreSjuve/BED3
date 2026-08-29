@@ -1,0 +1,97 @@
+---
+title: "Investering og finans"
+subtitle: "Hvordan bør en bedrift velge mellom prosjekter den ikke kan finansiere alle sammen? Kurset gir deg verktøyene til å svare på det — og til å forstå hvorfor svaret så ofte er omstridt."
+pagetitle: "BED3 – Investering og finans"
+---
+
+::::: {.aside-col}
+:::: {.col}
+
+## Der du begynner
+
+Kurset bygger på én idé: en krone i dag er ikke det samme som en krone om et år.
+Alt annet — nåverdi, internrente, kapitalkostnad, opsjoner — er konsekvenser av
+den ene innsikten, satt i arbeid på stadig vanskeligere problemer.
+
+Undervisningen er delt i to deler. Første del handler om
+**investeringsanalyse**: hvordan vi verdsetter og rangerer realinvesteringer
+under usikkerhet, med skatt, lån og inflasjon som kompliserer bildet. Andre del
+handler om **finansielle markeder og kontrakter**: rentemarkedet, opsjoner,
+terminer og internasjonal finans.
+
+Til hver modul hører teorivideoer du kan se når du vil, forelesningsplansjer,
+oppgaver med løsningsforslag, og korte quizer du kan bruke til å teste om du
+har forstått det før forelesningen.
+
+[Gå til kursinnholdet](kursinnhold.qmd){.btn}&nbsp;&nbsp;[Om kurset](om-kurset.qmd){.btn .button--quiet}
+
+::::
+:::: {.col}
+
+### Praktisk
+
+<hr class="rule--tight" />
+
+<dl class="glossary">
+  <dt>Tirsdag</dt><dd class="tnum">12:15–14:00 · Aud. Max.</dd>
+  <dt>Fredag</dt><dd class="tnum">10:15–12:00 · Aud. Max.</dd>
+</dl>
+
+<hr class="rule--tight" />
+
+<p class="note">Forelesningene tas ikke opp. Teorivideoene under Kursinnhold
+dekker det samme stoffet, og er ment å ses før forelesning.</p>
+
+::::
+:::::
+
+## Kursets to deler
+
+::::: {.two-col}
+:::: {.col}
+### I. Investeringsanalyse
+
+Investeringsprosjekter og beslutningsregler, effekter av skatt og lån, effekter
+av inflasjon, risikovurderinger, og låne- og betalingsalternativer.
+
+[Videoer og oppgaver til del I](kursinnhold.qmd#investeringsanalyse)
+
+::::
+:::: {.col}
+### II. Finansielle markeder og kontrakter
+
+Rentemarkedet, opsjonskontrakter, terminkontrakter og internasjonal finans —
+hvor kapitalen kommer fra, hva den koster, og hvordan risiko prises.
+
+[Videoer og oppgaver til del II](kursinnhold.qmd#finansielle-markeder-og-kontrakter)
+
+::::
+:::::
+
+## Faglærere
+
+::::: {.people}
+:::: {.person}
+<div class="portrait-placeholder" aria-hidden="true">FS</div>
+<div class="person__name">Frode Sættem</div>
+<div class="person__role">Professor · kursansvarlig</div>
+
+[frode.saettem@nhh.no](mailto:frode.saettem@nhh.no)
+::::
+
+:::: {.person}
+<div class="portrait-placeholder" aria-hidden="true">AS</div>
+<div class="person__name">André Wattø Sjuve</div>
+<div class="person__role">Førsteamanuensis · foreleser</div>
+
+[andre.sjuve@nhh.no](mailto:andre.sjuve@nhh.no)
+::::
+
+:::: {.person}
+<div class="portrait-placeholder" aria-hidden="true">AØ</div>
+<div class="person__name">Andreas Ørpetveit</div>
+<div class="person__role">Førsteamanuensis · foreleser</div>
+
+[andreas.orpetveit@nhh.no](mailto:andreas.orpetveit@nhh.no)
+::::
+:::::

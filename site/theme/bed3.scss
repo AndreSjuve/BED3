@@ -1,0 +1,866 @@
+/*-- scss:defaults --*/
+
+// =============================================================================
+// BED3 — Ink on Parchment
+// Quarto theme ported from design/v2/styles.css. See DESIGN.md for the system.
+// Bootstrap variables first, so Quarto's own rules inherit the world rather
+// than being fought in the rules block below.
+// =============================================================================
+
+// --- Palette -----------------------------------------------------------------
+$bed3-paper:       #F5EDE3;
+$bed3-ink:         #2A1414;
+$bed3-sepia:       #4A342F;
+$bed3-muted:       #6B5750;
+$bed3-oxblood:     #6E1E1E;
+$bed3-rule:        #E1CEC5;   // oxblood 15% over paper
+$bed3-rule-strong: #C9A9A1;   // oxblood 32%
+$bed3-wash:        #EFE3DB;   // oxblood  6% — the one permitted fill
+$bed3-visited:     #5A2430;
+$bed3-selection:   #E5D0C8;
+
+// --- Type --------------------------------------------------------------------
+$bed3-display: "Cormorant Garamond", "EB Garamond", Georgia, serif;
+$bed3-text:    "EB Garamond", Georgia, "Times New Roman", serif;
+
+// Bootstrap uses the sans-serif stack for body copy; point it at our text face.
+$font-family-sans-serif: $bed3-text;
+$font-family-monospace:  "EB Garamond", Georgia, serif;
+$headings-font-family:   $bed3-display;
+
+$font-size-root: 16px;
+$font-size-base: 1.25rem;      // 20px body
+$line-height-base: 1.65;
+
+$h1-font-size: clamp(2.5rem, 1.55rem + 3.8vw, 4.25rem);
+$h2-font-size: clamp(1.75rem, 1.45rem + 1.2vw, 2.375rem);
+$h3-font-size: clamp(1.3rem, 1.2rem + 0.4vw, 1.5rem);
+$h4-font-size: 1.25rem;
+$h5-font-size: 1.125rem;
+$h6-font-size: 1rem;
+
+$headings-font-weight: 500;
+$headings-line-height: 1.12;
+$headings-color: $bed3-ink;
+
+// --- Core colours ------------------------------------------------------------
+$body-bg:    $bed3-paper;
+$body-color: $bed3-sepia;
+
+$link-color:            $bed3-oxblood;
+$link-hover-color:      $bed3-ink;
+$link-decoration:       underline;
+$link-hover-decoration: underline;
+
+$border-color: $bed3-rule;
+$hr-border-color: $bed3-rule;
+$hr-opacity: 1;
+
+// Flat world: no radius, no shadow, anywhere.
+$border-radius:    0;
+$border-radius-sm: 0;
+$border-radius-lg: 0;
+$border-radius-xl: 0;
+$box-shadow:    none;
+$box-shadow-sm: none;
+$box-shadow-lg: none;
+$enable-shadows: false;
+$enable-gradients: false;
+
+// --- Quarto chrome -----------------------------------------------------------
+$navbar-bg: $bed3-paper;
+$navbar-fg: $bed3-sepia;
+$navbar-hl: $bed3-oxblood;
+
+$sidebar-bg: $bed3-paper;
+$sidebar-fg: $bed3-sepia;
+$sidebar-hl: $bed3-oxblood;
+
+$footer-bg: $bed3-paper;
+$footer-fg: $bed3-muted;
+
+$toc-color: $bed3-muted;
+$toc-font-size: 0.9375rem;
+
+// Prose column. Tables and formula grids use it in full; running text is
+// clamped to a reading measure in the rules block.
+$grid-body-width: 900px;
+$grid-sidebar-width: 270px;
+$grid-margin-width: 220px;
+
+// Quarto loads its own web fonts unless told otherwise; ours come from
+// _includes/head.html so the preconnect happens early.
+$web-font-path: "";
+
+$code-color: $bed3-ink;
+$code-bg: transparent;
+
+
+/*-- scss:rules --*/
+
+// =============================================================================
+// Tokens still used by hand-written blocks inside .qmd files
+// =============================================================================
+
+:root {
+  --paper:       #{$bed3-paper};
+  --ink:         #{$bed3-ink};
+  --sepia:       #{$bed3-sepia};
+  --muted:       #{$bed3-muted};
+  --oxblood:     #{$bed3-oxblood};
+  --rule:        #{$bed3-rule};
+  --rule-strong: #{$bed3-rule-strong};
+  --wash:        #{$bed3-wash};
+
+  --display-face: #{$bed3-display};
+  --text-face:    #{$bed3-text};
+
+  --size-h2:    #{$h2-font-size};
+  --size-h3:    #{$h3-font-size};
+  --size-body:  1.25rem;
+  --size-small: 0.9375rem;
+  --size-label: 0.8125rem;
+
+  --measure:      68ch;
+  --measure-wide: 92ch;
+
+  --sp-1: 0.5rem;
+  --sp-2: 1rem;
+  --sp-3: 1.5rem;
+  --sp-4: 2rem;
+  --sp-5: 3rem;
+  --sp-6: 4rem;
+  --section-gap: clamp(4rem, 7vw, 8.5rem);
+}
+
+// =============================================================================
+// Base + the surfaces we did not draw
+// =============================================================================
+
+body {
+  font-variant-numeric: oldstyle-nums proportional-nums;
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
+}
+
+::selection { background: $bed3-selection; color: $bed3-ink; }
+
+:focus-visible {
+  outline: 2px solid $bed3-oxblood !important;
+  outline-offset: 3px !important;
+  box-shadow: none !important;
+}
+
+* { caret-color: $bed3-oxblood; }
+
+html {
+  scrollbar-color: $bed3-rule-strong $bed3-paper;
+  scrollbar-width: thin;
+  scroll-padding-top: 6rem;
+}
+::-webkit-scrollbar { width: 12px; height: 12px; }
+::-webkit-scrollbar-track { background: $bed3-paper; }
+::-webkit-scrollbar-thumb { background: $bed3-rule-strong; border: 4px solid $bed3-paper; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+// =============================================================================
+// Typography
+// =============================================================================
+
+h1, .title {
+  font-family: $bed3-display;
+  font-weight: 400;
+  letter-spacing: -0.015em;
+  line-height: 1.04;
+  color: $bed3-ink;
+  max-width: 18ch;
+  text-wrap: balance;
+}
+
+h2 {
+  letter-spacing: -0.01em;
+  margin-block: var(--sp-6) var(--sp-3);  // more room above than below
+  border-bottom: 0;                        // Quarto underlines h2 by default
+  padding-bottom: 0;
+  text-wrap: balance;
+}
+
+h3 { font-weight: 600; margin-block: var(--sp-4) var(--sp-1); }
+
+h4 { font-family: $bed3-text; font-weight: 600; color: $bed3-ink; }
+
+// Running text keeps a reading measure; tables and grids take the full column.
+main.content {
+  p, ul, ol, dl, blockquote { max-width: var(--measure); }
+  .measure-wide, table, .formula-grid, .index-list, .video { max-width: none; }
+}
+
+.subtitle {
+  font-family: $bed3-text;
+  font-size: clamp(1.25rem, 1.1rem + 0.6vw, 1.5rem);
+  line-height: 1.55;
+  color: $bed3-sepia;
+  margin-top: var(--sp-3);
+  max-width: var(--measure);
+}
+
+strong { font-weight: 600; color: $bed3-ink; }
+
+.note {
+  font-style: italic;
+  color: $bed3-muted;
+  font-size: var(--size-small);
+  max-width: 46ch;
+}
+
+.meta {
+  font-size: var(--size-small);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: $bed3-muted;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+// Anything a reader compares against another number opts out of old-style.
+.tnum, .figures, table, .katex { font-variant-numeric: lining-nums tabular-nums; }
+
+// No all-caps register anywhere. Quarto applies it to a few chrome elements.
+.sidebar-title, .quarto-title-meta-heading, .nav-page-text, .toc-actions,
+.quarto-title-block .quarto-title-meta-heading {
+  text-transform: none !important;
+  letter-spacing: 0 !important;
+}
+
+// =============================================================================
+// Links and rules
+// =============================================================================
+
+a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+  text-decoration-color: $bed3-rule-strong;
+  transition: text-decoration-color 160ms ease-out, color 160ms ease-out;
+
+  &:hover { text-decoration-color: $bed3-oxblood; }
+  &:visited { color: $bed3-visited; }
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: $bed3-rule;
+  margin: var(--sp-5) 0;
+  opacity: 1;
+}
+.rule--tight { margin: var(--sp-3) 0; }
+
+// Scoped to page content: Quarto's own chrome (sidebar toggle, navbar toggler,
+// search) also uses .btn, and must not become a solid oxblood block.
+main.content .btn, .button {
+  display: inline-block;
+  background: $bed3-oxblood;
+  color: $bed3-paper;
+  font-family: $bed3-text;
+  font-size: var(--size-small);
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid $bed3-oxblood;
+  border-radius: 0;
+
+  &:hover { background: $bed3-ink; border-color: $bed3-ink; color: $bed3-paper; }
+}
+
+#quarto-sidebarnav-toggle, .quarto-btn-toggle, .navbar-toggler {
+  background: transparent;
+  color: $bed3-oxblood;
+  border: 0;
+  box-shadow: none;
+  padding: 0.25rem 0.5rem;
+}
+
+.button--quiet {
+  background: transparent;
+  color: $bed3-oxblood;
+  border-color: $bed3-rule-strong;
+
+  &:hover { background: $bed3-wash; border-color: $bed3-oxblood; color: $bed3-oxblood; }
+}
+
+.icon {
+  width: 1em; height: 1em;
+  vertical-align: -0.12em;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.25;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+// =============================================================================
+// Masthead (Quarto navbar)
+// =============================================================================
+
+.navbar {
+  border-bottom: 1px solid $bed3-rule;
+  box-shadow: none;
+  padding-block: var(--sp-2);
+  font-family: $bed3-text;
+
+  .navbar-brand {
+    font-family: $bed3-display;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: $bed3-ink;
+    font-variant-numeric: lining-nums;  // "BED3" is a name, not prose
+    text-decoration: none;
+    margin-right: var(--sp-5);
+
+    // The course name belongs to the wordmark but not to the site title,
+    // which Quarto also uses for page <title> and search.
+    &::after {
+      content: " · Investering og finans";
+      color: $bed3-muted;
+      font-weight: 400;
+    }
+
+    &:hover { color: $bed3-oxblood; }
+  }
+
+  @media (max-width: 46rem) {
+    .navbar-brand::after { content: ""; }
+  }
+
+  .nav-link {
+    color: $bed3-sepia;
+    font-size: var(--size-small);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 2px;
+
+    &:hover { color: $bed3-oxblood; border-bottom-color: $bed3-rule-strong; }
+
+    &.active, &[aria-current="page"] {
+      color: $bed3-ink;
+      border-bottom-color: $bed3-oxblood;
+    }
+  }
+
+  .navbar-toggler { border: 1px solid $bed3-rule-strong; border-radius: 0; box-shadow: none; }
+}
+
+// Search, restrained into the world
+.aa-DetachedSearchButton, #quarto-search .aa-Autocomplete {
+  border: 1px solid $bed3-rule;
+  border-radius: 0;
+  background: transparent;
+  color: $bed3-muted;
+}
+
+// =============================================================================
+// Breadcrumbs and page navigation
+// =============================================================================
+
+.quarto-page-breadcrumbs {
+  font-size: var(--size-small);
+  color: $bed3-muted;
+  margin-bottom: var(--sp-2);
+
+  .breadcrumb-item + .breadcrumb-item::before { content: "·"; color: $bed3-rule-strong; }
+  a { text-decoration: none; }
+  a:hover { text-decoration: underline; }
+}
+
+.nav-page {
+  border-top: 1px solid $bed3-rule;
+  padding-top: var(--sp-3);
+  margin-top: var(--section-gap);
+
+  .nav-page-text { font-family: $bed3-display; font-size: var(--size-h3); }
+  a { text-decoration: none; }
+  a:hover .nav-page-text { text-decoration: underline; }
+  .bi { display: none; }  // no icon font in an all-serif world
+}
+
+// =============================================================================
+// Sidebar — floating, no panel, no vertical rule
+// =============================================================================
+
+.sidebar-navigation {
+  border-right: 0 !important;
+  font-size: var(--size-small);
+
+  .sidebar-title { font-family: $bed3-display; font-size: var(--size-h3); color: $bed3-ink; }
+
+  .sidebar-item-container { border: 0; }
+
+  .sidebar-item .sidebar-item-text {
+    color: $bed3-sepia;
+    text-decoration: none;
+    padding-block: 0.3rem;
+
+    &:hover { color: $bed3-oxblood; }
+  }
+
+  .sidebar-item .sidebar-item-text.active,
+  .sidebar-link.active {
+    color: $bed3-ink;
+    box-shadow: inset 2px 0 0 $bed3-oxblood;
+    padding-left: var(--sp-2);
+  }
+
+  .sidebar-section .sidebar-item { padding-left: var(--sp-2); }
+
+  // Section labels read as headings, not as chrome
+  .sidebar-item-section > .sidebar-item-container > .sidebar-item-text {
+    font-family: $bed3-display;
+    color: $bed3-ink;
+    font-size: 1.125rem;
+  }
+}
+
+// =============================================================================
+// Footer
+// =============================================================================
+
+.nav-footer {
+  border-top: 1px solid $bed3-rule;
+  margin-top: var(--section-gap);
+  padding-block: var(--sp-6) var(--sp-5);
+  font-size: var(--size-small);
+  color: $bed3-muted;
+  align-items: start;
+
+  a { color: $bed3-muted; text-decoration-color: $bed3-rule; }
+  a:hover { color: $bed3-oxblood; }
+  strong { color: $bed3-ink; }
+}
+
+// =============================================================================
+// Lists
+// =============================================================================
+
+main.content ul:not(.sidebar-section):not(.navbar-nav):not(.breadcrumb) {
+  padding-left: 0;
+  list-style: none;
+
+  > li {
+    position: relative;
+    padding-left: 1.25rem;
+    margin-bottom: var(--sp-1);
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0.66em;
+      width: 5px;
+      height: 5px;
+      background: $bed3-oxblood;
+    }
+  }
+}
+
+ol.roman {
+  counter-reset: roman;
+  padding-left: 0;
+  list-style: none;
+
+  > li {
+    counter-increment: roman;
+    position: relative;
+    padding-left: 3rem;
+    margin-bottom: var(--sp-2);
+
+    &::before {
+      content: counter(roman, upper-roman) ".";
+      position: absolute;
+      left: 0;
+      color: $bed3-muted;
+      font-variant-numeric: lining-nums;
+    }
+  }
+}
+
+// Symbol glossaries under a formula. The grid lives on the <dl> itself with
+// dt/dd as direct children — wrapper <div>s inside a <dl> are read by Pandoc
+// as native divs and swallow the closing fence of any div they sit in.
+.glossary {
+  margin: 0;
+  display: grid;
+  grid-template-columns: minmax(4.5rem, auto) 1fr;
+  gap: 0.4rem var(--sp-2);
+  align-items: baseline;
+
+  dt { color: $bed3-oxblood; font-weight: 500; }
+  dd { margin: 0; font-size: var(--size-small); color: $bed3-sepia; }
+}
+
+// =============================================================================
+// Tables — horizontal hairlines only
+// =============================================================================
+
+.table-scroll { overflow-x: auto; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--size-small);
+  text-align: left;
+  margin-left: calc(var(--sp-2) * -1);
+}
+
+caption {
+  caption-side: top;
+  text-align: left;
+  color: $bed3-muted;
+  font-style: italic;
+  font-size: var(--size-small);
+  padding-bottom: var(--sp-2);
+}
+
+th {
+  font-family: $bed3-text;
+  font-size: var(--size-small);
+  font-weight: 500;
+  font-style: italic;
+  color: $bed3-muted;
+  border-bottom: 1px solid $bed3-rule-strong;
+  padding: 0 var(--sp-3) var(--sp-2) 0;
+  vertical-align: bottom;
+}
+
+td {
+  border-bottom: 1px solid $bed3-rule;
+  padding: var(--sp-3) var(--sp-3) var(--sp-3) 0;
+  vertical-align: top;
+}
+
+tr > *:first-child { padding-left: var(--sp-2); }
+td:last-child, th:last-child { padding-right: 0; }
+tbody tr:last-child td { border-bottom: 0; }
+
+th[scope="row"] {
+  font-family: $bed3-text;
+  font-size: var(--size-small);
+  font-weight: 400;
+  font-style: normal;
+  color: $bed3-sepia;
+  border-bottom: 1px solid $bed3-rule;
+  padding: var(--sp-3) var(--sp-3) var(--sp-3) var(--sp-2);
+  vertical-align: top;
+}
+tbody tr:last-child th[scope="row"] { border-bottom: 0; }
+
+td .topic { color: $bed3-ink; font-size: var(--size-body); display: block; margin-bottom: 0.25rem; }
+td .week  { color: $bed3-muted; font-variant-numeric: lining-nums; }
+
+// The one fill on the site: the current week.
+tr.marked td, tr.marked th[scope="row"] { background: $bed3-wash; }
+tr.marked th[scope="row"] { color: $bed3-ink; }
+tr.marked > *:first-child { box-shadow: inset 2px 0 0 $bed3-oxblood; }
+
+// =============================================================================
+// Formulas
+// =============================================================================
+
+.formula-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: var(--sp-5) var(--sp-6);
+}
+
+.formula {
+  border-top: 1px solid $bed3-rule;
+  padding-top: var(--sp-3);
+
+  h3 { margin-top: 0; }
+  .katex { font-size: 1.15em; }
+}
+
+// A formula wider than its column takes the full measure rather than
+// scrolling sideways inside it — a clipped equation is a wrong equation.
+.formula--wide { grid-column: 1 / -1; }
+
+.katex-display { margin: var(--sp-3) 0; overflow-x: auto; overflow-y: hidden; }
+
+.asterism {
+  text-align: center;
+  color: $bed3-rule-strong;
+  letter-spacing: 1.4em;
+  font-size: 1.1rem;
+  margin: var(--section-gap) 0;
+
+  &::before { content: "\2042"; }
+}
+
+// =============================================================================
+// Video
+// =============================================================================
+
+.video {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  border: 1px solid $bed3-rule;
+  display: grid;
+  place-items: center;
+  max-width: var(--measure-wide);
+
+  iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+}
+
+.video__placeholder {
+  text-align: center;
+  color: $bed3-muted;
+
+  .icon { width: 2.5rem; height: 2.5rem; color: $bed3-oxblood; display: block; margin: 0 auto var(--sp-2); }
+}
+
+.video-meta {
+  display: flex;
+  gap: var(--sp-3);
+  flex-wrap: wrap;
+  margin-top: var(--sp-2);
+  color: $bed3-muted;
+  font-size: var(--size-small);
+  font-variant-numeric: lining-nums;
+}
+
+// Typographic index rows, never thumbnail cards
+.index-list { border-top: 1px solid $bed3-rule-strong; }
+
+.index-row {
+  display: grid;
+  grid-template-columns: 3.5rem minmax(0, 1fr) auto;
+  gap: var(--sp-3);
+  align-items: baseline;
+  padding: var(--sp-3) 0;
+  border-bottom: 1px solid $bed3-rule;
+  text-decoration: none;
+  color: inherit;
+
+  &:hover { background: $bed3-wash; }
+  &:hover .index-row__title { color: $bed3-oxblood; }
+}
+
+.index-row__no    { color: $bed3-muted; font-variant-numeric: lining-nums; }
+.index-row__title { color: $bed3-ink; font-family: $bed3-display; font-size: var(--size-h3); font-weight: 500; display: block; }
+.index-row__sub   { color: $bed3-muted; font-size: var(--size-small); }
+.index-row__dur   { color: $bed3-muted; font-size: var(--size-small); font-variant-numeric: lining-nums tabular-nums; white-space: nowrap; }
+
+// =============================================================================
+// Problem sets
+// =============================================================================
+
+.problem {
+  border-top: 1px solid $bed3-rule;
+  padding-top: var(--sp-3);
+  margin-bottom: var(--sp-5);
+}
+.problem__no { color: $bed3-muted; font-variant-numeric: lining-nums; }
+
+details.solution {
+  margin-top: var(--sp-2);
+
+  > summary {
+    cursor: pointer;
+    color: $bed3-oxblood;
+    font-size: var(--size-small);
+    list-style: none;
+    display: inline-block;
+    border-bottom: 1px solid $bed3-rule-strong;
+    padding-bottom: 1px;
+
+    &::-webkit-details-marker { display: none; }
+    &:hover { border-bottom-color: $bed3-oxblood; }
+  }
+
+  &[open] > summary { color: $bed3-muted; border-bottom-color: transparent; }
+
+  > .solution__body {
+    margin-top: var(--sp-2);
+    padding-left: var(--sp-3);
+    box-shadow: inset 1px 0 0 $bed3-rule-strong;
+    font-size: var(--size-small);
+  }
+}
+
+// =============================================================================
+// Quiz — every state is drawn
+// =============================================================================
+
+.quiz { max-width: var(--measure); }
+
+.quiz__q {
+  border-top: 1px solid $bed3-rule;
+  padding-top: var(--sp-3);
+  margin-bottom: var(--sp-5);
+}
+
+.quiz__prompt { color: $bed3-ink; font-size: var(--size-body); margin-bottom: var(--sp-2); }
+
+.choice {
+  display: flex;
+  gap: var(--sp-2);
+  align-items: baseline;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: 0;
+  border-bottom: 1px solid $bed3-rule;
+  border-radius: 0;
+  padding: 0.7rem 0.5rem 0.7rem 0;
+  font: inherit;
+  font-size: var(--size-small);
+  color: $bed3-sepia;
+  cursor: pointer;
+  transition: background 140ms ease-out, color 140ms ease-out;
+
+  &:hover:not([disabled]) { background: $bed3-wash; color: $bed3-ink; }
+  &[disabled] { cursor: default; opacity: 1; }
+}
+
+.choice__key  { color: $bed3-muted; min-width: 1.4rem; }
+.choice__mark {
+  margin-left: auto;
+  opacity: 0;
+  font-size: var(--size-label);
+  font-style: italic;
+  white-space: nowrap;
+  padding-left: var(--sp-2);
+}
+
+.choice[data-state="correct"] {
+  color: $bed3-ink;
+  background: $bed3-wash;
+
+  .choice__key  { color: $bed3-oxblood; }
+  .choice__mark { opacity: 1; color: $bed3-oxblood; }
+}
+
+.choice[data-state="wrong"] {
+  color: $bed3-muted;
+
+  .choice__mark { opacity: 1; color: $bed3-muted; }
+}
+
+.quiz__feedback {
+  margin-top: var(--sp-2);
+  font-style: italic;
+  font-size: var(--size-small);
+  color: $bed3-muted;
+  max-width: 52ch;
+}
+
+.quiz__score { color: $bed3-ink; font-family: $bed3-display; font-size: var(--size-h3); }
+
+// =============================================================================
+// People
+// =============================================================================
+
+.people {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: var(--sp-5) var(--sp-4);
+  max-width: none;
+}
+
+.person img {
+  width: 100%;
+  max-width: 11rem;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  filter: grayscale(1) contrast(0.92) sepia(0.14);
+  margin-bottom: var(--sp-2);
+  display: block;
+}
+
+.person__name { font-family: $bed3-display; font-size: var(--size-h3); color: $bed3-ink; font-weight: 500; }
+.person__role { color: $bed3-muted; font-size: var(--size-small); font-style: italic; }
+.person a { font-size: var(--size-small); }
+
+.portrait-placeholder {
+  width: 100%;
+  max-width: 11rem;
+  aspect-ratio: 4 / 5;
+  background: $bed3-wash;
+  border: 1px solid $bed3-rule;
+  display: grid;
+  place-items: center;
+  color: $bed3-rule-strong;
+  font-family: $bed3-display;
+  font-size: var(--size-h2);
+  margin-bottom: var(--sp-2);
+}
+
+// =============================================================================
+// Layout helpers used inside .qmd
+// =============================================================================
+
+.two-col {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: var(--sp-5) var(--sp-6);
+  max-width: none;
+}
+
+.aside-col {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 19rem);
+  gap: var(--sp-6);
+  align-items: start;
+  max-width: none;
+}
+
+.stack > * + * { margin-top: var(--sp-3); }
+
+// =============================================================================
+// Responsive
+// =============================================================================
+
+@media (max-width: 60rem) {
+  .aside-col { grid-template-columns: minmax(0, 1fr); }
+  .aside-col > aside { border-top: 1px solid $bed3-rule; padding-top: var(--sp-4); }
+}
+
+@media (max-width: 46rem) {
+  .two-col, .formula-grid { grid-template-columns: minmax(0, 1fr); }
+
+  .index-row { grid-template-columns: 2.5rem minmax(0, 1fr); }
+  .index-row__dur { grid-column: 2; }
+
+  // A three-column schedule does not fit a phone, and sideways scrolling is
+  // not an answer for nine rows. The ARIA roles in the markup keep the
+  // semantics that display:block would otherwise strip.
+  .table-scroll {
+    table, thead, tbody, tr, th, td { display: block; width: auto; margin-left: 0; }
+
+    thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+
+    tr { border-bottom: 1px solid $bed3-rule; padding: var(--sp-3) 0; }
+    tbody tr:last-child { border-bottom: 0; }
+
+    th[scope="row"], td { border-bottom: 0; padding: 0 0 var(--sp-1) 0; }
+    tr > *:first-child { padding-left: 0; }
+
+    tr.marked {
+      background: $bed3-wash;
+      box-shadow: inset 2px 0 0 $bed3-oxblood;
+      padding-left: var(--sp-2);
+
+      td, th[scope="row"] { background: none; box-shadow: none; }
+    }
+  }
+}
+
+@media print {
+  .navbar, .nav-footer, .sidebar, .nav-page, .btn { display: none; }
+  body { background: #fff; color: #000; font-size: 11pt; }
+  a { text-decoration: none; color: #000; }
+}

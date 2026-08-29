@@ -1,0 +1,102 @@
+---
+title: "Om kurset"
+subtitle: "Hva du skal kunne når kurset er ferdig, hvordan undervisningen er lagt opp, og hva som vurderes."
+---
+
+::::: {.aside-col}
+:::: {.col}
+
+## Læringsmål
+
+Etter fullført kurs skal du kunne:
+
+- Regne om kontantstrømmer mellom tidspunkter, og forklare hvorfor tidsverdien
+  av penger er utgangspunktet for all investeringsanalyse.
+- Beregne nåverdi og internrente for et prosjekt, og vurdere når de to
+  kriteriene gir ulike anbefalinger.
+- Behandle skatt, lån og inflasjon riktig i en kontantstrømsanalyse.
+- Vurdere risiko i et investeringsprosjekt, og forklare hva usikkerheten gjør
+  med beslutningen.
+- Sammenligne låne- og betalingsalternativer, og regne på annuitetslån og
+  serielån.
+- Forklare hvordan renter, obligasjoner, opsjoner og terminkontrakter prises,
+  og hvordan valutakurser henger sammen med rentenivået.
+
+::::
+:::: {.col}
+
+### Nøkkeltall
+
+<hr class="rule--tight" />
+
+<dl class="glossary">
+  <dt class="tnum">7,5</dt><dd>studiepoeng</dd>
+  <dt class="tnum">4</dt><dd>timer forelesning i uken</dd>
+  <dt class="tnum">11</dt><dd>moduler</dd>
+</dl>
+
+<hr class="rule--tight" />
+
+<p class="note">Tallene er plassholdere i denne designskissen.</p>
+
+::::
+:::::
+
+## Arbeidsform
+
+::::: {.two-col}
+:::: {.col}
+### Før forelesning
+Se teorivideoen for modulen og ta quizen som hører til. Videoen introduserer
+begrepene; quizen viser deg hva du ikke fikk med deg.
+::::
+
+:::: {.col}
+### På forelesning
+Vi regner sammen, diskuterer forutsetningene bak modellene, og går gjennom
+spørsmål fra quizene. Forelesningene tas ikke opp.
+::::
+
+:::: {.col}
+### Etter forelesning
+Oppgavesettene er der læringen faktisk skjer. Løsningsforslag ligger på hver
+modulside, men bruk dem etter forsøket, ikke i stedet for det.
+::::
+
+:::: {.col}
+### Underveis
+Formelarket er det samme hele semesteret. Å bli kjent med det tidlig gjør
+eksamen enklere enn å møte det for første gang i lesetiden.
+::::
+:::::
+
+## Vurdering
+
+Kurset avsluttes med en skriftlig skoleeksamen. Formelarket deles ut på eksamen,
+og kalkulator er tillatt etter skolens vanlige regler.
+
+Oppgavesettene underveis er frivillige og teller ikke på karakteren. De er
+likevel den beste forberedelsen som finnes, fordi eksamensoppgavene ligner på
+dem.
+
+<p class="note">Endelige vurderingsformer følger av kursbeskrivelsen i
+studiehåndboken.</p>
+
+## Pensum
+
+- Lærebok i investering og finans, angitte kapitler — se studiehåndboken.
+- Teorivideoene under [Kursinnhold](kursinnhold.qmd).
+- Oppgavesettene med løsningsforslag.
+
+<p class="note">Pensumlisten er en plassholder i denne designskissen.</p>
+
+## Kontakt
+
+Faglige spørsmål tas helst på forelesning, slik at flere får svaret. For alt
+annet, send e-post til den av oss det gjelder:
+
+<dl class="glossary">
+  <dt style="min-width:14rem">Frode Sættem</dt><dd><a href="mailto:frode.saettem@nhh.no">frode.saettem@nhh.no</a> · kursansvarlig</dd>
+  <dt style="min-width:14rem">André Wattø Sjuve</dt><dd><a href="mailto:andre.sjuve@nhh.no">andre.sjuve@nhh.no</a> · foreleser</dd>
+  <dt style="min-width:14rem">Andreas Ørpetveit</dt><dd><a href="mailto:andreas.orpetveit@nhh.no">andreas.orpetveit@nhh.no</a> · foreleser</dd>
+</dl>

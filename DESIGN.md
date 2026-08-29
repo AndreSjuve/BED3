@@ -1,6 +1,7 @@
 ---
 name: Ink on Parchment
-source: design/v2/styles.css
+source: site/theme/bed3.scss
+reference: design/v2/styles.css
 colors:
   paper: '#F5EDE3'
   ink: '#2A1414'
@@ -50,6 +51,18 @@ typography:
     fontFamily: EB Garamond
     fontSize: 15px
     fontWeight: '400'
+  h4:
+    fontFamily: EB Garamond
+    fontSize: 20px
+    fontWeight: '600'
+  h5:
+    fontFamily: EB Garamond
+    fontSize: 18px
+    fontWeight: '600'
+  h6:
+    fontFamily: EB Garamond
+    fontSize: 16px
+    fontWeight: '600'
   label:
     fontFamily: EB Garamond
     fontSize: 13px
@@ -71,13 +84,42 @@ spacing:
 
 ## Hvor systemet kommer fra
 
-This system is documented from `design/v2/`, not from intentions. It was derived
-from the two Google Stitch v1 screens that worked — the formula sheet and the
-schedule — with their structural defects corrected: the type scale is real, the
-accent is reserved again, the register is mixed case, and mobile is designed
-rather than inherited.
+This system is documented from what is built, not from intentions. It was
+derived from the two Google Stitch v1 screens that worked — the formula sheet
+and the schedule — with their structural defects corrected: the type scale is
+real, the accent is reserved again, the register is mixed case, and mobile is
+designed rather than inherited.
 
 The world: ink on parchment. A well-set textbook, not a website with a serif.
+
+**Where it lives.** The live system is the Quarto theme at
+`site/theme/bed3.scss`; the site is built with `quarto render` in `site/`.
+`design/v2/` is the standalone-HTML reference of the same system, kept in sync
+by hand — change both, or change the theme and note the drift.
+
+## Quarto notes
+
+The theme sets Bootstrap variables in `scss:defaults` so Quarto's own chrome
+inherits the world, then restyles navbar, sidebar, breadcrumbs, page navigation
+and footer in `scss:rules`. Three things are easy to get wrong:
+
+- **Scope `.btn`.** Quarto's sidebar toggle, navbar toggler and search button
+  all use `.btn`. An unscoped rule turns the mobile sidebar toggle into a solid
+  oxblood block. Ours is scoped to `main.content .btn`.
+- **Pandoc tracks raw `<div>`s.** A multi-line raw `<div>` in a `.qmd` is read
+  as a native div; if Pandoc cannot match it, it closes the div implicitly and
+  swallows everything after — content escapes into the sidebar, and closing
+  `:::` fences print on the page as literal colons. Put any multi-line raw HTML
+  block (the quiz, the schedule table) inside a ` ```{=html} ` block, which is
+  passed through verbatim and never parsed.
+- **`<hr>` must be self-closing.** `<hr class="rule--tight">` is read as an
+  unclosed element and swallows the enclosing fence; `<hr class="rule--tight" />`
+  parses correctly. Nested fenced divs need the outer fence to carry more colons
+  than the inner (`:::::` outside, `::::` inside), and `:::: {}` with empty
+  attributes does not open a div at all — give it a class.
+
+Math is KaTeX (`html-math-method: katex`), loaded from jsDelivr at `@latest`;
+pin it or switch to `self-contained-math` before this goes to students.
 
 ## Farger
 

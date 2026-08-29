@@ -1,0 +1,86 @@
+---
+title: "Timeplan"
+subtitle: "Temaer, videoer og innleveringer uke for uke. Forelesningene er tirsdag og fredag i Aud. Max."
+---
+
+::::: {.meta}
+Sist oppdatert 15. august
+:::::
+
+<p class="note">Planen kan justeres underveis. Endringer varsles på forelesning
+og her.</p>
+
+::::: {.table-scroll}
+```{=html}
+<table role="table">
+  <caption>Uken markert med farge er inneværende uke.</caption>
+  <thead role="rowgroup">
+    <tr role="row">
+      <th scope="col" role="columnheader" style="width:9rem">Uke</th>
+      <th scope="col" role="columnheader">Tema</th>
+      <th scope="col" role="columnheader" style="width:16rem">Video og innlevering</th>
+    </tr>
+  </thead>
+  <tbody role="rowgroup">
+
+    <tr role="row">
+      <th scope="row" role="rowheader"><span class="week">I</span><br><span class="week">21.–25. aug.</span></th>
+      <td role="cell"><span class="topic">Introduksjon</span>Hva investeringsanalyse er, og hvilke spørsmål den skal svare på.</td>
+      <td role="cell"><a href="kursmateriale/01-investeringsanalyse/01-introduksjon.html">Modul 1</a><br><span class="note">Ingen innlevering</span></td>
+    </tr>
+
+    <tr role="row">
+      <th scope="row" role="rowheader"><span class="week">II</span><br><span class="week">28. aug.–1. sep.</span></th>
+      <td role="cell"><span class="topic">Investeringsprosjekter</span>Beslutningsregler og lønnsomhetsmålinger.</td>
+      <td role="cell"><a href="kursmateriale/01-investeringsanalyse/02-investeringsprosjekter.html">Modul 2</a><br><span class="note">Oppgavesett 1 — frist 1. sep.</span></td>
+    </tr>
+
+    <tr class="marked" role="row">
+      <th scope="row" role="rowheader"><span class="week">III</span><br><span class="week">4.–8. sep.</span></th>
+      <td role="cell"><span class="topic">Effekter av skatt og lån</span>Hvordan finansiering og beskatning endrer kontantstrømmene.</td>
+      <td role="cell"><a href="kursmateriale/01-investeringsanalyse/03-skatt-og-laan.html">Modul 3</a><br><span class="note">Oppgavesett 2 — frist 8. sep.</span></td>
+    </tr>
+
+    <tr role="row">
+      <th scope="row" role="rowheader"><span class="week">IV</span><br><span class="week">11.–15. sep.</span></th>
+      <td role="cell"><span class="topic">Effekter av inflasjon</span>Nominelle og reelle størrelser.</td>
+      <td role="cell"><a href="kursmateriale/01-investeringsanalyse/04-inflasjon.html">Modul 4</a><br><span class="note">Ingen innlevering</span></td>
+    </tr>
+
+    <tr role="row">
+      <th scope="row" role="rowheader"><span class="week">V</span><br><span class="week">18.–22. sep.</span></th>
+      <td role="cell"><span class="topic">Risikovurderinger</span>Usikkerhet i kontantstrømmene.</td>
+      <td role="cell"><a href="kursmateriale/01-investeringsanalyse/05-risikovurderinger.html">Modul 5</a><br><span class="note">Oppgavesett 3 — frist 22. sep.</span></td>
+    </tr>
+
+    <tr role="row">
+      <th scope="row" role="rowheader"><span class="week">VI</span><br><span class="week">25.–29. sep.</span></th>
+      <td role="cell"><span class="topic">Låne- og betalingsalternativer</span>Annuitetslån, serielån og betalingsplaner.</td>
+      <td role="cell"><a href="kursmateriale/01-investeringsanalyse/06-laane-og-betalingsalternativer.html">Modul 6</a><br><span class="note">Ingen innlevering</span></td>
+    </tr>
+
+    <tr role="row">
+      <th scope="row" role="rowheader"><span class="week">VII</span><br><span class="week">2.–6. okt.</span></th>
+      <td role="cell"><span class="topic">Rentemarkedet</span>Rentestruktur og prising av obligasjoner.</td>
+      <td role="cell"><a href="kursmateriale/02-markeder/02-rentemarkedet.html">Modul 13</a><br><span class="note">Oppgavesett 4 — frist 6. okt.</span></td>
+    </tr>
+
+    <tr role="row">
+      <th scope="row" role="rowheader"><span class="week">VIII</span><br><span class="week">9.–13. okt.</span></th>
+      <td role="cell"><span class="topic">Opsjons- og terminkontrakter</span>Rettigheter og forpliktelser om fremtidig handel.</td>
+      <td role="cell"><a href="kursmateriale/02-markeder/03-opsjoner.html">Modul 14 og 15</a><br><span class="note">Ingen innlevering</span></td>
+    </tr>
+
+    <tr role="row">
+      <th scope="row" role="rowheader"><span class="week">IX</span><br><span class="week">16.–20. okt.</span></th>
+      <td role="cell"><span class="topic">Internasjonal finans</span>Valutakurser, renteparitet og valutarisiko.</td>
+      <td role="cell"><a href="kursmateriale/02-markeder/05-valuta.html">Modul 16</a><br><span class="note">Ingen innlevering</span></td>
+    </tr>
+
+  </tbody>
+</table>
+```
+:::::
+
+<p class="note">Datoer og innleveringsfrister er plassholdere i denne
+designskissen.</p>

@@ -1,0 +1,29 @@
+---
+title: "Introduksjon"
+subtitle: "Hva investeringsanalyse er, og hvilke spørsmål den skal svare på"
+---
+
+## Videoer
+
+::: {.video}
+<div class="video__placeholder">
+  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+  <span>Teorivideo — Introduksjon</span>
+</div>
+:::
+
+::: {.video-meta}
+Ikke publisert ennå
+:::
+
+## Forelesningsplansjer
+
+- [BED3_F00_Introduksjon (PDF)](#)
+
+## Oppgaver
+
+<p class="note">Oppgaver og løsningsforslag kommer.</p>
+
+## Sjekk forståelsen
+
+<p class="note">Quiz kommer.</p>

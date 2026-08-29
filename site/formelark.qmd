@@ -1,0 +1,189 @@
+---
+title: "Formelark"
+subtitle: "Formlene du får ha med deg på eksamen, samlet med symbolforklaringer. Symbolene er de samme som brukes i videoene."
+---
+
+[Last ned som PDF](#){.btn .button--quiet}
+
+## Nåverdi og kontantstrømmer
+
+::::: {.formula-grid}
+
+:::: {.formula}
+### Nåverdi
+$$\text{NPV} = -C_0 + \sum_{t=1}^{T} \frac{C_t}{(1+r)^t}$$
+
+<dl class="glossary">
+  <dt>C<sub>t</sub></dt><dd>kontantstrøm i periode t</dd>
+  <dt>r</dt><dd>avkastningskrav (alternativkostnad)</dd>
+  <dt>C<sub>0</sub></dt><dd>investering i dag</dd>
+</dl>
+::::
+
+:::: {.formula}
+### Internrente
+$$0 = -C_0 + \sum_{t=1}^{T} \frac{C_t}{(1+\text{IRR})^t}$$
+
+<p class="note">Renten der nåverdien er null. Løses numerisk eller ved
+interpolasjon; kan ha flere løsninger når kontantstrømmen skifter fortegn mer
+enn én gang.</p>
+::::
+
+:::: {.formula}
+### Annuitet
+$$\text{PV} = C \cdot \frac{1 - (1+r)^{-T}}{r}$$
+
+<dl class="glossary">
+  <dt>C</dt><dd>fast beløp per periode</dd>
+  <dt>T</dt><dd>antall perioder</dd>
+</dl>
+::::
+
+:::: {.formula}
+### Evigvarende kontantstrøm
+$$\text{PV} = \frac{C}{r - g}$$
+
+<p class="note">Krever <em>g</em> &lt; <em>r</em>. Med konstant vekst <em>g</em>;
+sett <em>g</em> = 0 for en vanlig evigvarende strøm.</p>
+::::
+
+:::: {.formula}
+### Effektiv rente
+$$r_{\text{eff}} = \left(1 + \frac{r_{\text{nom}}}{m}\right)^{m} - 1$$
+
+<dl class="glossary">
+  <dt>m</dt><dd>antall renteperioder per år</dd>
+</dl>
+::::
+
+:::: {.formula}
+### Realrente
+$$1 + r_{\text{real}} = \frac{1 + r_{\text{nom}}}{1 + i}$$
+
+<dl class="glossary">
+  <dt>i</dt><dd>inflasjonsrate</dd>
+</dl>
+
+<p class="note">Diskonter nominelle kontantstrømmer med nominell rente, reelle
+med reell. Å blande de to er den vanligste feilen på eksamen.</p>
+::::
+
+:::::
+
+::::: {.asterism}
+:::::
+
+## Lån og betalingsplaner
+
+::::: {.formula-grid}
+
+:::: {.formula}
+### Annuitetslån — terminbeløp
+$$A = L \cdot \frac{r}{1 - (1+r)^{-T}}$$
+
+<dl class="glossary">
+  <dt>L</dt><dd>lånebeløp</dd>
+  <dt>A</dt><dd>fast terminbeløp</dd>
+</dl>
+::::
+
+:::: {.formula}
+### Serielån — avdrag
+$$\text{avdrag} = \frac{L}{T}$$
+
+<p class="note">Avdraget er konstant; renten faller med restgjelden, så
+terminbeløpet synker over lånets løpetid.</p>
+::::
+
+:::: {.formula}
+### Restgjeld etter *k* terminer
+$$L_k = A \cdot \frac{1 - (1+r)^{-(T-k)}}{r}$$
+
+<p class="note">For annuitetslån: nåverdien av de gjenstående terminbeløpene.</p>
+::::
+
+:::::
+
+::::: {.asterism}
+:::::
+
+## Risiko og avkastning
+
+::::: {.formula-grid}
+
+:::: {.formula}
+### Forventet avkastning
+$$E(R) = \sum_{s} p_s R_s$$
+
+<dl class="glossary">
+  <dt>p<sub>s</sub></dt><dd>sannsynlighet for tilstand s</dd>
+</dl>
+::::
+
+:::: {.formula}
+### Varians og standardavvik
+$$\sigma^2 = \sum_{s} p_s \big(R_s - E(R)\big)^2$$
+
+<p class="note">Standardavviket er kvadratroten av variansen, og måles i samme
+enhet som avkastningen.</p>
+::::
+
+:::: {.formula .formula--wide}
+### Porteføljevarians
+$$\sigma_p^2 = w_A^2\sigma_A^2 + w_B^2\sigma_B^2 + 2w_A w_B \rho_{AB}\sigma_A\sigma_B$$
+
+<p class="note">Det er korrelasjonsleddet som gir diversifiseringsgevinsten. Når
+<em>ρ</em> &lt; 1 er porteføljens risiko lavere enn det veide snittet av de
+enkelte risikoene.</p>
+::::
+
+:::::
+
+::::: {.asterism}
+:::::
+
+## Rentemarkedet og kontrakter
+
+::::: {.formula-grid}
+
+:::: {.formula}
+### Obligasjonspris
+$$P = \sum_{t=1}^{T} \frac{K}{(1+y)^t} + \frac{P_{\text{pålydende}}}{(1+y)^T}$$
+
+<dl class="glossary">
+  <dt>K</dt><dd>kupongbetaling</dd>
+  <dt>y</dt><dd>effektiv rente til forfall</dd>
+</dl>
+::::
+
+:::: {.formula}
+### Terminpris
+$$F_0 = S_0 (1 + r)^{T}$$
+
+<dl class="glossary">
+  <dt>S<sub>0</sub></dt><dd>spotpris i dag</dd>
+</dl>
+::::
+
+:::: {.formula}
+### Dekket renteparitet
+$$F_0 = S_0 \cdot \frac{1 + r_{\text{hjemme}}}{1 + r_{\text{ute}}}$$
+
+<p class="note">Terminkursen på valuta følger av rentedifferansen. Avvik ville
+gitt en risikofri arbitrasjegevinst.</p>
+::::
+
+:::: {.formula}
+### Opsjon ved bortfall
+$$\text{kjøpsopsjon} = \max(S_T - X,\; 0)$$
+
+<dl class="glossary">
+  <dt>X</dt><dd>innløsningskurs</dd>
+  <dt>S<sub>T</sub></dt><dd>kurs ved bortfall</dd>
+</dl>
+::::
+
+:::::
+
+<p class="note">Formelutvalget er en designskisse. Det endelige formelarket
+avklares mot eksamensreglementet.</p>

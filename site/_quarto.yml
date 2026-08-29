@@ -1,0 +1,77 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "BED3"
+  description: "Kurssider for BED3 Investering og finans ved Norges Handelshøyskole."
+  favicon: theme/favicon.svg
+  page-navigation: true
+  bread-crumbs: true
+
+  search:
+    location: navbar
+    type: overlay
+
+  navbar:
+    title: "BED3"
+    left:
+      - href: index.qmd
+        text: "Forsiden"
+      - href: om-kurset.qmd
+        text: "Om kurset"
+      - href: kursinnhold.qmd
+        text: "Kursinnhold"
+      - href: formelark.qmd
+        text: "Formelark"
+      - href: timeplan.qmd
+        text: "Timeplan"
+
+  sidebar:
+    - id: kursmateriale
+      title: "Kursinnhold"
+      style: floating
+      border: false
+      collapse-level: 2
+      contents:
+        - section: "Investeringsanalyse"
+          contents:
+            - kursmateriale/01-investeringsanalyse/01-introduksjon.qmd
+            - kursmateriale/01-investeringsanalyse/02-investeringsprosjekter.qmd
+            - kursmateriale/01-investeringsanalyse/03-skatt-og-laan.qmd
+            - kursmateriale/01-investeringsanalyse/04-inflasjon.qmd
+            - kursmateriale/01-investeringsanalyse/05-risikovurderinger.qmd
+            - kursmateriale/01-investeringsanalyse/06-laane-og-betalingsalternativer.qmd
+        - section: "Finansielle markeder og kontrakter"
+          contents:
+            - kursmateriale/02-markeder/01-introduksjon.qmd
+            - kursmateriale/02-markeder/02-rentemarkedet.qmd
+            - kursmateriale/02-markeder/03-opsjoner.qmd
+            - kursmateriale/02-markeder/04-terminer.qmd
+            - kursmateriale/02-markeder/05-valuta.qmd
+
+  page-footer:
+    left: |
+      **BED3 – Investering og finans**<br>Norges Handelshøyskole
+    center: |
+      Tirsdag 12:15–14:00 · Fredag 10:15–12:00<br>Aud. Max.
+    right: |
+      [andre.sjuve@nhh.no](mailto:andre.sjuve@nhh.no)<br>© 2025–2026 André Wattø Sjuve
+
+format:
+  html:
+    theme: theme/bed3.scss
+    toc: false
+    # Quarto wraps each heading's content in a <section>. That wrapper closes at
+    # the next heading of equal or higher level, which crosses any fenced div a
+    # heading sits inside — the div then closes implicitly and its closing
+    # fence leaks onto the page as literal colons. Nothing here needs section
+    # divs, and turning them off lets headings live inside layout blocks.
+    section-divs: false
+    anchor-sections: true
+    link-external-newwindow: true
+    html-math-method: katex
+    include-in-header: _includes/head.html
+    include-after-body: _includes/quiz.html
+
+lang: nb
