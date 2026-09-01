@@ -1,0 +1,65 @@
+---
+title: "Stjernediagram"
+subtitle: "Følsomhetsanalyse med én variabel av gangen"
+---
+
+## Før du ser videoen
+
+Du har faktisk laget en følsomhetsanalyse før:
+[nåverdiprofilen](../02-investeringsprosjekter/06-naaverdiprofil.qmd) i Del 1
+varierte avkastningskravet og leste av hva som skjedde med lønnsomheten.
+Stjernediagrammet gjør det samme grepet med forutsetningene i telleren — pris,
+mengde, kostnader — og tegner én linje per variabel i samme figur.
+
+Videoen henter frem EcoTime Pro-caset igjen og spør: hvilken av forutsetningene
+kan alene velte beslutningen, og hvor mye må den i så fall bomme? Legg merke til
+hva hellingen på hver linje forteller, og hva plasseringen i forhold til
+null-linjen betyr. Og følg med helt til slutt, der metoden får en innvending
+den ikke kan svare på — det er den som motiverer neste video.
+
+::::: {.video}
+<div class="video__placeholder">
+  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+  <span>Video 2 · Stjernediagram</span>
+</div>
+:::::
+
+::::: {.video-meta}
+10:11 &nbsp;·&nbsp; Video 2 av 8 &nbsp;·&nbsp; [Del 4 · Risikovurderinger](index.qmd)
+:::::
+
+<p class="note">Videoen er ikke lenket opp enkeltvis ennå — du finner den i
+kapittelets
+<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%221e3f6c19-339c-443f-82a3-b3c900fd9efc%22">Panopto-mappe</a>.</p>
+
+## Sjekk forståelsen
+
+Tre spørsmål. Du får svaret med én gang, og du kan ta den om igjen så mange
+ganger du vil.
+
+```{=html}
+<div class="quiz">
+<div class="quiz__q" data-answer="c">
+<p class="quiz__prompt">1. Hva kjennetegner fremgangsmåten i et stjernediagram?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Flere variabler endres samtidig, kombinert til et helhetlig fremtidsbilde</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Variablene trekkes tilfeldig fra sannsynlighetsfordelinger mange ganger</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Én variabel justeres av gangen, mens alle de andre holdes konstant</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Det er hele oppskriften: velg variablene, regn en baseline, og flytt så én størrelse om gangen i prosentvise steg mens resten står stille — hver variabel blir sin egen linje ut fra midtpunktet. Alternativ A beskriver scenarioanalyse, som er neste verktøy i kassen, og B beskriver simulering. At de tre metodene skiller lag akkurat her, er verdt å ha klart for seg.</p>
+</div>
+<div class="quiz__q" data-answer="a">
+<p class="quiz__prompt">2. I et stjernediagram er linjen for salgspris brattere enn linjen for salgsmengde. Hva betyr det?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Netto nåverdi er mer følsom for en gitt prosentvis endring i pris enn for samme endring i mengde</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Prisen er mer sannsynlig å endre seg enn mengden</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Prosjektet blir raskere ulønnsomt av endringer i mengde enn av endringer i pris</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Hellingen måler følsomhet: hvor mye netto nåverdi flytter seg per prosent endring i variabelen. I EcoTime-eksempelet er det nettopp prislinjen som er brattest — samme prosentvise løft gir større utslag via pris enn via mengde. Alternativ B leser noe ut av figuren som ikke står der; diagrammet sier ingenting om hvor sannsynlige endringene er. Og C har det motsatt vei — den slakeste linjen er den som senest krysser null.</p>
+</div>
+<div class="quiz__q" data-answer="b">
+<p class="quiz__prompt">3. Hva er den viktigste svakheten ved stjernediagram som videoen trekker frem?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Metoden krever programvare og lar seg ikke gjøre på penn og papir</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Variablene analyseres isolert, enda de i virkeligheten ofte beveger seg sammen</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Metoden kan bare håndtere to variabler om gangen</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Faller prisen i markedet, endrer typisk også etterspørselen seg — men i diagrammet står mengden bom stille mens prisen varieres. Det er den avhengigheten metoden ikke fanger, og som scenarioanalysen i neste video tar tak i. Alternativ A er nesten omvendt av det videoen sier: dette er en av de enkleste analysene å gjøre for hånd, verktøy sparer bare tid. Og C finnes det ingen slik grense — hver variabel får ganske enkelt sin egen linje.</p>
+</div>
+<p class="quiz__score" role="status" aria-live="polite"></p>
+</div>
+```

@@ -285,7 +285,9 @@ main.content .btn, .button {
   padding: 0.25rem 0.5rem;
 }
 
-.button--quiet {
+// Must outrank `main.content .btn` (0,2,1) or the variant never applies and
+// the page ends up with two identical primary buttons.
+main.content .btn.button--quiet, .button--quiet {
   background: transparent;
   color: $bed3-oxblood;
   border-color: $bed3-rule-strong;
@@ -307,11 +309,20 @@ main.content .btn, .button {
 // Masthead (Quarto navbar)
 // =============================================================================
 
+// Masthead and footer share one inline padding so the chrome agrees with
+// itself at every width (the content column still centers independently;
+// this is the cheap 80% of the v2 .shell alignment).
+.navbar, .nav-footer { padding-inline: clamp(1.5rem, 5vw, 6rem); }
+
 .navbar {
   border-bottom: 1px solid $bed3-rule;
   box-shadow: none;
   padding-block: var(--sp-2);
   font-family: $bed3-text;
+
+  // Bootstrap's container adds its own gutter on top of ours — zero it so
+  // the wordmark sits exactly on the shared edge.
+  .navbar-container { padding-inline: 0; }
 
   .navbar-brand {
     font-family: $bed3-display;
@@ -364,6 +375,86 @@ main.content .btn, .button {
 }
 
 // =============================================================================
+// Search overlay — Quarto ships Algolia autocomplete with system-blue states
+// and rounded corners; every rule below exists to pull it back into the world.
+// Selectors mirror Quarto's own (bootstrap css + quarto-search.js) so cascade
+// order decides. Verified against site_libs/quarto-search + the compiled css.
+// =============================================================================
+
+// The detached modal: square, paper, hairline border — no radius, no shadow.
+.aa-DetachedContainer--modal {
+  border-radius: 0 !important;  // Quarto sets 6px inside a media query
+  border: 1px solid $bed3-rule-strong;
+  box-shadow: none;
+}
+.aa-DetachedContainer { font-family: $bed3-text; }
+
+// Cancel button ("Avbryt"): a text control, not a pill.
+.aa-DetachedCancelButton {
+  border-radius: 0;
+  font: inherit;
+  font-size: var(--size-small);
+  color: $bed3-oxblood;
+}
+.aa-DetachedCancelButton:hover,
+.aa-DetachedCancelButton:focus {
+  box-shadow: none;
+  outline: 2px solid $bed3-oxblood;
+  outline-offset: 3px;
+}
+
+// Kill the blue focus halo on the search form; the input's own oxblood
+// :focus-visible ring (global) still fires.
+.aa-Autocomplete .aa-Form:focus-within,
+.aa-DetachedFormContainer .aa-Form:focus-within {
+  box-shadow: none;
+  border-color: $bed3-rule-strong;
+}
+
+// Source header joins the wash, not a computed hsl tone.
+.aa-DetachedOverlay .aa-SourceHeader .search-result-header,
+#quarto-search-results .aa-SourceHeader .search-result-header {
+  background-color: $bed3-wash;
+  color: $bed3-muted;
+  font-style: italic;
+}
+
+// The selected result: the site's one accent grammar — wash fill with an
+// inset oxblood spine — instead of solid system blue with white text.
+.aa-DetachedOverlay li.aa-Item[aria-selected="true"] .search-item,
+#quarto-search-results li.aa-Item[aria-selected="true"] .search-item {
+  background-color: $bed3-wash;
+  box-shadow: inset 3px 0 0 $bed3-oxblood;
+}
+.aa-DetachedOverlay li.aa-Item[aria-selected="true"] .search-item.search-result-more,
+.aa-DetachedOverlay li.aa-Item[aria-selected="true"] .search-item .search-result-section,
+.aa-DetachedOverlay li.aa-Item[aria-selected="true"] .search-item .search-result-text,
+.aa-DetachedOverlay li.aa-Item[aria-selected="true"] .search-item .search-result-title-container,
+.aa-DetachedOverlay li.aa-Item[aria-selected="true"] .search-item .search-result-text-container,
+#quarto-search-results li.aa-Item[aria-selected="true"] .search-item.search-result-more,
+#quarto-search-results li.aa-Item[aria-selected="true"] .search-item .search-result-section,
+#quarto-search-results li.aa-Item[aria-selected="true"] .search-item .search-result-text,
+#quarto-search-results li.aa-Item[aria-selected="true"] .search-item .search-result-title-container,
+#quarto-search-results li.aa-Item[aria-selected="true"] .search-item .search-result-text-container {
+  color: $bed3-ink;
+  background-color: transparent;
+}
+
+// Match highlights use the selection tone in both states — no light blue.
+.aa-DetachedOverlay li.aa-Item[aria-selected="true"] .search-item mark.search-match,
+.aa-DetachedOverlay li.aa-Item[aria-selected="true"] .search-item .search-match.mark,
+#quarto-search-results li.aa-Item[aria-selected="true"] .search-item mark.search-match,
+#quarto-search-results li.aa-Item[aria-selected="true"] .search-item .search-match.mark,
+.aa-DetachedOverlay li.aa-Item[aria-selected="false"] .search-item mark.search-match,
+.aa-DetachedOverlay li.aa-Item[aria-selected="false"] .search-item .search-match.mark,
+#quarto-search-results li.aa-Item[aria-selected="false"] .search-item mark.search-match,
+#quarto-search-results li.aa-Item[aria-selected="false"] .search-item .search-match.mark {
+  color: $bed3-ink;
+  background-color: $bed3-selection;
+  padding: 0;
+}
+
+// =============================================================================
 // Breadcrumbs and page navigation
 // =============================================================================
 
@@ -386,7 +477,17 @@ main.content .btn, .button {
   a { text-decoration: none; }
   a:hover .nav-page-text { text-decoration: underline; }
   .bi { display: none; }  // no icon font in an all-serif world
+
+  // Direction cues. The icons are gone (above), so the words carry the
+  // wayfinding — typographic, muted, on the same baseline as the title.
+  a::before {
+    font-family: $bed3-text;
+    font-size: var(--size-small);
+    color: $bed3-muted;
+  }
 }
+.nav-page-previous a::before { content: "Forrige · "; }
+.nav-page-next a::before { content: "Neste · "; }
 
 // =============================================================================
 // Sidebar — floating, no panel, no vertical rule
@@ -506,14 +607,24 @@ ol.roman {
 // Tables — horizontal hairlines only
 // =============================================================================
 
-.table-scroll { overflow-x: auto; }
+// The outdent (compensating the first cell's padding-left) lives on the
+// wrapper, not the table: the wrapper is the overflow clip, and a table
+// pulled outside it loses its caption edge and the marked row's inset spine.
+.table-scroll {
+  overflow-x: auto;
+  margin-left: calc(var(--sp-2) * -1);
+}
+
+// Quarto injects <colgroup> with equal percentage widths into HTML tables,
+// overriding the designed per-column widths. Neutralise it; the narrow
+// columns are pinned inline in the markup, the rest auto-size.
+.table-scroll colgroup col { width: auto !important; }
 
 table {
   width: 100%;
   border-collapse: collapse;
   font-size: var(--size-small);
   text-align: left;
-  margin-left: calc(var(--sp-2) * -1);
 }
 
 caption {
@@ -566,6 +677,17 @@ tr.marked td, tr.marked th[scope="row"] { background: $bed3-wash; }
 tr.marked th[scope="row"] { color: $bed3-ink; }
 tr.marked > *:first-child { box-shadow: inset 2px 0 0 $bed3-oxblood; }
 
+// Interleaf lines in the schedule (gruppeøvinger, påske, frister): a single
+// full-width cell, italic, muted, centered — hairlines intact, no fill, no
+// spine. The wash + spine stays reserved for the computed current week.
+tr.row--marker td {
+  text-align: center;
+  font-style: italic;
+  color: $bed3-muted;
+  padding-block: var(--sp-2);
+  padding-inline: var(--sp-2);  // symmetric, so "centered" means centered
+}
+
 // =============================================================================
 // Formulas
 // =============================================================================
@@ -598,6 +720,31 @@ tr.marked > *:first-child { box-shadow: inset 2px 0 0 $bed3-oxblood; }
   margin: var(--section-gap) 0;
 
   &::before { content: "\2042"; }
+}
+
+// On the formelark, eleven sections at the full gap is screens of pure air;
+// the asterism keeps half its lungs there (h2's own margin does the rest).
+// Scoped by class in the page markup, not globally.
+.asterism--tight { margin: calc(var(--section-gap) / 2) 0; }
+
+// Compact typographic section index (formelark): one run of links under the
+// subtitle, separated by "·" — wayfinding in the register of the page, and
+// present at every viewport where a margin TOC would not be.
+.section-index {
+  font-size: var(--size-small);
+  margin-block: var(--sp-3) var(--sp-4);
+  line-height: 2;
+
+  p { margin: 0; }
+
+  a {
+    color: $bed3-muted;
+    text-decoration-color: transparent;
+    white-space: nowrap;
+
+    &:hover { color: $bed3-oxblood; text-decoration-color: $bed3-rule-strong; }
+    &:visited { color: $bed3-muted; }
+  }
 }
 
 // =============================================================================
@@ -634,6 +781,10 @@ tr.marked > *:first-child { box-shadow: inset 2px 0 0 $bed3-oxblood; }
 
 // Typographic index rows, never thumbnail cards
 .index-list { border-top: 1px solid $bed3-rule-strong; }
+
+// Pandoc wraps the row anchors in a bare <p>, which would inherit the prose
+// measure and leave every row hairline shorter than the list's own top rule.
+main.content .index-list > p { max-width: none; margin: 0; }
 
 .index-row {
   display: grid;
@@ -722,23 +873,29 @@ details.solution {
   cursor: pointer;
   transition: background 140ms ease-out, color 140ms ease-out;
 
-  &:hover:not([disabled]) { background: $bed3-wash; color: $bed3-ink; }
-  &[disabled] { cursor: default; opacity: 1; }
+  // Answered choices are locked with aria-disabled, not the disabled property,
+  // so they stay focusable — see the note in _includes/quiz.html.
+  &:hover:not([aria-disabled="true"]) { background: $bed3-wash; color: $bed3-ink; }
+  &[aria-disabled="true"] { cursor: default; opacity: 1; }
 }
 
 .choice__key  { color: $bed3-muted; min-width: 1.4rem; }
 .choice__mark {
   margin-left: auto;
   opacity: 0;
-  font-size: var(--size-label);
-  font-style: italic;
+  font-size: var(--size-small);
   white-space: nowrap;
   padding-left: var(--sp-2);
 }
 
+// The wash fill alone sits at ~1.09:1 against paper and vanishes in forced
+// colours, so the answered states carry a rule as well — the same inset marker
+// the sidebar and marked table rows use.
 .choice[data-state="correct"] {
   color: $bed3-ink;
   background: $bed3-wash;
+  box-shadow: inset 3px 0 0 $bed3-oxblood;
+  padding-left: var(--sp-2);
 
   .choice__key  { color: $bed3-oxblood; }
   .choice__mark { opacity: 1; color: $bed3-oxblood; }
@@ -746,6 +903,8 @@ details.solution {
 
 .choice[data-state="wrong"] {
   color: $bed3-muted;
+  box-shadow: inset 3px 0 0 $bed3-rule-strong;
+  padding-left: var(--sp-2);
 
   .choice__mark { opacity: 1; color: $bed3-muted; }
 }
@@ -759,6 +918,26 @@ details.solution {
 }
 
 .quiz__score { color: $bed3-ink; font-family: $bed3-display; font-size: var(--size-h3); }
+
+// The author style would otherwise beat the UA's [hidden] rule — and the
+// reset is hidden until there is something to reset.
+.quiz__reset[hidden] { display: none; }
+
+.quiz__reset {
+  display: inline-block;
+  margin-top: var(--sp-3);
+  background: none;
+  border: 0;
+  border-bottom: 1px solid $bed3-rule-strong;
+  border-radius: 0;
+  padding: 0.2rem 0;
+  font: inherit;
+  font-size: var(--size-small);
+  color: $bed3-oxblood;
+  cursor: pointer;
+
+  &:hover { border-bottom-color: $bed3-oxblood; }
+}
 
 // =============================================================================
 // People
@@ -832,16 +1011,35 @@ details.solution {
 @media (max-width: 46rem) {
   .two-col, .formula-grid { grid-template-columns: minmax(0, 1fr); }
 
+  // On a phone the 1.15em display size pushes the longest equations past the
+  // viewport — and a clipped equation is a wrong equation. overflow-x stays
+  // as the last-resort net.
+  .formula .katex { font-size: 1em; }
+
   .index-row { grid-template-columns: 2.5rem minmax(0, 1fr); }
   .index-row__dur { grid-column: 2; }
 
-  // A three-column schedule does not fit a phone, and sideways scrolling is
-  // not an answer for nine rows. The ARIA roles in the markup keep the
+  // A multi-column schedule does not fit a phone, and sideways scrolling is
+  // not an answer for a term of rows. The ARIA roles in the markup keep the
   // semantics that display:block would otherwise strip.
   .table-scroll {
-    table, thead, tbody, tr, th, td { display: block; width: auto; margin-left: 0; }
+    margin-left: 0;  // the desktop outdent has no padding to compensate here
+
+    table, thead, tbody, tr, th, td { display: block; width: auto !important; margin-left: 0; }
+
+    // A block-display table shrink-wraps its caption to min-content — one
+    // word per line — unless the caption goes block too.
+    caption { display: block; width: auto; }
 
     thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+
+    // With the header row hidden, cells that do not explain themselves
+    // ("FS", a bare pensum reference) get their column name back.
+    th[data-label]::before, td[data-label]::before {
+      content: attr(data-label) ": ";
+      font-style: italic;
+      color: $bed3-muted;
+    }
 
     tr { border-bottom: 1px solid $bed3-rule; padding: var(--sp-3) 0; }
     tbody tr:last-child { border-bottom: 0; }

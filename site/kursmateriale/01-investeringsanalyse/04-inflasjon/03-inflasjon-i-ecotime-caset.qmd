@@ -1,0 +1,74 @@
+---
+title: "Inflasjon i EcoTime-caset"
+subtitle: "Kontantstrømmen til egenkapitalen når prisene stiger"
+---
+
+## Før du ser videoen
+
+De to første videoene brukte små taleksempler. Nå flyttes inflasjonen inn i
+EcoTime-caset fra del 2, og oppstillingen fram til kontantstrømmen til
+egenkapitalen etter skatt regnes på nytt — denne gangen med priser som stiger
+litt hvert år. Videoen introduserer ikke noe nytt; den anvender alt du
+allerede har sett, og noen av casets forutsetninger er forenklet for å rendyrke
+inflasjonseffekten.
+
+Følg nøye med på hvilke poster som vokser med prisstigningen og hvilke som
+står bom stille — skillet er ikke tilfeldig, og det er her de fleste
+regnefeilene skjer. Arbeidskapitalen fortjener et ekstra blikk: den oppfører
+seg annerledes enn i det opprinnelige caset, med små beløp som dukker opp år
+for år. Hvorfor gjør den det, og hva skjer med alt sammen når prosjektet
+avsluttes?
+
+::::: {.video}
+<div class="video__placeholder">
+  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+  <span>Video 3 · Inflasjon i EcoTime-caset</span>
+</div>
+:::::
+
+::::: {.video-meta}
+09:02 &nbsp;·&nbsp; Video 3 av 4 &nbsp;·&nbsp; [Del 3 · Effekter av inflasjon](index.qmd)
+:::::
+
+<p class="note">Videoen er ikke lenket opp enkeltvis ennå — du finner den i
+kapittelets
+<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%2209cb074c-18c9-4651-bd47-b3c900fd95bd%22">Panopto-mappe</a>.</p>
+
+## Sjekk forståelsen
+
+Fire spørsmål. Du får svaret med én gang, og du kan ta quizen om igjen så
+mange ganger du vil. Det siste spørsmålet krever kalkulator.
+
+```{=html}
+<div class="quiz">
+<div class="quiz__q" data-answer="b">
+<p class="quiz__prompt">1. Hvilke poster i oppstillingen inflasjonsjusteres ikke?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Dekningsbidraget og de faste kostnadene</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Avskrivninger, renter og avdrag</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Ingen — når prisene stiger, må alle poster justeres opp</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Avskrivningene følger av den historiske investeringen, og låneavtalen er inngått i nominelle kroner — begge ligger fast uansett hva prisene gjør. Driftspostene i A er derimot nettopp de som vokser: både inntekter og betalbare kostnader følger prisstigningen. C høres konsistent ut, men blander sammen to ting: å regne i løpende priser betyr å bruke de faktiske beløpene — og for gjeld og avskrivninger er de faktiske beløpene avtalt én gang for alle.</p>
+</div>
+<div class="quiz__q" data-answer="c">
+<p class="quiz__prompt">2. Hvorfor gir arbeidskapitalen en liten negativ kontantstrøm hvert eneste år i det justerte caset?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Fordi varelageret må utvides med flere enheter etter hvert som prosjektet vokser</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Fordi arbeidskapitalen avskrives over prosjektets levetid</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Fordi det koster litt mer for hvert år å holde det samme varelageret — kapitalbindingen må vokse i takt med prisene, og økningen er en utbetaling</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Volumet er uendret — det er prisene på innsatsvarene som stiger, så den samme hyllen med varer binder litt mer kapital for hvert år. Og siden det er endringen i arbeidskapital som er kontantstrøm, gir det en liten utbetaling årlig. A ville gitt samme fortegn, men av feil grunn: i det justerte caset er salgsvolumet holdt fast, og hele effekten kommer fra prisstigningen. B blander balanse og periodisering — arbeidskapital avskrives ikke, den frigjøres når prosjektet avvikles.</p>
+</div>
+<div class="quiz__q" data-answer="a">
+<p class="quiz__prompt">3. Hva frigjøres av arbeidskapital når prosjektet legges ned?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Hele det akkumulerte nivået — startbeløpet oppjustert med inflasjonen fram til siste år</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Startbeløpet fra år 0 — resten er forbrukt underveis</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Ingenting — arbeidskapitalen er allerede kostnadsført gjennom de årlige endringene</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Ved avvikling selges varelageret og fordringene innkasseres, og alt som står bundet — startbeløpet pluss alle de små årlige økningene — kommer tilbake som én stor positiv kontantstrøm i sluttåret. B glemmer at bindingen har vokst med prisene underveis; de årlige økningene er ikke forbruk, men påfyll av det samme lageret til høyere priser. C har fortegnslogikken feil vei: økningene underveis var utbetalinger nettopp fordi kapitalen fortsatt sto bundet — hadde den vært tapt, ville det ikke vært noe å hente ved slutten.</p>
+</div>
+<div class="quiz__q" data-answer="a">
+<p class="quiz__prompt">4. Dekningsbidrag minus betalbare faste kostnader er 1 500 i år 1 og vokser deretter med inflasjonen på 3 % i året. Arbeidskapitalnivået er 400 i år 0 og vokser i takt med prisene (beløp i tusen kroner). Hva er overskuddet i år 3, og kontantstrømeffekten av arbeidskapitalen i år 1?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>1 591,4 og −12,0</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>1 639,1 og −12,4</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>1 590,0 og −400,0</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Beløpet på 1 500 er allerede et år 1-beløp, så fram til år 3 virker inflasjonen i to år: $1\,500 \cdot 1{,}03^2 \approx 1\,591{,}4$. Arbeidskapitalnivået stiger til $400 \cdot 1{,}03 = 412$ i år 1, og kontantstrømeffekten er endringen: $-12{,}0$. B ganger opp med 1,03 én gang for mye begge steder — den klassiske tellefeilen når basisåret allerede er år 1. C bruker enkel rente ($1\,500 \cdot 1{,}06$) og fører hele arbeidskapitalnivået som utbetaling i stedet for endringen.</p>
+</div>
+<p class="quiz__score" role="status" aria-live="polite"></p>
+</div>
+```

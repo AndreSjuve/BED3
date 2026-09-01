@@ -1,0 +1,73 @@
+---
+title: "Lånetyper"
+subtitle: "Serielån og annuitetslån på nytt — og verdien av et subsidiert lån"
+---
+
+## Før du ser videoen
+
+Serielån og annuitetslån har du allerede regnet på: begge var med da
+EcoTime-prosjektet skulle lånefinansieres i
+[del 2](../03-skatt-og-laan/04-laanefinansiering.qmd). Denne videoen henter
+dem fram igjen med lånet selv som hovedperson. Følg med på hva som er
+konstant i hver låneform, og hvordan renter og avdrag bytter roller gjennom
+løpetiden.
+
+Så kommer et spørsmål mange svarer feil på: to lån med samme beløp, rente og
+løpetid — men det ene krever flere rentekroner totalt over løpetiden. Er det
+da dyrere? Videoen viser nøyaktig hvor regnefeilen ligger. Til slutt:
+hva er et subsidiert «billiglån» verdt, og hvilken målestokk skal verdien
+måles mot?
+
+::::: {.video}
+<div class="video__placeholder">
+  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+  <span>Video 3 · Lånetyper</span>
+</div>
+:::::
+
+::::: {.video-meta}
+06:16 &nbsp;·&nbsp; Video 3 av 5 &nbsp;·&nbsp; [Del 5 · Låne- og betalingsalternativer](index.qmd)
+:::::
+
+<p class="note">Videoen er ikke lenket opp enkeltvis ennå — du finner den i
+kapittelets
+<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22fbcdb4ff-7d88-4cff-b26c-b3c900fdadb2%22">Panopto-mappe</a>.</p>
+
+## Sjekk forståelsen
+
+Fire spørsmål. Du får svaret med én gang, og du kan ta quizen om igjen så
+mange ganger du vil. Det siste spørsmålet krever kalkulator.
+
+```{=html}
+<div class="quiz">
+<div class="quiz__q" data-answer="c">
+<p class="quiz__prompt">1. Hvordan utvikler betalingene seg gjennom løpetiden i et annuitetslån?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Terminbeløpet faller, fordi rentene minker etter hvert som gjelden betales ned</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Terminbeløpet er konstant, og fordelingen mellom renter og avdrag er også konstant</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Terminbeløpet er konstant, men rentedelen avtar og avdragsdelen vokser</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Annuiteten betaler samme sum hver termin; innenfor den faste summen beregnes renten av stadig lavere restgjeld, så det som frigjøres, går til større avdrag. A beskriver serielånet, der det er avdragene som er faste og terminbeløpet som faller. B får det konstante terminbeløpet riktig, men overser hele mekanikken inni: det er nettopp forskyvningen fra renter mot avdrag som gjør at lånet blir nedbetalt.</p>
+</div>
+<div class="quiz__q" data-answer="a">
+<p class="quiz__prompt">2. Summert over løpetiden betaler annuitetslånet flere rentekroner enn serielånet ved samme lånebeløp og rente. Hvorfor beviser ikke det at serielånet er billigere?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Fordi summen legger sammen beløp som forfaller på ulike tidspunkter, uten hensyn til pengenes tidsverdi</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Fordi rentene i annuitetslånet er fradragsberettigede, mens serielånets ikke er det</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Fordi serielånet i virkeligheten har kortere løpetid enn annuitetslånet</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Kronesummering behandler en rentekrone i år 5 som like tung som en i år 1. Diskonteres betalingene med lånets egen effektive rente, får begge lån netto nåverdi lik null — med samme rente er de nøyaktig like dyre, og annuitetslånets høyere rentesum er bare prisen for å skyve avdragene utover. B er galt: rentefradraget behandler de to låneformene helt likt. C er også galt — i sammenligningen er beløp, rente og løpetid identiske; det eneste som skiller, er profilen på betalingene.</p>
+</div>
+<div class="quiz__q" data-answer="b">
+<p class="quiz__prompt">3. En bedrift tilbys et subsidiert lån med rente under markedsrenten. Hvordan finner du hva subsidien er verdt?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Diskonter lånets betalinger med den subsidierte renten — nåverdien viser gevinsten</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Diskonter lånets betalinger med markedsrenten — netto nåverdi blir positiv og måler besparelsen</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Multipliser rentedifferansen med lånebeløpet og antall år</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Alternativet til det subsidierte lånet er å låne samme beløp i markedet, så markedsrenten er sammenligningsgrunnlaget — og den positive nettonåverdien er totalbesparelsen målt i dagens kroner. A gir null per definisjon: å diskontere et lån med dets egen rente kan aldri avsløre om det er gunstig. C er en tommelfingerregel som både overser at restgjelden faller gjennom løpetiden og at besparelsene forfaller på ulike tidspunkter — den bommer mer jo lengre lånet løper.</p>
+</div>
+<div class="quiz__q" data-answer="a">
+<p class="quiz__prompt">4. Et annuitetslån på 900 000 kroner løper over seks år med 4 % rente og årlige etterskuddsvise terminer. Hva er terminbeløpet?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>ca. 171 700 kroner</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>186 000 kroner</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>150 000 kroner</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Terminbeløpet er lånet multiplisert med den inverse annuitetsfaktoren: $900\,000 \cdot 0{,}04/(1 - 1{,}04^{-6}) \approx 171\,700$. B er første års betaling i et <em>serielån</em> på samme vilkår (150 000 i avdrag + 36 000 i rente) — serielånet starter høyere enn annuiteten og faller under den mot slutten. C er bare lånebeløpet delt på antall år og glemmer rentene helt.</p>
+</div>
+<p class="quiz__score" role="status" aria-live="polite"></p>
+</div>
+```

@@ -1,0 +1,72 @@
+---
+title: "Leasing"
+subtitle: "Finansiell leasing og kontantstrømmene til leietaker og utleier"
+---
+
+## Før du ser videoen
+
+Siste video skifter fra lån til leie. Leasing gir bruksrett uten eierskap —
+men er det egentlig noe annet enn enda en måte å finansiere et kjøp på?
+Videoen skiller mellom operasjonell og finansiell leasing, og går gjennom
+grunnene til å lease: fleksibilitet, vedlikehold, transaksjonskostnader.
+Legg merke til hvor grensen mellom de to formene går.
+
+Kjernen er likevel et regnestykke: en maskin kan kjøpes med lån eller
+leases. Merk deg hvilke kontantstrømmer som hører med i sammenligningen — og
+hvilke som er like uansett og kan holdes utenfor. Se også etter speilingen
+mellom partene: det den ene betaler, mottar den andre. Hvorfor diskonterer
+de to likevel med hver sin rente?
+
+::::: {.video}
+<div class="video__placeholder">
+  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+  <span>Video 5 · Leasing</span>
+</div>
+:::::
+
+::::: {.video-meta}
+08:29 &nbsp;·&nbsp; Video 5 av 5 &nbsp;·&nbsp; [Del 5 · Låne- og betalingsalternativer](index.qmd)
+:::::
+
+<p class="note">Videoen er ikke lenket opp enkeltvis ennå — du finner den i
+kapittelets
+<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22fbcdb4ff-7d88-4cff-b26c-b3c900fdadb2%22">Panopto-mappe</a>.</p>
+
+## Sjekk forståelsen
+
+Fire spørsmål. Du får svaret med én gang, og du kan ta quizen om igjen så
+mange ganger du vil. Det siste spørsmålet krever kalkulator.
+
+```{=html}
+<div class="quiz">
+<div class="quiz__q" data-answer="c">
+<p class="quiz__prompt">1. Hva kjennetegner finansiell leasing, i motsetning til operasjonell?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Kort leieforhold som er lett å si opp — typisk for utstyr som byttes ofte</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>At utleier alltid står for vedlikeholdet av eiendelen</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Langvarig avtale som er vanskelig å komme ut av, gjerne for det meste av eiendelens levetid</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Finansiell leasing brukes om store, kapitalintensive eiendeler — fly, skip, eiendom — der leietaker binder seg for mesteparten av den økonomiske levetiden; et flyselskap leaser ikke et fly for et år. A beskriver operasjonell leasing, der oppsigelsesfleksibiliteten er selve poenget. B er en vanlig praktisk fordel ved leasing generelt, men det er avtalens lengde og bindingen som skiller de to formene, ikke hvem som skrur.</p>
+</div>
+<div class="quiz__q" data-answer="a">
+<p class="quiz__prompt">2. Hvilke kontantstrømmer hører med når leietaker skal vurdere om leasing lønner seg?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Bare de som skiller leasing fra kjøp: spart investering, leiebetalinger med skatteeffekt, tapte avskrivninger og tapt salgsverdi</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Alle prosjektets kontantstrømmer, også driftsinntektene maskinen skaper</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Bare leiebetalingene, siden det er de som faktisk betales til utleier</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Maskinen brukes likt enten den er kjøpt eller leid, så driften er upåvirket av finansieringsformen og faller ut av differansen — det er derfor B tar med for mye. C tar med for lite: leietakeren gir også avkall på avskrivningenes skattefordel og på utrangeringsverdien ved slutten, og får en skattefordel av selve leiebetalingene. I videoens oppstilling er det nettopp disse indirekte postene som avgjør om avtalen lønner seg.</p>
+</div>
+<div class="quiz__q" data-answer="b">
+<p class="quiz__prompt">3. Kontantstrømmene til leietaker og utleier er speilbilder av hverandre. Hvorfor diskonterer de likevel med ulike renter?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Fordi utleier bærer høyere risiko og legger på et risikopåslag</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Fordi alternativene deres er ulike: leietakers alternativ er å lånefinansiere kjøpet, utleiers er å plassere pengene</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Fordi de alltid står overfor ulike skattesatser</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Leasing er for leietaker et alternativ til å kjøpe med gjeld, så alternativkostnaden er lånerenten etter skatt; for utleier er avtalen en investering, målt mot plasseringsrenten etter skatt. Nettopp gapet mellom de to rentene kan gjøre samme avtale lønnsom for begge parter samtidig. A tolker rentene som risikopriser — her er de alternativkostnader. C er galt i videoens eksempel, der begge parter har samme sats; ulike skattesatser er en <em>mulig</em> kilde til forskjeller (og bryter i så fall symmetrien i kontantstrømmene), men ikke forklaringen på de ulike rentene.</p>
+</div>
+<div class="quiz__q" data-answer="c">
+<p class="quiz__prompt">4. En maskin til 3 000 000 kroner saldoavskrives med 25 % i året. Leieavtalen løper i fire år, og maskinen ventes solgt til bokført verdi ved utløp. Hvilken salgsverdi går leietakeren glipp av?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>0 kroner — maskinen er fullt avskrevet etter fire år</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>ca. 1 266 000 kroner</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>ca. 949 000 kroner</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Saldometoden tar 25 % av <em>gjenværende</em> verdi hvert år, så bokført verdi etter fire år er $3\,000\,000 \cdot 0{,}75^4 \approx 949\,000$ kroner. A regner lineært — fire år à 25 % av kostpris — men saldoavskrivning når aldri null; det står alltid en rest igjen. B stopper etter tre nedskrivninger ($0{,}75^3 \approx 1\,266\,000$): verdien skal skrives ned i alle fire årene før salget.</p>
+</div>
+<p class="quiz__score" role="status" aria-live="polite"></p>
+</div>
+```

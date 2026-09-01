@@ -14,52 +14,52 @@ betalingsalternativer.
 
 ::::: {.index-list}
 <a class="index-row" href="kursmateriale/01-investeringsanalyse/01-introduksjon.html">
-  <span class="index-row__no">1</span>
+  <span class="index-row__no">—</span>
   <span>
     <span class="index-row__title">Introduksjon</span>
     <span class="index-row__sub">Hva investeringsanalyse er, og hvilke spørsmål den skal svare på</span>
   </span>
   <span class="index-row__dur">—</span>
 </a>
-<a class="index-row" href="kursmateriale/01-investeringsanalyse/02-investeringsprosjekter.html">
-  <span class="index-row__no">2</span>
+<a class="index-row" href="kursmateriale/01-investeringsanalyse/02-investeringsprosjekter/index.html">
+  <span class="index-row__no">1</span>
   <span>
     <span class="index-row__title">Investeringsprosjekter</span>
     <span class="index-row__sub">Beslutningsregler og lønnsomhetsmålinger for investeringsprosjekter</span>
   </span>
-  <span class="index-row__dur">—</span>
+  <span class="index-row__dur">71 min</span>
 </a>
-<a class="index-row" href="kursmateriale/01-investeringsanalyse/03-skatt-og-laan.html">
-  <span class="index-row__no">3</span>
+<a class="index-row" href="kursmateriale/01-investeringsanalyse/03-skatt-og-laan/index.html">
+  <span class="index-row__no">2</span>
   <span>
     <span class="index-row__title">Effekter av skatt og lån</span>
     <span class="index-row__sub">Hvordan finansiering og beskatning endrer kontantstrømmene</span>
   </span>
-  <span class="index-row__dur">—</span>
+  <span class="index-row__dur">81 min</span>
 </a>
-<a class="index-row" href="kursmateriale/01-investeringsanalyse/04-inflasjon.html">
-  <span class="index-row__no">4</span>
+<a class="index-row" href="kursmateriale/01-investeringsanalyse/04-inflasjon/index.html">
+  <span class="index-row__no">3</span>
   <span>
     <span class="index-row__title">Effekter av inflasjon</span>
     <span class="index-row__sub">Nominelle og reelle størrelser, og hvorfor de ikke må blandes</span>
   </span>
-  <span class="index-row__dur">—</span>
+  <span class="index-row__dur">40 min</span>
 </a>
-<a class="index-row" href="kursmateriale/01-investeringsanalyse/05-risikovurderinger.html">
-  <span class="index-row__no">5</span>
+<a class="index-row" href="kursmateriale/01-investeringsanalyse/05-risikovurderinger/index.html">
+  <span class="index-row__no">4</span>
   <span>
     <span class="index-row__title">Risikovurderinger</span>
-    <span class="index-row__sub">Usikkerhet i kontantstrømmene, og hva den gjør med beslutningen</span>
+    <span class="index-row__sub">Metoder for å stressteste forutsetningene bak kontantstrømmene</span>
   </span>
-  <span class="index-row__dur">—</span>
+  <span class="index-row__dur">74 min</span>
 </a>
-<a class="index-row" href="kursmateriale/01-investeringsanalyse/06-laane-og-betalingsalternativer.html">
-  <span class="index-row__no">6</span>
+<a class="index-row" href="kursmateriale/01-investeringsanalyse/06-laane-og-betalingsalternativer/index.html">
+  <span class="index-row__no">5</span>
   <span>
     <span class="index-row__title">Låne- og betalingsalternativer</span>
-    <span class="index-row__sub">Annuitetslån, serielån, og sammenligning av betalingsplaner</span>
+    <span class="index-row__sub">Effektiv rente som felles målestokk for lån, betalingsplaner og leasing</span>
   </span>
-  <span class="index-row__dur">—</span>
+  <span class="index-row__dur">46 min</span>
 </a>
 :::::
 
@@ -76,37 +76,37 @@ Rentemarkedet og de tre kontraktstypene kurset behandler.
   </span>
   <span class="index-row__dur">—</span>
 </a>
-<a class="index-row" href="kursmateriale/02-markeder/02-rentemarkedet.html">
+<a class="index-row" href="kursmateriale/02-markeder/02-rentemarkedet/index.html">
   <span class="index-row__no">13</span>
   <span>
     <span class="index-row__title">Rentemarkedet</span>
-    <span class="index-row__sub">Renter, rentestruktur og prising av obligasjoner</span>
+    <span class="index-row__sub">Prising av rentepapirer, rentens terminstruktur og styring av renterisiko</span>
   </span>
-  <span class="index-row__dur">—</span>
+  <span class="index-row__dur">2 t 40 min</span>
 </a>
-<a class="index-row" href="kursmateriale/02-markeder/03-opsjoner.html">
+<a class="index-row" href="kursmateriale/02-markeder/03-opsjoner/index.html">
   <span class="index-row__no">14</span>
   <span>
     <span class="index-row__title">Opsjonskontrakter</span>
     <span class="index-row__sub">Retten, men ikke plikten — og hva den retten er verdt</span>
   </span>
-  <span class="index-row__dur">—</span>
+  <span class="index-row__dur">1 t 58 min</span>
 </a>
-<a class="index-row" href="kursmateriale/02-markeder/04-terminer.html">
+<a class="index-row" href="kursmateriale/02-markeder/04-terminer/index.html">
   <span class="index-row__no">15</span>
   <span>
     <span class="index-row__title">Terminkontrakter</span>
     <span class="index-row__sub">Avtaler i dag om handel i morgen, og prisen på å binde seg</span>
   </span>
-  <span class="index-row__dur">—</span>
+  <span class="index-row__dur">1 t 42 min</span>
 </a>
-<a class="index-row" href="kursmateriale/02-markeder/05-valuta.html">
+<a class="index-row" href="kursmateriale/02-markeder/05-valuta/index.html">
   <span class="index-row__no">16</span>
   <span>
     <span class="index-row__title">Internasjonal finans</span>
     <span class="index-row__sub">Valutakurser, renteparitet og valutarisiko</span>
   </span>
-  <span class="index-row__dur">—</span>
+  <span class="index-row__dur">41 min</span>
 </a>
 :::::
 

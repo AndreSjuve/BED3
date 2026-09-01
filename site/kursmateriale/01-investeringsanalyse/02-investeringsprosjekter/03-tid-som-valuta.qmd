@@ -1,0 +1,65 @@
+---
+title: "Tid som valuta"
+subtitle: "Hvorfor kontantstrømmer på ulike tidspunkt må veksles om før de kan sammenlignes"
+---
+
+## Før du ser videoen
+
+Et investeringsprosjekt er en sekvens av kontantstrømmer på ulike tidspunkt. Før
+vi kan si noe som helst om lønnsomhet, må vi kunne legge dem sammen, og det er
+mindre selvsagt enn det høres ut.
+
+Videoen bygger hele forklaringen på én analogi, hentet fra valutamarkedet, og
+ender opp med en størrelse den kaller diskonteringsfaktoren. Følg med på tre
+ting: hva analogien er, hvorfor tid i det hele tatt har en pris, og hvilken
+rente som hører hjemme i nevneren når kontantstrømmen er usikker.
+
+::::: {.video}
+```{=html}
+<iframe src="https://nhh.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=2c050121-0c62-417a-88ad-b3c60123b5fe&v=1&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all"
+        title="Video 3 · Tid som valuta" allowfullscreen allow="autoplay; fullscreen" loading="lazy"></iframe>
+```
+:::::
+
+::::: {.video-meta}
+9:22 &nbsp;·&nbsp; Video 3 av 8 &nbsp;·&nbsp; [Del 1 · Investeringsprosjekter](index.qmd)
+:::::
+
+## Sjekk forståelsen
+
+Fire spørsmål. Du får svaret med én gang, og du kan ta quizen om igjen så mange
+ganger du vil. Det siste spørsmålet krever kalkulator.
+
+```{=html}
+<div class="quiz">
+<div class="quiz__q" data-answer="b">
+<p class="quiz__prompt">1. Hvorfor kan vi ikke summere kontantstrømmer som kommer på ulike tidspunkt?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Fordi vi sjelden kjenner beløpene sikkert</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Fordi de er kvotert i hver sin tidsvaluta og må veksles til et felles tidspunkt først</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Fordi inflasjonen gjør framtidige beløp ukjente</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Poenget gjelder selv om hvert eneste beløp er kjent med full sikkerhet og inflasjonen er null. Usikkerhet og inflasjon er egne problemer. Her er problemet at tid i seg selv har en pris — vi kan sette pengene i banken og få renter, eller bruke dem nå i stedet for å vente — og derfor må beløpene veksles før de legges sammen.</p>
+</div>
+<div class="quiz__q" data-answer="c">
+<p class="quiz__prompt">2. Hva er diskonteringsfaktoren for en kontantstrøm som kommer om <em>t</em> år?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>(1 + k)<sup>t</sup></span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>1 / (1 + k · t)</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>1 / (1 + k)<sup>t</sup></span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Alternativ A er den motsatte vekslingen — den flytter et beløp framover i tid i stedet for tilbake til i dag. Alternativ B er enkel rente, som ikke lar renten forrente seg videre. Diskonteringsfaktoren er 1 / (1 + k)<sup>t</sup>, og den blir mindre jo lenger fram kontantstrømmen ligger.</p>
+</div>
+<div class="quiz__q" data-answer="a">
+<p class="quiz__prompt">3. Du skal diskontere kontantstrømmene fra et risikabelt prosjekt. Hvilken rente hører hjemme i nevneren?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Et avkastningskrav som gjenspeiler risikoen i nettopp disse kontantstrømmene</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Risikofri rente, siden den er den samme for alle prosjekter</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Bedriftens innskuddsrente i banken</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Risikofri rente er riktig kurs bare for kontantstrømmer som faktisk er risikofrie. Bruker du den på et usikkert prosjekt, veksler du til en for gunstig kurs, og nåverdien blir systematisk for høy. Kursen må passe til varen: mer usikre kontantstrømmer skal veksles til en dårligere kurs.</p>
+</div>
+<div class="quiz__q" data-answer="b">
+<p class="quiz__prompt">4. Hva er nåverdien i dag av 300 000 kroner som utbetales om fire år, når avkastningskravet er 7 %?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>393 200 kroner</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>228 900 kroner</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>234 400 kroner</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>300 000 / 1,07<sup>4</sup> = 228 866 kroner. Alternativ A er 300 000 · 1,07<sup>4</sup> — der har du vekslet feil vei og flyttet beløpet fire år fram i stedet for tilbake, og svaret blir større enn det du startet med. Alternativ C er 300 000 / (1 + 0,07 · 4), altså enkel rente: det lar ikke renten forrente seg, og gir derfor en for høy nåverdi.</p>
+</div>
+<p class="quiz__score" role="status" aria-live="polite"></p>
+</div>
+```

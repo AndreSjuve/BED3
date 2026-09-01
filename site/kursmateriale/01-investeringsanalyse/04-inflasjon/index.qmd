@@ -1,0 +1,231 @@
+---
+title: "Effekter av inflasjon"
+subtitle: "Nominelle og reelle størrelser, og hvorfor de ikke må blandes"
+---
+
+Del 1 vurderte kontantstrømmer, del 2 lagde dem — begge i kroner, uten å
+spørre hva kronene er verdt. Dette kapittelet tar prisstigningen på alvor: hva
+skjer med kontantstrømmer, internrenter og avkastningskrav når hver krone
+kjøper litt mindre for hvert år? Nøkkelordet er konsistens — nominelle og
+reelle størrelser gir samme svar, men bare når teller og nevner snakker samme
+språk.
+
+Fire videoer, drøyt 40 minutter til sammen. De to første bygger verktøyet:
+begrepene og omregningsformelen, deretter et lite eksempelprosjekt der
+internrenter og effektive skattesatser beregnes både nominelt og reelt. Så
+flyttes inflasjonen inn i EcoTime-caset fra del 2, før siste video samler alt
+i tre konsistenskrav. Til hver video hører en kort quiz. Oppgavene nederst
+krever kalkulator.
+
+## Videoer
+
+:::: {.index-list}
+<a class="index-row" href="01-nominelle-og-reelle-stoerrelser.html">
+  <span class="index-row__no">1</span>
+  <span>
+    <span class="index-row__title">Nominelle og reelle størrelser</span>
+    <span class="index-row__sub">Deflatering og sammenhengen mellom nominell og reell rente</span>
+  </span>
+  <span class="index-row__dur">10:15</span>
+</a>
+<a class="index-row" href="02-internrenter-nominelt-og-reelt.html">
+  <span class="index-row__no">2</span>
+  <span>
+    <span class="index-row__title">Internrenter nominelt og reelt</span>
+    <span class="index-row__sub">Eksempelprosjektet: internrenter, effektive skattesatser og reell lånerente</span>
+  </span>
+  <span class="index-row__dur">11:59</span>
+</a>
+<a class="index-row" href="03-inflasjon-i-ecotime-caset.html">
+  <span class="index-row__no">3</span>
+  <span>
+    <span class="index-row__title">Inflasjon i EcoTime-caset</span>
+    <span class="index-row__sub">Kontantstrømmen til egenkapitalen når prisene stiger</span>
+  </span>
+  <span class="index-row__dur">09:02</span>
+</a>
+<a class="index-row" href="04-konsistens-i-analysen.html">
+  <span class="index-row__no">4</span>
+  <span>
+    <span class="index-row__title">Konsistens i analysen</span>
+    <span class="index-row__sub">Kontantstrøm og avkastningskrav må matche — og vektstangformelen</span>
+  </span>
+  <span class="index-row__dur">08:56</span>
+</a>
+::::
+
+<p class="note">Videoene ligger også som spilleliste i
+<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%2209cb074c-18c9-4651-bd47-b3c900fd95bd%22">Panopto</a>
+om du heller vil se dem samlet.</p>
+
+## Symboler
+
+I tillegg til symbolene fra kapittel 1 og 2 bruker videoene disse:
+
+| Symbol | Betydning |
+|---|---|
+| $i$ | Forventet årlig inflasjon |
+| $x_N$, $x_R$ | En nominell og en reell størrelse (sammenhengen gjelder generelt) |
+| $k_N$, $k_R$ | Nominelt og reelt avkastningskrav |
+| $y_N$, $y_R$ | Nominell og reell internrente |
+| $s$ | Den nominelle skattesatsen |
+
+Omregningen mellom nominelle og reelle renter — $k_R = (k_N - i)/(1+i)$ og
+tilbake — står under «Renteregning» på
+[formelarket](../../../formelark.qmd), sammen med koblingen fra nominell
+lånerente før skatt til reell lånerente etter skatt.
+
+## Forelesningsplansjer
+
+<p class="note">Plansjene legges ut før forelesningen.</p>
+
+## Oppgaver
+
+Oppgavene dekker omregningen mellom nominelle og reelle størrelser,
+inflasjonsjustering av postene i en kontantstrømoppstilling og effektive
+skattesatser. Regn dem for hånd før du åpner løsningsforslaget — å lese en
+løsning føles som å forstå den, og det er sjelden det samme.
+
+::::: {.problem}
+<span class="problem__no">Oppgave 1</span>
+
+Et toårig prosjekt krever en investering på 900 000 kroner i dag og ventes å
+gi nominelle kontantstrømmer på 520 000 kroner om ett år og 540 800 kroner om
+to år. Forventet inflasjon er 4 % i året, og det reelle avkastningskravet er
+5 %.
+
+a) Hva er det nominelle avkastningskravet?
+
+b) Deflater kontantstrømmene til reelle beløp.
+
+c) Beregn netto nåverdi både nominelt og reelt, og vis at de to sporene gir
+samme svar.
+
+<details class="solution">
+<summary>Vis løsningsforslag</summary>
+
+:::: {.solution__body}
+
+**a)** Det nominelle kravet er ikke bare realkrav pluss inflasjon — også
+rentedelen må inflasjonsjusteres:
+
+$$k_N = k_R \cdot (1+i) + i = 0{,}05 \cdot 1{,}04 + 0{,}04 = 9{,}2\ \%$$
+
+**b)** Kontantstrømmen i år $t$ deflateres med $(1+i)^t$:
+
+$$\frac{520\,000}{1{,}04} = 500\,000 \qquad \frac{540\,800}{1{,}04^2} = 500\,000$$
+
+Reelt gir prosjektet altså 500 000 i kjøpekraft hvert år.
+
+**c)** Nominelt spor, med nominelt krav:
+
+$$\text{NNV} = -900\,000 + \frac{520\,000}{1{,}092} + \frac{540\,800}{1{,}092^2} \approx 29\,700$$
+
+Reelt spor, med reelt krav:
+
+$$\text{NNV} = -900\,000 + \frac{500\,000}{1{,}05} + \frac{500\,000}{1{,}05^2} \approx 29\,700$$
+
+Samme netto nåverdi på øret — verdiskapingen er den samme enten den måles i
+løpende kroner eller i kjøpekraft, så lenge teller og nevner behandles
+konsistent. Å blande sporene (for eksempel reelle kontantstrømmer mot
+nominelt krav) ville derimot undervurdert prosjektet.
+
+::::
+
+</details>
+:::::
+
+::::: {.problem}
+<span class="problem__no">Oppgave 2</span>
+
+Et fireårig prosjekt har et overskudd (dekningsbidrag minus betalbare faste
+kostnader) på 1 200 000 kroner i år 1. Deretter vokser alle priser med 2 % i
+året. Arbeidskapitalnivået er 350 000 kroner i år 0 og vokser i takt med
+prisene så lenge driften pågår; når prosjektet avvikles i år 4, frigjøres alt.
+Regn i tusen kroner.
+
+a) Hva er overskuddet i år 4?
+
+b) Hva er kontantstrømeffekten av arbeidskapitalen i år 1 og år 2?
+
+c) Hvor mye arbeidskapital frigjøres i år 4?
+
+<details class="solution">
+<summary>Vis løsningsforslag</summary>
+
+:::: {.solution__body}
+
+**a)** Overskuddet på 1 200 er allerede et år 1-beløp, så fram til år 4 virker
+inflasjonen i tre år:
+
+$$1\,200 \cdot 1{,}02^3 \approx 1\,273{,}4$$
+
+**b)** Det er *endringen* i arbeidskapital som er kontantstrøm. Nivået i år 1
+er $350 \cdot 1{,}02 = 357$, så endringen i år 1 er
+
+$$357 - 350 = 7{,}0$$
+
+For år 2 kan man enten inflasjonsjustere nivået en gang til
+($350 \cdot 1{,}02^2 = 364{,}1$, endring $364{,}1 - 357 \approx 7{,}1$) eller
+gange fjorårets endring med inflasjonen ($7{,}0 \cdot 1{,}02 \approx 7{,}1$) —
+samme svar. Begge årene gir altså en liten utbetaling, enda varelageret er
+uendret i volum: de samme varene binder litt mer kapital når prisene stiger.
+
+**c)** Ved avviklingen frigjøres hele det akkumulerte nivået — startbeløpet
+oppjustert med inflasjonen fram til siste driftsår:
+
+$$350 \cdot 1{,}02^3 \approx 371{,}4$$
+
+Det er startbeløpet pluss alle de små årlige økningene, ikke bare de
+opprinnelige 350.
+
+::::
+
+</details>
+:::::
+
+::::: {.problem}
+<span class="problem__no">Oppgave 3</span>
+
+Et prosjekt har en nominell internrente på 18 % før skatt og 13 % etter
+skatt. Forventet inflasjon er 2,5 %, og skattesatsen er 22 %.
+
+a) Beregn den reelle internrenten før og etter skatt.
+
+b) Beregn den effektive skattesatsen både nominelt og reelt.
+
+c) Prosjektet delfinansieres med et lån til 7 % nominell rente. Hva er den
+reelle lånerenten etter skatt?
+
+<details class="solution">
+<summary>Vis løsningsforslag</summary>
+
+:::: {.solution__body}
+
+**a)** Siden skatt beregnes av nominelle beløp, tar vi utgangspunkt i de
+nominelle internrentene og bruker omregningsformelen:
+
+$$y_R = \frac{0{,}18 - 0{,}025}{1{,}025} \approx 15{,}1\ \% \qquad
+y_R^s = \frac{0{,}13 - 0{,}025}{1{,}025} \approx 10{,}2\ \%$$
+
+**b)** Effektiv skattesats er den prosentvise reduksjonen i internrenten som
+følger av å betale skatt:
+
+$$\text{Nominelt: } \frac{18 - 13}{18} \approx 27{,}8\ \% \qquad
+\text{Reelt: } \frac{15{,}1 - 10{,}2}{15{,}1} \approx 32{,}3\ \%$$
+
+Merk at den reelle effektive skattesatsen er høyere enn den nominelle — og at
+begge avviker fra den lovbestemte satsen på 22 %.
+
+**c)** Først skattejusteres renten, deretter deflateres den:
+
+$$\frac{0{,}07 \cdot (1 - 0{,}22) - 0{,}025}{1{,}025} =
+\frac{0{,}0546 - 0{,}025}{1{,}025} \approx 2{,}9\ \%$$
+
+Rentefradraget og prisstigningen gjør altså den virkelige lånekostnaden langt
+lavere enn de 7 prosentene som står i låneavtalen.
+
+::::
+
+</details>
+:::::

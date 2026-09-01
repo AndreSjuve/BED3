@@ -1,0 +1,281 @@
+---
+title: "Rentemarkedet"
+subtitle: "Prising av rentepapirer, rentens terminstruktur og styring av renterisiko"
+---
+
+Aksjedelen av kurset handlet om egenkapital. Dette kapittelet går inn i den
+andre hovedkilden til finansiering: gjelden, og markedet der den utstedes,
+kjøpes og selges. Kapittelet spenner fra det helt konkrete — hvordan
+obligasjoner og sertifikater prises — via det grunnleggende spørsmålet om hva
+en rente egentlig er, til hvordan durasjon brukes til å måle og styre
+renterisiko.
+
+Seks videoer, omtrent 2 timer og 40 minutter til sammen. Se dem i rekkefølge;
+prisingsverktøyene fra video 2 brukes i alt som kommer etter, og de to siste
+videoene bygger direkte på hverandre. Til hver video hører en quiz. Oppgavene
+nederst regnes best når du har sett alt, og krever kalkulator.
+
+## Videoer
+
+:::: {.index-list}
+<a class="index-row" href="01-oversikt-over-rentemarkedet.html">
+  <span class="index-row__no">1</span>
+  <span>
+    <span class="index-row__title">Oversikt over rentemarkedet</span>
+    <span class="index-row__sub">Pengemarkedet, obligasjonsmarkedet og vilkårene som beskriver et gjeldsinstrument</span>
+  </span>
+  <span class="index-row__dur">12:59</span>
+</a>
+<a class="index-row" href="02-prising-av-obligasjoner-og-sertifikater.html">
+  <span class="index-row__no">2</span>
+  <span>
+    <span class="index-row__title">Prising av obligasjoner og sertifikater</span>
+    <span class="index-row__sub">Kuponger, pålydende, ren og skitten pris — og renteregning i pengemarkedet</span>
+  </span>
+  <span class="index-row__dur">28:41</span>
+</a>
+<a class="index-row" href="03-renten-som-prisen-paa-tid.html">
+  <span class="index-row__no">3</span>
+  <span>
+    <span class="index-row__title">Renten som prisen på tid</span>
+    <span class="index-row__sub">Hvorfor renter finnes, og hva formen på rentekurven forteller om fremtiden</span>
+  </span>
+  <span class="index-row__dur">32:07</span>
+</a>
+<a class="index-row" href="04-terminrenter-og-hypoteser.html">
+  <span class="index-row__no">4</span>
+  <span>
+    <span class="index-row__title">Terminrenter og rentekurvens hypoteser</span>
+    <span class="index-row__sub">Implisitte fremtidsrenter, forventningshypotesen, likviditetspremie og segmenterte markeder</span>
+  </span>
+  <span class="index-row__dur">20:24</span>
+</a>
+<a class="index-row" href="05-renterisiko-og-durasjon.html">
+  <span class="index-row__no">5</span>
+  <span>
+    <span class="index-row__title">Renterisiko og durasjon</span>
+    <span class="index-row__sub">Markedsrisikoen i rentepapirer — og målet som kvantifiserer den</span>
+  </span>
+  <span class="index-row__dur">40:21</span>
+</a>
+<a class="index-row" href="06-immunisering.html">
+  <span class="index-row__no">6</span>
+  <span>
+    <span class="index-row__title">Immunisering</span>
+    <span class="index-row__sub">Durasjonsmatching som beskyttelse mot renteendringer</span>
+  </span>
+  <span class="index-row__dur">25:32</span>
+</a>
+::::
+
+<p class="note">Videoene ligger også som spilleliste i
+<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22b18b63eb-8ea3-495d-a786-b3d00112bb4a%22">Panopto</a>
+om du heller vil se dem samlet.</p>
+
+## Symboler
+
+I tillegg til symbolene fra tidligere kapitler bruker videoene disse:
+
+| Symbol | Betydning |
+|---|---|
+| $F$ | Pålydende verdi (face value) — beløpet som betales tilbake ved forfall |
+| $c$, $C$ | Kupongrenten og kupongbetalingen ($C = c \cdot F$) |
+| $y$ | Effektiv rente til forfall (yield to maturity) — markedsrenten |
+| $P_0$ | Prisen på obligasjonen eller sertifikatet i dag |
+| $r$ | Enkel årsrente (brukes for bedriftssertifikater) |
+| $d$ | Antall dager til forfall |
+| $r_t$ | Spotrenten for løpetid $t$ år |
+| $f_{t-1,t}$ | Terminrenten mellom år $t-1$ og $t$ |
+| $D$, $D^*$ | Durasjon og modifisert (justert) durasjon |
+| $\Delta y$ | Endring i effektiv rente |
+
+Formlene — obligasjonspris, sertifikatpris, terminrente og durasjon — står
+under «Obligasjoner og durasjon» på [formelarket](../../../formelark.qmd).
+
+## Forelesningsplansjer
+
+<p class="note">Plansjene legges ut før forelesningen.</p>
+
+## Oppgaver
+
+Oppgavene dekker kapittelets fire kjerneferdigheter: prising av en
+kupongobligasjon (med og uten påløpte renter), renteregning for sertifikater,
+terminrenter fra spotrenter, og durasjon med prisanslag. Regn dem for hånd før
+du åpner løsningsforslaget — å lese en løsning føles som å forstå den, og det
+er sjelden det samme.
+
+::::: {.problem}
+<span class="problem__no">Oppgave 1</span>
+
+En obligasjon har pålydende 1 000 kroner, kupongrente 5 % med årlig
+etterskuddsvis betaling, og fire hele år til forfall. Markedsrenten for
+tilsvarende obligasjoner er 7 %.
+
+a) Beregn prisen i dag, rett etter utstedelse. Handles obligasjonen til
+premie eller rabatt — og hvorfor?
+
+b) Et halvt år senere er markedsrenten fortsatt 7 %, og obligasjonen skifter
+eier. Beregn totalprisen kjøperen betaler (dirty price), de påløpte rentene
+og kursen (clean price).
+
+<details class="solution">
+<summary>Vis løsningsforslag</summary>
+
+:::: {.solution__body}
+
+**a)** Kupongbetalingen er 0,05 · 1 000 = 50 kroner i året. Prisen er
+nåverdien av kupongene pluss nåverdien av pålydende:
+
+$$P_0 = 50 \cdot A_{7\,\%,4} + \frac{1\,000}{1{,}07^4} = 50 \cdot 3{,}387 + 762{,}90 \approx 932{,}26$$
+
+Obligasjonen handles til rabatt: kupongrenten (5 %) er lavere enn
+markedsrenten (7 %), så prisen må ligge under pålydende for at kjøperens
+totalavkastning skal matche markedet.
+
+**b)** Et halvt år inn i kupongperioden er totalprisen nåverdien av de
+gjenstående kontantstrømmene, som nå ligger et halvt år nærmere:
+
+$$\text{Dirty price} = 932{,}26 \cdot 1{,}07^{0{,}5} \approx 964{,}33$$
+
+Selgeren har eid obligasjonen i et halvt år og har opparbeidet halvparten av
+neste kupong: påløpte renter = 0,5 · 50 = 25 kroner. Kursen er da
+
+$$\text{Clean price} = 964{,}33 - 25 \approx 939{,}33$$
+
+Det er kursen som kvoteres i markedet — men kjøperen betaler dirty price.
+
+::::
+
+</details>
+:::::
+
+::::: {.problem}
+<span class="problem__no">Oppgave 2</span>
+
+Et statssertifikat og et bedriftssertifikat har begge pålydende 1 000 000
+kroner og 146 dager til forfall. Den effektive årsrenten på statssertifikatet
+er 4,5 %, og den enkle årsrenten på bedriftssertifikatet er 5 %.
+
+a) Beregn prisen på hvert av sertifikatene.
+
+b) Hvorfor brukes ulik renteregning for de to — og hvorfor er renten på
+bedriftssertifikatet høyere?
+
+<details class="solution">
+<summary>Vis løsningsforslag</summary>
+
+:::: {.solution__body}
+
+**a)** 146 dager tilsvarer 146/365 = 0,4 år. Statssertifikatet diskonteres
+med effektiv rente:
+
+$$P_0 = \frac{1\,000\,000}{1{,}045^{0{,}4}} \approx 982\,547$$
+
+Bedriftssertifikatet diskonteres med enkel rente for perioden:
+
+$$P_0 = \frac{1\,000\,000}{1 + 0{,}05 \cdot 0{,}4} = \frac{1\,000\,000}{1{,}02} \approx 980\,392$$
+
+**b)** Renteregningen er ren markedskonvensjon: statssertifikater prises med
+effektiv årsrente, bedriftssertifikater med enkel årsrente — begge annualisert
+over faktisk antall dager delt på 365. Konvensjonene må holdes fra hverandre
+når renter skal sammenlignes. At bedriftsrenten er høyere, skyldes
+kredittrisiko: staten regnes som (tilnærmet) konkursfri, mens en bedrift kan
+misligholde, og investorene krever kompensasjon for den risikoen.
+
+::::
+
+</details>
+:::::
+
+::::: {.problem}
+<span class="problem__no">Oppgave 3</span>
+
+Spotrentene i markedet er $r_1$ = 4,5 %, $r_2$ = 5,2 % og $r_3$ = 5,6 %.
+
+a) Beregn terminrentene $f_{1,2}$ og $f_{2,3}$.
+
+b) Hva sier tallene om markedets syn på fremtidige renter under
+forventningshypotesen? Og hvordan endres tolkningen under
+likviditetspreferansehypotesen?
+
+<details class="solution">
+<summary>Vis løsningsforslag</summary>
+
+:::: {.solution__body}
+
+**a)** Terminrenten er den fremtidige ettårsrenten som gjør at binding i to
+år tilsvarer to ettårige bindinger etter hverandre:
+
+$$f_{1,2} = \frac{1{,}052^2}{1{,}045} - 1 \approx 0{,}0590 = 5{,}90\,\%$$
+
+$$f_{2,3} = \frac{1{,}056^3}{1{,}052^2} - 1 \approx 0{,}0640 = 6{,}40\,\%$$
+
+**b)** Under forventningshypotesen er terminrentene forventningsrette anslag
+på fremtidige spotrenter: markedet venter da at ettårsrenten stiger fra
+dagens 4,5 % til om lag 5,9 % om ett år og 6,4 % om to år — en klar
+forventning om renteoppgang. Under likviditetspreferansehypotesen inneholder
+terminrentene i tillegg en premie for å binde kapital lenge. Da overvurderer
+5,9 % og 6,4 % de forventede spotrentene, og en del av den stigende kurven
+skyldes premien — ikke renteforventninger alene.
+
+::::
+
+</details>
+:::::
+
+::::: {.problem}
+<span class="problem__no">Oppgave 4</span>
+
+En obligasjon har pålydende 100, kupongrente 9 % med årlig betaling og tre
+hele år til forfall. Markedsrenten er 7 %.
+
+a) Beregn prisen.
+
+b) Beregn Macaulay-durasjonen og den modifiserte durasjonen.
+
+c) Bruk modifisert durasjon til å anslå ny pris hvis markedsrenten stiger til
+8 %, og sammenlign med den eksakte nye prisen. Hva skyldes avviket?
+
+d) For hvilken investeringshorisont immuniserer denne obligasjonen deg mot
+små renteendringer?
+
+<details class="solution">
+<summary>Vis løsningsforslag</summary>
+
+:::: {.solution__body}
+
+**a)** Kupongen er 9 kroner i året:
+
+$$P_0 = \frac{9}{1{,}07} + \frac{9}{1{,}07^2} + \frac{109}{1{,}07^3} = 8{,}41 + 7{,}86 + 88{,}98 \approx 105{,}25$$
+
+**b)** Durasjonen er det nåverdivektede tidssnittet av betalingene:
+
+$$D = \frac{1 \cdot 8{,}41 + 2 \cdot 7{,}86 + 3 \cdot 88{,}98}{105{,}25} = \frac{291{,}06}{105{,}25} \approx 2{,}77 \text{ år}$$
+
+Den modifiserte durasjonen blir
+
+$$D^* = \frac{-D}{1 + y} = \frac{-2{,}77}{1{,}07} \approx -2{,}58$$
+
+**c)** En renteøkning på 1 prosentpoeng gir anslått prisendring
+$D^* \cdot \Delta y = -2{,}58 \cdot 0{,}01 \approx -2{,}6\,\%$:
+
+$$P_{\text{anslag}} = 105{,}25 \cdot (1 - 0{,}0258) \approx 102{,}53$$
+
+Eksakt ny pris ved 8 %:
+
+$$P = \frac{9}{1{,}08} + \frac{9}{1{,}08^2} + \frac{109}{1{,}08^3} \approx 102{,}58$$
+
+Anslaget bommer med noen øre fordi durasjonen følger tangenten til
+pris–rente-sammenhengen i punktet 7 %, mens den virkelige sammenhengen er
+konveks. For små renteendringer er avviket lite; for store vokser det.
+
+**d)** Ved en horisont lik durasjonen — om lag 2,77 år — oppveier
+reinvesteringseffekten og kurseffekten av en liten renteendring hverandre, og
+sluttverdien er sikret. Merk at horisonten er kortere enn løpetiden på tre
+år: kupongene gjør at kapitalen effektivt er bundet kortere enn løpetiden
+tilsier.
+
+::::
+
+</details>
+:::::

@@ -1,0 +1,247 @@
+---
+title: "Låne- og betalingsalternativer"
+subtitle: "Effektiv rente som felles målestokk for lån, betalingsplaner og leasing"
+---
+
+Til nå har lånene stått i prosjektanalysens tjeneste. Dette kapittelet gjør
+dem til hovedperson: fortegnene snur, pengene kommer inn først, og spørsmålet
+blir hvilket lån — eller hvilken betalingsplan — som er billigst. Verktøyene
+er de samme som før, nåverdi og internrente, men internrenten opptrer nå
+under navnet effektiv rente. Med den i hånden avsløres både «rentefrie»
+avbetalinger og dyre månedsabonnementer.
+
+Fem videoer, tre kvarter til sammen. De tre første bygger verktøykassen:
+nåverdiprofilen for lån, renteregningen med delperioder og forskuddsrenter,
+og lånetypene fra serielån til subsidierte lån. Så brukes verktøyet på
+hverdagens betalingsalternativer, før siste video vurderer leasing fra begge
+sider av avtalen. Til hver video hører en kort quiz. Oppgavene nederst
+krever kalkulator.
+
+## Videoer
+
+:::: {.index-list}
+<a class="index-row" href="01-naaverdiprofilen-for-laan.html">
+  <span class="index-row__no">1</span>
+  <span>
+    <span class="index-row__title">Nåverdiprofilen for lån</span>
+    <span class="index-row__sub">Når fortegnene snur: nåverdi og effektiv rente for lånealternativer</span>
+  </span>
+  <span class="index-row__dur">10:57</span>
+</a>
+<a class="index-row" href="02-effektiv-rente.html">
+  <span class="index-row__no">2</span>
+  <span>
+    <span class="index-row__title">Effektiv rente</span>
+    <span class="index-row__sub">Delperioderenter, betalingsfrekvens og forskudds- mot etterskuddsrente</span>
+  </span>
+  <span class="index-row__dur">07:23</span>
+</a>
+<a class="index-row" href="03-laanetyper.html">
+  <span class="index-row__no">3</span>
+  <span>
+    <span class="index-row__title">Lånetyper</span>
+    <span class="index-row__sub">Serielån og annuitetslån på nytt — og verdien av et subsidiert lån</span>
+  </span>
+  <span class="index-row__dur">06:16</span>
+</a>
+<a class="index-row" href="04-betalingsalternativer.html">
+  <span class="index-row__no">4</span>
+  <span>
+    <span class="index-row__title">Betalingsalternativer</span>
+    <span class="index-row__sub">Abonnement, avbetaling og kontantrabatt som skjulte lån</span>
+  </span>
+  <span class="index-row__dur">12:36</span>
+</a>
+<a class="index-row" href="05-leasing.html">
+  <span class="index-row__no">5</span>
+  <span>
+    <span class="index-row__title">Leasing</span>
+    <span class="index-row__sub">Finansiell leasing og kontantstrømmene til leietaker og utleier</span>
+  </span>
+  <span class="index-row__dur">08:29</span>
+</a>
+::::
+
+<p class="note">Videoene ligger også som spilleliste i
+<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22fbcdb4ff-7d88-4cff-b26c-b3c900fdadb2%22">Panopto</a>
+om du heller vil se dem samlet.</p>
+
+## Symboler
+
+I tillegg til symbolene fra tidligere kapitler bruker videoene disse:
+
+| Symbol | Betydning |
+|---|---|
+| $p$ | Effektiv rente — lånets internrente, per definisjon årlig og etterskuddsvis |
+| $q$ | Delperioderenten, renten for én termin innenfor året |
+| $m$ | Antall terminer (delperioder) per år |
+| $q_f$, $q_e$ | Delperioderente betalt forskuddsvis og etterskuddsvis |
+
+Formlene — effektiv rente av delperioderente og omregningen mellom
+forskudds- og etterskuddsrente — står under «Renteregning» på
+[formelarket](../../../formelark.qmd).
+
+## Forelesningsplansjer
+
+<p class="note">Plansjene legges ut før forelesningen.</p>
+
+## Oppgaver
+
+Oppgavene tar for seg effektiv rente ved ulik betalingsfrekvens og
+forskuddsbetaling, verdien av et subsidiert lån, og et «rentefritt»
+avbetalingstilbud. Regn dem for hånd før du åpner løsningsforslaget — å lese
+en løsning føles som å forstå den, og det er sjelden det samme.
+
+::::: {.problem}
+<span class="problem__no">Oppgave 1</span>
+
+Et lån tilbys med nominell årsrente på 12 %. Beregn den effektive renten
+når renten belastes
+
+a) månedlig og etterskuddsvis,
+
+b) kvartalsvis og etterskuddsvis,
+
+c) kvartalsvis og forskuddsvis.
+
+Ranger de tre variantene fra billigst til dyrest, og forklar hva som driver
+forskjellene.
+
+<details class="solution">
+<summary>Vis løsningsforslag</summary>
+
+:::: {.solution__body}
+
+**a)** Delperioderenten er $q = 0{,}12/12 = 1\ \%$ per måned, og
+
+$$p = 1{,}01^{12} - 1 \approx 12{,}68\ \%$$
+
+**b)** Med kvartalsvise terminer er $q = 0{,}12/4 = 3\ \%$, og
+
+$$p = 1{,}03^{4} - 1 \approx 12{,}55\ \%$$
+
+**c)** Forskuddsrenten på 3 % per kvartal må først gjøres om til en
+etterskuddsrente:
+
+$$q_e = \frac{0{,}03}{1 - 0{,}03} \approx 3{,}093\ \%$$
+
+og deretter til årsrente:
+
+$$p = 1{,}03093^{4} - 1 \approx 12{,}96\ \%$$
+
+Rangeringen blir b (12,55 %) — a (12,68 %) — c (12,96 %). To krefter er i
+sving: hyppigere terminer gir mer renters rente innenfor året (derfor slår
+månedlig etterskuddsvis den kvartalsvise), og forskuddsbetaling koster i seg
+selv, fordi du gir fra deg avkastningen på rentebeløpet gjennom perioden.
+Legg merke til at forskuddseffekten her er sterk nok til at kvartalsvis
+forskudd blir dyrere enn månedlig etterskudd — samme nominelle rente, nesten
+et halvt prosentpoeng forskjell i faktisk kostnad.
+
+::::
+
+</details>
+:::::
+
+::::: {.problem}
+<span class="problem__no">Oppgave 2</span>
+
+Gjennom en støtteordning tilbys en bedrift et subsidiert serielån på
+1 500 000 kroner over tre år til 3 % rente, med årlige etterskuddsvise
+betalinger. Markedsrenten for et tilsvarende lån er 7 %.
+
+a) Sett opp lånets kontantstrøm.
+
+b) Beregn netto nåverdi av lånet, og forklar valget av diskonteringsrente.
+
+c) Hva blir netto nåverdi om du i stedet diskonterer med 3 % — og hva
+forteller det?
+
+<details class="solution">
+<summary>Vis løsningsforslag</summary>
+
+:::: {.solution__body}
+
+**a)** Avdraget er 1 500 000/3 = 500 000 per år, og renten beregnes av
+saldoen ved inngangen til hvert år:
+
+| År | 0 | 1 | 2 | 3 |
+|---|---|---|---|---|
+| Saldo ved inngang | | 1 500 000 | 1 000 000 | 500 000 |
+| Rente | | 45 000 | 30 000 | 15 000 |
+| Avdrag | | 500 000 | 500 000 | 500 000 |
+| Kontantstrøm | +1 500 000 | −545 000 | −530 000 | −515 000 |
+
+**b)** Alternativet til det subsidierte lånet er å låne samme beløp i
+markedet, så betalingene diskonteres med markedsrenten på 7 %:
+
+$$\text{NNV} = 1\,500\,000 - \frac{545\,000}{1{,}07} - \frac{530\,000}{1{,}07^2} - \frac{515\,000}{1{,}07^3} \approx 107\,300$$
+
+Subsidien er altså verdt omtrent 107 000 kroner i dagens penger — nåverdien
+av rentebesparelsen over løpetiden.
+
+**c)** Diskontert med 3 % blir netto nåverdi nøyaktig 0. Lånets effektive
+rente er 3 % (det er et lån uten gebyrer, med årlige etterskuddsvise
+betalinger), og å diskontere en kontantstrøm med sin egen internrente gir
+null per definisjon. Regnestykket forteller derfor ingenting om lånet er
+gunstig — det bekrefter bare hva renten er. Gevinsten synes først når lånet
+måles mot alternativet.
+
+::::
+
+</details>
+:::::
+
+::::: {.problem}
+<span class="problem__no">Oppgave 3</span>
+
+En TV koster 9 600 kroner kontant. Butikken tilbyr i stedet «rentefri»
+delbetaling: tolv månedlige avdrag på 800 kroner, et administrasjonsgebyr på
+45 kroner per måned, og et etableringsgebyr på 240 kroner som legges til
+første termin. Første betaling skjer én måned etter kjøpet.
+
+a) Sett opp kontantstrømmen for det implisitte lånet du tar opp ved å velge
+delbetaling.
+
+b) Vis at en månedlig rente på 1,25 % gir en nåverdi av betalingene som er
+tilnærmet lik lånebeløpet.
+
+c) Hva er den effektive årsrenten — og når bør du takke ja til tilbudet?
+
+<details class="solution">
+<summary>Vis løsningsforslag</summary>
+
+:::: {.solution__body}
+
+**a)** Ved delbetaling beholder du 9 600 kroner i dag — det er lånebeløpet.
+Tilbake betaler du 800 + 45 = 845 kroner i måned 2–12, og 845 + 240 = 1 085
+kroner i måned 1:
+
+| Måned | 0 | 1 | 2–12 |
+|---|---|---|---|
+| Kontantstrøm | +9 600 | −1 085 | −845 |
+
+Totalt betales 10 380 kroner — 780 kroner mer enn kontantprisen, så
+«rentefritt» er tilbudet ikke.
+
+**b)** Nåverdien av betalingene ved månedsrente 1,25 % er en annuitet på 845
+kroner i tolv måneder pluss ekstragebyret i måned 1:
+
+$$845 \cdot \frac{1 - 1{,}0125^{-12}}{0{,}0125} + \frac{240}{1{,}0125} \approx 9\,362 + 237 \approx 9\,599$$
+
+som er tilnærmet lik lånebeløpet på 9 600. Månedsrenten i det implisitte
+lånet er altså ca. 1,25 %.
+
+**c)** Omregnet til årsrente:
+
+$$p = 1{,}0125^{12} - 1 \approx 16{,}1\ \%$$
+
+Delbetalingen er med andre ord et lån til rundt 16 % effektiv rente.
+Tilbudet bør bare aksepteres hvis all annen finansiering — banklån,
+kredittkort, egne oppsparte midler målt ved alternativkostnaden — koster mer
+enn dette. For de fleste er kontantkjøp, eventuelt med et ordinært banklån i
+bunn, klart billigere.
+
+::::
+
+</details>
+:::::

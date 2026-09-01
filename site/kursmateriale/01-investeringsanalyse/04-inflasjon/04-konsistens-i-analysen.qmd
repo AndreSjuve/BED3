@@ -1,0 +1,72 @@
+---
+title: "Konsistens i analysen"
+subtitle: "Kontantstrøm og avkastningskrav må matche — og vektstangformelen"
+---
+
+## Før du ser videoen
+
+Siste video samler trådene i ett ord: konsistens. Gjennom tre deler av kurset
+har kontantstrømmen skiftet drakt — før og etter skatt, nominell og reell, til
+totalkapitalen og til egenkapitalen. Hvert skifte krever sitt eget
+avkastningskrav, og videoen går systematisk gjennom de tre parene: hva må
+matche hva, og hvilket av parene lar seg regne om med en formel?
+
+Mot slutten dukker en gammel kjenning fra BED2 opp: vektstangformelen, som
+veier egenkapitalkrav og lånerente sammen til et krav for totalkapitalen. Men
+formelen hviler på forutsetninger — hvilke, og hvor godt passer de egentlig
+for et investeringsprosjekt med nedbetalingslån? Følg med på hva som skjer med
+nåverdien når de brytes, og på om det er nok til å velte beslutningen.
+
+::::: {.video}
+<div class="video__placeholder">
+  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+  <span>Video 4 · Konsistens i analysen</span>
+</div>
+:::::
+
+::::: {.video-meta}
+08:56 &nbsp;·&nbsp; Video 4 av 4 &nbsp;·&nbsp; [Del 3 · Effekter av inflasjon](index.qmd)
+:::::
+
+<p class="note">Videoen er ikke lenket opp enkeltvis ennå — du finner den i
+kapittelets
+<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%2209cb074c-18c9-4651-bd47-b3c900fd95bd%22">Panopto-mappe</a>.</p>
+
+## Sjekk forståelsen
+
+Fire spørsmål. Du får svaret med én gang, og du kan ta quizen om igjen så
+mange ganger du vil. Det siste spørsmålet krever kalkulator.
+
+```{=html}
+<div class="quiz">
+<div class="quiz__q" data-answer="a">
+<p class="quiz__prompt">1. En analytiker deflaterer kontantstrømmene, men diskonterer dem med det nominelle avkastningskravet. Hva skjer med netto nåverdi?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Den blir for lav — inflasjonen er tatt ut to ganger, én gang i telleren og én gang i nevneren</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Den blir for høy — reelle kontantstrømmer er mer verdt enn nominelle</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Den blir riktig — det avgjørende er at samme inflasjonssats brukes i hele analysen</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Det nominelle kravet inneholder allerede kompensasjon for prisstigningen. Deflateres kontantstrømmene i tillegg, straffes prosjektet dobbelt, og nåverdien undervurderes — gode prosjekter kan bli forkastet på feil grunnlag. B har retningen feil: deflaterte beløp er mindre målt i kroner, ikke mer verdt i analysen. C beskriver feil slags konsistens — det hjelper ikke at satsen er den samme når den ene justeringen skulle vært sløyfet; teller og nevner må stå i samme prisregime.</p>
+</div>
+<div class="quiz__q" data-answer="b">
+<p class="quiz__prompt">2. Kontantstrøm og avkastningskrav må matche på tre punkter: før/etter skatt, nominelt/reelt og totalkapital/egenkapital. For hvilket av parene finnes en eksakt omregning mellom de to variantene?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Før og etter skatt</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Nominelt og reelt</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Totalkapital og egenkapital</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Mellom nominelt og reelt går omregningen tapsfritt begge veier med deflateringsformelen. Mellom før og etter skatt finnes ingen slik direkte kobling — den effektive skattesatsen avhenger av prosjektets egenskaper og varierer fra prosjekt til prosjekt, så A faller. For C finnes riktignok vektstangformelen, men den hviler på forutsetninger prosjektene sjelden oppfyller, og gir derfor bare en tilnærming — ikke en eksakt omregning.</p>
+</div>
+<div class="quiz__q" data-answer="c">
+<p class="quiz__prompt">3. Hvorfor gir vektstangformelen bare en tilnærming når den brukes på et investeringsprosjekt?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Fordi den bare gjelder for reelle størrelser, og prosjekter regnes nominelt</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Fordi lånerenten alltid er lavere enn egenkapitalkravet</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Fordi forutsetningene — markedsverdier, konstant gjeldsgrad og risiko lik øvrig virksomhet — sjelden holder for et enkeltprosjekt</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Prosjekter omsettes ikke i noe marked, gjelden nedbetales slik at gjeldsgraden faller gjennom levetiden, og et prosjekt kan være mer eller mindre risikabelt enn resten av driften. Derfor gir totalkapital- og egenkapitalmetoden litt ulik nåverdi — i videoens case uten at beslutningen snur. A trekker inn feil skille: formelen kan brukes både på nominelle og reelle krav. B er ofte sant i praksis, men er ingen forutsetning — formelen veier kapitalkostnadene uansett hvilken som er høyest.</p>
+</div>
+<div class="quiz__q" data-answer="b">
+<p class="quiz__prompt">4. En investering på 8 millioner finansieres med 5 millioner egenkapital og 3 millioner gjeld. Egenkapitalkravet er 14 % og lånerenten 6 %. Hva er det nominelle avkastningskravet til totalkapitalen før skatt?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>10,0 %</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>11,0 %</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>9,0 %</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Vektene er finansieringsandelene: $(5/8) \cdot 14\ \% + (3/8) \cdot 6\ \% = 8{,}75\ \% + 2{,}25\ \% = 11{,}0\ \%$. A tar et uveid gjennomsnitt av de to satsene og overser at egenkapitalen utgjør mer enn halvparten av finansieringen. C har byttet om vektene og lar gjelden veie tyngst. Skal kravet uttrykkes etter skatt, gjøres samme regnestykke med lånerenten justert ned til $6\ \% \cdot (1 - 0{,}22) \approx 4{,}7\ \%$.</p>
+</div>
+<p class="quiz__score" role="status" aria-live="polite"></p>
+</div>
+```

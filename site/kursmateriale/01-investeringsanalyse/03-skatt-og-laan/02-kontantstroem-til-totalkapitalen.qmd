@@ -1,0 +1,72 @@
+---
+title: "Kontantstrøm til totalkapitalen"
+subtitle: "Alle regnepostene fram til prosjektets kontantstrøm før skatt"
+---
+
+## Før du ser videoen
+
+Nå begynner selve byggingen. Målet i denne videoen er én tallrekke: prosjektets
+samlede kontantstrøm, år for år, før skatt og før finansiering — det vi kaller
+kontantstrømmen til totalkapitalen. Hvorfor vil vi ha den uten skatt og lån
+først? Hva slags spørsmål er det denne rekken skal svare på?
+
+Underveis passerer alle postene fra caset: investeringen, dekningsbidraget, de
+faste kostnadene og smitteeffektene. Posten som krever mest tankearbeid, er
+arbeidskapitalen — penger som bindes i varelager og kundekreditt lenge før
+salget gir penger inn. Følg nøye med på hvilke hendelser i et varelagers liv
+som faktisk er kontantstrømmer, og på hva som skjer den dagen prosjektet
+avvikles.
+
+::::: {.video}
+<div class="video__placeholder">
+  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+  <span>Video 2 · Kontantstrøm til totalkapitalen</span>
+</div>
+:::::
+
+::::: {.video-meta}
+18:21 &nbsp;·&nbsp; Video 2 av 4 &nbsp;·&nbsp; [Del 2 · Effekter av skatt og lån](index.qmd)
+:::::
+
+<p class="note">Videoen er ikke lenket opp enkeltvis ennå — du finner den i
+kapittelets
+<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%228a93998b-dfe1-41a4-9825-b3c900e132df%22">Panopto-mappe</a>.</p>
+
+## Sjekk forståelsen
+
+Fire spørsmål. Du får svaret med én gang, og du kan ta quizen om igjen så mange
+ganger du vil. Det siste spørsmålet krever kalkulator.
+
+```{=html}
+<div class="quiz">
+<div class="quiz__q" data-answer="c">
+<p class="quiz__prompt">1. Hva kjennetegner kontantstrømmen til totalkapitalen?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Den viser hva som er igjen til eierne etter at renter og avdrag er betalt</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Den inkluderer alle prosjektets inn- og utbetalinger, også låneopptaket</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Den måler verdiskapingen i selve prosjektet, som om det var finansiert med egenkapital alene</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Poenget med totalkapitalen er å skille hva prosjektet skaper fra hvordan det betales for. Derfor holdes lån, renter og avdrag helt utenfor — B høres komplett ut, men låneopptaket er finansiering, ikke verdiskaping. A beskriver kontantstrømmen til egenkapitalen, som kommer i video 4. Rekkefølgen er bevisst: først et nøytralt svar på om prosjektet i seg selv er verdt noe, deretter effekten av skatt og finansiering.</p>
+</div>
+<div class="quiz__q" data-answer="a">
+<p class="quiz__prompt">2. En butikk i jevn drift står med fulle hyller år etter år. Når gir varelageret kontantstrømeffekter i en investeringsanalyse?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Ved oppbyggingen, når lageret endrer størrelse, og når alt selges ut ved avvikling</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Hvert eneste år, siden hyllene må etterfylles kontinuerlig</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Aldri — varelager er en balansepost og påvirker ikke kontantstrømmen</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Etterfyllingen i B er allerede regnet med: varekostnaden for det som selges, ligger i dekningsbidraget, og påfyllet erstatter bare solgte varer. Det arbeidskapitalen fanger opp, er selve bindingen — pengene som står i hyllene så lenge butikken er åpen. Den koster ved oppbygging og ved vekst, og kommer tilbake først når driften trappes ned. C forveksler regnskap og kontanter: at posten står i balansen, hindrer ikke at det kostet ekte penger å fylle den.</p>
+</div>
+<div class="quiz__q" data-answer="b">
+<p class="quiz__prompt">3. Et nytt prosjekt ventes å løfte salget i en annen del av bedriften. Hvilke kontantstrømeffekter gir denne positive smitteeffekten?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Økt dekningsbidrag og redusert arbeidskapitalbehov — begge trekker opp</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Økt dekningsbidrag, men også økt arbeidskapitalbinding som trekker ned</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Ingen — virkninger utenfor selve prosjektet holdes utenfor analysen</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Mer salg et annet sted betyr mer aktivitet der — og mer aktivitet krever større varelager og mer kundekreditt. Den positive smitteeffekten kommer altså med en negativ følgesvenn i arbeidskapitalen, og A får fortegnet feil på den. Speilbildet gjelder for negative smitteeffekter: lavere aktivitet frigjør arbeidskapital. C bryter med selve grunnprinsippet — alt som endrer bedriftens samlede kontantstrøm som følge av beslutningen, hører med.</p>
+</div>
+<div class="quiz__q" data-answer="b">
+<p class="quiz__prompt">4. Et prosjekt skal selge 12 000 enheter i året. Salgsprisen er 500 kroner, råvarer og variable produksjonskostnader utgjør 300 kroner per enhet, og variable salgskostnader 20 kroner. Ferdigvarelageret skal tilsvare 15 dagers produksjon, og vi regner 360 dager i året. Hvor mye kapital binder ferdigvarelageret?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>250 000 kroner</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>150 000 kroner</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>160 000 kroner</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Lageret binder det du faktisk har lagt ut per klokke som står der: 300 · 12 000 · 15/360 = 150 000 kroner. Alternativ A verdsetter lageret til salgspris — men fortjenesten er ikke betalt av noen ennå, så den binder ingen kapital. Alternativ C tar med salgskostnadene på 20 kroner, som følger sin egen tidslinje og først påløper rundt salget; i caset beregnes de derfor som en egen post med sitt eget antall dager.</p>
+</div>
+<p class="quiz__score" role="status" aria-live="polite"></p>
+</div>
+```

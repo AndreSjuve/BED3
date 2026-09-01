@@ -1,0 +1,71 @@
+---
+title: "Realopsjoner"
+subtitle: "Verdien av fleksibilitet: å kunne vente, utvide eller avslutte"
+---
+
+## Før du ser videoen
+
+Nåverdianalysen har til nå vært bombastisk: ja eller nei, én gang for alle. Men
+en bedrift kan justere kursen etter at beslutningen er tatt — vente på mer
+informasjon, skalere opp en suksess, legge ned en fiasko. Forrige videos tre
+hintet allerede om dette. Slike justeringsmuligheter kalles realopsjoner, og
+spørsmålet videoen stiller, er hvor mye de er verdt i kroner.
+
+Hovedeksempelet er en fabrikk som kan bygges i dag — med positiv netto nåverdi —
+eller om ett år, når en usikker salgspris er avklart. Kan det virkelig lønne
+seg å takke nei til et lønnsomt prosjekt nå? Følg regnestykket som setter tall
+på akkurat det, og merk deg hvilke tre opsjonstyper videoen navngir underveis.
+
+::::: {.video}
+<div class="video__placeholder">
+  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+  <span>Video 8 · Realopsjoner</span>
+</div>
+:::::
+
+::::: {.video-meta}
+15:29 &nbsp;·&nbsp; Video 8 av 8 &nbsp;·&nbsp; [Del 4 · Risikovurderinger](index.qmd)
+:::::
+
+<p class="note">Videoen er ikke lenket opp enkeltvis ennå — du finner den i
+kapittelets
+<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%221e3f6c19-339c-443f-82a3-b3c900fd9efc%22">Panopto-mappe</a>.</p>
+
+## Sjekk forståelsen
+
+Fire spørsmål. Du får svaret med én gang, og du kan ta quizen om igjen så mange
+ganger du vil. Det siste spørsmålet krever kalkulator.
+
+```{=html}
+<div class="quiz">
+<div class="quiz__q" data-answer="c">
+<p class="quiz__prompt">1. Hva er en realopsjon?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>En plikt til å gjennomføre en investering på et avtalt fremtidig tidspunkt</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>En finansiell kontrakt om kjøp eller salg av aksjer og obligasjoner</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>En rett, men ikke en plikt, til å tilpasse en investeringsbeslutning senere</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Ordet «rett» bærer hele definisjonen: fleksibiliteten har verdi nettopp fordi den bare brukes når det lønner seg — i motsatt fall lar man være, og taper ingenting. Alternativ A bytter rett med plikt, og en plikt til å investere i et dårlig utfall er en belastning, ikke en verdi. B beskriver finansielle opsjoner; strukturen er den samme, men realopsjoner gjelder reelle investeringer som bygg og prosjekter — derav navnet.</p>
+</div>
+<div class="quiz__q" data-answer="b">
+<p class="quiz__prompt">2. Et selskap kan legge ned et tiårig prosjekt etter to år hvis det viser seg ulønnsomt, i stedet for å drifte det ut levetiden. Hvilken type realopsjon er dette?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>En utvidelsesopsjon</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>En avslutningsopsjon</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>En utsettelsesopsjon</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Muligheten til å stanse før planlagt levetid — og slippe å motta negative kontantstrømmer i årevis — er avslutningsopsjonen fra videoen. Utvidelsesopsjonen i A går motsatt vei: å kunne skalere opp hvis det går bra, slik pilotcaset i forrige video illustrerte. Utsettelsesopsjonen i C handler om tidspunktet for oppstart — å kunne vente med å sette i gang — ikke om å komme seg ut av noe som allerede er i gang.</p>
+</div>
+<div class="quiz__q" data-answer="a">
+<p class="quiz__prompt">3. Hvorfor undervurderer en vanlig nåverdianalyse et prosjekt med innebygd fleksibilitet?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Fordi den ikke regner med at bedriften kan gjøre justeringer etter at prosjektet er akseptert</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Fordi den bruker et for lavt avkastningskrav</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Fordi den overser at kontantstrømmene kan bli lavere enn forventet</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Standardanalysen behandler prosjektet som fastlåst: besluttet én gang, kjørt uendret ut levetiden. Verdien av å kunne vente, utvide eller avslutte kommer da aldri med, og nåverdien blir et konservativt anslag. Alternativ C er ikke problemet — dårlige utfall ligger allerede inne i forventede kontantstrømmer; det som mangler, er verdien av å kunne reagere på dem. Og B skyter på nevneren; skjevheten sitter i beskrivelsen av prosjektet, ikke i kravet.</p>
+</div>
+<div class="quiz__q" data-answer="b">
+<p class="quiz__prompt">4. En fabrikk koster 600 og produserer én maskin i året for alltid, første gang allerede i investeringsåret. I dag selges maskinen for 80; om ett år stiger prisen til 120 eller faller til 40, hver med 50 prosent sannsynlighet, og blir deretter stående. Avkastningskravet er 10 prosent. Hva er verdien av å kunne vente ett år med å investere?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>≈ 375</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>≈ 47</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>≈ −25, så muligheten til å vente er verdiløs</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Investere i dag: forventet pris fra neste år er 0,5 · 120 + 0,5 · 40 = 80, så NNV = −600 + 80 + 80/0,1 = 280. Vente og bare investere hvis prisen stiger: NNV = −600/1,1 + 120/0,1 ≈ 654,5, med 50 prosent sannsynlighet — forventet ≈ 327,3. Differansen 327,3 − 280 ≈ 47 er opsjonsverdien. Alternativ A glemmer sannsynlighetsvektingen og later som prisoppgangen er sikker. C investerer også når prisen faller (NNV ≈ −145,5) — da er retten gjort om til en plikt, og fleksibiliteten regnet bort.</p>
+</div>
+<p class="quiz__score" role="status" aria-live="polite"></p>
+</div>
+```

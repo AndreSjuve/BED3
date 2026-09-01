@@ -1,0 +1,243 @@
+---
+title: "Internasjonal finans"
+subtitle: "Valutakurser, renteparitet og valutarisiko"
+---
+
+Kurset åpnet i sin tid med å låne et bilde fra valutamarkedet: kontantstrømmer
+på ulike tidspunkt måtte veksles om før de kunne sammenlignes. I denne siste
+delen er vekslingen ekte. Handel, investeringer og lån på tvers av
+landegrenser gjør at lønnsomheten avhenger av hvordan valutakursene utvikler
+seg — og spørsmålet blir hvilke krefter som styrer den utviklingen, og hvordan
+en analyse tar høyde for den.
+
+Tre videoer, drøyt 40 minutter til sammen. Den første rydder i begrepene:
+hvordan kurser noteres og leses, og hva spot- og forwardmarkedet er. Den andre
+er hovedbolken — fem paritetsbetingelser som knytter valutakurser til renter og
+inflasjon, med et gjennomregnet arbitrasjeeksempel. Den tredje henter fram
+verktøykassen fra investeringsanalysen og bruker den på utenlandsprosjekter og
+valutalån. Til hver video hører en kort quiz. Oppgavene nederst krever
+kalkulator.
+
+## Videoer
+
+:::: {.index-list}
+<a class="index-row" href="01-valutakurser-og-noteringer.html">
+  <span class="index-row__no">1</span>
+  <span>
+    <span class="index-row__title">Valutakurser og noteringer</span>
+    <span class="index-row__sub">Direkte og indirekte notering, spot- og forwardkurser</span>
+  </span>
+  <span class="index-row__dur">06:49</span>
+</a>
+<a class="index-row" href="02-paritetsbetingelsene.html">
+  <span class="index-row__no">2</span>
+  <span>
+    <span class="index-row__title">Paritetsbetingelsene</span>
+    <span class="index-row__sub">Fem sammenhenger mellom valutakurser, renter og inflasjon — og en arbitrasjetest</span>
+  </span>
+  <span class="index-row__dur">20:44</span>
+</a>
+<a class="index-row" href="03-investeringer-og-valutalaan.html">
+  <span class="index-row__no">3</span>
+  <span>
+    <span class="index-row__title">Internasjonale investeringer og valutalån</span>
+    <span class="index-row__sub">To likeverdige metoder for utenlandsprosjekter, og hva et valutalån egentlig koster</span>
+  </span>
+  <span class="index-row__dur">12:59</span>
+</a>
+::::
+
+<p class="note">Videoene ligger også som spilleliste i
+<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22f8feb25e-8478-416a-959a-b3d00112dc57%22">Panopto</a>
+om du heller vil se dem samlet.</p>
+
+## Symboler
+
+Videoene bruker disse symbolene. Alle kurser er direkte notert: norske kroner
+per enhet utenlandsk valuta.
+
+| Symbol | Betydning |
+|---|---|
+| $s_{\text{UTL/NOK}}$ | Spotkurs — norske kroner per enhet utenlandsk valuta |
+| $f_{\text{UTL/NOK}}$ | Forwardkurs (terminkurs) på utenlandsk valuta |
+| $E(s_{\text{UTL/NOK}})$ | Forventet fremtidig spotkurs |
+| $r_{\text{NOK}}$, $r_{\text{UTL}}$ | Rente hjemme og ute |
+| $i_{\text{NOK}}$, $i_{\text{UTL}}$ | Inflasjon hjemme og ute |
+| $k_{\text{NOK}}$, $k_{\text{UTL}}$ | Avkastningskrav i norske kroner og i utenlandsk valuta |
+
+Paritetsbetingelsene — relativ kjøpekraftsparitet, dekket og udekket
+renteparitet, Fisher-effekten og forventningshypotesen — står samlet under
+«Internasjonal finans» på [formelarket](../../../formelark.qmd), sammen med
+omregningen av avkastningskrav og lånekostnaden ved utenlandske lån.
+
+## Forelesningsplansjer
+
+<p class="note">Plansjene legges ut før forelesningen.</p>
+
+## Oppgaver
+
+Oppgavene dekker kursnoteringer, dekket renteparitet med arbitrasje, og
+verdsetting av et utenlandsprosjekt etter begge metoder. Regn dem for hånd før
+du åpner løsningsforslaget — å lese en løsning føles som å forstå den, og det
+er sjelden det samme.
+
+::::: {.problem}
+<span class="problem__no">Oppgave 1</span>
+
+Spotkursen SEKNOK er notert til 96,50, og tremåneders forwardkurs er 97,20.
+Husk at svenske kroner noteres per 100 enheter.
+
+a) Hva koster 25 000 svenske kroner i spotmarkedet?
+
+b) Handles svenske kroner til en forwardpremie eller en forwarddiskonto?
+
+c) Hvor stor er premien eller diskontoen uttrykt på årsbasis?
+
+<details class="solution">
+<summary>Vis løsningsforslag</summary>
+
+:::: {.solution__body}
+
+**a)** Kursen sier at 100 svenske kroner koster 96,50 norske kroner, altså
+0,965 kroner per svensk krone:
+
+$$25\,000 \cdot \frac{96{,}50}{100} = 24\,125 \text{ kroner}$$
+
+**b)** Ved direkte notering er det retningen på forholdet mellom forward- og
+spotkurs som avgjør: $f = 97{,}20 > s = 96{,}50$, så svenske kroner handles
+til en forwardpremie.
+
+**c)** Premien for tremånedersperioden er
+
+$$\frac{97{,}20}{96{,}50} - 1 \approx 0{,}73\ \%$$
+
+Uttrykt på årsbasis ganges delperiodens prosentvise avvik med antall
+delperioder i året — fire kvartaler:
+
+$$0{,}73\ \% \cdot 4 \approx 2{,}9\ \%$$
+
+::::
+
+</details>
+:::::
+
+::::: {.problem}
+<span class="problem__no">Oppgave 2</span>
+
+Spotkursen på en utenlandsk valuta er 11,20 kroner. Renten er 4,5 % i Norge og
+2,5 % i utlandet.
+
+a) Hvilken ettårig forwardkurs er forenlig med dekket renteparitet?
+
+b) I markedet omsettes ettårige forwardkontrakter til kurs 11,60. Er
+kontrakten over- eller underpriset, og hvilken strategi utnytter det?
+
+c) Du gjennomfører strategien med et lån på 1 120 000 kroner. Hvor stor er
+arbitrasjegevinsten om ett år?
+
+<details class="solution">
+<summary>Vis løsningsforslag</summary>
+
+:::: {.solution__body}
+
+**a)** Dekket renteparitet krever at renteforholdet matcher forholdet mellom
+forward- og spotkurs:
+
+$$f = s \cdot \frac{1 + r_{\text{NOK}}}{1 + r_{\text{UTL}}}
+= 11{,}20 \cdot \frac{1{,}045}{1{,}025} \approx 11{,}42$$
+
+**b)** Markedskursen 11,60 er høyere enn 11,42, så forwardkontrakten er
+overpriset. Hovedregelen er å selge det som er overpriset og kjøpe det som er
+underpriset: selg utenlandsk valuta forward til 11,60, lån norske kroner (den
+norske renten er relativt sett for lav), veksle om til utenlandsk valuta i
+spotmarkedet og plasser beløpet til utenlandsk rente. Om ett år leveres
+valutaen på forwardkontrakten, og lånet innfris.
+
+**c)** Lånet på 1 120 000 kroner veksles til
+$1\,120\,000 / 11{,}20 = 100\,000$ i utenlandsk valuta, som vokser til
+$100\,000 \cdot 1{,}025 = 102\,500$ på ett år. Forwardsalget gir
+
+$$102\,500 \cdot 11{,}60 = 1\,189\,000 \text{ kroner}$$
+
+Lånet skal tilbakebetales med $1\,120\,000 \cdot 1{,}045 = 1\,170\,400$
+kroner, så gevinsten er
+
+$$1\,189\,000 - 1\,170\,400 = 18\,600 \text{ kroner}$$
+
+Kontroll: forwardposisjonen ganger feilprisingen,
+$102\,500 \cdot (11{,}60 - 11{,}42) \approx 18\,600$ — risikofritt, siden alle
+kurser og renter ble låst i dag.
+
+::::
+
+</details>
+:::::
+
+::::: {.problem}
+<span class="problem__no">Oppgave 3</span>
+
+Et utenlandsprosjekt krever en investering på 2,0 millioner i utenlandsk
+valuta i dag, og ventes å gi 1,10 millioner om ett år og 1,32 millioner om to
+år, alt i utenlandsk valuta. Det utenlandske avkastningskravet er 8 %.
+Spotkursen er 9,00 kroner, den norske renten er 5 % og den utenlandske 2 %.
+Regn i tusen.
+
+a) Beregn netto nåverdi i norske kroner etter metode 1: diskonter i utenlandsk
+valuta og veksle om svaret med spotkursen.
+
+b) Finn de forventede spotkursene om ett og to år etter udekket renteparitet,
+og det norske avkastningskravet.
+
+c) Beregn netto nåverdi etter metode 2: veksle om hvert års kontantstrøm og
+diskonter i norske kroner. Sammenlign med a).
+
+d) Prosjektet kan delfinansieres med et ettårig lån i utenlandsk valuta til
+2 % rente. Hva er den forventede effektive lånekostnaden i norske kroner?
+
+<details class="solution">
+<summary>Vis løsningsforslag</summary>
+
+:::: {.solution__body}
+
+**a)** I utenlandsk valuta:
+
+$$\text{NNV}_{\text{UTL}} = -2\,000 + \frac{1\,100}{1{,}08} +
+\frac{1\,320}{1{,}08^2} \approx 150{,}2$$
+
+Omvekslet med dagens spotkurs: $9{,}00 \cdot 150{,}2 \approx 1\,352$, altså
+en netto nåverdi på om lag 1,35 millioner kroner.
+
+**b)** Udekket renteparitet skalerer spotkursen med renteforholdet
+$1{,}05/1{,}02$ for hvert år:
+
+$$E(s_1) = 9{,}00 \cdot \frac{1{,}05}{1{,}02} \approx 9{,}26 \qquad
+E(s_2) = 9{,}00 \cdot \left(\frac{1{,}05}{1{,}02}\right)^2 \approx 9{,}54$$
+
+Avkastningskravet justeres med samme forhold:
+
+$$1 + k_{\text{NOK}} = 1{,}08 \cdot \frac{1{,}05}{1{,}02}
+\implies k_{\text{NOK}} \approx 11{,}2\ \%$$
+
+**c)** Kontantstrømmene i norske kroner blir $-2\,000 \cdot 9{,}00 = -18\,000$,
+$1\,100 \cdot 9{,}26 \approx 10\,191$ og $1\,320 \cdot 9{,}54 \approx 12\,589$:
+
+$$\text{NNV}_{\text{NOK}} = -18\,000 + \frac{10\,191}{1{,}112} +
+\frac{12\,589}{1{,}112^2} \approx 1\,352$$
+
+Samme svar som i a). Det er ingen tilfeldighet: teller og nevner justeres
+med det samme renteforholdet for hvert år, så alt kansellerer. Metode 1 er
+likevel klart mindre arbeid.
+
+**d)** Under udekket renteparitet ventes kursen å stige til om lag 9,26, så
+den forventede lånekostnaden per lånte krone er
+
+$$\frac{9{,}26}{9{,}00} \cdot 1{,}02 - 1 \approx 5{,}0\ \%$$
+
+— nøyaktig den norske renten. Rentefordelen ved å låne ute spises i
+forventning opp av kronesvekkelsen; det billige valutalånet er billig bare
+hvis kronen gjør det bedre enn paritetsbetingelsen tilsier.
+
+::::
+
+</details>
+:::::

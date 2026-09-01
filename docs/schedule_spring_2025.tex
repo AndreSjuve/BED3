@@ -1,0 +1,130 @@
+
+% This applies the custom bed3 page style with the school's logo in the top left corner
+% The school's name top right and the other information below
+\thispagestyle{bed3}
+\begin{flushright}
+        \vspace*{-1cm}
+        % Adjust letter spacing with \textls[<value>]
+        \universityname  \\[0.5em] 
+        \vspace{1cm}
+        \textsc{\small \casenumber}  \\ % Replace with your case number
+        %\createddate  \\[4em]
+    \end{flushright}
+
+\vspace{1.5cm}
+
+\begin{flushleft}
+        \vspace{-4em} % Adjust vertical space to match layout
+       % \textsc{\footnotesize \authorname}  \\ % Attribution
+        \vspace{0.5cm}
+        \textbf{\Large \doctitle} \\[0.75em]
+        \textsc{\large \docsubtitle} \\
+
+    \end{flushleft}
+
+\vspace{2cm}
+
+\begin{table}[htbp!]
+\ra{1.1}
+\centering
+\captionsetup{singlelinecheck=false}
+\caption*{\textbf{\large Kursansvarlige/forelesere}}
+\begin{tabularx}{\textwidth}{l l c c l}
+\toprule
+\multicolumn{2}{l}{Navn} &  Kontor & Telefon & E-post \\
+\midrule
+Professor & Frode Sættem & C523 & 55959272 & \href{mailto:frode.sattem@nhh.no}{frode.sattem@nhh.no} 
+\\
+Førsteamanuensis & André Wattø Sjuve & C310 & 55959614 & \href{mailto:andre.sjuve@nhh.no}{andre.sjuve@nhh.no} 
+\\
+Førsteamanuensis & Andreas Ørpetveit & C312 &  55959459 & \href{mailto:andreas.orpetveit@nhh.no}{andreas.orpetveit@nhh.no} 
+\\
+Førsteamanuensis NMBU & Torun Fretheim & & \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{table}[H]
+\ra{1.1}
+\centering
+\captionsetup{singlelinecheck=false}
+\caption*{\textbf{\large Kursdetaljer}}
+\begin{tabularx}{\textwidth}{l X}
+\toprule
+Kategori & Detaljer \\
+\midrule
+Pensumbok & Richard Brealey, Stewart Myers \& Alan Marcus (BMM), \emph{Fundamentals of Corporate Finance}, eleventh edition, McGraw-Hill, 2023 \\
+Tilleggspensum & Knut Boye \& Steen Koekebakker (BK), \emph{Finansielle emner}, 14. utgave, Cappelen Akademisk Forlag, 2006 (kapittel 6.4 – lagt ut på kursets hjemmeside på Canvas) \\
+Kursgodkjenning & Godkjent obligatorisk caseinnlevering i gruppe med maksimalt tre studenter \\
+Eksamen & Onsdag 20. mai kl. 09.00-13.00 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+
+
+\begin{table}[htbp!]
+\ra{1.2}
+\centering
+\captionsetup{singlelinecheck=off}
+\caption*{\header{\large Forelesningsplan våren 2026}
+\vspace{0.25cm}
+\\
+\fontsize{9}{9}\selectfont
+Oversikten viser ukene, datoene og dagene for de ulike forelesningene i kurset, temaene som dekkes, og ansvarlig(e) foreleser(e). Vær spesielt oppmerksom på følgende frister:
+\vspace{-0.35cm}
+\begin{multicols}{2}
+\begin{itemize}
+    \item Grupperegistrering: \textbf{Mandag 16. februar}
+    \item Obligatorisk caseinnlevering: \textbf{Mandag 23. februar}
+    \item Frivillig oppgaveinnlevering: \textbf{Fredag 17. april}
+    \item \textbf{Tid:} Tirsdag 12.15-14.00 og fredag 10.15-12.00
+    \item \textbf{Sted:} Aud. Max.
+    \item \textbf{Hjemmeside:} \url{https://canvas.nhh.no} og \url{https://andresjuve.github.io/BED3/}
+\end{itemize}
+\end{multicols}
+\vspace{-0.35cm}
+Se de relevante modulene på Canvas for mer informasjon om innleveringene. Detaljert informasjon om gruppeøvingene finnes på Canvas. Felter under kolonnen \textit{Foreleser} markert med $-$ og indikerer at det ikke er forelesning den dagen.
+}
+\label{tab:capex_breakdown}
+\begin{tabularx}{\textwidth}{cccXll}
+\toprule
+Uke & Dato & Dag & Tema & Foreleser & Pensum \\
+\midrule
+2 & 06.01  & Tirsdag & Synkront: Introduksjon, asynkront: investeringsprosjekter  & FS/AWS & 1, 2 \\
+2 & 09.01  & Fredag  & Asynkront: Effekter av skatt og lån & -- & 5.1--5.6, 8, 19\\
+3 & 13.01  & Tirsdag & Asynkront: Effekter av inflasjon & -- & 9, BK \\
+3 & 16.01  & Fredag  & Synkront: Q\&A, oppgavetrening, asynkront: Risikovurderinger &  AWS & 10 \\
+4 & 19.01-23.01  & -- & \textit{Gruppeøving 1} & -- & \\
+\midrule
+5 & 27.01  & Tirsdag & Synkront: Oppsummering, asynkront: Låne- og betalingsalternativer & AWS & 5.7 \\
+5 & 30.01  & Fredag  & Porteføljeteori  & AØ & 11 \\
+6 & 03.02  & Tirsdag & Porteføljeteori/Kapitalmarkedsteori & AØ & 11, 12 \\
+6 & 06.02  & Fredag  & Kapitalverdimodellen & AØ  & 7\\
+7 & 09.02-13.02  & -- & \textit{Gruppeøving 2} & -- &  \\
+\midrule
+8 & 17.02  & Tirsdag & Kapitalmarkedet/Markedseffisiens/Prising & AØ & 7, 14, 15, 21 \\
+8 & 20.02  & Fredag  & Utbyttepolitikk & AØ & 17 \\
+9 & 23.02  & \textit{Mandag} & \textit{Frist obligatorisk caseinnlevering (frist grupperegistrering 16.02)} & -- & \\
+9 & 23.02-27.02  & -- & \textit{Gruppeøving 3} & --  & \\
+\midrule
+10 & 03.03 & Tirsdag & Kapitalstruktur & AØ & 13, 16 \\
+10 & 06.03 & Fredag  & Kapitalstruktur & AØ &  13, 16 \\
+11 & 10.03 & Tirsdag & --  & -- & \\
+11 & 13.03 & Fredag  & Synkront: Oversikt og oppgaver, asynkront: Rentemarkedet & AWS  & 6 \\
+12 & 17.03 & Tirsdag  & Bærekraftige investeringer & TF  & \\
+12 & 16.03-20.03 & -- & \textit{Gruppeøving 4} & -- & \\
+\midrule
+13 & 24.03 & Tirsdag & Asynkront: Opsjonskontrakter & -- & 23, 24.2 \\
+13 & 27.03 & Fredag  & Synkront: Q\&A og oppgaver, asynkront: Terminkontrakter  &  AWS & 24.1, 24.3, 24.4, 24.7\\
+14 & 30.03-03.04 & -- &  \textit{Påske} & -- &  \\
+15 & 07.04 & Tirsdag & --  & -- &  \\
+15 & 10.04 & Fredag  & Synkront: Oppsummering, asynkront: Internasjonal finans  & AWS & 22 \\
+16 & 13.04-17.04 & -- &\textit{ Gruppeøving 5} & -- & \\
+16 & 17.04 & Fredag  & \textit{Frist frivillig oppgaveinnlevering}  & -- & \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\newpage
+

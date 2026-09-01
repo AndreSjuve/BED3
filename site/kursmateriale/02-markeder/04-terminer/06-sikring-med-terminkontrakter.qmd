@@ -1,0 +1,72 @@
+---
+title: "Sikring med terminkontrakter"
+subtitle: "Full og halv sikring — hvor mye prisrisiko vil du beholde?"
+---
+
+## Før du ser videoen
+
+Alt i delen har pekt frem mot dette: hvordan brukes terminkontrakter til å
+flytte risiko man ikke vil ha? Videoen starter med en produsent som kan låse
+inn salgsprisen sin, og viser både grafisk og med tall hva som skjer med den
+oppnådde prisen når spotmarkedet går hver sin vei.
+
+Underveis dukker gevinst- og tapsdiagrammene fra
+[opsjonsdelen](../03-opsjoner/index.qmd) opp igjen, nå tegnet for terminposisjoner.
+Legg merke til hvilken vei posisjonene må peke for at noe skal være sikring i
+det hele tatt — og til det avsluttende indekseksempelet, der full og halv
+sikring viser seg å være punkter på en skala mellom risikofri plassering og
+full markedseksponering.
+
+::::: {.video}
+<div class="video__placeholder">
+  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+  <span>Video 6 · Sikring med terminkontrakter</span>
+</div>
+:::::
+
+::::: {.video-meta}
+16:53 &nbsp;·&nbsp; Video 6 av 6 &nbsp;·&nbsp; [Del 15 · Terminkontrakter](index.qmd)
+:::::
+
+<p class="note">Videoen er ikke lenket opp enkeltvis ennå — du finner den i
+kapittelets
+<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%228e73c88a-e61c-40eb-b060-b3d00112cf92%22">Panopto-mappe</a>.</p>
+
+## Sjekk forståelsen
+
+Fire spørsmål. Du får svaret med én gang, og du kan ta quizen om igjen så mange
+ganger du vil. Det siste spørsmålet krever kalkulator.
+
+```{=html}
+<div class="quiz">
+<div class="quiz__q" data-answer="b">
+<p class="quiz__prompt">1. Du eier en aksjeportefølje og vil sikre verdien med futures. Hva gjør du?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Kjøper futureskontrakter på samme underliggende, slik at du er dekket begge veier</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Selger futureskontrakter på samme underliggende, slik at terminposisjonen er motsatt av den du eier</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Kjøper futureskontrakter på et annet, ukorrelert aktivum for å spre risikoen</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Sikring krever motsatt posisjon i terminmarkedet av den du har i underliggende: en lang futuresposisjon har samme gevinstprofil ved forfall som å eie aktivumet, så faller markedet, skal short-posisjonen tjene det porteføljen taper. Alternativ A gjør det stikk motsatte — du dobler eksponeringen og dermed risikoen, siden begge posisjonene peker samme vei. Og C er diversifisering, ikke sikring: et ukorrelert aktivum beveger seg uavhengig av porteføljen din og kan ikke systematisk motvirke dens svingninger.</p>
+</div>
+<div class="quiz__q" data-answer="c">
+<p class="quiz__prompt">2. En produsent har solgt varen sin på termin til 500 kroner. Ved forfall er spotprisen 470; hun lukker futuresposisjonen og selger varen i spotmarkedet. Hva er oppnådd salgspris?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>470 kroner</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>530 kroner</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>500 kroner</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Salget i spotmarkedet gir 470, og short-posisjonen gir en gevinst på 500 − 470 = 30 — til sammen nøyaktig de 500 hun låste inn. Det er hele poenget med sikringen: summen av de to bena er terminprisen, uansett hvor spotprisen ender. Alternativ A teller bare spotsalget og glemmer gevinsten på terminkontrakten. Og B legger gevinsten oppå terminprisen — men de 30 kronene kompenserer for at spotsalget ga <em>mindre</em> enn 500; de kommer ikke i tillegg til den innlåste prisen.</p>
+</div>
+<div class="quiz__q" data-answer="a">
+<p class="quiz__prompt">3. I videoens indekseksempel gir full sikring nøyaktig risikofri avkastning. Hvorfor må det bli slik?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>En posisjon uten risiko kan ikke gi mer enn risikofri rente — og futuresprisen er priset slik at det sikrede utfallet svarer til nettopp den renten</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Fordi oppgjørssentralen betaler risikofri rente på innestående marginkonto</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Fordi aksjeindekser i gjennomsnitt stiger med risikofri rente over korte perioder</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Fullt sikret er porteføljens sluttverdi den samme i begge scenarioer — standardavviket er null — og en risikofri posisjon skal avkaste risikofri rente, verken mer eller mindre. At regnestykket treffer renten eksakt, skyldes at futuresprisen etter lagringskostnadshypotesen er spotverdien forrentet: rentekompensasjonen ligger allerede i prisen du selger på. Alternativ B beskriver en praktisk detalj som ikke driver resultatet i eksempelet. Og C blander forventet markedsavkastning inn — indeksen kan stige eller falle mye; poenget er at den sikrede posisjonen er immun mot begge deler.</p>
+</div>
+<div class="quiz__q" data-answer="b">
+<p class="quiz__prompt">4. Du eier indeksaksjer for 12 millioner kroner. Indeksen står i 800, én kontrakt gjelder 100 ganger indeksen, og futuresprisen for levering om tre måneder er 804. Du selger 150 kontrakter (full sikring). Indeksen stiger til 880. Hva er samlet verdi av posisjonen ved forfall?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>13 200 000 kroner</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>12 060 000 kroner</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>12 000 000 kroner</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Aksjebenet vokser til 12 mill. · 880/800 = 13 200 000, mens short-posisjonen taper (804 − 880) · 100 · 150 = −1 140 000 — til sammen 12 060 000. Sjekk gjerne motsatt scenario: faller indeksen til 760, blir svaret det samme (11 400 000 + 660 000). De 60 000 er 0,5 % på tre måneder, altså 2 % årlig — rentekompensasjonen som lå i futuresprisen 804. Alternativ A teller bare aksjebenet og glemmer tapet på kontraktene du solgte. Og C bruker dagens indeksverdi 800 som innlåst pris i stedet for futuresprisen — da forsvinner nettopp rentepåslaget som gjør sikringen til en risikofri plassering.</p>
+</div>
+<p class="quiz__score" role="status" aria-live="polite"></p>
+</div>
+```

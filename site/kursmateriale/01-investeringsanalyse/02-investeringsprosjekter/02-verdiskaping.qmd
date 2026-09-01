@@ -1,0 +1,58 @@
+---
+title: "Verdiskaping som mål"
+subtitle: "Hva som kjennetegner en god investeringsbeslutning"
+---
+
+## Før du ser videoen
+
+Forrige video avklarte hva vi analyserer. Denne avklarer hva vi er ute etter.
+Uten et tydelig beslutningsmål risikerer vi å optimalisere mot feil størrelse,
+og feil mål gir feil beslutning selv når regnestykket er riktig.
+
+Svaret er verdiskaping. Men det ordet er lett å si og lett å misforstå, så følg
+med på hvilke nærliggende størrelser videoen uttrykkelig avviser som mål, og fra
+hvem sitt ståsted spørsmålet stilles. Til slutt presenteres de tre
+beslutningskriteriene kapittelet bygger på — og, viktigere, de rangeres.
+
+::::: {.video}
+```{=html}
+<iframe src="https://nhh.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=04c9d9fd-f0ae-4bda-974d-b3c601239328&v=1&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all"
+        title="Video 2 · Verdiskaping som mål" allowfullscreen allow="autoplay; fullscreen" loading="lazy"></iframe>
+```
+:::::
+
+::::: {.video-meta}
+6:54 &nbsp;·&nbsp; Video 2 av 8 &nbsp;·&nbsp; [Del 1 · Investeringsprosjekter](index.qmd)
+:::::
+
+## Sjekk forståelsen
+
+Tre spørsmål. Du får svaret med én gang, og du kan ta den om igjen så mange
+ganger du vil.
+
+```{=html}
+<div class="quiz">
+<div class="quiz__q" data-answer="c">
+<p class="quiz__prompt">1. Hva menes med verdiskaping i investeringsanalyse?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>At omsetningen øker</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>At regnskapsmessig resultat blir høyest mulig det første året</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>At dagens verdi av foretaket øker, sett fra eiernes side</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Omsetning og årsresultat er regnskapsstørrelser som lett kan gå opp uten at eierne blir rikere — et prosjekt kan doble omsetningen og likevel ødelegge verdi. Verdiskaping måles i dagens verdi av alle framtidige kontantstrømmer til eierne, sett under ett over hele levetiden.</p>
+</div>
+<div class="quiz__q" data-answer="b">
+<p class="quiz__prompt">2. Hvilket av de tre kriteriene gir alltid riktig svar på om et prosjekt bør aksepteres?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Internrenten, fordi den uttrykker avkastningen i prosent</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Netto nåverdi</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Tilbakebetalingstid</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Netto nåverdi måler direkte det vi er ute etter: hvor mye rikere vi blir i dagens penger. Internrenten gir riktig svar bare under visse forutsetninger — video 5 går gjennom fire situasjoner der den svikter. Tilbakebetalingstid har også en beslutningsregel, kortere enn en forhåndsbestemt grense, men den måler hvor raskt pengene kommer tilbake, ikke hvor mye verdi som skapes. Den er en grov støttemetode for enkle prosjekter.</p>
+</div>
+<div class="quiz__q" data-answer="a">
+<p class="quiz__prompt">3. Et prosjekt vil øke omsetningen betydelig, men netto nåverdi er negativ. Hva sier beslutningsmålet?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Forkast prosjektet — det gjør eierne fattigere i dagens penger</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Gjennomfør det, siden vekst i omsetning bygger verdi over tid</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Gjennomfør det hvis regnskapsresultatet blir positivt fra år to</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Dette er nettopp faren ved å optimalisere mot feil mål. Vekst i omsetning og et positivt årsresultat er lette å måle og lette å presentere, men ingen av dem er målet. Er netto nåverdi negativ, gir vi opp mer i dag enn vi får igjen — uansett hvordan omsetningen utvikler seg.</p>
+</div>
+<p class="quiz__score" role="status" aria-live="polite"></p>
+</div>
+```

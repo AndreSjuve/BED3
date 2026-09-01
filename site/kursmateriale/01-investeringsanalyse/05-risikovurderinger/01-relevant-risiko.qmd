@@ -1,0 +1,65 @@
+---
+title: "Relevant risiko"
+subtitle: "Hvem risikoen måles for — og verktøykassen for å stressteste forutsetningene"
+---
+
+## Før du ser videoen
+
+Til nå har analysen tatt forutsetningene for gitt: salgstall, priser og
+kostnader ble behandlet som sikre. Men verden endrer seg — tenk på et reisebyrå
+som i 2019 budsjetterte med gode år fremover. Dette kapittelet handler om å
+teste hvor mye beslutningen tåler når anslagene slår feil.
+
+Denne første videoen rammer inn serien og stiller et spørsmål det er lett
+å hoppe over: risiko for hvem? Svaret avhenger av hvor tett man står på
+prosjektet, og det avgjør hvilket risikonivå denne videoserien legger seg på —
+og hvilket som kommer senere i kurset. Legg også merke til begrunnelsene for i
+det hele tatt å drive med følsomhetsanalyse; de går igjen i alle videoene som
+følger.
+
+::::: {.video}
+<div class="video__placeholder">
+  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+  <span>Video 1 · Relevant risiko</span>
+</div>
+:::::
+
+::::: {.video-meta}
+6:23 &nbsp;·&nbsp; Video 1 av 8 &nbsp;·&nbsp; [Del 4 · Risikovurderinger](index.qmd)
+:::::
+
+<p class="note">Videoen er ikke lenket opp enkeltvis ennå — du finner den i
+kapittelets
+<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%221e3f6c19-339c-443f-82a3-b3c900fd9efc%22">Panopto-mappe</a>.</p>
+
+## Sjekk forståelsen
+
+Tre spørsmål. Du får svaret med én gang, og du kan ta den om igjen så mange
+ganger du vil.
+
+```{=html}
+<div class="quiz">
+<div class="quiz__q" data-answer="b">
+<p class="quiz__prompt">1. Videoserien analyserer risiko på ett bestemt nivå. Hvilket — og for hvem?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Markedsrisikoen, sett fra en veldiversifisert aksjonær</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Totalrisikoen i prosjektet, sett fra prosjektdeltagerne</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Kredittrisikoen, sett fra bankene som finansierer prosjektet</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Relevant risiko avhenger av hvem som ser: investeringsanalysen jobber på nivået til dem som selv står i prosjektet, og de er opptatt av hvordan prosjektet går i sin helhet — totalrisikoen. Alternativ A er ikke feil nivå å bry seg om generelt, men det hører til senere i kurset, når markedsrisiko og systematisk risiko dekkes. Långiverperspektivet i C er ikke rammen videoen setter i det hele tatt.</p>
+</div>
+<div class="quiz__q" data-answer="c">
+<p class="quiz__prompt">2. Hvorfor betyr risikoen i ett enkelt prosjekt mindre for en aksjonær med en stor, veldiversifisert portefølje?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Fordi diversifiserte aksjonærer ikke bærer risiko</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Fordi enkeltprosjekter alltid er tryggere enn porteføljer</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Fordi prosjektet bare utgjør en liten andel av porteføljen — det som teller, er hvordan det påvirker helheten</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Avstand til prosjektet avgjør hvilken risiko som er relevant: for den diversifiserte investoren drukner ett enkelt prosjekt i alt det andre porteføljen inneholder, og spørsmålet blir hvordan prosjektet samvarierer med resten. Alternativ A tar det for langt — diversifisering fjerner ikke all risiko, den endrer hvilken risiko som gjenstår. B snur det hele på hodet; det er nettopp spredningen over mange prosjekter som demper utslagene.</p>
+</div>
+<div class="quiz__q" data-answer="a">
+<p class="quiz__prompt">3. Hva er ett av hovedformålene med en følsomhetsanalyse, slik videoen begrunner den?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Å finne ut hvilke variabler som slår sterkest ut i netto nåverdi når forutsetningene justeres</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Å fjerne usikkerheten fra kontantstrømmene før nåverdien beregnes</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Å erstatte netto nåverdi med et mål som ikke krever avkastningskrav</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Å identifisere de kritiske variablene er det første formålet videoen lister opp — sammen med å forstå hvor i prosjektet risikoen ligger, håndtere kompleksitet og tilpasse beslutningene. Alternativ B lover noe ingen analyse kan levere: usikkerheten forsvinner ikke av å bli kartlagt, den blir bare synlig. Og C misforstår rollen — netto nåverdi forblir målestokken; følsomhetsanalysene undersøker hvor robust den er.</p>
+</div>
+<p class="quiz__score" role="status" aria-live="polite"></p>
+</div>
+```

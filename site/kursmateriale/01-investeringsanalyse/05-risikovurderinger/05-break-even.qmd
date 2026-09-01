@@ -1,0 +1,71 @@
+---
+title: "Break-even-analyse"
+subtitle: "Hvor mange enheter må selges før prosjektet går i null?"
+---
+
+## Før du ser videoen
+
+Stjernediagrammet spurte hvor mye en forutsetning kan bomme før lønnsomheten
+ryker. Break-even-analysen gjør det spørsmålet til hele analysen, med
+salgsvolumet i hovedrollen: hvor mange enheter må selges hvert år for at
+prosjektet verken skal skape eller ødelegge verdi?
+
+Det avgjørende er hva «å gå i null» skal bety når penger har en tidsverdi — se
+nøye på hvilke to størrelser videoen setter opp mot hverandre. Eksempelet
+regnes først for to prøvevolumer som ringer inn svaret fra hver sin side, før
+det eksakte punktet bestemmes. Hold rede på hvilke inngangsdata som til sammen
+avgjør hvor punktet havner, og hva som ville flyttet det.
+
+::::: {.video}
+<div class="video__placeholder">
+  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+  <span>Video 5 · Break-even-analyse</span>
+</div>
+:::::
+
+::::: {.video-meta}
+4:20 &nbsp;·&nbsp; Video 5 av 8 &nbsp;·&nbsp; [Del 4 · Risikovurderinger](index.qmd)
+:::::
+
+<p class="note">Videoen er ikke lenket opp enkeltvis ennå — du finner den i
+kapittelets
+<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%221e3f6c19-339c-443f-82a3-b3c900fd9efc%22">Panopto-mappe</a>.</p>
+
+## Sjekk forståelsen
+
+Fire spørsmål. Du får svaret med én gang, og du kan ta quizen om igjen så mange
+ganger du vil. Det siste spørsmålet krever kalkulator.
+
+```{=html}
+<div class="quiz">
+<div class="quiz__q" data-answer="c">
+<p class="quiz__prompt">1. Når har prosjektet nådd break-even i denne analysen?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Når summen av kontantstrømmene, uten diskontering, blir null</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Når salgsinntektene akkurat dekker de variable kostnadene</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Når nåverdien av innbetalingene er lik nåverdien av utbetalingene</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Break-even defineres i nåverditermer: verdien av det som kommer inn, målt i dagens penger, skal matche verdien av det som går ut — som er det samme som at netto nåverdi er null. Alternativ A dropper diskonteringen og undervurderer dermed hva som kreves; kroner som kommer sent, teller mindre. B glemmer både de faste kostnadene og selve investeringen — dekningsbidraget må bære alt dette, ikke bare de variable kostnadene.</p>
+</div>
+<div class="quiz__q" data-answer="b">
+<p class="quiz__prompt">2. Hva skjer med break-even-volumet hvis de faste kostnadene øker, alt annet likt?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Det faller, fordi en større del av kostnadene blir uavhengig av salget</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Det øker — flere enheter må til før verdien av inntektene dekker alle utbetalingene</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Det er uendret, siden faste kostnader ikke varierer med salgsvolumet</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Hver solgt enhet bidrar med differansen mellom pris og variabel kostnad, og disse bidragene skal til sammen dekke både investeringen og de faste kostnadene. Blir det mer å dekke, trengs flere bidrag. Alternativ C er fellen: at kostnaden ikke varierer med salget, betyr ikke at den er gratis — den må fortsatt betales, og noen enheter må tjene den inn. A har fortegnet feil vei; mer å dekke kan aldri kreve mindre salg.</p>
+</div>
+<div class="quiz__q" data-answer="a">
+<p class="quiz__prompt">3. I eksempelet beregnes nåverdier for både 5 000 og 10 000 solgte enheter før break-even-punktet bestemmes. Hva viser de to prøveregningene?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>At det ene volumet gir underskudd og det andre overskudd, slik at krysningspunktet må ligge et sted imellom</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>At break-even-punktet ligger nøyaktig midt mellom de to volumene</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>At prosjektet bør forkastes, siden ett av volumene gir tap</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Ved 10 000 enheter overstiger verdien av inntektene verdien av utgiftene; ved 5 000 er det omvendt. Da må inntektslinjen og kostnadslinjen krysse hverandre mellom de to — resten er algebra eller grafisk avlesning. Alternativ B gjetter på midtpunktet 7 500, men fasiten ligger et annet sted; prøveregningene ringer bare inn intervallet. C trekker en beslutning ut av en kartlegging — at et lavt volum ville gitt tap, sier ingenting om hvilket volum som faktisk forventes.</p>
+</div>
+<div class="quiz__q" data-answer="c">
+<p class="quiz__prompt">4. Et prosjekt krever 60 000 kroner i dag og løper i tre år. Salgsprisen er 25 kroner per enhet, variable enhetskostnader 15 kroner, og faste kostnader 12 000 kroner per år. Avkastningskravet er 10 prosent. Omtrent hvor mange enheter må selges årlig for at prosjektet skal gå i null?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>≈ 3 200 enheter</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>≈ 2 400 enheter</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>≈ 3 600 enheter</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Kravet er at dekningsbidraget dekker investering og faste kostnader i nåverdi: 10 · Q · 2,4869 = 60 000 + 12 000 · 2,4869, der 2,4869 er annuitetsfaktoren for 10 % over tre år. Det gir Q = (60 000/2,4869 + 12 000)/10 ≈ 3 613. Alternativ A fordeler i stedet investeringen flatt med 20 000 per år uten diskontering — da ser kravet mildere ut enn det er. B har glemt de faste kostnadene helt og dekker bare investeringen.</p>
+</div>
+<p class="quiz__score" role="status" aria-live="polite"></p>
+</div>
+```

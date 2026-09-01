@@ -1,0 +1,65 @@
+---
+title: "Hva er terminhandel?"
+subtitle: "Definisjonen, forskjellen på forward og futures, og hvem som bruker kontraktene"
+---
+
+## Før du ser videoen
+
+Etter obligasjoner og opsjoner står det tredje store derivatmarkedet for tur.
+Videoen åpner hele delen og spør hva det egentlig vil si å handle noe i dag som
+først skal leveres om flere måneder — og hvorfor slike avtaler har vokst frem i
+alt fra laksenæringen til luftfarten.
+
+Du kjenner allerede opsjonene fra [Del 14](../03-opsjoner/index.qmd). Legg merke til
+hva som skjer med valgfriheten når vi går fra opsjon til termin, og hvilke
+konsekvenser det får for prisingen senere i delen. Følg også med på skillet
+mellom to kontraktstyper som gjør samme jobb på ulikt vis, og på de tre
+motivene — sikring, spekulasjon og arbitrasje — som trekker aktører inn i
+markedet.
+
+::::: {.video}
+<div class="video__placeholder">
+  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+  <span>Video 1 · Hva er terminhandel?</span>
+</div>
+:::::
+
+::::: {.video-meta}
+8:38 &nbsp;·&nbsp; Video 1 av 6 &nbsp;·&nbsp; [Del 15 · Terminkontrakter](index.qmd)
+:::::
+
+<p class="note">Videoen er ikke lenket opp enkeltvis ennå — du finner den i
+kapittelets
+<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%228e73c88a-e61c-40eb-b060-b3d00112cf92%22">Panopto-mappe</a>.</p>
+
+## Sjekk forståelsen
+
+Tre spørsmål. Du får svaret med én gang, og du kan ta quizen om igjen så mange
+ganger du vil.
+
+```{=html}
+<div class="quiz">
+<div class="quiz__q" data-answer="b">
+<p class="quiz__prompt">1. Hva skiller en terminkontrakt fra en opsjon?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Terminkontrakten gir kjøperen rett, men ikke plikt, til å motta varen ved forfall</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Begge parter er bundet: kjøper plikter å motta varen, og selger plikter å levere den, til den avtalte prisen</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Terminkontrakter kan bare skrives på verdipapirer, mens opsjoner også kan gjelde fysiske varer</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Kvantum og pris er bestemt, og ingen av partene kan ombestemme seg — det er hele forskjellen. Alternativ A beskriver nettopp opsjonen: der betaler kjøperen en premie for retten til å la være. Og C har det baklengs på begge kanter — underliggende kan i begge markeder være både verdipapirer og fysiske varer, fra aksjeindekser til mais. Merk deg poenget foreleseren varsler for senere: uten valgfrihet i kontrakten blir prisingen langt enklere.</p>
+</div>
+<div class="quiz__q" data-answer="c">
+<p class="quiz__prompt">2. Hva kjennetegner en forward-kontrakt i motsetning til en futures-kontrakt?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Den er standardisert av en børs, slik at den enkelt kan omsettes videre</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Den handles gjennom en oppgjørssentral som tar seg av kredittrisikoen</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Den forhandles direkte mellom to parter og skreddersys den enkelte handelen</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Forward-kontrakten er den private varianten: volum, kvalitet og leveringstidspunkt avtales i personlig kontakt mellom kjøper og selger. Alternativ A og B beskriver begge futures-kontrakten — det er standardiseringen og handelen over en sentralisert markedsplass med oppgjørssentral i midten som gjør futures likvide og enkle å analysere. Neste video går dypere inn i nettopp det maskineriet.</p>
+</div>
+<div class="quiz__q" data-answer="a">
+<p class="quiz__prompt">3. En kornprodusent vil låse inn salgsprisen på neste års avling. Hva gjør hun i terminmarkedet?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Selger korn på termin — salgssikring</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Kjøper korn på termin, slik at hun er beskyttet dersom kornprisen stiger</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Venter til leveringstidspunktet og selger avlingen i spotmarkedet</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Produsenten eier varen som skal selges frem i tid, og det er et prisfall som truer henne — ved å selge på termin er salgsprisen låst, akkurat som lakseoppdretteren i videoen. Alternativ B er kjøpssikring, som passer for den som har varen som innsatsfaktor (flyselskapet og drivstoffet); en produsent som kjøper på termin dobler eksponeringen sin i stedet for å redusere den. Og C er ikke sikring i det hele tatt — da bærer hun hele prisrisikoen selv frem til levering.</p>
+</div>
+<p class="quiz__score" role="status" aria-live="polite"></p>
+</div>
+```

@@ -1,0 +1,72 @@
+---
+title: "Payback-tid"
+subtitle: "Hvor lang tid tar det før investeringen er tilbakebetalt — med og uten renter"
+---
+
+## Før du ser videoen
+
+Etter to videoer om å variere forutsetninger tar denne opp igjen en gammel
+kjenning fra tidligere i kurset: payback-metoden. Spørsmålet den stiller er
+enkelt — hvor raskt kommer pengene tilbake? Det interessante her er hvorfor et
+så grovt mål fortjener plass i verktøykassen for risikovurderinger, gitt
+begrensningene metoden er kjent for.
+
+Videoen regner det samme eksempelet to ganger: først uten å bry seg om renter,
+så med. Følg med på hvilken retning svaret flytter seg når tidsverdien av
+penger tas på alvor — og hvorfor det må bli slik. Merk også hvilken ligning som
+egentlig løses i det diskonterte tilfellet, og hva som skiller den fra en
+internrenteberegning du kjenner fra før.
+
+::::: {.video}
+<div class="video__placeholder">
+  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+  <span>Video 4 · Payback-tid</span>
+</div>
+:::::
+
+::::: {.video-meta}
+6:33 &nbsp;·&nbsp; Video 4 av 8 &nbsp;·&nbsp; [Del 4 · Risikovurderinger](index.qmd)
+:::::
+
+<p class="note">Videoen er ikke lenket opp enkeltvis ennå — du finner den i
+kapittelets
+<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%221e3f6c19-339c-443f-82a3-b3c900fd9efc%22">Panopto-mappe</a>.</p>
+
+## Sjekk forståelsen
+
+Fire spørsmål. Du får svaret med én gang, og du kan ta quizen om igjen så mange
+ganger du vil. Det siste spørsmålet krever kalkulator.
+
+```{=html}
+<div class="quiz">
+<div class="quiz__q" data-answer="b">
+<p class="quiz__prompt">1. Hvorfor får payback-metoden plass i verktøykassen for risikovurderinger?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Fordi den gir et mer presist lønnsomhetsmål enn netto nåverdi</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Fordi den er enkel og rask, og peker ut prosjekter som henter pengene tilbake tidlig</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Fordi den fanger opp alle kontantstrømmene over hele levetiden</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Kort payback betyr at mindre av prosjektets skjebne hviler på fjerne, usikre år — det er risikoinformasjon, selv om målet er grovt. Alternativ A gir metoden en presisjon den ikke har; den er et supplement til nåverdi, ikke en konkurrent. Og C er nøyaktig én av de kjente begrensningene snudd på hodet: alt som skjer etter tilbakebetalingstidspunktet, ignoreres — det er prisen for enkelheten.</p>
+</div>
+<div class="quiz__q" data-answer="a">
+<p class="quiz__prompt">2. Et prosjekt har positive kontantstrømmer hvert år og en payback-tid uten renter på 3,0 år. Avkastningskravet er positivt. Hva vet du om den diskonterte payback-tiden?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Den er lengre enn 3,0 år</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Den er kortere enn 3,0 år</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Den kan være både kortere og lengre — det avhenger av kontantstrømmenes profil</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Diskontering krymper hver fremtidig innbetaling, så den kumulative summen bruker lengre tid på å nå null — akkurat som i videoens eksempel, der payback-tiden vokste da renter kom med i regnestykket. Alternativ B ville krevd at fremtidige beløp ble mer verdt av å vente, altså et negativt krav. Og C høres forsiktig og klokt ut, men med positivt avkastningskrav finnes ikke noe unntak: hvert eneste beløp veier mindre, så punktet der summen snur, kan bare flytte seg utover.</p>
+</div>
+<div class="quiz__q" data-answer="c">
+<p class="quiz__prompt">3. Hva løses ligningen med hensyn på når diskontert payback-tid beregnes?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Diskonteringsrenten som gjør prosjektets nåverdi lik null</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Det årlige beløpet prosjektet må betale for å forsvare avkastningskravet</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Antall år prosjektet må løpe før nåverdien går i null, for et gitt avkastningskrav</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Ligningen er den samme som ellers i nåverdiregningen — forskjellen ligger i hvilken størrelse som er ukjent. Her er renten gitt og tiden ukjent. Alternativ A beskriver internrenten: samme null-punkt, men løst med hensyn på renten for en gitt levetid — de to beregningene er speilbilder av hverandre. B blander inn annuitetstankegang; det finnes ikke noe «beløp å betale» i denne ligningen, bare kontantstrømmer som allerede er anslått.</p>
+</div>
+<div class="quiz__q" data-answer="b">
+<p class="quiz__prompt">4. En investering på 45 000 kroner gir en fast årlig kontantstrøm på 18 000 kroner. Avkastningskravet er 8 prosent. Hva er payback-tiden uten og med hensyn til tidsverdien av penger?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>2,5 år og ≈ 2,3 år</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>2,5 år og ≈ 2,9 år</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>≈ 2,9 år og 2,5 år</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Uten renter: 45 000/18 000 = 2,5 år. Med renter løses 45 000 = 18 000 · (1 − 1,08<sup>−pb</sup>)/0,08, som gir 1,08<sup>−pb</sup> = 0,8 og pb = ln(0,8)/(−ln 1,08) ≈ 2,9 år. Alternativ A lar diskonteringen forkorte payback-tiden — men fremtidige beløp blir mindre verdt, ikke mer, så tiden kan bare øke. C har regnet begge riktig og byttet dem om; den enkle varianten er alltid den korteste av de to.</p>
+</div>
+<p class="quiz__score" role="status" aria-live="polite"></p>
+</div>
+```

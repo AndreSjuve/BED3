@@ -2,3 +2,5 @@
 .impeccable/
 _site/
 .quarto/
+transcripts/
+.playwright-mcp/

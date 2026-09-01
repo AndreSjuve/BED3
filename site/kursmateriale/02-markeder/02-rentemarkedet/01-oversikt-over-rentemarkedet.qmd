@@ -1,0 +1,65 @@
+---
+title: "Oversikt over rentemarkedet"
+subtitle: "Pengemarkedet, obligasjonsmarkedet og vilkårene som beskriver et gjeldsinstrument"
+---
+
+## Før du ser videoen
+
+Investeringsanalysen handlet om å velge de gode prosjektene. Men prosjekter må
+også betales for, og en bedrift kan hente kapital på to måter: egenkapital
+eller gjeld. Aksjedelen av kurset dekket den første. Denne videorekken går inn
+i den andre — markedet der bedrifter, stater og kommuner låner penger av
+investorer.
+
+Videoen tegner det store kartet: Hvordan deles rentemarkedet inn, og hva
+avgjør hvilken del en aktør oppsøker? Hvem er det egentlig som utsteder og
+investerer her? Og hvilke opplysninger må du ha om et gjeldsinstrument før du
+i det hele tatt kan mene noe om pris og risiko? Merk deg særlig hvordan et
+lån uten løpende rentebetalinger likevel gir långiver betalt.
+
+::::: {.video}
+<div class="video__placeholder">
+  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+  <span>Video 1 · Oversikt over rentemarkedet</span>
+</div>
+:::::
+
+::::: {.video-meta}
+12:59 &nbsp;·&nbsp; Video 1 av 6 &nbsp;·&nbsp; [Del 13 · Rentemarkedet](index.qmd)
+:::::
+
+<p class="note">Videoen er ikke lenket opp enkeltvis ennå — du finner den i
+kapittelets
+<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22b18b63eb-8ea3-495d-a786-b3d00112bb4a%22">Panopto-mappe</a>.</p>
+
+## Sjekk forståelsen
+
+Tre spørsmål. Du får svaret med én gang, og du kan ta quizen om igjen så mange
+ganger du vil.
+
+```{=html}
+<div class="quiz">
+<div class="quiz__q" data-answer="b">
+<p class="quiz__prompt">1. Hva skiller pengemarkedet fra obligasjonsmarkedet?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Utstederen: staten låner i pengemarkedet, bedrifter i obligasjonsmarkedet</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Løpetiden: under tolv måneder i pengemarkedet, ett år eller mer i obligasjonsmarkedet</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Renteregningen: enkel rente i pengemarkedet, effektiv rente i obligasjonsmarkedet</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Skillet går på hvor langsiktige lånene er — under tolv måneder hører til pengemarkedet, resten til obligasjonsmarkedet. A blander inn utstedertype, men både stater, banker og bedrifter opptrer i begge delmarkeder. C peker på en forskjell som finnes mellom enkelte instrumenter (statssertifikater bruker effektiv rente, bedriftssertifikater enkel), men det er ikke det som definerer delmarkedene.</p>
+</div>
+<div class="quiz__q" data-answer="c">
+<p class="quiz__prompt">2. Et selskap får store innbetalinger i desember, men kostnadene løper jevnt hele året. Hvorfor oppsøker slike aktører typisk pengemarkedet?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>For å finansiere langsiktige realinvesteringer billigst mulig</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>For å oppnå høyest mulig avkastning på overskuddslikviditet</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>For å styre likviditeten når inntekter og utgifter kommer på ulike tidspunkter</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Pengemarkedet er stedet for kortsiktig likviditetsstyring: et misforhold i tid mellom innbetalinger og utbetalinger dekkes med lån som ofte løper i under seks måneder, noen helt ned i én dag. A hører hjemme i obligasjonsmarkedet — store realprosjekter finansieres langsiktig, ikke med lån som må rulleres hver måned. B bommer på motivasjonen: i pengemarkedet er trygghet og likviditet viktigst for investorene, ikke høy avkastning.</p>
+</div>
+<div class="quiz__q" data-answer="a">
+<p class="quiz__prompt">3. En nullkupongsobligasjon med pålydende 100 og ett år til forfall selges i dag for 96 kroner. Hvilken rente oppnår långiver?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Om lag 4,2 prosent</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>4,0 prosent</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>0 prosent — det er jo en nullkupongsobligasjon</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Renteelementet ligger i rabatten: du betaler 96 og mottar 100, så avkastningen er 100/96 − 1 ≈ 4,17 prosent. B deler differansen på pålydende (4/100), men du investerer 96 kroner, ikke 100 — avkastning måles alltid mot det du faktisk betaler. C forveksler kupong med rente: null kupong betyr ingen løpende betalinger underveis, ikke null avkastning. Hele kompensasjonen kommer som forskjellen mellom pris og pålydende.</p>
+</div>
+<p class="quiz__score" role="status" aria-live="polite"></p>
+</div>
+```

@@ -1,0 +1,65 @@
+---
+title: "Valutakurser og noteringer"
+subtitle: "Direkte og indirekte notering, spot- og forwardkurser"
+---
+
+## Før du ser videoen
+
+Helt i starten av kurset ble diskontering forklart med en analogi hentet fra
+valutamarkedet — kroner på ulike tidspunkt måtte veksles om før de kunne
+sammenlignes. Nå, i kursets siste del, er vi framme ved den ekte varen:
+markedet der penger prises i andre lands penger.
+
+Denne første videoen rydder i begrepene. En kurs er alltid et forhold mellom
+to valutaer — men hvilken av dem står det én av, og hvilken telles det i?
+Følg med på hvordan direkte og indirekte notering snur lesemåten på hodet,
+hvilke kurser som noteres per hundre enheter, og hva som skiller en
+spotkurs fra en forwardkurs. Til slutt kommer et begrepspar for forholdet
+mellom de to — legg merke til at også det skifter fortegn med noteringsmåten.
+
+::::: {.video}
+<div class="video__placeholder">
+  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+  <span>Video 1 · Valutakurser og noteringer</span>
+</div>
+:::::
+
+::::: {.video-meta}
+06:49 &nbsp;·&nbsp; Video 1 av 3 &nbsp;·&nbsp; [Del 16 · Internasjonal finans](index.qmd)
+:::::
+
+<p class="note">Videoen er ikke lenket opp enkeltvis ennå — du finner den i
+kapittelets
+<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22f8feb25e-8478-416a-959a-b3d00112dc57%22">Panopto-mappe</a>.</p>
+
+## Sjekk forståelsen
+
+Tre spørsmål. Du får svaret med én gang, og du kan ta quizen om igjen så mange
+ganger du vil.
+
+```{=html}
+<div class="quiz">
+<div class="quiz__q" data-answer="b">
+<p class="quiz__prompt">1. Kursen USDNOK er notert til 11,50 med direkte notering. Hvordan leses det?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Du får 11,50 amerikanske dollar for én norsk krone</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Du må betale 11,50 norske kroner for én amerikansk dollar</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Du må betale 11,50 norske kroner for 100 amerikanske dollar</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Ved direkte notering står basevalutaen først og kvotevalutaen sist, og tallet sier hvor mange enheter kvotevaluta én enhet basevaluta koster: 11,50 kroner per dollar. A leser noteringen baklengs — det er den indirekte lesemåten, som brukes i Storbritannia og det tidligere Samveldet. C blander inn 100-enhetskonvensjonen, men den gjelder kurser som DKKNOK og SEKNOK, ikke dollar.</p>
+</div>
+<div class="quiz__q" data-answer="c">
+<p class="quiz__prompt">2. SEKNOK er notert til 98,00. Hva koster 500 svenske kroner i spotmarkedet?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>49 000 norske kroner</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>510 norske kroner</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>490 norske kroner</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Svenske og danske kroner noteres per 100 enheter: 98,00 betyr at 100 svenske kroner koster 98 norske, altså 0,98 kroner per svensk krone — og $500 \cdot 0{,}98 = 490$. A overser 100-enheten og behandler kursen som pris per én svensk krone. B deler i stedet for å gange — det svarer til å lese kursen som svenske kroner per 100 norske, altså motsatt retning.</p>
+</div>
+<div class="quiz__q" data-answer="a">
+<p class="quiz__prompt">3. Ved direkte notering observerer du at forwardkursen på en valuta er høyere enn spotkursen. Hva betyr det?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Valutaen handles til en forwardpremie — og med indirekte notering ville den samme situasjonen blitt kalt en forwarddiskonto</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Valutaen handles til en forwarddiskonto, siden fremtidig levering alltid er billigst</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Det kan ikke avgjøres uten å kjenne rentenivåene i de to landene</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Ved direkte notering gir F &gt; S en forwardpremie og F &lt; S en forwarddiskonto — og fordi indirekte notering snur brøken, bytter begrepene plass der. B snur definisjonen og legger til en påstand videoen aldri gir; fremtidig levering kan være både dyrere og billigere enn spot. C forveksler definisjonen med forklaringen: rentenivåene hjelper til å forstå hvorfor forwardkursen ligger der den gjør (det kommer i neste video), men premie og diskonto er definert direkte fra forholdet mellom de to kursene.</p>
+</div>
+<p class="quiz__score" role="status" aria-live="polite"></p>
+</div>
+```

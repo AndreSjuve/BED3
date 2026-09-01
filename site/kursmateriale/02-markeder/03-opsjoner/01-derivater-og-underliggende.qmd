@@ -1,0 +1,66 @@
+---
+title: "Derivater og underliggende"
+subtitle: "Kontrakter der utbetalingen avhenger av prisen på noe annet"
+---
+
+## Før du ser videoen
+
+Aksjer og obligasjoner er direkte krav på verdiskapingen i et selskap — det er
+en klar linje fra prosjektenes kontantstrømmer til papirets verdi. Denne første
+videoen introduserer en helt annen type kontrakt: derivatet, der koblingen i
+stedet går via prisen på noe helt annet. Hva betyr egentlig
+«underliggende», og hvorfor gir en slik kobling en så annerledes
+kontantstrømprofil?
+
+Videoen bygger intuisjonen gjennom et bevisst enkelt eksempel: en kontrakt som
+betaler ut ett fast beløp hvis hveteprisen ender over en terskel, og ingenting
+ellers. Følg resonnementet om hva en slik kontrakt bør koste i dag — og legg
+merke til hvor mye av det velkjente prisingsapparatet fra tidligere i kurset
+som overlever møtet med derivatmarkedet.
+
+::::: {.video}
+<div class="video__placeholder">
+  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+  <span>Video 1 · Derivater og underliggende</span>
+</div>
+:::::
+
+::::: {.video-meta}
+10:32 &nbsp;·&nbsp; Video 1 av 6 &nbsp;·&nbsp; [Del 14 · Opsjonskontrakter](index.qmd)
+:::::
+
+<p class="note">Videoen er ikke lenket opp enkeltvis ennå — du finner den i
+kapittelets
+<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e49dac6f-794c-4172-ae98-b3d00112c654%22">Panopto-mappe</a>.</p>
+
+## Sjekk forståelsen
+
+Tre spørsmål. Du får svaret med én gang, og du kan ta quizen om igjen så mange
+ganger du vil.
+
+```{=html}
+<div class="quiz">
+<div class="quiz__q" data-answer="b">
+<p class="quiz__prompt">1. Hva kjennetegner en derivatkontrakt?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Den gir eieren et direkte krav på en andel av selskapets kontantstrøm, slik en aksje gjør</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Kontantstrømmen den gir, avhenger av verdien på en annen eiendel</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Den gir en sikker utbetaling ved forfall, uavhengig av hva som skjer i markedet</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>«Derivat» betyr avledet: kontraktens verdi er avledet av prisen på noe annet — den underliggende eiendelen. Alternativ A beskriver aksjer og obligasjoner, som er direkte krav på selskapets verdiskaping; derivatet står ett hakk unna og peker på prisen, ikke på prosjektene. C beskriver nærmest et bankinnskudd — poenget med et derivat er tvert imot at utbetalingen er betinget: den kommer bare i noen tilstander av verden.</p>
+</div>
+<div class="quiz__q" data-answer="c">
+<p class="quiz__prompt">2. En binær opsjon betaler 1 krone i morgen hvis oljeprisen da er minst 90 dollar fatet, og null ellers. Sannsynligheten for det er 35 prosent, og med én dags horisont ser vi bort fra diskontering. Hva er kontrakten verdt i dag?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>1 krone — det er beløpet kontrakten kan betale ut</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>65 øre</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>35 øre</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Forventet kontantstrøm er 0,35 · 1 + 0,65 · 0 = 0,35 kroner, og uten diskontering er det også prisen — akkurat som i videoens hveteeksempel, der prisen ble lik sannsynligheten for at terskelen nås. Alternativ A priser kontrakten til maksimal utbetaling og overser at den bare kommer i noen tilstander. B bruker sannsynligheten for at kontrakten <em>ikke</em> betaler ut — komplementet, ikke hendelsen selv.</p>
+</div>
+<div class="quiz__q" data-answer="a">
+<p class="quiz__prompt">3. Hvordan verdsettes en opsjon, sammenlignet med aksjer og obligasjoner?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Med samme grunnrammeverk — nåverdien av forventede kontantstrømmer — men kontantstrømmene er nå funksjoner av underliggende</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Med et helt annet rammeverk, siden opsjoner ikke har egne kontantstrømmer</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Ved å ta utgangspunkt i hva den underliggende eiendelen kostet da kontrakten ble inngått</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Rammeverket overlever: finn kontantstrømmene, ta forventningen, diskonter til i dag. Det nye er at kontantstrømmen er en funksjon av hvor underliggende ender — en mer eksotisk form som gjør regningen vanskeligere, ikke prinsippet annerledes. B trekker feil konklusjon av det: opsjoner har kontantstrømmer, de er bare betingede. C ser bakover; verdien bestemmes av mulige fremtidige utfall, ikke av historiske kjøpspriser.</p>
+</div>
+<p class="quiz__score" role="status" aria-live="polite"></p>
+</div>
+```

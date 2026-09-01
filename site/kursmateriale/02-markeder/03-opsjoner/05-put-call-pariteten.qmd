@@ -1,0 +1,71 @@
+---
+title: "Put-call-pariteten"
+subtitle: "Sammenhengen mellom call, put, aksje og lån — og arbitrasjen bak"
+---
+
+## Før du ser videoen
+
+Forrige video antydet at en aksje pluss en salgsopsjon oppfører seg som en
+kjøpsopsjon. Denne videoen gjør antydningen til et presist prisforhold. Følg
+konstruksjonen nøye: en portefølje settes sammen slik at utbetalingen ved
+forfall blir den samme i absolutt alle utfall. Hva må en slik portefølje være
+verdt i dag, og hvilket krav legger det på prisene til de fire komponentene?
+
+Merk deg forutsetningene — de er ikke pynt: opsjonene må være europeiske, med
+samme kontraktspris og samme forfall. Siste del snur sammenhengen til et
+våpen: hva gjør du konkret hvis én av kontraktene i markedet er priset for
+høyt, og hvorfor er gevinsten uten risiko?
+
+::::: {.video}
+<div class="video__placeholder">
+  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+  <span>Video 5 · Put-call-pariteten</span>
+</div>
+:::::
+
+::::: {.video-meta}
+19:42 &nbsp;·&nbsp; Video 5 av 6 &nbsp;·&nbsp; [Del 14 · Opsjonskontrakter](index.qmd)
+:::::
+
+<p class="note">Videoen er ikke lenket opp enkeltvis ennå — du finner den i
+kapittelets
+<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e49dac6f-794c-4172-ae98-b3d00112c654%22">Panopto-mappe</a>.</p>
+
+## Sjekk forståelsen
+
+Fire spørsmål. Du får svaret med én gang, og du kan ta quizen om igjen så
+mange ganger du vil. Det siste spørsmålet krever kalkulator.
+
+```{=html}
+<div class="quiz">
+<div class="quiz__q" data-answer="b">
+<p class="quiz__prompt">1. Porteføljen bak put-call-pariteten består av kjøpt aksje, kjøpt salgsopsjon og solgt kjøpsopsjon — europeiske opsjoner med samme kontraktspris og forfall. Hvorfor er den risikofri?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Fordi gevinsten på aksjen alltid er større enn tapet på opsjonene</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Fordi den betaler ut nøyaktig kontraktsprisen K ved forfall, uansett hvor aksjekursen ender</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Fordi premien fra den solgte kjøpsopsjonen dekker kostnaden ved salgsopsjonen</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Ender kursen under K, fyller salgsopsjonen på med differansen opp til K; ender den over, tar den solgte kjøpsopsjonen hele oppsiden utover K. Summen blir K i begge tilstander — en sikker kontantstrøm, som derfor må prises som et risikofritt krav: nåverdien av K. A er galt i mange utfall — poenget er ikke at én komponent vinner, men at gevinster og tap kansellerer eksakt. C handler om kontantstrømmene i dag; risikofriheten sitter i utbetalingen ved forfall.</p>
+</div>
+<div class="quiz__q" data-answer="a">
+<p class="quiz__prompt">2. Kjøpsopsjonen du trenger finnes ikke i markedet. Hvordan bygger du en syntetisk kjøpsopsjon?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Kjøp aksjen, kjøp salgsopsjonen, og lån et beløp lik nåverdien av kontraktsprisen</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Selg aksjen, kjøp salgsopsjonen, og sett pengene i banken</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Kjøp både en kjøps- og en salgsopsjon med samme kontraktspris</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Pariteten kan skrives om til C = S + P − PV(K): aksje pluss put, delfinansiert med et lån på nåverdien av kontraktsprisen, gir nøyaktig kjøpsopsjonens utbetaling ved forfall. B har snudd fortegnet på aksjen — den kombinasjonen peker mot kursfall, ikke mot callens oppside. C er straddlen fra forrige video, et volatilitetsveddemål — og den krever uansett at callen finnes å få kjøpt.</p>
+</div>
+<div class="quiz__q" data-answer="c">
+<p class="quiz__prompt">3. Kjøpsopsjonen i markedet er priset høyere enn put-call-pariteten tilsier. Hva er arbitrasjestrategien?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Kjøpe kjøpsopsjonen og håpe på kursoppgang før forfall</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Selge både kjøpsopsjonen og den syntetiske varianten og beholde begge premiene</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Selge kjøpsopsjonen og kjøpe den syntetiske — netto kontantstrøm i dag blir lik feilprisingen, og null ved forfall uansett utfall</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Prinsippet er å selge det som er dyrt og kjøpe det som er billig: selg callen, og kjøp samme eksponering billigere som aksje pluss put finansiert med lån. Posisjonene kansellerer ved forfall i begge tilstander, så overskuddet i dag — nøyaktig lik feilprisingen — er risikofritt og selvfinansierende. A er spekulasjon i noe du mener er <em>over</em>priset, med full risiko. B selger to like eksponeringer i stedet for å motsvare dem — da står du med dobbel plikt hvis kursen stiger.</p>
+</div>
+<div class="quiz__q" data-answer="b">
+<p class="quiz__prompt">4. En aksje handles for 90 kroner. En europeisk salgsopsjon med kontraktspris 88 og ett år til forfall koster 3,50 kroner, og risikofri rente er 10 prosent. Hva må kjøpsopsjonen med samme kontraktspris og forfall koste for at put-call-pariteten skal holde?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>5,50 kroner</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>13,50 kroner</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>3,50 kroner — paritet betyr at call og put skal koste det samme</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Pariteten gir C = S₀ − PV(K) + P₀ = 90 − 88/1,10 + 3,50 = 90 − 80 + 3,50 = 13,50 kroner. A trekker fra hele kontraktsprisen uten å diskontere — men de 88 kronene betales først om ett år, og det er nåverdien som teller. C misforstår ordet paritet: sammenhengen sier at <em>differansen</em> C − P skal være lik S₀ − PV(K), ikke at prisene er like — de er bare like i spesialtilfellet der aksjekursen treffer nåverdien av kontraktsprisen.</p>
+</div>
+<p class="quiz__score" role="status" aria-live="polite"></p>
+</div>
+```

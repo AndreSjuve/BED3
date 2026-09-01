@@ -1,6 +1,10 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    # Built by tools/build-formelark-pdf.py from formelark.qmd — not rendered
+    # by Quarto, just copied through to _site.
+    - assets/formelark.pdf
 
 website:
   title: "BED3"
@@ -37,18 +41,89 @@ website:
         - section: "Investeringsanalyse"
           contents:
             - kursmateriale/01-investeringsanalyse/01-introduksjon.qmd
-            - kursmateriale/01-investeringsanalyse/02-investeringsprosjekter.qmd
-            - kursmateriale/01-investeringsanalyse/03-skatt-og-laan.qmd
-            - kursmateriale/01-investeringsanalyse/04-inflasjon.qmd
-            - kursmateriale/01-investeringsanalyse/05-risikovurderinger.qmd
-            - kursmateriale/01-investeringsanalyse/06-laane-og-betalingsalternativer.qmd
+            # One page per video, nested under the lecture hub. collapse-level: 2
+            # keeps every other lecture folded, so the sidebar stays scannable
+            # while prev/next still walks video to video.
+            - section: "Investeringsprosjekter"
+              href: kursmateriale/01-investeringsanalyse/02-investeringsprosjekter/index.qmd
+              contents:
+                - kursmateriale/01-investeringsanalyse/02-investeringsprosjekter/01-investeringsprosjektet.qmd
+                - kursmateriale/01-investeringsanalyse/02-investeringsprosjekter/02-verdiskaping.qmd
+                - kursmateriale/01-investeringsanalyse/02-investeringsprosjekter/03-tid-som-valuta.qmd
+                - kursmateriale/01-investeringsanalyse/02-investeringsprosjekter/04-netto-naaverdi.qmd
+                - kursmateriale/01-investeringsanalyse/02-investeringsprosjekter/05-internrente.qmd
+                - kursmateriale/01-investeringsanalyse/02-investeringsprosjekter/06-naaverdiprofil.qmd
+                - kursmateriale/01-investeringsanalyse/02-investeringsprosjekter/07-supplerende-metoder.qmd
+                - kursmateriale/01-investeringsanalyse/02-investeringsprosjekter/08-oppsummering.qmd
+            - section: "Effekter av skatt og lån"
+              href: kursmateriale/01-investeringsanalyse/03-skatt-og-laan/index.qmd
+              contents:
+                - kursmateriale/01-investeringsanalyse/03-skatt-og-laan/01-caset-ecotime-pro.qmd
+                - kursmateriale/01-investeringsanalyse/03-skatt-og-laan/02-kontantstroem-til-totalkapitalen.qmd
+                - kursmateriale/01-investeringsanalyse/03-skatt-og-laan/03-skatt-og-avskrivninger.qmd
+                - kursmateriale/01-investeringsanalyse/03-skatt-og-laan/04-laanefinansiering.qmd
+            - section: "Effekter av inflasjon"
+              href: kursmateriale/01-investeringsanalyse/04-inflasjon/index.qmd
+              contents:
+                - kursmateriale/01-investeringsanalyse/04-inflasjon/01-nominelle-og-reelle-stoerrelser.qmd
+                - kursmateriale/01-investeringsanalyse/04-inflasjon/02-internrenter-nominelt-og-reelt.qmd
+                - kursmateriale/01-investeringsanalyse/04-inflasjon/03-inflasjon-i-ecotime-caset.qmd
+                - kursmateriale/01-investeringsanalyse/04-inflasjon/04-konsistens-i-analysen.qmd
+            - section: "Risikovurderinger"
+              href: kursmateriale/01-investeringsanalyse/05-risikovurderinger/index.qmd
+              contents:
+                - kursmateriale/01-investeringsanalyse/05-risikovurderinger/01-relevant-risiko.qmd
+                - kursmateriale/01-investeringsanalyse/05-risikovurderinger/02-stjernediagram.qmd
+                - kursmateriale/01-investeringsanalyse/05-risikovurderinger/03-scenarioanalyse.qmd
+                - kursmateriale/01-investeringsanalyse/05-risikovurderinger/04-payback-tid.qmd
+                - kursmateriale/01-investeringsanalyse/05-risikovurderinger/05-break-even.qmd
+                - kursmateriale/01-investeringsanalyse/05-risikovurderinger/06-simulering.qmd
+                - kursmateriale/01-investeringsanalyse/05-risikovurderinger/07-beslutningstraer.qmd
+                - kursmateriale/01-investeringsanalyse/05-risikovurderinger/08-realopsjoner.qmd
+            - section: "Låne- og betalingsalternativer"
+              href: kursmateriale/01-investeringsanalyse/06-laane-og-betalingsalternativer/index.qmd
+              contents:
+                - kursmateriale/01-investeringsanalyse/06-laane-og-betalingsalternativer/01-naaverdiprofilen-for-laan.qmd
+                - kursmateriale/01-investeringsanalyse/06-laane-og-betalingsalternativer/02-effektiv-rente.qmd
+                - kursmateriale/01-investeringsanalyse/06-laane-og-betalingsalternativer/03-laanetyper.qmd
+                - kursmateriale/01-investeringsanalyse/06-laane-og-betalingsalternativer/04-betalingsalternativer.qmd
+                - kursmateriale/01-investeringsanalyse/06-laane-og-betalingsalternativer/05-leasing.qmd
         - section: "Finansielle markeder og kontrakter"
           contents:
             - kursmateriale/02-markeder/01-introduksjon.qmd
-            - kursmateriale/02-markeder/02-rentemarkedet.qmd
-            - kursmateriale/02-markeder/03-opsjoner.qmd
-            - kursmateriale/02-markeder/04-terminer.qmd
-            - kursmateriale/02-markeder/05-valuta.qmd
+            - section: "Rentemarkedet"
+              href: kursmateriale/02-markeder/02-rentemarkedet/index.qmd
+              contents:
+                - kursmateriale/02-markeder/02-rentemarkedet/01-oversikt-over-rentemarkedet.qmd
+                - kursmateriale/02-markeder/02-rentemarkedet/02-prising-av-obligasjoner-og-sertifikater.qmd
+                - kursmateriale/02-markeder/02-rentemarkedet/03-renten-som-prisen-paa-tid.qmd
+                - kursmateriale/02-markeder/02-rentemarkedet/04-terminrenter-og-hypoteser.qmd
+                - kursmateriale/02-markeder/02-rentemarkedet/05-renterisiko-og-durasjon.qmd
+                - kursmateriale/02-markeder/02-rentemarkedet/06-immunisering.qmd
+            - section: "Opsjonskontrakter"
+              href: kursmateriale/02-markeder/03-opsjoner/index.qmd
+              contents:
+                - kursmateriale/02-markeder/03-opsjoner/01-derivater-og-underliggende.qmd
+                - kursmateriale/02-markeder/03-opsjoner/02-kjoeps-og-salgsopsjoner.qmd
+                - kursmateriale/02-markeder/03-opsjoner/03-kontantstroemsdiagrammer.qmd
+                - kursmateriale/02-markeder/03-opsjoner/04-opsjonsstrategier.qmd
+                - kursmateriale/02-markeder/03-opsjoner/05-put-call-pariteten.qmd
+                - kursmateriale/02-markeder/03-opsjoner/06-opsjonsprising.qmd
+            - section: "Terminkontrakter"
+              href: kursmateriale/02-markeder/04-terminer/index.qmd
+              contents:
+                - kursmateriale/02-markeder/04-terminer/01-hva-er-terminhandel.qmd
+                - kursmateriale/02-markeder/04-terminer/02-marked-og-oppgjoer.qmd
+                - kursmateriale/02-markeder/04-terminer/03-lagringskostnadshypotesen.qmd
+                - kursmateriale/02-markeder/04-terminer/04-forventningshypotesen.qmd
+                - kursmateriale/02-markeder/04-terminer/05-volumbalansen.qmd
+                - kursmateriale/02-markeder/04-terminer/06-sikring-med-terminkontrakter.qmd
+            - section: "Internasjonal finans"
+              href: kursmateriale/02-markeder/05-valuta/index.qmd
+              contents:
+                - kursmateriale/02-markeder/05-valuta/01-valutakurser-og-noteringer.qmd
+                - kursmateriale/02-markeder/05-valuta/02-paritetsbetingelsene.qmd
+                - kursmateriale/02-markeder/05-valuta/03-investeringer-og-valutalaan.qmd
 
   page-footer:
     left: |
@@ -70,8 +145,14 @@ format:
     section-divs: false
     anchor-sections: true
     link-external-newwindow: true
-    html-math-method: katex
+    # Pinned: Quarto references katex@latest on the CDN otherwise, and an
+    # upstream KaTeX release mid-semester is not a risk worth taking.
+    html-math-method:
+      method: katex
+      url: "https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/"
     include-in-header: _includes/head.html
-    include-after-body: _includes/quiz.html
+    include-after-body:
+      - _includes/quiz.html
+      - _includes/nav.html
 
 lang: nb

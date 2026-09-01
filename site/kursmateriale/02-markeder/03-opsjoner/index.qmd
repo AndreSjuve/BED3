@@ -1,0 +1,278 @@
+---
+title: "Opsjonskontrakter"
+subtitle: "Retten, men ikke plikten — og hva den retten er verdt"
+---
+
+Aksjer og obligasjoner er direkte krav på selskapenes kontantstrømmer. Dette
+kapittelet handler om derivater — kontrakter der utbetalingen i stedet
+avhenger av prisen på en annen eiendel — og særlig om de to viktigste:
+kjøpsopsjonen og salgsopsjonen. Begge gir eieren en rett uten plikt, og det er
+den asymmetrien som gir kontantstrømsprofilene deres den karakteristiske
+knekken.
+
+Seks videoer, i underkant av to timer til sammen. Se dem i rekkefølge: først
+hva kontraktene er og hvordan gevinst og tap ser ut ved forfall, deretter
+hvordan posisjoner kombineres til strategier, og til slutt put-call-pariteten
+og prisingen. Til hver video hører en kort quiz. Oppgavene nederst regnes best
+når du har sett alt, og krever kalkulator.
+
+## Videoer
+
+:::: {.index-list}
+<a class="index-row" href="01-derivater-og-underliggende.html">
+  <span class="index-row__no">1</span>
+  <span>
+    <span class="index-row__title">Derivater og underliggende</span>
+    <span class="index-row__sub">Kontrakter der utbetalingen avhenger av prisen på noe annet</span>
+  </span>
+  <span class="index-row__dur">10:32</span>
+</a>
+<a class="index-row" href="02-kjoeps-og-salgsopsjoner.html">
+  <span class="index-row__no">2</span>
+  <span>
+    <span class="index-row__title">Kjøps- og salgsopsjoner</span>
+    <span class="index-row__sub">Rett, men ikke plikt — kontraktene og motivene bak markedet</span>
+  </span>
+  <span class="index-row__dur">17:32</span>
+</a>
+<a class="index-row" href="03-kontantstroemsdiagrammer.html">
+  <span class="index-row__no">3</span>
+  <span>
+    <span class="index-row__title">Kontantstrømsdiagrammer</span>
+    <span class="index-row__sub">Gevinst og tap ved forfall for lange og korte posisjoner</span>
+  </span>
+  <span class="index-row__dur">24:27</span>
+</a>
+<a class="index-row" href="04-opsjonsstrategier.html">
+  <span class="index-row__no">4</span>
+  <span>
+    <span class="index-row__title">Opsjonsstrategier</span>
+    <span class="index-row__sub">Protective put og straddle: forsikring og veddemål på volatilitet</span>
+  </span>
+  <span class="index-row__dur">15:06</span>
+</a>
+<a class="index-row" href="05-put-call-pariteten.html">
+  <span class="index-row__no">5</span>
+  <span>
+    <span class="index-row__title">Put-call-pariteten</span>
+    <span class="index-row__sub">Sammenhengen mellom call, put, aksje og lån — og arbitrasjen bak</span>
+  </span>
+  <span class="index-row__dur">19:42</span>
+</a>
+<a class="index-row" href="06-opsjonsprising.html">
+  <span class="index-row__no">6</span>
+  <span>
+    <span class="index-row__title">Opsjonsprising</span>
+    <span class="index-row__sub">Grenseverdier, egenverdi og tidsverdi — og et blikk på Black-Scholes</span>
+  </span>
+  <span class="index-row__dur">30:19</span>
+</a>
+::::
+
+<p class="note">Videoene ligger også som spilleliste i
+<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e49dac6f-794c-4172-ae98-b3d00112c654%22">Panopto</a>
+om du heller vil se dem samlet.</p>
+
+## Symboler
+
+I tillegg til symbolene fra de tidligere kapitlene bruker videoene disse:
+
+| Symbol | Betydning |
+|---|---|
+| $C$, $C_0$ | Verdien av en kjøpsopsjon (call) — ved forfall og i dag |
+| $P$, $P_0$ | Verdien av en salgsopsjon (put) — ved forfall og i dag |
+| $K$ | Kontraktsprisen (innløsningskursen, «strike») |
+| $S_0$, $S_T$ | Prisen på underliggende i dag og ved forfall |
+| $T$ | Tid til forfall |
+| $r_f$ | Risikofri rente |
+| $\sigma$ | Underliggendes volatilitet (standardavvik per år) |
+| $PV(K)$ | Nåverdien av kontraktsprisen |
+| $N(\cdot)$ | Standard normalfordelingsfunksjon (i Black-Scholes) |
+
+Black-Scholes-formelen med $d_1$ og $d_2$ og put-call-pariteten
+$C_0 - P_0 = S_0 - PV(K)$ står under «Opsjoner og derivater» på
+[formelarket](../../../formelark.qmd).
+
+## Forelesningsplansjer
+
+<p class="note">Plansjene legges ut før forelesningen.</p>
+
+## Oppgaver
+
+Oppgavene tar for seg gevinstprofiler ved forfall, straddle-strategien,
+put-call-pariteten og den nedre grensen for prisen på en kjøpsopsjon. Regn dem
+for hånd før du åpner løsningsforslaget — å lese en løsning føles som å forstå
+den, og det er sjelden det samme.
+
+::::: {.problem}
+<span class="problem__no">Oppgave 1</span>
+
+En europeisk kjøpsopsjon koster 6 kroner og en europeisk salgsopsjon koster
+4 kroner. Begge har kontraktspris 110 kroner og samme underliggende aksje og
+forfall.
+
+a) Beregn verdi ved forfall og gevinst for hver av opsjonene (lange
+posisjoner) hvis aksjekursen ved forfall er 95, 110 eller 125 kroner.
+
+b) Ved hvilken sluttkurs går kjøperen av kjøpsopsjonen i null? Og kjøperen av
+salgsopsjonen?
+
+<details class="solution">
+<summary>Vis løsningsforslag</summary>
+
+:::: {.solution__body}
+
+**a)** Verdien ved forfall er $\max(S_T - K,\, 0)$ for kjøpsopsjonen og
+$\max(K - S_T,\, 0)$ for salgsopsjonen; gevinsten er verdien minus premien:
+
+| $S_T$ | Call-verdi | Call-gevinst | Put-verdi | Put-gevinst |
+|---|---|---|---|---|
+| 95 | 0 | −6 | 15 | 11 |
+| 110 | 0 | −6 | 0 | −4 |
+| 125 | 15 | 9 | 0 | −4 |
+
+Legg merke til asymmetrien: tapet er i alle utfall begrenset til premien,
+mens gevinsten vokser krone for krone når opsjonen fullfører in the money.
+
+**b)** Kjøpsopsjonen går i null når verdien akkurat dekker premien:
+$S_T = K + 6 = 116$ kroner. Salgsopsjonen tilsvarende på nedsiden:
+$S_T = K - 4 = 106$ kroner. Mellom 106 og 116 taper faktisk begge — men aldri
+mer enn innsatsen.
+
+::::
+
+</details>
+:::::
+
+::::: {.problem}
+<span class="problem__no">Oppgave 2</span>
+
+Du kjøper en straddle: både en kjøpsopsjon til 7 kroner og en salgsopsjon til
+4 kroner, begge med kontraktspris 150 kroner på samme aksje og med samme
+forfall.
+
+a) Beregn samlet gevinst hvis aksjekursen ved forfall er 130, 150 eller 170
+kroner.
+
+b) Ved hvilke sluttkurser går strategien i null?
+
+c) Hva er det egentlig denne porteføljen vedder på?
+
+<details class="solution">
+<summary>Vis løsningsforslag</summary>
+
+:::: {.solution__body}
+
+**a)** Samlet premie er 7 + 4 = 11 kroner, og samlet gevinst er
+$\max(S_T - 150,\, 0) + \max(150 - S_T,\, 0) - 11$:
+
+| $S_T$ | Call-verdi | Put-verdi | Samlet gevinst |
+|---|---|---|---|
+| 130 | 0 | 20 | 9 |
+| 150 | 0 | 0 | −11 |
+| 170 | 20 | 0 | 9 |
+
+**b)** Én av opsjonene er in the money så snart kursen forlater 150, og
+utslaget må dekke begge premiene: null ved $S_T = 150 - 11 = 139$ og
+$S_T = 150 + 11 = 161$ kroner.
+
+**c)** Retningen spiller ingen rolle — gevinsten avhenger bare av hvor *langt*
+kursen beveger seg fra kontraktsprisen. Straddlen er et veddemål på høy
+volatilitet, en eksponering man ikke får kjøpt direkte i aksjemarkedet.
+Motparten, som har solgt begge opsjonene, tjener på at kursen står stille.
+
+::::
+
+</details>
+:::::
+
+::::: {.problem}
+<span class="problem__no">Oppgave 3</span>
+
+En aksje handles i dag for 118 kroner. En europeisk salgsopsjon med
+kontraktspris 126 kroner og ett år til forfall koster 5,50 kroner, og
+risikofri rente er 5 % i året.
+
+a) Hva må en europeisk kjøpsopsjon med samme kontraktspris og forfall koste
+hvis put-call-pariteten holder?
+
+b) Anta at kjøpsopsjonen faktisk handles for 4,30 kroner. Beskriv en
+arbitrasjestrategi, og vis kontantstrømmene i dag og ved forfall.
+
+<details class="solution">
+<summary>Vis løsningsforslag</summary>
+
+:::: {.solution__body}
+
+**a)** Nåverdien av kontraktsprisen er $126/1{,}05 = 120$ kroner, og pariteten
+gir
+
+$$C_0 = S_0 - PV(K) + P_0 = 118 - 120 + 5{,}50 = 3{,}50 \text{ kroner}$$
+
+**b)** Callen handles for 4,30, men er verdt 3,50 — den er for dyr. Selg det
+som er dyrt, kjøp det som er billig: selg kjøpsopsjonen, og kjøp den
+syntetiske i stedet — kjøp aksjen og salgsopsjonen, finansiert med et lån på
+$PV(K) = 120$.
+
+I dag: $+4{,}30 + 120 - 118 - 5{,}50 = +0{,}80$ kroner — nøyaktig lik
+feilprisingen $4{,}30 - 3{,}50$.
+
+Ved forfall (lånet tilbakebetales med $120 \cdot 1{,}05 = 126$):
+
+| | $S_T < 126$ | $S_T \geq 126$ |
+|---|---|---|
+| Solgt kjøpsopsjon | 0 | $-(S_T - 126)$ |
+| Lån | −126 | −126 |
+| Aksje | $+S_T$ | $+S_T$ |
+| Kjøpt salgsopsjon | $+(126 - S_T)$ | 0 |
+| **Netto** | **0** | **0** |
+
+Overskuddet på 0,80 kroner i dag er dermed risikofritt og krever ingen egen
+kapital.
+
+::::
+
+</details>
+:::::
+
+::::: {.problem}
+<span class="problem__no">Oppgave 4</span>
+
+En aksje handles for 25 kroner. En kjøpsopsjon på aksjen har kontraktspris
+22 kroner og ett år til forfall, og risikofri rente er 10 % i året.
+
+a) Hva er den laveste prisen kjøpsopsjonen kan ha uten at det oppstår en
+arbitrasjemulighet?
+
+b) Anta at opsjonen handles for 4 kroner. Sett opp en selvfinansierende
+strategi og vis at den gir en risikofri gevinst ved forfall — både når
+$S_T \geq 22$ og når for eksempel $S_T = 21$.
+
+<details class="solution">
+<summary>Vis løsningsforslag</summary>
+
+:::: {.solution__body}
+
+**a)** Prisen må minst være differansen mellom aksjekursen og nåverdien av
+kontraktsprisen:
+
+$$C_0 \geq S_0 - PV(K) = 25 - \frac{22}{1{,}10} = 25 - 20 = 5 \text{ kroner}$$
+
+**b)** Opsjonen er for billig — kjøp den, og short aksjen: short gir +25,
+opsjonen koster −4, og netto 21 kroner settes i banken til 10 %. Ingen egen
+kapital er lagt inn. Ved forfall står det $21 \cdot 1{,}10 = 23{,}10$ kroner
+på konto.
+
+Hvis $S_T \geq 22$: utøv opsjonen, kjøp aksjen for 22 og lever den tilbake.
+Gevinst: $23{,}10 - 22 = 1{,}10$ kroner.
+
+Hvis $S_T = 21$: la opsjonen utløpe, kjøp aksjen i markedet for 21 og lever
+den tilbake. Gevinst: $23{,}10 - 21 = 2{,}10$ kroner — enda mer.
+
+I begge tilfeller er gevinsten positiv uansett utfall, uten innsats — en
+arbitrasje. Derfor kan ikke en pris under 5 kroner overleve i markedet.
+
+::::
+
+</details>
+:::::

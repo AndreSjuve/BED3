@@ -1,0 +1,59 @@
+---
+title: "Investeringsprosjektet"
+subtitle: "Hva vi analyserer: en beslutning i dag om kontantstrømmer i framtiden"
+---
+
+## Før du ser videoen
+
+Den vanligste feilen i investeringsanalyse er ikke regnefeil — det er å
+analysere feil objekt. En analyse kan være aritmetisk upåklagelig og likevel gi
+feil svar, fordi det den regner på, ikke er et investeringsprosjekt. Kapittelet
+begynner derfor her, før vi sier noe som helst om metode.
+
+Det du skal sitte igjen med, er en definisjon presis nok til å bruke: hva som må
+være oppfylt for at noe kan analyseres som et investeringsprosjekt, og hvorfor
+en maskin, et bygg og en tjeneste kan behandles helt likt. Legg særlig merke til
+skillet mot regnskapet mot slutten av videoen.
+
+::::: {.video}
+```{=html}
+<iframe src="https://nhh.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=288b434a-c600-4c6d-8fec-b3b40128219e&v=1&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all"
+        title="Video 1 · Investeringsprosjektet" allowfullscreen allow="autoplay; fullscreen" loading="lazy"></iframe>
+```
+:::::
+
+::::: {.video-meta}
+4:13 &nbsp;·&nbsp; Video 1 av 8 &nbsp;·&nbsp; [Del 1 · Investeringsprosjekter](index.qmd)
+:::::
+
+## Sjekk forståelsen
+
+Tre spørsmål. Du får svaret med én gang, og du kan ta den om igjen så mange
+ganger du vil.
+
+```{=html}
+<div class="quiz">
+<div class="quiz__q" data-answer="b">
+<p class="quiz__prompt">1. Hva gjør noe til et investeringsprosjekt?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>At kapitalen bindes i noe fysisk, som en maskin eller et bygg</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>At det kan beskrives som en beslutning i dag om en sekvens av kontantstrømmer i framtiden</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>At det er ventet å gi positivt regnskapsresultat</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Det fysiske er tilfeldig. En maskin, et bygg, et IT-system og en tjeneste ser helt ulike ut, men behandles likt så snart de er skrevet om til kontantstrømmer over tid. Kan noe ikke beskrives slik, er det heller ikke egnet for investeringsanalyse.</p>
+</div>
+<div class="quiz__q" data-answer="c">
+<p class="quiz__prompt">2. Hva trenger vi <em>ikke</em> å vite for å avgjøre om noe er et investeringsprosjekt?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Om det foreligger en beslutning i dag</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Når kontantstrømmene kommer</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Hvor lønnsomt prosjektet er, og hvordan det finansieres</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Lønnsomhet, risiko og finansiering er spørsmål vi stiller etterpå — de er hele resten av kapittelet. De tre kravene til selve prosjektet er beslutning i dag, framtidige kontantstrømmer og kjent tidspunkt. Et ulønnsomt prosjekt er fortsatt et investeringsprosjekt; det er bare et vi forkaster.</p>
+</div>
+<div class="quiz__q" data-answer="a">
+<p class="quiz__prompt">3. Et prosjekt viser positivt regnskapsresultat hvert år i hele levetiden. Hva forteller det oss om investeringen?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Lite — resultatet sier ikke når kontantstrømmene faktisk oppstår</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>At prosjektet er lønnsomt, siden overskuddet er positivt hele veien</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>At prosjektet er lønnsomt, forutsatt at det ikke er gjeldsfinansiert</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Regnskapsresultat og kontantstrøm er ulike størrelser. Periodisering, avskrivninger og bindinger i arbeidskapital gjør at et prosjekt kan ha overskudd på papiret hvert år og likevel være en dårlig investering. Derfor starter analysen alltid med kontantstrømmer.</p>
+</div>
+<p class="quiz__score" role="status" aria-live="polite"></p>
+</div>
+```

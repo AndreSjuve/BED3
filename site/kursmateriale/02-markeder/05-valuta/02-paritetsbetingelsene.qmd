@@ -1,0 +1,80 @@
+---
+title: "Paritetsbetingelsene"
+subtitle: "Fem sammenhenger mellom valutakurser, renter og inflasjon — og en arbitrasjetest"
+---
+
+## Før du ser videoen
+
+Forrige video ga språket; denne gir teorien. Fem paritetsbetingelser knytter
+valutakurser til inflasjon og renter, og sammen danner de et rammeverk for å
+forstå hvorfor kurser beveger seg og hvordan valutarisiko kan sikres. Ordet
+paritet betyr jevnbyrdighet — spørsmålet å ha med seg er i hvilken forstand
+hver betingelse skal «holde», og hvilke av dem virkeligheten faktisk
+respekterer.
+
+Videoens tyngdepunkt er et gjennomregnet eksempel: gitt spotkurs og renter i
+to land, hva må forwardkursen være — og hva gjør du hvis markedet tilbyr noe
+annet? Følg strategien nøye, steg for steg: hva lånes, hva veksles, hva
+selges, og hvorfor blir resultatet risikofritt? Kjenner du igjen argumentet
+fra terminmarkedet i forrige del, er det ingen tilfeldighet.
+
+::::: {.video}
+<div class="video__placeholder">
+  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+  <span>Video 2 · Paritetsbetingelsene</span>
+</div>
+:::::
+
+::::: {.video-meta}
+20:44 &nbsp;·&nbsp; Video 2 av 3 &nbsp;·&nbsp; [Del 16 · Internasjonal finans](index.qmd)
+:::::
+
+<p class="note">Videoen er ikke lenket opp enkeltvis ennå — du finner den i
+kapittelets
+<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22f8feb25e-8478-416a-959a-b3d00112dc57%22">Panopto-mappe</a>.</p>
+
+## Sjekk forståelsen
+
+Fem spørsmål. Du får svaret med én gang, og du kan ta quizen om igjen så mange
+ganger du vil. Det siste spørsmålet krever kalkulator.
+
+```{=html}
+<div class="quiz">
+<div class="quiz__q" data-answer="b">
+<p class="quiz__prompt">1. Big Mac-indeksen viser store prisforskjeller mellom land målt i samme valuta. Hva forteller det oss om kjøpekraftspariteten?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>At den relative kjøpekraftspariteten ikke holder</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>At den absolutte versjonen ikke holder — den relative kan likevel gjelde, særlig på lang sikt</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>At valutamarkedet tillater risikofri arbitrasje</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Det er den absolutte versjonen — samme vare, samme pris overalt — som feiler, av gode grunner: transaksjonskostnader, handelskostnader og varer som ikke omsettes internasjonalt (det finnes ikke noe verdensmarked for frisørtjenester). A forveksler de to versjonene; den relative sier bare at kjøpekraften skal holde seg konstant over tid, og den har langt sterkere empirisk støtte. C trekker en arbitrasjekonklusjon burgerprisene ikke gir grunnlag for — du kan ikke fly billige Big Macer mellom kontinenter, og nettopp derfor kan prisforskjellene bestå.</p>
+</div>
+<div class="quiz__q" data-answer="a">
+<p class="quiz__prompt">2. Hjemlandet ventes å ha vedvarende høyere inflasjon enn utlandet. Hva sier relativ kjøpekraftsparitet om valutakursen?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Hjemlandets valuta vil svekke seg over tid — utenlandsk valuta blir gradvis dyrere målt i hjemmevaluta</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Hjemlandets valuta vil styrke seg, fordi høyere priser gjør landets varer mer verdt</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Valutakursen holder seg uendret, siden kjøpekraften skal være konstant</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Høyere inflasjon hjemme gjør hjemlandets varer relativt dyrere, etterspørselen etter hjemmevalutaen faller, og kursen justerer seg så kjøpekraften mellom landene består: valutaen svekkes i takt med inflasjonsforskjellen. B snur mekanismen — dyrere varer gjør ikke pengene mer verdt, men mindre. C forveksler konstant kjøpekraft med konstant kurs: det er nettopp kursendringen som holder kjøpekraften konstant når prisene vokser i ulik takt.</p>
+</div>
+<div class="quiz__q" data-answer="b">
+<p class="quiz__prompt">3. Hva skiller dekket renteparitet fra udekket renteparitet?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Dekket renteparitet gjelder ved direkte notering, udekket ved indirekte</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Dekket kobler renteforholdet til forholdet mellom forward- og spotkurs; udekket kobler det til forventet fremtidig spotkurs</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Dekket handler om renteforskjeller, udekket om inflasjonsforskjeller</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Forskjellen ligger i telleren på kurssiden: en avtalt forwardkurs i den dekkede varianten, en usikker forventning i den udekkede — derav navnene, for bare den første kan låses inn uten valutakursrisiko. Det forklarer også empirien: dekket renteparitet holder godt, udekket typisk ikke, siden forventede kursendringer bærer systematisk risiko. A blander inn noteringskonvensjonen, som bare styrer hvordan kurser leses. C flytter inflasjonen inn på feil plass — det er kjøpekraftspariteten og Fisher-effekten som kobler mot inflasjon.</p>
+</div>
+<div class="quiz__q" data-answer="c">
+<p class="quiz__prompt">4. Hvorfor kan forwardkursen avvike fra forventet fremtidig spotkurs, stikk i strid med forventningshypotesen?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Fordi transaksjonskostnadene i valutamarkedet gjør all forwardhandel ulønnsom</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Fordi forwardkursen fastsettes av sentralbankene og ikke av markedet</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Fordi aktørene bryr seg om risiko — kursen presses opp eller ned avhengig av om flertallet vil sikre seg ved å kjøpe eller ved å selge valuta forward</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Forventningshypotesens likevektsargument holder bare i fravær av risiko. Når sikringsmotivene teller, avgjør balansen mellom gruppene: er det flest som vil selge valuta forward, presses forwardkursen under forventet spotkurs — og omvendt. Argumentet er det samme som volumbalanseteorien fra terminmarkedet. A overdriver transaksjonskostnadenes rolle; de forklarer hvorfor små avvik fra dekket renteparitet ikke kan arbitreres bort, ikke hvorfor forventningshypotesen svikter. B beskriver ikke et fritt valutamarked — forwardkurser settes i handel mellom banker og kunder.</p>
+</div>
+<div class="quiz__q" data-answer="a">
+<p class="quiz__prompt">5. Spotkursen på en utenlandsk valuta er 9,00 kroner, norsk rente er 4 % og utenlandsk rente 2 %. Ettårige forwardkontrakter omsettes til kurs 9,40. Du låner 900 000 kroner, veksler til utenlandsk valuta, plasserer til utenlandsk rente og selger sluttbeløpet forward. Hva sitter du igjen med om ett år?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>22 800 kroner</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>58 800 kroner</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>4 000 kroner</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Riktig forwardkurs er $9{,}00 \cdot 1{,}04/1{,}02 \approx 9{,}18$, så kontrakten til 9,40 er overpriset og skal selges. Lånet veksles til $900\,000/9{,}00 = 100\,000$ i utenlandsk valuta, som vokser til 102 000 og selges forward: $102\,000 \cdot 9{,}40 = 958\,800$ kroner. Etter tilbakebetaling av lånet, $900\,000 \cdot 1{,}04 = 936\,000$, gjenstår 22 800 kroner — risikofritt. B glemmer renten på lånet og trekker bare fra 900 000. C glemmer renten på den utenlandske plasseringen og selger bare 100 000 forward, som gir $940\,000 - 936\,000 = 4\,000$.</p>
+</div>
+<p class="quiz__score" role="status" aria-live="polite"></p>
+</div>
+```

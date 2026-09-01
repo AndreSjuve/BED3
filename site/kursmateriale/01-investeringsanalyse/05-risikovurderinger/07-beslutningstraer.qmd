@@ -1,0 +1,72 @@
+---
+title: "Beslutningstrær"
+subtitle: "Sekvensielle beslutninger under usikkerhet — og hvorfor treet løses bakfra"
+---
+
+## Før du ser videoen
+
+Alle metodene så langt har stresstestet én og samme beslutning: ja eller nei i
+dag. Men virkelige prosjekter har milepæler — en testfase som kan lykkes eller
+mislykkes, en mulighet til å skalere opp eller legge ned underveis. Hva slags
+verktøy trengs når valgene kommer etter hverandre, og utfallet av det ene
+avgjør hva det neste er verdt?
+
+Videoens hovedeksempel er en motorprodusent som vurderer en pilotfase før
+fullskala produksjon. Analysen stiller to spørsmål — om testingen skal
+gjennomføres, og om utbyggingen skal følge etter — og besvarer dem i en
+rekkefølge som kan overraske. Hvorfor må det bli akkurat den rekkefølgen? Og
+hva gjør muligheten til å stoppe etter en mislykket test med regnestykket?
+
+::::: {.video}
+<div class="video__placeholder">
+  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+  <span>Video 7 · Beslutningstrær</span>
+</div>
+:::::
+
+::::: {.video-meta}
+16:19 &nbsp;·&nbsp; Video 7 av 8 &nbsp;·&nbsp; [Del 4 · Risikovurderinger](index.qmd)
+:::::
+
+<p class="note">Videoen er ikke lenket opp enkeltvis ennå — du finner den i
+kapittelets
+<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%221e3f6c19-339c-443f-82a3-b3c900fd9efc%22">Panopto-mappe</a>.</p>
+
+## Sjekk forståelsen
+
+Fire spørsmål. Du får svaret med én gang, og du kan ta quizen om igjen så mange
+ganger du vil. Det siste spørsmålet krever kalkulator.
+
+```{=html}
+<div class="quiz">
+<div class="quiz__q" data-answer="b">
+<p class="quiz__prompt">1. Når er beslutningstrær særlig egnet i investeringsanalysen?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Når hele beslutningen tas i dag og prosjektet deretter løper uendret ut levetiden</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Når beslutninger tas i sekvens og en viktig begivenhet driver risikoen</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Når vi trenger en fullstendig sannsynlighetsfordeling for netto nåverdi</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Treet er bygget for prosjekter med milepæler: teste først, så bestemme seg — fortsette, oppskalere eller legge ned — etter hvert som utfall blir kjent. Alternativ A beskriver det enkle prosjektet vi har analysert til nå, og der trengs ikke noe tre; én nåverdiberegning holder. C er simuleringens leveranse fra forrige video — treet gir forventningsverdier over noen få definerte utfall, ikke en hel fordeling.</p>
+</div>
+<div class="quiz__q" data-answer="a">
+<p class="quiz__prompt">2. Hva skiller en utfallsnode fra en beslutningsnode i treet?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>I utfallsnoden avgjør sannsynligheter hva som skjer; i beslutningsnoden velger vi selv</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Utfallsnoden kommer alltid først i treet, beslutningsnoden alltid til slutt</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Beslutningsnoden har alltid nøyaktig to grener, utfallsnoden har flere</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Skillet går på kontroll: beslutningsnodene er punktene der beslutningstageren bestemmer (teste eller ikke, investere eller ikke), mens utfallsnodene er der verden bestemmer — suksess eller fiasko, med tilhørende sannsynligheter. Alternativ B blander rekkefølge inn i noe som handler om natur; i eksempelet kommer tvert imot en beslutning først. C teller grener — begge nodetyper kan ha to eller flere, det sier ingenting om hva slags node det er.</p>
+</div>
+<div class="quiz__q" data-answer="c">
+<p class="quiz__prompt">3. Hvorfor løses beslutningstreet bakfra?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Fordi de siste kontantstrømmene er størst og derfor viktigst</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Fordi diskonteringen ellers går feil vei</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Fordi verdien av dagens valg avhenger av de beste valgene senere — de må være fastlagt først</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>For å vite hva testfasen er verdt i dag, må vi allerede vite hva som gjøres i hvert utfall av den — investere etter suksess, avstå etter fiasko. Derfor besvares det siste spørsmålet først, og svaret mates bakover i treet. Alternativ A er ren gjetning om beløpsstørrelser; treet sier ikke noe slikt. B blander sammen to operasjoner — diskonteringen går riktig vei uansett; det er beslutningslogikken, ikke renteregningen, som krever baklengs rekkefølge.</p>
+</div>
+<div class="quiz__q" data-answer="a">
+<p class="quiz__prompt">4. En pilotfase koster 40 millioner kroner, tar ett år og lykkes med 60 prosent sannsynlighet. Ved suksess er netto nåverdi av fullskala utbygging 500 millioner målt på tidspunkt 1; ved fiasko er netto nåverdi av å bygge ut −350 millioner, mens å la være gir 0. Avkastningskravet er 10 prosent. Hva er netto nåverdi i dag av å sette i gang piloten?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>≈ 233 millioner kroner</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>260 millioner kroner</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>≈ 105 millioner kroner</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Bakfra: ved suksess investeres det (500), ved fiasko velges den beste grenen — å la være (0, ikke −350). Forventet verdi på tidspunkt 1 blir 0,6 · 500 + 0,4 · 0 = 300, og i dag: −40 + 300/1,1 ≈ 233 millioner. Alternativ B glemmer å diskontere forventningsverdien, som først foreligger om ett år. C har regnet 0,6 · 500 + 0,4 · (−350) = 160 — altså bygget ut også etter fiasko. Hele poenget med treet er at ingen tvinger deg til det.</p>
+</div>
+<p class="quiz__score" role="status" aria-live="polite"></p>
+</div>
+```

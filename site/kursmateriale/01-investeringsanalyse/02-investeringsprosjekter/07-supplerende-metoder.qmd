@@ -1,0 +1,67 @@
+---
+title: "Supplerende metoder"
+subtitle: "Annuitet, nåverdiindeks og økonomisk levetid"
+---
+
+## Før du ser videoen
+
+Netto nåverdi er fortsatt hovedregelen, og det endrer seg ikke her. Men i noen
+beslutningssituasjoner er det praktisk å omformulere det samme svaret, og det er
+det disse metodene gjør. Rekkefølgen er alltid netto nåverdi først, supplerende
+metoder etterpå.
+
+Det er tre av dem: annuitetsmetoden, nåverdiindeksen og — bare så vidt nevnt —
+økonomisk levetid. Alle tre tar netto nåverdi som utgangspunkt og regner den om
+til noe annet. Spørsmålet å ha med seg for hver av dem er hvilken
+beslutningssituasjon som gjør nettopp den omregningen nyttig. Ingen av dem
+erstatter netto nåverdi — de utfyller den.
+
+::::: {.video}
+```{=html}
+<iframe src="https://nhh.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=e5e1fe71-191c-4438-8041-b3c60126391a&v=1&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all"
+        title="Video 7 · Supplerende metoder" allowfullscreen allow="autoplay; fullscreen" loading="lazy"></iframe>
+```
+:::::
+
+::::: {.video-meta}
+14:52 &nbsp;·&nbsp; Video 7 av 8 &nbsp;·&nbsp; [Del 1 · Investeringsprosjekter](index.qmd)
+:::::
+
+<p class="note">Vi følger forelesningen og definerer nåverdiindeksen som
+NVI&nbsp;=&nbsp;NNV/I<sub>0</sub>, med grensen NVI&nbsp;&gt;&nbsp;0. Lærebøker
+definerer den ofte i stedet som nåverdien av innbetalingene delt på
+investeringen, med grensen &gt;&nbsp;1. De to skiller seg med nøyaktig 1, så de
+gir alltid samme rangering og samme beslutning — men se etter hvilken definisjon
+en oppgave legger til grunn før du svarer.</p>
+
+## Sjekk forståelsen
+
+Tre spørsmål. Du får svaret med én gang, og du kan ta den om igjen så mange
+ganger du vil.
+
+```{=html}
+<div class="quiz">
+<div class="quiz__q" data-answer="c">
+<p class="quiz__prompt">1. Et prosjekt har netto nåverdi 250 000 kroner, levetid 4 år og avkastningskrav 8 %. Annuitetsmetoden gir 75 481 kroner i året, ikke 62 500. Hvorfor?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Fordi annuitetsmetoden også legger til renter på investeringsbeløpet</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Fordi 250 000 er oppgitt før skatt</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Fordi annuitetsfaktoren tar hensyn til at beløpene kommer på ulike tidspunkt</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Å dele på fire behandler en krone om fire år som om den var like mye verdt som en krone neste år. Annuitetsfaktoren gjør ikke det: den fordeler nåverdien på fire beløp som, diskontert tilbake, akkurat summerer seg til 250 000. Derfor blir hvert årlig beløp større enn det naive gjennomsnittet — 250 000 delt på annuitetsfaktoren 3,312 gir 75 481.</p>
+</div>
+<div class="quiz__q" data-answer="b">
+<p class="quiz__prompt">2. Når er nåverdiindeksen særlig nyttig?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Når vi skal avgjøre om ett enkelt prosjekt er lønnsomt</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Når kapitalen er begrenset og flere gode prosjekter må prioriteres</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Når kontantstrømmene skifter fortegn underveis</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Skal du bare avgjøre ett prosjekt, sier nåverdiindeksen nøyaktig det samme som netto nåverdi — er den ene positiv, er den andre det også. Verdien ligger i rangeringen: ved å dele på investeringsutgiften fjerner indeksen skalaforskjeller og forteller hvor mye verdi hver knappe krone gir.</p>
+</div>
+<div class="quiz__q" data-answer="a">
+<p class="quiz__prompt">3. Et prosjekt har netto nåverdi 96 000 kroner og krever en investering på 600 000 kroner. Hva er nåverdiindeksen slik forelesningen definerer den?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>0,16</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>1,16</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>6,25</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>NVI = NNV/I<sub>0</sub> = 96 000/600 000 = 0,16, altså 16 øre skapt verdi per investerte krone. Alternativ B er ikke tilfeldig: det er lærebokens indeks, nåverdien av innbetalingene (696 000) delt på investeringen. De to skiller seg alltid med nøyaktig 1 og rangerer prosjekter likt — men grensen for lønnsomhet er 0 i den ene og 1 i den andre, så du må vite hvilken du bruker. Alternativ C snur brøken.</p>
+</div>
+<p class="quiz__score" role="status" aria-live="polite"></p>
+</div>
+```

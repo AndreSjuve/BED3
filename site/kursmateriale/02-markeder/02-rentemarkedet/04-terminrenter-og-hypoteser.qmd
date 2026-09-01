@@ -1,0 +1,72 @@
+---
+title: "Terminrenter og rentekurvens hypoteser"
+subtitle: "Implisitte fremtidsrenter, forventningshypotesen, likviditetspremie og segmenterte markeder"
+---
+
+## Før du ser videoen
+
+Rentekurven viser hva det koster å binde penger fra i dag — men mellom
+spotrentene skjuler det seg noe mer: renter for perioder som først begynner i
+fremtiden. Videoen henter dem frem gjennom et enkelt spørsmål: hvis to
+strategier binder pengene like lenge, hva må til for at de gir samme
+totalavkastning?
+
+Følg regneeksempelet med to spotrenter nøye — det er malen for alt som
+kommer. Deretter reiser videoen det store tolkningsspørsmålet: er tallet som
+faller ut bare matematikk som får ligningen til å gå opp, eller sier det noe
+om hva markedet faktisk tror? Tre hypoteser gir hvert sitt svar — merk deg
+hvilken antakelse om substituerbarhet som skiller dem.
+
+::::: {.video}
+<div class="video__placeholder">
+  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+  <span>Video 4 · Terminrenter og rentekurvens hypoteser</span>
+</div>
+:::::
+
+::::: {.video-meta}
+20:24 &nbsp;·&nbsp; Video 4 av 6 &nbsp;·&nbsp; [Del 13 · Rentemarkedet](index.qmd)
+:::::
+
+<p class="note">Videoen er ikke lenket opp enkeltvis ennå — du finner den i
+kapittelets
+<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22b18b63eb-8ea3-495d-a786-b3d00112bb4a%22">Panopto-mappe</a>.</p>
+
+## Sjekk forståelsen
+
+Fire spørsmål. Du får svaret med én gang, og du kan ta quizen om igjen så
+mange ganger du vil. Det siste spørsmålet krever kalkulator.
+
+```{=html}
+<div class="quiz">
+<div class="quiz__q" data-answer="b">
+<p class="quiz__prompt">1. Hva er en terminrente?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Renten du får ved å binde penger fra i dag og to år frem</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Renten for en fremtidig periode som ligger implisitt i dagens spotrenter</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Renten sentralbanken har varslet for neste år</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Terminrenten kan ikke observeres direkte — den beregnes fra spotrentene som det nivået en fremtidig rente må ha for at kurven skal være konsistent og fri for arbitrasje. A beskriver en spotrente: binding som starter i dag. C blander markedets implisitte anslag med annonsert pengepolitikk — ingen har vedtatt terminrenten; den er destillert ut av prisene som kjøpere og selgere av obligasjoner har blitt enige om.</p>
+</div>
+<div class="quiz__q" data-answer="c">
+<p class="quiz__prompt">2. Under forventningshypotesen — hva forteller en stigende rentekurve?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>At investorer krever en voksende premie for å binde kapital lenge</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>At korte og lange rentemarkeder domineres av ulike investorgrupper</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>At markedet venter at de korte rentene skal stige</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Forventningshypotesen sier at lange renter er et snitt av forventede fremtidige korte renter, fordi korte og lange papirer antas å være perfekte substitutter. Da kan en stigende kurve bare bety én ting: markedet venter stigende korte renter. A er likviditetspreferansehypotesen og B er markedssegmenteringshypotesen — begge bryter nettopp substitutt-antakelsen som forventningshypotesen hviler på.</p>
+</div>
+<div class="quiz__q" data-answer="a">
+<p class="quiz__prompt">3. Hvis likviditetspreferansehypotesen stemmer, hvordan forholder terminrenten seg til markedets forventede fremtidige spotrente?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Den ligger over — differansen er en premie for å binde kapital lenge</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>De er identiske — terminrenten er et forventningsrett anslag</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Den ligger under, fordi lange papirer er de tryggeste</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Investorer må lokkes til lange bindinger med kompensasjon for rente-, inflasjons- og likviditetsusikkerhet. Premien legger seg oppå forventningen, så terminrenten overvurderer den fremtidige spotrenten — og mer jo lengre løpetiden er. B er forventningshypotesen i ren form, som sjelden holder empirisk. C har retningen feil: lengre binding gir mer usikkerhet om fremtidig kjøpekraft, ikke mindre, og krever derfor et tillegg — ikke et fradrag.</p>
+</div>
+<div class="quiz__q" data-answer="b">
+<p class="quiz__prompt">4. Ettårig spotrente er 3,0 prosent og toårig spotrente 5,0 prosent. Hvilken ettårsrente om ett år ligger implisitt i kurven?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>4,0 prosent</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Om lag 7,0 prosent</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Om lag 1,9 prosent</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>To år til 5 prosent må gi samme sluttbeløp som ett år til 3 prosent fulgt av ett år til terminrenten: f = 1,05²/1,03 − 1 ≈ 7,04 prosent. A regner snittet av spotrentene, men logikken går motsatt vei — toårsrenten er om lag snittet av dagens ettårsrente og terminrenten, så terminrenten må ligge over 5, ikke midt mellom 3 og 5. C regner 1,05/1,03 − 1 og glemmer at toårsrenten løper med renters rente i begge årene.</p>
+</div>
+<p class="quiz__score" role="status" aria-live="polite"></p>
+</div>
+```

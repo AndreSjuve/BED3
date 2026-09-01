@@ -1,0 +1,228 @@
+---
+title: "Investeringsprosjekter"
+subtitle: "Beslutningsregler og lønnsomhetsmålinger for investeringsprosjekter"
+---
+
+Kapittelet handler om ett spørsmål: hvordan avgjør vi om et investeringsprosjekt
+er verdt å gjennomføre — og hvordan velger vi når vi ikke kan gjennomføre alle?
+
+Åtte videoer, omtrent 70 minutter til sammen. Se dem i rekkefølge; hver bygger
+på den forrige. Til hver video hører en kort quiz. Oppgavene nederst regnes best
+når du har sett alt, og krever kalkulator.
+
+## Videoer
+
+:::: {.index-list}
+<a class="index-row" href="01-investeringsprosjektet.html">
+  <span class="index-row__no">1</span>
+  <span>
+    <span class="index-row__title">Investeringsprosjektet</span>
+    <span class="index-row__sub">Hva vi analyserer: en beslutning i dag om kontantstrømmer i framtiden</span>
+  </span>
+  <span class="index-row__dur">4:13</span>
+</a>
+<a class="index-row" href="02-verdiskaping.html">
+  <span class="index-row__no">2</span>
+  <span>
+    <span class="index-row__title">Verdiskaping som mål</span>
+    <span class="index-row__sub">Hva som kjennetegner en god investeringsbeslutning</span>
+  </span>
+  <span class="index-row__dur">6:54</span>
+</a>
+<a class="index-row" href="03-tid-som-valuta.html">
+  <span class="index-row__no">3</span>
+  <span>
+    <span class="index-row__title">Tid som valuta</span>
+    <span class="index-row__sub">Hvorfor kontantstrømmer på ulike tidspunkt må veksles om før de kan sammenlignes</span>
+  </span>
+  <span class="index-row__dur">9:22</span>
+</a>
+<a class="index-row" href="04-netto-naaverdi.html">
+  <span class="index-row__no">4</span>
+  <span>
+    <span class="index-row__title">Netto nåverdi</span>
+    <span class="index-row__sub">Hovedregelen: hvor mye rikere prosjektet gjør oss i dag</span>
+  </span>
+  <span class="index-row__dur">10:41</span>
+</a>
+<a class="index-row" href="05-internrente.html">
+  <span class="index-row__no">5</span>
+  <span>
+    <span class="index-row__title">Internrente</span>
+    <span class="index-row__sub">Renten der nåverdien er null — og fire grunner til ikke å bruke den alene</span>
+  </span>
+  <span class="index-row__dur">10:20</span>
+</a>
+<a class="index-row" href="06-naaverdiprofil.html">
+  <span class="index-row__no">6</span>
+  <span>
+    <span class="index-row__title">Nåverdiprofil</span>
+    <span class="index-row__sub">Hvordan lønnsomheten endrer seg med avkastningskravet</span>
+  </span>
+  <span class="index-row__dur">9:15</span>
+</a>
+<a class="index-row" href="07-supplerende-metoder.html">
+  <span class="index-row__no">7</span>
+  <span>
+    <span class="index-row__title">Supplerende metoder</span>
+    <span class="index-row__sub">Annuitet, nåverdiindeks og økonomisk levetid</span>
+  </span>
+  <span class="index-row__dur">14:52</span>
+</a>
+<a class="index-row" href="08-oppsummering.html">
+  <span class="index-row__no">8</span>
+  <span>
+    <span class="index-row__title">Oppsummering</span>
+    <span class="index-row__sub">Fire steg fra prosjekt til beslutning</span>
+  </span>
+  <span class="index-row__dur">5:00</span>
+</a>
+::::
+
+<p class="note">Videoene ligger også som spilleliste i
+<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%2248a4c950-f45b-434d-a42e-b3b40104efef%22">Panopto</a>
+om du heller vil se dem samlet.</p>
+
+## Symboler
+
+Videoene bruker disse symbolene gjennomgående. Merk at lærebøker ofte skriver de
+samme størrelsene annerledes — NPV for NNV, og *r* for *k*.
+
+| Symbol | Betydning |
+|---|---|
+| NNV | Netto nåverdi |
+| $I_0$ | Investeringsutgiften i dag |
+| $CF_t$ | Kontantstrømmen i år $t$ |
+| $k$ | Avkastningskravet |
+| $y$ | Internrenten |
+| NVI | Nåverdiindeks, definert som NNV$/I_0$ |
+
+Formlene selv, inkludert annuitetsfaktoren video 7 viser til, står på
+[formelarket](../../../formelark.qmd).
+
+## Forelesningsplansjer
+
+<p class="note">Plansjene legges ut før forelesningen.</p>
+
+## Oppgaver
+
+Oppgavene tar for seg netto nåverdi, internrentens skalaproblem og
+nåverdiindeksen. Regn dem for hånd før du åpner
+løsningsforslaget — å lese en løsning føles som å forstå den, og det er sjelden
+det samme.
+
+::::: {.problem}
+<span class="problem__no">Oppgave 1</span>
+
+Et prosjekt krever en investering på 500 000 kroner i dag og gir 200 000 kroner
+ved slutten av hvert av de tre neste årene. Avkastningskravet er 9 %. Beregn
+netto nåverdi, og avgjør om prosjektet bør gjennomføres.
+
+<details class="solution">
+<summary>Vis løsningsforslag</summary>
+
+:::: {.solution__body}
+
+Kontantstrømmene er like store og kommer tre år på rad, så vi kan bruke
+annuitetsformelen:
+
+$$\text{NNV} = -500\,000 + 200\,000 \cdot \frac{1 - (1{,}09)^{-3}}{0{,}09}$$
+
+Annuitetsfaktoren er 2,5313, som gir en nåverdi av innbetalingene på 506 259
+kroner. Netto nåverdi blir da **6 259 kroner** — nåverdien av det vi får inn,
+minus de 500 000 vi betaler i dag.
+
+Netto nåverdi er positiv, så prosjektet bør gjennomføres — men marginen er tynn.
+Internrenten er 9,7 %, så en økning i avkastningskravet til 10 % ville snudd
+konklusjonen (netto nåverdi blir da −2 630 kroner). Det er verdt å merke seg hvor
+følsom beslutningen er for et tall vi sjelden kjenner nøyaktig — det er nettopp
+den følsomheten nåverdiprofilen i video 6 setter i system.
+
+::::
+
+</details>
+:::::
+
+::::: {.problem}
+<span class="problem__no">Oppgave 2</span>
+
+To gjensidig utelukkende prosjekter har begge internrente på 15 %, samme levetid
+og samme tidsprofil på kontantstrømmene. Prosjekt A krever 100 000 kroner,
+prosjekt B krever 900 000 kroner. Avkastningskravet er 10 %. Hvilket bør velges,
+og hvorfor er internrenten til liten hjelp her?
+
+<details class="solution">
+<summary>Vis løsningsforslag</summary>
+
+:::: {.solution__body}
+
+Internrenten er en rate, ikke et beløp. Den sier hvor godt hver krone arbeider,
+men ikke hvor mange kroner som arbeider. Når prosjektene har ulik skala, kan de
+ha samme internrente og svært ulik nåverdi.
+
+Med avkastningskrav lavere enn internrenten skaper begge prosjekter verdi, men B
+skaper mer av den, fordi meravkastningen gjelder et ni ganger større beløp.
+**Prosjekt B velges**, og siden tidsprofilen er den samme, er netto nåverdi for B
+nøyaktig ni ganger netto nåverdi for A.
+
+Legg merke til hvorfor oppgaven måtte spesifisere lik levetid og lik tidsprofil.
+Uten den forutsetningen er svaret ikke gitt: et lite prosjekt som holder 15 % i
+tjue år kan lett slå et stort som holder 15 % i ett — samme internrente, helt
+ulik nåverdi. Det er internrentens tredje svakhet fra video 5, og den ville
+overstyrt skalaargumentet her.
+
+Dette er skalaproblemet, og det er hovedgrunnen til at nåverdi er å foretrekke
+når prosjektene utelukker hverandre.
+
+::::
+
+</details>
+:::::
+
+::::: {.problem}
+<span class="problem__no">Oppgave 3</span>
+
+Du har et investeringsbudsjett på 1 200 000 kroner og tre uavhengige prosjekter:
+
+| Prosjekt | Investering | Netto nåverdi |
+|---|---|---|
+| D | 400 000 | 72 000 |
+| E | 500 000 | 65 000 |
+| F | 600 000 | 60 000 |
+
+Rangér prosjektene etter nåverdiindeks, og avgjør hva du investerer i. Hva gjør
+du med resten av budsjettet?
+
+<details class="solution">
+<summary>Vis løsningsforslag</summary>
+
+:::: {.solution__body}
+
+Nåverdiindeksen er netto nåverdi delt på investeringsutgiften:
+
+| Prosjekt | NVI | Rangering |
+|---|---|---|
+| D | 72 000 / 400 000 = 0,180 | 1 |
+| E | 65 000 / 500 000 = 0,130 | 2 |
+| F | 60 000 / 600 000 = 0,100 | 3 |
+
+Vi tar prosjektene i rangert rekkefølge så langt budsjettet strekker. Først hele
+D (400 000), så hele E (500 000). Til sammen 900 000 kroner, og samlet
+verdiskaping blir **137 000 kroner**.
+
+Da står 300 000 kroner igjen. F koster 600 000, så vi har bare halvparten av det
+som skal til. Kan vi investere i deler av F, kjøper vi 50 % og henter ytterligere
+30 000 kroner i verdi. Må F tas helt eller ikke i det hele tatt, blir de siste
+300 000 kronene stående ubrukt — og det er riktig svar, ikke et tegn på at noe er
+galt.
+
+Legg merke til at rangeringen etter nåverdiindeks her også er den beste
+kombinasjonen: D og F ville gitt 132 000 kroner, og E og F 125 000. Det er ikke
+en garanti som gjelder generelt for udelelige prosjekter, men det illustrerer
+hvorfor verdiskaping *per krone* er riktig kriterium når kapitalen er den knappe
+faktoren.
+
+::::
+
+</details>
+:::::

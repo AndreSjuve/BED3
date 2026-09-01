@@ -1,0 +1,72 @@
+---
+title: "Internrenter nominelt og reelt"
+subtitle: "Eksempelprosjektet: internrenter, effektive skattesatser og reell lånerente"
+---
+
+## Før du ser videoen
+
+Forrige video ga formelen som binder nominelle og reelle størrelser sammen.
+Denne videoen setter den i arbeid på et lite eksempelprosjekt: én investering,
+tre års kontantstrømmer — og så beregnes internrenten fire ganger, nominelt og
+reelt, før og etter skatt. Spørsmålet å følge med på er rekkefølgen: hvor i
+regnestykket kommer inflasjonen inn, og hvor kommer skatten inn?
+
+Legg også merke til to størrelser fra del 2 som nå får en inflasjonsdimensjon:
+den effektive skattesatsen og lånerenten. Blir skattebelastningen tyngre eller
+lettere når den måles reelt? Og hva koster et lån egentlig, når både
+rentefradrag og prisstigning har sagt sitt? Det siste tallet i videoen kan
+overraske.
+
+::::: {.video}
+<div class="video__placeholder">
+  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+  <span>Video 2 · Internrenter nominelt og reelt</span>
+</div>
+:::::
+
+::::: {.video-meta}
+11:59 &nbsp;·&nbsp; Video 2 av 4 &nbsp;·&nbsp; [Del 3 · Effekter av inflasjon](index.qmd)
+:::::
+
+<p class="note">Videoen er ikke lenket opp enkeltvis ennå — du finner den i
+kapittelets
+<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%2209cb074c-18c9-4651-bd47-b3c900fd95bd%22">Panopto-mappe</a>.</p>
+
+## Sjekk forståelsen
+
+Fire spørsmål. Du får svaret med én gang, og du kan ta quizen om igjen så
+mange ganger du vil. Det siste spørsmålet krever kalkulator.
+
+```{=html}
+<div class="quiz">
+<div class="quiz__q" data-answer="c">
+<p class="quiz__prompt">1. Hvordan finner du den reelle internrenten direkte fra kontantstrømoppstillingen?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Trekk inflasjonssatsen fra den nominelle internrenten</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Diskonter kontantstrømmene med avkastningskravet, og løs deretter for internrenten</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Deflater hvert års kontantstrøm med inflasjonen over like mange år, og finn renten som gir netto nåverdi lik null</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Kontantstrømmen i år $t$ deflateres med $(1+i)^t$, og internrenten løses fra de reelle beløpene — i videoens eksempel gir det noen prosentpoeng lavere rente enn den nominelle. A er den enkle subtraksjonen, som overser kryssleddet; den riktige snarveien er omregningsformelen $(y_N - i)/(1+i)$, som treffer nøyaktig samme svar som deflateringen. B blander avkastningskravet inn i beregningen — internrenten er per definisjon uavhengig av kravet; kravet kommer først inn når internrenten skal vurderes mot noe.</p>
+</div>
+<div class="quiz__q" data-answer="a">
+<p class="quiz__prompt">2. Hvorfor deflaterer vi ikke kontantstrømmene før vi beregner internrenten etter skatt?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Fordi skatt og avskrivninger fastsettes av nominelle beløp — vi finner den nominelle internrenten etter skatt først, og regner om til reell etterpå</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Fordi deflatering fjerner skattefordelen av avskrivningene fra regnestykket</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Fordi internrenten etter skatt allerede er en reell størrelse</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Skattegrunnlag og saldoavskrivninger lever i løpende kroner, så etterskatt-beregningen må gjøres nominelt; den reelle varianten hentes etterpå med omregningsformelen. B tillegger deflateringen noe den ikke gjør — den skalerer bare beløpene; problemet er at skatten ville blitt beregnet av feil grunnlag. C blander to uavhengige skiller: før/etter skatt handler om hvem som får pengene, nominelt/reelt om hvilken målestokk de telles i — en internrente etter skatt kan være både nominell og reell.</p>
+</div>
+<div class="quiz__q" data-answer="b">
+<p class="quiz__prompt">3. Et prosjekt har nominell internrente på 20 % før skatt og 15 % etter skatt. Hva er den nominelle effektive skattesatsen?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>5 %</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>25 %</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>22 %</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Effektiv skattesats er den prosentvise reduksjonen i internrenten som følger av å betale skatt: $(20 - 15)/20 = 25\ \%$. A stopper ved differansen — fem prosentpoeng er nedgangen, men satsen måles relativt til utgangspunktet. C antar at skatten på prosjektets avkastning er lik den lovbestemte satsen, men avskrivningsprofil og tidspunktene for skattebetalingene gjør at den effektive satsen varierer fra prosjekt til prosjekt — i videoens eksempel ligger den godt over 22 %.</p>
+</div>
+<div class="quiz__q" data-answer="c">
+<p class="quiz__prompt">4. Et lån har 6 % nominell rente. Skattesatsen er 22 % og inflasjonen 2 %. Hva er den reelle lånerenten etter skatt?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>4,0 %</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>4,7 %</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>2,6 %</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Først skatt: $6\ \% \cdot (1 - 0{,}22) = 4{,}68\ \%$. Så inflasjon: $(0{,}0468 - 0{,}02)/1{,}02 \approx 2{,}6\ \%$. A hopper over rentefradraget og trekker inflasjonen rett fra den nominelle renten. B stopper etter skattejusteringen — men lånet betales tilbake i kroner som stadig er mindre verdt, og det er nettopp den effekten som gjør den virkelige lånekostnaden så mye lavere enn satsen på gjeldsbrevet.</p>
+</div>
+<p class="quiz__score" role="status" aria-live="polite"></p>
+</div>
+```

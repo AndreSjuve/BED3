@@ -1,0 +1,72 @@
+---
+title: "Nominelle og reelle størrelser"
+subtitle: "Deflatering og sammenhengen mellom nominell og reell rente"
+---
+
+## Før du ser videoen
+
+Del 1 og del 2 regnet i kroner uten å spørre hva en krone er verdt. Men
+prisene stiger, og en krone om fem år kjøper mindre enn en krone i dag. Denne
+første videoen rydder i begrepene: hva er forskjellen på et nominelt og et
+reelt beløp, og hva vil det si å deflatere en kontantstrøm?
+
+Se spesielt etter to ting. Først: når analysen skal ta hensyn til
+prisstigning, finnes det to veier til samme svar — hvilke, og hva er det ene
+ordet som avgjør om du kommer riktig fram? Deretter utledes koblingen mellom
+nominell og reell rente med et enkelt spareeksempel. Er nominell rente bare
+realrente pluss inflasjon? Svaret er nesten — og videoen viser hvorfor
+«nesten» ikke er godt nok.
+
+::::: {.video}
+<div class="video__placeholder">
+  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+  <span>Video 1 · Nominelle og reelle størrelser</span>
+</div>
+:::::
+
+::::: {.video-meta}
+10:15 &nbsp;·&nbsp; Video 1 av 4 &nbsp;·&nbsp; [Del 3 · Effekter av inflasjon](index.qmd)
+:::::
+
+<p class="note">Videoen er ikke lenket opp enkeltvis ennå — du finner den i
+kapittelets
+<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%2209cb074c-18c9-4651-bd47-b3c900fd95bd%22">Panopto-mappe</a>.</p>
+
+## Sjekk forståelsen
+
+Fire spørsmål. Du får svaret med én gang, og du kan ta quizen om igjen så
+mange ganger du vil. Det siste spørsmålet krever kalkulator.
+
+```{=html}
+<div class="quiz">
+<div class="quiz__q" data-answer="b">
+<p class="quiz__prompt">1. Hva kjennetegner et reelt beløp, slik videoen bruker begrepet?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Det er diskontert til nåverdi med avkastningskravet</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Inflasjonen er tatt ut — beløpet uttrykker kjøpekraft, ikke løpende kroner</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Skatten er trukket fra, slik at beløpet viser hva eierne sitter igjen med</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Å deflatere er å fjerne prisstigningen fra et løpende kronebeløp, slik at beløp fra ulike år kan sammenlignes i samme kjøpekraft. A blander deflatering med diskontering: diskontering flytter beløp i tid med et avkastningskrav, deflatering fjerner bare inflasjonen — og eksempelet mot slutten av videoen viser hvor galt det går når de to forveksles. C blander reelt/nominelt med før/etter skatt — det er to uavhengige skiller, og et beløp kan godt være både reelt og etter skatt.</p>
+</div>
+<div class="quiz__q" data-answer="a">
+<p class="quiz__prompt">2. Videoen anbefaler å starte analysen med kontantstrømmene i løpende, nominelle kroner. Hvorfor?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Fordi avskrivninger og skatt fastsettes av nominelle beløp — de reelle kontantstrømmene kan heller finnes ved deflatering til slutt</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Fordi nåverdien blir høyere når man regner i løpende priser</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Fordi reelle kontantstrømmer skal diskonteres med et nominelt avkastningskrav</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Skattegrunnlaget beregnes av faktiske kronebeløp, og avskrivningene følger den historiske investeringen — ingen av delene indeksreguleres. Derfor er det enklest å regne alt nominelt først, og eventuelt deflatere helt til slutt. B er umulig når analysen gjøres riktig: nominelt og reelt spor gir nøyaktig samme nåverdi så lenge teller og nevner behandles konsistent. C er nettopp den inkonsistensen videoen advarer mot — reelle kontantstrømmer hører sammen med et reelt krav.</p>
+</div>
+<div class="quiz__q" data-answer="c">
+<p class="quiz__prompt">3. Hvorfor må den nominelle renten være litt høyere enn realrente pluss inflasjon?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Fordi långivere legger på en risikopremie når inflasjonen er høy</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Fordi inflasjonen måles først ved årets slutt og derfor må telles med to ganger</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Fordi ikke bare hovedstolen, men også rentedelen må justeres opp med prisstigningen for å beholde kjøpekraften</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Inflasjonskomponenten holder hovedstolen hel, men renten utbetales også ved årets slutt — i kroner som har tapt kjøpekraft. Skal realavkastningen holdes, må derfor rentedelen ganges opp med (1 + inflasjonen), og det er dette kryssleddet som gjør at $k_N = k_R(1+i) + i$, ikke bare $k_R + i$. A henter inn noe videoen ikke sier — sammenhengen gjelder helt uten risikobetraktninger. B beskriver ingen reell mekanisme; i riktig formel telles ingenting dobbelt.</p>
+</div>
+<div class="quiz__q" data-answer="b">
+<p class="quiz__prompt">4. Den nominelle renten på en plassering er 8 %, og inflasjonen er 3 %. Hva er realrenten?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>5,00 %</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>4,85 %</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>11,24 %</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Realrenten er $(0{,}08 - 0{,}03)/1{,}03 \approx 4{,}85\ \%$. A er den enkle differansen — den overser at meravkastningen på fem prosentpoeng utbetales i kroner som selv har tapt kjøpekraft, og bommer derfor med kryssleddet. C bruker formelen speilvendt og svarer på noe annet: hvilken nominell rente en <em>realrente</em> på 8 % ville krevd.</p>
+</div>
+<p class="quiz__score" role="status" aria-live="polite"></p>
+</div>
+```

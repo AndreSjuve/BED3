@@ -1,0 +1,66 @@
+---
+title: "Netto nåverdi"
+subtitle: "Hovedregelen: hvor mye rikere prosjektet gjør oss i dag"
+---
+
+## Før du ser videoen
+
+Hvis du bare tar med deg én metode fra dette kapittelet, er det denne. Netto
+nåverdi svarer direkte på spørsmålet fra forrige video: skaper prosjektet verdi?
+
+Metoden setter sammen alt vi har gjort så langt. Sekvensen av kontantstrømmer
+fra video 1 veksles til dagens kroner med diskonteringsfaktoren fra video 3, og
+så trekker vi fra det vi må betale i dag. Videoen går gjennom beslutningsregelen
+i de tre tilfellene nåverdien kan havne i, og skiller til slutt mellom
+prosjekter som er uavhengige og prosjekter som utelukker hverandre. Det skillet
+avgjør om spørsmålet ditt er «bør vi?» eller «hvilket?».
+
+::::: {.video}
+```{=html}
+<iframe src="https://nhh.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=ca91e371-b2a1-4529-9d1c-b3c60124092b&v=1&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all"
+        title="Video 4 · Netto nåverdi" allowfullscreen allow="autoplay; fullscreen" loading="lazy"></iframe>
+```
+:::::
+
+::::: {.video-meta}
+10:41 &nbsp;·&nbsp; Video 4 av 8 &nbsp;·&nbsp; [Del 1 · Investeringsprosjekter](index.qmd)
+:::::
+
+## Sjekk forståelsen
+
+Fire spørsmål. Du får svaret med én gang, og du kan ta quizen om igjen så mange
+ganger du vil. Det siste spørsmålet krever kalkulator.
+
+```{=html}
+<div class="quiz">
+<div class="quiz__q" data-answer="c">
+<p class="quiz__prompt">1. Et prosjekt har netto nåverdi lik null. Hva betyr det?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>At prosjektet går i null regnskapsmessig hvert år</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>At prosjektet alltid bør forkastes</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>At prosjektet verken skaper eller ødelegger verdi — vi er indifferente</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>NNV lik null sier ingenting om årsresultatet; det sier at nåverdien av det vi får inn er nøyaktig lik det vi gir opp i dag. Vi er indifferente i kroner, og nettopp derfor kan andre hensyn avgjøre — kunnskap om et nytt produktområde, eller en fot innenfor i et nytt segment.</p>
+</div>
+<div class="quiz__q" data-answer="a">
+<p class="quiz__prompt">2. Prosjekt A har NNV 85 000 og prosjekt B har NNV 240 000. Prosjektene er uavhengige, og bedriften har kapital til begge. Hva gjør vi?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Gjennomfører begge</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Gjennomfører bare B, siden det skaper mest verdi</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Gjennomfører bare B, og bruker kapitalen som blir til overs på å nedbetale gjeld</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Å velge mellom prosjekter er et spørsmål som først oppstår når man er tvunget til å velge. Her er de uavhengige og kapitalen strekker til, så begge skaper verdi og begge tas. Å utelate A koster eierne 85 000 kroner i dagens penger — det er ingen god grunn til å la et lønnsomt prosjekt ligge. Samlet blir bedriften 325 000 kroner mer verdt.</p>
+</div>
+<div class="quiz__q" data-answer="b">
+<p class="quiz__prompt">3. Samme to prosjekter, men nå er de gjensidig utelukkende — å ta det ene stenger for det andre. Hva gjør vi?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Velger det som gir størst prosentvis avkastning på investert beløp</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Velger B, som har høyest netto nåverdi</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Velger det som tjener inn investeringen raskest</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Netto nåverdi måler absolutt verdiskaping i kroner, og når vi må velge ett, velger vi det som gjør eierne mest rikere. Alternativ A og C er de to andre kriteriene fra video 2 brukt alene: høyest prosent, eller kortest tilbakebetalingstid. Begge kan peke på A her, og begge kan ta feil, fordi ingen av dem måler hvor mange kroner som skapes. Det er nettopp prosenttankegangen i alternativ A som skaper problemer i neste video.</p>
+</div>
+<div class="quiz__q" data-answer="c">
+<p class="quiz__prompt">4. Et prosjekt krever 350 000 kroner i dag og gir 150 000 kroner ved slutten av hvert av de tre neste årene. Avkastningskravet er 9 %. Hva er netto nåverdi?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>100 000 kroner</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>62 800 kroner</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>29 700 kroner</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Hver innbetaling må diskonteres med sin egen tidsavstand: 150 000/1,09 + 150 000/1,09<sup>2</sup> + 150 000/1,09<sup>3</sup> = 379 694, minus 350 000 gir 29 694 kroner. Alternativ A er 450 000 − 350 000, altså summen uten diskontering — det er å behandle en krone om tre år som en krone i dag. Alternativ B diskonterer alle tre beløpene bare ett år, som er riktig for den første og for lite for de to andre.</p>
+</div>
+<p class="quiz__score" role="status" aria-live="polite"></p>
+</div>
+```

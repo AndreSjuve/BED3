@@ -1,0 +1,58 @@
+---
+title: "Oppsummering"
+subtitle: "Fire steg fra prosjekt til beslutning"
+---
+
+## Før du ser videoen
+
+Kapittelet har gitt deg mange begreper og flere metoder. Mister man helheten,
+framstår det fort som en samling løsrevne teknikker. Videoen viser at det ikke
+er det, og formulerer det i én setning det er verdt å merke seg.
+
+Den samler alt i fire steg, går så gjennom de vanligste feilene — som stort sett
+består i å hoppe over ett av dem — og peker til slutt fram mot neste kapittel.
+Har du sett de sju foregående videoene, skal ingenting her være nytt. Verdien
+ligger i å se hvordan delene henger sammen.
+
+::::: {.video}
+```{=html}
+<iframe src="https://nhh.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=a81c41cf-a91e-4d14-a97f-b3c60127dab2&v=1&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all"
+        title="Video 8 · Oppsummering" allowfullscreen allow="autoplay; fullscreen" loading="lazy"></iframe>
+```
+:::::
+
+::::: {.video-meta}
+5:00 &nbsp;·&nbsp; Video 8 av 8 &nbsp;·&nbsp; [Del 1 · Investeringsprosjekter](index.qmd)
+:::::
+
+## Sjekk forståelsen
+
+Tre spørsmål. Du får svaret med én gang, og du kan ta den om igjen så mange
+ganger du vil.
+
+```{=html}
+<div class="quiz">
+<div class="quiz__q" data-answer="b">
+<p class="quiz__prompt">1. Hva er hovedpoenget i oppsummeringen av kapittelet?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>At man bør regne alle kriteriene og se hvilket svar som går igjen</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>At metodene utgjør én sammenhengende beslutningsprosess, ikke en verktøykasse</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>At valget av metode avhenger av hvilke data man har tilgjengelig</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Metodene er ikke likestilte alternativer man kan stemme over eller velge mellom etter hva som er praktisk. De er fire steg som følger hverandre: hva analyserer vi, hva er målet, hvordan måler vi det, og hva beslutter vi. Hopper man over et steg, er det der feilene oppstår.</p>
+</div>
+<div class="quiz__q" data-answer="c">
+<p class="quiz__prompt">2. En analyse av et prosjekt tar med 2 millioner kroner i utviklingskostnader som allerede er brukt. Hva er galt med det?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Ingenting — kostnadene er reelle og må dekkes inn av prosjektet</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>De må først diskonteres til dagens verdi før de trekkes fra</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>De er sunk cost — de endrer seg ikke med beslutningen, og hører derfor ikke hjemme i analysen</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>De 2 millionene er brukt enten vi går videre eller lar være, så de kan ikke skille de to alternativene fra hverandre. At de føles reelle er nettopp det som gjør feilen vanlig — men en kostnad som er den samme uansett hva du velger, påvirker ikke valget. Å diskontere dem hjelper heller ikke; de skal ikke være med i det hele tatt. Bare framtidige kontantstrømmer er relevante, som vi krevde allerede i video 1.</p>
+</div>
+<div class="quiz__q" data-answer="c">
+<p class="quiz__prompt">3. Hvilket av disse utsagnene stemmer med kapittelet?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Et prosjekt med netto nåverdi lik null bør alltid forkastes</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Internrenten endrer seg når avkastningskravet endrer seg</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>To prosjekter kan ha samme internrente og likevel skape svært ulik verdi</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>C er skalaproblemet fra video 5: internrenten sier hvor godt hver krone arbeider, ikke hvor mange kroner som arbeider. A er for kategorisk — ved NNV lik null er vi indifferente i kroner, og andre hensyn kan avgjøre (video 4). B forveksler to størrelser: internrenten følger av prosjektets egne kontantstrømmer og står fast når kravet endrer seg — det er nettopp derfor nåverdiprofilen krysser x-aksen på samme sted uansett hvilket krav vi tror er riktig (video 6).</p>
+</div>
+<p class="quiz__score" role="status" aria-live="polite"></p>
+</div>
+```

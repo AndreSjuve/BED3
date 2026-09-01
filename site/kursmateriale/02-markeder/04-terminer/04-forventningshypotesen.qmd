@@ -1,0 +1,72 @@
+---
+title: "Forventningshypotesen"
+subtitle: "Når er terminprisen lik forventet spotpris?"
+---
+
+## Før du ser videoen
+
+Lagringskostnadshypotesen koblet terminprisen til dagens spotpris. Men finnes
+det også en kobling til fremtiden — til det markedet tror spotprisen blir den
+dagen kontrakten forfaller? Det er påstanden i forventningshypotesen, og
+videoen tar den grundig i ettersyn i stedet for å ta den for gitt.
+
+Verktøyet er kjent fra før: kapitalverdimodellen og skillet mellom risiko som
+kan diversifiseres vekk og risiko som ikke kan det. Videoen setter opp
+kontantstrømmene til en spekulant som går lang i en kontrakt, verdsetter
+strategien som en hvilken som helst investering, og lar netto nåverdi lik null
+gjøre resten. Følg utledningen tett — og merk deg hvilken egenskap ved
+underliggende som avgjør om hypotesen holder eller ryker.
+
+::::: {.video}
+<div class="video__placeholder">
+  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+  <span>Video 4 · Forventningshypotesen</span>
+</div>
+:::::
+
+::::: {.video-meta}
+15:04 &nbsp;·&nbsp; Video 4 av 6 &nbsp;·&nbsp; [Del 15 · Terminkontrakter](index.qmd)
+:::::
+
+<p class="note">Videoen er ikke lenket opp enkeltvis ennå — du finner den i
+kapittelets
+<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%228e73c88a-e61c-40eb-b060-b3d00112cf92%22">Panopto-mappe</a>.</p>
+
+## Sjekk forståelsen
+
+Fire spørsmål. Du får svaret med én gang, og du kan ta quizen om igjen så mange
+ganger du vil. Det siste spørsmålet krever kalkulator.
+
+```{=html}
+<div class="quiz">
+<div class="quiz__q" data-answer="c">
+<p class="quiz__prompt">1. Hva er kjernepåstanden i forventningshypotesen?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Terminprisen er dagens spotpris pluss en kompensasjon for kostnaden ved å holde aktivumet</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Terminprisen ligger alltid under det spotprisen ventes å bli, som betaling til spekulantene</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Terminprisen i dag er lik den spotprisen markedet forventer ved kontraktens forfall</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>F₀ = E(S_T) — det er hele hypotesen, og den innebærer at en spekulant i forventning verken tjener eller taper utover risikofri rente. Alternativ A er lagringskostnadshypotesen fra forrige video; de to knytter terminprisen til hver sin ende av tidslinjen. Og B er en annen teori — at terminprisen systematisk ligger lavt, er nettopp et <em>brudd</em> på forventningshypotesen, og neste video gir det bruddet et navn og en forklaring.</p>
+</div>
+<div class="quiz__q" data-answer="b">
+<p class="quiz__prompt">2. Under hvilken betingelse holder forventningshypotesen, ifølge videoens KVM-resonnement?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Alltid, så lenge markedet er effisient og uten arbitrasjemuligheter</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Bare når underliggende har beta lik null, slik at avkastningskravet er risikofri rente</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Bare når risikofri rente er null, slik at diskontering ikke spiller noen rolle</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Utledningen ga F₀ = E(S_T) · (1 + r_f)^T / (1 + k)^T, og brøken blir 1 bare når k = r_f. I kapitalverdimodellen skjer det når all risiko i underliggende er usystematisk — beta lik null. Alternativ A er fristende, men effisiente markeder er allerede forutsatt i utledningen (alle investeringer har netto nåverdi null i forventning), og likevel holder hypotesen bare i spesialtilfellet. Og C blander bort poenget: det er ikke nivået på renten som teller, men <em>avstanden</em> mellom avkastningskravet og renten — altså risikopremien.</p>
+</div>
+<div class="quiz__q" data-answer="a">
+<p class="quiz__prompt">3. En råvare er positivt korrelert med markedet (beta større enn null). Hva følger for terminprisen?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Den ligger under forventet spotpris — den lange spekulanten bærer systematisk risiko og må ha betalt for det</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Den ligger over forventet spotpris, fordi risikable varer er dyrere å avtale frem i tid</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Den er fortsatt lik forventet spotpris — arbitrasje sørger for det</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Med beta over null er k større enn r_f, brøken (1 + r_f)^T/(1 + k)^T blir mindre enn 1, og F₀ havner under E(S_T). Intuisjonen: den som går lang, kjøper seg eksponering mot markedsrisiko, og kompensasjonen kommer som en forventet gevinst — en lav innlåst kjøpspris. Alternativ B har fortegnet motsatt vei; over forventet spotpris havner terminprisen først når beta er <em>negativ</em>. Og C strekker arbitrasjeargumentet lenger enn det rekker: E(S_T) er ingen observerbar pris du kan handle mot i dag, så ingen arbitrasje tvinger F₀ og E(S_T) sammen.</p>
+</div>
+<div class="quiz__q" data-answer="c">
+<p class="quiz__prompt">4. Forventet spotpris på en råvare om ett år er 240 kroner. Avkastningskravet for eksponeringen er 8&nbsp;%, og risikofri rente er 3&nbsp;%. Hva blir terminprisen i dag hvis strategien skal ha netto nåverdi lik null?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>240,00 kroner</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>251,65 kroner</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>228,89 kroner</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>F₀ = E(S_T) · (1 + r_f)/(1 + k) = 240 · 1,03/1,08 ≈ 228,89. Terminprisen må ligge om lag 11 kroner under forventet spotpris for at den lange spekulanten skal få betalt for den systematiske risikoen. Alternativ A er forventningshypotesen brukt ukritisk — den gjelder bare når k = r_f, og her er risikopremien 5 prosentpoeng. Og B har snudd brøken (240 · 1,08/1,03); et raskt rimelighetssjekk avslører feilen: med positiv beta skal terminprisen ned, ikke opp.</p>
+</div>
+<p class="quiz__score" role="status" aria-live="polite"></p>
+</div>
+```

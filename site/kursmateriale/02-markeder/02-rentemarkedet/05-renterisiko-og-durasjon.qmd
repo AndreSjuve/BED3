@@ -1,0 +1,79 @@
+---
+title: "Renterisiko og durasjon"
+subtitle: "Markedsrisikoen i rentepapirer — og målet som kvantifiserer den"
+---
+
+## Før du ser videoen
+
+For aksjer målte kapitalverdimodellen den systematiske risikoen med beta —
+risikoen du ikke blir kvitt, og den eneste du kompenseres for. Denne videoen
+stiller det samme spørsmålet for rentepapirer: hva slags risiko slipper en
+obligasjonseier aldri unna, og finnes det et tall som fanger den?
+
+Videoen har tre deler. Først ringes risikokilden inn: av alt som beskriver en
+fastrenteobligasjon — se etter hva som faktisk kan bevege seg etter
+utstedelse. Deretter utledes to beslektede mål fra prisformelen; merk deg
+hvordan det ene tolkes som en slags effektiv bindingstid, og hvorfor det
+andre bare gir en tilnærming. Til slutt kommer to gjennomregnede eksempler
+som setter tall på alt sammen.
+
+::::: {.video}
+<div class="video__placeholder">
+  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+  <span>Video 5 · Renterisiko og durasjon</span>
+</div>
+:::::
+
+::::: {.video-meta}
+40:21 &nbsp;·&nbsp; Video 5 av 6 &nbsp;·&nbsp; [Del 13 · Rentemarkedet](index.qmd)
+:::::
+
+<p class="note">Videoen er ikke lenket opp enkeltvis ennå — du finner den i
+kapittelets
+<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22b18b63eb-8ea3-495d-a786-b3d00112bb4a%22">Panopto-mappe</a>.</p>
+
+## Sjekk forståelsen
+
+Fem spørsmål. Du får svaret med én gang, og du kan ta quizen om igjen så
+mange ganger du vil. De to siste spørsmålene krever kalkulator.
+
+```{=html}
+<div class="quiz">
+<div class="quiz__q" data-answer="c">
+<p class="quiz__prompt">1. En fastrenteobligasjon har avtalt kupongrente, pålydende og løpetid. Hvilken størrelse driver da prisendringene etter utstedelse?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Kupongrenten — den bestemmer jo kontantstrømmene</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Pålydende verdi</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Yield to maturity — markedets avkastningskrav</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Løpetid, kupongrente og pålydende ligger fast i kontrakten — de bestemmer nivået på prisen, men kan ikke skape endringer, og dermed heller ikke risiko. Det eneste som beveger seg, er markedsrenten i nevneren, og pris og yield går motsatt vei. Derfor er markedsrisiko for rentepapirer det samme som renterisiko: endring i yield gir endring i pris, som gir endring i avkastning.</p>
+</div>
+<div class="quiz__q" data-answer="a">
+<p class="quiz__prompt">2. To obligasjoner har samme løpetid og samme yield, men ulik kupongrente. Hvilken har lavest durasjon?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Den med høyest kupongrente</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Den med lavest kupongrente</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>De har lik durasjon — løpetiden er jo den samme</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Durasjon er den nåverdivektede gjennomsnittstiden til betalingene — en slags payback-tid. Høye kuponger betaler lånet raskere tilbake og flytter vekt mot de tidlige årene, så durasjonen faller. B har det motsatt: lave kuponger lar mesteparten av verdien ligge i sluttbetalingen, langt frem i tid. C forveksler durasjon med løpetid — de er bare like for nullkupongsobligasjoner, der hele betalingen kommer ved forfall.</p>
+</div>
+<div class="quiz__q" data-answer="b">
+<p class="quiz__prompt">3. Hvorfor gir modifisert durasjon bare et tilnærmet anslag på prisendringen?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Fordi durasjonsmålet ser bort fra kupongbetalingene</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Fordi pris–rente-sammenhengen er konveks, mens anslaget følger tangenten i ett punkt</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Fordi yield to maturity ikke kan observeres i markedet</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Modifisert durasjon er den deriverte av prisen med hensyn på renten — stigningstallet til tangenten akkurat der dagens rente ligger. Siden den virkelige sammenhengen krummer (er konveks), bommer tangenten mer og mer jo større renteendringen er; skal store skift fanges presist, må også krumningen med. A er feil: kupongene inngår både i prisen og i vektene durasjonen bygger på. C er også feil — yielden bakkes ut av observerte priser.</p>
+</div>
+<div class="quiz__q" data-answer="a">
+<p class="quiz__prompt">4. En obligasjon har pålydende 100, kupongrente 8 prosent, to hele år til forfall og yield 6 prosent. Hva er Macaulay-durasjonen?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Om lag 1,93 år</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>2 år</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>1,5 år</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Prisen er 8/1,06 + 108/1,06² ≈ 103,67, og durasjonen er det tidsvektede snittet: (1 · 7,55 + 2 · 96,12)/103,67 ≈ 1,93 år. B setter durasjonen lik løpetiden, men det gjelder bare nullkupongsobligasjoner — kupongen i år 1 trekker snittet under 2. C tar det uvektede snittet av tidspunktene (1 + 2)/2 og overser at sluttbetalingen på 108 er langt størst og skal veie tyngst.</p>
+</div>
+<div class="quiz__q" data-answer="c">
+<p class="quiz__prompt">5. En obligasjon har pris 92, Macaulay-durasjon 6,3 og yield 5 prosent. Renten stiger med 0,5 prosentpoeng. Anslå den nye prisen med modifisert durasjon.</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Om lag 86,48</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Om lag 94,76</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Om lag 89,24</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Modifisert durasjon er −6,3/1,05 = −6,0, så prisutslaget er −6,0 · 0,005 = −3 prosent: 92 · 0,97 = 89,24. B lar prisen stige når renten stiger — retningen er alltid motsatt. A ganger med et helt prosentpoeng (0,01) i stedet for det halve (0,005) og dobler dermed utslaget; hold styr på om renteendringen er oppgitt i prosentpoeng eller som desimaltall.</p>
+</div>
+<p class="quiz__score" role="status" aria-live="polite"></p>
+</div>
+```

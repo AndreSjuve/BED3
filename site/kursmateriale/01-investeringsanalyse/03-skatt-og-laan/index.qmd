@@ -1,0 +1,225 @@
+---
+title: "Effekter av skatt og lån"
+subtitle: "Hvordan finansiering og beskatning endrer kontantstrømmene"
+---
+
+Del 1 svarte på hvordan vi vurderer kontantstrømmer som er gitt. Dette
+kapittelet handler om å lage dem — og om hva skatt og lånefinansiering gjør med
+dem. Alt bygges rundt ett gjennomgående case: EcoTech Electronics, som vurderer
+å lansere smartklokken EcoTime Pro.
+
+Fire videoer, drøyt 80 minutter til sammen. Se dem i rekkefølge; regnearbeidet
+bygger stein på stein, fra datagrunnlag via kontantstrømmen til totalkapitalen
+til kontantstrømmen til egenkapitalen etter skatt. Til hver video hører en kort
+quiz. Oppgavene nederst regnes best når du har sett alt, og krever kalkulator.
+
+## Videoer
+
+:::: {.index-list}
+<a class="index-row" href="01-caset-ecotime-pro.html">
+  <span class="index-row__no">1</span>
+  <span>
+    <span class="index-row__title">Caset EcoTime Pro</span>
+    <span class="index-row__sub">Beslutningen, datagrunnlaget og veien fram til kontantstrømmene</span>
+  </span>
+  <span class="index-row__dur">12:12</span>
+</a>
+<a class="index-row" href="02-kontantstroem-til-totalkapitalen.html">
+  <span class="index-row__no">2</span>
+  <span>
+    <span class="index-row__title">Kontantstrøm til totalkapitalen</span>
+    <span class="index-row__sub">Alle regnepostene fram til prosjektets kontantstrøm før skatt</span>
+  </span>
+  <span class="index-row__dur">18:21</span>
+</a>
+<a class="index-row" href="03-skatt-og-avskrivninger.html">
+  <span class="index-row__no">3</span>
+  <span>
+    <span class="index-row__title">Skatt og avskrivninger</span>
+    <span class="index-row__sub">Skattegrunnlag, saldoavskrivninger og salg av utstyr ved prosjektslutt</span>
+  </span>
+  <span class="index-row__dur">29:33</span>
+</a>
+<a class="index-row" href="04-laanefinansiering.html">
+  <span class="index-row__no">4</span>
+  <span>
+    <span class="index-row__title">Lånefinansiering</span>
+    <span class="index-row__sub">Serielån, annuitetslån og kontantstrømmen til egenkapitalen</span>
+  </span>
+  <span class="index-row__dur">20:34</span>
+</a>
+::::
+
+<p class="note">Videoene ligger også som spilleliste i
+<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%228a93998b-dfe1-41a4-9825-b3c900e132df%22">Panopto</a>
+om du heller vil se dem samlet.</p>
+
+## Symboler
+
+I tillegg til symbolene fra kapittel 1 bruker videoene disse:
+
+| Symbol | Betydning |
+|---|---|
+| $a$ | Avskrivningssatsen ved saldoavskrivning |
+| $AV_t$ | Avskrivningsbeløpet i år $t$ |
+| $B_t$ | Bokført restverdi etter $t$ år |
+| $s$ | Den nominelle skattesatsen |
+| $k^s$ | Avkastningskravet etter skatt |
+| $y$, $y^s$ | Internrenten før og etter skatt |
+| $S_T$ | Salgsverdien (utrangeringsverdien) ved prosjektslutt |
+
+Formlene — saldoavskrivning, bokført restverdi, skattefordelen av avskrivninger
+og utrangeringsleddet — står under «Skatt og avskrivninger» på
+[formelarket](../../../formelark.qmd).
+
+## Forelesningsplansjer
+
+<p class="note">Plansjene legges ut før forelesningen.</p>
+
+## Oppgaver
+
+Oppgavene tar for seg kontantstrøm til totalkapitalen, skattefordelen av
+saldoavskrivninger og kontantstrømmen til egenkapitalen ved lånefinansiering.
+Regn dem for hånd før du åpner løsningsforslaget — å lese en løsning føles som
+å forstå den, og det er sjelden det samme.
+
+::::: {.problem}
+<span class="problem__no">Oppgave 1</span>
+
+Et selskap vurderer et treårig prosjekt. Nytt utstyr koster 2 000 000 kroner i
+dag. Prosjektet ventes å selge 4 000 enheter i året med et dekningsbidrag på
+250 kroner per enhet, og øker selskapets betalbare faste kostnader med 120 000
+kroner i året. Ved oppstart bindes 400 000 kroner i arbeidskapital, som
+frigjøres når prosjektet avsluttes, og utstyret ventes solgt for 500 000 kroner
+etter tre år. Selskapet har dessuten allerede brukt 250 000 kroner på en
+forstudie. Avkastningskravet før skatt er 10 %.
+
+Sett opp kontantstrømmen til totalkapitalen før skatt, beregn netto nåverdi, og
+avgjør hva du gjør med forstudien.
+
+<details class="solution">
+<summary>Vis løsningsforslag</summary>
+
+:::: {.solution__body}
+
+Forstudien er allerede betalt, og beløpet er det samme uansett hva som
+besluttes nå. Den er en sunk cost og holdes helt utenfor analysen.
+
+Driften gir hvert år 4 000 · 250 − 120 000 = 880 000 kroner. I år 0 kommer
+investeringen og arbeidskapitalbindingen, i år 3 kommer i tillegg frigjort
+arbeidskapital og salget av utstyret:
+
+| År | 0 | 1 | 2 | 3 |
+|---|---|---|---|---|
+| Kontantstrøm | −2 400 000 | 880 000 | 880 000 | 1 780 000 |
+
+Netto nåverdi ved 10 %:
+
+$$\text{NNV} = -2\,400\,000 + \frac{880\,000}{1{,}10} + \frac{880\,000}{1{,}10^2} + \frac{1\,780\,000}{1{,}10^3} \approx 464\,600$$
+
+Netto nåverdi er positiv, så prosjektet bør gjennomføres. Legg merke til at
+arbeidskapitalen ikke er en kostnad: de 400 000 kronene går ut i år 0 og kommer
+tilbake i år 3. Det prosjektet belastes for, er rentetapet av å ha dem bundet i
+mellomtiden — og det skjer helt av seg selv i diskonteringen.
+
+::::
+
+</details>
+:::::
+
+::::: {.problem}
+<span class="problem__no">Oppgave 2</span>
+
+En maskin til 1 800 000 kroner saldoavskrives med 20 % i året. Skattesatsen er
+22 %, og avkastningskravet etter skatt er 7 %.
+
+a) Beregn avskrivningsbeløp og bokført restverdi for de to første årene.
+
+b) Beregn nåverdien av skattefordelen av avskrivningene, som om de løper evig.
+
+c) Maskinen ventes solgt etter fire år til nøyaktig bokført restverdi. Hva blir
+salgsprisen, og hvilken skattemessig komplikasjon gir salget?
+
+<details class="solution">
+<summary>Vis løsningsforslag</summary>
+
+:::: {.solution__body}
+
+**a)** Hvert år avskrives 20 % av gjenværende bokført verdi:
+
+| År | Avskrivning $AV_t$ | Bokført restverdi $B_t$ |
+|---|---|---|
+| 1 | 1 800 000 · 0,20 = 360 000 | 1 440 000 |
+| 2 | 1 440 000 · 0,20 = 288 000 | 1 152 000 |
+
+**b)** Avskrivningene danner en evig geometrisk rekke, og nåverdien av
+skattefordelen er
+
+$$PV_s = s \cdot \frac{AV_1}{k^s + a} = 0{,}22 \cdot \frac{360\,000}{0{,}07 + 0{,}20} \approx 293\,300$$
+
+Skattefordelen er altså verdt omtrent 293 000 kroner i dag — det staten *ikke*
+får, fordi investeringen kan avskrives.
+
+**c)** Bokført restverdi etter fire år er
+$B_4 = 1\,800\,000 \cdot 0{,}80^4 = 737\,280$ kroner, så salgsprisen blir
+737 280. Da er $S_T - B_T = 0$: salget gir verken gevinst eller tap, ingenting
+skal inntektsføres eller fradragsføres, og utrangeringsleddet i
+nåverdiformelen faller bort. Hadde maskinen blitt solgt for mer enn bokført
+verdi, måtte gevinsten vært tatt til beskatning over tid — og nåverdien
+justert ned tilsvarende.
+
+::::
+
+</details>
+:::::
+
+::::: {.problem}
+<span class="problem__no">Oppgave 3</span>
+
+Et prosjekt har en kontantstrøm til totalkapitalen etter skatt på 600 000
+kroner i hvert av de to første årene. Prosjektet delfinansieres med et serielån
+på 1 200 000 kroner over fire år, med 5 % rente og etterskuddsvise betalinger.
+Skattesatsen er 22 %.
+
+a) Beregn kontantstrømmen til egenkapitalen etter skatt i år 1 og år 2.
+
+b) Hva ville det årlige terminbeløpet vært med et annuitetslån på samme vilkår
+— og hvorfor er skattefordelen av rentene i år 1 den samme uansett låneform?
+
+<details class="solution">
+<summary>Vis løsningsforslag</summary>
+
+:::: {.solution__body}
+
+**a)** Serielånet betales ned med like store avdrag: 1 200 000 / 4 = 300 000
+per år. Renten beregnes av utestående saldo ved inngangen til året, og
+rentefradraget gir en skattefordel på 22 % av rentebetalingen:
+
+| År | Saldo ved inngang | Rente | Skattefordel | Avdrag |
+|---|---|---|---|---|
+| 1 | 1 200 000 | 60 000 | 13 200 | 300 000 |
+| 2 | 900 000 | 45 000 | 9 900 | 300 000 |
+
+Kontantstrøm til egenkapitalen etter skatt = totalkapitalen etter skatt −
+avdrag − renter + skattefordel:
+
+$$\text{År 1: } 600\,000 - 300\,000 - 60\,000 + 13\,200 = 253\,200$$
+$$\text{År 2: } 600\,000 - 300\,000 - 45\,000 + 9\,900 = 264\,900$$
+
+I år 0 mottas dessuten lånebeløpet på 1 200 000 som en positiv kontantstrøm —
+egenkapitalen trenger bare å dekke resten av investeringen.
+
+**b)** Annuitetsbeløpet er lånet multiplisert med den inverse
+annuitetsfaktoren:
+
+$$1\,200\,000 \cdot \frac{0{,}05}{1 - 1{,}05^{-4}} \approx 338\,400$$
+
+Skattefordelen i år 1 er lik fordi renten i første termin beregnes av samme
+utestående saldo med samme rentesats i begge låneformer: 5 % av 1 200 000 =
+60 000, og 22 % av det er 13 200. Låneformene skiller lag først fra år 2, når
+ulike avdrag har gitt ulik gjenværende saldo.
+
+::::
+
+</details>
+:::::

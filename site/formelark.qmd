@@ -1,189 +1,914 @@
 ---
 title: "Formelark"
-subtitle: "Formlene du får ha med deg på eksamen, samlet med symbolforklaringer. Symbolene er de samme som brukes i videoene."
+subtitle: "Formlene du får med deg på eksamen, samlet med symbolforklaringer."
+# Sidebar navigation for this long page; the global toc: false stays for the
+# rest of the site. Depth 2 keeps the 11 sections and leaves the 76 formula
+# names out. The inline .section-index below serves narrow viewports where the
+# margin TOC disappears.
+toc: true
+toc-depth: 2
+toc-location: right
+toc-title: "Innhold"
 ---
 
-[Last ned som PDF](#){.btn .button--quiet}
+[Last ned som PDF](assets/formelark.pdf){.btn target="_blank"}
 
-## Nåverdi og kontantstrømmer
+<p class="note">Formelarket bruker eksamensvedleggets symboler: NPV, PVI,
+I<sub>0</sub>, CF<sub>t</sub>, <em>k</em> og <em>y</em>. Videoene sier «netto
+nåverdi (NNV)» og «nåverdiindeks (NVI)» om NPV og PVI — samme størrelser.</p>
+
+::::: {.section-index}
+[Tidens verdi](#tidens-verdi) · [Nåverdimetoder](#naaverdimetoder) · [Skatt og avskrivninger](#skatt-og-avskrivninger) · [Renteregning](#renteregning) · [Porteføljeteori og risiko](#portefoljeteori-og-risiko) · [Kapitalverdimodellen](#kapitalverdimodellen) · [Verdsettelse](#verdsettelse) · [Kapitalstruktur og vektstang](#kapitalstruktur-og-vektstang) · [Obligasjoner og durasjon](#obligasjoner-og-durasjon) · [Opsjoner og derivater](#opsjoner-og-derivater) · [Internasjonal finans](#internasjonal-finans)
+:::::
+
+## Tidens verdi {#tidens-verdi}
 
 ::::: {.formula-grid}
 
 :::: {.formula}
-### Nåverdi
-$$\text{NPV} = -C_0 + \sum_{t=1}^{T} \frac{C_t}{(1+r)^t}$$
+### Fremtidsverdi av ett beløp
+$$
+FV = CF_0 \cdot (1 + k)^T
+$$
 
 <dl class="glossary">
-  <dt>C<sub>t</sub></dt><dd>kontantstrøm i periode t</dd>
-  <dt>r</dt><dd>avkastningskrav (alternativkostnad)</dd>
-  <dt>C<sub>0</sub></dt><dd>investering i dag</dd>
-</dl>
-::::
-
-:::: {.formula}
-### Internrente
-$$0 = -C_0 + \sum_{t=1}^{T} \frac{C_t}{(1+\text{IRR})^t}$$
-
-<p class="note">Renten der nåverdien er null. Løses numerisk eller ved
-interpolasjon; kan ha flere løsninger når kontantstrømmen skifter fortegn mer
-enn én gang.</p>
-::::
-
-:::: {.formula}
-### Annuitet
-$$\text{PV} = C \cdot \frac{1 - (1+r)^{-T}}{r}$$
-
-<dl class="glossary">
-  <dt>C</dt><dd>fast beløp per periode</dd>
+  <dt>CF<sub>0</sub></dt><dd>beløp i dag</dd>
+  <dt>k</dt><dd>rente eller avkastningskrav per periode</dd>
   <dt>T</dt><dd>antall perioder</dd>
 </dl>
 ::::
 
 :::: {.formula}
-### Evigvarende kontantstrøm
-$$\text{PV} = \frac{C}{r - g}$$
-
-<p class="note">Krever <em>g</em> &lt; <em>r</em>. Med konstant vekst <em>g</em>;
-sett <em>g</em> = 0 for en vanlig evigvarende strøm.</p>
-::::
-
-:::: {.formula}
-### Effektiv rente
-$$r_{\text{eff}} = \left(1 + \frac{r_{\text{nom}}}{m}\right)^{m} - 1$$
+### Nåverdi av ett beløp
+$$
+PV = \frac{CF_T}{(1 + k)^T}
+$$
 
 <dl class="glossary">
-  <dt>m</dt><dd>antall renteperioder per år</dd>
+  <dt>CF<sub>T</sub></dt><dd>beløp som mottas om T perioder</dd>
 </dl>
-::::
-
-:::: {.formula}
-### Realrente
-$$1 + r_{\text{real}} = \frac{1 + r_{\text{nom}}}{1 + i}$$
-
-<dl class="glossary">
-  <dt>i</dt><dd>inflasjonsrate</dd>
-</dl>
-
-<p class="note">Diskonter nominelle kontantstrømmer med nominell rente, reelle
-med reell. Å blande de to er den vanligste feilen på eksamen.</p>
-::::
-
-:::::
-
-::::: {.asterism}
-:::::
-
-## Lån og betalingsplaner
-
-::::: {.formula-grid}
-
-:::: {.formula}
-### Annuitetslån — terminbeløp
-$$A = L \cdot \frac{r}{1 - (1+r)^{-T}}$$
-
-<dl class="glossary">
-  <dt>L</dt><dd>lånebeløp</dd>
-  <dt>A</dt><dd>fast terminbeløp</dd>
-</dl>
-::::
-
-:::: {.formula}
-### Serielån — avdrag
-$$\text{avdrag} = \frac{L}{T}$$
-
-<p class="note">Avdraget er konstant; renten faller med restgjelden, så
-terminbeløpet synker over lånets løpetid.</p>
-::::
-
-:::: {.formula}
-### Restgjeld etter *k* terminer
-$$L_k = A \cdot \frac{1 - (1+r)^{-(T-k)}}{r}$$
-
-<p class="note">For annuitetslån: nåverdien av de gjenstående terminbeløpene.</p>
-::::
-
-:::::
-
-::::: {.asterism}
-:::::
-
-## Risiko og avkastning
-
-::::: {.formula-grid}
-
-:::: {.formula}
-### Forventet avkastning
-$$E(R) = \sum_{s} p_s R_s$$
-
-<dl class="glossary">
-  <dt>p<sub>s</sub></dt><dd>sannsynlighet for tilstand s</dd>
-</dl>
-::::
-
-:::: {.formula}
-### Varians og standardavvik
-$$\sigma^2 = \sum_{s} p_s \big(R_s - E(R)\big)^2$$
-
-<p class="note">Standardavviket er kvadratroten av variansen, og måles i samme
-enhet som avkastningen.</p>
 ::::
 
 :::: {.formula .formula--wide}
-### Porteføljevarians
-$$\sigma_p^2 = w_A^2\sigma_A^2 + w_B^2\sigma_B^2 + 2w_A w_B \rho_{AB}\sigma_A\sigma_B$$
+### Annuitet (endelig horisont)
+$$
+ACF = CF \cdot \frac{(1 + k)^T -1}{k \cdot (1 + k)^T} = CF \cdot \frac{1- \left(\frac{1}{1 +k}\right)^T}{k} = CF \cdot A_{k,T}
+$$
 
-<p class="note">Det er korrelasjonsleddet som gir diversifiseringsgevinsten. Når
-<em>ρ</em> &lt; 1 er porteføljens risiko lavere enn det veide snittet av de
-enkelte risikoene.</p>
+<dl class="glossary">
+  <dt>CF</dt><dd>fast beløp per periode</dd>
+  <dt>A<sub>k,T</sub></dt><dd>annuitetsfaktoren for rente k og T perioder</dd>
+</dl>
+::::
+
+:::: {.formula}
+### Annuitet (uendelig horisont)
+$$
+ACF =  \frac{CF}{k}
+$$
+
+<p class="note">Nåverdien av en evigvarende, konstant kontantstrøm.</p>
+::::
+
+:::: {.formula .formula--wide}
+### Fordeling av et beløp til annuitet
+$$
+CF_0 \cdot \frac{k\cdot (1 + k)^T}{(1 + k)^T - 1} = CF_{0} \cdot \frac{k}{1-\left(\frac{1}{1 + k}\right)^T} = CF_{0} \cdot A_{k,T}^{-1}
+$$
+
+<p class="note">Det faste beløpet per periode som svarer til
+CF<sub>0</sub> i dag. Faktoren er den inverse annuitetsfaktoren.</p>
+::::
+
+:::: {.formula}
+### Vekstrekke (endelig horisont)
+$$
+PV = CF_1 \cdot \frac{1 - \left( \frac{1 + g}{1 + k} \right)^T}{k - g}, \quad \text{for } k \neq g
+$$
+
+<dl class="glossary">
+  <dt>CF<sub>1</sub></dt><dd>første beløp, om én periode</dd>
+  <dt>g</dt><dd>vekstrate per periode</dd>
+</dl>
+::::
+
+:::: {.formula}
+### Vekstrekke (uendelig horisont)
+$$
+PV = \frac{CF_1}{k - g}, \quad \text{for } g < k
+$$
+
+<p class="note">Gordons formel. Sett g = 0 for en vanlig evigvarende strøm.</p>
 ::::
 
 :::::
 
-::::: {.asterism}
+::::: {.asterism .asterism--tight}
 :::::
 
-## Rentemarkedet og kontrakter
+## Nåverdimetoder {#naaverdimetoder}
 
 ::::: {.formula-grid}
 
 :::: {.formula}
-### Obligasjonspris
-$$P = \sum_{t=1}^{T} \frac{K}{(1+y)^t} + \frac{P_{\text{pålydende}}}{(1+y)^T}$$
+### Netto nåverdi (NPV)
+$$
+NPV = - I_0 + \sum_{t = 1}^{T} \frac{CF_t}{(1 + k)^t}
+$$
 
 <dl class="glossary">
-  <dt>K</dt><dd>kupongbetaling</dd>
+  <dt>I<sub>0</sub></dt><dd>investeringsutgift i dag</dd>
+  <dt>CF<sub>t</sub></dt><dd>kontantstrøm i periode t</dd>
+  <dt>k</dt><dd>avkastningskrav (alternativkostnad)</dd>
+</dl>
+::::
+
+:::: {.formula}
+### Internrente (IRR)
+$$
+0 = \sum_{t = 1}^{T} \frac{CF_t}{(1 + y)^t} - I_0
+$$
+
+<p class="note">Internrenten <em>y</em> er renten som gjør nåverdien null.
+Løses numerisk eller ved interpolasjon.</p>
+::::
+
+:::: {.formula}
+### Annuitetsmetoden
+$$
+CF - I_{0} \cdot A_{k,T}^{-1} = NPV \cdot A_{k,T}^{-1}
+$$
+
+<p class="note">Netto nåverdi fordelt jevnt utover levetiden som et beløp per
+periode. A<sub>k,T</sub><sup>−1</sup> er den inverse annuitetsfaktoren.</p>
+::::
+
+:::: {.formula}
+### Nåverdiindeks (PVI)
+$$
+PVI = \frac{NPV}{I_0}
+$$
+
+<p class="note">Verdiskaping per investert krone; brukes til å rangere når
+kapitalen er knapp.</p>
+::::
+
+:::: {.formula}
+### Payback uten renter
+$$
+PB = \frac{I_0}{CF}
+$$
+
+<dl class="glossary">
+  <dt>PB</dt><dd>antall perioder til investeringen er tjent inn</dd>
+</dl>
+::::
+
+:::: {.formula}
+### Payback med renter (annuitet)
+$$
+0 = -I_0 + CF \cdot A_{k, PB}
+$$
+
+<p class="note">PB er antall perioder som gjør nåverdien null når
+kontantstrømmen er en fast annuitet.</p>
+::::
+
+:::::
+
+::::: {.asterism .asterism--tight}
+:::::
+
+## Skatt og avskrivninger {#skatt-og-avskrivninger}
+
+::::: {.formula-grid}
+
+:::: {.formula}
+### Effektiv skattesats
+$$
+s_{\text{Eff}} = \frac{y - y^s}{y}
+$$
+
+<dl class="glossary">
+  <dt>y</dt><dd>lånerente før skatt</dd>
+  <dt>y<sup>s</sup></dt><dd>lånerente etter skatt</dd>
+</dl>
+::::
+
+:::: {.formula}
+### Saldoavskrivningsbeløp
+$$
+AV_t = I_0 \cdot (1 - a)^{t - 1} \cdot a
+$$
+
+<dl class="glossary">
+  <dt>a</dt><dd>saldoavskrivningssats</dd>
+  <dt>AV<sub>t</sub></dt><dd>avskrivning i år t</dd>
+</dl>
+::::
+
+:::: {.formula}
+### Bokført restverdi
+$$
+B_t = I_0 \cdot (1 - a)^t
+$$
+
+<dl class="glossary">
+  <dt>B<sub>t</sub></dt><dd>bokført (skattemessig) restverdi etter t år</dd>
+</dl>
+::::
+
+:::: {.formula}
+### Skattefordel av avskrivninger
+$$
+PV_s = s \cdot \frac{I_0 \cdot a}{k^s + a} = s \cdot \frac{AV_1}{k^s + a}
+$$
+
+<dl class="glossary">
+  <dt>s</dt><dd>skattesats</dd>
+  <dt>k<sup>s</sup></dt><dd>avkastningskrav etter skatt</dd>
+</dl>
+::::
+
+:::: {.formula .formula--wide}
+### Utrangering (nåverdi av sluttverdi med skatt)
+$$
+PV_T = \frac{S_T}{(1 + k^s)^T} - s \cdot \frac{(S_T - B_T) \cdot a}{(1 + k^s)^T \cdot (k^s + a)}
+$$
+
+<dl class="glossary">
+  <dt>S<sub>T</sub></dt><dd>salgsverdi ved utrangering i år T</dd>
+</dl>
+::::
+
+:::::
+
+::::: {.asterism .asterism--tight}
+:::::
+
+## Renteregning {#renteregning}
+
+::::: {.formula-grid}
+
+:::: {.formula}
+### Fra nominell til reell rente
+$$
+k_R = \frac{k_N - i}{1 + i}
+$$
+
+<dl class="glossary">
+  <dt>k<sub>N</sub></dt><dd>nominell rente</dd>
+  <dt>k<sub>R</sub></dt><dd>reell rente</dd>
+  <dt>i</dt><dd>inflasjonsrate</dd>
+</dl>
+::::
+
+:::: {.formula}
+### Fra reell til nominell rente
+$$
+k_N = k_R \cdot (1 + i) + i
+$$
+::::
+
+:::: {.formula}
+### Fra nominell lånerente før skatt til reell lånerente etter skatt
+$$
+y_R^s = \frac{y_N \cdot (1-s) -i}{1+i}
+$$
+
+<dl class="glossary">
+  <dt>y<sub>N</sub></dt><dd>nominell lånerente før skatt</dd>
+  <dt>s</dt><dd>skattesats</dd>
+</dl>
+::::
+
+:::: {.formula}
+### Fra delperioderente til effektiv rente
+$$
+p = (1 + q)^m - 1
+$$
+
+<dl class="glossary">
+  <dt>q</dt><dd>rente per delperiode</dd>
+  <dt>m</dt><dd>antall delperioder per år</dd>
+  <dt>p</dt><dd>effektiv årsrente</dd>
+</dl>
+::::
+
+:::: {.formula}
+### Fra effektiv rente til delperioderente
+$$
+q = (1 + p)^{1/m} - 1
+$$
+::::
+
+:::: {.formula}
+### Fra forskuddsrente til etterskuddsrente
+$$
+q_e = \frac{q_f}{1 - q_f}
+$$
+
+<dl class="glossary">
+  <dt>q<sub>f</sub></dt><dd>rente betalt forskuddsvis</dd>
+  <dt>q<sub>e</sub></dt><dd>rente betalt etterskuddsvis</dd>
+</dl>
+::::
+
+:::: {.formula}
+### Fra etterskuddsrente til forskuddsrente
+$$
+q_f = \frac{q_e}{1 + q_e}
+$$
+::::
+
+:::::
+
+::::: {.asterism .asterism--tight}
+:::::
+
+## Porteføljeteori og risiko {#portefoljeteori-og-risiko}
+
+::::: {.formula-grid}
+
+:::: {.formula}
+### Forventet avkastning, enkeltaktivum
+$$
+E(r_i) = \sum_{j = 1}^{n} p_j \cdot r_{ij}
+$$
+
+<dl class="glossary">
+  <dt>p<sub>j</sub></dt><dd>sannsynlighet for utfall j</dd>
+  <dt>r<sub>ij</sub></dt><dd>avkastning på aktivum i i utfall j</dd>
+</dl>
+::::
+
+:::: {.formula}
+### Varians, enkeltaktivum
+$$
+\sigma_i^2 = \sum_{j = 1}^{n} p_j \cdot \left[ r_{ij} - E(r_i) \right]^2
+$$
+::::
+
+:::: {.formula}
+### Standardavvik, enkeltaktivum
+$$
+\sigma_i = \sqrt{\sigma_i^2}
+$$
+
+<p class="note">Standardavviket måles i samme enhet som avkastningen.</p>
+::::
+
+:::: {.formula}
+### Forventet avkastning, portefølje to aktiva
+$$
+E(r_p) = w_1 \cdot E(r_1) + (1 - w_1) \cdot E(r_2)
+$$
+
+<dl class="glossary">
+  <dt>w<sub>1</sub></dt><dd>porteføljeandel i aktivum 1</dd>
+</dl>
+::::
+
+:::: {.formula .formula--wide}
+### Varians, portefølje med to aktiva
+$$
+\sigma_p^2 = w_1^2 \cdot \sigma_1^2 + (1 - w_1)^2 \cdot \sigma_2^2 + 2 \cdot w_1 \cdot (1 - w_1) \cdot \sigma_{12}
+$$
+
+<dl class="glossary">
+  <dt>σ<sub>12</sub></dt><dd>kovarians mellom aktivum 1 og 2</dd>
+</dl>
+::::
+
+:::: {.formula}
+### Kovarians mellom to aktiva (korrelasjonsformel)
+$$
+\sigma_{12} = \rho_{12} \cdot \sigma_1 \cdot \sigma_2
+$$
+
+<dl class="glossary">
+  <dt>ρ<sub>12</sub></dt><dd>korrelasjonskoeffisienten mellom aktivum 1 og 2</dd>
+</dl>
+::::
+
+:::: {.formula .formula--wide}
+### Kovarians mellom to aktiva (diskret fordeling)
+$$
+\sigma_{12} = \sum_{j = 1}^{n} p_j \cdot \left[ r_{1j} - E(r_1) \right] \cdot \left[ r_{2j} - E(r_2) \right]
+$$
+::::
+
+:::: {.formula}
+### Minimumsvariansportefølje – andel i aktivum 1
+$$
+w_1^* = \frac{\sigma_2^2 - \sigma_{12}}{\sigma_1^2 + \sigma_2^2 - 2\sigma_{12}}
+$$
+::::
+
+:::: {.formula}
+### Forventet avkastning, portefølje med N aktiva
+$$
+E(r_p) = \sum_{i = 1}^{N} w_i \cdot E(r_i)
+$$
+::::
+
+:::: {.formula}
+### Varians, portefølje med N aktiva
+$$
+\sigma_p^2 = \sum_{i = 1}^{N} \sum_{j = 1}^{N} w_i \cdot w_j \cdot \sigma_{ij}
+$$
+
+<dl class="glossary">
+  <dt>σ<sub>ij</sub></dt><dd>kovarians mellom aktivum i og j</dd>
+</dl>
+::::
+
+:::: {.formula}
+### Kapitalmarkedslinjen (CML)
+$$
+E(r_P) = r_f + \frac{E(r_M) - r_f}{\sigma_M} \cdot \sigma_P
+$$
+
+<dl class="glossary">
+  <dt>r<sub>f</sub></dt><dd>risikofri rente</dd>
+  <dt>M</dt><dd>markedsporteføljen</dd>
+</dl>
+::::
+
+:::::
+
+::::: {.asterism .asterism--tight}
+:::::
+
+## Kapitalverdimodellen {#kapitalverdimodellen}
+
+::::: {.formula-grid}
+
+:::: {.formula}
+### CAPM (grunnform)
+$$
+E(r_i) = r_f + \beta_i \cdot \left[ E(r_M) - r_f \right]
+$$
+
+<dl class="glossary">
+  <dt>β<sub>i</sub></dt><dd>aktivumets beta</dd>
+  <dt>r<sub>f</sub></dt><dd>risikofri rente</dd>
+  <dt>E(r<sub>M</sub>)</dt><dd>forventet avkastning på markedsporteføljen</dd>
+</dl>
+::::
+
+:::: {.formula .formula--wide}
+### CAPM (skattejustert)
+$$
+E(r_i) = r_f \cdot (1-s) + \beta_i \cdot \left[ E(r_M) - r_f \cdot (1 - s) \right]
+$$
+
+<dl class="glossary">
+  <dt>s</dt><dd>skattesats</dd>
+</dl>
+::::
+
+:::: {.formula}
+### Beta
+$$
+\beta_i = \frac{\sigma_{iM}}{\sigma_M^2} = \rho_{iM} \cdot \frac{\sigma_i}{\sigma_M}
+$$
+
+<dl class="glossary">
+  <dt>σ<sub>iM</sub></dt><dd>kovarians mellom aktivum i og markedet</dd>
+</dl>
+::::
+
+:::: {.formula}
+### Alfa
+$$
+\alpha_i = E(r_i) - \left[ r_f + \beta_i \cdot \left( E(r_M) - r_f \right) \right]
+$$
+
+<p class="note">Avkastning utover det CAPM tilsier.</p>
+::::
+
+:::: {.formula}
+### Variansdekomponering
+$$
+\sigma_i^2 = \beta_i^2 \cdot \sigma_M^2 + \sigma_{\varepsilon i}^2
+$$
+
+<dl class="glossary">
+  <dt>σ<sub>εi</sub><sup>2</sup></dt><dd>usystematisk (bedriftsspesifikk) varians</dd>
+</dl>
+::::
+
+:::::
+
+::::: {.asterism .asterism--tight}
+:::::
+
+## Verdsettelse {#verdsettelse}
+
+::::: {.formula-grid}
+
+:::: {.formula}
+### Dividendemodellen (generell)
+$$
+P_0 = \sum_{t = 1}^{T} \frac{DIV_t}{(1 + k_E)^t} + \frac{P_T}{(1+k_E)^T}
+$$
+
+<dl class="glossary">
+  <dt>DIV<sub>t</sub></dt><dd>dividende i år t</dd>
+  <dt>k<sub>E</sub></dt><dd>avkastningskrav til egenkapitalen</dd>
+  <dt>P<sub>T</sub></dt><dd>forventet pris ved horisonten T</dd>
+</dl>
+::::
+
+:::: {.formula}
+### Dividendemodellen (nullvekst)
+$$
+P_0 = \frac{DIV_1}{k_E}
+$$
+::::
+
+:::: {.formula}
+### Dividendemodellen (evigvarende konstant vekst)
+$$
+P_0 = \frac{DIV_1}{k_E - g}, \quad \text{for } g < k_E
+$$
+
+<dl class="glossary">
+  <dt>g</dt><dd>vekstrate for dividenden</dd>
+</dl>
+::::
+
+:::: {.formula}
+### Vekst (intern generert)
+$$
+g = R_E \cdot b
+$$
+
+<dl class="glossary">
+  <dt>R<sub>E</sub></dt><dd>egenkapitalrentabilitet</dd>
+  <dt>b</dt><dd>tilbakeholdsandel av overskuddet</dd>
+</dl>
+::::
+
+:::: {.formula}
+### Pris/Fortjeneste-modellen (P/E)
+$$
+P/E \triangleq \frac{P_0}{EPS_1} = \frac{d}{k_E - g}
+$$
+
+<dl class="glossary">
+  <dt>EPS<sub>1</sub></dt><dd>fortjeneste per aksje neste år</dd>
+  <dt>d</dt><dd>utdelingsandel, d = 1 − b</dd>
+</dl>
+::::
+
+:::: {.formula}
+### Vekstmuligheter (PVGO)
+$$
+P_0 = \frac{EPS_1}{k_E} + PVGO
+$$
+
+<dl class="glossary">
+  <dt>PVGO</dt><dd>nåverdien av fremtidige vekstmuligheter</dd>
+</dl>
+::::
+
+:::::
+
+::::: {.asterism .asterism--tight}
+:::::
+
+## Kapitalstruktur og vektstang {#kapitalstruktur-og-vektstang}
+
+::::: {.formula-grid}
+
+:::: {.formula}
+### Vektstangsformel – rentabilitet EK
+$$
+R_E = R_T + \frac{G}{E} \cdot (R_T - k_G)
+$$
+
+<dl class="glossary">
+  <dt>R<sub>T</sub></dt><dd>totalkapitalrentabilitet</dd>
+  <dt>G</dt><dd>gjeld</dd>
+  <dt>E</dt><dd>egenkapital</dd>
+  <dt>k<sub>G</sub></dt><dd>lånerente (gjeldskostnad)</dd>
+</dl>
+::::
+
+:::: {.formula}
+### Vektstangsformel – risiko på egenkapital (standardavvik)
+$$
+\sigma_{R_E} = \sigma_{R_T} \cdot \left( 1 + \frac{G}{E} \right)
+$$
+::::
+
+:::: {.formula}
+### Vektstangsformel – før skatt
+$$
+k_T = \frac{E}{E + G} \cdot k_E + \frac{G}{E + G} \cdot k_G
+$$
+
+<dl class="glossary">
+  <dt>k<sub>T</sub></dt><dd>avkastningskrav til totalkapitalen</dd>
+  <dt>k<sub>E</sub></dt><dd>avkastningskrav til egenkapitalen</dd>
+</dl>
+::::
+
+:::: {.formula}
+### Vektstangsformel – etter skatt
+$$
+k_T^s = \frac{E}{E + G} \cdot k_E + \frac{G}{E + G} \cdot k_G \cdot (1 - s)
+$$
+
+<dl class="glossary">
+  <dt>s</dt><dd>skattesats</dd>
+</dl>
+::::
+
+:::: {.formula}
+### Vektstangsformel – krav egenkapital
+$$
+k_E = k_T + \frac{G}{E} \cdot (k_T - k_G)
+$$
+::::
+
+:::: {.formula}
+### Beta for totalkapital
+$$
+\beta_T = \frac{E}{E + G} \cdot \beta_E + \frac{G}{E + G} \cdot \beta_G
+$$
+
+<dl class="glossary">
+  <dt>β<sub>E</sub></dt><dd>egenkapitalbeta</dd>
+  <dt>β<sub>G</sub></dt><dd>gjeldsbeta</dd>
+</dl>
+::::
+
+:::: {.formula}
+### Beta for egenkapital (dersom $\beta_G = 0$)
+$$
+\beta_E = \beta_T \cdot \left( 1 + \frac{G}{E} \right)
+$$
+::::
+
+:::: {.formula .formula--wide}
+### Årlig skattefordel ved gjeld pr. krone
+$$
+\text{Skattefordel} =  (1 - s_K) - (1 - s_{B}) \cdot (1 - s_{Ed})
+$$
+
+<dl class="glossary">
+  <dt>s<sub>K</sub></dt><dd>kreditors skattesats på renteinntekt</dd>
+  <dt>s<sub>B</sub></dt><dd>bedriftens skattesats</dd>
+  <dt>s<sub>Ed</sub></dt><dd>eiernes skattesats på dividende</dd>
+</dl>
+::::
+
+:::: {.formula}
+### Årlig skattefordel ved dividende pr. krone
+$$
+\text{Skattefordel} = (1 - s_{B}) \cdot (s_{Eg} - s_{Ed})
+$$
+
+<dl class="glossary">
+  <dt>s<sub>Eg</sub></dt><dd>eiernes skattesats på kursgevinst</dd>
+</dl>
+::::
+
+:::::
+
+::::: {.asterism .asterism--tight}
+:::::
+
+## Obligasjoner og durasjon {#obligasjoner-og-durasjon}
+
+::::: {.formula-grid}
+
+:::: {.formula}
+### Obligasjonspris (standardformel)
+$$
+P_0 = \sum_{t = 1}^{T} \frac{c}{(1 + y)^t} + \frac{\text{Pålydende}}{(1 + y)^T}
+$$
+
+<dl class="glossary">
+  <dt>c</dt><dd>kupongbetaling</dd>
   <dt>y</dt><dd>effektiv rente til forfall</dd>
 </dl>
 ::::
 
+:::: {.formula .formula--wide}
+### Obligasjonspris (med konstant kupong og helt antall år til forfall)
+$$
+P_0 = \frac{c}{y} \cdot \left[1 - \frac{1}{(1+y)^T}\right] + \frac{\text{Pålydende}}{(1+y)^T} = c \cdot A_{y,T} + \frac{\text{Pålydende}}{(1+y)^T}
+$$
+::::
+
 :::: {.formula}
-### Terminpris
-$$F_0 = S_0 (1 + r)^{T}$$
+### Sertifikatpris
+$$
+P_0 = \frac{P_1}{1 + r \cdot \frac{d}{365}} \quad \quad P_0 = \frac{P_1}{(1 + y)^{\frac{d}{365}}}
+$$
 
 <dl class="glossary">
-  <dt>S<sub>0</sub></dt><dd>spotpris i dag</dd>
+  <dt>d</dt><dd>antall dager til forfall</dd>
+  <dt>r</dt><dd>enkel årsrente</dd>
 </dl>
 ::::
 
 :::: {.formula}
-### Dekket renteparitet
-$$F_0 = S_0 \cdot \frac{1 + r_{\text{hjemme}}}{1 + r_{\text{ute}}}$$
+### Terminrente mellom t−1 og t
+$$
+f_{t-1,t} = \frac{(1 + r_t)^t}{(1 + r_{t-1})^{t-1}} - 1
+$$
 
-<p class="note">Terminkursen på valuta følger av rentedifferansen. Avvik ville
-gitt en risikofri arbitrasjegevinst.</p>
+<dl class="glossary">
+  <dt>r<sub>t</sub></dt><dd>spotrente for løpetid t år</dd>
+</dl>
 ::::
 
 :::: {.formula}
-### Opsjon ved bortfall
-$$\text{kjøpsopsjon} = \max(S_T - X,\; 0)$$
+### Durasjon
+$$
+D = \frac{1}{P_0} \cdot \sum_{t = 1}^{T} t \cdot \frac{CF_t}{(1 + y)^t}
+$$
+
+<p class="note">Nåverdivektet gjennomsnittlig tid til betalingene.</p>
+::::
+
+:::: {.formula}
+### Justert durasjon (modifisert)
+$$
+D^* = \frac{-D}{1 + y}
+$$
+::::
+
+:::: {.formula}
+### Durasjonsbasert prisendring
+$$
+\frac{\Delta P}{P} =  \frac{-D}{1 + y} \cdot \Delta y = D^* \cdot \Delta y
+$$
 
 <dl class="glossary">
-  <dt>X</dt><dd>innløsningskurs</dd>
-  <dt>S<sub>T</sub></dt><dd>kurs ved bortfall</dd>
+  <dt>Δy</dt><dd>endring i effektiv rente</dd>
 </dl>
 ::::
 
 :::::
 
-<p class="note">Formelutvalget er en designskisse. Det endelige formelarket
-avklares mot eksamensreglementet.</p>
+::::: {.asterism .asterism--tight}
+:::::
+
+## Opsjoner og derivater {#opsjoner-og-derivater}
+
+::::: {.formula-grid}
+
+:::: {.formula}
+### Black-Scholes (kjøpsopsjon)
+$$
+C = S_0 \cdot N(d_1) - K \cdot e^{-r_f \cdot T} \cdot N(d_2)
+$$
+
+<dl class="glossary">
+  <dt>S<sub>0</sub></dt><dd>aksjekurs i dag</dd>
+  <dt>K</dt><dd>innløsningskurs</dd>
+  <dt>r<sub>f</sub></dt><dd>risikofri rente</dd>
+  <dt>T</dt><dd>tid til forfall</dd>
+  <dt>N(·)</dt><dd>standard normalfordelingsfunksjon</dd>
+</dl>
+::::
+
+:::: {.formula .formula--wide}
+### Parametere i Black-Scholes
+$$
+d_1 = \frac{\ln \left( \frac{S_0}{K} \right) + r_f \cdot T}{\sigma \sqrt{T}} + \frac{1}{2} \cdot \sigma \cdot \sqrt{T}, \quad d_2 = d_1 - \sigma \sqrt{T}
+$$
+
+<dl class="glossary">
+  <dt>σ</dt><dd>aksjens volatilitet (standardavvik per år)</dd>
+</dl>
+::::
+
+:::: {.formula}
+### Put-call paritet
+$$
+C_0 - P_0 = S_0 - PV(K)
+$$
+
+<dl class="glossary">
+  <dt>C<sub>0</sub>, P<sub>0</sub></dt><dd>verdien av kjøps- og salgsopsjon i dag</dd>
+  <dt>PV(K)</dt><dd>nåverdien av innløsningskursen</dd>
+</dl>
+::::
+
+:::: {.formula}
+### Lagringskostnadshypotesen (generell form)
+$$
+F_T = S_0 \cdot (1 + c \cdot T)
+$$
+
+<dl class="glossary">
+  <dt>F<sub>T</sub></dt><dd>terminpris med forfall om T år</dd>
+  <dt>c</dt><dd>netto lagringskostnadsrate per år</dd>
+</dl>
+::::
+
+:::: {.formula}
+### Lagringskostnadshypotesen (aksjer med utbytte)
+$$
+F_T = S_0 \cdot \left[1 + (r_f - \text{div}) \cdot T\right]
+$$
+
+<dl class="glossary">
+  <dt>div</dt><dd>dividenderate per år</dd>
+</dl>
+::::
+
+:::: {.formula}
+### Forventningshypotesen (terminpriser)
+$$
+F_T = E(S_T)
+$$
+
+<p class="note">Terminprisen er lik forventet spotpris ved forfall.</p>
+::::
+
+:::::
+
+::::: {.asterism .asterism--tight}
+:::::
+
+## Internasjonal finans {#internasjonal-finans}
+
+::::: {.formula-grid}
+
+:::: {.formula}
+### Relativ kjøpekraftsparitet (PPP)
+$$
+\frac{E(s_{\text{UTL/NOK}})}{s_{\text{UTL/NOK}}} = \frac{1 + i_{\text{NOK}}}{1 + i_{\text{UTL}}}
+$$
+
+<dl class="glossary">
+  <dt>s<sub>UTL/NOK</sub></dt><dd>spotkurs, NOK per enhet utenlandsk valuta</dd>
+  <dt>i</dt><dd>inflasjonsrate hjemme (NOK) og ute (UTL)</dd>
+  <dt>E(·)</dt><dd>forventet verdi</dd>
+</dl>
+::::
+
+:::: {.formula}
+### Dekket renteparitet (CIP)
+$$
+\frac{1 + r_{\text{NOK}}}{1 + r_{\text{UTL}}} = \frac{f_{\text{UTL/NOK}}}{s_{\text{UTL/NOK}}}
+$$
+
+<dl class="glossary">
+  <dt>f<sub>UTL/NOK</sub></dt><dd>terminkurs</dd>
+  <dt>r</dt><dd>rente hjemme og ute</dd>
+</dl>
+::::
+
+:::: {.formula}
+### Udekket renteparitet (UIP)
+$$
+\frac{1 + r_{\text{NOK}}}{1 + r_{\text{UTL}}} = \frac{E(s_{\text{UTL/NOK}})}{s_{\text{UTL/NOK}}}
+$$
+::::
+
+:::: {.formula}
+### Fishereffekten (to valutaer)
+$$
+\frac{1 + r_{\text{NOK}}}{1 + r_{\text{UTL}}} = \frac{E(1 + i_{\text{NOK}})}{E(1 + i_{\text{UTL}})}
+$$
+::::
+
+:::: {.formula .formula--wide}
+### Forventningshypotesen (valuta)
+$$
+\frac{f_{\text{UTL/NOK}}}{s_{\text{UTL/NOK}}} = \frac{E(s_{\text{UTL/NOK}})}{s_{\text{UTL/NOK}}} \Rightarrow f_{\text{UTL/NOK}} = E(s_{\text{UTL/NOK}})
+$$
+::::
+
+:::: {.formula}
+### Avkastningskrav ved utenlandske investeringer
+$$
+1 + k_{\text{NOK}} = (1 + k_{\text{UTL}}) \cdot \frac{1 + r_{\text{NOK}}}{1 + r_{\text{UTL}}}
+$$
+
+<dl class="glossary">
+  <dt>k<sub>UTL</sub></dt><dd>avkastningskrav i utenlandsk valuta</dd>
+</dl>
+::::
+
+:::: {.formula}
+### Lånekostnad ved utenlandske lån
+$$
+\frac{s_{\text{UTL/NOK,1}}}{s_{\text{UTL/NOK,0}}} \cdot (1 + r_{\text{UTL}}) - 1
+$$
+
+<dl class="glossary">
+  <dt>s<sub>UTL/NOK,1</sub></dt><dd>spotkurs ved lånets forfall (0 = i dag)</dd>
+</dl>
+::::
+
+:::::

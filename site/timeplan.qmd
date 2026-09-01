@@ -1,86 +1,327 @@
 ---
 title: "Timeplan"
-subtitle: "Temaer, videoer og innleveringer uke for uke. Forelesningene er tirsdag og fredag i Aud. Max."
+subtitle: "Forelesningsplan for våren 2026. Forelesningene er tirsdag 12.15–14.00 og fredag 10.15–12.00 i Aud. Max."
+tbl-colwidths: false
 ---
 
 ::::: {.meta}
-Sist oppdatert 15. august
+Våren 2026 · Aud. Max
 :::::
 
-<p class="note">Planen kan justeres underveis. Endringer varsles på forelesning
-og her.</p>
+<p class="note">Planen kan justeres underveis. Endringer varsles på forelesning,
+på Canvas og her.</p>
+
+## Frister og praktisk informasjon
+
+<dl class="glossary">
+  <dt style="min-width:16rem">Grupperegistrering</dt><dd>mandag 16. februar</dd>
+  <dt style="min-width:16rem">Obligatorisk caseinnlevering</dt><dd>mandag 23. februar</dd>
+  <dt style="min-width:16rem">Frivillig oppgaveinnlevering</dt><dd>fredag 17. april</dd>
+  <dt style="min-width:16rem">Tid</dt><dd>tirsdag 12.15–14.00 og fredag 10.15–12.00</dd>
+  <dt style="min-width:16rem">Sted</dt><dd>Aud. Max</dd>
+  <dt style="min-width:16rem">Hjemmesider</dt><dd><a href="https://canvas.nhh.no">canvas.nhh.no</a> og kursets side (denne)</dd>
+</dl>
+
+<p class="note">Se de relevante modulene på Canvas for mer informasjon om
+innleveringene. Detaljert informasjon om gruppeøvingene finnes på Canvas.</p>
+
+## Forelesningsplan
 
 ::::: {.table-scroll}
 ```{=html}
 <table role="table">
-  <caption>Uken markert med farge er inneværende uke.</caption>
+  <caption>Raden for inneværende uke markeres automatisk med farge. En strek i
+  kolonnen <em>Foreleser</em> betyr at det ikke er forelesning den dagen.
+  Pensumtallene viser kapitler i BMM; «BK» er tilleggspensumet fra Boye &amp;
+  Koekebakker (kapittel 6.4).</caption>
   <thead role="rowgroup">
     <tr role="row">
-      <th scope="col" role="columnheader" style="width:9rem">Uke</th>
+      <th scope="col" role="columnheader" style="width:4rem">Uke</th>
+      <th scope="col" role="columnheader" style="width:7rem">Dato</th>
+      <th scope="col" role="columnheader" style="width:5rem">Dag</th>
       <th scope="col" role="columnheader">Tema</th>
-      <th scope="col" role="columnheader" style="width:16rem">Video og innlevering</th>
+      <th scope="col" role="columnheader">Foreleser</th>
+      <th scope="col" role="columnheader">Pensum</th>
     </tr>
   </thead>
   <tbody role="rowgroup">
 
+    <tr role="row" data-week-start="2026-01-05">
+      <th scope="row" data-label="Uke" role="rowheader"><span class="week">2</span></th>
+      <td role="cell"><span class="week">06.01</span></td>
+      <td role="cell">Tirsdag</td>
+      <td role="cell"><span class="topic">Synkront: Introduksjon, asynkront: investeringsprosjekter</span></td>
+      <td role="cell" data-label="Foreleser">FS/AWS</td>
+      <td role="cell" data-label="Pensum"><span class="week">1, 2</span></td>
+    </tr>
+
+    <tr role="row" data-week-start="2026-01-05">
+      <th scope="row" data-label="Uke" role="rowheader"><span class="week">2</span></th>
+      <td role="cell"><span class="week">09.01</span></td>
+      <td role="cell">Fredag</td>
+      <td role="cell"><span class="topic">Asynkront: Effekter av skatt og lån</span></td>
+      <td role="cell" data-label="Foreleser">–</td>
+      <td role="cell" data-label="Pensum"><span class="week">5.1–5.6, 8, 19</span></td>
+    </tr>
+
+    <tr role="row" data-week-start="2026-01-12">
+      <th scope="row" data-label="Uke" role="rowheader"><span class="week">3</span></th>
+      <td role="cell"><span class="week">13.01</span></td>
+      <td role="cell">Tirsdag</td>
+      <td role="cell"><span class="topic">Asynkront: Effekter av inflasjon</span></td>
+      <td role="cell" data-label="Foreleser">–</td>
+      <td role="cell" data-label="Pensum"><span class="week">9, BK</span></td>
+    </tr>
+
+    <tr role="row" data-week-start="2026-01-12">
+      <th scope="row" data-label="Uke" role="rowheader"><span class="week">3</span></th>
+      <td role="cell"><span class="week">16.01</span></td>
+      <td role="cell">Fredag</td>
+      <td role="cell"><span class="topic">Synkront: Q&amp;A, oppgavetrening, asynkront: Risikovurderinger</span></td>
+      <td role="cell" data-label="Foreleser">AWS</td>
+      <td role="cell" data-label="Pensum"><span class="week">10</span></td>
+    </tr>
+
+    <tr role="row" class="row--marker" data-week-start="2026-01-19">
+      <td role="cell" colspan="6">Gruppeøving 1 · <span class="week">19.01–23.01</span></td>
+    </tr>
+
+    <tr role="row" data-week-start="2026-01-26">
+      <th scope="row" data-label="Uke" role="rowheader"><span class="week">5</span></th>
+      <td role="cell"><span class="week">27.01</span></td>
+      <td role="cell">Tirsdag</td>
+      <td role="cell"><span class="topic">Synkront: Oppsummering, asynkront: Låne- og betalingsalternativer</span></td>
+      <td role="cell" data-label="Foreleser">AWS</td>
+      <td role="cell" data-label="Pensum"><span class="week">5.7</span></td>
+    </tr>
+
+    <tr role="row" data-week-start="2026-01-26">
+      <th scope="row" data-label="Uke" role="rowheader"><span class="week">5</span></th>
+      <td role="cell"><span class="week">30.01</span></td>
+      <td role="cell">Fredag</td>
+      <td role="cell"><span class="topic">Porteføljeteori</span></td>
+      <td role="cell" data-label="Foreleser">AØ</td>
+      <td role="cell" data-label="Pensum"><span class="week">11</span></td>
+    </tr>
+
+    <tr role="row" data-week-start="2026-02-02">
+      <th scope="row" data-label="Uke" role="rowheader"><span class="week">6</span></th>
+      <td role="cell"><span class="week">03.02</span></td>
+      <td role="cell">Tirsdag</td>
+      <td role="cell"><span class="topic">Porteføljeteori/Kapitalmarkedsteori</span></td>
+      <td role="cell" data-label="Foreleser">AØ</td>
+      <td role="cell" data-label="Pensum"><span class="week">11, 12</span></td>
+    </tr>
+
+    <tr role="row" data-week-start="2026-02-02">
+      <th scope="row" data-label="Uke" role="rowheader"><span class="week">6</span></th>
+      <td role="cell"><span class="week">06.02</span></td>
+      <td role="cell">Fredag</td>
+      <td role="cell"><span class="topic">Kapitalverdimodellen</span></td>
+      <td role="cell" data-label="Foreleser">AØ</td>
+      <td role="cell" data-label="Pensum"><span class="week">7</span></td>
+    </tr>
+
+    <tr role="row" class="row--marker" data-week-start="2026-02-09">
+      <td role="cell" colspan="6">Gruppeøving 2 · <span class="week">09.02–13.02</span></td>
+    </tr>
+
+    <tr role="row" data-week-start="2026-02-16">
+      <th scope="row" data-label="Uke" role="rowheader"><span class="week">8</span></th>
+      <td role="cell"><span class="week">17.02</span></td>
+      <td role="cell">Tirsdag</td>
+      <td role="cell"><span class="topic">Kapitalmarkedet/Markedseffisiens/Prising</span></td>
+      <td role="cell" data-label="Foreleser">AØ</td>
+      <td role="cell" data-label="Pensum"><span class="week">7, 14, 15, 21</span></td>
+    </tr>
+
+    <tr role="row" data-week-start="2026-02-16">
+      <th scope="row" data-label="Uke" role="rowheader"><span class="week">8</span></th>
+      <td role="cell"><span class="week">20.02</span></td>
+      <td role="cell">Fredag</td>
+      <td role="cell"><span class="topic">Utbyttepolitikk</span></td>
+      <td role="cell" data-label="Foreleser">AØ</td>
+      <td role="cell" data-label="Pensum"><span class="week">17</span></td>
+    </tr>
+
+    <tr role="row" class="row--marker" data-week-start="2026-02-23">
+      <td role="cell" colspan="6">Mandag <span class="week">23.02</span> · Frist obligatorisk caseinnlevering (frist grupperegistrering <span class="week">16.02</span>)</td>
+    </tr>
+
+    <tr role="row" class="row--marker" data-week-start="2026-02-23">
+      <td role="cell" colspan="6">Gruppeøving 3 · <span class="week">23.02–27.02</span></td>
+    </tr>
+
+    <tr role="row" data-week-start="2026-03-02">
+      <th scope="row" data-label="Uke" role="rowheader"><span class="week">10</span></th>
+      <td role="cell"><span class="week">03.03</span></td>
+      <td role="cell">Tirsdag</td>
+      <td role="cell"><span class="topic">Kapitalstruktur</span></td>
+      <td role="cell" data-label="Foreleser">AØ</td>
+      <td role="cell" data-label="Pensum"><span class="week">13, 16</span></td>
+    </tr>
+
+    <tr role="row" data-week-start="2026-03-02">
+      <th scope="row" data-label="Uke" role="rowheader"><span class="week">10</span></th>
+      <td role="cell"><span class="week">06.03</span></td>
+      <td role="cell">Fredag</td>
+      <td role="cell"><span class="topic">Kapitalstruktur</span></td>
+      <td role="cell" data-label="Foreleser">AØ</td>
+      <td role="cell" data-label="Pensum"><span class="week">13, 16</span></td>
+    </tr>
+
+    <tr role="row" data-week-start="2026-03-09">
+      <th scope="row" data-label="Uke" role="rowheader"><span class="week">11</span></th>
+      <td role="cell"><span class="week">10.03</span></td>
+      <td role="cell">Tirsdag</td>
+      <td role="cell">–</td>
+      <td role="cell" data-label="Foreleser">–</td>
+      <td role="cell"></td>
+    </tr>
+
+    <tr role="row" data-week-start="2026-03-09">
+      <th scope="row" data-label="Uke" role="rowheader"><span class="week">11</span></th>
+      <td role="cell"><span class="week">13.03</span></td>
+      <td role="cell">Fredag</td>
+      <td role="cell"><span class="topic">Synkront: Oversikt og oppgaver, asynkront: Rentemarkedet</span></td>
+      <td role="cell" data-label="Foreleser">AWS</td>
+      <td role="cell" data-label="Pensum"><span class="week">6</span></td>
+    </tr>
+
+    <tr role="row" data-week-start="2026-03-16">
+      <th scope="row" data-label="Uke" role="rowheader"><span class="week">12</span></th>
+      <td role="cell"><span class="week">17.03</span></td>
+      <td role="cell">Tirsdag</td>
+      <td role="cell"><span class="topic">Bærekraftige investeringer</span></td>
+      <td role="cell" data-label="Foreleser">TF</td>
+      <td role="cell"></td>
+    </tr>
+
+    <tr role="row" class="row--marker" data-week-start="2026-03-16">
+      <td role="cell" colspan="6">Gruppeøving 4 · <span class="week">16.03–20.03</span></td>
+    </tr>
+
+    <tr role="row" data-week-start="2026-03-23">
+      <th scope="row" data-label="Uke" role="rowheader"><span class="week">13</span></th>
+      <td role="cell"><span class="week">24.03</span></td>
+      <td role="cell">Tirsdag</td>
+      <td role="cell"><span class="topic">Asynkront: Opsjonskontrakter</span></td>
+      <td role="cell" data-label="Foreleser">–</td>
+      <td role="cell" data-label="Pensum"><span class="week">23, 24.2</span></td>
+    </tr>
+
+    <tr role="row" data-week-start="2026-03-23">
+      <th scope="row" data-label="Uke" role="rowheader"><span class="week">13</span></th>
+      <td role="cell"><span class="week">27.03</span></td>
+      <td role="cell">Fredag</td>
+      <td role="cell"><span class="topic">Synkront: Q&amp;A og oppgaver, asynkront: Terminkontrakter</span></td>
+      <td role="cell" data-label="Foreleser">AWS</td>
+      <td role="cell" data-label="Pensum"><span class="week">24.1, 24.3, 24.4, 24.7</span></td>
+    </tr>
+
+    <tr role="row" class="row--marker" data-week-start="2026-03-30">
+      <td role="cell" colspan="6">Påske · <span class="week">30.03–03.04</span></td>
+    </tr>
+
+    <tr role="row" data-week-start="2026-04-06">
+      <th scope="row" data-label="Uke" role="rowheader"><span class="week">15</span></th>
+      <td role="cell"><span class="week">07.04</span></td>
+      <td role="cell">Tirsdag</td>
+      <td role="cell">–</td>
+      <td role="cell" data-label="Foreleser">–</td>
+      <td role="cell"></td>
+    </tr>
+
+    <tr role="row" data-week-start="2026-04-06">
+      <th scope="row" data-label="Uke" role="rowheader"><span class="week">15</span></th>
+      <td role="cell"><span class="week">10.04</span></td>
+      <td role="cell">Fredag</td>
+      <td role="cell"><span class="topic">Synkront: Oppsummering, asynkront: Internasjonal finans</span></td>
+      <td role="cell" data-label="Foreleser">AWS</td>
+      <td role="cell" data-label="Pensum"><span class="week">22</span></td>
+    </tr>
+
+    <tr role="row" class="row--marker" data-week-start="2026-04-13">
+      <td role="cell" colspan="6">Gruppeøving 5 · <span class="week">13.04–17.04</span></td>
+    </tr>
+
+    <tr role="row" class="row--marker" data-week-start="2026-04-13">
+      <td role="cell" colspan="6">Fredag <span class="week">17.04</span> · Frist frivillig oppgaveinnlevering</td>
+    </tr>
+
+  </tbody>
+</table>
+<script>
+  (function () {
+    var now = new Date();
+    var d = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    d.setDate(d.getDate() - ((d.getDay() + 6) % 7)); // mandag i inneværende uke
+    var pad = function (n) { return (n < 10 ? "0" : "") + n; };
+    var monday = d.getFullYear() + "-" + pad(d.getMonth() + 1) + "-" + pad(d.getDate());
+    var rows = document.querySelectorAll('tr[data-week-start="' + monday + '"]');
+    for (var i = 0; i < rows.length; i++) { rows[i].classList.add("marked"); }
+  })();
+</script>
+```
+:::::
+
+## Kursansvarlige og forelesere
+
+::::: {.table-scroll}
+```{=html}
+<table role="table">
+  <thead role="rowgroup">
     <tr role="row">
-      <th scope="row" role="rowheader"><span class="week">I</span><br><span class="week">21.–25. aug.</span></th>
-      <td role="cell"><span class="topic">Introduksjon</span>Hva investeringsanalyse er, og hvilke spørsmål den skal svare på.</td>
-      <td role="cell"><a href="kursmateriale/01-investeringsanalyse/01-introduksjon.html">Modul 1</a><br><span class="note">Ingen innlevering</span></td>
+      <th scope="col" role="columnheader">Navn</th>
+      <th scope="col" role="columnheader">Stilling</th>
+      <th scope="col" role="columnheader" style="width:6rem">Kontor</th>
+      <th scope="col" role="columnheader" style="width:7rem">Telefon</th>
+      <th scope="col" role="columnheader">E-post</th>
     </tr>
-
+  </thead>
+  <tbody role="rowgroup">
     <tr role="row">
-      <th scope="row" role="rowheader"><span class="week">II</span><br><span class="week">28. aug.–1. sep.</span></th>
-      <td role="cell"><span class="topic">Investeringsprosjekter</span>Beslutningsregler og lønnsomhetsmålinger.</td>
-      <td role="cell"><a href="kursmateriale/01-investeringsanalyse/02-investeringsprosjekter.html">Modul 2</a><br><span class="note">Oppgavesett 1 — frist 1. sep.</span></td>
+      <th scope="row" role="rowheader">Frode Sættem <span class="meta">(FS)</span></th>
+      <td role="cell">Professor</td>
+      <td role="cell" data-label="Kontor"><span class="week">C523</span></td>
+      <td role="cell" data-label="Telefon"><span class="week">55 95 92 72</span></td>
+      <td role="cell"><a href="mailto:frode.sattem@nhh.no">frode.sattem@nhh.no</a></td>
     </tr>
-
-    <tr class="marked" role="row">
-      <th scope="row" role="rowheader"><span class="week">III</span><br><span class="week">4.–8. sep.</span></th>
-      <td role="cell"><span class="topic">Effekter av skatt og lån</span>Hvordan finansiering og beskatning endrer kontantstrømmene.</td>
-      <td role="cell"><a href="kursmateriale/01-investeringsanalyse/03-skatt-og-laan.html">Modul 3</a><br><span class="note">Oppgavesett 2 — frist 8. sep.</span></td>
-    </tr>
-
     <tr role="row">
-      <th scope="row" role="rowheader"><span class="week">IV</span><br><span class="week">11.–15. sep.</span></th>
-      <td role="cell"><span class="topic">Effekter av inflasjon</span>Nominelle og reelle størrelser.</td>
-      <td role="cell"><a href="kursmateriale/01-investeringsanalyse/04-inflasjon.html">Modul 4</a><br><span class="note">Ingen innlevering</span></td>
+      <th scope="row" role="rowheader">André Wattø Sjuve <span class="meta">(AWS)</span></th>
+      <td role="cell">Førsteamanuensis</td>
+      <td role="cell" data-label="Kontor"><span class="week">C310</span></td>
+      <td role="cell" data-label="Telefon"><span class="week">55 95 96 14</span></td>
+      <td role="cell"><a href="mailto:andre.sjuve@nhh.no">andre.sjuve@nhh.no</a></td>
     </tr>
-
     <tr role="row">
-      <th scope="row" role="rowheader"><span class="week">V</span><br><span class="week">18.–22. sep.</span></th>
-      <td role="cell"><span class="topic">Risikovurderinger</span>Usikkerhet i kontantstrømmene.</td>
-      <td role="cell"><a href="kursmateriale/01-investeringsanalyse/05-risikovurderinger.html">Modul 5</a><br><span class="note">Oppgavesett 3 — frist 22. sep.</span></td>
+      <th scope="row" role="rowheader">Andreas Ørpetveit <span class="meta">(AØ)</span></th>
+      <td role="cell">Førsteamanuensis</td>
+      <td role="cell" data-label="Kontor"><span class="week">C312</span></td>
+      <td role="cell" data-label="Telefon"><span class="week">55 95 94 59</span></td>
+      <td role="cell"><a href="mailto:andreas.orpetveit@nhh.no">andreas.orpetveit@nhh.no</a></td>
     </tr>
-
     <tr role="row">
-      <th scope="row" role="rowheader"><span class="week">VI</span><br><span class="week">25.–29. sep.</span></th>
-      <td role="cell"><span class="topic">Låne- og betalingsalternativer</span>Annuitetslån, serielån og betalingsplaner.</td>
-      <td role="cell"><a href="kursmateriale/01-investeringsanalyse/06-laane-og-betalingsalternativer.html">Modul 6</a><br><span class="note">Ingen innlevering</span></td>
+      <th scope="row" role="rowheader">Torun Fretheim <span class="meta">(TF)</span></th>
+      <td role="cell">Førsteamanuensis, NMBU</td>
+      <td role="cell" data-label="Kontor">–</td>
+      <td role="cell" data-label="Telefon">–</td>
+      <td role="cell">–</td>
     </tr>
-
-    <tr role="row">
-      <th scope="row" role="rowheader"><span class="week">VII</span><br><span class="week">2.–6. okt.</span></th>
-      <td role="cell"><span class="topic">Rentemarkedet</span>Rentestruktur og prising av obligasjoner.</td>
-      <td role="cell"><a href="kursmateriale/02-markeder/02-rentemarkedet.html">Modul 13</a><br><span class="note">Oppgavesett 4 — frist 6. okt.</span></td>
-    </tr>
-
-    <tr role="row">
-      <th scope="row" role="rowheader"><span class="week">VIII</span><br><span class="week">9.–13. okt.</span></th>
-      <td role="cell"><span class="topic">Opsjons- og terminkontrakter</span>Rettigheter og forpliktelser om fremtidig handel.</td>
-      <td role="cell"><a href="kursmateriale/02-markeder/03-opsjoner.html">Modul 14 og 15</a><br><span class="note">Ingen innlevering</span></td>
-    </tr>
-
-    <tr role="row">
-      <th scope="row" role="rowheader"><span class="week">IX</span><br><span class="week">16.–20. okt.</span></th>
-      <td role="cell"><span class="topic">Internasjonal finans</span>Valutakurser, renteparitet og valutarisiko.</td>
-      <td role="cell"><a href="kursmateriale/02-markeder/05-valuta.html">Modul 16</a><br><span class="note">Ingen innlevering</span></td>
-    </tr>
-
   </tbody>
 </table>
 ```
 :::::
 
-<p class="note">Datoer og innleveringsfrister er plassholdere i denne
-designskissen.</p>
+## Kursdetaljer
+
+<dl class="glossary">
+  <dt style="min-width:10rem">Pensumbok</dt>
+  <dd>Richard Brealey, Stewart Myers &amp; Alan Marcus (BMM), <em>Fundamentals of Corporate Finance</em>, 11. utgave, McGraw-Hill, 2023</dd>
+  <dt style="min-width:10rem">Tilleggspensum</dt>
+  <dd>Knut Boye &amp; Steen Koekebakker (BK), <em>Finansielle emner</em>, 14. utgave, Cappelen Akademisk Forlag, 2006 — kapittel 6.4, lagt ut på kursets hjemmeside på Canvas</dd>
+  <dt style="min-width:10rem">Kursgodkjenning</dt>
+  <dd>Godkjent obligatorisk caseinnlevering i gruppe med maksimalt tre studenter</dd>
+  <dt style="min-width:10rem">Eksamen</dt>
+  <dd>Onsdag 20. mai kl. 09.00–13.00</dd>
+</dl>

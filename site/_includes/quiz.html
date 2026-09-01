@@ -2,11 +2,50 @@
 // Quiz behaviour. Loaded site-wide but inert on pages with no .quiz block.
 // One answer per question, immediate feedback, and the explanation is shown
 // whichever way the answer went — a wrong answer is the teachable one.
+//
+// Two things are deliberate. Answered choices are locked with aria-disabled
+// rather than the disabled property: a disabled control cannot hold focus, so
+// disabling the button the student just pressed would dump focus to <body> and
+// force a keyboard user back through the whole sidebar. And focus moves to the
+// feedback paragraph, which both keeps the student in place and gets the
+// explanation read aloud — un-hiding an element announces nothing on its own.
 (function () {
+  var uid = 0;
+
   document.querySelectorAll('.quiz').forEach(function (quiz) {
     var questions = quiz.querySelectorAll('.quiz__q');
     var score = quiz.querySelector('.quiz__score');
     var answered = 0, correct = 0;
+
+    // Tie each question's options to its prompt, so a screen reader announces
+    // which question it is reading options for.
+    questions.forEach(function (q) {
+      var prompt = q.querySelector('.quiz__prompt');
+      if (prompt) {
+        if (!prompt.id) prompt.id = 'quiz-q-' + (++uid);
+        q.setAttribute('role', 'group');
+        q.setAttribute('aria-labelledby', prompt.id);
+      }
+    });
+
+    function lock(q) {
+      q.querySelectorAll('.choice').forEach(function (b) {
+        b.setAttribute('aria-disabled', 'true');
+      });
+    }
+
+    function updateScore() {
+      // The reset affordance appears only once there is something to reset,
+      // and disappears again after a reset. hidden keeps it out of the tab
+      // order while hidden; once shown it is a normal focusable button.
+      var reset = quiz.querySelector('.quiz__reset');
+      if (reset) reset.hidden = answered === 0;
+      if (!score) return;
+      if (answered === 0) { score.textContent = ''; return; }
+      var left = questions.length - answered;
+      score.textContent = correct + ' av ' + answered + ' riktig.' +
+        (left > 0 ? ' ' + left + (left === 1 ? ' spørsmål igjen.' : ' spørsmål igjen.') : '');
+    }
 
     questions.forEach(function (q) {
       var right = q.getAttribute('data-answer');
@@ -21,7 +60,6 @@
           if (btn.getAttribute('data-key') === right) correct++;
 
           q.querySelectorAll('.choice').forEach(function (b) {
-            b.disabled = true;
             if (b.getAttribute('data-key') === right) {
               b.dataset.state = 'correct';
               b.querySelector('.choice__mark').textContent = 'riktig';
@@ -30,15 +68,45 @@
               b.querySelector('.choice__mark').textContent = 'ditt svar';
             }
           });
+          lock(q);
 
-          if (feedback) feedback.hidden = false;
-
-          if (score && answered === questions.length) {
-            score.textContent = correct + ' av ' + questions.length + ' riktig.';
+          if (feedback) {
+            feedback.hidden = false;
+            feedback.setAttribute('tabindex', '-1');
+            feedback.focus();
           }
+
+          updateScore();
         });
       });
     });
+
+    // Retake. The pages promise this in so many words, so it has to exist.
+    if (score && questions.length) {
+      var reset = document.createElement('button');
+      reset.type = 'button';
+      reset.className = 'quiz__reset';
+      reset.hidden = true;  // nothing to reset before the first answer
+      reset.textContent = 'Ta quizen på nytt';
+      reset.addEventListener('click', function () {
+        answered = 0;
+        correct = 0;
+        questions.forEach(function (q) {
+          delete q.dataset.done;
+          var fb = q.querySelector('.quiz__feedback');
+          if (fb) { fb.hidden = true; fb.removeAttribute('tabindex'); }
+          q.querySelectorAll('.choice').forEach(function (b) {
+            b.removeAttribute('aria-disabled');
+            delete b.dataset.state;
+            b.querySelector('.choice__mark').textContent = '';
+          });
+        });
+        updateScore();
+        var first = quiz.querySelector('.choice');
+        if (first) first.focus();
+      });
+      score.insertAdjacentElement('afterend', reset);
+    }
   });
 })();
 </script>

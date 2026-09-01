@@ -1,0 +1,267 @@
+---
+title: "Risikovurderinger"
+subtitle: "Metoder for å stressteste forutsetningene bak kontantstrømmene"
+---
+
+Så langt har analysen behandlet forutsetningene bak kontantstrømmene som sikre.
+Det er de ikke: priser, salgstall og kostnader er estimater, og verden kan endre
+seg raskt. Dette kapittelet handler om totalrisikoen i et prosjekt — og om
+verktøyene som viser hvor mye beslutningen tåler når anslagene slår feil.
+
+Åtte videoer, omtrent 74 minutter til sammen. Se dem i rekkefølge; verktøyene
+presenteres fra det enkleste til det mest fleksible, og de senere videoene viser
+tilbake til de tidligere. Til hver video hører en kort quiz. Oppgavene nederst
+regnes best når du har sett alt, og krever kalkulator.
+
+## Videoer
+
+:::: {.index-list}
+<a class="index-row" href="01-relevant-risiko.html">
+  <span class="index-row__no">1</span>
+  <span>
+    <span class="index-row__title">Relevant risiko</span>
+    <span class="index-row__sub">Hvem risikoen måles for — og verktøykassen for å stressteste forutsetningene</span>
+  </span>
+  <span class="index-row__dur">6:23</span>
+</a>
+<a class="index-row" href="02-stjernediagram.html">
+  <span class="index-row__no">2</span>
+  <span>
+    <span class="index-row__title">Stjernediagram</span>
+    <span class="index-row__sub">Følsomhetsanalyse med én variabel av gangen</span>
+  </span>
+  <span class="index-row__dur">10:11</span>
+</a>
+<a class="index-row" href="03-scenarioanalyse.html">
+  <span class="index-row__no">3</span>
+  <span>
+    <span class="index-row__title">Scenarioanalyse</span>
+    <span class="index-row__sub">Flere variabler i samspill: pessimistisk, forventet og optimistisk fremtidsbilde</span>
+  </span>
+  <span class="index-row__dur">9:00</span>
+</a>
+<a class="index-row" href="04-payback-tid.html">
+  <span class="index-row__no">4</span>
+  <span>
+    <span class="index-row__title">Payback-tid</span>
+    <span class="index-row__sub">Hvor lang tid tar det før investeringen er tilbakebetalt — med og uten renter</span>
+  </span>
+  <span class="index-row__dur">6:33</span>
+</a>
+<a class="index-row" href="05-break-even.html">
+  <span class="index-row__no">5</span>
+  <span>
+    <span class="index-row__title">Break-even-analyse</span>
+    <span class="index-row__sub">Hvor mange enheter må selges før prosjektet går i null?</span>
+  </span>
+  <span class="index-row__dur">4:20</span>
+</a>
+<a class="index-row" href="06-simulering.html">
+  <span class="index-row__no">6</span>
+  <span>
+    <span class="index-row__title">Simulering</span>
+    <span class="index-row__sub">Fra ett punktestimat til en sannsynlighetsfordeling for netto nåverdi</span>
+  </span>
+  <span class="index-row__dur">6:11</span>
+</a>
+<a class="index-row" href="07-beslutningstraer.html">
+  <span class="index-row__no">7</span>
+  <span>
+    <span class="index-row__title">Beslutningstrær</span>
+    <span class="index-row__sub">Sekvensielle beslutninger under usikkerhet — og hvorfor treet løses bakfra</span>
+  </span>
+  <span class="index-row__dur">16:19</span>
+</a>
+<a class="index-row" href="08-realopsjoner.html">
+  <span class="index-row__no">8</span>
+  <span>
+    <span class="index-row__title">Realopsjoner</span>
+    <span class="index-row__sub">Verdien av fleksibilitet: å kunne vente, utvide eller avslutte</span>
+  </span>
+  <span class="index-row__dur">15:29</span>
+</a>
+::::
+
+<p class="note">Videoene ligger også som spilleliste i
+<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%221e3f6c19-339c-443f-82a3-b3c900fd9efc%22">Panopto</a>
+om du heller vil se dem samlet.</p>
+
+## Symboler
+
+I tillegg til symbolene fra de tidligere kapitlene bruker videoene disse:
+
+| Symbol | Betydning |
+|---|---|
+| $p_j$ | Sannsynligheten for scenario eller utfall $j$ |
+| $E(\text{NNV})$ | Forventet netto nåverdi: nåverdiene i hvert utfall vektet med sannsynlighetene |
+| PB | Payback-tid — antall år før investeringen er tilbakebetalt |
+
+Forventnings- og risikomålene i samme form — $E(\cdot)$, varians og
+standardavvik — står under «Porteføljeteori og risiko» på
+[formelarket](../../../formelark.qmd).
+
+## Forelesningsplansjer
+
+<p class="note">Plansjene legges ut før forelesningen.</p>
+
+## Oppgaver
+
+Oppgavene tar for seg scenarioanalyse med sannsynlighetsvekting, diskontert
+payback-tid og verdsetting av en testfase med beslutningstre. Regn dem for hånd
+før du åpner løsningsforslaget — å lese en løsning føles som å forstå den, og
+det er sjelden det samme.
+
+::::: {.problem}
+<span class="problem__no">Oppgave 1</span>
+
+Et prosjekt krever en investering på 1 500 000 kroner i dag og løper i fire år.
+Avkastningskravet er 10 %. Tre scenarioer er definert:
+
+| | Pessimistisk | Forventet | Optimistisk |
+|---|---|---|---|
+| Salgspris per enhet | 450 | 500 | 540 |
+| Variable enhetskostnader | 320 | 300 | 280 |
+| Salgsvolum per år | 2 500 | 3 500 | 4 000 |
+| Faste kostnader per år | 150 000 | 140 000 | 130 000 |
+
+a) Beregn netto nåverdi i hvert scenario.
+
+b) Du vurderer sannsynlighetene til 25 % for det pessimistiske, 50 % for det
+forventede og 25 % for det optimistiske scenarioet. Hva er forventet netto
+nåverdi — og hva blir konklusjonen?
+
+<details class="solution">
+<summary>Vis løsningsforslag</summary>
+
+:::: {.solution__body}
+
+**a)** Årlig kontantstrøm i hvert scenario er dekningsbidraget minus faste
+kostnader, og med lik kontantstrøm alle fire årene kan annuitetsfaktoren for
+10 % over fire år brukes: $(1 - 1{,}10^{-4})/0{,}10 = 3{,}1699$.
+
+| | Årlig kontantstrøm | Netto nåverdi |
+|---|---|---|
+| Pessimistisk | (450 − 320) · 2 500 − 150 000 = 175 000 | −1 500 000 + 175 000 · 3,1699 ≈ **−945 000** |
+| Forventet | (500 − 300) · 3 500 − 140 000 = 560 000 | −1 500 000 + 560 000 · 3,1699 ≈ **275 000** |
+| Optimistisk | (540 − 280) · 4 000 − 130 000 = 910 000 | −1 500 000 + 910 000 · 3,1699 ≈ **1 385 000** |
+
+Spennet er stort: fra et betydelig tap til over 1,3 millioner i verdiskaping.
+Det er nettopp dette spennet scenarioanalysen skal synliggjøre.
+
+**b)** Forventet netto nåverdi er de tre nåverdiene vektet med sannsynlighetene:
+
+$$E(\text{NNV}) = 0{,}25 \cdot (-945\,000) + 0{,}50 \cdot 275\,000 + 0{,}25 \cdot 1\,385\,000 \approx 247\,000$$
+
+Forventet netto nåverdi er positiv, så prosjektet bør gjennomføres — men
+beslutningstageren bør merke seg at ett av fire utfall (etter disse vektene)
+gir et tap nær en million. Med like vekter på alle tre scenarioene blir svaret
+for øvrig ≈ 238 000; konklusjonen er altså robust for moderate endringer i
+sannsynlighetene, slik regneøvelsene i video 3 også viste for EcoTime-caset.
+
+::::
+
+</details>
+:::::
+
+::::: {.problem}
+<span class="problem__no">Oppgave 2</span>
+
+Et prosjekt krever 50 000 kroner i dag og ventes å gi kontantstrømmer på
+18 000, 20 000, 24 000 og 16 000 kroner ved slutten av hvert av de neste fire
+årene. Avkastningskravet er 8 %.
+
+a) Beregn payback-tiden uten hensyn til tidsverdien av penger.
+
+b) Beregn den diskonterte payback-tiden. Anta at kontantstrømmene tilfaller
+prosjektet jevnt gjennom året.
+
+c) Hvorfor blir svaret i b) alltid størst — og hvilken informasjon gir ingen av
+de to målene?
+
+<details class="solution">
+<summary>Vis løsningsforslag</summary>
+
+:::: {.solution__body}
+
+**a)** Kumulativ sum uten diskontering: −50 000 → −32 000 → −12 000 → +12 000.
+Fortegnet snur i løpet av det tredje året, og med jevn kontantstrøm gjennom
+året: 2 + 12 000/24 000 = **2,5 år**.
+
+**b)** Diskonter først hvert beløp med 8 %:
+
+| År | Kontantstrøm | Nåverdi | Kumulativ nåverdi |
+|---|---|---|---|
+| 1 | 18 000 | 16 667 | −33 333 |
+| 2 | 20 000 | 17 147 | −16 187 |
+| 3 | 24 000 | 19 052 | +2 865 |
+| 4 | 16 000 | 11 760 | +14 626 |
+
+Den kumulative nåverdien snur fra negativ til positiv i løpet av det tredje
+året. Ved inngangen til året mangler 16 187, og året tilfører 19 052:
+2 + 16 187/19 052 ≈ **2,85 år**.
+
+**c)** Diskontering gjør hvert fremtidig beløp mindre verdt, så den kumulative
+summen når null senere — med positivt avkastningskrav er diskontert payback-tid
+alltid lengst. Ingen av målene sier derimot noe om det som skjer *etter*
+tilbakebetalingen: her kommer det ytterligere verdi i år 4 (netto nåverdi for
+hele prosjektet er ≈ +14 600), men et prosjekt med store negative
+kontantstrømmer sent i livet kunne hatt nøyaktig samme payback-tid. Derfor er
+payback et supplement til netto nåverdi, aldri en erstatning.
+
+::::
+
+</details>
+:::::
+
+::::: {.problem}
+<span class="problem__no">Oppgave 3</span>
+
+Et selskap har utviklet en ny produksjonsteknologi, men vet ikke om den
+fungerer i full skala. En testfase koster 60 millioner kroner, tar ett år og
+lykkes med 70 % sannsynlighet. Lykkes testen, kan selskapet investere
+800 millioner i et anlegg som ventes å gi 300 millioner i årlig kontantstrøm i
+fem år. Mislykkes testen, ville en utbygging gitt en netto nåverdi på
+−600 millioner. Avkastningskravet er 12 %.
+
+a) Sett opp beslutningstreet og avgjør hva selskapet bør gjøre i hvert utfall
+av testen. Bør testfasen settes i gang?
+
+b) Hvor lav kan sannsynligheten for suksess bli før konklusjonen snur?
+
+<details class="solution">
+<summary>Vis løsningsforslag</summary>
+
+:::: {.solution__body}
+
+**a)** Treet løses bakfra, så først: hva gjøres på tidspunkt 1, i hvert utfall?
+
+Ved suksess er netto nåverdi av anlegget (målt på tidspunkt 1, med
+annuitetsfaktoren $(1 - 1{,}12^{-5})/0{,}12 = 3{,}6048$):
+
+$$-800 + 300 \cdot 3{,}6048 \approx 281 \text{ millioner}$$
+
+Positiv — så etter en vellykket test investeres det. Etter en mislykket test er
+alternativene −600 (bygge ut) og 0 (la være); selskapet velger selvsagt 0.
+
+Forventet verdi på tidspunkt 1 er dermed 0,7 · 281 + 0,3 · 0 ≈ 197 millioner,
+og verdien av å starte testfasen i dag:
+
+$$-60 + \frac{197}{1{,}12} \approx 116 \text{ millioner}$$
+
+Netto nåverdi er positiv, så testfasen bør settes i gang. Legg merke til
+strukturen: tallet 197 finnes ikke noe sted i treet — det er verdien av å
+*kunne velge* riktig gren i hvert utfall, og det er den retten testinvesteringen
+kjøper.
+
+**b)** Konklusjonen snur der nåverdien av testingen er null:
+
+$$-60 + \frac{p \cdot 281}{1{,}12} = 0 \quad\Rightarrow\quad p = \frac{60 \cdot 1{,}12}{281} \approx 0{,}24$$
+
+Testfasen tåler altså at suksessannsynligheten faller helt til rundt 24 % før
+den slutter å lønne seg — et godt eksempel på at en billig test foran en stor
+investering kan forsvares selv med nokså usikre utsikter.
+
+::::
+
+</details>
+:::::

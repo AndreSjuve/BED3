@@ -1,0 +1,79 @@
+---
+title: "Kontantstrømsdiagrammer"
+subtitle: "Gevinst og tap ved forfall for lange og korte posisjoner"
+---
+
+## Før du ser videoen
+
+En opsjon har bare to kontantstrømmer: premien du betaler i dag, og det du
+eventuelt får ved forfall. Alt handler derfor om å forstå den siste — og
+videoens verktøy er kontantstrømsdiagrammet, som tegner utfallet som en
+funksjon av hvor underliggende ender. Se etter hva som gjør noen profiler
+symmetriske og andre knekte, og hvor knekken havner.
+
+Videoen går systematisk gjennom seks posisjoner: lang og kort i selve aksjen,
+og lang og kort i både kjøps- og salgsopsjonen. For hver av dem bør du kunne
+svare på to spørsmål: hvor stor er oppsiden, og hvor stor er nedsiden?
+Sammendraget til slutt — hvem har rett og hvem har plikt — er verdt å stoppe
+på.
+
+::::: {.video}
+<div class="video__placeholder">
+  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+  <span>Video 3 · Kontantstrømsdiagrammer</span>
+</div>
+:::::
+
+::::: {.video-meta}
+24:27 &nbsp;·&nbsp; Video 3 av 6 &nbsp;·&nbsp; [Del 14 · Opsjonskontrakter](index.qmd)
+:::::
+
+<p class="note">Videoen er ikke lenket opp enkeltvis ennå — du finner den i
+kapittelets
+<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e49dac6f-794c-4172-ae98-b3d00112c654%22">Panopto-mappe</a>.</p>
+
+## Sjekk forståelsen
+
+Fem spørsmål. Du får svaret med én gang, og du kan ta quizen om igjen så mange
+ganger du vil. De to siste spørsmålene krever kalkulator.
+
+```{=html}
+<div class="quiz">
+<div class="quiz__q" data-answer="b">
+<p class="quiz__prompt">1. Hva skiller gevinstprofilen til en lang posisjon i en aksje fra profilen til en lang posisjon i en kjøpsopsjon på samme aksje?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Ingenting vesentlig — begge stiger krone for krone når aksjekursen stiger</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Aksjen gir symmetrisk eksponering opp og ned; opsjonen har nedside begrenset til premien og beholder oppsiden</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Opsjonen er symmetrisk om kontraktsprisen, mens aksjen har begrenset nedside</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Aksjeeierens profil er en rett 45-graderslinje: hver krone opp er gevinst, hver krone ned er tap. Opsjonseierens profil er knekt ved kontraktsprisen — flat på tapssiden (du kan aldri tape mer enn premien) og stigende på gevinstsiden. A fanger bare oppsiden og overser at profilene skiller lag på nedsiden, der forsikringseffekten sitter. C har byttet om egenskapene: det er nettopp opsjonen som er asymmetrisk.</p>
+</div>
+<div class="quiz__q" data-answer="a">
+<p class="quiz__prompt">2. Du har solgt en kjøpsopsjon uten å eie underliggende. Hva er din maksimale gevinst og ditt maksimale tap?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Gevinsten er begrenset til premien du mottok; tapet er i prinsippet ubegrenset</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Gevinsten er ubegrenset; tapet er begrenset til premien</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Både gevinst og tap er begrenset oppad til kontraktsprisen</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Selgeren har speilbildet av kjøperens profil: det beste som kan skje er at opsjonen utløper verdiløs og premien beholdes — mer enn det blir det aldri. Stiger kursen kraftig, må du kjøpe aksjen i markedet for å levere den til kontraktsprisen, og det tapet vokser uten tak. B beskriver kjøperens posisjon, ikke selgerens — opsjoner er et nullsumspill, så profilene er motsatte. C gjelder bare salgsopsjoner, der tapet maksimalt blir kontraktsprisen fordi kursen ikke kan falle under null.</p>
+</div>
+<div class="quiz__q" data-answer="c">
+<p class="quiz__prompt">3. Hvilken posisjon gir deg en plikt til å kjøpe underliggende dersom motparten utøver sin rett?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Lang posisjon i en salgsopsjon</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Kort posisjon i en kjøpsopsjon</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Kort posisjon i en salgsopsjon</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Den som har solgt en salgsopsjon, har lovet å kjøpe underliggende til kontraktsprisen hvis eieren vil selge — retten sitter hos kjøperen, plikten hos selgeren. A er kjøpersiden av samme kontrakt: en rett til å selge, ingen plikt i det hele tatt. B er også en plikt, men motsatt vei — den som har solgt en kjøpsopsjon, må <em>selge</em> underliggende hvis motparten utøver. Huskeregel fra videoens oppsummering: lange posisjoner har retter, korte posisjoner har plikter.</p>
+</div>
+<div class="quiz__q" data-answer="b">
+<p class="quiz__prompt">4. En europeisk kjøpsopsjon kostet 4,20 kroner og har kontraktspris 95 kroner. Ved forfall er aksjekursen 103 kroner. Hva er opsjonens verdi ved forfall, og hva er gevinsten din?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Verdi 8 kroner, gevinst 8 kroner</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Verdi 8 kroner, gevinst 3,80 kroner</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Verdi 3,80 kroner, gevinst 3,80 kroner</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Verdien ved forfall er max(103 − 95, 0) = 8 kroner: retten til å kjøpe for 95 noe som er verdt 103. Gevinsten trekker fra det opsjonen kostet: 8 − 4,20 = 3,80 kroner. A glemmer premien — da ser enhver opsjon som fullfører in the money ut som ren gevinst. C trekker premien fra <em>verdien</em>; men verdien ved forfall avhenger bare av kurs og kontraktspris — premien hører hjemme i gevinstregnskapet, ikke i payoff-funksjonen.</p>
+</div>
+<div class="quiz__q" data-answer="a">
+<p class="quiz__prompt">5. En europeisk salgsopsjon kostet 3,10 kroner og har kontraktspris 70 kroner. Ved forfall er aksjekursen 61 kroner. Hva er opsjonens verdi ved forfall, og hva er gevinsten din?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Verdi 9 kroner, gevinst 5,90 kroner</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Verdi 0 — opsjonen utløper verdiløs, og gevinsten er −3,10 kroner</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Verdi 9 kroner, gevinst 9 kroner</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>En salgsopsjon er in the money når kursen ligger <em>under</em> kontraktsprisen: verdien er max(70 − 61, 0) = 9 kroner, og gevinsten 9 − 3,10 = 5,90 kroner. B bruker kjøpsopsjonens logikk — max(61 − 70, 0) = 0 — men her er retten å <em>selge</em> for 70 noe markedet bare betaler 61 for, og det er verdifullt. C glemmer premien; den er betalt uansett utfall og må med når gevinsten gjøres opp.</p>
+</div>
+<p class="quiz__score" role="status" aria-live="polite"></p>
+</div>
+```

@@ -1,0 +1,72 @@
+---
+title: "Nåverdiprofilen for lån"
+subtitle: "Når fortegnene snur: nåverdi og effektiv rente for lånealternativer"
+---
+
+## Før du ser videoen
+
+Til nå har analysen handlet om investeringer: penger ut i dag, penger inn
+senere. Denne første videoen snur fortegnene. Ved et låneopptak kommer
+pengene inn først, og så følger årene med renter og avdrag ut. Metodikken er
+den samme — nåverdi og internrente — men internrenten får et nytt navn i
+lånesammenheng. Hva gjør fortegnsskiftet med tolkningen av tallene?
+
+Se spesielt etter nåverdiprofilen. For investeringsprosjekter var den
+fallende; hvilken form får den for et lån, og hvorfor? Videoen sammenligner
+også to lån med samme beløp, løpetid og prislapp, men helt ulik
+betalingsplan — og spør hvordan lån egentlig skal rangeres når nåverdiene
+deres spriker.
+
+::::: {.video}
+<div class="video__placeholder">
+  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+  <span>Video 1 · Nåverdiprofilen for lån</span>
+</div>
+:::::
+
+::::: {.video-meta}
+10:57 &nbsp;·&nbsp; Video 1 av 5 &nbsp;·&nbsp; [Del 5 · Låne- og betalingsalternativer](index.qmd)
+:::::
+
+<p class="note">Videoen er ikke lenket opp enkeltvis ennå — du finner den i
+kapittelets
+<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22fbcdb4ff-7d88-4cff-b26c-b3c900fdadb2%22">Panopto-mappe</a>.</p>
+
+## Sjekk forståelsen
+
+Fire spørsmål. Du får svaret med én gang, og du kan ta quizen om igjen så
+mange ganger du vil. Det siste spørsmålet krever kalkulator.
+
+```{=html}
+<div class="quiz">
+<div class="quiz__q" data-answer="b">
+<p class="quiz__prompt">1. Hvorfor stiger nåverdiprofilen til et lån når avkastningskravet øker?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Fordi lånesaldoen vokser med renten — jo lengre pengene står, desto mer blir lånet verdt</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Fordi renter og avdrag er utbetalinger — jo hardere de diskonteres, desto mindre veier de mot beløpet som kom inn i år 0</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Fordi lånets effektive rente øker når avkastningskravet øker</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Avkastningskravet er her den alternative lånerenten. Når den stiger, blir lånet du vurderer relativt sett billigere: de fremtidige utbetalingene diskonteres mer og teller mindre mot innbetalingen i år 0. Derfor blir profilen speilvendt av investeringsprosjektets fallende kurve. A blander inn saldoveksten i selve lånet, som er upåvirket av alternativrenten. C snur årsaksforholdet: den effektive renten er lånets egen internrente og bestemmes av kontantstrømmen alene — den flytter seg ikke når alternativet endres.</p>
+</div>
+<div class="quiz__q" data-answer="c">
+<p class="quiz__prompt">2. To lån har samme beløp, løpetid og effektiv rente, men ved alternativrenten har det ene høyere netto nåverdi enn det andre. Hva bør du velge?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Lånet med høyest netto nåverdi — nåverdiregelen gjelder som for prosjekter</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Lånet med lavest netto nåverdi, siden et lån skal koste minst mulig</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Ingen av dem foran det andre — med samme effektive rente er de like dyre</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>For lån er det den effektive renten som fanger opp hvor dyrt lånet er, og er den lik, er du indifferent. Nåverdiforskjellen skyldes bare at betalingsplanene fordeler beløpene ulikt i tid — begge nåverdier måler en gevinst mot det dyrere alternativet. A bruker prosjektlogikken, som ville plukket lånet der mest av betalingen skyves lengst ut; B trekker i motsatt retning på like sviktende grunnlag. Skal to gjensidig utelukkende lån med <em>ulik</em> effektiv rente rangeres, ser du på differanselånet — samme forbehold som ved internrentemetoden for prosjekter.</p>
+</div>
+<div class="quiz__q" data-answer="a">
+<p class="quiz__prompt">3. Når har et lån positiv netto nåverdi?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Når renten du alternativt måtte ha lånt til, er høyere enn lånets effektive rente</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Når lånets effektive rente er høyere enn alternativrenten</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Når summen av renter og avdrag er mindre enn lånebeløpet</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Nåverdiprofilen krysser x-aksen i den effektive renten; til høyre for krysningspunktet — der alternativrenten er høyere — er lånet en god avtale og nåverdien positiv. B har ulikheten motsatt vei: da betaler du mer for lånet enn markedet ellers krever. C sammenligner udiskonterte kroner; med positiv rente vil renter og avdrag alltid summere seg til mer enn lånebeløpet, så det kriteriet ville forkastet ethvert lån.</p>
+</div>
+<div class="quiz__q" data-answer="c">
+<p class="quiz__prompt">4. Du kan låne 300 000 kroner i fem år til 4 % effektiv rente uten betalinger underveis — renter og hovedstol forfaller samlet ved slutten. Alternativt må du låne til 9 %. Hva er netto nåverdi av lånetilbudet?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>0 kroner</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>ca. 105 000 kroner</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>ca. 62 800 kroner</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Gjelden vokser til 300 000 · 1,04⁵ ≈ 364 996 ved forfall. Diskontert med alternativrenten: 364 996/1,09⁵ ≈ 237 222, så NNV = 300 000 − 237 222 ≈ 62 800. A får du hvis du diskonterer med lånets egen rente på 4 % — det gir null per definisjon og sier ingenting om hvor godt tilbudet er. B (300 000 − 300 000/1,09⁵) diskonterer bare hovedstolen og glemmer at gjelden vokser med 4 % i året fram til forfall.</p>
+</div>
+<p class="quiz__score" role="status" aria-live="polite"></p>
+</div>
+```
