@@ -4,3 +4,4 @@ _site/
 .quarto/
 transcripts/
 .playwright-mcp/
+__pycache__/
