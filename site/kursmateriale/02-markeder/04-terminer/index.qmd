@@ -96,7 +96,7 @@ utbytte, og forventningshypotesen — står under «Opsjoner og derivater» på
 
 ## Forelesningsplansjer
 
-<p class="note">Plansjene legges ut før forelesningen.</p>
+- [F15 · Terminkontrakter (PDF)](../../../assets/plansjer/BED3_F15_terminkontrakter.pdf)
 
 ## Oppgaver
 

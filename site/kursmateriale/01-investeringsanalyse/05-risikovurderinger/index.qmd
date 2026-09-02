@@ -102,7 +102,7 @@ standardavvik — står under «Porteføljeteori og risiko» på
 
 ## Forelesningsplansjer
 
-<p class="note">Plansjene legges ut før forelesningen.</p>
+- [F04 · Risikovurderinger (PDF)](../../../assets/plansjer/BED3_F04_risikovurderinger.pdf)
 
 ## Oppgaver
 

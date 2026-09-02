@@ -102,7 +102,7 @@ Formlene selv, inkludert annuitetsfaktoren video 7 viser til, står på
 
 ## Forelesningsplansjer
 
-<p class="note">Plansjene legges ut før forelesningen.</p>
+- [F01 · Investeringsprosjekter (PDF)](../../../assets/plansjer/BED3_F01_investeringsprosjekter.pdf)
 
 ## Oppgaver
 

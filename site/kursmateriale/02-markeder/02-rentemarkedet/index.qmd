@@ -94,7 +94,7 @@ under «Obligasjoner og durasjon» på [formelarket](../../../formelark.qmd).
 
 ## Forelesningsplansjer
 
-<p class="note">Plansjene legges ut før forelesningen.</p>
+- [F13 · Rentemarkedet (PDF)](../../../assets/plansjer/BED3_F13_rentemarkedet.pdf)
 
 ## Oppgaver
 

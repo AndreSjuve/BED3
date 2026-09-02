@@ -1,0 +1,228 @@
+{
+ "K02": [
+  {
+   "name": "BED3-K02-V01",
+   "id": "ea67dc04-2b58-4b41-8951-b3c900e45131",
+   "duration_s": 732.367
+  },
+  {
+   "name": "BED3-K02-V02",
+   "id": "75e19f25-dda8-4a35-bd56-b3c900e4928e",
+   "duration_s": 1101.067
+  },
+  {
+   "name": "BED3-K02-V03",
+   "id": "d391d18a-379c-4b4a-9aae-b3c900fcf1b6",
+   "duration_s": 1772.6
+  },
+  {
+   "name": "BED3-K02-V04",
+   "id": "cb63657c-bbc3-44ba-b4b4-b3c900fd1a21",
+   "duration_s": 1234.367
+  }
+ ],
+ "K03": [
+  {
+   "name": "BED3-K03-V01",
+   "id": "674759f5-0ba7-4d7c-98c8-b3cb011bd719",
+   "duration_s": 615.233
+  },
+  {
+   "name": "BED3-K03-V02",
+   "id": "2c6a03f2-8099-4da6-bbe2-b3cb011c8b07",
+   "duration_s": 719.3
+  },
+  {
+   "name": "BED3-K03-V03",
+   "id": "7becfe5f-f417-46e0-ae2e-b3cb011d0703",
+   "duration_s": 541.833
+  },
+  {
+   "name": "BED3-K03-V04",
+   "id": "d3e68161-9cd3-47fd-8aac-b3cb011dd927",
+   "duration_s": 535.867
+  }
+ ],
+ "K04": [
+  {
+   "name": "BED3-K04-V01",
+   "id": "f8181d0f-2663-4201-93a8-b3cf00c13ef5",
+   "duration_s": 383.067
+  },
+  {
+   "name": "BED3-K04-V02",
+   "id": "5f88d25d-1e03-4be0-96ec-b3cf00c16e9b",
+   "duration_s": 611.1329999999999
+  },
+  {
+   "name": "BED3-K04-V03",
+   "id": "aca9f400-6119-4d55-9891-b3cf00c1a599",
+   "duration_s": 540
+  },
+  {
+   "name": "BED3-K04-V04",
+   "id": "1dfa55d2-238e-4ac0-a6f3-b3cf00c1eb77",
+   "duration_s": 392.9
+  },
+  {
+   "name": "BED3-K04-V05",
+   "id": "ef73cd78-c2b4-4e3c-a120-b3cf00c24400",
+   "duration_s": 260.033
+  },
+  {
+   "name": "BED3-K04-V06",
+   "id": "d9e14fed-5393-494c-96b0-b3cf00c29044",
+   "duration_s": 371.433
+  },
+  {
+   "name": "BED3-K04-V07",
+   "id": "3fe25f07-47b8-4736-8443-b3cf00c36b4a",
+   "duration_s": 978.6329999999999
+  },
+  {
+   "name": "BED3-K04-V08",
+   "id": "a9ccce9d-e0e8-483c-99e8-b3cf00c434f1",
+   "duration_s": 928.833
+  }
+ ],
+ "K05": [
+  {
+   "name": "BED3-K05-V01",
+   "id": "b58dd765-7401-479e-b1a1-b3d0010f5bb6",
+   "duration_s": 656.8
+  },
+  {
+   "name": "BED3-K05-V02",
+   "id": "79fcc1c0-a229-46de-9320-b3d0010fcb8f",
+   "duration_s": 443.067
+  },
+  {
+   "name": "BED3-K05-V03",
+   "id": "681bcd9a-31aa-49a7-bc65-b3d001102b54",
+   "duration_s": 376.233
+  },
+  {
+   "name": "BED3-K05-V04",
+   "id": "3934af36-2eb0-42c7-830b-b3d00110d6a5",
+   "duration_s": 755.8
+  },
+  {
+   "name": "BED3-K05-V05",
+   "id": "6f3d6f2f-ed1a-49ed-ad6c-b3d0011116d5",
+   "duration_s": 508.7
+  }
+ ],
+ "K13": [
+  {
+   "name": "BED3-K13-V01",
+   "id": "1d60a8b7-7bfe-49ec-9b44-b404010996d7",
+   "duration_s": 779.067
+  },
+  {
+   "name": "BED3-K13-V02",
+   "id": "30c8248a-201b-4a3f-b073-b4040109c286",
+   "duration_s": 1721.1329999999998
+  },
+  {
+   "name": "BED3-K13-V03",
+   "id": "e962289a-3e95-44d3-b862-b404010bde1a",
+   "duration_s": 1926.733
+  },
+  {
+   "name": "BED3-K13-V04",
+   "id": "7e6eef1f-2b47-4413-894c-b404010fbb01",
+   "duration_s": 1224.1
+  },
+  {
+   "name": "BED3-K13-V05",
+   "id": "15e3ceb4-613c-472f-9d44-b40401116f3c",
+   "duration_s": 2421.333
+  },
+  {
+   "name": "BED3-K13-V06",
+   "id": "7ff2c31a-bc77-4833-a8a5-b40401116f3f",
+   "duration_s": 1532
+  }
+ ],
+ "K14": [
+  {
+   "name": "BED3-K14-V01",
+   "id": "c0b50f1f-fe93-46af-bb47-b410011d99a4",
+   "duration_s": 632.3
+  },
+  {
+   "name": "BED3-K14-V02",
+   "id": "f154daf8-e545-4e23-9b59-b410011ee601",
+   "duration_s": 1052.5
+  },
+  {
+   "name": "BED3-K14-V03",
+   "id": "8a4d8889-f2be-4ba0-ad3d-b41001207a64",
+   "duration_s": 1466.533
+  },
+  {
+   "name": "BED3-K14-V04",
+   "id": "e6b776c7-f03c-4003-a86f-b410012159e3",
+   "duration_s": 905.5999999999999
+  },
+  {
+   "name": "BED3-K14-V05",
+   "id": "704b0cbc-5911-45d1-aa4b-b4100122557a",
+   "duration_s": 1181.6
+  },
+  {
+   "name": "BED3-K14-V06",
+   "id": "dc8a3f07-50a8-4348-9a53-b4100123f85a",
+   "duration_s": 1818.533
+  }
+ ],
+ "K15": [
+  {
+   "name": "BED3-K15-V01",
+   "id": "d1c3a439-79fc-4108-898d-b41800a1e054",
+   "duration_s": 518.2669999999999
+  },
+  {
+   "name": "BED3-K15-V02",
+   "id": "14c95165-1694-4aa5-8095-b41800a2053f",
+   "duration_s": 1530.8999999999999
+  },
+  {
+   "name": "BED3-K15-V03",
+   "id": "6fb2a1d2-04ec-4e41-ab46-b41800a29ae5",
+   "duration_s": 1317.667
+  },
+  {
+   "name": "BED3-K15-V04",
+   "id": "f66fbafc-0753-43d1-8efc-b41800af8101",
+   "duration_s": 903.933
+  },
+  {
+   "name": "BED3-K15-V05",
+   "id": "0a2f733d-1e52-48d7-8e54-b418011d27cf",
+   "duration_s": 809.1669999999999
+  },
+  {
+   "name": "BED3-K15-V06",
+   "id": "a4160fe0-00b8-4280-91c8-b418011e3940",
+   "duration_s": 1013.367
+  }
+ ],
+ "K16": [
+  {
+   "name": "BED3-K16-V01",
+   "id": "898b9310-69be-401c-8eb5-b41a01171318",
+   "duration_s": 409.4
+  },
+  {
+   "name": "BED3-K16-V02",
+   "id": "d2d76b8e-04af-42bc-bbbb-b41a011827cb",
+   "duration_s": 1243.8999999999999
+  },
+  {
+   "name": "BED3-K16-V03",
+   "id": "41087434-3d2f-4a0f-84b3-b41a0119528c",
+   "duration_s": 778.7669999999999
+  }
+ ]
+}

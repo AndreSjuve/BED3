@@ -5,6 +5,8 @@ project:
     # Built by tools/build-formelark-pdf.py from formelark.qmd — not rendered
     # by Quarto, just copied through to _site.
     - assets/formelark.pdf
+    # Built by tools/build-plansjer.py from docs/Forelesninger/*.zip
+    - assets/plansjer
 
 website:
   title: "BED3"
@@ -58,6 +60,7 @@ website:
             - section: "Effekter av skatt og lån"
               href: kursmateriale/01-investeringsanalyse/03-skatt-og-laan/index.qmd
               contents:
+                - kursmateriale/01-investeringsanalyse/03-skatt-og-laan/00-caset-ecotech.qmd
                 - kursmateriale/01-investeringsanalyse/03-skatt-og-laan/01-caset-ecotime-pro.qmd
                 - kursmateriale/01-investeringsanalyse/03-skatt-og-laan/02-kontantstroem-til-totalkapitalen.qmd
                 - kursmateriale/01-investeringsanalyse/03-skatt-og-laan/03-skatt-og-avskrivninger.qmd

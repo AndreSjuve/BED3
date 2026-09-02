@@ -77,7 +77,7 @@ lånerente før skatt til reell lånerente etter skatt.
 
 ## Forelesningsplansjer
 
-<p class="note">Plansjene legges ut før forelesningen.</p>
+- [F03 · Effekter av inflasjon (PDF)](../../../assets/plansjer/BED3_F03_inflasjon.pdf)
 
 ## Oppgaver
 

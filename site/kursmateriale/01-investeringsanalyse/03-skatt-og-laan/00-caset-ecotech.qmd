@@ -1,0 +1,628 @@
+---
+title: "EcoTech Electronics"
+subtitle: "Lansere EcoTime Pro?"
+---
+
+<p class="meta">BED3-2026-EcoTime &nbsp;·&nbsp; Denne versjonen: januar 2026</p>
+
+<p class="note">Dette er kapittelets skriftlige case, og leses som forberedelse
+før forelesningen og videoene. Oppgave 1 og 2 hører til forberedelsen — prøv å
+regne dem selv før du åpner løsningsforslagene. Sett av rundt 20 minutter til
+selve caset, mer om du regner oppgavene selv.</p>
+
+I 2023 satt Julia Meier, administrerende direktør i EcoTech Electronics, ved
+kontorpulten sin i München og reflekterte over selskapets neste store steg. Som
+en ledende aktør i det europeiske markedet for smartklokker hadde EcoTech en
+solid markedsandel på 15 %. Likevel utfordret økende konkurranse, endrede
+forbrukerpreferanser og strengere EU-reguleringer selskapet til å tenke nytt.
+
+Ledelsen ønsker å kapitalisere på nylige suksesser og sementere selskapets
+posisjon innen helseteknologi. Det neste strategiske steget er introduksjonen
+og lanseringen av EcoTime Pro, en smartklokke designet med resirkulerte
+materialer og energieffektive produksjonsprosesser. Med dette ønsker selskapet
+å sikre fremtidig vekst og signalisere sin plass, samtidig som de imøtekommer
+strenge miljøkrav.
+
+## Bakgrunn
+
+EcoTech Electronics ble grunnlagt i 2005 i München, Tyskland, og har vokst til
+å bli en av Europas ledende produsenter av smartklokker. Selskapet har bygget
+en lojal kundebase ved å kombinere funksjonalitet, moderne design og en økende
+satsing på bærekraft. Deres fokus på design og funksjonalitet har gitt dem
+vidstrakt anerkjennelse.
+
+De siste årene har EcoTech satset sterkt på innovasjon, noe som har ført til
+lanseringer som EcoFit Basic (2018) og EcoTech Premium (2020), begge med stor
+kommersiell suksess. EcoFit Basic er siden lanseringen blitt gitt ut i
+oppdaterte utgaver, men potensialet nærmer seg slutten. Disse suksessene
+demonstrerte selskapets evne til å tilpasse seg endringer i markedet, men
+utfordringene i dagens konkurranselandskap krever mer enn tidligere. Selskapet
+står overfor betydelige utfordringer:
+
+- Økende konkurranse fra store globale aktører og mindre nisjeprodusenter.
+- Strengere EU-reguleringer som krever økt bruk av resirkulerte materialer og
+  redusert karbonavtrykk.
+- Press på marginer grunnet økte råvarepriser og energikostnader.
+
+Tabellen under oppsummerer selskapets utvikling de siste fem årene. Til tross
+for sterk vekst i perioden 2018–2022 frykter selskapet at med mindre de gjør et
+betydelig skift, så vil faktorene nevnt ovenfor snu den positive trenden raskt.
+Som svar på dette vurderer EcoTech nå å lansere EcoTime Pro, et produkt som
+skal styrke selskapets posisjon.
+
+:::: {.table-scroll}
+```{=html}
+<table role="table" class="talltabell">
+  <caption>EcoTech Electronics' finansielle utvikling (2018–2022).</caption>
+  <thead role="rowgroup">
+    <tr role="row">
+      <th scope="col" role="columnheader">Nøkkeltall</th>
+      <th scope="col" role="columnheader">2018</th>
+      <th scope="col" role="columnheader">2019</th>
+      <th scope="col" role="columnheader">2020</th>
+      <th scope="col" role="columnheader">2021</th>
+      <th scope="col" role="columnheader">2022</th>
+    </tr>
+  </thead>
+  <tbody role="rowgroup">
+    <tr role="row"><td>Inntekter (EUR, mill.)</td><td>80,0</td><td>92,0</td><td>110,0</td><td>125,0</td><td>132,0</td></tr>
+    <tr role="row"><td>EBITDA (EUR, mill.)</td><td>16,0</td><td>18,0</td><td>22,0</td><td>26,0</td><td>28,0</td></tr>
+    <tr role="row"><td>EBIT (EUR, mill.)</td><td>12,0</td><td>14,0</td><td>18,0</td><td>21,0</td><td>22,0</td></tr>
+    <tr role="row"><td>Nettoresultat (EUR, mill.)</td><td>9,0</td><td>10,0</td><td>13,0</td><td>15,0</td><td>16,0</td></tr>
+    <tr role="row"><td>EPS (EUR)</td><td>1,50</td><td>1,67</td><td>2,17</td><td>2,50</td><td>2,67</td></tr>
+    <tr role="row"><td>ROE (%)</td><td>15,0</td><td>16,0</td><td>17,5</td><td>18,2</td><td>18,5</td></tr>
+    <tr role="row"><td>ROA (%)</td><td>10,0</td><td>11,0</td><td>12,0</td><td>12,8</td><td>13,0</td></tr>
+  </tbody>
+</table>
+```
+::::
+
+## Prosjektbeskrivelse
+
+EcoTime Pro er tenkt som startskuddet for EcoTechs fremtidige vekst. Designet
+for å møte EUs bærekraftstandarder, inneholder produktet flere innovasjoner.
+Prosjektet er også i tråd med selskapets strategiske mål om å redusere
+avhengigheten av importert fossil energi fra politisk ustabile regioner, noe
+ledelsen håper ytterligere vil styrke selskapets operasjonelle robusthet. Dette
+er noe Hans Becker i stor grad er opptatt av, da han mener selskapet innen noen
+få år bør søke å gå på børs. Disse aspektene er oppsummert i tabellen under.
+
+:::: {.table-scroll}
+```{=html}
+<table role="table">
+  <caption>Sammendrag av spesifikasjoner for EcoTime Pro. Tabellen presenterer
+  alle vesentlige innovasjoner knyttet til smartklokken.</caption>
+  <thead role="rowgroup">
+    <tr role="row">
+      <th scope="col" role="columnheader" style="width:13rem">Kategori</th>
+      <th scope="col" role="columnheader">Detaljer</th>
+    </tr>
+  </thead>
+  <tbody role="rowgroup">
+    <tr role="row">
+      <td><strong>Kostnadsbesparelser</strong></td>
+      <td><ul>
+        <li>Resirkulert aluminium koster 40 % mindre enn nyutvunnet aluminium.</li>
+        <li>En grønn produksjonsprosess reduserer energikostnadene med 20 % årlig.</li>
+      </ul></td>
+    </tr>
+    <tr role="row">
+      <td><strong>Inntektspotensial</strong></td>
+      <td><ul>
+        <li>EcoTech forventer å selge 10 000 enheter årlig i de første to årene.</li>
+        <li>Salgsvolumet ventes å øke med 10 % i år tre og fire.</li>
+      </ul></td>
+    </tr>
+    <tr role="row">
+      <td><strong>Markedsposisjonering</strong></td>
+      <td><ul>
+        <li>Produktet retter seg mot miljøbevisste forbrukere, noe som styrker
+        merkevarelojaliteten og gir en tydelig markedsdifferensiering.</li>
+      </ul></td>
+    </tr>
+    <tr role="row">
+      <td><strong>Materialinnovasjon</strong></td>
+      <td><ul>
+        <li>Klokkens skall er laget av 100 % resirkulert aluminium og plast fra havet.</li>
+        <li>Batterikomponentene inkluderer resirkulert litium, noe som reduserer
+        behovet for gruvedrift med 25 %.</li>
+      </ul></td>
+    </tr>
+    <tr role="row">
+      <td><strong>Energieffektiv produksjon</strong></td>
+      <td><ul>
+        <li>Bruk av lavenergiprosesser for smelting av aluminium.</li>
+        <li>Utnyttelse av fornybare energikilder ved EcoTechs produksjonsanlegg i
+        München, noe som reduserer karbonutslippene med 40 %.</li>
+      </ul></td>
+    </tr>
+  </tbody>
+</table>
+```
+::::
+
+For å vurdere lønnsomheten av EcoTime Pro har EcoTech Electronics gjennomført
+en omfattende prosess med datainnsamling og analyse. Teamet har samarbeidet
+tett med både interne og eksterne eksperter for å fremskaffe nødvendige tall
+for produksjonskostnader, markedspotensial og investeringsbehov. Dataene kommer
+fra en kombinasjon av historiske interne rapporter, tredjeparts
+markedsundersøkelser og simuleringer basert på tidligere produktlanseringer.
+
+Innsamling av slike data innebærer imidlertid betydelig usikkerhet. Selv om
+estimater for salgsvolum og kostnader er basert på grundige analyser, er det
+umulig å eliminere alle risikoer. Eksterne faktorer som råvarepriser, endringer
+i konkurransebildet og makroøkonomiske forhold kan påvirke resultatene
+betydelig. For eksempel er salgsprognosene for EcoTime Pro avhengige av
+forbrukernes respons på bærekraftige produkter og potensielle endringer i
+kjøpsvaner, noe som kan være vanskelig å forutsi nøyaktig. Det vi vet om
+prosjektet så langt er oppsummert i tabellen under.
+
+:::: {.table-scroll}
+```{=html}
+<table role="table">
+  <caption>Prosjektbeskrivelse av EcoTime Pro. Tabellen inneholder all
+  nødvendig informasjon for å løse oppgavene. For beregning av
+  arbeidskapitalbehov, anta 360 dager i året.</caption>
+  <thead role="rowgroup">
+    <tr role="row">
+      <th scope="col" role="columnheader" style="width:13rem">Komponent</th>
+      <th scope="col" role="columnheader">Detaljer</th>
+    </tr>
+  </thead>
+  <tbody role="rowgroup">
+    <tr role="row">
+      <td><strong>Investeringskostnader</strong></td>
+      <td><ul>
+        <li>Produksjonsutstyr: EUR 5 000 000</li>
+        <li>Påløpte kostnader for produktutvikling: EUR 1 000 000</li>
+      </ul></td>
+    </tr>
+    <tr role="row">
+      <td><strong>Salgsprognoser</strong></td>
+      <td><ul>
+        <li>År 1–2: 10 000 enheter årlig</li>
+        <li>År 3–4: 10 % volumvekst</li>
+        <li>År 5: 0 % volumvekst</li>
+      </ul></td>
+    </tr>
+    <tr role="row">
+      <td><strong>Pris per enhet</strong></td>
+      <td>EUR 600</td>
+    </tr>
+    <tr role="row">
+      <td><strong>Kostnadsstruktur</strong></td>
+      <td><ul>
+        <li>Råvarer: EUR 200 per enhet</li>
+        <li>Variable produksjonskostnader: EUR 180 per enhet</li>
+        <li>Variable salgskostnader: EUR 20 per enhet</li>
+        <li>Økning betalbare faste kostnader: EUR 7 800 per måned</li>
+      </ul></td>
+    </tr>
+    <tr role="row">
+      <td><strong>Arbeidskapital</strong></td>
+      <td><ul>
+        <li>Råvarer: Tilsvarer kreditten fra leverandør</li>
+        <li>Ferdigvarer (FV): Binder 20 dagers produksjon</li>
+        <li>Kundekreditt (KK): Kunder har 30 dagers betalingsfrist</li>
+        <li>Salgskostnader (SK): Påløper 10 dager før salget skjer</li>
+      </ul></td>
+    </tr>
+    <tr role="row">
+      <td><strong>Smitteeffekt</strong></td>
+      <td><ul>
+        <li>Negative: Reduksjon i salg av eldre produkter tilsvarende
+        EUR 1 000 000 (endrer seg med endring i salgsvolum for EcoTime Pro),
+        dekningsgrad = 30 % og arbeidskapital = 15 % av omsetning</li>
+        <li>Positive: Mersalg av tilbehør = EUR 500 000 (endrer seg med endring
+        i salgsvolum for EcoTime Pro), dekningsgrad = 40 % og arbeidskapital
+        = 10 % av omsetning</li>
+      </ul></td>
+    </tr>
+    <tr role="row">
+      <td><strong>Avskrivninger</strong></td>
+      <td><ul>
+        <li>Produksjonsutstyr saldoavskrives med 20 % årlig</li>
+        <li>Restverdi (år 5): Antas å bli EUR 1 638 400</li>
+      </ul></td>
+    </tr>
+    <tr role="row">
+      <td><strong>Skattesats</strong></td>
+      <td>22 %</td>
+    </tr>
+    <tr role="row">
+      <td><strong>Lån</strong></td>
+      <td><ul>
+        <li>Finansiering: EUR 2 000 000 (kan enten være serie- eller annuitetslån)</li>
+        <li>Hvis serielån: Rente = 5 % p.a., årlige betalinger, ingen gebyrer etc.</li>
+        <li>Hvis annuitetslån: Rente = 5 % p.a., årlige betalinger, ingen gebyrer etc.</li>
+      </ul></td>
+    </tr>
+    <tr role="row">
+      <td><strong>Avkastningskrav</strong></td>
+      <td><ul>
+        <li>Totalkapital (TK) <em>før</em> skatt: 9,5 %</li>
+        <li>Totalkapital (TK) <em>etter</em> skatt: 9,0 %</li>
+      </ul></td>
+    </tr>
+  </tbody>
+</table>
+```
+::::
+
+## Oppgaver
+
+Som investeringsanalytiker i EcoTech Electronics blir din oppgave å løse de
+fire oppgavene under. Oppgave 1 og 2 gis som forberedelse til selve
+forelesningen, og løsningsforslagene ligger under hver oppgave — de gjennomgås
+også i kapittelets videoer. I forelesningen fokuserer vi på de to siste
+oppgavene, knyttet til effekten av skatt og lånefinansiering; de løses i video
+3 og 4. Prøv å gjøre utregningene selv før du ser på løsningene.
+
+::::: {.problem}
+<span class="problem__no">Oppgave 1</span>
+
+Beregn kontantstrømmen til **totalkapitalen** for EcoTime Pro (før skatt).
+
+<details class="solution">
+<summary>Vis løsningsforslag</summary>
+
+:::: {.solution__body}
+
+Det er viktig å merke seg at vi i dette kurset som regel antar at prosjektene
+er langsiktige, og derfor beregner kontantstrømmer for ett år av gangen. Vi
+tenker oss dette prosjektet relativt isolert. Underliggende tanke er at vi går
+tilbake til utgangspunktet etter prosjektets slutt. Det kan tenkes at vi vil
+reinvestere da, og selv om det kan ta tid før ting skjer, så beregner vi det
+som det blir i dag. Denne delen er sentral, da vi fra forrige forelesning
+husker at vår definisjon av en eiendel er en sekvens med kontantstrømmer. Å
+beregne disse korrekt er derfor en grunnleggende del av det å analysere verdi
+og lønnsomhet. Basert på kontantstrømmer kan vi anvende investeringskriteriene
+fra forrige forelesning: paybackmetoden, internrentemetoden og
+nåverdimetoden.
+
+Basert på datagrunnlaget i prosjektbeskrivelsen over skal vi ende opp med en
+kontantstrøm for prosjektet (totalkapitalen) *før* skatt som vist i tabellen
+under. Vi presenterer kontantstrømmen med alle relevante rader først; deretter
+går vi gjennom hvordan hver hovedlinje beregnes.
+
+:::: {.table-scroll}
+```{=html}
+<style>
+.talltabell th:nth-child(n+2), .talltabell td:nth-child(n+2) { text-align: right; }
+.ks-tabell th:nth-child(n+3), .ks-tabell td:nth-child(n+3) { text-align: right; }
+.ks-tabell tr.hjelpelinje { color: #6B5750; }
+</style>
+<table role="table" class="ks-tabell">
+  <caption>Kontantstrøm EcoTime Pro. Tabellen viser alle relevante beregninger
+  for å utarbeide kontantstrømmen til totalkapitalen. Beløp i tusen euro.
+  Linjene i dempet farge viser mellomregninger.</caption>
+  <thead role="rowgroup">
+    <tr role="row">
+      <th scope="col" role="columnheader" style="width:3.5rem">Linje</th>
+      <th scope="col" role="columnheader">År</th>
+      <th scope="col" role="columnheader">0</th>
+      <th scope="col" role="columnheader">1</th>
+      <th scope="col" role="columnheader">2</th>
+      <th scope="col" role="columnheader">3</th>
+      <th scope="col" role="columnheader">4</th>
+      <th scope="col" role="columnheader">5</th>
+    </tr>
+  </thead>
+  <tbody role="rowgroup">
+    <tr role="row"><td>1</td><td>Investeringskostnader</td><td>−5 000</td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr role="row"><td>2</td><td>Skrapverdi</td><td></td><td></td><td></td><td></td><td></td><td>1 638,4</td></tr>
+    <tr role="row" class="hjelpelinje"><td>3</td><td>Volumvekst</td><td>0 %</td><td>0 %</td><td>0 %</td><td>10 %</td><td>10 %</td><td>0 %</td></tr>
+    <tr role="row" class="hjelpelinje"><td>4</td><td>Volum (tusen enheter)</td><td>0</td><td>10</td><td>10</td><td>11</td><td>12,1</td><td>12,1</td></tr>
+    <tr role="row" class="hjelpelinje"><td>5</td><td>DB per enhet</td><td>0</td><td>0,2</td><td>0,2</td><td>0,2</td><td>0,2</td><td>0,2</td></tr>
+    <tr role="row"><td>6</td><td>DB nytt produkt</td><td>0</td><td>2 000</td><td>2 000</td><td>2 200</td><td>2 420</td><td>2 420</td></tr>
+    <tr role="row"><td>7</td><td>Betalbare faste kostnader</td><td>0</td><td>−93,6</td><td>−93,6</td><td>−93,6</td><td>−93,6</td><td>−93,6</td></tr>
+    <tr role="row" class="hjelpelinje"><td>8</td><td>Volumavhengig arbeidskapital</td><td>−550</td><td>−550</td><td>−605</td><td>−665,5</td><td>−665,5</td><td>0</td></tr>
+    <tr role="row" class="hjelpelinje"><td>9</td><td>Endring volumavhengig arbeidskapital</td><td>0</td><td>0</td><td>55</td><td>60,5</td><td>0</td><td>0</td></tr>
+    <tr role="row" class="hjelpelinje"><td>10</td><td>Volumuavhengig arbeidskapital</td><td>−13</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr role="row"><td>11</td><td>Arbeidskapital nytt produkt</td><td>−563</td><td>0</td><td>−55</td><td>−60,5</td><td>0</td><td>678,5</td></tr>
+    <tr role="row" class="hjelpelinje"><td>12</td><td>Redusert omsetning eldre produkter</td><td>0</td><td>−1 000</td><td>−1 000</td><td>−1 100</td><td>−1 210</td><td>−1 210</td></tr>
+    <tr role="row" class="hjelpelinje"><td>13</td><td>Redusert DB eldre produkter</td><td>0</td><td>−300</td><td>−300</td><td>−330</td><td>−363</td><td>−363</td></tr>
+    <tr role="row" class="hjelpelinje"><td>14</td><td>Frigjort arbeidskapital eldre produkter</td><td>150</td><td>0</td><td>15</td><td>16,5</td><td>0</td><td>−181,5</td></tr>
+    <tr role="row"><td>15</td><td>Kontantstrøm fra negative smitteeffekter</td><td>150</td><td>−300</td><td>−285</td><td>−313,5</td><td>−363</td><td>−544,5</td></tr>
+    <tr role="row" class="hjelpelinje"><td>16</td><td>Økt omsetning tilbehør</td><td>0</td><td>500</td><td>500</td><td>550</td><td>605</td><td>605</td></tr>
+    <tr role="row" class="hjelpelinje"><td>17</td><td>Økt DB tilbehør</td><td>0</td><td>200</td><td>200</td><td>220</td><td>242</td><td>242</td></tr>
+    <tr role="row" class="hjelpelinje"><td>18</td><td>Økt arbeidskapital tilbehør</td><td>−50</td><td>0</td><td>−5</td><td>−5,5</td><td>0</td><td>60,5</td></tr>
+    <tr role="row"><td>19</td><td>Kontantstrøm fra positive smitteeffekter</td><td>−50</td><td>200</td><td>195</td><td>214,5</td><td>242</td><td>302,5</td></tr>
+    <tr role="row"><td><strong>20</strong></td><td><strong>Kontantstrøm totalkapital (TK)</strong></td><td><strong>−5 463</strong></td><td><strong>1 806,4</strong></td><td><strong>1 761,4</strong></td><td><strong>1 946,9</strong></td><td><strong>2 205,4</strong></td><td><strong>4 401,3</strong></td></tr>
+  </tbody>
+</table>
+```
+::::
+
+#### Linje 1, 2 og 7 — $I_0$, utrangering og faste kostnader
+
+*Investeringsbeløp* ($I_0$) *og utrangeringsverdi/skrapverdi.*
+Investeringsbeløpet sier vi skjer i dag, til tross for at det i realiteten kan
+skje senere — men relativt til kontantstrømmene skjer det først.
+Utrangeringsverdien/skrapverdien er det vi får igjen ved prosjektets slutt, og
+kommer derfor det siste året. Under investeringskostnader i
+prosjektbeskrivelsen får vi opplyst at prosjektet krever en investering på
+EUR 5 millioner i produksjonsutstyr, og at det har vært påløpte kostnader
+knyttet til produktutvikling på EUR 1 million. I kontantstrømtabellen er
+beløpet for investeringskostnader kun EUR 5 millioner. Hvorfor har vi ikke tatt
+med påløpte kostnader for produktutvikling?
+
+Når vi skal vurdere om dette prosjektet skal gjennomføres eller ikke, er det
+viktig å huske at kostnader som *allerede* har inntruffet ikke skal belastes
+prosjektet, da dette er
+[sunk cost](https://www.investopedia.com/terms/s/sunkcost.asp).
+
+*Faste kostnader.*
+Vi får oppgitt at de *betalbare* faste kostnadene *øker* med EUR 7 800 per
+måned. Viktig at de er betalbare — hvis ikke gir det ingen
+kontantstrømeffekt. Siden vi beregner kontantstrømmer for ett år av gangen, må
+vi finne størrelsen på de *årlige* betalbare faste kostnadene:
+
+$$\begin{aligned}
+&\text{Betalbare FK:}\\
+&\text{År 1–5:} \; 7\,800 \cdot 12 = 93\,600
+\end{aligned}$$
+
+#### Linje 3–6 — dekningsbidrag nytt produkt
+
+Verdiskaping regner vi i form av dekningsbidraget, oppgitt til EUR 200 per
+enhet. Vi selger 10 000 enheter de to første årene, og deretter 10 % mer i år
+3 og 4. Fra år 4 til 5 er det ingen endring i salgsvolum.
+
+$$\begin{aligned}
+&\text{Totalt DB EcoTime Pro:}\\
+&\text{År 1–2:} \; 200 \cdot 10\,000 = 2\,000\,000\\
+&\text{År 3:} \; 200 \cdot 10\,000 \cdot 1{,}1 = 2\,200\,000\\
+&\text{År 4–5:} \; 200 \cdot 11\,000 \cdot 1{,}10 = 2\,420\,000
+\end{aligned}$$
+
+Inntekter og kostnader kommer årlig, og etter vanlig prinsipp tar vi inntekter
+og kostnader ved slutten av året — derfor kommer disse først ved slutten av
+hvert år, en periode etter. Så dekningsbidraget for det første året kommer en
+periode etter at investeringen er gjort.
+
+#### Linje 8–11 — arbeidskapital
+
+Det er som regel mer utfordrende å forstå arbeidskapitalen. Dette er
+tilleggsfinansiering som er nødvendig fordi du har varelager og kundefordringer
+som binder kapital. Vi vil eksakt finne ut hvor stor denne er før vi får inn
+penger fra salg av produserte varer. En måte å tenke på arbeidskapital på er
+som en vanntank du fyller opp og tapper fra:
+
+1. Starten av prosjektet (år 0): Du må fylle tanken opp med vann for å ha nok
+   til driften. Dette er en utbetaling (negativ kontantstrøm).
+2. Prosjektet går i gang: I løpet av prosjektet fyller du kanskje litt mer vann
+   på tanken fordi du trenger mer (økt arbeidskapital), eller du tar litt ut
+   hvis behovet blir mindre (frigjort arbeidskapital).
+3. Slutten av prosjektet: Når prosjektet avsluttes, tømmer du tanken helt. Alt
+   vannet (arbeidskapitalen) som var bundet opp, frigjøres som en positiv
+   kontantstrøm.
+
+*Kontantstrømeffekt:* Det er ikke selve tankens størrelse som er viktig, men
+hvor mye vann du heller i eller tapper ut av tanken hvert år. Alternativt kan
+det også sammenlignes med en midlertidig «kasse» med penger som er nødvendig
+for å holde prosjektet i gang. Denne kassen brukes til å finansiere lager,
+kundefordringer og andre driftsmidler, men det er ikke størrelsen på denne
+kassen som påvirker kontantstrømmen direkte — det er **endringene i
+arbeidskapital** fra ett år til det neste som gir kontantstrømeffekter.
+
+- Økning i arbeidskapital: Når prosjektet trenger mer arbeidskapital (f.eks.
+  mer lager eller lengre kredittid til kunder), reduseres kontantstrømmen.
+  Dette er en *negativ kontantstrøm*.
+- Reduksjon i arbeidskapital: Når prosjektet trenger mindre arbeidskapital
+  (f.eks. mindre lager eller raskere innbetaling fra kunder), frigjøres
+  kapital. Dette er en *positiv kontantstrøm*.
+- Frigjøring ved slutten av prosjektet: Når prosjektet avsluttes, blir all
+  arbeidskapital som var bundet opp frigjort som en positiv kontantstrøm.
+
+| Kategori | År 0 | År 1 | År 2 | År 3 |
+|---|---:|---:|---:|---:|
+| Arbeidskapitalbehov | 50 000 | 70 000 | 70 000 | 60 000 |
+| Endring i arbeidskapital | +50 000 | +20 000 | 0 | −10 000 |
+| **Netto endring kontantstrøm** | **−50 000** | **−20 000** | **0** | **+10 000** |
+
+: Eksempel: Endringer i arbeidskapital og kontantstrømeffekter.
+
+I sum er det slik at nivået på arbeidskapitalen i seg selv ikke gir en direkte
+kontantstrømeffekt (med unntak av prosjektets oppstart og slutt) — det er
+endringene underveis som betyr noe. For prosjektet vi vurderer består
+arbeidskapitalbehovet av flere deler. Dette er en veldig detaljert beregning;
+noen ganger får vi en enklere variant, som at den er en prosentsats av
+omsetning. Vi kan begynne med å beregne arbeidskapitalen ved prosjektets
+oppstart.
+
+Råvarelageret blir dekket ved at vi har 30 dagers kredittid fra leverandørene.
+Dette lageret binder derfor ikke noe kapital.
+
+Vi starter på tid $t=0$ med et ferdigvarelager som tilsvarer 20 dagers
+produksjon. Vi holder salgskostnadene utenfor, og da gjenstår råvarer og
+variable produksjonskostnader — disse beløper seg til $200 + 180 = 380$ EUR.
+
+$$\text{Ferdigvarer (FV):} \; 380 \cdot 10\,000 \cdot \frac{20}{360} = 211\,111$$
+
+Fra salget skjer, har kundene 30 dagers kredittid. Kundekreditten vi skal
+finansiere er ikke hele salget, men de utlegg vi har i forbindelse med
+produksjon av varen de kjøper. Relevant kostnad er derfor den samme som for
+ferdigvarelageret.
+
+$$\text{Kundekreditt (KK):} \; 380 \cdot 10\,000 \cdot \frac{30}{360} = 316\,667$$
+
+Salgskostnader påløper *10* dager før salget skjer. Vi får derfor ikke disse
+pengene tilbake før etter 40 dager (10 + 30).
+
+$$\text{Salgskostnader (SK):} \; 20 \cdot 10\,000 \cdot \frac{40}{360} = 22\,222$$
+
+I de 50 dagene fra vi står med et ferdigvarelager til kundene har betalt for
+varene (20 + 30), vil vi fortløpende måtte betale de faste kostnadene. Vi
+trenger derfor ekstra likviditet i oppstarten for å dekke faste kostnader.
+Dette skaper et behov for arbeidskapital.
+
+$$\begin{aligned}
+&\text{Faste kostnader (FK):} \; 93\,600 \cdot \frac{50}{360} = 13\,000\\
+&\sum = 211\,111 + 316\,667 + 22\,222 + 13\,000 = 563\,000
+\end{aligned}$$
+
+Ved prosjektets start får vi altså et behov for å binde opp EUR 563 000 i
+arbeidskapital. I det første året er det ingen endring i aktivitet som tilsier
+at vi trenger å binde mer kapital. Når vi går fra år to til tre derimot, øker
+salgsvolumet vårt med 10 %. Når vi selger flere enheter, krever dette også et
+større varelager, høyere nivåer av kundekreditt, større salgskostnader osv.
+Det er med andre ord behov for mer arbeidskapital som følge av økningen i
+salgsvolumet. Det er her viktig å merke seg at arbeidskapitalbehovet for de
+faste kostnadene ikke endrer seg med salgsvolumet.
+
+Økning i arbeidskapital: $(563\,000 - 13\,000) \cdot 0{,}1 = 55\,000$. Denne
+belastes slutten av år to for å finansiere økningen i salgsmengden som
+inntreffer gjennom år tre. Samme beregning kan gjøres for år tre for å komme
+frem til det økte behovet for år fire. Ved slutten av prosjektet frigjøres all
+arbeidskapitalen som har vært bundet opp (summen av de negative
+kontantstrømmene på linje 11 f.o.m. år 0 t.o.m. år 4). Summen av alle tallene
+på linje 11 med arbeidskapital blir null, grunnet forutsetningen om at vi går
+tilbake til utgangspunktet. Da trenger vi ikke varelager etc., så disse pengene
+blir frigjort.
+
+#### Linje 12–19 — smitteeffekter
+
+Når et nytt prosjekt lanseres, påvirker det ofte andre deler av virksomheten.
+Disse effektene kalles *smitteeffekter* og kan være enten positive eller
+negative. I en investeringsanalyse må vi vurdere hele bildet og ikke bare de
+direkte inntektene og kostnadene. Hvis vi ignorerer potensielle
+smitteeffekter, risikerer vi å overvurdere eller undervurdere prosjektets
+faktiske bidrag til virksomhetens totale verdi.
+
+Positive effekter oppstår når prosjektet skaper tilleggseffekter som øker
+verdien andre steder i virksomheten. For eksempel kan lanseringen av et nytt
+produkt øke salget av tilbehør eller relaterte tjenester. Dette er en
+*gevinst* som prosjektet har bidratt til, og derfor skal den tilskrives
+prosjektet som en **positiv kontantstrøm**. Dersom disse ikke tas med,
+undervurderer vi prosjektets potensielle verdi. I dette prosjektet er det, som
+opplyst, positive smitteeffekter knyttet til at kunder som kjøper den nye
+klokken, også kjøper tilbehør som reimer og ladere. Dette genererer ekstra
+inntekter i andre deler av bedriften som skyldes prosjektet.
+
+På den andre siden oppstår det negative smitteeffekter når prosjektet
+reduserer verdien andre steder i virksomheten. For eksempel kan det nye
+produktet kannibalisere salget av eksisterende produkter, ved at kunder velger
+det nye produktet fremfor det gamle. Dette er et *tap* som skyldes prosjektet,
+og det skal belastes prosjektet som en **negativ kontantstrøm**. Dersom disse
+ikke tas med, ser prosjektet mer lønnsomt ut enn det egentlig er, fordi vi
+ikke har tatt hensyn til hva virksomheten taper andre steder. De negative
+smitteeffektene i dette prosjektet er knyttet til at salget av eldre
+klokkemodeller faller fordi kundene heller velger den nye modellen. Dette
+reduserer inntektene fra de gamle produktene og må belastes prosjektet.
+
+For å beregne de positive og negative smitteeffektene er det to mekanismer.
+Den første er den direkte, ved økt eller redusert salg i andre deler av
+bedriften. Det vi ønsker å belaste prosjektet med er endringen i
+*verdiskaping* som inntreffer som konsekvens av EcoTime Pro. Den andre
+effekten er endrede behov for arbeidskapital i andre deler av driften. Når
+smitteeffekten er positiv, innebærer dette høyere verdiskaping, mer aktivitet
+og dermed et *økt* behov for arbeidskapital (negativ kontantstrøm). Motsatt
+blir det for negative smitteeffekter, som fører med seg lavere verdiskaping,
+mindre aktivitet og et *lavere* behov for arbeidskapital (positiv
+kontantstrøm).
+
+*Økt verdiskaping:* Verdiskaping måler vi ved dekningsbidrag.
+
+$$\begin{aligned}
+&\text{Økning i DB fra mersalg av tilbehør (år 1–2)} = 500\,000 \cdot 0{,}40 = 200\,000\\
+&\text{Økning i DB fra mersalg av tilbehør (år 3)} = 500\,000 \cdot 1{,}1 \cdot 0{,}40 = 220\,000\\
+&\text{Økning i DB fra mersalg av tilbehør (år 4–5)} = 500\,000 \cdot 1{,}1^{2} \cdot 0{,}40 = 242\,000
+\end{aligned}$$
+
+*Økt arbeidskapital:* 10 % av omsetningen. Arbeidskapitalen bindes året *før*
+aktiviteten inntreffer.
+
+$$\begin{aligned}
+&\text{Arb.kap tilbehør (år 0)} = -500\,000 \cdot 0{,}10 = -50\,000\\
+&\Delta \text{Arb.kap tilbehør (år 2)} = -50\,000 \cdot 0{,}10 = -5\,000\\
+&\Delta \text{Arb.kap tilbehør (år 3)} = -(50\,000 + 5\,000) \cdot 0{,}10 = -5\,500\\
+&\text{Frigjøring (år 5)} = 50\,000 + 5\,000 + 5\,500 = 60\,500
+\end{aligned}$$
+
+*Redusert verdiskaping:*
+
+$$\begin{aligned}
+&\text{Nedgang i DB eldre produkter (år 1–2)} = -1\,000\,000 \cdot 0{,}30 = -300\,000\\
+&\text{Nedgang i DB eldre produkter (år 3)} = -1\,100\,000 \cdot 0{,}30 = -330\,000\\
+&\text{Nedgang i DB eldre produkter (år 4–5)} = -1\,210\,000 \cdot 0{,}30 = -363\,000
+\end{aligned}$$
+
+*Frigjort arbeidskapital:* 15 % av omsetningen. Arbeidskapitalen bindes
+(her: frigjøres) året *før* aktiviteten inntreffer.
+
+$$\begin{aligned}
+&\text{Frigjort arb.kap (år 0)} = 1\,000\,000 \cdot 0{,}15 = 150\,000\\
+&\Delta \text{Frigjort arb.kap (år 2)} = (1\,100\,000 - 1\,000\,000) \cdot 0{,}15 = 15\,000\\
+&\Delta \text{Frigjort arb.kap (år 3)} = (1\,210\,000 - 1\,100\,000) \cdot 0{,}15 = 16\,500\\
+&\text{Frigjøring (år 5)} = -150\,000 - 15\,000 - 16\,500 = -181\,500
+\end{aligned}$$
+
+#### Linje 20 — kontantstrøm totalkapital (TK)
+
+Det eneste som gjenstår da, er å summere opp de relevante linjene i tabellen
+for å komme frem til linje 20. For hvert år er det følgende summering som
+gjelder (linjenummer i parentes):
+
+$$\text{KS TK (20)} = (1) + (2) + (6) + (7) + (11) + (15) + (19)$$
+
+::::
+
+</details>
+:::::
+
+::::: {.problem}
+<span class="problem__no">Oppgave 2</span>
+
+Avgjør om prosjektet er **økonomisk bærekraftig** ved hjelp av netto nåverdi
+(NNV) og internrente (IRR).
+
+<details class="solution">
+<summary>Vis løsningsforslag</summary>
+
+:::: {.solution__body}
+
+For å vurdere om prosjektet er økonomisk lønnsomt kan vi beregne prosjektets
+nåverdi. Dette gjør vi ved å diskontere hvert års kontantstrøm tilbake til år
+0, og summere dem opp. (En kan diskontere kontantstrømmene til hvilket som
+helst år — det viktige er at de alle er uttrykt på samme tidspunkt.) Da
+trenger vi også et avkastningskrav. Senere skal dere lære mye mer om hvordan
+disse kan bestemmes; for nå legger vi til grunn $k = 9{,}5\ \%$. Da får vi
+netto nåverdi (i tusen euro):
+
+$$-5\,463 + \frac{1\,806{,}4}{1{,}095} + \frac{1\,761{,}4}{1{,}095^{2}} + \frac{1\,946{,}9}{1{,}095^{3}} + \frac{2\,205{,}4}{1{,}095^{4}} + \frac{4\,401{,}3}{1{,}095^{5}} = 3\,468{,}4 > 0 \Rightarrow \text{Invester!}$$
+
+En positiv netto nåverdi betyr at prosjektet er *økonomisk* bærekraftig. Dette
+betyr også at internrenten må være høyere enn avkastningskravet:
+$\text{Internrenten (IRR)} = y \approx 28{,}4\ \% > k = 9{,}5\ \%$.
+
+::::
+
+</details>
+:::::
+
+::::: {.problem}
+<span class="problem__no">Oppgave 3</span>
+
+Ta hensyn til skatt i beregningen og avgjør prosjektets lønnsomhet.
+
+<p class="note">Løsningen gjennomgås i forelesningen og i
+<a href="03-skatt-og-avskrivninger.html">video 3 · Skatt og avskrivninger</a>.</p>
+:::::
+
+::::: {.problem}
+<span class="problem__no">Oppgave 4</span>
+
+Ta hensyn til lånefinansiering og avgjør prosjektets lønnsomhet.
+
+<p class="note">Løsningen gjennomgås i forelesningen og i
+<a href="04-laanefinansiering.html">video 4 · Lånefinansiering</a>.</p>
+:::::
+
+---
+
+<p class="note">Caset er utarbeidet av André Wattø Sjuve, utelukkende for
+undervisningsformål. Selskapet og tilhørende selskapsinformasjon er fiktivt.
+© 2025, 2026 André Wattø Sjuve. Ingen deler av denne publikasjonen kan
+reproduseres, lagres i et arkivsystem, brukes i et regneark eller overføres i
+noen form eller med noen midler uten tillatelse fra Norges Handelshøyskole.</p>
