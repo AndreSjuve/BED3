@@ -6,10 +6,10 @@ subtitle: "Grenseverdier, egenverdi og tidsverdi, og et blikk på Black-Scholes"
 ## Før du ser videoen
 
 Hva skal en opsjon koste i dag, før forfall? Kapittelets siste og lengste
-video gir ikke hele maskineriet (binomialmodeller, Black-Scholes og Monte
-Carlo-simulering presenteres som landskap, ikke pensum i detalj), men den gir
-deg det du kan resonnere deg frem til uten modeller: grenser prisen må ligge
-innenfor, og hva som skjer med den når én faktor endres og resten holdes fast.
+video holder seg til det du kan resonnere deg frem til uten modeller: grenser
+prisen må ligge innenfor, og hva som skjer med den når én faktor endres og
+resten holdes fast. Binomialmodeller, Black-Scholes og Monte Carlo-simulering
+presenteres bare som oversikt, ikke som pensum i detalj.
 
 To begreper bærer mye av videoen: opsjonens egenverdi og dens tidsverdi. Hør
 etter hva hver av dem måler, og hvorfor volatilitet, som for en aksjeeier er
@@ -44,7 +44,7 @@ delta-faktoren brukes til av dem som selger opsjoner.
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Fordi nedsiden er begrenset til premien; svingningene forstørrer bare den mulige oppsiden</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Fordi høy volatilitet betyr at aksjekursen i gjennomsnitt stiger raskere</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Fordi opsjonseiere kan utøve før store kursfall rekker å skje</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Asymmetrien i payoff-funksjonen gjør jobben: uansett hvor galt det går, taper du maksimalt premien, mens store utslag i riktig retning gir tilsvarende større gevinst. Da er spredning bare oppside. B blander volatilitet med forventet avkastning; volatilitet måler størrelsen på svingningene, ikke retningen. C forutsetter både amerikansk utøvelse og evne til å time markedet, og er uansett ikke mekanismen: beskyttelsen ligger i kontraktens struktur, ikke i rask reaksjon.</p>
+<p class="quiz__feedback" hidden>Forklaringen er asymmetrien i payoff-funksjonen: uansett hvor galt det går, taper du maksimalt premien, mens store utslag i riktig retning gir tilsvarende større gevinst. Da er spredning bare oppside. B blander volatilitet med forventet avkastning; volatilitet måler størrelsen på svingningene, ikke retningen. C forutsetter både amerikansk utøvelse og evne til å time markedet, og er uansett ikke mekanismen: beskyttelsen ligger i kontraktens struktur, ikke i rask reaksjon.</p>
 </div>
 <div class="quiz__q" data-answer="b">
 <p class="quiz__prompt">3. En kjøpsopsjon er out of the money: aksjekursen ligger under kontraktsprisen. Likevel handles den til en positiv pris. Hva består prisen av?</p>

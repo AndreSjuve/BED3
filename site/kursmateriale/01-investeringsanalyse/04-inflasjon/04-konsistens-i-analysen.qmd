@@ -45,7 +45,7 @@ nåverdien når de brytes, og på om det er nok til å velte beslutningen.
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Før og etter skatt</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Nominelt og reelt</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Totalkapital og egenkapital</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Mellom nominelt og reelt går omregningen tapsfritt begge veier med deflateringsformelen. Mellom før og etter skatt finnes ingen slik direkte kobling: den effektive skattesatsen avhenger av prosjektets egenskaper og varierer fra prosjekt til prosjekt, så A faller. For C finnes riktignok vektstangformelen, men den hviler på forutsetninger prosjektene sjelden oppfyller, og gir derfor bare en tilnærming, ikke en eksakt omregning.</p>
+<p class="quiz__feedback" hidden>Mellom nominelt og reelt går omregningen eksakt begge veier med deflateringsformelen. Mellom før og etter skatt finnes ingen slik direkte kobling: den effektive skattesatsen avhenger av prosjektets egenskaper og varierer fra prosjekt til prosjekt, så A faller. For C finnes riktignok vektstangformelen, men den hviler på forutsetninger prosjektene sjelden oppfyller, og gir derfor bare en tilnærming, ikke en eksakt omregning.</p>
 </div>
 <div class="quiz__q" data-answer="c">
 <p class="quiz__prompt">3. Hvorfor gir vektstangformelen bare en tilnærming når den brukes på et investeringsprosjekt?</p>

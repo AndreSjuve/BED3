@@ -5,7 +5,7 @@ subtitle: "Kuponger, pålydende, ren og skitten pris, og renteregning i pengemar
 
 ## Før du ser videoen
 
-Forrige video tegnet kartet; nå skal instrumentene prises. Rammeverket er det
+Forrige video ga oversikten; nå skal instrumentene prises. Rammeverket er det
 samme som for investeringsprosjekter og aksjer: verdien av en eiendel er
 nåverdien av de fremtidige kontantstrømmene. Spørsmålet er hva som står i
 telleren og nevneren når eiendelen er et lån.
@@ -44,7 +44,7 @@ seg til pengemarkedet, der stat og bedrift følger hver sin regnekonvensjon.
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Den har falt under pålydende</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Den er uendret, kupongen er jo avtalt på forhånd</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Den har steget, siden høyere rente gir høyere avkastning</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Kupongen ligger låst gjennom løpetiden. Når markedet tilbyr mer enn kupongen gir, må prisen falle under pålydende for at kjøperens totalavkastning skal matche markedet: obligasjonen handles til rabatt. B forveksler faste kontantstrømmer med fast verdi: det er nettopp fordi betalingene ikke kan justeres at prisen må gjøre jobben. C har sammenhengen speilvendt; pris og markedsrente beveger seg alltid i motsatt retning.</p>
+<p class="quiz__feedback" hidden>Kupongen ligger låst gjennom løpetiden. Når markedet tilbyr mer enn kupongen gir, må prisen falle under pålydende for at kjøperens totalavkastning skal matche markedet: obligasjonen handles til rabatt. B forveksler faste kontantstrømmer med fast verdi: det er nettopp fordi betalingene ikke kan justeres at hele tilpasningen må skje i prisen. C har sammenhengen speilvendt; pris og markedsrente beveger seg alltid i motsatt retning.</p>
 </div>
 <div class="quiz__q" data-answer="c">
 <p class="quiz__prompt">3. Hvorfor er det kursen (clean price) som kvoteres i markedet, og ikke totalprisen (dirty price)?</p>

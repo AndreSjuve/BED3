@@ -9,8 +9,8 @@ Forrige video ga språket; denne gir teorien. Fem paritetsbetingelser knytter
 valutakurser til inflasjon og renter, og sammen danner de et rammeverk for å
 forstå hvorfor kurser beveger seg og hvordan valutarisiko kan sikres. Ordet
 paritet betyr jevnbyrdighet. Spørsmålet å ha med seg er i hvilken forstand
-hver betingelse skal «holde», og hvilke av dem virkeligheten faktisk
-respekterer.
+hver betingelse skal «holde», og hvilke av dem som faktisk gjør det i
+praksis.
 
 Videoens tyngdepunkt er et gjennomregnet eksempel: gitt spotkurs og renter i
 to land, hva må forwardkursen være, og hva gjør du hvis markedet tilbyr noe

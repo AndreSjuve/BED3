@@ -12,9 +12,8 @@ stedet går via prisen på noe helt annet. Hva betyr egentlig
 «underliggende», og hvorfor gir en slik kobling en så annerledes
 kontantstrømprofil?
 
-Videoen bygger intuisjonen gjennom et bevisst enkelt eksempel: en kontrakt som
-betaler ut ett fast beløp hvis hveteprisen ender over en terskel, og ingenting
-ellers. Følg resonnementet om hva en slik kontrakt bør koste i dag, og legg
+Eksempelet i videoen er med vilje enkelt: en kontrakt som betaler ut ett fast
+beløp hvis hveteprisen ender over en terskel, og ingenting ellers. Følg resonnementet om hva en slik kontrakt bør koste i dag, og legg
 merke til hvor mye av det velkjente prisingsapparatet fra tidligere i kurset
 som overlever møtet med derivatmarkedet.
 

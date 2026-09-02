@@ -1,6 +1,6 @@
 ---
 title: "Kursinnhold"
-subtitle: "Teorivideoene dekker pensum modul for modul. Til hver forelesning hører plansjer, oppgaver med løsningsforslag og en kort quiz."
+subtitle: "Teorivideoene dekker pensum modul for modul. Til hver modul hører plansjer, oppgaver med løsningsforslag og en kort quiz."
 ---
 
 Modulene på denne siden er de asynkrone videodelene av kurset:

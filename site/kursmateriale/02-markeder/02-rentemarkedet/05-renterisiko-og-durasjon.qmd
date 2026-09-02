@@ -52,7 +52,7 @@ som setter tall på alt sammen.
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Fordi durasjonsmålet ser bort fra kupongbetalingene</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Fordi pris–rente-sammenhengen er konveks, mens anslaget følger tangenten i ett punkt</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Fordi yield to maturity ikke kan observeres i markedet</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Modifisert durasjon er den deriverte av prisen med hensyn på renten: stigningstallet til tangenten akkurat der dagens rente ligger. Siden den virkelige sammenhengen krummer (er konveks), bommer tangenten mer og mer jo større renteendringen er; skal store skift fanges presist, må også krumningen med. A er feil: kupongene inngår både i prisen og i vektene durasjonen bygger på. C er også feil: yielden bakkes ut av observerte priser.</p>
+<p class="quiz__feedback" hidden>Modifisert durasjon er den deriverte av prisen med hensyn på renten: stigningstallet til tangenten akkurat der dagens rente ligger. Siden den virkelige sammenhengen krummer (er konveks), bommer tangenten mer og mer jo større renteendringen er; skal store skift fanges presist, må også krumningen med. A er feil: kupongene inngår både i prisen og i vektene durasjonen bygger på. C er også feil: yielden beregnes ut fra observerte priser.</p>
 </div>
 <div class="quiz__q" data-answer="a">
 <p class="quiz__prompt">4. En obligasjon har pålydende 100, kupongrente 8 prosent, to hele år til forfall og yield 6 prosent. Hva er Macaulay-durasjonen?</p>

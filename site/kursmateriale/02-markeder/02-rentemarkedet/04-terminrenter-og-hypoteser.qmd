@@ -38,7 +38,7 @@ hvilken antakelse om substituerbarhet som skiller dem.
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Renten du får ved å binde penger fra i dag og to år frem</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Renten for en fremtidig periode som ligger implisitt i dagens spotrenter</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Renten sentralbanken har varslet for neste år</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Terminrenten kan ikke observeres direkte: den beregnes fra spotrentene som det nivået en fremtidig rente må ha for at kurven skal være konsistent og fri for arbitrasje. A beskriver en spotrente: binding som starter i dag. C blander markedets implisitte anslag med annonsert pengepolitikk: ingen har vedtatt terminrenten; den er destillert ut av prisene som kjøpere og selgere av obligasjoner har blitt enige om.</p>
+<p class="quiz__feedback" hidden>Terminrenten kan ikke observeres direkte: den beregnes fra spotrentene som det nivået en fremtidig rente må ha for at kurven skal være konsistent og fri for arbitrasje. A beskriver en spotrente: binding som starter i dag. C blander markedets implisitte anslag med annonsert pengepolitikk: ingen har vedtatt terminrenten; den er utledet av prisene som kjøpere og selgere av obligasjoner har blitt enige om.</p>
 </div>
 <div class="quiz__q" data-answer="c">
 <p class="quiz__prompt">2. Under forventningshypotesen: hva forteller en stigende rentekurve?</p>

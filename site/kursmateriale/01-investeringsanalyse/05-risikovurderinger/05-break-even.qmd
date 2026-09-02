@@ -10,7 +10,7 @@ ryker. Break-even-analysen gjør det spørsmålet til hele analysen, med
 salgsvolumet i hovedrollen: hvor mange enheter må selges hvert år for at
 prosjektet verken skal skape eller ødelegge verdi?
 
-Det avgjørende er hva «å gå i null» skal bety når penger har en tidsverdi. Se
+Hva skal «å gå i null» bety når penger har en tidsverdi? Se
 nøye på hvilke to størrelser videoen setter opp mot hverandre. Eksempelet
 regnes først for to prøvevolumer som ringer inn svaret fra hver sin side, før
 det eksakte punktet bestemmes. Hold rede på hvilke inngangsdata som til sammen

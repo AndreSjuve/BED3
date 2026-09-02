@@ -8,9 +8,8 @@ Det er de ikke: priser, salgstall og kostnader er estimater, og verden kan endre
 seg raskt. Dette kapittelet handler om totalrisikoen i et prosjekt, og om
 verktøyene som viser hvor mye beslutningen tåler når anslagene slår feil.
 
-Verktøyene presenteres i åtte videoer, omtrent 74 minutter til sammen, fra det
-enkleste til det mest fleksible. De senere videoene viser tilbake til de
-tidligere, så se dem i rekkefølge.
+Verktøyene presenteres i åtte videoer, omtrent 74 minutter til sammen. De
+senere videoene viser tilbake til de tidligere, så se dem i rekkefølge.
 
 ## Videoer
 
@@ -145,7 +144,6 @@ kostnader, og med lik kontantstrøm alle fire årene kan annuitetsfaktoren for
 | Optimistisk | (540 − 280) · 4 000 − 130 000 = 910 000 | −1 500 000 + 910 000 · 3,1699 ≈ **1 385 000** |
 
 Spennet er stort: fra et betydelig tap til over 1,3 millioner i verdiskaping.
-Det er nettopp dette spennet scenarioanalysen skal synliggjøre.
 
 **b)** Forventet netto nåverdi er de tre nåverdiene vektet med sannsynlighetene:
 

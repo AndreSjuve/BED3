@@ -7,9 +7,9 @@ subtitle: "Hvor lang tid tar det før investeringen er tilbakebetalt, med og ute
 
 Etter to videoer om å variere forutsetninger tar denne opp igjen en gammel
 kjenning fra tidligere i kurset: payback-metoden. Spørsmålet den stiller er
-enkelt: hvor raskt kommer pengene tilbake? Det interessante her er hvorfor et
-så grovt mål fortjener plass i verktøykassen for risikovurderinger, gitt
-begrensningene metoden er kjent for.
+enkelt: hvor raskt kommer pengene tilbake? Men hvorfor fortjener et så grovt
+mål plass i verktøykassen for risikovurderinger, gitt begrensningene metoden
+er kjent for?
 
 Videoen regner det samme eksempelet to ganger: først uten å bry seg om renter,
 så med. Følg med på hvilken retning svaret flytter seg når tidsverdien av

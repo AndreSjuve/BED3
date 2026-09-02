@@ -11,16 +11,16 @@ regne dem selv før du åpner løsningsforslagene. Sett av rundt 20 minutter til
 selve caset, mer om du regner oppgavene selv.</p>
 
 I 2023 satt Julia Meier, administrerende direktør i EcoTech Electronics, ved
-kontorpulten sin i München og reflekterte over selskapets neste store steg. Som
-en ledende aktør i det europeiske markedet for smartklokker hadde EcoTech en
-solid markedsandel på 15 %. Likevel utfordret økende konkurranse, endrede
-forbrukerpreferanser og strengere EU-reguleringer selskapet til å tenke nytt.
+kontorpulten sin i München og reflekterte over selskapets neste store steg.
+EcoTech hadde en markedsandel på 15 % i det europeiske markedet for
+smartklokker, men økende konkurranse, endrede forbrukerpreferanser og
+strengere EU-reguleringer tvang selskapet til å tenke nytt.
 
-Ledelsen ønsker å kapitalisere på nylige suksesser og sementere selskapets
-posisjon innen helseteknologi. Det neste strategiske steget er introduksjonen
-og lanseringen av EcoTime Pro, en smartklokke designet med resirkulerte
-materialer og energieffektive produksjonsprosesser. Med dette ønsker selskapet
-å sikre fremtidig vekst samtidig som de imøtekommer strenge miljøkrav.
+Ledelsen ønsker å bygge videre på de siste suksessene og styrke selskapets
+posisjon innen helseteknologi. Det neste steget er lanseringen av EcoTime Pro,
+en smartklokke designet med resirkulerte materialer og energieffektive
+produksjonsprosesser. Med den håper selskapet å vokse videre og samtidig møte
+de strenge miljøkravene.
 
 ## Bakgrunn
 
@@ -29,11 +29,10 @@ EcoTech Electronics ble grunnlagt i 2005 i München, Tyskland, og har vokst til
 en lojal kundebase ved å kombinere funksjonalitet, moderne design og en økende
 satsing på bærekraft.
 
-De siste årene har EcoTech satset sterkt på innovasjon, noe som har ført til
-lanseringer som EcoFit Basic (2018) og EcoTech Premium (2020), begge med stor
-kommersiell suksess. EcoFit Basic er siden lanseringen blitt gitt ut i
-oppdaterte utgaver, men potensialet nærmer seg slutten. Selskapet
-står overfor betydelige utfordringer:
+De siste årene har EcoTech lansert EcoFit Basic (2018) og EcoTech Premium
+(2020), begge med stor kommersiell suksess. EcoFit Basic er siden lanseringen
+blitt gitt ut i oppdaterte utgaver, men potensialet nærmer seg slutten.
+Selskapet står overfor flere utfordringer:
 
 - Økende konkurranse fra store globale aktører og mindre nisjeprodusenter.
 - Strengere EU-reguleringer som krever økt bruk av resirkulerte materialer og
@@ -41,9 +40,9 @@ står overfor betydelige utfordringer:
 - Press på marginer grunnet økte råvarepriser og energikostnader.
 
 Tabellen under oppsummerer selskapets utvikling de siste fem årene. Til tross
-for sterk vekst i perioden 2018–2022 frykter selskapet at med mindre de gjør et
-betydelig skift, så vil faktorene nevnt ovenfor snu den positive trenden raskt.
-Som svar på dette vurderer EcoTech nå å lansere EcoTime Pro.
+for sterk vekst i perioden 2018–2022 frykter selskapet at utfordringene over
+raskt kan snu trenden uten et betydelig skift. Derfor vurderer EcoTech nå å
+lansere EcoTime Pro.
 
 :::: {.table-scroll}
 ```{=html}
@@ -74,13 +73,13 @@ Som svar på dette vurderer EcoTech nå å lansere EcoTime Pro.
 
 ## Prosjektbeskrivelse
 
-EcoTime Pro er tenkt som startskuddet for EcoTechs fremtidige vekst. Designet
-for å møte EUs bærekraftstandarder, inneholder produktet flere innovasjoner.
+EcoTime Pro er tenkt som startskuddet for EcoTechs fremtidige vekst.
+Produktet er designet for å møte EUs bærekraftstandarder og inneholder flere
+innovasjoner.
 Prosjektet er også i tråd med selskapets strategiske mål om å redusere
 avhengigheten av importert fossil energi fra politisk ustabile regioner, noe
-ledelsen håper vil gjøre driften mindre sårbar. Dette
-er noe Hans Becker i stor grad er opptatt av, da han mener selskapet innen noen
-få år bør søke å gå på børs. Disse aspektene er oppsummert i tabellen under.
+ledelsen håper vil gjøre driften mindre sårbar. Dette er Hans Becker særlig
+opptatt av, da han mener selskapet innen noen få år bør søke å gå på børs. Disse aspektene er oppsummert i tabellen under.
 
 :::: {.table-scroll}
 ```{=html}
@@ -144,9 +143,8 @@ markedsundersøkelser og simuleringer basert på tidligere produktlanseringer.
 Slike data innebærer imidlertid usikkerhet. Eksterne faktorer som
 råvarepriser, endringer
 i konkurransebildet og makroøkonomiske forhold kan påvirke resultatene
-betydelig. For eksempel er salgsprognosene for EcoTime Pro avhengige av
-forbrukernes respons på bærekraftige produkter og potensielle endringer i
-kjøpsvaner, noe som kan være vanskelig å forutsi nøyaktig. Det vi vet om
+betydelig. For eksempel er salgsprognosene for EcoTime Pro avhengige av forbrukernes
+respons på bærekraftige produkter og endringer i kjøpsvaner. Det vi vet om
 prosjektet så langt er oppsummert i tabellen under.
 
 :::: {.table-scroll}
@@ -339,9 +337,8 @@ knyttet til produktutvikling på EUR 1 million. I kontantstrømtabellen er
 beløpet for investeringskostnader kun EUR 5 millioner. Hvorfor har vi ikke tatt
 med påløpte kostnader for produktutvikling?
 
-Når vi skal vurdere om dette prosjektet skal gjennomføres eller ikke, er det
-viktig å huske at kostnader som *allerede* har inntruffet ikke skal belastes
-prosjektet, da dette er
+Kostnader som *allerede* har inntruffet, skal ikke belastes prosjektet når vi
+vurderer om det skal gjennomføres, da de er
 [sunk cost](https://www.investopedia.com/terms/s/sunkcost.asp).
 
 *Faste kostnader.*
@@ -376,7 +373,7 @@ etter at investeringen er gjort.
 
 Det er som regel mer utfordrende å forstå arbeidskapitalen. Dette er
 tilleggsfinansiering som er nødvendig fordi du har varelager og kundefordringer
-som binder kapital. Vi vil eksakt finne ut hvor stor denne er før vi får inn
+som binder kapital. Vi vil finne ut nøyaktig hvor stor den er før vi får inn
 penger fra salg av produserte varer. En måte å tenke på arbeidskapital på er
 som en vanntank du fyller opp og tapper fra:
 

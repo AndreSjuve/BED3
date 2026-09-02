@@ -11,8 +11,8 @@ konstruksjonen nøye: en portefølje settes sammen slik at utbetalingen ved
 forfall blir den samme i absolutt alle utfall. Hva må en slik portefølje være
 verdt i dag, og hvilket krav legger det på prisene til de fire komponentene?
 
-Merk deg forutsetningene, for de er ikke pynt: opsjonene må være europeiske,
-med samme kontraktspris og samme forfall. Siste del snur sammenhengen til et
+Merk deg forutsetningene: opsjonene må være europeiske, med samme
+kontraktspris og samme forfall. Uten dem ryker hele konstruksjonen. Siste del snur sammenhengen til et
 våpen: hva gjør du konkret hvis én av kontraktene i markedet er priset for
 høyt, og hvorfor er gevinsten uten risiko?
 

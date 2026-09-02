@@ -14,8 +14,8 @@ inflasjonseffekten.
 
 Følg nøye med på hvilke poster som vokser med prisstigningen og hvilke som
 står bom stille. Skillet er ikke tilfeldig, og det er her de fleste
-regnefeilene skjer. Arbeidskapitalen fortjener et ekstra blikk: den oppfører
-seg annerledes enn i det opprinnelige caset, med små beløp som dukker opp år
+regnefeilene skjer. Se ekstra nøye på arbeidskapitalen: den oppfører seg
+annerledes enn i det opprinnelige caset, med små beløp som dukker opp år
 for år. Hvorfor gjør den det, og hva skjer med alt sammen når prosjektet
 avsluttes?
 

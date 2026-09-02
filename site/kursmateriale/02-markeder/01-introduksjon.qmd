@@ -5,7 +5,7 @@ subtitle: "Oversikt over finansielle markeder og kontrakter"
 
 ## Hvor er vi i kurset?
 
-Kurset har så langt analysert tre sentrale sider ved finansielle beslutninger.
+Kurset har så langt analysert tre sider ved finansielle beslutninger.
 
 Først [investeringsanalyse](../01-investeringsanalyse/01-introduksjon.qmd):
 hvordan foretak vurderer lønnsomheten av realinvesteringer ved hjelp av

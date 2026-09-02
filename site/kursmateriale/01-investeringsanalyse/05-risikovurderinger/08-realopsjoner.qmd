@@ -5,7 +5,7 @@ subtitle: "Verdien av fleksibilitet: å kunne vente, utvide eller avslutte"
 
 ## Før du ser videoen
 
-Nåverdianalysen har til nå vært bombastisk: ja eller nei, én gang for alle. Men
+Nåverdianalysen har til nå vært kategorisk: ja eller nei, én gang for alle. Men
 en bedrift kan justere kursen etter at beslutningen er tatt: vente på mer
 informasjon, skalere opp en suksess, legge ned en fiasko. Forrige videos tre
 hintet allerede om dette. Slike justeringsmuligheter kalles realopsjoner, og
@@ -51,7 +51,7 @@ på akkurat det, og merk deg hvilke tre opsjonstyper videoen navngir underveis.
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Fordi den ikke regner med at bedriften kan gjøre justeringer etter at prosjektet er akseptert</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Fordi den bruker et for lavt avkastningskrav</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Fordi den overser at kontantstrømmene kan bli lavere enn forventet</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Standardanalysen behandler prosjektet som fastlåst: besluttet én gang, kjørt uendret ut levetiden. Verdien av å kunne vente, utvide eller avslutte kommer da aldri med, og nåverdien blir et konservativt anslag. Alternativ C er ikke problemet: dårlige utfall ligger allerede inne i forventede kontantstrømmer; det som mangler, er verdien av å kunne reagere på dem. Og B skyter på nevneren; skjevheten sitter i beskrivelsen av prosjektet, ikke i kravet.</p>
+<p class="quiz__feedback" hidden>Standardanalysen behandler prosjektet som fastlåst: besluttet én gang, kjørt uendret ut levetiden. Verdien av å kunne vente, utvide eller avslutte kommer da aldri med, og nåverdien blir et konservativt anslag. Alternativ C er ikke problemet: dårlige utfall ligger allerede inne i forventede kontantstrømmer; det som mangler, er verdien av å kunne reagere på dem. Og B legger skylden på nevneren; skjevheten sitter i beskrivelsen av prosjektet, ikke i kravet.</p>
 </div>
 <div class="quiz__q" data-answer="b">
 <p class="quiz__prompt">4. En fabrikk koster 600 og produserer én maskin i året for alltid, første gang allerede i investeringsåret. I dag selges maskinen for 80; om ett år stiger prisen til 120 eller faller til 40, hver med 50 prosent sannsynlighet, og blir deretter stående. Avkastningskravet er 10 prosent. Hva er verdien av å kunne vente ett år med å investere?</p>

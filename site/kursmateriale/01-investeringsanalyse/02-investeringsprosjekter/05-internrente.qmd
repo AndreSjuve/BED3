@@ -13,8 +13,8 @@ Videoen gir først én presis definisjon. Merk deg hva den bygger på (noe i
 prosjektet selv, eller noe utenfra) og hvorfor den får sitt eget symbol.
 Deretter kommer beslutningsregelen, og så fire situasjoner der internrenten
 svikter: fortegnsskift, prosjektstørrelse, ulik varighet og en lite realistisk
-forutsetning om reinvestering. Poenget er ikke at internrenten er ubrukelig, men
-at den sjelden bør stå alene.
+forutsetning om reinvestering. Internrenten er ikke ubrukelig, men den bør
+sjelden stå alene.
 
 ::::: {.video}
 ```{=html}

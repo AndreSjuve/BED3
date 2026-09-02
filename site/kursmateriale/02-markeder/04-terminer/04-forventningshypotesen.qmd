@@ -8,13 +8,13 @@ subtitle: "Når er terminprisen lik forventet spotpris?"
 Lagringskostnadshypotesen koblet terminprisen til dagens spotpris. Men finnes
 det også en kobling til fremtiden, til det markedet tror spotprisen blir den
 dagen kontrakten forfaller? Det er påstanden i forventningshypotesen, og
-videoen tar den grundig i ettersyn i stedet for å ta den for gitt.
+videoen går den etter i sømmene i stedet for å ta den for gitt.
 
 Verktøyet er kjent fra før: kapitalverdimodellen og skillet mellom risiko som
 kan diversifiseres vekk og risiko som ikke kan det. Videoen setter opp
 kontantstrømmene til en spekulant som går lang i en kontrakt, verdsetter
-strategien som en hvilken som helst investering, og lar netto nåverdi lik null
-gjøre resten. Følg utledningen tett, og merk deg hvilken egenskap ved
+strategien som en hvilken som helst investering, og utleder terminprisen fra
+kravet om at netto nåverdi skal være null. Følg utledningen tett, og merk deg hvilken egenskap ved
 underliggende som avgjør om hypotesen holder eller ryker.
 
 ::::: {.video}

@@ -7,9 +7,8 @@ subtitle: "Backwardation, contango og spekulantenes risikopremie"
 
 To prisingsteorier er på plass, men ingen av dem forklarer hvorfor terminprisen
 i praksis snart ligger over og snart under det markedet venter seg. Denne
-videoen tilbyr en tredje innfallsvinkel som supplerer de to andre: den ser på
-hvem som faktisk deltar i markedet, og hva som skjer når gruppene ikke er i
-likevekt.
+videoen supplerer dem med en tredje innfallsvinkel: hvem deltar faktisk i
+markedet, og hva skjer når gruppene ikke er i likevekt?
 
 Hold styr på tre roller (produsenter, forbrukere og spekulanter) og på hvem
 som vil hva i terminmarkedet. Hvem må lokkes inn for at markedet skal klarere,

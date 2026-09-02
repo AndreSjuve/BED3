@@ -5,8 +5,8 @@ subtitle: "Hovedregelen: hvor mye rikere prosjektet gjør oss i dag"
 
 ## Før du ser videoen
 
-Hvis du bare tar med deg én metode fra dette kapittelet, er det denne. Netto
-nåverdi svarer direkte på spørsmålet fra forrige video: skaper prosjektet verdi?
+Netto nåverdi er kapittelets hovedmetode, og den svarer direkte på spørsmålet
+fra forrige video: skaper prosjektet verdi?
 
 Metoden setter sammen alt vi har gjort så langt. Sekvensen av kontantstrømmer
 fra video 1 veksles til dagens kroner med diskonteringsfaktoren fra video 3, og
@@ -49,7 +49,7 @@ avgjør om spørsmålet ditt er «bør vi?» eller «hvilket?».
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Velger det som gir størst prosentvis avkastning på investert beløp</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Velger B, som har høyest netto nåverdi</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Velger det som tjener inn investeringen raskest</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Netto nåverdi måler absolutt verdiskaping i kroner, og når vi må velge ett, velger vi det som gjør eierne mest rikere. Alternativ A og C er de to andre kriteriene fra video 2 brukt alene: høyest prosent, eller kortest tilbakebetalingstid. Begge kan peke på A her, og begge kan ta feil, fordi ingen av dem måler hvor mange kroner som skapes. Det er nettopp prosenttankegangen i alternativ A som skaper problemer i neste video.</p>
+<p class="quiz__feedback" hidden>Netto nåverdi måler absolutt verdiskaping i kroner, og når vi må velge ett, velger vi det som gjør eierne rikest. Alternativ A og C er de to andre kriteriene fra video 2 brukt alene: høyest prosent, eller kortest tilbakebetalingstid. Begge kan peke på A her, og begge kan ta feil, fordi ingen av dem måler hvor mange kroner som skapes. Det er nettopp prosenttankegangen i alternativ A som skaper problemer i neste video.</p>
 </div>
 <div class="quiz__q" data-answer="c">
 <p class="quiz__prompt">4. Et prosjekt krever 350 000 kroner i dag og gir 150 000 kroner ved slutten av hvert av de tre neste årene. Avkastningskravet er 9 %. Hva er netto nåverdi?</p>

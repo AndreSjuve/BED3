@@ -9,10 +9,10 @@ Så langt har vi tatt avkastningskravet for gitt. I praksis er det et estimat so
 alt annet i økonomi, og denne videoen handler derfor egentlig om
 følsomhetsanalyse: hva skjer med lønnsomheten når kravet endrer seg?
 
-Nåverdiprofilen er kurven som viser den sammenhengen, og den gir to ting nesten
-gratis. Et begrep fra forrige video kan leses rett av figuren; se om du finner
-det. Og setter du to prosjekter i samme diagram, ser du hvor rangeringen mellom
-dem snur; det er hovedpoenget. Videoen regner gjennom et slikt par og viser hvor
+Nåverdiprofilen er kurven som viser den sammenhengen. Et begrep fra forrige
+video kan leses rett av figuren; se om du finner det. Og setter du to
+prosjekter i samme diagram, ser du hvor rangeringen mellom dem snur; det er
+hovedpoenget. Videoen regner gjennom et slikt par og viser hvor
 mye slingringsmonn anslaget ditt på avkastningskravet faktisk har.
 
 ::::: {.video}

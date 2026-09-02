@@ -8,8 +8,7 @@ subtitle: "Delperioderenter, betalingsfrekvens og forskudds- mot etterskuddsrent
 Hva koster egentlig et lån per år? Så lenge alt betales én gang i året, kan
 svaret leses rett ut av rentesatsen. Men tilbudene du møter, har månedlige
 terminer, kvartalsvise renter og gebyrer, og noen krever renten betalt på
-forskudd. Denne videoen bygger verktøyet som gjør slike tilbud
-sammenlignbare.
+forskudd. Denne videoen viser hvordan slike tilbud gjøres sammenlignbare.
 
 To omregninger står i sentrum. Den ene går fra delperioderente til årsrente:
 følg med på hva som skjer med kostnaden når terminene blir kortere. Den

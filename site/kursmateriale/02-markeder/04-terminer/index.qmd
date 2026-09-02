@@ -276,8 +276,8 @@ måneder, standardavvik (5,3 + 2,2)/2 = **3,75 %**.
 (−5 %): forventet avkastning 2,5 % og standardavvik 7,5 %. Antall solgte
 kontrakter velger altså et punkt på linjen mellom risikofri plassering
 (0,6 % sikkert) og full markedseksponering (2,5 % forventet, 7,5 % i
-standardavvik). Sikring er ikke gratis trygghet, men et bytte av forventet
-avkastning mot redusert risiko.
+standardavvik). Sikring er et bytte av forventet avkastning mot redusert
+risiko.
 
 ::::
 

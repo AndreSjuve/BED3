@@ -45,7 +45,7 @@ i noe marked. Hva da?
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>En kort posisjon i en kjøpsopsjon</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>En lang posisjon i en salgsopsjon</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>En lang posisjon i en kjøpsopsjon</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Flat, begrenset nedside og en 45-graderslinje på oppsiden: det er nøyaktig profilen til en kjøpt kjøpsopsjon, og videoen løfter det frem som et frempek mot put-call-pariteten: kombinasjoner av aksje, opsjon og lån kan gjenskape andre opsjoner. A er speilbildet: begrenset oppside og stor nedside. B har riktignok begrenset tap, men tjener på kurs<em>fall</em>; porteføljen her tjener på oppgang.</p>
+<p class="quiz__feedback" hidden>Flat, begrenset nedside og en 45-graderslinje på oppsiden: det er nøyaktig profilen til en kjøpt kjøpsopsjon, og videoen bruker det som et frempek mot put-call-pariteten: kombinasjoner av aksje, opsjon og lån kan gjenskape andre opsjoner. A er speilbildet: begrenset oppside og stor nedside. B har riktignok begrenset tap, men tjener på kurs<em>fall</em>; porteføljen her tjener på oppgang.</p>
 </div>
 <div class="quiz__q" data-answer="b">
 <p class="quiz__prompt">3. Du kjøper både en kjøpsopsjon og en salgsopsjon med samme kontraktspris på samme underliggende. Når tjener du penger?</p>

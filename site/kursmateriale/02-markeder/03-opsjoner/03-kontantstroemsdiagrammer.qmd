@@ -14,8 +14,8 @@ symmetriske og andre knekte, og hvor knekken havner.
 Videoen går systematisk gjennom seks posisjoner: lang og kort i selve aksjen,
 og lang og kort i både kjøps- og salgsopsjonen. For hver av dem bør du kunne
 svare på to spørsmål: hvor stor er oppsiden, og hvor stor er nedsiden?
-Sammendraget til slutt (hvem har rett og hvem har plikt) er verdt å stoppe
-på.
+Stopp gjerne opp ved sammendraget til slutt: hvem har rett, og hvem har
+plikt.
 
 ::::: {.video}
 ```{=html}

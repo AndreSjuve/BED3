@@ -12,9 +12,9 @@ beslutningstager som ett enkelt tall aldri kan gi, og hvilket tall i
 fordelingen som interesserer oss mest.
 
 Det ligger også en felle i diskonteringen her: Når usikkerheten modelleres
-eksplisitt i kontantstrømmene, hva skal da stå i nevneren? Videoens eksempel er
-verdt å se nøye på: sjekk om forutsetningene som legges inn, egentlig lover et
-lønnsomt prosjekt, og hvordan det synes igjen i resultatet.
+eksplisitt i kontantstrømmene, hva skal da stå i nevneren? Se nøye på videoens
+eksempel: sjekk om forutsetningene som legges inn, egentlig lover et lønnsomt
+prosjekt, og hvordan det synes igjen i resultatet.
 
 ::::: {.video}
 ```{=html}
@@ -51,7 +51,7 @@ lønnsomt prosjekt, og hvordan det synes igjen i resultatet.
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Å få gjennomført nåverdiberegningen mange nok ganger</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Å spesifisere realistiske sannsynlighetsfordelinger for variablene, og samvariasjonen mellom dem</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Å fremstille resultatene i et histogram</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Er salgsprisen normalfordelt? Er mengden uniformt fordelt? Hvordan beveger kostnadene seg sammen med resten? Slike valg krever innsikt og diskusjon, og de er hovedkilden til svakheter i analysen, i tillegg til at resultatene krever statistisk ryggrad å tolke. Alternativ A og C er derimot det enkleste av alt: titusenvis av gjennomregninger og et plott er rutinearbeid for programvaren, ikke for analytikeren.</p>
+<p class="quiz__feedback" hidden>Er salgsprisen normalfordelt? Er mengden uniformt fordelt? Hvordan beveger kostnadene seg sammen med resten? Slike valg krever innsikt og diskusjon, og de er hovedkilden til svakheter i analysen, i tillegg til at det krever statistisk kompetanse å tolke resultatene. Alternativ A og C er derimot det enkleste av alt: titusenvis av gjennomregninger og et plott er rutinearbeid for programvaren, ikke for analytikeren.</p>
 </div>
 <p class="quiz__score" role="status" aria-live="polite"></p>
 </div>

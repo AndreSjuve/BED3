@@ -8,7 +8,7 @@ subtitle: "Full og halv sikring: hvor mye prisrisiko vil du beholde?"
 Alt i delen har pekt frem mot dette: hvordan brukes terminkontrakter til å
 flytte risiko man ikke vil ha? Videoen starter med en produsent som kan låse
 inn salgsprisen sin, og viser både grafisk og med tall hva som skjer med den
-oppnådde prisen når spotmarkedet går hver sin vei.
+oppnådde prisen når spotmarkedet stiger og når det faller.
 
 Underveis dukker gevinst- og tapsdiagrammene fra
 [opsjonsdelen](../03-opsjoner/index.qmd) opp igjen, nå tegnet for terminposisjoner.

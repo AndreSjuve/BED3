@@ -45,7 +45,7 @@ den ikke kan svare på; det er den som motiverer neste video.
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Netto nåverdi er mer følsom for en gitt prosentvis endring i pris enn for samme endring i mengde</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Prisen er mer sannsynlig å endre seg enn mengden</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Prosjektet blir raskere ulønnsomt av endringer i mengde enn av endringer i pris</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Hellingen måler følsomhet: hvor mye netto nåverdi flytter seg per prosent endring i variabelen. I EcoTime-eksempelet er det nettopp prislinjen som er brattest: samme prosentvise løft gir større utslag via pris enn via mengde. Alternativ B leser noe ut av figuren som ikke står der; diagrammet sier ingenting om hvor sannsynlige endringene er. Og C har det motsatt vei: den slakeste linjen er den som senest krysser null.</p>
+<p class="quiz__feedback" hidden>Hellingen måler følsomhet: hvor mye netto nåverdi flytter seg per prosent endring i variabelen. I EcoTime-eksempelet er det nettopp prislinjen som er brattest: samme prosentvise løft gir større utslag via pris enn via mengde. Alternativ B leser noe ut av figuren som ikke står der; diagrammet sier ingenting om hvor sannsynlige endringene er. Og C er motsatt: den slakeste linjen er den som senest krysser null.</p>
 </div>
 <div class="quiz__q" data-answer="b">
 <p class="quiz__prompt">3. Hva er den viktigste svakheten ved stjernediagram som videoen trekker frem?</p>
