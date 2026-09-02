@@ -5,6 +5,7 @@ project:
     # Built by tools/build-formelark-pdf.py from formelark.qmd — not rendered
     # by Quarto, just copied through to _site.
     - assets/formelark.pdf
+    - assets/people
     # Built by tools/build-plansjer.py from docs/Forelesninger/*.zip
     - assets/plansjer
 
@@ -32,6 +33,8 @@ website:
         text: "Formelark"
       - href: timeplan.qmd
         text: "Timeplan"
+      - href: bed3-buddy.qmd
+        text: "BED3-Buddy"
 
   sidebar:
     - id: kursmateriale

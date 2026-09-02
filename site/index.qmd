@@ -72,15 +72,15 @@ hvor kapitalen kommer fra, hva den koster, og hvordan risiko prises.
 
 ::::: {.people}
 :::: {.person}
-<div class="portrait-placeholder" aria-hidden="true">FS</div>
+<img class="portrait" src="assets/people/frode-saettem.jpg" alt="Frode Sættem">
 <div class="person__name">Frode Sættem</div>
 <div class="person__role">Professor · kursansvarlig</div>
 
-[frode.saettem@nhh.no](mailto:frode.saettem@nhh.no)
+[frode.sattem@nhh.no](mailto:frode.sattem@nhh.no)
 ::::
 
 :::: {.person}
-<div class="portrait-placeholder" aria-hidden="true">AS</div>
+<img class="portrait" src="assets/people/andre-sjuve.jpg" alt="André Wattø Sjuve">
 <div class="person__name">André Wattø Sjuve</div>
 <div class="person__role">Førsteamanuensis · foreleser</div>
 
@@ -88,7 +88,7 @@ hvor kapitalen kommer fra, hva den koster, og hvordan risiko prises.
 ::::
 
 :::: {.person}
-<div class="portrait-placeholder" aria-hidden="true">AØ</div>
+<img class="portrait" src="assets/people/andreas-orpetveit.jpg" alt="Andreas Ørpetveit">
 <div class="person__name">Andreas Ørpetveit</div>
 <div class="person__role">Førsteamanuensis · foreleser</div>
 

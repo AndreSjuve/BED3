@@ -983,6 +983,18 @@ details.solution {
 .person__role { color: $bed3-muted; font-size: var(--size-small); font-style: italic; }
 .person a { font-size: var(--size-small); }
 
+// Real portraits share the placeholder's frame; object-fit handles the
+// square sources without destructive cropping.
+.portrait {
+  width: 100%;
+  max-width: 11rem;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: 50% 25%;
+  border: 1px solid $bed3-rule;
+  display: block;
+}
+
 .portrait-placeholder {
   width: 100%;
   max-width: 11rem;
