@@ -17,19 +17,16 @@ og hva slags betaling krever de for å stille opp? Svaret gir navn til to
 tilstander du vil møte igjen i finanspressen: backwardation og contango.
 
 ::::: {.video}
-<div class="video__placeholder">
-  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
-  <span>Video 5 · Volumbalansen i markedet</span>
-</div>
+```{=html}
+<iframe src="https://nhh.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=0a2f733d-1e52-48d7-8e54-b418011d27cf&v=1&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all"
+        title="Video 5 · Volumbalansen i markedet" allowfullscreen allow="autoplay; fullscreen" loading="lazy"></iframe>
+```
 :::::
 
 ::::: {.video-meta}
 13:29 &nbsp;·&nbsp; Video 5 av 6 &nbsp;·&nbsp; [Del 15 · Terminkontrakter](index.qmd)
 :::::
 
-<p class="note">Videoen er ikke lenket opp enkeltvis ennå — du finner den i
-kapittelets
-<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%228e73c88a-e61c-40eb-b060-b3d00112cf92%22">Panopto-mappe</a>.</p>
 
 ## Sjekk forståelsen
 

@@ -18,19 +18,24 @@ som faktisk er kontantstrømmer, og på hva som skjer den dagen prosjektet
 avvikles.
 
 ::::: {.video}
-<div class="video__placeholder">
-  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
-  <span>Video 2 · Kontantstrøm til totalkapitalen</span>
-</div>
+```{=html}
+<iframe src="https://nhh.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=75e19f25-dda8-4a35-bd56-b3c900e4928e&v=1&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all"
+        title="Video 2 · Kontantstrøm til totalkapitalen" allowfullscreen allow="autoplay; fullscreen" loading="lazy"></iframe>
+```
 :::::
 
 ::::: {.video-meta}
 18:21 &nbsp;·&nbsp; Video 2 av 4 &nbsp;·&nbsp; [Del 2 · Effekter av skatt og lån](index.qmd)
 :::::
 
-<p class="note">Videoen er ikke lenket opp enkeltvis ennå — du finner den i
-kapittelets
-<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%228a93998b-dfe1-41a4-9825-b3c900e132df%22">Panopto-mappe</a>.</p>
+::::: {.corrections}
+**Rettelser.** Kjente feil i opptaket, med riktig verdi:
+
+- **18:10** — Internrenten oppgis som «25,07 %». Riktig internrente for
+  kontantstrømmen er ≈ 28,4 %. Konklusjonen står: begge er godt over
+  avkastningskravet på 9,5 %. Samme tall står i casedokumentet.
+:::::
+
 
 ## Sjekk forståelsen
 

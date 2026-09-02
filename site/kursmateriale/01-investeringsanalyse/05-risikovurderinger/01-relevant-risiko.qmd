@@ -18,19 +18,16 @@ det hele tatt å drive med følsomhetsanalyse; de går igjen i alle videoene som
 følger.
 
 ::::: {.video}
-<div class="video__placeholder">
-  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
-  <span>Video 1 · Relevant risiko</span>
-</div>
+```{=html}
+<iframe src="https://nhh.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=f8181d0f-2663-4201-93a8-b3cf00c13ef5&v=1&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all"
+        title="Video 1 · Relevant risiko" allowfullscreen allow="autoplay; fullscreen" loading="lazy"></iframe>
+```
 :::::
 
 ::::: {.video-meta}
 6:23 &nbsp;·&nbsp; Video 1 av 8 &nbsp;·&nbsp; [Del 4 · Risikovurderinger](index.qmd)
 :::::
 
-<p class="note">Videoen er ikke lenket opp enkeltvis ennå — du finner den i
-kapittelets
-<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%221e3f6c19-339c-443f-82a3-b3c900fd9efc%22">Panopto-mappe</a>.</p>
 
 ## Sjekk forståelsen
 

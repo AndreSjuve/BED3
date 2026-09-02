@@ -19,19 +19,16 @@ hva er et subsidiert «billiglån» verdt, og hvilken målestokk skal verdien
 måles mot?
 
 ::::: {.video}
-<div class="video__placeholder">
-  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
-  <span>Video 3 · Lånetyper</span>
-</div>
+```{=html}
+<iframe src="https://nhh.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=681bcd9a-31aa-49a7-bc65-b3d001102b54&v=1&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all"
+        title="Video 3 · Lånetyper" allowfullscreen allow="autoplay; fullscreen" loading="lazy"></iframe>
+```
 :::::
 
 ::::: {.video-meta}
 06:16 &nbsp;·&nbsp; Video 3 av 5 &nbsp;·&nbsp; [Del 5 · Låne- og betalingsalternativer](index.qmd)
 :::::
 
-<p class="note">Videoen er ikke lenket opp enkeltvis ennå — du finner den i
-kapittelets
-<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22fbcdb4ff-7d88-4cff-b26c-b3c900fdadb2%22">Panopto-mappe</a>.</p>
 
 ## Sjekk forståelsen
 

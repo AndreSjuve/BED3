@@ -17,19 +17,16 @@ seg å takke nei til et lønnsomt prosjekt nå? Følg regnestykket som setter ta
 på akkurat det, og merk deg hvilke tre opsjonstyper videoen navngir underveis.
 
 ::::: {.video}
-<div class="video__placeholder">
-  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
-  <span>Video 8 · Realopsjoner</span>
-</div>
+```{=html}
+<iframe src="https://nhh.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=a9ccce9d-e0e8-483c-99e8-b3cf00c434f1&v=1&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all"
+        title="Video 8 · Realopsjoner" allowfullscreen allow="autoplay; fullscreen" loading="lazy"></iframe>
+```
 :::::
 
 ::::: {.video-meta}
 15:29 &nbsp;·&nbsp; Video 8 av 8 &nbsp;·&nbsp; [Del 4 · Risikovurderinger](index.qmd)
 :::::
 
-<p class="note">Videoen er ikke lenket opp enkeltvis ennå — du finner den i
-kapittelets
-<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%221e3f6c19-339c-443f-82a3-b3c900fd9efc%22">Panopto-mappe</a>.</p>
 
 ## Sjekk forståelsen
 

@@ -27,6 +27,14 @@ erstatter netto nåverdi — de utfyller den.
 14:52 &nbsp;·&nbsp; Video 7 av 8 &nbsp;·&nbsp; [Del 1 · Investeringsprosjekter](index.qmd)
 :::::
 
+::::: {.corrections}
+**Rettelser.** Kjente feil i opptaket, med riktig verdi:
+
+- **09:07** — Netto nåverdi for prosjekt A oppgis som «130 000». Riktig verdi
+  er 120 000, som i video 6 — nåverdiindeksen 0,106 (= 120 000/1 130 000)
+  bekrefter det.
+:::::
+
 <p class="note">Vi følger forelesningen og definerer nåverdiindeksen som
 NVI&nbsp;=&nbsp;NNV/I<sub>0</sub>, med grensen NVI&nbsp;&gt;&nbsp;0. Lærebøker
 definerer den ofte i stedet som nåverdien av innbetalingene delt på

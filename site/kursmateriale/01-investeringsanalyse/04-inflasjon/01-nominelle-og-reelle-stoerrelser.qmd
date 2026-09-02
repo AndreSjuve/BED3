@@ -18,19 +18,16 @@ realrente pluss inflasjon? Svaret er nesten — og videoen viser hvorfor
 «nesten» ikke er godt nok.
 
 ::::: {.video}
-<div class="video__placeholder">
-  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
-  <span>Video 1 · Nominelle og reelle størrelser</span>
-</div>
+```{=html}
+<iframe src="https://nhh.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=674759f5-0ba7-4d7c-98c8-b3cb011bd719&v=1&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all"
+        title="Video 1 · Nominelle og reelle størrelser" allowfullscreen allow="autoplay; fullscreen" loading="lazy"></iframe>
+```
 :::::
 
 ::::: {.video-meta}
 10:15 &nbsp;·&nbsp; Video 1 av 4 &nbsp;·&nbsp; [Del 3 · Effekter av inflasjon](index.qmd)
 :::::
 
-<p class="note">Videoen er ikke lenket opp enkeltvis ennå — du finner den i
-kapittelets
-<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%2209cb074c-18c9-4651-bd47-b3c900fd95bd%22">Panopto-mappe</a>.</p>
 
 ## Sjekk forståelsen
 

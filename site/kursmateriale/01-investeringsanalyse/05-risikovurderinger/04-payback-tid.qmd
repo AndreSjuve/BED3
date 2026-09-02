@@ -18,19 +18,16 @@ egentlig løses i det diskonterte tilfellet, og hva som skiller den fra en
 internrenteberegning du kjenner fra før.
 
 ::::: {.video}
-<div class="video__placeholder">
-  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
-  <span>Video 4 · Payback-tid</span>
-</div>
+```{=html}
+<iframe src="https://nhh.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=1dfa55d2-238e-4ac0-a6f3-b3cf00c1eb77&v=1&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all"
+        title="Video 4 · Payback-tid" allowfullscreen allow="autoplay; fullscreen" loading="lazy"></iframe>
+```
 :::::
 
 ::::: {.video-meta}
 6:33 &nbsp;·&nbsp; Video 4 av 8 &nbsp;·&nbsp; [Del 4 · Risikovurderinger](index.qmd)
 :::::
 
-<p class="note">Videoen er ikke lenket opp enkeltvis ennå — du finner den i
-kapittelets
-<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%221e3f6c19-339c-443f-82a3-b3c900fd9efc%22">Panopto-mappe</a>.</p>
 
 ## Sjekk forståelsen
 

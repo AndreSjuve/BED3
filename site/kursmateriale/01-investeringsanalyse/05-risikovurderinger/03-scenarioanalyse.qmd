@@ -17,19 +17,16 @@ overlever når forutsetningene får lov til å svikte samtidig. Og merk deg hvor
 videoen mener den største svakheten ved metoden selv ligger.
 
 ::::: {.video}
-<div class="video__placeholder">
-  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
-  <span>Video 3 · Scenarioanalyse</span>
-</div>
+```{=html}
+<iframe src="https://nhh.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=aca9f400-6119-4d55-9891-b3cf00c1a599&v=1&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all"
+        title="Video 3 · Scenarioanalyse" allowfullscreen allow="autoplay; fullscreen" loading="lazy"></iframe>
+```
 :::::
 
 ::::: {.video-meta}
 9:00 &nbsp;·&nbsp; Video 3 av 8 &nbsp;·&nbsp; [Del 4 · Risikovurderinger](index.qmd)
 :::::
 
-<p class="note">Videoen er ikke lenket opp enkeltvis ennå — du finner den i
-kapittelets
-<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%221e3f6c19-339c-443f-82a3-b3c900fd9efc%22">Panopto-mappe</a>.</p>
 
 ## Sjekk forståelsen
 

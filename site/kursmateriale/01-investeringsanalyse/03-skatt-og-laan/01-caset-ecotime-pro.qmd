@@ -9,7 +9,8 @@ I forrige kapittel var kontantstrømmene alltid oppgitt, og jobben var å vurder
 dem. I praksis er det omvendt: den vanskeligste delen av investeringsanalysen
 er å komme fram til riktige kontantstrømmer i utgangspunktet. Dette kapittelet gjør nettopp det, og alt bygges rundt ett
 gjennomgående case — EcoTech Electronics, som vurderer å lansere smartklokken
-EcoTime Pro.
+EcoTime Pro. Har du ikke lest caset, gjør det først —
+[caset](00-caset-ecotech.qmd).
 
 Denne første videoen presenterer beslutningen og datagrunnlaget. Se den som en
 innkjøpsliste: hvilke tall trengs, og hvor kommer de fra? Legg særlig merke til
@@ -18,19 +19,16 @@ analysen — og at prosjektet kan påvirke salget av produkter selskapet allered
 har. Hvorfor det, og hvor grensen går, er spørsmålene å ha med seg.
 
 ::::: {.video}
-<div class="video__placeholder">
-  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
-  <span>Video 1 · Caset EcoTime Pro</span>
-</div>
+```{=html}
+<iframe src="https://nhh.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=ea67dc04-2b58-4b41-8951-b3c900e45131&v=1&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all"
+        title="Video 1 · Caset EcoTime Pro" allowfullscreen allow="autoplay; fullscreen" loading="lazy"></iframe>
+```
 :::::
 
 ::::: {.video-meta}
 12:12 &nbsp;·&nbsp; Video 1 av 4 &nbsp;·&nbsp; [Del 2 · Effekter av skatt og lån](index.qmd)
 :::::
 
-<p class="note">Videoen er ikke lenket opp enkeltvis ennå — du finner den i
-kapittelets
-<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%228a93998b-dfe1-41a4-9825-b3c900e132df%22">Panopto-mappe</a>.</p>
 
 ## Sjekk forståelsen
 

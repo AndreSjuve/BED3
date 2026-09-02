@@ -18,19 +18,16 @@ mellom partene: det den ene betaler, mottar den andre. Hvorfor diskonterer
 de to likevel med hver sin rente?
 
 ::::: {.video}
-<div class="video__placeholder">
-  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
-  <span>Video 5 · Leasing</span>
-</div>
+```{=html}
+<iframe src="https://nhh.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=6f3d6f2f-ed1a-49ed-ad6c-b3d0011116d5&v=1&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all"
+        title="Video 5 · Leasing" allowfullscreen allow="autoplay; fullscreen" loading="lazy"></iframe>
+```
 :::::
 
 ::::: {.video-meta}
 08:29 &nbsp;·&nbsp; Video 5 av 5 &nbsp;·&nbsp; [Del 5 · Låne- og betalingsalternativer](index.qmd)
 :::::
 
-<p class="note">Videoen er ikke lenket opp enkeltvis ennå — du finner den i
-kapittelets
-<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22fbcdb4ff-7d88-4cff-b26c-b3c900fdadb2%22">Panopto-mappe</a>.</p>
 
 ## Sjekk forståelsen
 

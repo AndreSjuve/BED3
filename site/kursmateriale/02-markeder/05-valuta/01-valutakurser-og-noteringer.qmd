@@ -18,19 +18,16 @@ spotkurs fra en forwardkurs. Til slutt kommer et begrepspar for forholdet
 mellom de to — legg merke til at også det skifter fortegn med noteringsmåten.
 
 ::::: {.video}
-<div class="video__placeholder">
-  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
-  <span>Video 1 · Valutakurser og noteringer</span>
-</div>
+```{=html}
+<iframe src="https://nhh.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=898b9310-69be-401c-8eb5-b41a01171318&v=1&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all"
+        title="Video 1 · Valutakurser og noteringer" allowfullscreen allow="autoplay; fullscreen" loading="lazy"></iframe>
+```
 :::::
 
 ::::: {.video-meta}
 06:49 &nbsp;·&nbsp; Video 1 av 3 &nbsp;·&nbsp; [Del 16 · Internasjonal finans](index.qmd)
 :::::
 
-<p class="note">Videoen er ikke lenket opp enkeltvis ennå — du finner den i
-kapittelets
-<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22f8feb25e-8478-416a-959a-b3d00112dc57%22">Panopto-mappe</a>.</p>
 
 ## Sjekk forståelsen
 

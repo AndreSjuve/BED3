@@ -18,19 +18,16 @@ andre bare gir en tilnærming. Til slutt kommer to gjennomregnede eksempler
 som setter tall på alt sammen.
 
 ::::: {.video}
-<div class="video__placeholder">
-  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
-  <span>Video 5 · Renterisiko og durasjon</span>
-</div>
+```{=html}
+<iframe src="https://nhh.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=15e3ceb4-613c-472f-9d44-b40401116f3c&v=1&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all"
+        title="Video 5 · Renterisiko og durasjon" allowfullscreen allow="autoplay; fullscreen" loading="lazy"></iframe>
+```
 :::::
 
 ::::: {.video-meta}
 40:21 &nbsp;·&nbsp; Video 5 av 6 &nbsp;·&nbsp; [Del 13 · Rentemarkedet](index.qmd)
 :::::
 
-<p class="note">Videoen er ikke lenket opp enkeltvis ennå — du finner den i
-kapittelets
-<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22b18b63eb-8ea3-495d-a786-b3d00112bb4a%22">Panopto-mappe</a>.</p>
 
 ## Sjekk forståelsen
 

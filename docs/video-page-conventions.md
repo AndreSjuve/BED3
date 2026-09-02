@@ -51,6 +51,16 @@ referanseimplementasjonen — les den før du skriver noe.
   (transkriptrapportens header). Den brukes senere til å matche side ↔
   Panopto-økt, så den må være eksakt.
 
+## Rettelser (valgfri blokk)
+
+Sider der opptaket inneholder en **bekreftet** feil — foreleseren sier feil
+tall/begrep, eller plansjen viser en gal verdi — får en `::::: {.corrections}`
+-blokk rett under `.video-meta`: tidsstempel i fet, hva som sies/vises, og
+riktig verdi. Synlig, ikke sammenleggbar: studenten som trenger den står fast
+midt i videoen. Terskelen er streng: bare feil som er verifisert mot kilder
+eller intern konsistens. Whisper-feilhøringer og uverifiserte tall hører
+hjemme i transkriptnotatene, aldri her.
+
 ## Quizen («Sjekk forståelsen»)
 
 - 3 spørsmål; **4 på regnetunge sider**, der siste spørsmål krever kalkulator

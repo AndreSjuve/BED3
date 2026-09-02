@@ -20,19 +20,23 @@ for år. Hvorfor gjør den det, og hva skjer med alt sammen når prosjektet
 avsluttes?
 
 ::::: {.video}
-<div class="video__placeholder">
-  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
-  <span>Video 3 · Inflasjon i EcoTime-caset</span>
-</div>
+```{=html}
+<iframe src="https://nhh.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=7becfe5f-f417-46e0-ae2e-b3cb011d0703&v=1&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all"
+        title="Video 3 · Inflasjon i EcoTime-caset" allowfullscreen allow="autoplay; fullscreen" loading="lazy"></iframe>
+```
 :::::
 
 ::::: {.video-meta}
 09:02 &nbsp;·&nbsp; Video 3 av 4 &nbsp;·&nbsp; [Del 3 · Effekter av inflasjon](index.qmd)
 :::::
 
-<p class="note">Videoen er ikke lenket opp enkeltvis ennå — du finner den i
-kapittelets
-<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%2209cb074c-18c9-4651-bd47-b3c900fd95bd%22">Panopto-mappe</a>.</p>
+::::: {.corrections}
+**Rettelser.** Kjente feil i opptaket, med riktig verdi:
+
+- **02:36** — Beløpet på 2 millioner omtales som «salgsinntekter». Det er
+  dekningsbidraget i år 1; salgsinntektene er større.
+:::::
+
 
 ## Sjekk forståelsen
 

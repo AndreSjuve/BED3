@@ -18,19 +18,16 @@ rentefradrag og prisstigning har sagt sitt? Det siste tallet i videoen kan
 overraske.
 
 ::::: {.video}
-<div class="video__placeholder">
-  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
-  <span>Video 2 · Internrenter nominelt og reelt</span>
-</div>
+```{=html}
+<iframe src="https://nhh.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=2c6a03f2-8099-4da6-bbe2-b3cb011c8b07&v=1&autoplay=false&offerviewer=true&showtitle=false&showbrand=false&captions=false&interactivity=all"
+        title="Video 2 · Internrenter nominelt og reelt" allowfullscreen allow="autoplay; fullscreen" loading="lazy"></iframe>
+```
 :::::
 
 ::::: {.video-meta}
 11:59 &nbsp;·&nbsp; Video 2 av 4 &nbsp;·&nbsp; [Del 3 · Effekter av inflasjon](index.qmd)
 :::::
 
-<p class="note">Videoen er ikke lenket opp enkeltvis ennå — du finner den i
-kapittelets
-<a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%2209cb074c-18c9-4651-bd47-b3c900fd95bd%22">Panopto-mappe</a>.</p>
 
 ## Sjekk forståelsen
 
