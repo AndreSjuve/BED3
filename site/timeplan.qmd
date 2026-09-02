@@ -27,6 +27,12 @@ de relevante modulene på Canvas.</p>
 
 ## Forelesningsplan
 
+Temakolonnen skiller mellom synkront og asynkront. *Synkront* er det som
+skjer i forelesningen i Aud. Max den dagen. *Asynkront* er videomodulen du
+jobber med på egen hånd i samme periode: teorivideoer, quizer og oppgaver
+under [Kursinnhold](kursinnhold.qmd). Se videoene før forelesningen som
+følger dem opp.
+
 ::::: {.table-scroll}
 ```{=html}
 <table role="table">
