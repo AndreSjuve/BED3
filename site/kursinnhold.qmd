@@ -7,7 +7,8 @@ subtitle: "Teorivideoene dekker pensum modul for modul. Til hver forelesning hø
 handler om hvordan den knappe ressursen kapital brukes og prises — hvordan
 foretak velger prosjekter som skaper verdi, hvordan markedene kanaliserer
 sparing dit den kaster mest av seg, og hvordan finansielle kontrakter flytter
-risiko mellom parter.
+risiko mellom parter. Vil du ha det store bildet først, start med
+[bakteppet](kursmateriale/00-bakteppe.qmd).
 
 Modulene på denne siden er de asynkrone videodelene av kurset:
 investeringsanalyse og finansielle markeder og kontrakter. Nummereringen
