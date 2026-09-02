@@ -1,6 +1,6 @@
 ---
 title: "Investering og finans"
-subtitle: "Hvordan bør en bedrift velge mellom prosjekter den ikke kan finansiere alle sammen? Kurset gir deg verktøyene til å svare på det — og til å forstå hvorfor svaret så ofte er omstridt."
+subtitle: "Hvordan bør en bedrift velge mellom prosjekter når den ikke kan finansiere alle sammen?"
 pagetitle: "BED3 – Investering og finans"
 ---
 
@@ -9,21 +9,24 @@ pagetitle: "BED3 – Investering og finans"
 
 ## Der du begynner
 
-Kurset bygger på én idé: en krone i dag er ikke det samme som en krone om et år.
-Alt annet — nåverdi, internrente, kapitalkostnad, opsjoner — er konsekvenser av
-den ene innsikten, satt i arbeid på stadig vanskeligere problemer.
+Økonomi springer ut av spenningen mellom det vi ønsker oss og det vi kan få.
+For bedrifter finnes det flere prosjekter enn det finnes penger til å finansiere dem, så der er kapitalen knapp. Kurset handler om hvordan den knappe
+kapitalen finner veien fra husholdningene som sparer, gjennom kapitalmarkedet
+som setter en pris på den, til bedriftene som investerer den i prosjektene som
+skaper mest verdi. Nåverdi, internrente, kapitalkostnad og opsjoner er
+verktøyene vi bruker for å forstå det samspillet. Hele resonnementet er
+skrevet ut i [bakteppet](kursmateriale/00-bakteppe.qmd), som er et godt sted å starte.
 
 Denne siden dekker de delene av kurset som undervises asynkront med
-teorivideoer: **investeringsanalyse** — hvordan vi verdsetter og rangerer
-realinvesteringer, med skatt, lån og inflasjon som kompliserer bildet — og
-**finansielle markeder og kontrakter**: rentemarkedet, opsjoner, terminer og
+teorivideoer. **Investeringsanalyse** tar for seg hvordan vi verdsetter og rangerer
+realinvesteringer, med skatt, lån og inflasjon som kompliserer bildet.
+**Finansielle markeder og kontrakter** tar for seg rentemarkedet, opsjoner, terminer og
 internasjonal finans. Kursets øvrige temaer, som porteføljeteori,
-kapitalverdimodellen, kapitalstruktur og bærekraftige investeringer, undervises
-av kollegaer i plenumsforelesninger — se [timeplanen](timeplan.qmd) og Canvas.
+kapitalverdimodellen, kapitalstruktur og bærekraftige investeringer, undervises i plenumsforelesninger. Se [timeplanen](timeplan.qmd) og Canvas.
 
 Til hver modul hører teorivideoer du kan se når du vil, forelesningsplansjer,
 oppgaver med løsningsforslag, og korte quizer du kan bruke til å teste om du
-har forstått det før forelesningen.
+har forstått det før synkrone aktiviteter i Aud. Max.
 
 [Gå til kursinnholdet](kursinnhold.qmd){.btn}&nbsp;&nbsp;[Om kurset](om-kurset.qmd){.btn .button--quiet}
 
@@ -41,8 +44,8 @@ har forstått det før forelesningen.
 
 <hr class="rule--tight" />
 
-<p class="note">Forelesningene tas ikke opp. Teorivideoene under Kursinnhold
-dekker det samme stoffet, og er ment å ses før forelesning.</p>
+<p class="note">Videoene under Kursinnhold
+dekker kjernematerialet i investeringsanalyse og finansielle markeder og kontrakter. I henhold til timeplanen bør disse jobbes med før synkrone aktiviteter i forelesning.</p>
 
 ::::
 :::::
@@ -62,8 +65,8 @@ av inflasjon, risikovurderinger, og låne- og betalingsalternativer.
 :::: {.col}
 ### II. Finansielle markeder og kontrakter
 
-Rentemarkedet, opsjonskontrakter, terminkontrakter og internasjonal finans —
-hvor kapitalen kommer fra, hva den koster, og hvordan risiko prises.
+Rentemarkedet, opsjonskontrakter, terminkontrakter og internasjonal finans.
+Ulike markeder for å hente kapital og flytte risiko.
 
 [Videoer og oppgaver til del II](kursinnhold.qmd#finansielle-markeder-og-kontrakter)
 
@@ -84,7 +87,7 @@ hvor kapitalen kommer fra, hva den koster, og hvordan risiko prises.
 :::: {.person}
 <img class="portrait" src="assets/people/andre-sjuve.jpg" alt="André Wattø Sjuve">
 <div class="person__name">André Wattø Sjuve</div>
-<div class="person__role">Senior Researcher, Norges Bank Investment Management<br>Førsteamanuensis, NHH · kursansvarlig</div>
+<div class="person__role">Senior Researcher, Norges Bank Investment Management<br>Førsteamanuensis, NHH · foreleser</div>
 
 [andre.sjuve@nhh.no](mailto:andre.sjuve@nhh.no)
 ::::

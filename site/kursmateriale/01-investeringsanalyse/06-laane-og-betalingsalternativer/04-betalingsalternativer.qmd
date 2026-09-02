@@ -11,7 +11,7 @@ strømmeabonnement som kan betales månedlig eller årlig, et møbelkjøp på
 avbetaling med gebyrer, en leverandør som frister med kontantrabatt. Felles
 for alle tre: et valg mellom å betale nå og å betale senere.
 
-Nøkkelgrepet er å se differansen mellom to betalingsplaner som et lån — hvem
+Nøkkelgrepet er å se differansen mellom to betalingsplaner som et lån: hvem
 låner egentlig av hvem, og hvor stort er beløpet? Deretter overtar
 renteregningen fra forrige video. Følg spesielt med på hva månedlig betaling
 av abonnementet viser seg å koste målt som årsrente. Tallet er ikke lite.

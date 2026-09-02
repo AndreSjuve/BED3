@@ -7,7 +7,7 @@ subtitle: "To likeverdige metoder for utenlandsprosjekter, og hva et valutalån 
 
 Kursets siste video knyter sløyfen tilbake til investeringsanalysen: et
 utenlandsprosjekt er fortsatt en sekvens av kontantstrømmer som skal
-diskonteres — men nå står de i feil valuta. Videoen viser to veier til netto
+diskonteres, men nå står de i feil valuta. Videoen viser to veier til netto
 nåverdi i norske kroner, og regner samme prosjekt begge veier. Følg med på
 hvor paritetsbetingelsen fra forrige video kommer inn i hver av dem, hvorfor
 svarene må bli like, og hvilken vei som krever minst arbeid.
@@ -40,29 +40,29 @@ mange ganger du vil. Det siste spørsmålet krever kalkulator.
 <p class="quiz__prompt">1. Hvorfor gir de to metodene for å verdsette et utenlandsprosjekt nøyaktig samme netto nåverdi i norske kroner?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Fordi begge metodene bruker dagens spotkurs på alle kontantstrømmene</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Fordi valutakursrisikoen forsvinner når kontantstrømmene regnes om til norske kroner</span><span class="choice__mark"></span></button>
-<button class="choice" data-key="c"><span class="choice__key">C</span><span>Fordi udekket renteparitet brukes konsistent — de forventede kursene og det norske avkastningskravet justeres med samme renteforhold, så teller og nevner skaleres likt hvert år</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Metode 2 ganger hvert års kontantstrøm med en forventet kurs som vokser med renteforholdet, og diskonterer med et krav som er oppjustert med nøyaktig samme forhold — faktorene kansellerer, og resultatet blir metode 1. A stemmer bare for metode 1; metode 2 bruker dagens kurs kun på investeringsbeløpet, og nettopp å bruke dagens spotkurs på fremtidige kontantstrømmer er den klassiske feilen som bryter likheten. B forveksler omregning med sikring — å måle i kroner fjerner ingen risiko, og begge metoder hviler dessuten på en forenkling som blant annet ser bort fra politisk risiko.</p>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Fordi udekket renteparitet brukes konsistent: de forventede kursene og det norske avkastningskravet justeres med samme renteforhold, så teller og nevner skaleres likt hvert år</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Metode 2 ganger hvert års kontantstrøm med en forventet kurs som vokser med renteforholdet, og diskonterer med et krav som er oppjustert med nøyaktig samme forhold: faktorene kansellerer, og resultatet blir metode 1. A stemmer bare for metode 1; metode 2 bruker dagens kurs kun på investeringsbeløpet, og nettopp å bruke dagens spotkurs på fremtidige kontantstrømmer er den klassiske feilen som bryter likheten. B forveksler omregning med sikring: å måle i kroner fjerner ingen risiko, og begge metoder hviler dessuten på en forenkling som blant annet ser bort fra politisk risiko.</p>
 </div>
 <div class="quiz__q" data-answer="a">
 <p class="quiz__prompt">2. Du vil verdsette et utenlandsprosjekt med minst mulig regnearbeid. Hva gjør du?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Beregner netto nåverdi i utenlandsk valuta med det utenlandske avkastningskravet, og veksler om sluttsvaret med dagens spotkurs</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Regner om hvert års kontantstrøm med dagens spotkurs og diskonterer med det norske avkastningskravet</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Beregner netto nåverdi i utenlandsk valuta, og veksler om sluttsvaret med den forventede spotkursen ved prosjektslutt</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Metode 1 krever bare én valutaomregning, av selve nåverdien — foreleseren peker på den som den klart enkleste veien. B er ikke en snarvei, men en feil: fremtidige kontantstrømmer hører sammen med fremtidige forventede kurser (eller må diskonteres i utenlandsk valuta); dagens kurs på alt gir inkonsistens mellom teller og nevner. C blander metodene — en nåverdi er allerede et dagens-beløp, så den veksles med dagens kurs, ikke en fremtidig.</p>
+<p class="quiz__feedback" hidden>Metode 1 krever bare én valutaomregning, av selve nåverdien. Foreleseren peker på den som den klart enkleste veien. B er ikke en snarvei, men en feil: fremtidige kontantstrømmer hører sammen med fremtidige forventede kurser (eller må diskonteres i utenlandsk valuta); dagens kurs på alt gir inkonsistens mellom teller og nevner. C blander metodene: en nåverdi er allerede et dagens-beløp, så den veksles med dagens kurs, ikke en fremtidig.</p>
 </div>
 <div class="quiz__q" data-answer="b">
 <p class="quiz__prompt">3. Lånerenten er lavere i utlandet enn i Norge. Hvorfor er ikke et valutalån dermed billigere enn et kronelån?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Fordi den utenlandske renten vil stige til norsk nivå i løpet av lånets løpetid</span><span class="choice__mark"></span></button>
-<button class="choice" data-key="b"><span class="choice__key">B</span><span>Fordi kronen ifølge udekket renteparitet ventes å svekke seg når renten er høyest hjemme — det forventede kurstapet spiser opp rentefordelen, og i tillegg er kronekostnaden usikker</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Fordi kronen ifølge udekket renteparitet ventes å svekke seg når renten er høyest hjemme: det forventede kurstapet spiser opp rentefordelen, og i tillegg er kronekostnaden usikker</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Fordi beløpet som skal tilbakebetales i utenlandsk valuta er usikkert</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>I likevekt er forventet lånekostnad den samme: du sparer rente, men taper i forventning tilsvarende på vekslingskursen — og du bytter et sikkert kronebeløp mot et usikkert. Valutalån er dermed spekulasjon i fremtidige kursendringer, ingen gratis lunsj. A dikter opp en rentekonvergens videoen aldri påstår; renten på lånet er dessuten avtalt ved opptak. C plasserer usikkerheten på feil sted: målt i utenlandsk valuta er tilbakebetalingen helt sikker — det er verdien i kroner som er usikker.</p>
+<p class="quiz__feedback" hidden>I likevekt er forventet lånekostnad den samme: du sparer rente, men taper i forventning tilsvarende på vekslingskursen, og du bytter et sikkert kronebeløp mot et usikkert. Valutalån er dermed spekulasjon i fremtidige kursendringer, ingen gratis lunsj. A dikter opp en rentekonvergens videoen aldri påstår; renten på lånet er dessuten avtalt ved opptak. C plasserer usikkerheten på feil sted: målt i utenlandsk valuta er tilbakebetalingen helt sikker; det er verdien i kroner som er usikker.</p>
 </div>
 <div class="quiz__q" data-answer="c">
 <p class="quiz__prompt">4. Du tok opp et ettårig lån i utenlandsk valuta til 3 % rente da spotkursen var 8,00 kroner. Ved forfall er kursen 8,48. Hva ble den effektive lånekostnaden målt i norske kroner?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>6,0 %</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>9,0 %</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Om lag 9,2 %</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Kursforholdet skalerer hele tilbakebetalingen, rente inkludert: $(8{,}48/8{,}00) \cdot 1{,}03 - 1 = 1{,}06 \cdot 1{,}03 - 1 \approx 9{,}2\ \%$. A teller bare kurstapet på 6 % og glemmer at det også løper rente. B legger sammen rente og kurstap ($3\ \% + 6\ \%$) men mister kryssleddet — kronesvekkelsen rammer også rentebetalingen, ikke bare hovedstolen.</p>
+<p class="quiz__feedback" hidden>Kursforholdet skalerer hele tilbakebetalingen, rente inkludert: $(8{,}48/8{,}00) \cdot 1{,}03 - 1 = 1{,}06 \cdot 1{,}03 - 1 \approx 9{,}2\ \%$. A teller bare kurstapet på 6 % og glemmer at det også løper rente. B legger sammen rente og kurstap ($3\ \% + 6\ \%$) men mister kryssleddet: kronesvekkelsen rammer også rentebetalingen, ikke bare hovedstolen.</p>
 </div>
 <p class="quiz__score" role="status" aria-live="polite"></p>
 </div>

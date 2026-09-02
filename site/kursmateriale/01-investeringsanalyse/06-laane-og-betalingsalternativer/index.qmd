@@ -5,7 +5,7 @@ subtitle: "Effektiv rente som felles målestokk for lån, betalingsplaner og lea
 
 Til nå har lånene stått i prosjektanalysens tjeneste. Dette kapittelet gjør
 dem til hovedperson: fortegnene snur, pengene kommer inn først, og spørsmålet
-blir hvilket lån — eller hvilken betalingsplan — som er billigst. Verktøyene
+blir hvilket lån eller hvilken betalingsplan som er billigst. Verktøyene
 er de samme som før, nåverdi og internrente, men internrenten opptrer nå
 under navnet effektiv rente. Med den i hånden avsløres både «rentefrie»
 avbetalinger og dyre månedsabonnementer.
@@ -72,13 +72,13 @@ I tillegg til symbolene fra tidligere kapitler bruker videoene disse:
 
 | Symbol | Betydning |
 |---|---|
-| $p$ | Effektiv rente — lånets internrente, per definisjon årlig og etterskuddsvis |
+| $p$ | Effektiv rente: lånets internrente, per definisjon årlig og etterskuddsvis |
 | $q$ | Delperioderenten, renten for én termin innenfor året |
 | $m$ | Antall terminer (delperioder) per år |
 | $q_f$, $q_e$ | Delperioderente betalt forskuddsvis og etterskuddsvis |
 
-Formlene — effektiv rente av delperioderente og omregningen mellom
-forskudds- og etterskuddsrente — står under «Renteregning» på
+Formlene (effektiv rente av delperioderente og omregningen mellom
+forskudds- og etterskuddsrente) står under «Renteregning» på
 [formelarket](../../../formelark.qmd).
 
 ## Forelesningsplansjer
@@ -129,13 +129,13 @@ og deretter til årsrente:
 
 $$p = 1{,}03093^{4} - 1 \approx 12{,}96\ \%$$
 
-Rangeringen blir b (12,55 %) — a (12,68 %) — c (12,96 %). To krefter er i
+Rangeringen blir b (12,55 %), a (12,68 %), c (12,96 %). To krefter er i
 sving: hyppigere terminer gir mer renters rente innenfor året (derfor slår
 månedlig etterskuddsvis den kvartalsvise), og forskuddsbetaling koster i seg
 selv, fordi du gir fra deg avkastningen på rentebeløpet gjennom perioden.
-Legg merke til at forskuddseffekten her er sterk nok til at kvartalsvis
-forskudd blir dyrere enn månedlig etterskudd — samme nominelle rente, nesten
-et halvt prosentpoeng forskjell i faktisk kostnad.
+Forskuddseffekten er her sterk nok til at kvartalsvis forskudd blir dyrere
+enn månedlig etterskudd: samme nominelle rente, nesten et halvt prosentpoeng
+forskjell i faktisk kostnad.
 
 ::::
 
@@ -153,7 +153,7 @@ a) Sett opp lånets kontantstrøm.
 
 b) Beregn netto nåverdi av lånet, og forklar valget av diskonteringsrente.
 
-c) Hva blir netto nåverdi om du i stedet diskonterer med 3 % — og hva
+c) Hva blir netto nåverdi om du i stedet diskonterer med 3 %, og hva
 forteller det?
 
 <details class="solution">
@@ -176,14 +176,14 @@ markedet, så betalingene diskonteres med markedsrenten på 7 %:
 
 $$\text{NNV} = 1\,500\,000 - \frac{545\,000}{1{,}07} - \frac{530\,000}{1{,}07^2} - \frac{515\,000}{1{,}07^3} \approx 107\,300$$
 
-Subsidien er altså verdt omtrent 107 000 kroner i dagens penger — nåverdien
+Subsidien er altså verdt omtrent 107 000 kroner i dagens penger, nåverdien
 av rentebesparelsen over løpetiden.
 
 **c)** Diskontert med 3 % blir netto nåverdi nøyaktig 0. Lånets effektive
 rente er 3 % (det er et lån uten gebyrer, med årlige etterskuddsvise
 betalinger), og å diskontere en kontantstrøm med sin egen internrente gir
 null per definisjon. Regnestykket forteller derfor ingenting om lånet er
-gunstig — det bekrefter bare hva renten er. Gevinsten synes først når lånet
+gunstig; det bekrefter bare hva renten er. Gevinsten synes først når lånet
 måles mot alternativet.
 
 ::::
@@ -205,14 +205,14 @@ delbetaling.
 b) Vis at en månedlig rente på 1,25 % gir en nåverdi av betalingene som er
 tilnærmet lik lånebeløpet.
 
-c) Hva er den effektive årsrenten — og når bør du takke ja til tilbudet?
+c) Hva er den effektive årsrenten, og når bør du takke ja til tilbudet?
 
 <details class="solution">
 <summary>Vis løsningsforslag</summary>
 
 :::: {.solution__body}
 
-**a)** Ved delbetaling beholder du 9 600 kroner i dag — det er lånebeløpet.
+**a)** Ved delbetaling beholder du 9 600 kroner i dag; det er lånebeløpet.
 Tilbake betaler du 800 + 45 = 845 kroner i måned 2–12, og 845 + 240 = 1 085
 kroner i måned 1:
 
@@ -220,7 +220,7 @@ kroner i måned 1:
 |---|---|---|---|
 | Kontantstrøm | +9 600 | −1 085 | −845 |
 
-Totalt betales 10 380 kroner — 780 kroner mer enn kontantprisen, så
+Totalt betales 10 380 kroner, 780 kroner mer enn kontantprisen, så
 «rentefritt» er tilbudet ikke.
 
 **b)** Nåverdien av betalingene ved månedsrente 1,25 % er en annuitet på 845
@@ -236,8 +236,8 @@ lånet er altså ca. 1,25 %.
 $$p = 1{,}0125^{12} - 1 \approx 16{,}1\ \%$$
 
 Delbetalingen er med andre ord et lån til rundt 16 % effektiv rente.
-Tilbudet bør bare aksepteres hvis all annen finansiering — banklån,
-kredittkort, egne oppsparte midler målt ved alternativkostnaden — koster mer
+Tilbudet bør bare aksepteres hvis all annen finansiering (banklån,
+kredittkort, egne oppsparte midler målt ved alternativkostnaden) koster mer
 enn dette. For de fleste er kontantkjøp, eventuelt med et ordinært banklån i
 bunn, klart billigere.
 

@@ -1,15 +1,15 @@
 ---
 title: "Investering og finans i en knapp verden"
-subtitle: "Bakteppet for kurset: hvor økonomifaget springer ut fra, og hvordan investorer, kapitalmarked og foretak henger sammen. Les dette først — resten av kurset fyller inn detaljene."
+subtitle: "Bakteppet for kurset: hvor økonomifaget springer ut fra, og hvordan investorer, kapitalmarked og foretak henger sammen."
 ---
 
 Økonomi handler om et enkelt, men evig problem: vi ønsker oss alltid mer enn
 vi kan få. Gapet mellom hva vi vil ha og hva vi faktisk kan skaffe er selve
 motoren i økonomifaget.
 
-Dette kurset, BED3, tar utgangspunkt i dette grunnleggende problemet og
-handler i bunn og grunn om hvordan vi organiserer de knappe ressursene som
-bedrifter trekker på i sin daglige drift, hovedsakelig kapital. I
+BED3 tar utgangspunkt i dette problemet og handler om hvordan vi organiserer
+de knappe ressursene bedrifter trekker på i sin daglige drift, hovedsakelig
+kapital. I
 investeringsanalysen ser vi på hvordan prosjekter må prioriteres når
 kapitalen ikke strekker til alt. I porteføljeteorien ser vi på hvordan
 kapitalen kan fordeles mellom aktiva for å balansere risiko og avkastning. I
@@ -19,10 +19,11 @@ gjeld eller egenkapital.
 
 Kurset tar oss også videre inn i nærliggende temaer som gir et bredere bilde
 av hvordan kapital organiseres i en moderne økonomi. Vi ser på hvordan
-bærekraft og etiske hensyn påvirker investeringsbeslutninger. Vi introduserer
+bærekraft og etiske hensyn påvirker investeringsbeslutninger, og introduserer
 opsjoner og terminkontrakter som verktøy for fleksibilitet og risikostyring.
-Vi undersøker hvordan rentemarkedet og valutamarkedene setter rammer for
-investeringer og finansiering i en global sammenheng. Slik spenner BED3 over
+Vi undersøker også hvordan rentemarkedet for gjeldskapital fungerer og
+hvordan valutamarkedene setter rammer for investeringer og finansiering i en
+global sammenheng. Slik spenner BED3 over
 flere dimensjoner av det samme problemet: hvordan den knappe ressursen
 kapital kan brukes og prises på en måte som skaper mest mulig verdi gitt de
 ønsker og rammer samfunnet står overfor.
@@ -32,36 +33,32 @@ kapital kan brukes og prises på en måte som skaper mest mulig verdi gitt de
 ### Hva er økonomi?
 
 Et spørsmål det er naturlig å kunne svare på etter flere år med
-økonomistudier er: **Hva er økonomi?** En foreløpig definisjon er at *økonomi
+økonomistudier er: hva er økonomi? En foreløpig definisjon er at *økonomi
 er studiet av hvordan mennesker bruker ressurser til å tilfredsstille sine
 ønsker*. Ordet ønsker krever presisering. Vi ønsker alle mat, klær og et tak
 over hodet for å leve, men de fleste ønsker seg langt mer. Vi ønsker oss
 biler, større hus og feriereiser. Vår evne til å ønske er nesten uendelig,
 men ressursene i verden er begrensede. Med andre ord har vi knapphet på
-ressurser: behovene er større enn de tilgjengelige ressursene, og tilgangen
-er aldri stor nok til å dekke alles ønsker hele tiden. Dermed oppstår et gap
-mellom hva vi ønsker og hva vi faktisk kan få tak i. **Å redusere dette gapet
-er den grunnleggende problemstillingen som studeres i økonomi.** Sagt på en
-annen måte: knapphet tvinger oss til å velge, og økonomi er studiet av
-hvordan vi bør ta slike valg slik at vi ikke sløser med ressurser.
+ressurser: behovene er større enn tilgangen. Dermed oppstår et gap mellom hva
+vi ønsker og hva vi faktisk kan få tak i. Å redusere dette gapet er den
+grunnleggende problemstillingen som studeres i økonomi. Knapphet tvinger oss
+til å velge, og økonomi er studiet av hvordan vi bør ta slike valg slik at vi
+ikke sløser med ressurser.
 
-**Redusere gapet:** Det finnes to måter å minske avstanden mellom det vi
-ønsker oss og det vi kan få tak i. Vi kan enten redusere ønskene våre, eller
-vi kan skaffe mer. Poeter, filosofer og religiøse tenkere har ofte anbefalt
+Det finnes to måter å minske avstanden mellom det vi ønsker oss og det vi
+kan få tak i: vi kan redusere ønskene våre, eller vi kan skaffe mer. Poeter, filosofer og religiøse tenkere har ofte anbefalt
 den første veien. Historien viser oss derimot at vi stort sett har valgt den
 andre, med varierende og ofte vanskelig målbar suksess. Som økonomer tar vi
 ikke stilling til hvilken vei som er best, men fagfeltet vårt er avgrenset
-til å studere den andre, hvordan vi kan skaffe mer heller enn å ønske oss
-mindre.
+til å studere den andre veien.
 
-Vi har dermed slått fast at økonomifaget først og fremst handler om å skaffe
-mer snarere enn å ønske seg mindre. Men hva er det egentlig vi ønsker oss mer
-av, og hva faller innenfor økonomiens domene?
+Men hva er det egentlig vi ønsker oss mer av, og hva faller innenfor
+økonomiens domene?
 
 ### Mer av hva
 
 Økonomifaget retter særlig oppmerksomheten mot hvordan vi kan skaffe mer av
-goder — en samlebetegnelse på varer og tjenester — som både tilfredsstiller
+goder (en samlebetegnelse på varer og tjenester) som både tilfredsstiller
 ønsker og kan omsettes i et marked. Slike nyttige og knappe goder kalles
 *økonomiske goder*. Alle andre goder omtales som *ikke-økonomiske goder*.
 
@@ -79,7 +76,7 @@ organiserer bruken av ressurser for å oppnå dette målet.
 
 ### Bruke ressurser: produksjon
 
-Ressurser kan grovt deles i to hovedkategorier: **mennesker** og **natur**.
+Ressurser kan grovt deles i to hovedkategorier: *mennesker* og *natur*.
 Som mennesker bruker vi vår fysiske styrke og intelligens på ressursene som
 kommer fra naturen, og resultatet blir goder som kan tilfredsstille våre
 ønsker, som et brød, en fotballkamp eller et fly.
@@ -88,8 +85,7 @@ Dersom ressursene var ubegrensede, eller våre ønsker svært beskjedne, kunne
 vi produsere alt alle ville ha hele tiden. Da ville det ikke eksistert noe
 økonomisk problem, og dermed heller ikke noe økonomifag. Ressurser er alltid
 en mangelvare sammenlignet med hvor mye vi ønsker oss av de godene som
-produseres. Som en konsekvens må ethvert samfunn ta viktige valg og
-beslutninger.
+produseres. Derfor må ethvert samfunn ta valg.
 
 Når ressursene settes inn i produksjon, oppstår et samspill mellom
 husholdninger og bedrifter. Dette samspillet kan vi se tydelig gjennom
@@ -110,9 +106,8 @@ husholdningene og bedriftene.
 fig-align="center" width="80%"
 fig-alt="Diagram av velstandshjulet: ressurser strømmer fra husholdninger til bedrifter, og varer, tjenester og betalinger strømmer tilbake, i en lukket sirkel."}
 
-Velstandshjulet viser hvordan ressursene sirkulerer mellom husholdninger og
-bedrifter, men det etterlater tre grunnleggende valg som alle samfunn må ta
-stilling til: hva, hvem og hvor mye.
+Velstandshjulet viser sirkulasjonen, men etterlater tre grunnleggende valg
+som alle samfunn må ta stilling til: hva, hvem og hvor mye.
 
 ### Grunnleggende valg
 
@@ -126,15 +121,14 @@ Alle økonomiske systemer står overfor tre grunnleggende valg:
 
 De institusjonelle ordningene som bestemmer hvordan slike valg tas og
 håndheves, utgjør samfunnets økonomiske organisering, eller dets økonomiske
-system. Hvordan disse valgene tas varierer fra samfunn til samfunn. Ulike
-økonomiske systemer gir ulike svar, og det er nyttig å skille mellom
-planøkonomi og markedsøkonomi som to idealiserte ytterpunkter.
+system. Hvordan disse valgene tas varierer fra samfunn til samfunn, og det
+er nyttig å skille mellom planøkonomi og markedsøkonomi som to idealiserte
+ytterpunkter.
 
 ### Typer økonomisk organisering
 
-Alle samfunn har gjennom historien måttet velge hvordan de organiserer
-økonomien. Selv om dette kurset ikke gir en full gjennomgang, kan vi peke på
-to idealiserte typer systemer:
+Selv om dette kurset ikke gir en full gjennomgang av økonomiske systemer,
+kan vi beskrive de to ytterpunktene slik:
 
 - **Planøkonomi**: En sentral myndighet bestemmer hva som skal produseres,
   hvem som skal produsere det, og hvordan resultatet skal fordeles
@@ -161,10 +155,7 @@ fordeling. Hva som er en rettferdig fordeling ligger utenfor rammene for
 dette kurset; her fokuserer vi på hvordan ressursene best kan brukes til å
 maksimere antallet ønsker som faktisk blir tilfredsstilt.
 
-Disse mekanismene viser hvordan markedsøkonomien organiserer ressursbruken på
-en måte som både skaper verdier og setter rammer for fordeling. Med dette
-rammeverket på plass kan vi oppsummere økonomifaget med en raffinert
-definisjon:
+Med dette rammeverket på plass kan vi presisere den foreløpige definisjonen:
 
 > *Økonomi er studiet av hvordan mennesker organiserer bruken av knappe
 > ressurser for å tilfredsstille sine ønsker.*
@@ -186,20 +177,20 @@ for bedrifter. Når vi studerer knapphetsproblemet i bedriftens kontekst,
 kaller vi det bedriftsøkonomi. Studerer vi det på individ- eller
 samfunnsnivå, kaller vi det personlig økonomi eller samfunnsøkonomi.
 
-I finans stiller vi et mer spesifikt spørsmål: **Hvordan allokerer individer
+I finans stiller vi et mer spesifikt spørsmål: hvordan allokerer individer
 og samfunnet knappe ressurser gjennom et prissystem som verdsetter risikable
-aktiva?** Her er det særlig kapital som står i sentrum — og med kapital mener
-vi ikke bare penger, men også maskiner og annet utstyr som er laget for bruk
-i produksjonen av varer og tjenester. Vi er opptatt av hvordan sparing fra
-husholdninger og investorer kanaliseres til bedrifter, og hvordan
-kapitalmarkedene setter prisen på risikable aktiva underveis. Dette gir oss
-et veikart som hjelper oss å navigere resten av faget.
+aktiva? Her står kapitalen i sentrum. Med kapital mener vi ikke bare penger,
+men også maskiner og annet utstyr som er laget for bruk i produksjonen av
+varer og tjenester. Vi er opptatt av hvordan sparing fra husholdninger og
+investorer kanaliseres til bedrifter, og hvordan kapitalmarkedene setter
+prisen på risikable aktiva underveis. Dette gir oss et veikart for resten av
+faget.
 
 ![Veikartet for finans](media/fig_veikart_finans.svg){#fig-veikart-finans
 fig-align="center" width="80%"
 fig-alt="Veikart for finansfaget: investorer til venstre tilbyr kapital, foretak til høyre etterspør kapital, og kapitalmarkedet står imellom. Nederst vises byggesteinene i moderne finans."}
 
-Figur @fig-veikart-finans viser hvordan denne prosessen ser ut i praksis. Til
+@fig-veikart-finans viser hvordan denne prosessen ser ut i praksis. Til
 venstre finner vi investorene som tilbyr kapital. Til høyre finner vi
 bedrifter som etterspør kapital for å investere i prosjekter. Mellom dem står
 kapitalmarkedet, der prisen på risikable aktiva fastsettes. Nederst ser du de
@@ -209,7 +200,7 @@ kapitalmarkedet.
 
 ### Investorer: husholdningenes rolle i finans
 
-Husholdningene er de ultimate eierne av kapital i samfunnet. Selv om kapital
+Husholdningene er de endelige eierne av kapitalen i samfunnet. Selv om kapital
 ofte forvaltes gjennom banker, forsikringsselskaper eller pensjonsfond, er
 det til syvende og sist husholdningenes sparing som ligger bak. Når
 husholdninger har mer kapital enn de trenger til forbruk i dag, kan de velge
@@ -230,27 +221,22 @@ høyere risiko og potensielt høyere avkastning. Markedet setter en pris på hva
 det koster å utsette forbruket, og denne prisen ser vi som renter og
 avkastningskrav.
 
-For bedriftene er dette avgjørende. Uten kapitalmarkedene måtte
-husholdningene selv investere direkte i prosjekter eller eiendeler, noe som
-er upraktisk og risikabelt. Med kapitalmarkedene kan kapital flyttes fra
+Uten kapitalmarkedene måtte husholdningene selv investere direkte i
+prosjekter eller eiendeler, noe som er upraktisk og risikabelt. Med kapitalmarkedene kan kapital flyttes fra
 husholdninger som har penger, til bedrifter som har prosjekter, men mangler
 finansiering. Dette gjør at ressursene i samfunnet brukes der de skaper mest
 verdi.
 
 Noen investorer har dessuten mål utover ren avkastning. De kan ønske å bidra
 til bærekraftige investeringer eller påvirke hvordan bedrifter driver sin
-virksomhet. Slik viser investorene at de ikke bare er opptatt av forbruk i
-dag og i morgen, men også av hvilken fremtid de er med på å skape.
+virksomhet.
 
 Et eksempel: Tenk på en student som har tjent 40 000 kroner på sommerjobb.
 Hun kan bruke hele beløpet på en ferie nå, eller hun kan spare halvparten i
 et aksjefond. Ferie gir høy nytte i dag, men ingen fremtidig avkastning.
 Sparing gir mulighet for mer forbruk i fremtiden, men innebærer risiko.
-Valget illustrerer investorens grunnleggende avveiing: forbruk nå eller
-senere, og hvor mye risiko man er villig til å ta.
 
-Her har vi bare introdusert investorens rolle. Senere i kurset ser vi nærmere
-på hvordan risiko og avkastning henger sammen når man velger å investere i
+Senere i kurset ser vi nærmere på hvordan risiko og avkastning henger sammen når man velger å investere i
 ulike aktiva, hvordan diversifisering gjør at risiko kan reduseres uten å
 senke forventet avkastning (porteføljeteori), og hvordan risiko prises i
 markedet og danner grunnlag for avkastningskrav (kapitalverdimodellen).
@@ -271,7 +257,7 @@ aktørene grunnlag for sine valg. Den sentrale funksjonen er å sørge for en
 effektiv ressursallokering.
 
 Effektiv allokering oppnås ved at kapitalmarkedet leverer tre grunnleggende
-tjenester. Disse er oppsummert i figur @fig-finservices nedenfor (basert på
+tjenester. Disse er oppsummert i @fig-finservices nedenfor (basert på
 Døskeland, *Investing for the Long Term*, 2025).
 
 ![Finansielle tjenester](media/fig_finansielle_tjenester.svg){#fig-finservices
@@ -296,7 +282,7 @@ effektivt.
 
 ### Foretaket: investering, finansiering og utbytte
 
-I figur @fig-veikart-finans er foretaket plassert på høyre side. Foretaket er
+I @fig-veikart-finans er foretaket plassert på høyre side. Foretaket er
 den aktøren som etterspør kapital. Samtidig er det selve motoren i
 verdiskapingen: det bruker kapital, arbeidskraft og ledelse til å produsere
 varer og tjenester som tilfredsstiller husholdningenes ønsker gjennom å
@@ -331,7 +317,7 @@ For å nå målet om verdimaksimering må bedriften ta tre typer beslutninger:
 - **Utbyttebeslutninger**: hvordan overskuddet skal disponeres mellom eierne
   og videre investeringer
 
-Figur @fig-veikart-bedrift oppsummerer de tre beslutningene og hvordan de
+@fig-veikart-bedrift oppsummerer de tre beslutningene og hvordan de
 henger sammen i foretaket.
 
 ![Bedriftens beslutninger](media/fig_veikart_bedrift.svg){#fig-veikart-bedrift
@@ -341,32 +327,28 @@ fig-alt="Veikart over bedriftens tre beslutninger: investeringsbeslutningen, fin
 Målet om verdimaksimering har møtt kritikk. Mange mener at bedrifter også bør
 ivareta interessene til ansatte, kunder, leverandører og samfunnet for øvrig.
 Andre hevder at beslutningstakere i praksis ikke maksimerer, men heller søker
-en tilfredsstillende løsning — et prinsipp kjent som satisfiering, etter
-Herbert Simons begrep *satisficing*: man velger en løsning som er god nok,
+en tilfredsstillende løsning, et prinsipp kjent som satisfiering (etter
+Herbert Simons begrep *satisficing*): man velger en løsning som er god nok,
 heller enn den absolutt beste.
 
 I dette kurset legger vi likevel til grunn at bedriftens mål er å maksimere
 markedsverdien av aksjene, fordi dette best reflekterer eiernes interesser.
 Det betyr ikke at hensyn som bærekraft og samfunnsansvar er uviktige, men at
 de må integreres i beslutningene på en måte som også skaper verdi for eierne.
-Vi legger derfor til grunn at valg først og fremst må være **økonomisk
-bærekraftige**: prosjekter må gi kontantstrømmer som dekker kostnader,
+Vi legger derfor til grunn at valg først og fremst må være *økonomisk
+bærekraftige*: prosjekter må gi kontantstrømmer som dekker kostnader,
 forrenter kapitalen og skaper avkastning i forhold til risiko. Uten økonomisk
 bærekraft kan selv gode intensjoner ikke opprettholdes over tid.
 
 ### Oppsummering
 
-Så, nå har du fått rammen for faget investering og finans. Vi har sett
-hvordan de tre hovedaktørene henger sammen:
+Så, nå har du fått rammen for faget investering og finans:
 
-- Husholdningene er de ultimate tilbyderne av kapital.
+- Husholdningene er de endelige tilbyderne av kapital.
 - Kapitalmarkedet binder sammen sparere og bedrifter, og tilbyr sparing, lån
   og risikohåndtering.
 - Bedriftene er motoren som bruker kapital til å skape verdier, styrt av
   målet om verdimaksimering.
-
-Med denne forståelsen har du et klart bilde av hva faget handler om. Resten
-av kurset handler om å fylle inn detaljene.
 
 ## Hvor begynner du?
 

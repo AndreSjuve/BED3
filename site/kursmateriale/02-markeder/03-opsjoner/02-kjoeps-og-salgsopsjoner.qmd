@@ -12,7 +12,7 @@ betyr det skillet at en opsjon aldri tvinger eieren inn i et dårlig utfall?
 Merk deg også hvilke opplysninger som må være på plass før en opsjonskontrakt
 i det hele tatt er ferdig beskrevet.
 
-Videoen viser deretter at opsjonstankegangen dukker opp langt utenfor børsen —
+Videoen viser deretter at opsjonstankegangen dukker opp langt utenfor børsen:
 i selskapers balanse, i konvertible lån og i realopsjonene fra
 investeringsanalysen. Til slutt: hvorfor finnes dette markedet i det hele
 tatt? Tell gjerne motivene videoen lister opp, fra forsikring til ren
@@ -42,21 +42,21 @@ ganger du vil.
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>En plikt til å kjøpe underliggende ved forfall, uansett hva markedsprisen da er</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>En rett til å kjøpe underliggende når som helst frem til forfall</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>En rett til å kjøpe underliggende til kontraktsprisen på selve forfallsdatoen</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>To ord bærer svaret: <em>rett</em> og <em>europeisk</em>. Retten betyr at du bare utøver når det lønner seg — plikten ligger hos den som solgte deg opsjonen, så A har byttet om rollene. B beskriver en amerikansk opsjon, som kan utøves på ethvert tidspunkt innen forfall; den europeiske kan bare utøves på den avtalte datoen. Merk at navnene ikke sier noe om hvor kontraktene handles — bare om når de kan utøves.</p>
+<p class="quiz__feedback" hidden>To ord bærer svaret: <em>rett</em> og <em>europeisk</em>. Retten betyr at du bare utøver når det lønner seg; plikten ligger hos den som solgte deg opsjonen, så A har byttet om rollene. B beskriver en amerikansk opsjon, som kan utøves på ethvert tidspunkt innen forfall; den europeiske kan bare utøves på den avtalte datoen. Merk at navnene ikke sier noe om hvor kontraktene handles, bare om når de kan utøves.</p>
 </div>
 <div class="quiz__q" data-answer="a">
 <p class="quiz__prompt">2. En kjøpsopsjon har kontraktspris 65 kroner. Ved forfall handles aksjen for 58 kroner. Hva gjør en rasjonell eier av opsjonen?</p>
-<button class="choice" data-key="a"><span class="choice__key">A</span><span>Lar opsjonen utløpe — aksjen kan kjøpes billigere i markedet</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Lar opsjonen utløpe; aksjen kan kjøpes billigere i markedet</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Utøver den, siden premien ellers er betalt til ingen nytte</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Utøver den og selger aksjen videre med gevinst på 7 kroner</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Å utøve betyr å betale 65 for noe som koster 58 i markedet — et frivillig tap på 7 kroner. Retten brukes bare når den er gunstig; ellers lar man den løpe ut. B er sunk cost-feilen i ny drakt: premien er betalt uansett og skal ikke styre beslutningen ved forfall. C har regnet differansen med motsatt fortegn — gevinsten på 7 ville krevd at aksjekursen lå <em>over</em> kontraktsprisen, ikke under.</p>
+<p class="quiz__feedback" hidden>Å utøve betyr å betale 65 for noe som koster 58 i markedet, et frivillig tap på 7 kroner. Retten brukes bare når den er gunstig; ellers lar man den løpe ut. B er sunk cost-feilen i ny drakt: premien er betalt uansett og skal ikke styre beslutningen ved forfall. C har regnet differansen med motsatt fortegn: gevinsten på 7 ville krevd at aksjekursen lå <em>over</em> kontraktsprisen, ikke under.</p>
 </div>
 <div class="quiz__q" data-answer="b">
 <p class="quiz__prompt">3. Videoen sier at egenkapitalen i et selskap kan ses på som en opsjon. Hvilken?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>En salgsopsjon på selskapets eiendeler, med gjelden som kontraktspris</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>En kjøpsopsjon på selskapets eiendeler, med gjelden som kontraktspris</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>En binær opsjon som betaler ut ett fast beløp hvis selskapet går med overskudd</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Eierne kan «kjøpe ut» selskapets eiendeler ved å betale gjeldseierne det de har krav på: er eiendelene verdt mer enn gjelden, lønner det seg — er de verdt mindre, lar eierne være, og taper bare det de har skutt inn. Det er nøyaktig strukturen til en kjøpsopsjon med gjelden som kontraktspris. A snur retningen: en salgsopsjon er retten til å <em>selge</em>. C blander inn den binære opsjonen fra forrige video — egenkapitalens oppside vokser med eiendelsverdien, den er ikke et fast beløp.</p>
+<p class="quiz__feedback" hidden>Eierne kan «kjøpe ut» selskapets eiendeler ved å betale gjeldseierne det de har krav på: er eiendelene verdt mer enn gjelden, lønner det seg; er de verdt mindre, lar eierne være, og taper bare det de har skutt inn. Det er nøyaktig strukturen til en kjøpsopsjon med gjelden som kontraktspris. A snur retningen: en salgsopsjon er retten til å <em>selge</em>. C blander inn den binære opsjonen fra forrige video: egenkapitalens oppside vokser med eiendelsverdien, den er ikke et fast beløp.</p>
 </div>
 <p class="quiz__score" role="status" aria-live="polite"></p>
 </div>

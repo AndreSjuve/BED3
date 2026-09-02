@@ -1,6 +1,6 @@
 ---
 title: "Prising av obligasjoner og sertifikater"
-subtitle: "Kuponger, pålydende, ren og skitten pris — og renteregning i pengemarkedet"
+subtitle: "Kuponger, pålydende, ren og skitten pris, og renteregning i pengemarkedet"
 ---
 
 ## Før du ser videoen
@@ -12,10 +12,9 @@ telleren og nevneren når eiendelen er et lån.
 
 Videoen har tre deler. Først prises kupongobligasjoner — se etter hvilke to
 typer kontantstrømmer et slikt lån gir, og hva som skjer med prisen når
-markedet endrer seg etter utstedelse. Deretter kommer et spørsmål mange
-overser: hva er riktig pris når obligasjonen bytter eier mellom to
-kupongbetalinger? Til slutt flytter videoen seg til pengemarkedet, der stat og
-bedrift følger hver sin regnekonvensjon.
+markedet endrer seg etter utstedelse. Deretter: hva er riktig pris når
+obligasjonen bytter eier mellom to kupongbetalinger? Til slutt flytter videoen
+seg til pengemarkedet, der stat og bedrift følger hver sin regnekonvensjon.
 
 ::::: {.video}
 ```{=html}
@@ -38,31 +37,31 @@ ganger du vil. De to siste spørsmålene krever kalkulator.
 <div class="quiz">
 <div class="quiz__q" data-answer="b">
 <p class="quiz__prompt">1. Hvilken rente skal stå i nevneren når du priser en kupongobligasjon?</p>
-<button class="choice" data-key="a"><span class="choice__key">A</span><span>Kupongrenten — det er den som er avtalt i lånet</span><span class="choice__mark"></span></button>
-<button class="choice" data-key="b"><span class="choice__key">B</span><span>Markedsrenten y — avkastningen på tilsvarende investeringer i markedet</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Kupongrenten, det er den som er avtalt i lånet</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Markedsrenten y, avkastningen på tilsvarende investeringer i markedet</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Styringsrenten fra sentralbanken</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Kupongrenten bestemmer telleren — kontantstrømmene C = c · F — men diskonteringen skal skje med alternativkostnaden: renten du kan oppnå på tilsvarende plasseringer. Diskonterer du med kupongrenten (A), ender enhver obligasjon på pålydende uansett hva markedet gjør, og da forsvinner hele poenget med prising. Styringsrenten (C) påvirker markedsrentene, men det er markedets rente for papirer med tilsvarende risiko og løpetid som er ditt alternativ.</p>
+<p class="quiz__feedback" hidden>Kupongrenten bestemmer telleren (kontantstrømmene C = c · F), men diskonteringen skal skje med alternativkostnaden: renten du kan oppnå på tilsvarende plasseringer. Diskonterer du med kupongrenten (A), ender enhver obligasjon på pålydende uansett hva markedet gjør, og da forsvinner hele poenget med prising. Styringsrenten (C) påvirker markedsrentene, men det er markedets rente for papirer med tilsvarende risiko og løpetid som er ditt alternativ.</p>
 </div>
 <div class="quiz__q" data-answer="a">
 <p class="quiz__prompt">2. En obligasjon utstedes med kupongrente lik markedsrenten. To år senere har markedsrenten steget. Hva har skjedd med kursen?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Den har falt under pålydende</span><span class="choice__mark"></span></button>
-<button class="choice" data-key="b"><span class="choice__key">B</span><span>Den er uendret — kupongen er jo avtalt på forhånd</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Den er uendret, kupongen er jo avtalt på forhånd</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Den har steget, siden høyere rente gir høyere avkastning</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Kupongen ligger låst gjennom løpetiden. Når markedet tilbyr mer enn kupongen gir, må prisen falle under pålydende for at kjøperens totalavkastning skal matche markedet — obligasjonen handles til rabatt. B forveksler faste kontantstrømmer med fast verdi: det er nettopp fordi betalingene ikke kan justeres at prisen må gjøre jobben. C har sammenhengen speilvendt — pris og markedsrente beveger seg alltid i motsatt retning.</p>
+<p class="quiz__feedback" hidden>Kupongen ligger låst gjennom løpetiden. Når markedet tilbyr mer enn kupongen gir, må prisen falle under pålydende for at kjøperens totalavkastning skal matche markedet: obligasjonen handles til rabatt. B forveksler faste kontantstrømmer med fast verdi: det er nettopp fordi betalingene ikke kan justeres at prisen må gjøre jobben. C har sammenhengen speilvendt; pris og markedsrente beveger seg alltid i motsatt retning.</p>
 </div>
 <div class="quiz__q" data-answer="c">
 <p class="quiz__prompt">3. Hvorfor er det kursen (clean price) som kvoteres i markedet, og ikke totalprisen (dirty price)?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Fordi clean price alltid er høyere og ser bedre ut</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Fordi kjøperen slipper å betale for de påløpte rentene</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Fordi dirty price ville tikket jevnt oppover for hver dag mellom to kupongbetalinger</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Påløpte renter vokser mekanisk dag for dag og nullstilles ved hver kupongutbetaling — en kvotert dirty price ville derfor steget litt hver eneste dag uten at det sa noe om markedet. Kursen renser bort denne støyen. B er feil: kjøperen betaler faktisk dirty price — clean price pluss påløpte renter — som kompensasjon til selgeren som har båret risikoen siden forrige kupong. A har det baklengs: clean price er lik eller lavere enn dirty price.</p>
+<p class="quiz__feedback" hidden>Påløpte renter vokser mekanisk dag for dag og nullstilles ved hver kupongutbetaling; en kvotert dirty price ville derfor steget litt hver eneste dag uten at det sa noe om markedet. Kursen renser bort denne støyen. B er feil: kjøperen betaler faktisk dirty price (clean price pluss påløpte renter) som kompensasjon til selgeren som har båret risikoen siden forrige kupong. A har det baklengs: clean price er lik eller lavere enn dirty price.</p>
 </div>
 <div class="quiz__q" data-answer="b">
 <p class="quiz__prompt">4. En obligasjon har pålydende 100, kupongrente 6 prosent (årlig betaling) og tre hele år til forfall. Markedsrenten er 8 prosent. Hva er prisen?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>100,00</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>94,85</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>105,35</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>P = 6/1,08 + 6/1,08² + 106/1,08³ ≈ 94,85. Kupongen er lavere enn markedsrenten, så obligasjonen må handles til rabatt. A får du ved å diskontere med kupongrenten — da lander alt på pålydende, og prisen mister all informasjon. C har byttet om rollene og priset med kupong 8 og markedsrente 6 — det gir premie der det skal være rabatt. Sjekk alltid retningen først: c &lt; y skal gi pris under pålydende.</p>
+<p class="quiz__feedback" hidden>P = 6/1,08 + 6/1,08² + 106/1,08³ ≈ 94,85. Kupongen er lavere enn markedsrenten, så obligasjonen må handles til rabatt. A får du ved å diskontere med kupongrenten: da lander alt på pålydende, og prisen mister all informasjon. C har byttet om rollene og priset med kupong 8 og markedsrente 6, som gir premie der det skal være rabatt. Sjekk alltid retningen først: c &lt; y skal gi pris under pålydende.</p>
 </div>
 <div class="quiz__q" data-answer="a">
 <p class="quiz__prompt">5. Et bedriftssertifikat med 91 dager igjen til forfall koster 1 000 kroner og innfrir 1 015 kroner. Hvilken årsrente tilsvarer dette?</p>

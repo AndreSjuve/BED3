@@ -6,16 +6,16 @@ subtitle: "Direkte og indirekte notering, spot- og forwardkurser"
 ## Før du ser videoen
 
 Helt i starten av kurset ble diskontering forklart med en analogi hentet fra
-valutamarkedet — kroner på ulike tidspunkt måtte veksles om før de kunne
+valutamarkedet: kroner på ulike tidspunkt måtte veksles om før de kunne
 sammenlignes. Nå, i kursets siste del, er vi framme ved den ekte varen:
 markedet der penger prises i andre lands penger.
 
 Denne første videoen rydder i begrepene. En kurs er alltid et forhold mellom
-to valutaer — men hvilken av dem står det én av, og hvilken telles det i?
+to valutaer, men hvilken av dem står det én av, og hvilken telles det i?
 Følg med på hvordan direkte og indirekte notering snur lesemåten på hodet,
 hvilke kurser som noteres per hundre enheter, og hva som skiller en
 spotkurs fra en forwardkurs. Til slutt kommer et begrepspar for forholdet
-mellom de to — legg merke til at også det skifter fortegn med noteringsmåten.
+mellom de to. Legg merke til at også det skifter fortegn med noteringsmåten.
 
 ::::: {.video}
 ```{=html}
@@ -41,21 +41,21 @@ ganger du vil.
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Du får 11,50 amerikanske dollar for én norsk krone</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Du må betale 11,50 norske kroner for én amerikansk dollar</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Du må betale 11,50 norske kroner for 100 amerikanske dollar</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Ved direkte notering står basevalutaen først og kvotevalutaen sist, og tallet sier hvor mange enheter kvotevaluta én enhet basevaluta koster: 11,50 kroner per dollar. A leser noteringen baklengs — det er den indirekte lesemåten, som brukes i Storbritannia og det tidligere Samveldet. C blander inn 100-enhetskonvensjonen, men den gjelder kurser som DKKNOK og SEKNOK, ikke dollar.</p>
+<p class="quiz__feedback" hidden>Ved direkte notering står basevalutaen først og kvotevalutaen sist, og tallet sier hvor mange enheter kvotevaluta én enhet basevaluta koster: 11,50 kroner per dollar. A leser noteringen baklengs; det er den indirekte lesemåten, som brukes i Storbritannia og det tidligere Samveldet. C blander inn 100-enhetskonvensjonen, men den gjelder kurser som DKKNOK og SEKNOK, ikke dollar.</p>
 </div>
 <div class="quiz__q" data-answer="c">
 <p class="quiz__prompt">2. SEKNOK er notert til 98,00. Hva koster 500 svenske kroner i spotmarkedet?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>49 000 norske kroner</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>510 norske kroner</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>490 norske kroner</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Svenske og danske kroner noteres per 100 enheter: 98,00 betyr at 100 svenske kroner koster 98 norske, altså 0,98 kroner per svensk krone — og $500 \cdot 0{,}98 = 490$. A overser 100-enheten og behandler kursen som pris per én svensk krone. B deler i stedet for å gange — det svarer til å lese kursen som svenske kroner per 100 norske, altså motsatt retning.</p>
+<p class="quiz__feedback" hidden>Svenske og danske kroner noteres per 100 enheter: 98,00 betyr at 100 svenske kroner koster 98 norske, altså 0,98 kroner per svensk krone, og $500 \cdot 0{,}98 = 490$. A overser 100-enheten og behandler kursen som pris per én svensk krone. B deler i stedet for å gange, som svarer til å lese kursen som svenske kroner per 100 norske, altså motsatt retning.</p>
 </div>
 <div class="quiz__q" data-answer="a">
 <p class="quiz__prompt">3. Ved direkte notering observerer du at forwardkursen på en valuta er høyere enn spotkursen. Hva betyr det?</p>
-<button class="choice" data-key="a"><span class="choice__key">A</span><span>Valutaen handles til en forwardpremie — og med indirekte notering ville den samme situasjonen blitt kalt en forwarddiskonto</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Valutaen handles til en forwardpremie, og med indirekte notering ville den samme situasjonen blitt kalt en forwarddiskonto</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Valutaen handles til en forwarddiskonto, siden fremtidig levering alltid er billigst</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Det kan ikke avgjøres uten å kjenne rentenivåene i de to landene</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Ved direkte notering gir F &gt; S en forwardpremie og F &lt; S en forwarddiskonto — og fordi indirekte notering snur brøken, bytter begrepene plass der. B snur definisjonen og legger til en påstand videoen aldri gir; fremtidig levering kan være både dyrere og billigere enn spot. C forveksler definisjonen med forklaringen: rentenivåene hjelper til å forstå hvorfor forwardkursen ligger der den gjør (det kommer i neste video), men premie og diskonto er definert direkte fra forholdet mellom de to kursene.</p>
+<p class="quiz__feedback" hidden>Ved direkte notering gir F &gt; S en forwardpremie og F &lt; S en forwarddiskonto. Fordi indirekte notering snur brøken, bytter begrepene plass der. B snur definisjonen og legger til en påstand videoen aldri gir; fremtidig levering kan være både dyrere og billigere enn spot. C forveksler definisjonen med forklaringen: rentenivåene hjelper til å forstå hvorfor forwardkursen ligger der den gjør (det kommer i neste video), men premie og diskonto er definert direkte fra forholdet mellom de to kursene.</p>
 </div>
 <p class="quiz__score" role="status" aria-live="polite"></p>
 </div>

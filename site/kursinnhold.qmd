@@ -3,22 +3,12 @@ title: "Kursinnhold"
 subtitle: "Teorivideoene dekker pensum modul for modul. Til hver forelesning hører plansjer, oppgaver med løsningsforslag og en kort quiz."
 ---
 
-Økonomi springer ut av knapphet: vi ønsker oss alltid mer enn vi kan få. BED3
-handler om hvordan den knappe ressursen kapital brukes og prises — hvordan
-foretak velger prosjekter som skaper verdi, hvordan markedene kanaliserer
-sparing dit den kaster mest av seg, og hvordan finansielle kontrakter flytter
-risiko mellom parter. Vil du ha det store bildet først, start med
-[bakteppet](kursmateriale/00-bakteppe.qmd).
-
 Modulene på denne siden er de asynkrone videodelene av kurset:
 investeringsanalyse og finansielle markeder og kontrakter. Nummereringen
-følger kursets samlede modulrekke — delene imellom, fra porteføljeteori til
-bærekraftige investeringer, undervises i plenumsforelesningene, med materiell
-på Canvas.
+følger kursets samlede modulrekke.
 
-<p class="note">Se videoen før forelesningen. Forelesningen brukes til det
-videoen ikke kan gjøre: spørsmål, regning i fellesskap, og de tilfellene der
-teorien ikke gir ett entydig svar.</p>
+<p class="note">Se videoen før forelesningen. Forelesningen brukes til å gå
+dypere inn på utvalgte deler og svare på spørsmål.</p>
 
 ## Investeringsanalyse
 
@@ -26,6 +16,14 @@ Fra investeringsprosjektets beslutningsregler til låne- og
 betalingsalternativer.
 
 ::::: {.index-list}
+<a class="index-row" href="kursmateriale/00-bakteppe.html">
+  <span class="index-row__no">—</span>
+  <span>
+    <span class="index-row__title">Bakteppe</span>
+    <span class="index-row__sub">Hvor økonomifaget springer ut fra, og hvordan investorer, kapitalmarked og foretak henger sammen</span>
+  </span>
+  <span class="index-row__dur">—</span>
+</a>
 <a class="index-row" href="kursmateriale/01-investeringsanalyse/01-introduksjon.html">
   <span class="index-row__no">—</span>
   <span>
@@ -101,7 +99,7 @@ Rentemarkedet og de tre kontraktstypene kurset behandler.
   <span class="index-row__no">14</span>
   <span>
     <span class="index-row__title">Opsjonskontrakter</span>
-    <span class="index-row__sub">Retten, men ikke plikten — og hva den retten er verdt</span>
+    <span class="index-row__sub">Rett, men ikke plikt, og hva den retten er verdt</span>
   </span>
   <span class="index-row__dur">1 t 58 min</span>
 </a>
@@ -123,5 +121,4 @@ Rentemarkedet og de tre kontraktstypene kurset behandler.
 </a>
 :::::
 
-<p class="note">Modulstrukturen følger den eksisterende kursnettsiden.
-Videolengder står som strek til videoene er publisert.</p>
+<p class="note">Modulstrukturen følger den eksisterende kursnettsiden.</p>

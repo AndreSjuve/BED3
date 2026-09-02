@@ -17,7 +17,7 @@ kapitalstruktur. Disse temaene er undervist i plenumsforelesningene, med
 materiell på Canvas.
 
 I denne modulen flytter vi perspektivet fra foretakets beslutninger til
-**markedene hvor finansielle kontrakter omsettes**. Her studerer vi hvordan
+markedene hvor finansielle kontrakter omsettes. Her studerer vi hvordan
 renter, derivater og valutamarkeder brukes til å prise fremtidige
 kontantstrømmer og håndtere finansiell risiko.
 
@@ -39,7 +39,7 @@ de prises i finansielle markeder.
 
 Modulen består av fire deler, og de leses best i rekkefølge.
 
-Modulen starter med [Del 13, Rentemarkedet](02-rentemarkedet/index.qmd). Her
+Den starter med [Del 13, Rentemarkedet](02-rentemarkedet/index.qmd). Her
 analyserer vi obligasjoner, sammenhengen mellom pris og rente, teorier bak
 rentekurven, samt måling og styring av risiko i rentemarkedet.
 

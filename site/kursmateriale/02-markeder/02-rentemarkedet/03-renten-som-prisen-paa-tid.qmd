@@ -13,7 +13,7 @@ du frivillig venter?
 Videoen har tre deler. Først tankeeksperimentet, som ender i en presis idé om
 hva renter måler, og hvorfor det finnes mange renter og ikke én. Deretter:
 hvor i markedet finner vi disse prisene, og hvorfor egner noen rentepapirer
-seg bedre enn andre til å måle dem? Til slutt leses tre kurveformer — med
+seg bedre enn andre til å måle dem? Til slutt leses tre kurveformer, med
 amerikanske statsrenter fra 2022 og 2023 som et eksempel på at kurven faktisk
 varsler noe.
 
@@ -40,29 +40,29 @@ mange ganger du vil.
 <p class="quiz__prompt">1. Hva er renten, slik videoen bygger opp begrepet?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Betalingen långiver krever for risikoen for at låntaker ikke gjør opp</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Prisen på penger, fastsatt av sentralbanken</span><span class="choice__mark"></span></button>
-<button class="choice" data-key="c"><span class="choice__key">C</span><span>Kompensasjonen for å utsette konsum — prisen på tid</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Vi foretrekker konsum i dag fremfor i morgen, og renten er det vi må få for å skyve økonomisk aktivitet frem i tid. A beskriver kredittpremien — den finnes i mange observerte renter, men renten eksisterer også i en verden helt uten konkursrisiko; det er derfor statspapirer brukes til å isolere tidsprisen. B: sentralbanken påvirker korte renter, men prisen dannes gjennom kjøp og salg i markedet, drevet av tidspreferansene til dem som handler.</p>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Kompensasjonen for å utsette konsum, prisen på tid</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Vi foretrekker konsum i dag fremfor i morgen, og renten er det vi må få for å skyve økonomisk aktivitet frem i tid. A beskriver kredittpremien: den finnes i mange observerte renter, men renten eksisterer også i en verden helt uten konkursrisiko; det er derfor statspapirer brukes til å isolere tidsprisen. B: sentralbanken påvirker korte renter, men prisen dannes gjennom kjøp og salg i markedet, drevet av tidspreferansene til dem som handler.</p>
 </div>
 <div class="quiz__q" data-answer="a">
 <p class="quiz__prompt">2. Hvorfor bygges rentekurven i praksis på statspapirer?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>De har lav kredittrisiko, god likviditet og utstedes med mange løpetider</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Statsrentene er fastsatt ved lov og svinger derfor ikke</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Statspapirer bærer den største likviditetspremien i markedet</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Målet er å uttrykke renten som en funksjon av tid alene, så alle andre premier — kreditt, likviditet — bør være så små og like som mulig, og papirene så homogene som mulig på tvers av løpetider. Statspapirer oppfyller alt dette. B er feil premiss: statsrenter settes i markedet gjennom handel, ikke ved vedtak. C har det baklengs — statspapirene er blant de mest likvide som finnes, så likviditetspremien er nær null, ikke størst.</p>
+<p class="quiz__feedback" hidden>Målet er å uttrykke renten som en funksjon av tid alene, så alle andre premier (kreditt, likviditet) bør være så små og like som mulig, og papirene så homogene som mulig på tvers av løpetider. Statspapirer oppfyller alt dette. B er feil premiss: statsrenter settes i markedet gjennom handel, ikke ved vedtak. C har det baklengs: statspapirene er blant de mest likvide som finnes, så likviditetspremien er nær null, ikke størst.</p>
 </div>
 <div class="quiz__q" data-answer="b">
 <p class="quiz__prompt">3. Rentekurven er invertert: korte renter ligger over lange. Hva signaliserer det?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>At markedet venter sterk vekst og tiltagende inflasjon</span><span class="choice__mark"></span></button>
-<button class="choice" data-key="b"><span class="choice__key">B</span><span>At markedet venter rentekutt og svakere økonomisk aktivitet — gjerne resesjon</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>At markedet venter rentekutt og svakere økonomisk aktivitet, gjerne resesjon</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>At investorer krever ekstra betalt for å binde kapital lenge</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Når investorer tror det går mot dårligere tider og lavere styringsrenter, kjøper de lange obligasjoner for å låse inn dagens rente. Etterspørselen presser prisene opp og de lange yieldene ned — under de korte. A beskriver den motsatte situasjonen, en stigende kurve. C beskriver kompensasjonen for lang binding som normalt gjør kurven stigende; en invertert kurve betyr at forventningene om fall er sterke nok til å overdøve nettopp den effekten.</p>
+<p class="quiz__feedback" hidden>Når investorer tror det går mot dårligere tider og lavere styringsrenter, kjøper de lange obligasjoner for å låse inn dagens rente. Etterspørselen presser prisene opp og de lange yieldene ned, under de korte. A beskriver den motsatte situasjonen, en stigende kurve. C beskriver kompensasjonen for lang binding som normalt gjør kurven stigende; en invertert kurve betyr at forventningene om fall er sterke nok til å overdøve nettopp den effekten.</p>
 </div>
 <div class="quiz__q" data-answer="c">
 <p class="quiz__prompt">4. Mange investorer kjøper samtidig tiårige statsobligasjoner for å sikre seg. Hva skjer med pris og yield to maturity?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Prisen stiger, og yield to maturity stiger med den</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Prisen faller fordi det blir flere obligasjoner i omløp</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Prisen presses opp, og yield to maturity presses ned</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Obligasjonens kontantstrømmer ligger fast, så en høyere pris betyr per definisjon lavere avkastning frem til forfall — pris og yield beveger seg motsatt. A lar begge stige samtidig, men da måtte kontantstrømmene ha vokst, og det gjør de ikke. B blander tilbud og etterspørsel: det er etterspørselen som øker her; antallet utestående obligasjoner endres ikke av at investorer kjøper dem av hverandre.</p>
+<p class="quiz__feedback" hidden>Obligasjonens kontantstrømmer ligger fast, så en høyere pris betyr per definisjon lavere avkastning frem til forfall: pris og yield beveger seg motsatt. A lar begge stige samtidig, men da måtte kontantstrømmene ha vokst, og det gjør de ikke. B blander tilbud og etterspørsel: det er etterspørselen som øker her; antallet utestående obligasjoner endres ikke av at investorer kjøper dem av hverandre.</p>
 </div>
 <p class="quiz__score" role="status" aria-live="polite"></p>
 </div>

@@ -22,8 +22,8 @@ på Canvas og her.</p>
   <dt style="min-width:16rem">Hjemmesider</dt><dd><a href="https://canvas.nhh.no">canvas.nhh.no</a> og kursets side (denne)</dd>
 </dl>
 
-<p class="note">Se de relevante modulene på Canvas for mer informasjon om
-innleveringene. Detaljert informasjon om gruppeøvingene finnes på Canvas.</p>
+<p class="note">Mer informasjon om innleveringene og gruppeøvingene finnes i
+de relevante modulene på Canvas.</p>
 
 ## Forelesningsplan
 

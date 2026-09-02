@@ -11,8 +11,8 @@ samtidig pensjoner tiår frem i tid. Begge sider av balansen beveger seg når
 renten endrer seg. Er et rentefall da godt eller dårlig nytt?
 
 Videoen bygger svaret i tre steg: først balansen som viser hvor problemet
-sitter, så mekanismen — en renteendring har to effekter på totalavkastningen
-som trekker hver sin vei — og til slutt et gjennomregnet spareeksempel der et
+sitter, så mekanismen (en renteendring har to effekter på totalavkastningen
+som trekker hver sin vei), og til slutt et gjennomregnet spareeksempel der et
 bestemt beløp skal stå klart om ti år, uansett hva renten gjør.
 Se etter hva som må stemme overens med investeringshorisonten for at
 regnestykket skal gå opp.
@@ -49,30 +49,30 @@ mange ganger du vil. Det siste spørsmålet krever kalkulator.
 <div class="quiz__q" data-answer="b">
 <p class="quiz__prompt">1. Renten faller. Hvorfor er ikke det entydig godt nytt for et pensjonsfond som eier obligasjoner?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Fordi obligasjonene fondet eier, faller i verdi når renten faller</span><span class="choice__mark"></span></button>
-<button class="choice" data-key="b"><span class="choice__key">B</span><span>Fordi nåverdien av pensjonsforpliktelsene også stiger — kanskje mer enn eiendelene</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Fordi nåverdien av pensjonsforpliktelsene også stiger, kanskje mer enn eiendelene</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Fordi kupongene fondet mottar, blir mindre når renten faller</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Forpliktelsene verdsettes som nåverdien av fremtidige utbetalinger, og med lavere rente diskonteres de mindre — de stiger i verdi akkurat som obligasjonene. Er forpliktelsene mer rentefølsomme enn eiendelene, krymper egenkapitalen selv om eiendelssiden vokser. A har prisforholdet baklengs: obligasjoner stiger når renten faller. C: kupongene er avtalt på forhånd og endres ikke — det som faller, er renten de kan reinvesteres til.</p>
+<p class="quiz__feedback" hidden>Forpliktelsene verdsettes som nåverdien av fremtidige utbetalinger, og med lavere rente diskonteres de mindre: de stiger i verdi akkurat som obligasjonene. Er forpliktelsene mer rentefølsomme enn eiendelene, krymper egenkapitalen selv om eiendelssiden vokser. A har prisforholdet baklengs: obligasjoner stiger når renten faller. C: kupongene er avtalt på forhånd og endres ikke; det som faller, er renten de kan reinvesteres til.</p>
 </div>
 <div class="quiz__q" data-answer="c">
 <p class="quiz__prompt">2. Hva går immunisering ut på?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Å selge obligasjonene rett før renten endrer seg</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Å bare eie statspapirer, som ikke har kredittrisiko</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Å matche durasjonen på eiendelene med durasjonen på forpliktelsene</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Når begge sider av balansen har samme durasjon, endrer de seg om lag like mye i verdi for en gitt renteendring — og egenkapitalen, eller sparemålet, står i ro. For en enkeltinvestor betyr det å velge en portefølje med durasjon lik investeringshorisonten. A forutsetter at du kan spå renteendringene — kunne du det, trengte du ingen beskyttelse. B fjerner kredittrisikoen, men statspapirer svinger like fullt i verdi når renten beveger seg.</p>
+<p class="quiz__feedback" hidden>Når begge sider av balansen har samme durasjon, endrer de seg om lag like mye i verdi for en gitt renteendring, og egenkapitalen, eller sparemålet, står i ro. For en enkeltinvestor betyr det å velge en portefølje med durasjon lik investeringshorisonten. A forutsetter at du kan spå renteendringene: kunne du det, trengte du ingen beskyttelse. B fjerner kredittrisikoen, men statspapirer svinger like fullt i verdi når renten beveger seg.</p>
 </div>
 <div class="quiz__q" data-answer="a">
 <p class="quiz__prompt">3. Hvorfor virker immunisering når horisonten er lik durasjonen?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Kurseffekten og reinvesteringseffekten av en renteendring trekker i hver sin retning og opphever hverandre</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Fordi obligasjonen forfaller nøyaktig på horisonttidspunktet</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Konveksiteten sørger for at prisen aldri endrer seg</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Stiger renten, faller salgsprisen på obligasjonen — men kupongene reinvesteres til høyere rente. Ved horisonten lik durasjonen er de to effektene nøyaktig like store med motsatt fortegn, så nettoeffekten på sluttbeløpet blir null for små, parallelle renteskift. B beskriver løpetidsmatching, ikke durasjonsmatching — en kupongobligasjon med durasjon lik horisonten har lengre løpetid enn horisonten. C: prisen endrer seg så det suser; konveksiteten er tvert imot det durasjonsmatchingen ikke fanger.</p>
+<p class="quiz__feedback" hidden>Stiger renten, faller salgsprisen på obligasjonen, men kupongene reinvesteres til høyere rente. Ved horisonten lik durasjonen er de to effektene nøyaktig like store med motsatt fortegn, så nettoeffekten på sluttbeløpet blir null for små, parallelle renteskift. B beskriver løpetidsmatching, ikke durasjonsmatching: en kupongobligasjon med durasjon lik horisonten har lengre løpetid enn horisonten. C: prisen endrer seg så det suser; konveksiteten er tvert imot det durasjonsmatchingen ikke fanger.</p>
 </div>
 <div class="quiz__q" data-answer="b">
 <p class="quiz__prompt">4. Du skal ha 2 millioner kroner om seks år, og markedsrenten er 8 prosent. Hvor mye må du investere i dag for å nå målet?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Om lag 1,85 millioner</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Om lag 1,26 millioner</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>1,04 millioner</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Du trenger nåverdien av målbeløpet: 2 000 000/1,08⁶ ≈ 1 260 000 kroner. A diskonterer bare ett år (2 000 000/1,08) og overser at renters rente jobber for deg i alle seks årene. C trekker fra 8 prosent i året lineært (6 · 8 = 48 prosent), men uten renters rente blir fradraget for stort — 1,04 millioner vokser bare til om lag 1,65 millioner på seks år, og du bommer på målet.</p>
+<p class="quiz__feedback" hidden>Du trenger nåverdien av målbeløpet: 2 000 000/1,08⁶ ≈ 1 260 000 kroner. A diskonterer bare ett år (2 000 000/1,08) og overser at renters rente jobber for deg i alle seks årene. C trekker fra 8 prosent i året lineært (6 · 8 = 48 prosent), men uten renters rente blir fradraget for stort: 1,04 millioner vokser bare til om lag 1,65 millioner på seks år, og du bommer på målet.</p>
 </div>
 <p class="quiz__score" role="status" aria-live="polite"></p>
 </div>

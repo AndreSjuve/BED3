@@ -4,8 +4,8 @@ subtitle: "Retten, men ikke plikten — og hva den retten er verdt"
 ---
 
 Aksjer og obligasjoner er direkte krav på selskapenes kontantstrømmer. Dette
-kapittelet handler om derivater — kontrakter der utbetalingen i stedet
-avhenger av prisen på en annen eiendel — og særlig om de to viktigste:
+kapittelet handler om derivater (kontrakter der utbetalingen i stedet
+avhenger av prisen på en annen eiendel), og særlig om de to viktigste:
 kjøpsopsjonen og salgsopsjonen. Begge gir eieren en rett uten plikt, og det er
 den asymmetrien som gir kontantstrømsprofilene deres den karakteristiske
 knekken.
@@ -132,11 +132,11 @@ $\max(K - S_T,\, 0)$ for salgsopsjonen; gevinsten er verdien minus premien:
 | 125 | 15 | 9 | 0 | −4 |
 
 Legg merke til asymmetrien: tapet er i alle utfall begrenset til premien,
-mens gevinsten vokser krone for krone når opsjonen fullfører in the money.
+mens gevinsten vokser krone for krone når opsjonen ender in the money.
 
 **b)** Kjøpsopsjonen går i null når verdien akkurat dekker premien:
 $S_T = K + 6 = 116$ kroner. Salgsopsjonen tilsvarende på nedsiden:
-$S_T = K - 4 = 106$ kroner. Mellom 106 og 116 taper faktisk begge — men aldri
+$S_T = K - 4 = 106$ kroner. Mellom 106 og 116 taper faktisk begge, men aldri
 mer enn innsatsen.
 
 ::::
@@ -176,7 +176,7 @@ $\max(S_T - 150,\, 0) + \max(150 - S_T,\, 0) - 11$:
 utslaget må dekke begge premiene: null ved $S_T = 150 - 11 = 139$ og
 $S_T = 150 + 11 = 161$ kroner.
 
-**c)** Retningen spiller ingen rolle — gevinsten avhenger bare av hvor *langt*
+**c)** Retningen spiller ingen rolle: gevinsten avhenger bare av hvor *langt*
 kursen beveger seg fra kontraktsprisen. Straddlen er et veddemål på høy
 volatilitet, en eksponering man ikke får kjøpt direkte i aksjemarkedet.
 Motparten, som har solgt begge opsjonene, tjener på at kursen står stille.
@@ -209,12 +209,12 @@ gir
 
 $$C_0 = S_0 - PV(K) + P_0 = 118 - 120 + 5{,}50 = 3{,}50 \text{ kroner}$$
 
-**b)** Callen handles for 4,30, men er verdt 3,50 — den er for dyr. Selg det
+**b)** Callen handles for 4,30, men er verdt 3,50. Den er for dyr. Selg det
 som er dyrt, kjøp det som er billig: selg kjøpsopsjonen, og kjøp den
-syntetiske i stedet — kjøp aksjen og salgsopsjonen, finansiert med et lån på
+syntetiske i stedet, altså aksjen og salgsopsjonen, finansiert med et lån på
 $PV(K) = 120$.
 
-I dag: $+4{,}30 + 120 - 118 - 5{,}50 = +0{,}80$ kroner — nøyaktig lik
+I dag: $+4{,}30 + 120 - 118 - 5{,}50 = +0{,}80$ kroner, nøyaktig lik
 feilprisingen $4{,}30 - 3{,}50$.
 
 Ved forfall (lånet tilbakebetales med $120 \cdot 1{,}05 = 126$):
@@ -258,7 +258,7 @@ kontraktsprisen:
 
 $$C_0 \geq S_0 - PV(K) = 25 - \frac{22}{1{,}10} = 25 - 20 = 5 \text{ kroner}$$
 
-**b)** Opsjonen er for billig — kjøp den, og short aksjen: short gir +25,
+**b)** Opsjonen er for billig: kjøp den, og short aksjen. Short gir +25,
 opsjonen koster −4, og netto 21 kroner settes i banken til 10 %. Ingen egen
 kapital er lagt inn. Ved forfall står det $21 \cdot 1{,}10 = 23{,}10$ kroner
 på konto.
@@ -267,9 +267,9 @@ Hvis $S_T \geq 22$: utøv opsjonen, kjøp aksjen for 22 og lever den tilbake.
 Gevinst: $23{,}10 - 22 = 1{,}10$ kroner.
 
 Hvis $S_T = 21$: la opsjonen utløpe, kjøp aksjen i markedet for 21 og lever
-den tilbake. Gevinst: $23{,}10 - 21 = 2{,}10$ kroner — enda mer.
+den tilbake. Gevinst: $23{,}10 - 21 = 2{,}10$ kroner, enda mer.
 
-I begge tilfeller er gevinsten positiv uansett utfall, uten innsats — en
+I begge tilfeller er gevinsten positiv uansett utfall, uten innsats: en
 arbitrasje. Derfor kan ikke en pris under 5 kroner overleve i markedet.
 
 ::::

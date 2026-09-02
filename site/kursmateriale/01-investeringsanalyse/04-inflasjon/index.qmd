@@ -6,7 +6,7 @@ subtitle: "Nominelle og reelle størrelser, og hvorfor de ikke må blandes"
 Del 1 vurderte kontantstrømmer, del 2 lagde dem — begge i kroner, uten å
 spørre hva kronene er verdt. Dette kapittelet tar prisstigningen på alvor: hva
 skjer med kontantstrømmer, internrenter og avkastningskrav når hver krone
-kjøper litt mindre for hvert år? Nøkkelordet er konsistens — nominelle og
+kjøper litt mindre for hvert år? Nøkkelordet er konsistens: nominelle og
 reelle størrelser gir samme svar, men bare når teller og nevner snakker samme
 språk.
 
@@ -70,8 +70,8 @@ I tillegg til symbolene fra kapittel 1 og 2 bruker videoene disse:
 | $y_N$, $y_R$ | Nominell og reell internrente |
 | $s$ | Den nominelle skattesatsen |
 
-Omregningen mellom nominelle og reelle renter — $k_R = (k_N - i)/(1+i)$ og
-tilbake — står under «Renteregning» på
+Omregningen mellom nominelle og reelle renter ($k_R = (k_N - i)/(1+i)$ og
+tilbake) står under «Renteregning» på
 [formelarket](../../../formelark.qmd), sammen med koblingen fra nominell
 lånerente før skatt til reell lånerente etter skatt.
 
@@ -83,7 +83,7 @@ lånerente før skatt til reell lånerente etter skatt.
 
 Oppgavene dekker omregningen mellom nominelle og reelle størrelser,
 inflasjonsjustering av postene i en kontantstrømoppstilling og effektive
-skattesatser. Regn dem for hånd før du åpner løsningsforslaget — å lese en
+skattesatser. Regn dem for hånd før du åpner løsningsforslaget: å lese en
 løsning føles som å forstå den, og det er sjelden det samme.
 
 ::::: {.problem}
@@ -106,7 +106,7 @@ samme svar.
 
 :::: {.solution__body}
 
-**a)** Det nominelle kravet er ikke bare realkrav pluss inflasjon — også
+**a)** Det nominelle kravet er ikke bare realkrav pluss inflasjon, for også
 rentedelen må inflasjonsjusteres:
 
 $$k_N = k_R \cdot (1+i) + i = 0{,}05 \cdot 1{,}04 + 0{,}04 = 9{,}2\ \%$$
@@ -125,7 +125,7 @@ Reelt spor, med reelt krav:
 
 $$\text{NNV} = -900\,000 + \frac{500\,000}{1{,}05} + \frac{500\,000}{1{,}05^2} \approx 29\,700$$
 
-Samme netto nåverdi på øret — verdiskapingen er den samme enten den måles i
+Samme netto nåverdi på øret: verdiskapingen er den samme enten den måles i
 løpende kroner eller i kjøpekraft, så lenge teller og nevner behandles
 konsistent. Å blande sporene (for eksempel reelle kontantstrømmer mot
 nominelt krav) ville derimot undervurdert prosjektet.
@@ -167,11 +167,11 @@ $$357 - 350 = 7{,}0$$
 
 For år 2 kan man enten inflasjonsjustere nivået en gang til
 ($350 \cdot 1{,}02^2 = 364{,}1$, endring $364{,}1 - 357 \approx 7{,}1$) eller
-gange fjorårets endring med inflasjonen ($7{,}0 \cdot 1{,}02 \approx 7{,}1$) —
-samme svar. Begge årene gir altså en liten utbetaling, enda varelageret er
+gange fjorårets endring med inflasjonen ($7{,}0 \cdot 1{,}02 \approx 7{,}1$);
+svaret blir det samme. Begge årene gir altså en liten utbetaling, enda varelageret er
 uendret i volum: de samme varene binder litt mer kapital når prisene stiger.
 
-**c)** Ved avviklingen frigjøres hele det akkumulerte nivået — startbeløpet
+**c)** Ved avviklingen frigjøres hele det akkumulerte nivået, altså startbeløpet
 oppjustert med inflasjonen fram til siste driftsår:
 
 $$350 \cdot 1{,}02^3 \approx 371{,}4$$
@@ -214,7 +214,7 @@ følger av å betale skatt:
 $$\text{Nominelt: } \frac{18 - 13}{18} \approx 27{,}8\ \% \qquad
 \text{Reelt: } \frac{15{,}1 - 10{,}2}{15{,}1} \approx 32{,}3\ \%$$
 
-Merk at den reelle effektive skattesatsen er høyere enn den nominelle — og at
+Merk at den reelle effektive skattesatsen er høyere enn den nominelle, og at
 begge avviker fra den lovbestemte satsen på 22 %.
 
 **c)** Først skattejusteres renten, deretter deflateres den:

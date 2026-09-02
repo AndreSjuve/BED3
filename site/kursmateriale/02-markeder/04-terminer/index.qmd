@@ -5,13 +5,13 @@ subtitle: "Avtaler i dag om handel i morgen, og prisen på å binde seg"
 
 Med obligasjoner og opsjoner bak oss står det siste store derivatmarkedet for
 tur. En terminkontrakt er en avtale om å kjøpe eller selge noe frem i tid, til
-en pris som spikres i dag — ingen valgfrihet, bare en gjensidig forpliktelse.
+en pris som spikres i dag: ingen valgfrihet, bare en gjensidig forpliktelse.
 Det reiser to spørsmål som bærer hele delen: hvordan kan et marked for slike
 løfter fungere uten at noen blir sittende med regningen når motparten svikter,
 og hva bestemmer prisen på å binde seg?
 
 Seks videoer, drøyt 100 minutter til sammen. De to første handler om hva
-terminhandel er og hvordan markedet er organisert; de tre neste om prising —
+terminhandel er og hvordan markedet er organisert; de tre neste om prising:
 lagringskostnadshypotesen, forventningshypotesen og volumbalansen; den siste
 om sikring i praksis. Til hver video hører en kort quiz. Oppgavene nederst
 regnes best når du har sett alt, og krever kalkulator.
@@ -63,7 +63,7 @@ regnes best når du har sett alt, og krever kalkulator.
   <span class="index-row__no">6</span>
   <span>
     <span class="index-row__title">Sikring med terminkontrakter</span>
-    <span class="index-row__sub">Full og halv sikring — hvor mye prisrisiko vil du beholde?</span>
+    <span class="index-row__sub">Full og halv sikring: hvor mye prisrisiko vil du beholde?</span>
   </span>
   <span class="index-row__dur">16:53</span>
 </a>
@@ -90,8 +90,8 @@ I tillegg til symbolene fra de tidligere kapitlene bruker videoene disse:
 | div | Dividenderaten per år for underliggende |
 | $\beta$ | Den systematiske risikoen i underliggende |
 
-Formlene — lagringskostnadshypotesen i generell form og for aksjer med
-utbytte, og forventningshypotesen — står under «Opsjoner og derivater» på
+Formlene (lagringskostnadshypotesen i generell form og for aksjer med
+utbytte, og forventningshypotesen) står under «Opsjoner og derivater» på
 [formelarket](../../../formelark.qmd).
 
 ## Forelesningsplansjer
@@ -127,12 +127,12 @@ c) Hva om kontrakten i stedet kvoteres til 121?
 
 $$F = 120 \cdot \left(1 + 0{,}04 \cdot \tfrac{6}{12}\right) = 120 \cdot 1{,}02 = 122{,}40$$
 
-**b)** 125 er for høyt — selg det dyre, kjøp det billige: gå short
+**b)** 125 er for høyt. Selg det dyre, kjøp det billige: gå short
 forwardkontrakten, lån 120 kroner og kjøp aksjen i dag. Ved forfall leveres
 aksjen mot 125, og lånet betales tilbake med 120 · 1,02 = 122,40. Gevinsten er
 125 − 122,40 = **2,60 kroner**, uten kontantutlegg i dag og uten risiko.
 
-**c)** 121 er for lavt — nå er det kontrakten som er billig: gå lang
+**c)** 121 er for lavt. Nå er det kontrakten som er billig: gå lang
 forwardkontrakten, short aksjen for 120 og plasser pengene til risikofri
 rente. Ved forfall har plasseringen vokst til 122,40; du kjøper aksjen for 121
 gjennom kontrakten og leverer den tilbake. Gevinsten er 122,40 − 121 =
@@ -177,11 +177,11 @@ kontoen:
 | 3 | 87,90 | −0,85 · 2 000 = −1 700 | 7 800 |
 
 **b)** Grensen er vedlikeholdsmarginen, 2 · 4 500 = 9 000 dollar. Etter dag 1
-og 2 er saldoen fortsatt over grensen, men etter dag 3 står kontoen på 7 800 —
-da kommer margin call-en. Skal kontoen tilbake til initialmarginen, må du
+og 2 er saldoen fortsatt over grensen, men etter dag 3 står kontoen på 7 800,
+og da kommer margin call-en. Skal kontoen tilbake til initialmarginen, må du
 sette inn 12 000 − 7 800 = **4 200 dollar** i variasjonsmargin.
 
-**c)** Det kumulative tapet er 1 600 + 900 + 1 700 = 4 200 dollar — nøyaktig
+**c)** Det kumulative tapet er 1 600 + 900 + 1 700 = 4 200 dollar, nøyaktig
 (90,00 − 87,90) · 2 000. Det daglige oppgjøret stykker altså bare opp den
 samlede prisbevegelsen i dagsbiter; summen av avregningene er alltid lik
 endringen fra din innlåste pris.
@@ -201,7 +201,7 @@ eksponeringen er 9 % per år. Risikofri rente er 3,5 % per år.
 a) Hva blir terminprisen i dag dersom alle investeringer er riktig priset, det
 vil si har netto nåverdi lik null i forventning?
 
-b) Er markedet i backwardation eller contango — og hvordan rimer svaret med
+b) Er markedet i backwardation eller contango, og hvordan rimer svaret med
 volumbalanseteoriens fortelling om hvem som må lokkes inn i markedet?
 
 <details class="solution">
@@ -217,8 +217,8 @@ $$F_0 = E(S_T) \cdot \frac{(1 + r_f)^T}{(1 + k)^T} = 150 \cdot \frac{1{,}035^2}{
 Terminprisen ligger altså rundt 15 kroner under forventet spotpris.
 
 **b)** $F_0 < E(S_T)$ er backwardation. I volumbalanseteoriens språk: siden
-råvaren bærer systematisk risiko, må den som tar den lange siden — typisk en
-spekulant som klarerer produsentenes salgspress — ha en forventet gevinst som
+råvaren bærer systematisk risiko, må den som tar den lange siden (typisk en
+spekulant som klarerer produsentenes salgspress) ha en forventet gevinst som
 betaling. Den forventede gevinsten på ≈ 150 − 135,2 ≈ 14,8 kroner per enhet
 er risikopremien; de to fortellingene (KVM-utledningen og volumbalansen)
 peker her samme vei.
@@ -233,7 +233,7 @@ peker her samme vei.
 
 Du forvalter en indeksportefølje verdt 30 millioner kroner. Indeksen står i
 1 200, risikofri rente er 2,4 % per år, og futuresprisen for levering om tre
-måneder er 1 207,20 — i tråd med lagringskostnadshypotesen, uten utbytte i
+måneder er 1 207,20, i tråd med lagringskostnadshypotesen og uten utbytte i
 perioden. Én kontrakt gjelder 100 ganger indeksverdien. Om tre måneder står
 indeksen i enten 1 320 eller 1 140, med lik sannsynlighet.
 
@@ -260,7 +260,7 @@ kontrakt dekker 100 · 1 200 = 120 000 kroner, så full sikring krever
 | 1 140 | 30 mill. · 1 140/1 200 = 28 500 000 | (1 207,2 − 1 140) · 100 · 250 = +1 680 000 | 30 180 000 |
 
 Verdien er 30 180 000 uansett utfall: 180 000 / 30 000 000 = 0,6 % på tre
-måneder, som er 2,4 % per år — risikofri rente, akkurat som en risikofri
+måneder, som er 2,4 % per år: risikofri rente, akkurat som en risikofri
 posisjon skal gi.
 
 **b)** Halv sikring: selg 125 kontrakter.
@@ -277,7 +277,7 @@ måneder, standardavvik (5,3 + 2,2)/2 = **3,75 %**.
 (−5 %): forventet avkastning 2,5 % og standardavvik 7,5 %. Antall solgte
 kontrakter velger altså et punkt på linjen mellom risikofri plassering
 (0,6 % sikkert) og full markedseksponering (2,5 % forventet, 7,5 % i
-standardavvik) — sikring er ikke gratis trygghet, men et bytte av forventet
+standardavvik). Sikring er ikke gratis trygghet, men et bytte av forventet
 avkastning mot redusert risiko.
 
 ::::

@@ -7,12 +7,12 @@ Kurset åpnet i sin tid med å låne et bilde fra valutamarkedet: kontantstrømm
 på ulike tidspunkt måtte veksles om før de kunne sammenlignes. I denne siste
 delen er vekslingen ekte. Handel, investeringer og lån på tvers av
 landegrenser gjør at lønnsomheten avhenger av hvordan valutakursene utvikler
-seg — og spørsmålet blir hvilke krefter som styrer den utviklingen, og hvordan
+seg. Spørsmålet blir hvilke krefter som styrer den utviklingen, og hvordan
 en analyse tar høyde for den.
 
 Tre videoer, drøyt 40 minutter til sammen. Den første rydder i begrepene:
 hvordan kurser noteres og leses, og hva spot- og forwardmarkedet er. Den andre
-er hovedbolken — fem paritetsbetingelser som knytter valutakurser til renter og
+er hovedbolken: fem paritetsbetingelser som knytter valutakurser til renter og
 inflasjon, med et gjennomregnet arbitrasjeeksempel. Den tredje henter fram
 verktøykassen fra investeringsanalysen og bruker den på utenlandsprosjekter og
 valutalån. Til hver video hører en kort quiz. Oppgavene nederst krever
@@ -65,8 +65,8 @@ per enhet utenlandsk valuta.
 | $i_{\text{NOK}}$, $i_{\text{UTL}}$ | Inflasjon hjemme og ute |
 | $k_{\text{NOK}}$, $k_{\text{UTL}}$ | Avkastningskrav i norske kroner og i utenlandsk valuta |
 
-Paritetsbetingelsene — relativ kjøpekraftsparitet, dekket og udekket
-renteparitet, Fisher-effekten og forventningshypotesen — står samlet under
+Paritetsbetingelsene (relativ kjøpekraftsparitet, dekket og udekket
+renteparitet, Fisher-effekten og forventningshypotesen) står samlet under
 «Internasjonal finans» på [formelarket](../../../formelark.qmd), sammen med
 omregningen av avkastningskrav og lånekostnaden ved utenlandske lån.
 
@@ -112,7 +112,7 @@ til en forwardpremie.
 $$\frac{97{,}20}{96{,}50} - 1 \approx 0{,}73\ \%$$
 
 Uttrykt på årsbasis ganges delperiodens prosentvise avvik med antall
-delperioder i året — fire kvartaler:
+delperioder i året, her fire kvartaler:
 
 $$0{,}73\ \% \cdot 4 \approx 2{,}9\ \%$$
 
@@ -165,8 +165,8 @@ kroner, så gevinsten er
 $$1\,189\,000 - 1\,170\,400 = 18\,600 \text{ kroner}$$
 
 Kontroll: forwardposisjonen ganger feilprisingen,
-$102\,500 \cdot (11{,}60 - 11{,}42) \approx 18\,600$ — risikofritt, siden alle
-kurser og renter ble låst i dag.
+$102\,500 \cdot (11{,}60 - 11{,}42) \approx 18\,600$. Gevinsten er risikofri,
+siden alle kurser og renter ble låst i dag.
 
 ::::
 

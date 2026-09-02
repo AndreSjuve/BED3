@@ -7,10 +7,10 @@ subtitle: "Fire steg fra prosjekt til beslutning"
 
 Kapittelet har gitt deg mange begreper og flere metoder. Mister man helheten,
 framstår det fort som en samling løsrevne teknikker. Videoen viser at det ikke
-er det, og formulerer det i én setning det er verdt å merke seg.
+er det, og formulerer det i én setning.
 
-Den samler alt i fire steg, går så gjennom de vanligste feilene — som stort sett
-består i å hoppe over ett av dem — og peker til slutt fram mot neste kapittel.
+Den samler alt i fire steg, går så gjennom de vanligste feilene (som stort sett
+består i å hoppe over ett av dem) og peker til slutt fram mot neste kapittel.
 Har du sett de sju foregående videoene, skal ingenting her være nytt. Verdien
 ligger i å se hvordan delene henger sammen.
 

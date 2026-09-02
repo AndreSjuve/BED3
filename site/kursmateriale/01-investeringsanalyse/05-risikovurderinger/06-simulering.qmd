@@ -8,12 +8,12 @@ subtitle: "Fra ett punktestimat til en sannsynlighetsfordeling for netto nåverd
 Scenarioanalysen ga tre–fire mulige fremtider. Simulering tar steget fullt ut:
 tusenvis av gjennomregninger, der de usikre variablene trekkes tilfeldig fra
 hver sin fordeling. Spørsmålet er hva en hel fordeling av nåverdier gir en
-beslutningstager som ett enkelt tall aldri kan gi — og hvilket tall i
+beslutningstager som ett enkelt tall aldri kan gi, og hvilket tall i
 fordelingen som interesserer oss mest.
 
 Det ligger også en felle i diskonteringen her: Når usikkerheten modelleres
 eksplisitt i kontantstrømmene, hva skal da stå i nevneren? Videoens eksempel er
-verdt å se nøye på — sjekk om forutsetningene som legges inn, egentlig lover et
+verdt å se nøye på: sjekk om forutsetningene som legges inn, egentlig lover et
 lønnsomt prosjekt, og hvordan det synes igjen i resultatet.
 
 ::::: {.video}
@@ -30,7 +30,7 @@ lønnsomt prosjekt, og hvordan det synes igjen i resultatet.
 
 ## Sjekk forståelsen
 
-Tre spørsmål. Du får svaret med én gang, og du kan ta den om igjen så mange
+Tre spørsmål. Du får svaret med én gang, og du kan ta quizen om igjen så mange
 ganger du vil.
 
 ```{=html}
@@ -40,21 +40,21 @@ ganger du vil.
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>En sannsynlighetsfordeling for netto nåverdi, bygget på svært mange gjennomregninger</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Et resultat som ikke avhenger av forutsetningene som legges inn</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Sikkerhet for hvilken nåverdi prosjektet faktisk vil få</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Der de enklere metodene gir noen få punkter, gir simuleringen et helt utfallsrom — og dermed kan vi lese av det vi som regel er mest opptatt av: sannsynligheten for at prosjektet ender under null. Alternativ B er ønsketenkning; resultatet står og faller med fordelingene som spesifiseres, det er metodens ømme punkt. C forveksler en fordeling med en fasit — usikkerheten beskrives bedre, den forsvinner ikke.</p>
+<p class="quiz__feedback" hidden>Der de enklere metodene gir noen få punkter, gir simuleringen et helt utfallsrom, og dermed kan vi lese av det vi som regel er mest opptatt av: sannsynligheten for at prosjektet ender under null. Alternativ B er ønsketenkning; resultatet står og faller med fordelingene som spesifiseres, det er metodens ømme punkt. C forveksler en fordeling med en fasit — usikkerheten beskrives bedre, den forsvinner ikke.</p>
 </div>
 <div class="quiz__q" data-answer="c">
 <p class="quiz__prompt">2. Hvorfor skal kontantstrømmene i en simulering diskonteres med risikofri rente?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Fordi simulerte kontantstrømmer per definisjon er uten risiko</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Fordi risikofri rente er lavere og dermed gir en høyere, mer korrekt nåverdi</span><span class="choice__mark"></span></button>
-<button class="choice" data-key="c"><span class="choice__key">C</span><span>Fordi risikoen allerede ligger i telleren gjennom de simulerte kontantstrømmene — et risikojustert krav ville telle den dobbelt</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Risiko skal hensyntas nøyaktig én gang. Simuleringen legger den i telleren, ved at kontantstrømmene selv varierer over trekningene; da må nevneren være ren tidsverdi. Alternativ A snur logikken — det er nettopp fordi kontantstrømmene er usikre at vi simulerer dem. B begrunner rentevalget med at svaret blir hyggeligere, og det er aldri et argument; renten velges ut fra hvor risikoen er gjort rede for, ikke ut fra hva den gjør med nåverdien.</p>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Fordi risikoen allerede ligger i telleren gjennom de simulerte kontantstrømmene; et risikojustert krav ville telle den dobbelt</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Risiko skal hensyntas nøyaktig én gang. Simuleringen legger den i telleren, ved at kontantstrømmene selv varierer over trekningene; da må nevneren være ren tidsverdi. Alternativ A snur logikken: det er nettopp fordi kontantstrømmene er usikre at vi simulerer dem. B begrunner rentevalget med at svaret blir hyggeligere, og det er aldri et argument; renten velges ut fra hvor risikoen er gjort rede for, ikke ut fra hva den gjør med nåverdien.</p>
 </div>
 <div class="quiz__q" data-answer="b">
 <p class="quiz__prompt">3. Hva peker videoen på som en av de mest krevende delene av en simulering?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Å få gjennomført nåverdiberegningen mange nok ganger</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Å spesifisere realistiske sannsynlighetsfordelinger for variablene, og samvariasjonen mellom dem</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Å fremstille resultatene i et histogram</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Er salgsprisen normalfordelt? Er mengden uniformt fordelt? Hvordan beveger kostnadene seg sammen med resten? Slike valg krever innsikt og diskusjon, og de er hovedkilden til svakheter i analysen — i tillegg til at resultatene krever statistisk ryggrad å tolke. Alternativ A og C er derimot det enkleste av alt: titusenvis av gjennomregninger og et plott er rutinearbeid for programvaren, ikke for analytikeren.</p>
+<p class="quiz__feedback" hidden>Er salgsprisen normalfordelt? Er mengden uniformt fordelt? Hvordan beveger kostnadene seg sammen med resten? Slike valg krever innsikt og diskusjon, og de er hovedkilden til svakheter i analysen, i tillegg til at resultatene krever statistisk ryggrad å tolke. Alternativ A og C er derimot det enkleste av alt: titusenvis av gjennomregninger og et plott er rutinearbeid for programvaren, ikke for analytikeren.</p>
 </div>
 <p class="quiz__score" role="status" aria-live="polite"></p>
 </div>

@@ -11,8 +11,8 @@ og feil mål gir feil beslutning selv når regnestykket er riktig.
 
 Svaret er verdiskaping. Men det ordet er lett å si og lett å misforstå, så følg
 med på hvilke nærliggende størrelser videoen uttrykkelig avviser som mål, og fra
-hvem sitt ståsted spørsmålet stilles. Til slutt presenteres de tre
-beslutningskriteriene kapittelet bygger på — og, viktigere, de rangeres.
+hvem sitt ståsted spørsmålet stilles. Til slutt presenteres og rangeres de
+tre beslutningskriteriene kapittelet bygger på.
 
 ::::: {.video}
 ```{=html}

@@ -5,8 +5,8 @@ subtitle: "Hva vi analyserer: en beslutning i dag om kontantstrømmer i framtide
 
 ## Før du ser videoen
 
-Den vanligste feilen i investeringsanalyse er ikke regnefeil — det er å
-analysere feil objekt. En analyse kan være aritmetisk upåklagelig og likevel gi
+Den vanligste feilen i investeringsanalyse er å analysere feil objekt, ikke å
+regne feil. En analyse kan være aritmetisk upåklagelig og likevel gi
 feil svar, fordi det den regner på, ikke er et investeringsprosjekt. Kapittelet
 begynner derfor her, før vi sier noe som helst om metode.
 

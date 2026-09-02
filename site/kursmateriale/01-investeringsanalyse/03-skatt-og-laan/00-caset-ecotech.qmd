@@ -6,7 +6,7 @@ subtitle: "Lansere EcoTime Pro?"
 <p class="meta">BED3-2026-EcoTime &nbsp;·&nbsp; Denne versjonen: januar 2026</p>
 
 <p class="note">Dette er kapittelets skriftlige case, og leses som forberedelse
-før forelesningen og videoene. Oppgave 1 og 2 hører til forberedelsen — prøv å
+før forelesningen og videoene. Oppgave 1 og 2 hører til forberedelsen: prøv å
 regne dem selv før du åpner løsningsforslagene. Sett av rundt 20 minutter til
 selve caset, mer om du regner oppgavene selv.</p>
 
@@ -20,23 +20,19 @@ Ledelsen ønsker å kapitalisere på nylige suksesser og sementere selskapets
 posisjon innen helseteknologi. Det neste strategiske steget er introduksjonen
 og lanseringen av EcoTime Pro, en smartklokke designet med resirkulerte
 materialer og energieffektive produksjonsprosesser. Med dette ønsker selskapet
-å sikre fremtidig vekst og signalisere sin plass, samtidig som de imøtekommer
-strenge miljøkrav.
+å sikre fremtidig vekst samtidig som de imøtekommer strenge miljøkrav.
 
 ## Bakgrunn
 
 EcoTech Electronics ble grunnlagt i 2005 i München, Tyskland, og har vokst til
 å bli en av Europas ledende produsenter av smartklokker. Selskapet har bygget
 en lojal kundebase ved å kombinere funksjonalitet, moderne design og en økende
-satsing på bærekraft. Deres fokus på design og funksjonalitet har gitt dem
-vidstrakt anerkjennelse.
+satsing på bærekraft.
 
 De siste årene har EcoTech satset sterkt på innovasjon, noe som har ført til
 lanseringer som EcoFit Basic (2018) og EcoTech Premium (2020), begge med stor
 kommersiell suksess. EcoFit Basic er siden lanseringen blitt gitt ut i
-oppdaterte utgaver, men potensialet nærmer seg slutten. Disse suksessene
-demonstrerte selskapets evne til å tilpasse seg endringer i markedet, men
-utfordringene i dagens konkurranselandskap krever mer enn tidligere. Selskapet
+oppdaterte utgaver, men potensialet nærmer seg slutten. Selskapet
 står overfor betydelige utfordringer:
 
 - Økende konkurranse fra store globale aktører og mindre nisjeprodusenter.
@@ -47,8 +43,7 @@ står overfor betydelige utfordringer:
 Tabellen under oppsummerer selskapets utvikling de siste fem årene. Til tross
 for sterk vekst i perioden 2018–2022 frykter selskapet at med mindre de gjør et
 betydelig skift, så vil faktorene nevnt ovenfor snu den positive trenden raskt.
-Som svar på dette vurderer EcoTech nå å lansere EcoTime Pro, et produkt som
-skal styrke selskapets posisjon.
+Som svar på dette vurderer EcoTech nå å lansere EcoTime Pro.
 
 :::: {.table-scroll}
 ```{=html}
@@ -83,7 +78,7 @@ EcoTime Pro er tenkt som startskuddet for EcoTechs fremtidige vekst. Designet
 for å møte EUs bærekraftstandarder, inneholder produktet flere innovasjoner.
 Prosjektet er også i tråd med selskapets strategiske mål om å redusere
 avhengigheten av importert fossil energi fra politisk ustabile regioner, noe
-ledelsen håper ytterligere vil styrke selskapets operasjonelle robusthet. Dette
+ledelsen håper vil gjøre driften mindre sårbar. Dette
 er noe Hans Becker i stor grad er opptatt av, da han mener selskapet innen noen
 få år bør søke å gå på børs. Disse aspektene er oppsummert i tabellen under.
 
@@ -141,16 +136,13 @@ få år bør søke å gå på børs. Disse aspektene er oppsummert i tabellen un
 ```
 ::::
 
-For å vurdere lønnsomheten av EcoTime Pro har EcoTech Electronics gjennomført
-en omfattende prosess med datainnsamling og analyse. Teamet har samarbeidet
-tett med både interne og eksterne eksperter for å fremskaffe nødvendige tall
-for produksjonskostnader, markedspotensial og investeringsbehov. Dataene kommer
-fra en kombinasjon av historiske interne rapporter, tredjeparts
+For å vurdere lønnsomheten av EcoTime Pro har EcoTech Electronics samlet inn
+tall for produksjonskostnader, markedspotensial og investeringsbehov. Dataene
+kommer fra en kombinasjon av historiske interne rapporter, tredjeparts
 markedsundersøkelser og simuleringer basert på tidligere produktlanseringer.
 
-Innsamling av slike data innebærer imidlertid betydelig usikkerhet. Selv om
-estimater for salgsvolum og kostnader er basert på grundige analyser, er det
-umulig å eliminere alle risikoer. Eksterne faktorer som råvarepriser, endringer
+Slike data innebærer imidlertid usikkerhet. Eksterne faktorer som
+råvarepriser, endringer
 i konkurransebildet og makroøkonomiske forhold kan påvirke resultatene
 betydelig. For eksempel er salgsprognosene for EcoTime Pro avhengige av
 forbrukernes respons på bærekraftige produkter og potensielle endringer i
@@ -253,7 +245,7 @@ prosjektet så langt er oppsummert i tabellen under.
 
 Som investeringsanalytiker i EcoTech Electronics blir din oppgave å løse de
 fire oppgavene under. Oppgave 1 og 2 gis som forberedelse til selve
-forelesningen, og løsningsforslagene ligger under hver oppgave — de gjennomgås
+forelesningen, og løsningsforslagene ligger under hver oppgave; de gjennomgås
 også i kapittelets videoer. I forelesningen fokuserer vi på de to siste
 oppgavene, knyttet til effekten av skatt og lånefinansiering; de løses i video
 3 og 4. Prøv å gjøre utregningene selv før du ser på løsningene.
@@ -261,22 +253,22 @@ oppgavene, knyttet til effekten av skatt og lånefinansiering; de løses i video
 ::::: {.problem}
 <span class="problem__no">Oppgave 1</span>
 
-Beregn kontantstrømmen til **totalkapitalen** for EcoTime Pro (før skatt).
+Beregn kontantstrømmen til *totalkapitalen* for EcoTime Pro (før skatt).
 
 <details class="solution">
 <summary>Vis løsningsforslag</summary>
 
 :::: {.solution__body}
 
-Det er viktig å merke seg at vi i dette kurset som regel antar at prosjektene
-er langsiktige, og derfor beregner kontantstrømmer for ett år av gangen. Vi
-tenker oss dette prosjektet relativt isolert. Underliggende tanke er at vi går
-tilbake til utgangspunktet etter prosjektets slutt. Det kan tenkes at vi vil
-reinvestere da, og selv om det kan ta tid før ting skjer, så beregner vi det
-som det blir i dag. Denne delen er sentral, da vi fra forrige forelesning
-husker at vår definisjon av en eiendel er en sekvens med kontantstrømmer. Å
-beregne disse korrekt er derfor en grunnleggende del av det å analysere verdi
-og lønnsomhet. Basert på kontantstrømmer kan vi anvende investeringskriteriene
+I dette kurset antar vi som regel at prosjektene er langsiktige, og beregner
+derfor kontantstrømmer for ett år av gangen. Vi tenker oss dette prosjektet
+relativt isolert. Underliggende tanke er at vi går tilbake til utgangspunktet
+etter prosjektets slutt. Det kan tenkes at vi vil reinvestere da, og selv om
+det kan ta tid før ting skjer, så beregner vi det som det blir i dag. Fra
+forrige forelesning husker vi at en eiendel er definert som en sekvens med
+kontantstrømmer; å beregne disse korrekt er derfor en grunnleggende del av det
+å analysere verdi og lønnsomhet. Basert på kontantstrømmer kan vi anvende
+investeringskriteriene
 fra forrige forelesning: paybackmetoden, internrentemetoden og
 nåverdimetoden.
 
@@ -338,7 +330,7 @@ går vi gjennom hvordan hver hovedlinje beregnes.
 
 *Investeringsbeløp* ($I_0$) *og utrangeringsverdi/skrapverdi.*
 Investeringsbeløpet sier vi skjer i dag, til tross for at det i realiteten kan
-skje senere — men relativt til kontantstrømmene skjer det først.
+skje senere; relativt til kontantstrømmene skjer det først.
 Utrangeringsverdien/skrapverdien er det vi får igjen ved prosjektets slutt, og
 kommer derfor det siste året. Under investeringskostnader i
 prosjektbeskrivelsen får vi opplyst at prosjektet krever en investering på
@@ -354,7 +346,7 @@ prosjektet, da dette er
 
 *Faste kostnader.*
 Vi får oppgitt at de *betalbare* faste kostnadene *øker* med EUR 7 800 per
-måned. Viktig at de er betalbare — hvis ikke gir det ingen
+måned. Viktig at de er betalbare: hvis ikke gir det ingen
 kontantstrømeffekt. Siden vi beregner kontantstrømmer for ett år av gangen, må
 vi finne størrelsen på de *årlige* betalbare faste kostnadene:
 
@@ -376,10 +368,9 @@ $$\begin{aligned}
 &\text{År 4–5:} \; 200 \cdot 11\,000 \cdot 1{,}10 = 2\,420\,000
 \end{aligned}$$
 
-Inntekter og kostnader kommer årlig, og etter vanlig prinsipp tar vi inntekter
-og kostnader ved slutten av året — derfor kommer disse først ved slutten av
-hvert år, en periode etter. Så dekningsbidraget for det første året kommer en
-periode etter at investeringen er gjort.
+Inntekter og kostnader kommer årlig, og etter vanlig prinsipp tar vi dem ved
+slutten av året. Dekningsbidraget for det første året kommer derfor en periode
+etter at investeringen er gjort.
 
 #### Linje 8–11 — arbeidskapital
 
@@ -399,12 +390,9 @@ som en vanntank du fyller opp og tapper fra:
    kontantstrøm.
 
 *Kontantstrømeffekt:* Det er ikke selve tankens størrelse som er viktig, men
-hvor mye vann du heller i eller tapper ut av tanken hvert år. Alternativt kan
-det også sammenlignes med en midlertidig «kasse» med penger som er nødvendig
-for å holde prosjektet i gang. Denne kassen brukes til å finansiere lager,
-kundefordringer og andre driftsmidler, men det er ikke størrelsen på denne
-kassen som påvirker kontantstrømmen direkte — det er **endringene i
-arbeidskapital** fra ett år til det neste som gir kontantstrømeffekter.
+hvor mye vann du heller i eller tapper ut av tanken hvert år: det er
+*endringene i arbeidskapitalen* fra ett år til det neste som gir
+kontantstrømeffekter.
 
 - Økning i arbeidskapital: Når prosjektet trenger mer arbeidskapital (f.eks.
   mer lager eller lengre kredittid til kunder), reduseres kontantstrømmen.
@@ -423,9 +411,7 @@ arbeidskapital** fra ett år til det neste som gir kontantstrømeffekter.
 
 : Eksempel: Endringer i arbeidskapital og kontantstrømeffekter.
 
-I sum er det slik at nivået på arbeidskapitalen i seg selv ikke gir en direkte
-kontantstrømeffekt (med unntak av prosjektets oppstart og slutt) — det er
-endringene underveis som betyr noe. For prosjektet vi vurderer består
+For prosjektet vi vurderer består
 arbeidskapitalbehovet av flere deler. Dette er en veldig detaljert beregning;
 noen ganger får vi en enklere variant, som at den er en prosentsats av
 omsetning. Vi kan begynne med å beregne arbeidskapitalen ved prosjektets
@@ -436,7 +422,7 @@ Dette lageret binder derfor ikke noe kapital.
 
 Vi starter på tid $t=0$ med et ferdigvarelager som tilsvarer 20 dagers
 produksjon. Vi holder salgskostnadene utenfor, og da gjenstår råvarer og
-variable produksjonskostnader — disse beløper seg til $200 + 180 = 380$ EUR.
+variable produksjonskostnader, som beløper seg til $200 + 180 = 380$ EUR.
 
 $$\text{Ferdigvarer (FV):} \; 380 \cdot 10\,000 \cdot \frac{20}{360} = 211\,111$$
 
@@ -468,8 +454,8 @@ at vi trenger å binde mer kapital. Når vi går fra år to til tre derimot, øk
 salgsvolumet vårt med 10 %. Når vi selger flere enheter, krever dette også et
 større varelager, høyere nivåer av kundekreditt, større salgskostnader osv.
 Det er med andre ord behov for mer arbeidskapital som følge av økningen i
-salgsvolumet. Det er her viktig å merke seg at arbeidskapitalbehovet for de
-faste kostnadene ikke endrer seg med salgsvolumet.
+salgsvolumet. Arbeidskapitalbehovet for de faste kostnadene endrer seg derimot
+ikke med salgsvolumet.
 
 Økning i arbeidskapital: $(563\,000 - 13\,000) \cdot 0{,}1 = 55\,000$. Denne
 belastes slutten av år to for å finansiere økningen i salgsmengden som
@@ -486,15 +472,13 @@ blir frigjort.
 Når et nytt prosjekt lanseres, påvirker det ofte andre deler av virksomheten.
 Disse effektene kalles *smitteeffekter* og kan være enten positive eller
 negative. I en investeringsanalyse må vi vurdere hele bildet og ikke bare de
-direkte inntektene og kostnadene. Hvis vi ignorerer potensielle
-smitteeffekter, risikerer vi å overvurdere eller undervurdere prosjektets
-faktiske bidrag til virksomhetens totale verdi.
+direkte inntektene og kostnadene.
 
 Positive effekter oppstår når prosjektet skaper tilleggseffekter som øker
 verdien andre steder i virksomheten. For eksempel kan lanseringen av et nytt
 produkt øke salget av tilbehør eller relaterte tjenester. Dette er en
 *gevinst* som prosjektet har bidratt til, og derfor skal den tilskrives
-prosjektet som en **positiv kontantstrøm**. Dersom disse ikke tas med,
+prosjektet som en *positiv kontantstrøm*. Dersom disse ikke tas med,
 undervurderer vi prosjektets potensielle verdi. I dette prosjektet er det, som
 opplyst, positive smitteeffekter knyttet til at kunder som kjøper den nye
 klokken, også kjøper tilbehør som reimer og ladere. Dette genererer ekstra
@@ -504,7 +488,7 @@ På den andre siden oppstår det negative smitteeffekter når prosjektet
 reduserer verdien andre steder i virksomheten. For eksempel kan det nye
 produktet kannibalisere salget av eksisterende produkter, ved at kunder velger
 det nye produktet fremfor det gamle. Dette er et *tap* som skyldes prosjektet,
-og det skal belastes prosjektet som en **negativ kontantstrøm**. Dersom disse
+og det skal belastes prosjektet som en *negativ kontantstrøm*. Dersom disse
 ikke tas med, ser prosjektet mer lønnsomt ut enn det egentlig er, fordi vi
 ikke har tatt hensyn til hva virksomheten taper andre steder. De negative
 smitteeffektene i dette prosjektet er knyttet til at salget av eldre
@@ -574,7 +558,7 @@ $$\text{KS TK (20)} = (1) + (2) + (6) + (7) + (11) + (15) + (19)$$
 ::::: {.problem}
 <span class="problem__no">Oppgave 2</span>
 
-Avgjør om prosjektet er **økonomisk bærekraftig** ved hjelp av netto nåverdi
+Avgjør om prosjektet er *økonomisk bærekraftig* ved hjelp av netto nåverdi
 (NNV) og internrente (IRR).
 
 <details class="solution">
@@ -585,7 +569,7 @@ Avgjør om prosjektet er **økonomisk bærekraftig** ved hjelp av netto nåverdi
 For å vurdere om prosjektet er økonomisk lønnsomt kan vi beregne prosjektets
 nåverdi. Dette gjør vi ved å diskontere hvert års kontantstrøm tilbake til år
 0, og summere dem opp. (En kan diskontere kontantstrømmene til hvilket som
-helst år — det viktige er at de alle er uttrykt på samme tidspunkt.) Da
+helst år; det viktige er at de alle er uttrykt på samme tidspunkt.) Da
 trenger vi også et avkastningskrav. Senere skal dere lære mye mer om hvordan
 disse kan bestemmes; for nå legger vi til grunn $k = 9{,}5\ \%$. Da får vi
 netto nåverdi (i tusen euro):

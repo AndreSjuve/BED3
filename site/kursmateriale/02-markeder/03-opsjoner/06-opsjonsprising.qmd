@@ -6,8 +6,8 @@ subtitle: "Grenseverdier, egenverdi og tidsverdi — og et blikk på Black-Schol
 ## Før du ser videoen
 
 Hva skal en opsjon koste i dag, før forfall? Kapittelets siste og lengste
-video gir ikke hele maskineriet — binomialmodeller, Black-Scholes og Monte
-Carlo-simulering presenteres som landskap, ikke pensum i detalj — men den gir
+video gir ikke hele maskineriet (binomialmodeller, Black-Scholes og Monte
+Carlo-simulering presenteres som landskap, ikke pensum i detalj), men den gir
 deg det du kan resonnere deg frem til uten modeller: grenser prisen må ligge
 innenfor, og hva som skjer med den når én faktor endres og resten holdes fast.
 
@@ -40,35 +40,35 @@ ganger du vil. De to siste spørsmålene krever kalkulator.
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Aksjekursen og kontraktsprisen</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Risikofri rente og aksjekursen</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Tid til forfall og underliggendes volatilitet</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Mer tid og større svingninger utvider mulighetsområdet for at opsjonen fullfører in the money — og det gjelder begge veier, så både call og put tjener på det. De andre faktorene trekker i motsatt retning for de to typene: høyere aksjekurs løfter callen, men senker putten (A og B), høyere kontraktspris gjør det omvendte (A), og høyere rente reduserer nåverdien av kontraktsprisen — bra for callen, dårlig for putten (B).</p>
+<p class="quiz__feedback" hidden>Mer tid og større svingninger utvider mulighetsområdet for at opsjonen ender in the money, og det gjelder begge veier, så både call og put tjener på det. De andre faktorene trekker i motsatt retning for de to typene: høyere aksjekurs løfter callen, men senker putten (A og B), høyere kontraktspris gjør det omvendte (A), og høyere rente reduserer nåverdien av kontraktsprisen: bra for callen, dårlig for putten (B).</p>
 </div>
 <div class="quiz__q" data-answer="a">
 <p class="quiz__prompt">2. For en aksjeeier øker høyere volatilitet både gevinst- og tapsmulighetene. Hvorfor er den entydig positiv for en opsjonseier?</p>
-<button class="choice" data-key="a"><span class="choice__key">A</span><span>Fordi nedsiden er begrenset til premien — svingningene forstørrer bare den mulige oppsiden</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Fordi nedsiden er begrenset til premien; svingningene forstørrer bare den mulige oppsiden</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Fordi høy volatilitet betyr at aksjekursen i gjennomsnitt stiger raskere</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Fordi opsjonseiere kan utøve før store kursfall rekker å skje</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Asymmetrien i payoff-funksjonen gjør jobben: uansett hvor galt det går, taper du maksimalt premien — mens store utslag i riktig retning gir tilsvarende større gevinst. Da er spredning bare oppside. B blander volatilitet med forventet avkastning; volatilitet måler størrelsen på svingningene, ikke retningen. C forutsetter både amerikansk utøvelse og evne til å time markedet — og er uansett ikke mekanismen: beskyttelsen ligger i kontraktens struktur, ikke i rask reaksjon.</p>
+<p class="quiz__feedback" hidden>Asymmetrien i payoff-funksjonen gjør jobben: uansett hvor galt det går, taper du maksimalt premien, mens store utslag i riktig retning gir tilsvarende større gevinst. Da er spredning bare oppside. B blander volatilitet med forventet avkastning; volatilitet måler størrelsen på svingningene, ikke retningen. C forutsetter både amerikansk utøvelse og evne til å time markedet, og er uansett ikke mekanismen: beskyttelsen ligger i kontraktens struktur, ikke i rask reaksjon.</p>
 </div>
 <div class="quiz__q" data-answer="b">
-<p class="quiz__prompt">3. En kjøpsopsjon er out of the money — aksjekursen ligger under kontraktsprisen. Likevel handles den til en positiv pris. Hva består prisen av?</p>
-<button class="choice" data-key="a"><span class="choice__key">A</span><span>Egenverdi — differansen mellom aksjekurs og kontraktspris</span><span class="choice__mark"></span></button>
-<button class="choice" data-key="b"><span class="choice__key">B</span><span>Ren tidsverdi — muligheten for at kursen rekker over kontraktsprisen før forfall</span><span class="choice__mark"></span></button>
+<p class="quiz__prompt">3. En kjøpsopsjon er out of the money: aksjekursen ligger under kontraktsprisen. Likevel handles den til en positiv pris. Hva består prisen av?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Egenverdi: differansen mellom aksjekurs og kontraktspris</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Ren tidsverdi: muligheten for at kursen rekker over kontraktsprisen før forfall</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>En feilprising som arbitrasje raskt vil fjerne</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Når kursen ligger under kontraktsprisen, er verdien av øyeblikkelig utøvelse null — hele prisen er da betaling for at volatiliteten fortsatt kan løfte kursen over terskelen før forfall. Den komponenten krymper mot null etter hvert som forfallet nærmer seg. A regner egenverdien som negativ; den er definert som verdien av å utøve nå, og den er aldri mindre enn null. C tar feil av hva som er rasjonelt: en positiv pris på gjenværende mulighet er korrekt prising, ikke en anomali.</p>
+<p class="quiz__feedback" hidden>Når kursen ligger under kontraktsprisen, er verdien av øyeblikkelig utøvelse null; hele prisen er da betaling for at volatiliteten fortsatt kan løfte kursen over terskelen før forfall. Den komponenten krymper mot null etter hvert som forfallet nærmer seg. A regner egenverdien som negativ; den er definert som verdien av å utøve nå, og den er aldri mindre enn null. C tar feil av hva som er rasjonelt: en positiv pris på gjenværende mulighet er korrekt prising, ikke en anomali.</p>
 </div>
 <div class="quiz__q" data-answer="a">
 <p class="quiz__prompt">4. En aksje handles for 40 kroner. En kjøpsopsjon på den har kontraktspris 33 kroner og ett år til forfall, og risikofri rente er 10 prosent. Hva er den laveste prisen opsjonen kan handles for uten at det oppstår en arbitrasjemulighet?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>10 kroner</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>7 kroner</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>30 kroner</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Nedre grense er differansen mellom aksjekursen og nåverdien av kontraktsprisen: 40 − 33/1,10 = 40 − 30 = 10 kroner. Handles opsjonen billigere, kan man kjøpe den, shorte aksjen og sette overskuddet i banken — og sitte igjen med risikofri gevinst ved forfall, slik videoens talleksempel viser. B glemmer diskonteringen og bruker 40 − 33 = 7; kontraktsprisen betales først om ett år. C oppgir nåverdien av kontraktsprisen alene — det er byggeklossen, ikke grensen.</p>
+<p class="quiz__feedback" hidden>Nedre grense er differansen mellom aksjekursen og nåverdien av kontraktsprisen: 40 − 33/1,10 = 40 − 30 = 10 kroner. Handles opsjonen billigere, kan man kjøpe den, shorte aksjen og sette overskuddet i banken, og sitte igjen med risikofri gevinst ved forfall, slik videoens talleksempel viser. B glemmer diskonteringen og bruker 40 − 33 = 7; kontraktsprisen betales først om ett år. C oppgir nåverdien av kontraktsprisen alene: det er byggeklossen, ikke grensen.</p>
 </div>
 <div class="quiz__q" data-answer="c">
 <p class="quiz__prompt">5. En kjøpsopsjon med kontraktspris 100 handles for 6,40 kroner mens aksjekursen er 104. Hva er opsjonens egenverdi og tidsverdi?</p>
-<button class="choice" data-key="a"><span class="choice__key">A</span><span>Egenverdi 6,40 og tidsverdi 0 — hele prisen er egenverdi</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Egenverdi 6,40 og tidsverdi 0: hele prisen er egenverdi</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Egenverdi 0 og tidsverdi 6,40, siden opsjonen ennå ikke er utøvd</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Egenverdi 4 og tidsverdi 2,40</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Egenverdien er verdien av å kunne utøve med en gang: 104 − 100 = 4 kroner. Resten av prisen, 6,40 − 4 = 2,40 kroner, er tidsverdi — betaling for muligheten til at kursen stiger ytterligere før forfall. A antar at markedsprisen aldri overstiger utøvelsesverdien, men da ville gjenværende tid vært verdiløs — det er den ikke før ved forfall. B forveksler «ikke utøvd» med «uten egenverdi»; egenverdien finnes fra det øyeblikket kursen passerer kontraktsprisen, uavhengig av om retten brukes.</p>
+<p class="quiz__feedback" hidden>Egenverdien er verdien av å kunne utøve med en gang: 104 − 100 = 4 kroner. Resten av prisen, 6,40 − 4 = 2,40 kroner, er tidsverdi: betaling for muligheten til at kursen stiger ytterligere før forfall. A antar at markedsprisen aldri overstiger utøvelsesverdien, men da ville gjenværende tid vært verdiløs; det er den ikke før ved forfall. B forveksler «ikke utøvd» med «uten egenverdi»; egenverdien finnes fra det øyeblikket kursen passerer kontraktsprisen, uavhengig av om retten brukes.</p>
 </div>
 <p class="quiz__score" role="status" aria-live="polite"></p>
 </div>

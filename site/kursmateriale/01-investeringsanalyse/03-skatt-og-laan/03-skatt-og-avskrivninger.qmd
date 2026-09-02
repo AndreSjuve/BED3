@@ -7,11 +7,11 @@ subtitle: "Skattegrunnlag, saldoavskrivninger og salg av utstyr ved prosjektslut
 
 Skatten er en av prosjektets største utbetalinger, men den oppfører seg
 annerledes enn alle andre poster: den beregnes ikke av kontantstrømmen vi
-nettopp har bygget, men av noe annet. Hva da — og hvorfor tvinger det oss innom
+nettopp har bygget, men av noe annet. Hva da, og hvorfor tvinger det oss innom
 resultatregnskapet midt i en kontantstrømanalyse?
 
 Videoen har tre deler. Først forenklingene vi gjør om når skatten betales.
-Deretter avskrivningene, med saldometoden som hovedform — merk deg hvordan
+Deretter avskrivningene, med saldometoden som hovedform. Merk deg hvordan
 profilen på fradragene påvirker verdien av dem, og hvordan hele fordelen kan
 samles i én formel. Til slutt utrangering: hva skjer skattemessig når utstyret
 selges ved prosjektslutt, og hvorfor avhenger svaret av forholdet mellom
@@ -39,30 +39,30 @@ ganger du vil. Det siste spørsmålet krever kalkulator.
 <div class="quiz__q" data-answer="b">
 <p class="quiz__prompt">1. Avskrivninger er ingen kontantstrøm. Hvorfor må de likevel inn i investeringsanalysen?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Fordi de representerer slitasje som før eller siden må betales</span><span class="choice__mark"></span></button>
-<button class="choice" data-key="b"><span class="choice__key">B</span><span>Fordi de reduserer skattegrunnlaget — og skatten som faktisk betales, er en kontantstrøm</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Fordi de reduserer skattegrunnlaget, og skatten som faktisk betales, er en kontantstrøm</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Fordi netto nåverdi skal beregnes av resultatet, ikke av kontantstrømmen</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Utbetalingen for utstyret skjedde i år 0 — slitasjen etterpå er reell, men koster ikke kontanter en gang til, så A teller investeringen dobbelt. Avskrivningenes rolle er indirekte: skatten beregnes av resultatet, resultatet reduseres av avskrivninger, og dermed styrer de hvor mye skatt som faktisk går ut. C snur det hele på hodet — vi diskonterer alltid kontantstrømmer, men må en tur innom resultatregnskapet for å finne riktig skattebeløp.</p>
+<p class="quiz__feedback" hidden>Utbetalingen for utstyret skjedde i år 0. Slitasjen etterpå er reell, men koster ikke kontanter en gang til, så A teller investeringen dobbelt. Avskrivningenes rolle er indirekte: skatten beregnes av resultatet, resultatet reduseres av avskrivninger, og dermed styrer de hvor mye skatt som faktisk går ut. C snur det hele på hodet: vi diskonterer alltid kontantstrømmer, men må en tur innom resultatregnskapet for å finne riktig skattebeløp.</p>
 </div>
 <div class="quiz__q" data-answer="a">
 <p class="quiz__prompt">2. Saldoavskrivning gir de høyeste fradragene i prosjektets første år. Hvorfor er det en fordel i en nåverdiberegning?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Skattebesparelsen kommer tidligere, og tidlige kontantstrømmer er mer verdt</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>De samlede avskrivningene blir større enn ved lineær avskrivning</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Skattesatsen er lavere i prosjektets første år</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Det er timing, ikke totalbeløp, som skaper fordelen: hva som til slutt kan avskrives, er investeringen uansett metode, så B tilbyr en gratis lunsj som ikke finnes. Satsen er den samme hele veien — 22 % — så C faller også. Men en krone spart skatt i år 1 er mer verdt enn samme krone i år 5, og saldometoden flytter fradragene dit de diskonteres minst. I tillegg treffer den ofte det faktiske verdifallet bedre: mange driftsmidler taper mest verdi tidlig.</p>
+<p class="quiz__feedback" hidden>Det er timing, ikke totalbeløp, som skaper fordelen: hva som til slutt kan avskrives, er investeringen uansett metode, så B tilbyr en gratis lunsj som ikke finnes. Satsen er den samme hele veien (22 %), så C faller også. Men en krone spart skatt i år 1 er mer verdt enn samme krone i år 5, og saldometoden flytter fradragene dit de diskonteres minst. I tillegg treffer den ofte det faktiske verdifallet bedre: mange driftsmidler taper mest verdi tidlig.</p>
 </div>
 <div class="quiz__q" data-answer="c">
 <p class="quiz__prompt">3. Produksjonsutstyr selges ved prosjektslutt for nøyaktig bokført restverdi. Hvilken skattemessig effekt får salget?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Hele salgssummen beskattes med 22 % i salgsåret</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Selskapet får et fradrag, siden utstyret er brukt og mindre verdt</span><span class="choice__mark"></span></button>
-<button class="choice" data-key="c"><span class="choice__key">C</span><span>Ingen — uten gevinst eller tap er det ingenting å beskatte eller føre til fradrag</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Det skattemessige spørsmålet ved salg er alltid differansen S<sub>T</sub> − B<sub>T</sub>, ikke bruttosummen — A beskatter penger som bare er bokført verdi omgjort til kontanter. Fradrag krever et tap, altså salg <em>under</em> bokført verdi, så B forutsetter noe oppgaven utelukker. Selges det derimot med gevinst, må gevinsten inntektsføres over tid, og nåverdien av prosjektet justeres ned — det er hele poenget med utrangeringsleddet i formelen.</p>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Ingen: uten gevinst eller tap er det ingenting å beskatte eller føre til fradrag</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Det skattemessige spørsmålet ved salg er alltid differansen S<sub>T</sub> − B<sub>T</sub>, ikke bruttosummen; A beskatter penger som bare er bokført verdi omgjort til kontanter. Fradrag krever et tap, altså salg <em>under</em> bokført verdi, så B forutsetter noe oppgaven utelukker. Selges det derimot med gevinst, må gevinsten inntektsføres over tid, og nåverdien av prosjektet justeres ned. Det er hele poenget med utrangeringsleddet i formelen.</p>
 </div>
 <div class="quiz__q" data-answer="c">
 <p class="quiz__prompt">4. En investering på 2 000 000 kroner saldoavskrives med 20 % årlig. Skattesatsen er 22 %, og avkastningskravet etter skatt er 8 %. Hva er nåverdien av skattefordelen av avskrivningene, regnet som om de løper evig?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>88 000 kroner</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>1 100 000 kroner</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>≈ 314 000 kroner</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Formelen er s · AV<sub>1</sub>/(k<sup>s</sup> + a): første års avskrivning er 400 000, så 0,22 · 400 000/(0,08 + 0,20) = 314 286 ≈ 314 000 kroner. Alternativ A er bare det første årets skattebesparelse (0,22 · 400 000) uten resten av rekken. Alternativ B diskonterer med kravet alene, 0,22 · 400 000/0,08 — det behandler fradraget som en evig konstant strøm og glemmer at avskrivningsgrunnlaget krymper med satsen a hvert år. Derfor står a sammen med k<sup>s</sup> i nevneren.</p>
+<p class="quiz__feedback" hidden>Formelen er s · AV<sub>1</sub>/(k<sup>s</sup> + a): første års avskrivning er 400 000, så 0,22 · 400 000/(0,08 + 0,20) = 314 286 ≈ 314 000 kroner. Alternativ A er bare det første årets skattebesparelse (0,22 · 400 000) uten resten av rekken. Alternativ B diskonterer med kravet alene, 0,22 · 400 000/0,08: det behandler fradraget som en evig konstant strøm og glemmer at avskrivningsgrunnlaget krymper med satsen a hvert år. Derfor står a sammen med k<sup>s</sup> i nevneren.</p>
 </div>
 <p class="quiz__score" role="status" aria-live="polite"></p>
 </div>

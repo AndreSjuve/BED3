@@ -7,9 +7,9 @@ subtitle: "Backwardation, contango og spekulantenes risikopremie"
 
 To prisingsteorier er på plass, men ingen av dem forklarer hvorfor terminprisen
 i praksis snart ligger over og snart under det markedet venter seg. Denne
-videoen tilbyr en tredje innfallsvinkel som ikke konkurrerer med de to andre,
-men supplerer dem: den ser på hvem som faktisk deltar i markedet, og hva som
-skjer når gruppene ikke er i likevekt.
+videoen tilbyr en tredje innfallsvinkel som supplerer de to andre: den ser på
+hvem som faktisk deltar i markedet, og hva som skjer når gruppene ikke er i
+likevekt.
 
 Hold styr på tre roller — produsenter, forbrukere og spekulanter — og på hvem
 som vil hva i terminmarkedet. Hvem må lokkes inn for at markedet skal klarere,
@@ -39,22 +39,22 @@ ganger du vil.
 <p class="quiz__prompt">1. I et marked dominerer produsenter som vil sikre salgsprisen sin. Hva forutsier volumbalanseteorien?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Futuresprisen presses ned under forventet spotpris, slik at spekulantene får betalt for å ta den lange siden</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Futuresprisen presses opp over forventet spotpris, fordi det er mange som vil selge</span><span class="choice__mark"></span></button>
-<button class="choice" data-key="c"><span class="choice__key">C</span><span>Futuresprisen påvirkes ikke — ubalansen slår bare ut i handelsvolumet</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Produsentene vil selge (gå short), og når det ikke finnes nok forbrukere som vil kjøpe, må spekulanter overtales til å gå lang. De stiller bare opp mot en forventet gevinst — en innlåst kjøpspris under det spotprisen ventes å bli. Det er backwardation. Alternativ B snubler i vanlig tilbud/etterspørsel-intuisjon, men konklusjonen er motsatt av teoriens: et selgerpress presser prisen <em>ned</em>, ikke opp. Og C overser hele mekanismen — det er nettopp gjennom prisen spekulantene lokkes inn slik at markedet klarerer.</p>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Futuresprisen påvirkes ikke: ubalansen slår bare ut i handelsvolumet</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Produsentene vil selge (gå short), og når det ikke finnes nok forbrukere som vil kjøpe, må spekulanter overtales til å gå lang. De stiller bare opp mot en forventet gevinst, en innlåst kjøpspris under det spotprisen ventes å bli. Det er backwardation. Alternativ B snubler i vanlig tilbud/etterspørsel-intuisjon, men konklusjonen er motsatt av teoriens: et selgerpress presser prisen <em>ned</em>, ikke opp. Og C overser hele mekanismen: det er nettopp gjennom prisen spekulantene lokkes inn slik at markedet klarerer.</p>
 </div>
 <div class="quiz__q" data-answer="c">
 <p class="quiz__prompt">2. Hva kjennetegner et marked i contango?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Spotprisen i dag er høyere enn futuresprisen, fordi varen er knapp akkurat nå</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Produsentene må betale spekulantene for å overta short-posisjonene sine</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Kjøpspresset fra forbrukere som sikrer seg dominerer, og spekulantene som går short krever en futurespris over forventet spotpris</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>I contango er det forbrukerne — de som vil låse inn innkjøpsprisene sine — som dominerer med lange posisjoner. Spekulantene må ta short-siden for å klarere markedet, og deres forventede gevinst oppstår når de får solgt til en pris over det de regner med å måtte kjøpe underliggende for ved forfall. Alternativ A beskriver et forhold mellom spot- og futurespris, men teorien her handler om futuresprisen mot <em>forventet fremtidig</em> spotpris — pass på å holde de to sammenligningene fra hverandre. Og B har rollene speilvendt: i contango er det ikke produsentene som dominerer, og ingen «betaler» direkte — kompensasjonen ligger innbakt i prisen.</p>
+<p class="quiz__feedback" hidden>I contango er det forbrukerne (de som vil låse inn innkjøpsprisene sine) som dominerer med lange posisjoner. Spekulantene må ta short-siden for å klarere markedet, og deres forventede gevinst oppstår når de får solgt til en pris over det de regner med å måtte kjøpe underliggende for ved forfall. Alternativ A beskriver et forhold mellom spot- og futurespris, men teorien her handler om futuresprisen mot <em>forventet fremtidig</em> spotpris; pass på å holde de to sammenligningene fra hverandre. Og B har rollene speilvendt: i contango er det ikke produsentene som dominerer, og ingen «betaler» direkte: kompensasjonen ligger innbakt i prisen.</p>
 </div>
 <div class="quiz__q" data-answer="b">
 <p class="quiz__prompt">3. Forventet spotpris på aluminium om seks måneder er 120 kroner per enhet, mens futureskontrakten klarerer på 112. Hvordan beskriver volumbalanseteorien situasjonen?</p>
-<button class="choice" data-key="a"><span class="choice__key">A</span><span>Contango — spekulanter som går short har en forventet gevinst på 8 kroner per enhet</span><span class="choice__mark"></span></button>
-<button class="choice" data-key="b"><span class="choice__key">B</span><span>Backwardation — spekulanter som går lang har en forventet gevinst på 8 kroner per enhet</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Contango: spekulanter som går short har en forventet gevinst på 8 kroner per enhet</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Backwardation: spekulanter som går lang har en forventet gevinst på 8 kroner per enhet</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>En feilprising på 8 kroner som arbitrasje raskt vil eliminere</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Futuresprisen ligger under forventet spotpris — det er definisjonen av backwardation, og bildet er som i videoens oljeeksempel: produsentene har presset prisen ned, og den som går lang kjøper for 112 noe som ventes å være verdt 120. Alternativ A bruker riktig differanse, men feil merkelapp og feil side — i contango ville futuresprisen ligget <em>over</em> 120. Og C er en viktig misforståelse: forventet spotpris er et anslag, ikke en pris noen handler til i dag, så gapet er en risikopremie som kan bestå — ikke en arbitrasjemulighet.</p>
+<p class="quiz__feedback" hidden>Futuresprisen ligger under forventet spotpris, som er definisjonen av backwardation, og bildet er som i videoens oljeeksempel: produsentene har presset prisen ned, og den som går lang kjøper for 112 noe som ventes å være verdt 120. Alternativ A bruker riktig differanse, men feil merkelapp og feil side: i contango ville futuresprisen ligget <em>over</em> 120. Og C er en viktig misforståelse: forventet spotpris er et anslag, ikke en pris noen handler til i dag, så gapet er en risikopremie som kan bestå, ikke en arbitrasjemulighet.</p>
 </div>
 <p class="quiz__score" role="status" aria-live="polite"></p>
 </div>

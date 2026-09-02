@@ -86,7 +86,7 @@ om du heller vil se dem samlet.</p>
 ## Symboler
 
 Videoene bruker disse symbolene gjennomgående. Merk at lærebøker ofte skriver de
-samme størrelsene annerledes — NPV for NNV, og *r* for *k*.
+samme størrelsene annerledes: NPV for NNV, og *r* for *k*.
 
 | Symbol | Betydning |
 |---|---|
@@ -129,14 +129,14 @@ annuitetsformelen:
 $$\text{NNV} = -500\,000 + 200\,000 \cdot \frac{1 - (1{,}09)^{-3}}{0{,}09}$$
 
 Annuitetsfaktoren er 2,5313, som gir en nåverdi av innbetalingene på 506 259
-kroner. Netto nåverdi blir da **6 259 kroner** — nåverdien av det vi får inn,
+kroner. Netto nåverdi blir da **6 259 kroner**: nåverdien av det vi får inn,
 minus de 500 000 vi betaler i dag.
 
-Netto nåverdi er positiv, så prosjektet bør gjennomføres — men marginen er tynn.
+Netto nåverdi er positiv, så prosjektet bør gjennomføres, men marginen er tynn.
 Internrenten er 9,7 %, så en økning i avkastningskravet til 10 % ville snudd
-konklusjonen (netto nåverdi blir da −2 630 kroner). Det er verdt å merke seg hvor
-følsom beslutningen er for et tall vi sjelden kjenner nøyaktig — det er nettopp
-den følsomheten nåverdiprofilen i video 6 setter i system.
+konklusjonen (netto nåverdi blir da −2 630 kroner). Beslutningen er altså følsom
+for et tall vi sjelden kjenner nøyaktig — det er den følsomheten nåverdiprofilen
+i video 6 setter i system.
 
 ::::
 
@@ -213,7 +213,7 @@ verdiskaping blir **137 000 kroner**.
 Da står 300 000 kroner igjen. F koster 600 000, så vi har bare halvparten av det
 som skal til. Kan vi investere i deler av F, kjøper vi 50 % og henter ytterligere
 30 000 kroner i verdi. Må F tas helt eller ikke i det hele tatt, blir de siste
-300 000 kronene stående ubrukt — og det er riktig svar, ikke et tegn på at noe er
+300 000 kronene stående ubrukt, og det er riktig svar, ikke et tegn på at noe er
 galt.
 
 Legg merke til at rangeringen etter nåverdiindeks her også er den beste

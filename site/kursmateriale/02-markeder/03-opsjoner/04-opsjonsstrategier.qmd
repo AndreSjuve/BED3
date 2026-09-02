@@ -8,7 +8,7 @@ subtitle: "Protective put og straddle: forsikring og veddemål på volatilitet"
 Enkeltposisjonene fra forrige video er byggeklosser. Denne videoen setter dem
 sammen til porteføljer og viser hvordan samlet gevinstprofil regnes ut: én
 tabell med hver komponent for seg, én kolonne per mulig sluttkurs. Metoden er
-viktigere enn de to eksemplene — den fungerer for enhver kombinasjon du selv
+viktigere enn de to eksemplene: den fungerer for enhver kombinasjon du selv
 måtte finne på.
 
 De to strategiene trekker i hver sin retning. Den første kombinerer en aksje
@@ -38,31 +38,31 @@ mange ganger du vil. Det siste spørsmålet krever kalkulator.
 <div class="quiz">
 <div class="quiz__q" data-answer="a">
 <p class="quiz__prompt">1. Du eier en aksje og kjøper i tillegg en salgsopsjon på den samme aksjen. Hva oppnår du?</p>
-<button class="choice" data-key="a"><span class="choice__key">A</span><span>Et gulv under tapet, mens oppsiden beholdes — mot å betale opsjonspremien</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Et gulv under tapet, mens oppsiden beholdes, mot å betale opsjonspremien</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Dobbel eksponering mot kursoppgang, siden du nå har to posisjoner</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>En garantert positiv gevinst uansett hvordan kursen utvikler seg</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Dette er protective put — forsikringsstrategien: faller kursen, dekker salgsopsjonen tapet under kontraktsprisen; stiger den, er du fortsatt med. Prisen for tryggheten er premien, som senker hele profilen litt. B misforstår hva putten gjør — den peker <em>motsatt</em> vei av aksjen og demper eksponeringen på nedsiden, den forsterker ikke oppsiden. C lover for mye: ender kursen rundt kontraktsprisen, sitter du igjen med et tap lik premien — forsikring er ikke gratis.</p>
+<p class="quiz__feedback" hidden>Dette er protective put, forsikringsstrategien: faller kursen, dekker salgsopsjonen tapet under kontraktsprisen; stiger den, er du fortsatt med. Prisen for tryggheten er premien, som senker hele profilen litt. B misforstår hva putten gjør: den peker <em>motsatt</em> vei av aksjen og demper eksponeringen på nedsiden, den forsterker ikke oppsiden. C lover for mye: ender kursen rundt kontraktsprisen, sitter du igjen med et tap lik premien. Forsikring er ikke gratis.</p>
 </div>
 <div class="quiz__q" data-answer="c">
 <p class="quiz__prompt">2. Hvilken enkeltposisjon har samme form på gevinstprofilen ved forfall som porteføljen aksje pluss salgsopsjon?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>En kort posisjon i en kjøpsopsjon</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>En lang posisjon i en salgsopsjon</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>En lang posisjon i en kjøpsopsjon</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Flat, begrenset nedside og en 45-graderslinje på oppsiden — det er nøyaktig profilen til en kjøpt kjøpsopsjon, og videoen løfter det frem som et frempek mot put-call-pariteten: kombinasjoner av aksje, opsjon og lån kan gjenskape andre opsjoner. A er speilbildet — begrenset oppside og stor nedside. B har riktignok begrenset tap, men tjener på kurs<em>fall</em>; porteføljen her tjener på oppgang.</p>
+<p class="quiz__feedback" hidden>Flat, begrenset nedside og en 45-graderslinje på oppsiden: det er nøyaktig profilen til en kjøpt kjøpsopsjon, og videoen løfter det frem som et frempek mot put-call-pariteten: kombinasjoner av aksje, opsjon og lån kan gjenskape andre opsjoner. A er speilbildet: begrenset oppside og stor nedside. B har riktignok begrenset tap, men tjener på kurs<em>fall</em>; porteføljen her tjener på oppgang.</p>
 </div>
 <div class="quiz__q" data-answer="b">
 <p class="quiz__prompt">3. Du kjøper både en kjøpsopsjon og en salgsopsjon med samme kontraktspris på samme underliggende. Når tjener du penger?</p>
-<button class="choice" data-key="a"><span class="choice__key">A</span><span>Bare hvis kursen stiger kraftig — salgsopsjonen er med som sikkerhet</span><span class="choice__mark"></span></button>
-<button class="choice" data-key="b"><span class="choice__key">B</span><span>Hvis kursen beveger seg mye i én av retningene — mer enn de to premiene til sammen</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Bare hvis kursen stiger kraftig; salgsopsjonen er med som sikkerhet</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Hvis kursen beveger seg mye i én av retningene, mer enn de to premiene til sammen</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Hvis kursen holder seg stabil rundt kontraktsprisen</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Straddlen er et veddemål på volatilitet: én av opsjonene fullfører in the money uansett hvilken vei det bærer, men utslaget må være stort nok til å dekke begge premiene før netto blir positiv. A undervurderer salgsopsjonen — den er ikke pynt, den er hele gevinsten hvis kursen stuper. C beskriver taps-sonen: ender kursen nær kontraktsprisen, utløper begge opsjonene omtrent verdiløse, og du taper begge premiene — det er selgeren av straddlen som håper på ro.</p>
+<p class="quiz__feedback" hidden>Straddlen er et veddemål på volatilitet: én av opsjonene ender in the money uansett hvilken vei det bærer, men utslaget må være stort nok til å dekke begge premiene før netto blir positiv. A undervurderer salgsopsjonen: den er ikke pynt, den er hele gevinsten hvis kursen stuper. C beskriver taps-sonen: ender kursen nær kontraktsprisen, utløper begge opsjonene omtrent verdiløse, og du taper begge premiene. Det er selgeren av straddlen som håper på ro.</p>
 </div>
 <div class="quiz__q" data-answer="c">
 <p class="quiz__prompt">4. Du kjøpte en aksje for 60 kroner og samtidig en salgsopsjon på den med kontraktspris 60 for 3 kroner. Ved forfall er aksjekursen 45. Hva er samlet gevinst?</p>
-<button class="choice" data-key="a"><span class="choice__key">A</span><span>−15 kroner — kursfallet slår rett inn i porteføljen</span><span class="choice__mark"></span></button>
-<button class="choice" data-key="b"><span class="choice__key">B</span><span>−18 kroner — kursfallet pluss premien</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>−15 kroner: kursfallet slår rett inn i porteføljen</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>−18 kroner: kursfallet pluss premien</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>−3 kroner</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Regn komponentvis, som i videoens tabell: aksjen selges for 45, salgsopsjonen er verdt max(60 − 45, 0) = 15, premien var 3 og aksjen kostet 60. Samlet: 45 + 15 − 3 − 60 = −3 kroner — gulvet i forsikringen, likt for alle sluttkurser under 60. A regner bare aksjen og glemmer at putten betaler ut nettopp når kursen faller. B legger aksjetap og premie sammen, men utelater opsjonens utbetaling på 15 — da har man betalt for forsikringen uten å kreve den inn.</p>
+<p class="quiz__feedback" hidden>Regn komponentvis, som i videoens tabell: aksjen selges for 45, salgsopsjonen er verdt max(60 − 45, 0) = 15, premien var 3 og aksjen kostet 60. Samlet: 45 + 15 − 3 − 60 = −3 kroner. Det er gulvet i forsikringen, likt for alle sluttkurser under 60. A regner bare aksjen og glemmer at putten betaler ut nettopp når kursen faller. B legger aksjetap og premie sammen, men utelater opsjonens utbetaling på 15 — da har man betalt for forsikringen uten å kreve den inn.</p>
 </div>
 <p class="quiz__score" role="status" aria-live="polite"></p>
 </div>

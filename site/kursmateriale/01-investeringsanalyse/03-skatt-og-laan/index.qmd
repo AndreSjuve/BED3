@@ -14,7 +14,7 @@ side, og både videoene og forelesningen forutsetter at det er lest.
 Les [caset — EcoTech Electronics: Lansere EcoTime Pro?](00-caset-ecotech.qmd)
 før du ser videoene. Der finner du hele datagrunnlaget og de fire oppgavene;
 oppgave 1 og 2 løses som forberedelse, med løsningsforslag på siden. Sett av
-rundt 20 minutter til lesingen — mer om du regner oppgavene selv, som
+rundt 20 minutter til lesingen, mer om du regner oppgavene selv, som
 anbefalt.
 
 Fire videoer, drøyt 80 minutter til sammen. Se dem i rekkefølge; regnearbeidet
@@ -77,8 +77,8 @@ I tillegg til symbolene fra kapittel 1 bruker videoene disse:
 | $y$, $y^s$ | Internrenten før og etter skatt |
 | $S_T$ | Salgsverdien (utrangeringsverdien) ved prosjektslutt |
 
-Formlene — saldoavskrivning, bokført restverdi, skattefordelen av avskrivninger
-og utrangeringsleddet — står under «Skatt og avskrivninger» på
+Formlene (saldoavskrivning, bokført restverdi, skattefordelen av avskrivninger
+og utrangeringsleddet) står under «Skatt og avskrivninger» på
 [formelarket](../../../formelark.qmd).
 
 ## Forelesningsplansjer
@@ -89,7 +89,7 @@ og utrangeringsleddet — står under «Skatt og avskrivninger» på
 
 Oppgavene tar for seg kontantstrøm til totalkapitalen, skattefordelen av
 saldoavskrivninger og kontantstrømmen til egenkapitalen ved lånefinansiering.
-Regn dem for hånd før du åpner løsningsforslaget — å lese en løsning føles som
+Regn dem for hånd før du åpner løsningsforslaget: å lese en løsning føles som
 å forstå den, og det er sjelden det samme.
 
 ::::: {.problem}
@@ -126,10 +126,10 @@ Netto nåverdi ved 10 %:
 
 $$\text{NNV} = -2\,400\,000 + \frac{880\,000}{1{,}10} + \frac{880\,000}{1{,}10^2} + \frac{1\,780\,000}{1{,}10^3} \approx 464\,600$$
 
-Netto nåverdi er positiv, så prosjektet bør gjennomføres. Legg merke til at
-arbeidskapitalen ikke er en kostnad: de 400 000 kronene går ut i år 0 og kommer
-tilbake i år 3. Det prosjektet belastes for, er rentetapet av å ha dem bundet i
-mellomtiden — og det skjer helt av seg selv i diskonteringen.
+Netto nåverdi er positiv, så prosjektet bør gjennomføres. Arbeidskapitalen er
+ikke en kostnad: de 400 000 kronene går ut i år 0 og kommer tilbake i år 3. Det
+prosjektet belastes for, er rentetapet av å ha dem bundet i mellomtiden, og det
+skjer helt av seg selv i diskonteringen.
 
 ::::
 
@@ -166,7 +166,7 @@ skattefordelen er
 
 $$PV_s = s \cdot \frac{AV_1}{k^s + a} = 0{,}22 \cdot \frac{360\,000}{0{,}07 + 0{,}20} \approx 293\,300$$
 
-Skattefordelen er altså verdt omtrent 293 000 kroner i dag — det staten *ikke*
+Skattefordelen er altså verdt omtrent 293 000 kroner i dag: det staten *ikke*
 får, fordi investeringen kan avskrives.
 
 **c)** Bokført restverdi etter fire år er
@@ -174,7 +174,7 @@ $B_4 = 1\,800\,000 \cdot 0{,}80^4 = 737\,280$ kroner, så salgsprisen blir
 737 280. Da er $S_T - B_T = 0$: salget gir verken gevinst eller tap, ingenting
 skal inntektsføres eller fradragsføres, og utrangeringsleddet i
 nåverdiformelen faller bort. Hadde maskinen blitt solgt for mer enn bokført
-verdi, måtte gevinsten vært tatt til beskatning over tid — og nåverdien
+verdi, måtte gevinsten vært tatt til beskatning over tid, og nåverdien
 justert ned tilsvarende.
 
 ::::
@@ -192,8 +192,9 @@ Skattesatsen er 22 %.
 
 a) Beregn kontantstrømmen til egenkapitalen etter skatt i år 1 og år 2.
 
-b) Hva ville det årlige terminbeløpet vært med et annuitetslån på samme vilkår
-— og hvorfor er skattefordelen av rentene i år 1 den samme uansett låneform?
+b) Hva ville det årlige terminbeløpet vært med et annuitetslån på samme
+vilkår, og hvorfor er skattefordelen av rentene i år 1 den samme uansett
+låneform?
 
 <details class="solution">
 <summary>Vis løsningsforslag</summary>
@@ -215,7 +216,7 @@ avdrag − renter + skattefordel:
 $$\text{År 1: } 600\,000 - 300\,000 - 60\,000 + 13\,200 = 253\,200$$
 $$\text{År 2: } 600\,000 - 300\,000 - 45\,000 + 9\,900 = 264\,900$$
 
-I år 0 mottas dessuten lånebeløpet på 1 200 000 som en positiv kontantstrøm —
+I år 0 mottas dessuten lånebeløpet på 1 200 000 som en positiv kontantstrøm;
 egenkapitalen trenger bare å dekke resten av investeringen.
 
 **b)** Annuitetsbeløpet er lånet multiplisert med den inverse

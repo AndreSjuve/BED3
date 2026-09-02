@@ -8,13 +8,13 @@ subtitle: "Når fortegnene snur: nåverdi og effektiv rente for lånealternative
 Til nå har analysen handlet om investeringer: penger ut i dag, penger inn
 senere. Denne første videoen snur fortegnene. Ved et låneopptak kommer
 pengene inn først, og så følger årene med renter og avdrag ut. Metodikken er
-den samme — nåverdi og internrente — men internrenten får et nytt navn i
+den samme (nåverdi og internrente), men internrenten får et nytt navn i
 lånesammenheng. Hva gjør fortegnsskiftet med tolkningen av tallene?
 
 Se spesielt etter nåverdiprofilen. For investeringsprosjekter var den
 fallende; hvilken form får den for et lån, og hvorfor? Videoen sammenligner
 også to lån med samme beløp, løpetid og prislapp, men helt ulik
-betalingsplan — og spør hvordan lån egentlig skal rangeres når nåverdiene
+betalingsplan, og spør hvordan lån egentlig skal rangeres når nåverdiene
 deres spriker.
 
 ::::: {.video}

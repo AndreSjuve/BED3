@@ -8,11 +8,11 @@ subtitle: "Flere variabler i samspill: pessimistisk, forventet og optimistisk fr
 Forrige video endte med en innvending: I virkeligheten beveger variablene seg
 sammen, ikke hver for seg. Scenarioanalysen tar konsekvensen av det og bytter ut
 enkeltlinjer med hele fremtidsbilder, der pris, mengde og kostnader endres i
-samme retning som en dårlig — eller god — verden ville dratt dem.
+samme retning som en dårlig (eller god) verden ville dratt dem.
 
 Spørsmålene å ha med seg: Hvordan settes et troverdig pessimistisk bilde
 sammen, og hva skal til for å gå fra tre nåverdier til ett samlet tall å styre
-etter? EcoTime Pro så robust ut i stjernediagrammet — se om den konklusjonen
+etter? EcoTime Pro så robust ut i stjernediagrammet. Se om den konklusjonen
 overlever når forutsetningene får lov til å svikte samtidig. Og merk deg hvor
 videoen mener den største svakheten ved metoden selv ligger.
 
@@ -40,28 +40,28 @@ ganger du vil. Det siste spørsmålet krever kalkulator.
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>At variablene ble endret hver for seg, uten hensyn til at de kan henge sammen</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>At tidsverdien av penger ble ignorert i nåverdiberegningene</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>At analysen bare kunne gjøres etter at prosjektet var satt i gang</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Scenarioanalysen lar variablene bevege seg samtidig og i økonomisk realistiske kombinasjoner — lav pris kommer sammen med lavt salg og høyere kostnader, ikke alene. Alternativ B beskriver en feil ingen av metodene gjør; begge regner fullverdige nåverdier med diskontering. Og C blander inn tidspunktet for analysen — både stjernediagram og scenarioanalyse gjøres nettopp før beslutningen tas, som del av grunnlaget for den.</p>
+<p class="quiz__feedback" hidden>Scenarioanalysen lar variablene bevege seg samtidig og i økonomisk realistiske kombinasjoner: lav pris kommer sammen med lavt salg og høyere kostnader, ikke alene. Alternativ B beskriver en feil ingen av metodene gjør; begge regner fullverdige nåverdier med diskontering. Og C blander inn tidspunktet for analysen; både stjernediagram og scenarioanalyse gjøres nettopp før beslutningen tas, som del av grunnlaget for den.</p>
 </div>
 <div class="quiz__q" data-answer="c">
 <p class="quiz__prompt">2. Hvordan bygges et pessimistisk scenario typisk opp?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Den mest usikre variabelen justeres ned, mens resten holdes på forventet nivå</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Alle variablene reduseres med samme prosentsats</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Ugunstige verdier kombineres: lavere pris og salg sammen med høyere kostnader</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Et scenario er et sammenhengende fremtidsbilde, og «pessimistisk» betyr ugunstig for prosjektet — det trekker inntektssiden ned og kostnadssiden opp samtidig. Alternativ A er stjernediagram-logikk i forkledning: én variabel om gangen er nettopp det scenarioanalysen forlater. B er mekanisk og gjør scenarioet mildere enn ment — reduseres kostnadene med samme prosentsats som prisen, hjelper det jo prosjektet i stedet for å belaste det.</p>
+<p class="quiz__feedback" hidden>Et scenario er et sammenhengende fremtidsbilde, og «pessimistisk» betyr ugunstig for prosjektet: det trekker inntektssiden ned og kostnadssiden opp samtidig. Alternativ A er stjernediagram-logikk i forkledning: én variabel om gangen er nettopp det scenarioanalysen forlater. B er mekanisk og gjør scenarioet mildere enn ment: reduseres kostnadene med samme prosentsats som prisen, hjelper det jo prosjektet i stedet for å belaste det.</p>
 </div>
 <div class="quiz__q" data-answer="b">
 <p class="quiz__prompt">3. Hva er en av hovedutfordringene med scenarioanalyse, slik videoen beskriver den?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Den kan ikke kombineres med nåverdiberegninger</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Scenarioene hviler på subjektive vurderinger og dekker bare noen få utvalgte fremtidsbilder</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Den forutsetter at alle variablene er normalfordelte</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Noen må bestemme hvilke verdier som skal inn i hvert scenario, og med større prosjekter vokser både antall variabler og rommet for feilkilder — samtidig som tre–fire bilder aldri dekker alle mulige utfall. Alternativ A er baklengs; metoden består nettopp av nåverdiberegninger under ulike sett av forutsetninger. Fordelingsantakelser som i C hører til simulering — scenarioanalysen krever ingen fordelinger, bare konkrete verdier per scenario.</p>
+<p class="quiz__feedback" hidden>Noen må bestemme hvilke verdier som skal inn i hvert scenario, og med større prosjekter vokser både antall variabler og rommet for feilkilder, samtidig som tre–fire bilder aldri dekker alle mulige utfall. Alternativ A er baklengs; metoden består nettopp av nåverdiberegninger under ulike sett av forutsetninger. Fordelingsantakelser som i C hører til simulering; scenarioanalysen krever ingen fordelinger, bare konkrete verdier per scenario.</p>
 </div>
 <div class="quiz__q" data-answer="b">
 <p class="quiz__prompt">4. Et prosjekt har netto nåverdi på −2,0 millioner kroner i et pessimistisk scenario, 1,5 millioner i det forventede og 6,0 millioner i et optimistisk. Du setter sannsynlighetene til henholdsvis 30, 50 og 20 prosent. Hva er forventet netto nåverdi?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>≈ 1,83 millioner kroner</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>1,35 millioner kroner</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>2,55 millioner kroner</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Hvert utfall vektes med sin sannsynlighet: 0,3 · (−2,0) + 0,5 · 1,5 + 0,2 · 6,0 = −0,6 + 0,75 + 1,2 = 1,35 millioner. Alternativ A er gjennomsnittet med like vekter — det kaster vekk nettopp den vurderingen av sannsynligheter du la inn. C har mistet minustegnet på det pessimistiske utfallet; da bidrar tapsscenarioet positivt, og forventningen blåses opp.</p>
+<p class="quiz__feedback" hidden>Hvert utfall vektes med sin sannsynlighet: 0,3 · (−2,0) + 0,5 · 1,5 + 0,2 · 6,0 = −0,6 + 0,75 + 1,2 = 1,35 millioner. Alternativ A er gjennomsnittet med like vekter, som kaster vekk nettopp den vurderingen av sannsynligheter du la inn. C har mistet minustegnet på det pessimistiske utfallet; da bidrar tapsscenarioet positivt, og forventningen blåses opp.</p>
 </div>
 <p class="quiz__score" role="status" aria-live="polite"></p>
 </div>

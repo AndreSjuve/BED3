@@ -9,8 +9,8 @@ Internrenten er svært populær i praksis, av en enkel grunn: den uttrykkes i
 prosent, og folk er vant til å tenke på avkastning i prosent. Nettopp derfor
 brukes den også ofte feil.
 
-Videoen gir først én presis definisjon. Merk deg hva den bygger på — noe i
-prosjektet selv, eller noe utenfra — og hvorfor den får sitt eget symbol.
+Videoen gir først én presis definisjon. Merk deg hva den bygger på (noe i
+prosjektet selv, eller noe utenfra) og hvorfor den får sitt eget symbol.
 Deretter kommer beslutningsregelen, og så fire situasjoner der internrenten
 svikter: fortegnsskift, prosjektstørrelse, ulik varighet og en lite realistisk
 forutsetning om reinvestering. Poenget er ikke at internrenten er ubrukelig, men

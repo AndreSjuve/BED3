@@ -7,15 +7,15 @@ subtitle: "Beslutningen, datagrunnlaget og veien fram til kontantstrømmene"
 
 I forrige kapittel var kontantstrømmene alltid oppgitt, og jobben var å vurdere
 dem. I praksis er det omvendt: den vanskeligste delen av investeringsanalysen
-er å komme fram til riktige kontantstrømmer i utgangspunktet. Dette kapittelet gjør nettopp det, og alt bygges rundt ett
-gjennomgående case — EcoTech Electronics, som vurderer å lansere smartklokken
-EcoTime Pro. Har du ikke lest caset, gjør det først —
-[caset](00-caset-ecotech.qmd).
+er å komme fram til riktige kontantstrømmer i utgangspunktet. Dette kapittelet
+gjør nettopp det, og alt bygges rundt ett gjennomgående case: EcoTech
+Electronics, som vurderer å lansere smartklokken EcoTime Pro. Har du ikke lest
+[caset](00-caset-ecotech.qmd), gjør det først.
 
 Denne første videoen presenterer beslutningen og datagrunnlaget. Se den som en
 innkjøpsliste: hvilke tall trengs, og hvor kommer de fra? Legg særlig merke til
 at ikke alt selskapet har brukt penger på, nødvendigvis hører hjemme i
-analysen — og at prosjektet kan påvirke salget av produkter selskapet allerede
+analysen, og at prosjektet kan påvirke salget av produkter selskapet allerede
 har. Hvorfor det, og hvor grensen går, er spørsmålene å ha med seg.
 
 ::::: {.video}
@@ -40,23 +40,23 @@ ganger du vil.
 <div class="quiz__q" data-answer="b">
 <p class="quiz__prompt">1. Et selskap har allerede betalt 750 000 kroner for en markedsundersøkelse når det skal vurdere å lansere et nytt produkt. Hvordan behandles beløpet i investeringsanalysen?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Det legges til investeringsutgiften i år 0, siden det er brukt på prosjektet</span><span class="choice__mark"></span></button>
-<button class="choice" data-key="b"><span class="choice__key">B</span><span>Det holdes utenfor — pengene er borte uansett hva som besluttes nå</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Det holdes utenfor, for pengene er borte uansett hva som besluttes nå</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Det fordeles som en årlig kostnad over prosjektets levetid</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Analysen sammenligner to framtider: én med prosjektet og én uten. Markedsundersøkelsen er betalt i begge, så den kan ikke skille dem. Alternativ A lar en historisk utgift straffe en framtidig beslutning — da kan et godt prosjekt forkastes for noe som ikke lenger kan gjøres om. Alternativ C er regnskapslogikk: periodisering fordeler kostnader pent utover, men endrer ikke at kontantstrømmen allerede har funnet sted.</p>
+<p class="quiz__feedback" hidden>Analysen sammenligner to framtider: én med prosjektet og én uten. Markedsundersøkelsen er betalt i begge, så den kan ikke skille dem. Alternativ A lar en historisk utgift straffe en framtidig beslutning; da kan et godt prosjekt forkastes for noe som ikke lenger kan gjøres om. Alternativ C er regnskapslogikk: periodisering fordeler kostnader pent utover, men endrer ikke at kontantstrømmen allerede har funnet sted.</p>
 </div>
 <div class="quiz__q" data-answer="c">
 <p class="quiz__prompt">2. Internregnskapet belaster et nytt prosjekt med 200 000 kroner av husleien selskapet allerede betaler. I tillegg vil prosjektet kreve en ny lagermedarbeider til 480 000 kroner i året. Hva skal med i analysen?</p>
-<button class="choice" data-key="a"><span class="choice__key">A</span><span>Begge beløpene — alle kostnader prosjektet belastes med, skal inn</span><span class="choice__mark"></span></button>
-<button class="choice" data-key="b"><span class="choice__key">B</span><span>Ingen av dem — faste kostnader er aldri relevante i investeringsanalyse</span><span class="choice__mark"></span></button>
-<button class="choice" data-key="c"><span class="choice__key">C</span><span>Bare lagermedarbeideren — det er den eneste utbetalingen som endrer seg hvis prosjektet aksepteres</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Testen er alltid den samme: endrer beløpet seg med beslutningen? Husleien betales uansett — at internregnskapet flytter den mellom avdelinger, skaper ingen ny kontantstrøm. Lagermedarbeideren finnes derimot bare i framtiden med prosjektet. Alternativ B trekker riktig prinsipp for langt: faste kostnader som <em>øker</em> ved aksept, er høyst relevante — det er derfor caset skiller ut nettopp økningen i betalbare faste kostnader.</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Begge beløpene: alle kostnader prosjektet belastes med, skal inn</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Ingen av dem; faste kostnader er aldri relevante i investeringsanalyse</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Bare lagermedarbeideren, den eneste utbetalingen som endrer seg hvis prosjektet aksepteres</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Testen er alltid den samme: endrer beløpet seg med beslutningen? Husleien betales uansett; at internregnskapet flytter den mellom avdelinger, skaper ingen ny kontantstrøm. Lagermedarbeideren finnes derimot bare i framtiden med prosjektet. Alternativ B trekker riktig prinsipp for langt: faste kostnader som <em>øker</em> ved aksept, er høyst relevante. Det er derfor caset skiller ut nettopp økningen i betalbare faste kostnader.</p>
 </div>
 <div class="quiz__q" data-answer="a">
 <p class="quiz__prompt">3. Hvorfor belastes prosjektet for salget den nye modellen ventes å ta fra selskapets eldre produkter?</p>
-<button class="choice" data-key="a"><span class="choice__key">A</span><span>Fordi nedgangen bare inntreffer hvis prosjektet gjennomføres — den er en konsekvens av beslutningen</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Fordi nedgangen bare inntreffer hvis prosjektet gjennomføres og dermed er en konsekvens av beslutningen</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Fordi regnskapsreglene krever at all omsetningsnedgang henføres til et produkt</span><span class="choice__mark"></span></button>
-<button class="choice" data-key="c"><span class="choice__key">C</span><span>Den skal ikke belastes — de eldre produktene hører til en annen del av virksomheten</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Verdiskaping måles for bedriften samlet: spørsmålet er hvor mye rikere hele selskapet blir av å si ja. Kannibaliseringen skjer bare i framtiden med prosjektet, og er derfor en ekte kostnad ved beslutningen — akkurat som økt tilbehørssalg er en ekte gevinst som godskrives prosjektet. Alternativ C ignorerer at grensen går ved beslutningen, ikke ved avdelingen. Og dette er kontantstrømlogikk, ikke regnskapsregler — B blander de to.</p>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Den skal ikke belastes, siden de eldre produktene hører til en annen del av virksomheten</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Verdiskaping måles for bedriften samlet: spørsmålet er hvor mye rikere hele selskapet blir av å si ja. Kannibaliseringen skjer bare i framtiden med prosjektet, og er derfor en ekte kostnad ved beslutningen, akkurat som økt tilbehørssalg er en ekte gevinst som godskrives prosjektet. Alternativ C ignorerer at grensen går ved beslutningen, ikke ved avdelingen. Og dette er kontantstrømlogikk, ikke regnskapsregler; B blander de to.</p>
 </div>
 <p class="quiz__score" role="status" aria-live="polite"></p>
 </div>

@@ -9,30 +9,23 @@ subtitle: "Kursets egen KI-assistent — en skreddersydd GPT som kan pensum, og 
 
 BED3-Buddy er en tilpasset versjon av ChatGPT som vi har satt opp for dette
 kurset. Den kjenner kursets temaer og notasjon, og er ment som en
-samtalepartner ved siden av videoene, quizene og oppgavene her på siden: still
-spørsmål i ditt eget tempo, be om et nytt eksempel når det første ikke satt,
-eller la den høre deg før en øving.
+samtalepartner ved siden av innholdet på denne siden og Canvas.
 
-Du trenger en ChatGPT-konto for å bruke den — en gratis konto holder, men har
-et tak på hvor mange meldinger du kan sende til tilpassede GPT-er per dag.
+Du trenger en ChatGPT-konto for å bruke den.
 
-## Hva den er god til — og hva du må passe på
+## Hva den er god til og hva du må passe på
 
 Bruk den til det en tålmodig læringsassistent er god til: forklare et begrep
-på tre ulike måter, lage nye øvingsoppgaver, finne hullet i et resonnement du
+på flere måter, lage nye øvingsoppgaver, finne hullet i et resonnement du
 selv har skrevet, eller stille deg kontrollspørsmål.
 
-Vær samtidig edruelig: språkmodeller kan regne feil og formulere gale påstander
+Husk at språkmodeller kan regne feil og formulere gale påstander
 med full selvsikkerhet. Fasit i dette kurset er [videoene](kursinnhold.qmd),
-[formelarket](formelark.qmd) og pensumboken — får du et svar fra BED3-Buddy som
-ikke stemmer med dem, er det de som gjelder. Og et svar du ikke kan begrunne
-selv, hjelper deg ikke på eksamen: bruk den til å *forstå*, ikke til å slippe å
-tenke.
+[formelarket](formelark.qmd) og pensumboken.
 
 ## Kom i gang: forslag til meldinger
 
-Åpne BED3-Buddy og lim inn en av disse — eller skriv din egen. De beste
-samtalene starter med hva *du* står fast på.
+Åpne BED3-Buddy og lim inn en av disse, eller skriv din egen.
 
 ```{=html}
 <div class="prompt-cards">
@@ -95,4 +88,4 @@ document.querySelectorAll('.prompt-card__copy').forEach(function (btn) {
 ```
 
 <p class="note">BED3-Buddy er et supplement, ikke pensum. Innholdet på denne
-siden — videoer, quizer, formelark og oppgaver — er det som gjelder.</p>
+siden og Canvas er det som gjelder.</p>

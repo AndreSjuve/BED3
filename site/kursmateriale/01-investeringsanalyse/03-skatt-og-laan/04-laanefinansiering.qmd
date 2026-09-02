@@ -7,14 +7,14 @@ subtitle: "Serielån, annuitetslån og kontantstrømmen til egenkapitalen"
 
 Til nå har prosjektet vært vurdert som om eierne betalte alt selv. I denne
 siste videoen kommer lånefinansieringen inn, og med den et presist spørsmål:
-hvilken av kontantstrømmene våre er det egentlig lånet flytter på — og hvem er
+hvilken av kontantstrømmene våre er det egentlig lånet flytter på, og hvem er
 det som til slutt sier ja eller nei til prosjektet?
 
 Videoen sammenligner to låneformer, serielån og annuitetslån. Merk deg hva som
 er konstant i hver av dem, og hvordan renter og avdrag utvikler seg gjennom
 løpetiden. Skatten spiller også en rolle: rentene kan trekkes fra i
 skattegrunnlaget, og det flytter verdi mellom stat, långivere og eiere. Prisen
-for fordelen er økt risiko for egenkapitalen — se etter hvorfor det henger
+for fordelen er økt risiko for egenkapitalen: se etter hvorfor det henger
 sammen.
 
 ::::: {.video}
@@ -38,31 +38,31 @@ ganger du vil. Det siste spørsmålet krever kalkulator.
 <div class="quiz">
 <div class="quiz__q" data-answer="a">
 <p class="quiz__prompt">1. Et prosjekt delfinansieres med lån. Hva skjer med kontantstrømmen til totalkapitalen?</p>
-<button class="choice" data-key="a"><span class="choice__key">A</span><span>Ingenting — låneopptak, renter og avdrag holdes utenfor den</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Ingenting: låneopptak, renter og avdrag holdes utenfor den</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Den øker i år 0 med lånebeløpet som kommer inn</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Den reduseres hvert år med rentekostnadene</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Totalkapitalen måler prosjektets verdiskaping uavhengig av hvordan det betales for — den er den samme med og uten lån. B og C beskriver ekte kontantstrømmer, men de hører hjemme i kontantstrømmen til egenkapitalen: der kommer lånet inn i år 0, og der går avdrag og renter ut. Blir du bedt om å vurdere et prosjekt på totalkapitalen, ser du altså bort fra alt som har med gjeld å gjøre.</p>
+<p class="quiz__feedback" hidden>Totalkapitalen måler prosjektets verdiskaping uavhengig av hvordan det betales for; den er den samme med og uten lån. B og C beskriver ekte kontantstrømmer, men de hører hjemme i kontantstrømmen til egenkapitalen: der kommer lånet inn i år 0, og der går avdrag og renter ut. Blir du bedt om å vurdere et prosjekt på totalkapitalen, ser du altså bort fra alt som har med gjeld å gjøre.</p>
 </div>
 <div class="quiz__q" data-answer="c">
-<p class="quiz__prompt">2. To lån har samme beløp, rente og løpetid — det ene er serielån, det andre annuitetslån. Hva er likt i det første året?</p>
+<p class="quiz__prompt">2. To lån har samme beløp, rente og løpetid; det ene er serielån, det andre annuitetslån. Hva er likt i det første året?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Avdraget</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Terminbeløpet, altså renter pluss avdrag</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Rentebetalingen</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Renten beregnes alltid av utestående saldo, og før første avdrag er saldoen den samme i begge lån — derfor er første års rente (og skattefordelen av den) identisk. Alt annet skiller: serielånet har like store avdrag hele veien og dermed høyest terminbeløp i starten, mens annuitetslånet har konstant terminbeløp og lavere avdrag i starten. Fra år 2 har de to lånene ulik gjenværende saldo, og da skiller også rentene lag.</p>
+<p class="quiz__feedback" hidden>Renten beregnes alltid av utestående saldo, og før første avdrag er saldoen den samme i begge lån. Derfor er første års rente (og skattefordelen av den) identisk. Alt annet skiller: serielånet har like store avdrag hele veien og dermed høyest terminbeløp i starten, mens annuitetslånet har konstant terminbeløp og lavere avdrag i starten. Fra år 2 har de to lånene ulik gjenværende saldo, og da skiller også rentene lag.</p>
 </div>
 <div class="quiz__q" data-answer="b">
 <p class="quiz__prompt">3. En bedrift betaler 50 000 kroner i renter. Skattesatsen er 22 %. Hva koster rentene egenkapitaleierne etter skatt?</p>
-<button class="choice" data-key="a"><span class="choice__key">A</span><span>50 000 kroner — skatten endrer ikke det banken krever</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>50 000 kroner, for skatten endrer ikke det banken krever</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>39 000 kroner, fordi rentefradraget reduserer skatten med 11 000</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>61 000 kroner, fordi det også må betales skatt av rentebeløpet</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Banken får sine 50 000, men rentene trekkes fra i skattegrunnlaget, så skatteregningen faller med 0,22 · 50 000 = 11 000. Netto belastning er dermed 50 000 · (1 − 0,22) = 39 000 kroner. A glemmer fradraget og overdriver kostnaden — det er nettopp slik staten ender opp med å bære en del av rentene. C har mekanismen baklengs: renter er en kostnad som reduserer skatten, ikke en inntekt som beskattes.</p>
+<p class="quiz__feedback" hidden>Banken får sine 50 000, men rentene trekkes fra i skattegrunnlaget, så skatteregningen faller med 0,22 · 50 000 = 11 000. Netto belastning er dermed 50 000 · (1 − 0,22) = 39 000 kroner. A glemmer fradraget og overdriver kostnaden; det er nettopp slik staten ender opp med å bære en del av rentene. C har mekanismen baklengs: renter er en kostnad som reduserer skatten, ikke en inntekt som beskattes.</p>
 </div>
 <div class="quiz__q" data-answer="a">
 <p class="quiz__prompt">4. Et serielån på 1 500 000 kroner løper over fem år med 6 % rente og etterskuddsvise betalinger. Hva er rentebetalingen i år 2, og hvilken skattefordel gir den når skattesatsen er 22 %?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>72 000 kroner i rente, 15 840 i skattefordel</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>90 000 kroner i rente, 19 800 i skattefordel</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>54 000 kroner i rente, 11 880 i skattefordel</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Avdraget er 1 500 000/5 = 300 000 i året, så ved inngangen til år 2 gjenstår 1 200 000. Renten er 6 % av det: 72 000 kroner, og skattefordelen 0,22 · 72 000 = 15 840. Alternativ B regner renter av hele det opprinnelige lånet og glemmer at ett avdrag allerede er betalt. Alternativ C trekker fra to avdrag — men det andre avdraget betales først ved utgangen av år 2, og renten løper på saldoen gjennom året.</p>
+<p class="quiz__feedback" hidden>Avdraget er 1 500 000/5 = 300 000 i året, så ved inngangen til år 2 gjenstår 1 200 000. Renten er 6 % av det: 72 000 kroner, og skattefordelen 0,22 · 72 000 = 15 840. Alternativ B regner renter av hele det opprinnelige lånet og glemmer at ett avdrag allerede er betalt. Alternativ C trekker fra to avdrag, men det andre avdraget betales først ved utgangen av år 2, og renten løper på saldoen gjennom året.</p>
 </div>
 <p class="quiz__score" role="status" aria-live="polite"></p>
 </div>

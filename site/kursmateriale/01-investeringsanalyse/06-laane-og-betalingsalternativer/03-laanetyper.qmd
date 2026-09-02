@@ -13,7 +13,7 @@ konstant i hver låneform, og hvordan renter og avdrag bytter roller gjennom
 løpetiden.
 
 Så kommer et spørsmål mange svarer feil på: to lån med samme beløp, rente og
-løpetid — men det ene krever flere rentekroner totalt over løpetiden. Er det
+løpetid, men det ene krever flere rentekroner totalt over løpetiden. Er det
 da dyrere? Videoen viser nøyaktig hvor regnefeilen ligger. Til slutt:
 hva er et subsidiert «billiglån» verdt, og hvilken målestokk skal verdien
 måles mot?

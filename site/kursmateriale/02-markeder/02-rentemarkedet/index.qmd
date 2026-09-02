@@ -30,7 +30,7 @@ nederst regnes best når du har sett alt, og krever kalkulator.
   <span class="index-row__no">2</span>
   <span>
     <span class="index-row__title">Prising av obligasjoner og sertifikater</span>
-    <span class="index-row__sub">Kuponger, pålydende, ren og skitten pris — og renteregning i pengemarkedet</span>
+    <span class="index-row__sub">Kuponger, pålydende, ren og skitten pris, og renteregning i pengemarkedet</span>
   </span>
   <span class="index-row__dur">28:41</span>
 </a>
@@ -54,7 +54,7 @@ nederst regnes best når du har sett alt, og krever kalkulator.
   <span class="index-row__no">5</span>
   <span>
     <span class="index-row__title">Renterisiko og durasjon</span>
-    <span class="index-row__sub">Markedsrisikoen i rentepapirer — og målet som kvantifiserer den</span>
+    <span class="index-row__sub">Markedsrisikoen i rentepapirer, og målet som kvantifiserer den</span>
   </span>
   <span class="index-row__dur">40:21</span>
 </a>
@@ -89,7 +89,7 @@ I tillegg til symbolene fra tidligere kapitler bruker videoene disse:
 | $D$, $D^*$ | Durasjon og modifisert (justert) durasjon |
 | $\Delta y$ | Endring i effektiv rente |
 
-Formlene — obligasjonspris, sertifikatpris, terminrente og durasjon — står
+Formlene (obligasjonspris, sertifikatpris, terminrente og durasjon) står
 under «Obligasjoner og durasjon» på [formelarket](../../../formelark.qmd).
 
 ## Forelesningsplansjer
@@ -101,7 +101,7 @@ under «Obligasjoner og durasjon» på [formelarket](../../../formelark.qmd).
 Oppgavene dekker kapittelets fire kjerneferdigheter: prising av en
 kupongobligasjon (med og uten påløpte renter), renteregning for sertifikater,
 terminrenter fra spotrenter, og durasjon med prisanslag. Regn dem for hånd før
-du åpner løsningsforslaget — å lese en løsning føles som å forstå den, og det
+du åpner løsningsforslaget: å lese en løsning føles som å forstå den, og det
 er sjelden det samme.
 
 ::::: {.problem}
@@ -112,7 +112,7 @@ etterskuddsvis betaling, og fire hele år til forfall. Markedsrenten for
 tilsvarende obligasjoner er 7 %.
 
 a) Beregn prisen i dag, rett etter utstedelse. Handles obligasjonen til
-premie eller rabatt — og hvorfor?
+premie eller rabatt, og hvorfor?
 
 b) Et halvt år senere er markedsrenten fortsatt 7 %, og obligasjonen skifter
 eier. Beregn totalprisen kjøperen betaler (dirty price), de påløpte rentene
@@ -142,7 +142,7 @@ neste kupong: påløpte renter = 0,5 · 50 = 25 kroner. Kursen er da
 
 $$\text{Clean price} = 964{,}33 - 25 \approx 939{,}33$$
 
-Det er kursen som kvoteres i markedet — men kjøperen betaler dirty price.
+Det er kursen som kvoteres i markedet, men kjøperen betaler dirty price.
 
 ::::
 
@@ -158,7 +158,7 @@ er 4,5 %, og den enkle årsrenten på bedriftssertifikatet er 5 %.
 
 a) Beregn prisen på hvert av sertifikatene.
 
-b) Hvorfor brukes ulik renteregning for de to — og hvorfor er renten på
+b) Hvorfor brukes ulik renteregning for de to, og hvorfor er renten på
 bedriftssertifikatet høyere?
 
 <details class="solution">
@@ -176,7 +176,7 @@ Bedriftssertifikatet diskonteres med enkel rente for perioden:
 $$P_0 = \frac{1\,000\,000}{1 + 0{,}05 \cdot 0{,}4} = \frac{1\,000\,000}{1{,}02} \approx 980\,392$$
 
 **b)** Renteregningen er ren markedskonvensjon: statssertifikater prises med
-effektiv årsrente, bedriftssertifikater med enkel årsrente — begge annualisert
+effektiv årsrente, bedriftssertifikater med enkel årsrente, begge annualisert
 over faktisk antall dager delt på 365. Konvensjonene må holdes fra hverandre
 når renter skal sammenlignes. At bedriftsrenten er høyere, skyldes
 kredittrisiko: staten regnes som (tilnærmet) konkursfri, mens en bedrift kan
@@ -212,11 +212,11 @@ $$f_{2,3} = \frac{1{,}056^3}{1{,}052^2} - 1 \approx 0{,}0640 = 6{,}40\,\%$$
 
 **b)** Under forventningshypotesen er terminrentene forventningsrette anslag
 på fremtidige spotrenter: markedet venter da at ettårsrenten stiger fra
-dagens 4,5 % til om lag 5,9 % om ett år og 6,4 % om to år — en klar
+dagens 4,5 % til om lag 5,9 % om ett år og 6,4 % om to år, en klar
 forventning om renteoppgang. Under likviditetspreferansehypotesen inneholder
 terminrentene i tillegg en premie for å binde kapital lenge. Da overvurderer
 5,9 % og 6,4 % de forventede spotrentene, og en del av den stigende kurven
-skyldes premien — ikke renteforventninger alene.
+skyldes premien, ikke renteforventninger alene.
 
 ::::
 
@@ -269,7 +269,7 @@ Anslaget bommer med noen øre fordi durasjonen følger tangenten til
 pris–rente-sammenhengen i punktet 7 %, mens den virkelige sammenhengen er
 konveks. For små renteendringer er avviket lite; for store vokser det.
 
-**d)** Ved en horisont lik durasjonen — om lag 2,77 år — oppveier
+**d)** Ved en horisont lik durasjonen (om lag 2,77 år) oppveier
 reinvesteringseffekten og kurseffekten av en liten renteendring hverandre, og
 sluttverdien er sikret. Merk at horisonten er kortere enn løpetiden på tre
 år: kupongene gjør at kapitalen effektivt er bundet kortere enn løpetiden

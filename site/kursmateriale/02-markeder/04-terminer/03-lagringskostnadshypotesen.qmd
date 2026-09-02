@@ -6,10 +6,10 @@ subtitle: "Terminprisen som spotpris pluss kostnaden ved å eie underliggende"
 ## Før du ser videoen
 
 Nå begynner regnearbeidet. Prisen på en terminkontrakt er ikke tatt ut av løse
-luften — men hva bestemmer den? Videoen bygger svaret nedenfra: først ryddes
+luften, men hva bestemmer den? Videoen bygger svaret nedenfra: først ryddes
 det i hva futuresprisen egentlig er, i kontrast til prisbegrepene fra
 [opsjonene](../03-opsjoner/index.qmd). Deretter kommer et skille mellom goder som
-holdes for å plassere penger og goder som holdes for å brukes — og hvorfor det
+holdes for å plassere penger og goder som holdes for å brukes, og hvorfor det
 skillet avgjør hvor langt arbitrasjeargumentet rekker.
 
 Kjernen er et talleksempel der en tenkt forwardpris testes: hva skjer om den
@@ -39,37 +39,37 @@ ganger du vil. De to siste spørsmålene krever kalkulator.
 <div class="quiz__q" data-answer="b">
 <p class="quiz__prompt">1. Hvorfor skiller videoen mellom investeringsgoder og konsumgoder før prisingen starter?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Fordi konsumgoder ikke kan handles på futures-børser</span><span class="choice__mark"></span></button>
-<button class="choice" data-key="b"><span class="choice__key">B</span><span>Fordi arbitrasjeargumentet krever at noen eier underliggende utelukkende for å spekulere i pris — for konsumgoder gir fysisk eierskap en egenverdi som svekker argumentet</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Fordi arbitrasjeargumentet krever at noen eier underliggende utelukkende for å spekulere i pris; for konsumgoder gir fysisk eierskap en egenverdi som svekker argumentet</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Fordi investeringsgoder er gratis å oppbevare, mens konsumgoder har lagringskostnader</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>For aksjer, obligasjoner og gull finnes tradere som gladelig bytter mellom godet og kontrakten hvis prisene spriker, og da presses enhver feilprising vekk. Den som eier olje eller hvete for å bruke den, gir derimot ikke slipp på varen bare fordi kontrakten er relativt billig — så der binder ikke arbitrasjen prisene like stramt. Alternativ A er faktisk feil: mais, olje og kveg er blant de mest omsatte futureskontraktene som finnes. Og C blander kortene — også gull må lagres og forsikres; skillet handler om motivet for å eie, ikke om kostnadene.</p>
+<p class="quiz__feedback" hidden>For aksjer, obligasjoner og gull finnes tradere som gladelig bytter mellom godet og kontrakten hvis prisene spriker, og da presses enhver feilprising vekk. Den som eier olje eller hvete for å bruke den, gir derimot ikke slipp på varen bare fordi kontrakten er relativt billig, så der binder ikke arbitrasjen prisene like stramt. Alternativ A er faktisk feil: mais, olje og kveg er blant de mest omsatte futureskontraktene som finnes. Og C blander kortene: også gull må lagres og forsikres; skillet handler om motivet for å eie, ikke om kostnadene.</p>
 </div>
 <div class="quiz__q" data-answer="a">
 <p class="quiz__prompt">2. Du kjøpte en futureskontrakt til pris 500. I dag kvoteres kontrakter med samme levering til 520. Hva betyr det for deg?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Nye kontrakter inngås nå til 520; din avtalte pris er fortsatt 500, og differansen er din urealiserte gevinst</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Kontraktsprisen din oppjusteres automatisk til 520, slik at alle betaler det samme ved forfall</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Du har et urealisert tap på 20, siden det er blitt dyrere å kjøpe underliggende</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Futuresprisen som kvoteres i markedet, er til enhver tid prisen <em>nye</em> kontrakter inngås til — den bestemmes løpende av tilbud og etterspørsel. Din kontrakt er låst til 500, og siden markedet nå priser samme leveranse til 520, sitter du som kjøper med en urealisert gevinst på 20. Alternativ B beskriver noe som ikke finnes: den avtalte prisen rører seg aldri, det er derfor det gir mening å snakke om gevinst og tap. Og C har fortegnet feil vei — som lang tjener du når prisen stiger; det er den som har solgt på 500 som ligger an til å tape.</p>
+<p class="quiz__feedback" hidden>Futuresprisen som kvoteres i markedet, er til enhver tid prisen <em>nye</em> kontrakter inngås til; den bestemmes løpende av tilbud og etterspørsel. Din kontrakt er låst til 500, og siden markedet nå priser samme leveranse til 520, sitter du som kjøper med en urealisert gevinst på 20. Alternativ B beskriver noe som ikke finnes: den avtalte prisen rører seg aldri, det er derfor det gir mening å snakke om gevinst og tap. Og C har fortegnet feil vei: som lang tjener du når prisen stiger; det er den som har solgt på 500 som ligger an til å tape.</p>
 </div>
 <div class="quiz__q" data-answer="c">
 <p class="quiz__prompt">3. For en aksje uten utbytte ligger forwardprisen over dagens aksjekurs. Hvorfor?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Fordi markedet forventer at aksjekursen skal stige frem mot forfall</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Fordi selgeren av kontrakten krever betalt for motpartsrisikoen</span><span class="choice__mark"></span></button>
-<button class="choice" data-key="c"><span class="choice__key">C</span><span>Fordi forwardkjøperen slipper å binde penger i dag — påslaget tilsvarer renten spotkjøperen alternativt kunne fått</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Begge veier ender du opp med aksjen ved forfall: kjøper du spot, binder du pengene nå; kjøper du forward, kan de stå til risikofri rente i mellomtiden. Skal de to veiene være likeverdige, må forwardprisen inneholde nettopp den finansieringskostnaden — ellers oppstår arbitrasje, slik talleksempelet viste i begge retninger. Alternativ A er en vanlig, men gal intuisjon: påslaget følger av dagens spotpris og renten alene, ikke av noen spådom om kursen (det er tema i neste video). Og B hører hjemme i forrige video — motpartsrisikoen håndteres av oppgjørssentralen og marginene, ikke av prisen.</p>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Fordi forwardkjøperen slipper å binde penger i dag; påslaget tilsvarer renten spotkjøperen alternativt kunne fått</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Begge veier ender du opp med aksjen ved forfall: kjøper du spot, binder du pengene nå; kjøper du forward, kan de stå til risikofri rente i mellomtiden. Skal de to veiene være likeverdige, må forwardprisen inneholde nettopp den finansieringskostnaden; ellers oppstår arbitrasje, slik talleksempelet viste i begge retninger. Alternativ A er en vanlig, men gal intuisjon: påslaget følger av dagens spotpris og renten alene, ikke av noen spådom om kursen (det er tema i neste video). Og B hører hjemme i forrige video: motpartsrisikoen håndteres av oppgjørssentralen og marginene, ikke av prisen.</p>
 </div>
 <div class="quiz__q" data-answer="a">
 <p class="quiz__prompt">4. En aksje uten utbytte handles for 80 kroner, og risikofri rente er 6&nbsp;% per år. Hva må forwardprisen med levering om fire måneder være for å utelukke arbitrasje?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>81,60 kroner</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>84,80 kroner</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>80,00 kroner</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Renten skal bare løpe i fire av tolv måneder: F = 80 · (1 + 0,06 · 4/12) = 80 · 1,02 = 81,60 — spotprisen forrentet over kontraktens levetid, akkurat som 40 kroner ble til 40,50 i videoen. Alternativ B har brukt hele årsrenten uten å skalere med tiden til forfall. Og C er tanken om at forwardpris og spotpris må være like når aksjen ikke betaler noe — men da kunne du lånt 80, kjøpt aksjen og solgt den forward uten å tape renten, en gratis gevinst arbitrasjen fjerner.</p>
+<p class="quiz__feedback" hidden>Renten skal bare løpe i fire av tolv måneder: F = 80 · (1 + 0,06 · 4/12) = 80 · 1,02 = 81,60, altså spotprisen forrentet over kontraktens levetid, akkurat som 40 kroner ble til 40,50 i videoen. Alternativ B har brukt hele årsrenten uten å skalere med tiden til forfall. Og C er tanken om at forwardpris og spotpris må være like når aksjen ikke betaler noe. Men da kunne du lånt 80, kjøpt aksjen og solgt den forward uten å tape renten, en gratis gevinst arbitrasjen fjerner.</p>
 </div>
 <div class="quiz__q" data-answer="b">
 <p class="quiz__prompt">5. En aksje handles for 200 kroner og ventes å gi et utbytte tilsvarende 3&nbsp;% per år over kontraktsperioden. Risikofri rente er 5&nbsp;% per år. Hva blir forwardprisen med levering om seks måneder?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>205,00 kroner</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>202,00 kroner</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>198,00 kroner</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Utbyttet tilfaller den som eier aksjen, ikke den som eier kontrakten — så forwardkjøperen skal ha rabatt for inntekten han går glipp av: F = 200 · [1 + (0,05 − 0,03) · 6/12] = 200 · 1,01 = 202. Alternativ A har glemt utbyttet og forrentet med hele risikofri rente (200 · 1,025). Og C har trukket nettosatsen <em>fra</em> i stedet for å legge den til — retningen må være at finansieringskostnaden trekker prisen opp og utbyttet demper påslaget, ikke omvendt.</p>
+<p class="quiz__feedback" hidden>Utbyttet tilfaller den som eier aksjen, ikke den som eier kontrakten, så forwardkjøperen skal ha rabatt for inntekten han går glipp av: F = 200 · [1 + (0,05 − 0,03) · 6/12] = 200 · 1,01 = 202. Alternativ A har glemt utbyttet og forrentet med hele risikofri rente (200 · 1,025). Og C har trukket nettosatsen <em>fra</em> i stedet for å legge den til. Retningen må være at finansieringskostnaden trekker prisen opp og utbyttet demper påslaget, ikke omvendt.</p>
 </div>
 <p class="quiz__score" role="status" aria-live="polite"></p>
 </div>

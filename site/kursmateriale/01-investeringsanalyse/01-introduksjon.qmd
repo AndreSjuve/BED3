@@ -6,8 +6,8 @@ subtitle: "Hva investeringsanalyse er, og hvilke spørsmål den skal svare på"
 Investeringsanalysemodulen starter her.
 
 Utgangspunktet for hele kurset er at foretaket har ett overordnet mål: å
-maksimere foretakets verdi. For å nå dette målet må foretaket ta tre sentrale
-beslutninger — investeringsbeslutningen, finansieringsbeslutningen og
+maksimere foretakets verdi. For å nå dette målet må foretaket ta tre
+beslutninger: investeringsbeslutningen, finansieringsbeslutningen og
 utbyttebeslutningen. Investeringsanalyse handler om den første av disse:
 hvilke prosjekter foretaket skal velge å investere i.
 
@@ -18,7 +18,7 @@ investeringer i maskiner, teknologi, nye produkter eller utvidelse av
 eksisterende virksomhet. Felles for slike prosjekter er at de krever en
 investering i dag, og forventes å generere kontantstrømmer i fremtiden.
 
-Beslutningsregelen er i seg selv enkel: **aksepter gode prosjekter**. Et
+Beslutningsregelen er i seg selv enkel: *aksepter gode prosjekter*. Et
 prosjekt er godt dersom det skaper verdi for foretaket. Mer presist betyr
 dette at prosjektets forventede avkastning er høyere enn det laveste
 akseptable avkastningskravet. Avkastningskravet skal reflektere risikoen i
@@ -57,9 +57,9 @@ Modulen består av fem deler, og de leses best i rekkefølge.
 særegent utgangspunkt: der antar vi at korrekte kontantstrømmer allerede er
 identifisert, og at et relevant avkastningskrav er fastsatt. Fokuset ligger på
 hvordan denne informasjonen brukes til å fatte en konkret
-investeringsbeslutning. Vi ser på metoder for å vurdere lønnsomhet — som
-nåverdimetoden og internrentemetoden, med tilbakebetalingsmetoden og
-annuitetsmetoden som supplement — og diskuterer hvordan prosjekter kan
+investeringsbeslutning. Vi ser på metoder for å vurdere lønnsomhet
+(nåverdimetoden og internrentemetoden, med tilbakebetalingsmetoden og
+annuitetsmetoden som supplement) og diskuterer hvordan prosjekter kan
 rangeres når foretaket har begrensede ressurser.
 
 Resten av modulen fokuserer på kontantstrømmene: hvordan de beregnes, hvilke

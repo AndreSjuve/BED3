@@ -7,14 +7,14 @@ subtitle: "Futures-børsen, oppgjørssentralen, marginkonto og daglig oppgjør"
 
 Terminmarkedets viktigste konstruksjon er kanskje ikke selve kontrakten, men
 maskineriet rundt den. Når to fremmede parter lover hverandre en handel langt
-frem i tid — hva hindrer den som ligger an til å tape i å forsvinne før
+frem i tid: hva hindrer den som ligger an til å tape i å forsvinne før
 oppgjøret?
 
 Videoen viser først hvordan ekte futureskontrakter ser ut på verdens største
 derivatbørs, med standardiserte enheter for alt fra mais til aksjeindekser.
 Deretter kommer svaret på spørsmålet over, i to deler: en institusjon som
 stiller seg mellom partene i hver handel, og en rutine som gjør opp gevinst og
-tap dag for dag. Følg nøye med på gulleksempelet mot slutten — der får
+tap dag for dag. Følg nøye med på gulleksempelet mot slutten: der får
 begrepene initialmargin, vedlikeholdsmargin og margin call konkret innhold.
 
 ::::: {.video}
@@ -41,35 +41,35 @@ ganger du vil. De to siste spørsmålene krever kalkulator.
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Den matcher kjøper og selger, som deretter gjør opp direkte med hverandre ved forfall</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Den fjerner prisrisikoen ved å garantere at ingen av partene taper på kontrakten</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Den bryter opp handelen og trer inn som motpart for begge sider, slik at partene slipper hverandres kredittrisiko</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Kjøperen får oppgjørssentralen som selger, og selgeren får oppgjørssentralen som kjøper — de to opprinnelige partene har ikke lenger noe med hverandre å gjøre. Alternativ A beskriver et vanlig verdipapirmarked, der eierskapet går direkte fra person B til person A; det er nettopp dette futuresmarkedet avviker fra. Og B blander to typer risiko: sentralen reduserer motpartsrisikoen, men prisrisikoen består — den er jo selve grunnen til at kontraktene finnes.</p>
+<p class="quiz__feedback" hidden>Kjøperen får oppgjørssentralen som selger, og selgeren får oppgjørssentralen som kjøper; de to opprinnelige partene har ikke lenger noe med hverandre å gjøre. Alternativ A beskriver et vanlig verdipapirmarked, der eierskapet går direkte fra person B til person A; det er nettopp dette futuresmarkedet avviker fra. Og B blander to typer risiko: sentralen reduserer motpartsrisikoen, men prisrisikoen består, og den er jo selve grunnen til at kontraktene finnes.</p>
 </div>
 <div class="quiz__q" data-answer="a">
 <p class="quiz__prompt">2. Hva innebærer daglig oppgjør («marking to market»)?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Gevinst og tap på posisjonen beregnes hver dag og føres mot marginkontoen</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Kontrakten gjøres opp i sin helhet først når den forfaller</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Posisjonen selges automatisk hver kveld og kjøpes tilbake neste morgen til ny pris</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Hver dag telles det opp: har futuresprisen beveget seg mot deg, skrives marginkontoen ned; har den gått din vei, godskrives den. Faller kontoen under vedlikeholdsmarginen, kommer margin call-en, og du må skyte inn variasjonsmargin for å beholde posisjonen. Alternativ B beskriver forward-kontrakten — der skjer hele oppgjøret ved levering, og det er nettopp derfor motpartsrisikoen er større i det markedet. Og C forveksler bokføring med handel: posisjonen din består, det er bare verdien som avregnes daglig.</p>
+<p class="quiz__feedback" hidden>Hver dag telles det opp: har futuresprisen beveget seg mot deg, skrives marginkontoen ned; har den gått din vei, godskrives den. Faller kontoen under vedlikeholdsmarginen, kommer margin call-en, og du må skyte inn variasjonsmargin for å beholde posisjonen. Alternativ B beskriver forward-kontrakten: der skjer hele oppgjøret ved levering, og det er nettopp derfor motpartsrisikoen er større i det markedet. Og C forveksler bokføring med handel: posisjonen din består, det er bare verdien som avregnes daglig.</p>
 </div>
 <div class="quiz__q" data-answer="b">
 <p class="quiz__prompt">3. Du er lang oljefutures med levering i september, men ønsker ikke å motta oljen. Hva gjør du?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Ber oppgjørssentralen kansellere kontrakten mot et gebyr</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Selger like mange kontrakter med samme leveringstidspunkt før forfall</span><span class="choice__mark"></span></button>
-<button class="choice" data-key="c"><span class="choice__key">C</span><span>Lar kontrakten løpe ut — posisjoner uten leveringsønske bortfaller av seg selv</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Ved å innta motsatt posisjon i samme kontrakt nuller forpliktelsene hverandre ut: plikten til å motta og plikten til å levere samme mengde på samme tidspunkt opphever hverandre. Slik lukker de aller fleste aktørene posisjonene sine — svært få tar faktisk levering. Alternativ A finnes ikke som mekanisme; det er nettopp gjensalg i markedet som er «kanselleringen». Og C er direkte farlig: en futureskontrakt er en bindende forpliktelse, og den forsvinner ikke fordi du ikke ønsker leveransen.</p>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Lar kontrakten løpe ut: posisjoner uten leveringsønske bortfaller av seg selv</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Ved å innta motsatt posisjon i samme kontrakt nuller forpliktelsene hverandre ut: plikten til å motta og plikten til å levere samme mengde på samme tidspunkt opphever hverandre. Slik lukker de aller fleste aktørene posisjonene sine; svært få tar faktisk levering. Alternativ A finnes ikke som mekanisme; det er nettopp gjensalg i markedet som er «kanselleringen». Og C er direkte farlig: en futureskontrakt er en bindende forpliktelse, og den forsvinner ikke fordi du ikke ønsker leveransen.</p>
 </div>
 <div class="quiz__q" data-answer="b">
 <p class="quiz__prompt">4. En hvetekontrakt har kontraktsenhet 5&nbsp;000 bushels, og prisen kvoteres i cent per bushel. Minste prisendring er en halv cent per bushel. Hvor mye endrer verdien av én kontrakt seg ved en minste prisendring?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>2 500 dollar</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>25 dollar</span><span class="choice__mark"></span></button>
-<button class="choice" data-key="c"><span class="choice__key">C</span><span>En halv cent — prisendringen per bushel er også endringen per kontrakt</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>5 000 bushels · 0,5 cent = 2 500 cent = 25 dollar. Alternativ A har regnet riktig i cent, men glemt å gjøre om til dollar — en klassisk felle når kontrakten kvoteres i cent. Og C overser kontraktsenheten helt: du handler aldri én bushel, men hele den standardiserte enheten, så hver lille prisbevegelse skaleres opp med 5 000. Samme regnestykke lå bak maiskontrakten i videoen.</p>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>En halv cent, siden prisendringen per bushel også er endringen per kontrakt</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>5 000 bushels · 0,5 cent = 2 500 cent = 25 dollar. Alternativ A har regnet riktig i cent, men glemt å gjøre om til dollar, en klassisk felle når kontrakten kvoteres i cent. Og C overser kontraktsenheten helt: du handler aldri én bushel, men hele den standardiserte enheten, så hver lille prisbevegelse skaleres opp med 5 000. Samme regnestykke lå bak maiskontrakten i videoen.</p>
 </div>
 <div class="quiz__q" data-answer="a">
 <p class="quiz__prompt">5. Du går lang to sølvkontrakter, hver på 1&nbsp;000 unser, til futurespris 25,00 dollar per unse. Initialmarginen er 4&nbsp;000 dollar per kontrakt. Ved slutten av første dag er futuresprisen 24,40. Hva står på marginkontoen etter det daglige oppgjøret?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>6 800 dollar</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>7 400 dollar</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>8 000 dollar</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Du har forpliktet deg til å kjøpe for 25,00, og prisen er nå 24,40 — et urealisert tap på 0,60 dollar per unse. Med 2 · 1 000 = 2 000 unser blir dagens tap 1 200 dollar, og kontoen skrives ned fra 8 000 til 6 800. Alternativ B har bare regnet med én kontrakt (1 000 unser); husk at begge kontraktene avregnes. Og C er forward-logikk — at tapet først gjøres opp ved forfall. I futuresmarkedet føres det mot kontoen samme kveld, og det er nettopp den daglige avregningen som lar oppgjørssentralen holde motpartsrisikoen nede.</p>
+<p class="quiz__feedback" hidden>Du har forpliktet deg til å kjøpe for 25,00, og prisen er nå 24,40, et urealisert tap på 0,60 dollar per unse. Med 2 · 1 000 = 2 000 unser blir dagens tap 1 200 dollar, og kontoen skrives ned fra 8 000 til 6 800. Alternativ B har bare regnet med én kontrakt (1 000 unser); husk at begge kontraktene avregnes. Og C er forward-logikk: at tapet først gjøres opp ved forfall. I futuresmarkedet føres det mot kontoen samme kveld, og det er nettopp den daglige avregningen som lar oppgjørssentralen holde motpartsrisikoen nede.</p>
 </div>
 <p class="quiz__score" role="status" aria-live="polite"></p>
 </div>

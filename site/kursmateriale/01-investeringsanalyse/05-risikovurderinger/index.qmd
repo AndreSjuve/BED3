@@ -94,10 +94,10 @@ I tillegg til symbolene fra de tidligere kapitlene bruker videoene disse:
 |---|---|
 | $p_j$ | Sannsynligheten for scenario eller utfall $j$ |
 | $E(\text{NNV})$ | Forventet netto nåverdi: nåverdiene i hvert utfall vektet med sannsynlighetene |
-| PB | Payback-tid — antall år før investeringen er tilbakebetalt |
+| PB | Payback-tid: antall år før investeringen er tilbakebetalt |
 
-Forventnings- og risikomålene i samme form — $E(\cdot)$, varians og
-standardavvik — står under «Porteføljeteori og risiko» på
+Forventnings- og risikomålene i samme form ($E(\cdot)$, varians og
+standardavvik) står under «Porteføljeteori og risiko» på
 [formelarket](../../../formelark.qmd).
 
 ## Forelesningsplansjer
@@ -108,7 +108,7 @@ standardavvik — står under «Porteføljeteori og risiko» på
 
 Oppgavene tar for seg scenarioanalyse med sannsynlighetsvekting, diskontert
 payback-tid og verdsetting av en testfase med beslutningstre. Regn dem for hånd
-før du åpner løsningsforslaget — å lese en løsning føles som å forstå den, og
+før du åpner løsningsforslaget: å lese en løsning føles som å forstå den, og
 det er sjelden det samme.
 
 ::::: {.problem}
@@ -128,7 +128,7 @@ a) Beregn netto nåverdi i hvert scenario.
 
 b) Du vurderer sannsynlighetene til 25 % for det pessimistiske, 50 % for det
 forventede og 25 % for det optimistiske scenarioet. Hva er forventet netto
-nåverdi — og hva blir konklusjonen?
+nåverdi, og hva blir konklusjonen?
 
 <details class="solution">
 <summary>Vis løsningsforslag</summary>
@@ -152,7 +152,7 @@ Det er nettopp dette spennet scenarioanalysen skal synliggjøre.
 
 $$E(\text{NNV}) = 0{,}25 \cdot (-945\,000) + 0{,}50 \cdot 275\,000 + 0{,}25 \cdot 1\,385\,000 \approx 247\,000$$
 
-Forventet netto nåverdi er positiv, så prosjektet bør gjennomføres — men
+Forventet netto nåverdi er positiv, så prosjektet bør gjennomføres, men
 beslutningstageren bør merke seg at ett av fire utfall (etter disse vektene)
 gir et tap nær en million. Med like vekter på alle tre scenarioene blir svaret
 for øvrig ≈ 238 000; konklusjonen er altså robust for moderate endringer i
@@ -175,7 +175,7 @@ a) Beregn payback-tiden uten hensyn til tidsverdien av penger.
 b) Beregn den diskonterte payback-tiden. Anta at kontantstrømmene tilfaller
 prosjektet jevnt gjennom året.
 
-c) Hvorfor blir svaret i b) alltid størst — og hvilken informasjon gir ingen av
+c) Hvorfor blir svaret i b) alltid størst, og hvilken informasjon gir ingen av
 de to målene?
 
 <details class="solution">
@@ -201,8 +201,8 @@ Den kumulative nåverdien snur fra negativ til positiv i løpet av det tredje
 2 + 16 187/19 052 ≈ **2,85 år**.
 
 **c)** Diskontering gjør hvert fremtidig beløp mindre verdt, så den kumulative
-summen når null senere — med positivt avkastningskrav er diskontert payback-tid
-alltid lengst. Ingen av målene sier derimot noe om det som skjer *etter*
+summen når null senere. Med positivt avkastningskrav er diskontert
+payback-tid alltid lengst. Ingen av målene sier derimot noe om det som skjer *etter*
 tilbakebetalingen: her kommer det ytterligere verdi i år 4 (netto nåverdi for
 hele prosjektet er ≈ +14 600), men et prosjekt med store negative
 kontantstrømmer sent i livet kunne hatt nøyaktig samme payback-tid. Derfor er
@@ -240,7 +240,7 @@ annuitetsfaktoren $(1 - 1{,}12^{-5})/0{,}12 = 3{,}6048$):
 
 $$-800 + 300 \cdot 3{,}6048 \approx 281 \text{ millioner}$$
 
-Positiv — så etter en vellykket test investeres det. Etter en mislykket test er
+Positiv, så etter en vellykket test investeres det. Etter en mislykket test er
 alternativene −600 (bygge ut) og 0 (la være); selskapet velger selvsagt 0.
 
 Forventet verdi på tidspunkt 1 er dermed 0,7 · 281 + 0,3 · 0 ≈ 197 millioner,
@@ -258,7 +258,7 @@ kjøper.
 $$-60 + \frac{p \cdot 281}{1{,}12} = 0 \quad\Rightarrow\quad p = \frac{60 \cdot 1{,}12}{281} \approx 0{,}24$$
 
 Testfasen tåler altså at suksessannsynligheten faller helt til rundt 24 % før
-den slutter å lønne seg — et godt eksempel på at en billig test foran en stor
+den slutter å lønne seg, et godt eksempel på at en billig test foran en stor
 investering kan forsvares selv med nokså usikre utsikter.
 
 ::::

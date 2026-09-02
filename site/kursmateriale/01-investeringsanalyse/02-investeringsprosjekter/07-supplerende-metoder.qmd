@@ -10,11 +10,11 @@ beslutningssituasjoner er det praktisk å omformulere det samme svaret, og det e
 det disse metodene gjør. Rekkefølgen er alltid netto nåverdi først, supplerende
 metoder etterpå.
 
-Det er tre av dem: annuitetsmetoden, nåverdiindeksen og — bare så vidt nevnt —
+Det er tre av dem: annuitetsmetoden, nåverdiindeksen og (bare så vidt nevnt)
 økonomisk levetid. Alle tre tar netto nåverdi som utgangspunkt og regner den om
 til noe annet. Spørsmålet å ha med seg for hver av dem er hvilken
 beslutningssituasjon som gjør nettopp den omregningen nyttig. Ingen av dem
-erstatter netto nåverdi — de utfyller den.
+erstatter netto nåverdi; de utfyller den.
 
 ::::: {.video}
 ```{=html}
@@ -39,7 +39,7 @@ erstatter netto nåverdi — de utfyller den.
 NVI&nbsp;=&nbsp;NNV/I<sub>0</sub>, med grensen NVI&nbsp;&gt;&nbsp;0. Lærebøker
 definerer den ofte i stedet som nåverdien av innbetalingene delt på
 investeringen, med grensen &gt;&nbsp;1. De to skiller seg med nøyaktig 1, så de
-gir alltid samme rangering og samme beslutning — men se etter hvilken definisjon
+gir alltid samme rangering og samme beslutning, men se etter hvilken definisjon
 en oppgave legger til grunn før du svarer.</p>
 
 ## Sjekk forståelsen

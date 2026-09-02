@@ -5,14 +5,14 @@ subtitle: "Finansiell leasing og kontantstrømmene til leietaker og utleier"
 
 ## Før du ser videoen
 
-Siste video skifter fra lån til leie. Leasing gir bruksrett uten eierskap —
+Siste video skifter fra lån til leie. Leasing gir bruksrett uten eierskap,
 men er det egentlig noe annet enn enda en måte å finansiere et kjøp på?
 Videoen skiller mellom operasjonell og finansiell leasing, og går gjennom
 grunnene til å lease: fleksibilitet, vedlikehold, transaksjonskostnader.
 Legg merke til hvor grensen mellom de to formene går.
 
 Kjernen er likevel et regnestykke: en maskin kan kjøpes med lån eller
-leases. Merk deg hvilke kontantstrømmer som hører med i sammenligningen — og
+leases. Merk deg hvilke kontantstrømmer som hører med i sammenligningen, og
 hvilke som er like uansett og kan holdes utenfor. Se også etter speilingen
 mellom partene: det den ene betaler, mottar den andre. Hvorfor diskonterer
 de to likevel med hver sin rente?
