@@ -8,10 +8,9 @@ Det er de ikke: priser, salgstall og kostnader er estimater, og verden kan endre
 seg raskt. Dette kapittelet handler om totalrisikoen i et prosjekt, og om
 verktøyene som viser hvor mye beslutningen tåler når anslagene slår feil.
 
-Åtte videoer, omtrent 74 minutter til sammen. Se dem i rekkefølge; verktøyene
-presenteres fra det enkleste til det mest fleksible, og de senere videoene viser
-tilbake til de tidligere. Til hver video hører en kort quiz. Oppgavene nederst
-regnes best når du har sett alt, og krever kalkulator.
+Verktøyene presenteres i åtte videoer, omtrent 74 minutter til sammen, fra det
+enkleste til det mest fleksible. De senere videoene viser tilbake til de
+tidligere, så se dem i rekkefølge.
 
 ## Videoer
 

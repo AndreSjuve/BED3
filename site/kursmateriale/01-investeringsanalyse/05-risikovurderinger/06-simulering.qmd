@@ -30,9 +30,6 @@ lønnsomt prosjekt, og hvordan det synes igjen i resultatet.
 
 ## Sjekk forståelsen
 
-Tre spørsmål. Du får svaret med én gang, og du kan ta quizen om igjen så mange
-ganger du vil.
-
 ```{=html}
 <div class="quiz">
 <div class="quiz__q" data-answer="a">

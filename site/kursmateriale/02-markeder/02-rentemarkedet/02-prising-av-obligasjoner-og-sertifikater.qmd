@@ -30,9 +30,6 @@ seg til pengemarkedet, der stat og bedrift følger hver sin regnekonvensjon.
 
 ## Sjekk forståelsen
 
-Fem spørsmål. Du får svaret med én gang, og du kan ta quizen om igjen så mange
-ganger du vil. De to siste spørsmålene krever kalkulator.
-
 ```{=html}
 <div class="quiz">
 <div class="quiz__q" data-answer="b">

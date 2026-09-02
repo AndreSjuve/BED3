@@ -7,6 +7,10 @@ Modulene på denne siden er de asynkrone videodelene av kurset:
 investeringsanalyse og finansielle markeder og kontrakter. Nummereringen
 følger kursets samlede modulrekke.
 
+Til hver video hører en kort quiz: du får svaret med én gang og kan prøve så
+mange ganger du vil. Oppgavene nederst på hver modulside regnes best når alle
+videoene er sett, og de krever kalkulator.
+
 <p class="note">Se videoen før forelesningen. Forelesningen brukes til å gå
 dypere inn på utvalgte deler og svare på spørsmål.</p>
 

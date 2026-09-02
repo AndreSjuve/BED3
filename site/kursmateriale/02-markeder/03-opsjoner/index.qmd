@@ -10,11 +10,10 @@ kjøpsopsjonen og salgsopsjonen. Begge gir eieren en rett uten plikt, og det er
 den asymmetrien som gir kontantstrømsprofilene deres den karakteristiske
 knekken.
 
-Seks videoer, i underkant av to timer til sammen. Se dem i rekkefølge: først
-hva kontraktene er og hvordan gevinst og tap ser ut ved forfall, deretter
-hvordan posisjoner kombineres til strategier, og til slutt put-call-pariteten
-og prisingen. Til hver video hører en kort quiz. Oppgavene nederst regnes best
-når du har sett alt, og krever kalkulator.
+De seks videoene, i underkant av to timer til sammen, går fra det konkrete
+til det teoretiske: først hva kontraktene er og hvordan gevinst og tap ser ut
+ved forfall, deretter hvordan posisjoner kombineres til strategier, og til
+slutt put-call-pariteten og prisingen.
 
 ## Videoer
 

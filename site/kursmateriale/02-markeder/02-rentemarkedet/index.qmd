@@ -10,10 +10,10 @@ obligasjoner og sertifikater prises) via det grunnleggende spørsmålet om hva
 en rente egentlig er, til hvordan durasjon brukes til å måle og styre
 renterisiko.
 
-Seks videoer, omtrent 2 timer og 40 minutter til sammen. Se dem i rekkefølge;
-prisingsverktøyene fra video 2 brukes i alt som kommer etter, og de to siste
-videoene bygger direkte på hverandre. Til hver video hører en quiz. Oppgavene
-nederst regnes best når du har sett alt, og krever kalkulator.
+Dette er kursets største videomodul: seks videoer, omtrent 2 timer og 40
+minutter til sammen. Se dem i rekkefølge; prisingsverktøyene fra video 2
+brukes i alt som kommer etter, og de to siste videoene bygger direkte på
+hverandre.
 
 ## Videoer
 

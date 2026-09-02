@@ -10,11 +10,10 @@ Det reiser to spørsmål som bærer hele delen: hvordan kan et marked for slike
 løfter fungere uten at noen blir sittende med regningen når motparten svikter,
 og hva bestemmer prisen på å binde seg?
 
-Seks videoer, drøyt 100 minutter til sammen. De to første handler om hva
-terminhandel er og hvordan markedet er organisert; de tre neste om prising:
-lagringskostnadshypotesen, forventningshypotesen og volumbalansen; den siste
-om sikring i praksis. Til hver video hører en kort quiz. Oppgavene nederst
-regnes best når du har sett alt, og krever kalkulator.
+Stoffet er delt i seks videoer, drøyt 100 minutter til sammen: de to første
+om hva terminhandel er og hvordan markedet er organisert, de tre neste om
+prising (lagringskostnadshypotesen, forventningshypotesen og volumbalansen),
+og den siste om sikring i praksis.
 
 ## Videoer
 

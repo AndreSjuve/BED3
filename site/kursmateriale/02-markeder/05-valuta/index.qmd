@@ -10,13 +10,12 @@ landegrenser gjør at lønnsomheten avhenger av hvordan valutakursene utvikler
 seg. Spørsmålet blir hvilke krefter som styrer den utviklingen, og hvordan
 en analyse tar høyde for den.
 
-Tre videoer, drøyt 40 minutter til sammen. Den første rydder i begrepene:
-hvordan kurser noteres og leses, og hva spot- og forwardmarkedet er. Den andre
-er hovedbolken: fem paritetsbetingelser som knytter valutakurser til renter og
-inflasjon, med et gjennomregnet arbitrasjeeksempel. Den tredje henter fram
-verktøykassen fra investeringsanalysen og bruker den på utenlandsprosjekter og
-valutalån. Til hver video hører en kort quiz. Oppgavene nederst krever
-kalkulator.
+Modulen består av tre videoer, drøyt 40 minutter til sammen. Den første
+rydder i begrepene: hvordan kurser noteres og leses, og hva spot- og
+forwardmarkedet er. Den andre er hovedbolken: fem paritetsbetingelser som
+knytter valutakurser til renter og inflasjon, med et gjennomregnet
+arbitrasjeeksempel. Den tredje henter fram verktøykassen fra
+investeringsanalysen og bruker den på utenlandsprosjekter og valutalån.
 
 ## Videoer
 

@@ -10,12 +10,11 @@ kjøper litt mindre for hvert år? Nøkkelordet er konsistens: nominelle og
 reelle størrelser gir samme svar, men bare når teller og nevner snakker samme
 språk.
 
-Fire videoer, drøyt 40 minutter til sammen. De to første bygger verktøyet:
-begrepene og omregningsformelen, deretter et lite eksempelprosjekt der
-internrenter og effektive skattesatser beregnes både nominelt og reelt. Så
+Fire videoer på drøyt 40 minutter dekker stoffet. De to første bygger
+verktøyet: begrepene og omregningsformelen, deretter et lite eksempelprosjekt
+der internrenter og effektive skattesatser beregnes både nominelt og reelt. Så
 flyttes inflasjonen inn i EcoTime-caset fra del 2, før siste video samler alt
-i tre konsistenskrav. Til hver video hører en kort quiz. Oppgavene nederst
-krever kalkulator.
+i tre konsistenskrav.
 
 ## Videoer
 

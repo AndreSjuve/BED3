@@ -27,9 +27,6 @@ rente som hører hjemme i nevneren når kontantstrømmen er usikker.
 
 ## Sjekk forståelsen
 
-Fire spørsmål. Du får svaret med én gang, og du kan ta quizen om igjen så mange
-ganger du vil. Det siste spørsmålet krever kalkulator.
-
 ```{=html}
 <div class="quiz">
 <div class="quiz__q" data-answer="b">

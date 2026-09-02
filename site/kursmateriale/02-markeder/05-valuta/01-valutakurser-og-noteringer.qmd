@@ -31,9 +31,6 @@ mellom de to. Legg merke til at også det skifter fortegn med noteringsmåten.
 
 ## Sjekk forståelsen
 
-Tre spørsmål. Du får svaret med én gang, og du kan ta quizen om igjen så mange
-ganger du vil.
-
 ```{=html}
 <div class="quiz">
 <div class="quiz__q" data-answer="b">

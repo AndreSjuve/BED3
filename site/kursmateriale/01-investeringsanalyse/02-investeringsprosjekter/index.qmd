@@ -6,9 +6,8 @@ subtitle: "Beslutningsregler og lønnsomhetsmålinger for investeringsprosjekter
 Kapittelet handler om ett spørsmål: hvordan avgjør vi om et investeringsprosjekt
 er verdt å gjennomføre, og hvordan velger vi når vi ikke kan gjennomføre alle?
 
-Åtte videoer, omtrent 70 minutter til sammen. Se dem i rekkefølge; hver bygger
-på den forrige. Til hver video hører en kort quiz. Oppgavene nederst regnes best
-når du har sett alt, og krever kalkulator.
+Kapittelet består av åtte videoer, omtrent 70 minutter til sammen. Se dem i
+rekkefølge; hver bygger på den forrige.
 
 ## Videoer
 

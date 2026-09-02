@@ -32,9 +32,6 @@ fra terminmarkedet i forrige del, er det ingen tilfeldighet.
 
 ## Sjekk forståelsen
 
-Fem spørsmål. Du får svaret med én gang, og du kan ta quizen om igjen så mange
-ganger du vil. Det siste spørsmålet krever kalkulator.
-
 ```{=html}
 <div class="quiz">
 <div class="quiz__q" data-answer="b">
