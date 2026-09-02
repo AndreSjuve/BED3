@@ -1,0 +1,38 @@
+---
+title: "Introduksjon til investeringsanalyse"
+description: "Hva er investeringsanalyse?"
+---
+
+## Introduksjon
+
+Investeringsanalysemodulen starter her.
+
+I innledningen til investering og finans ble foretakets rolle diskutert. Kort oppsummert har foretaket ett overordnet mål. Å maksimere foretakets verdi. For å nå dette målet må foretaket ta tre sentrale beslutninger. Investeringsbeslutningen, finansieringsbeslutningen og utbyttebeslutningen. Investeringsanalyse handler om den første av disse. Hvilke prosjekter foretaket skal velge å investere i.
+
+## Hva er investeringsanalyse
+
+Investeringsanalyse dreier seg om realinvesteringer i prosjekter. Det kan være investeringer i maskiner, teknologi, nye produkter eller utvidelse av eksisterende virksomhet. Felles for slike prosjekter er at de krever en investering i dag, og forventes å generere kontantstrømmer i fremtiden.
+
+Beslutningsregelen er i seg selv enkel. **Aksepter gode prosjekter**. Et prosjekt er godt dersom det skaper verdi for foretaket. Mer presist betyr dette at prosjektets forventede avkastning er høyere enn det laveste akseptable avkastningskravet. Avkastningskravet skal reflektere risikoen i prosjektet og hvordan prosjektet finansieres gjennom egenkapital og gjeld.
+
+I praksis må avkastning måles gjennom diskonterte kontantstrømmer. Det er ikke prosjektets regnskapsmessige resultat som er avgjørende, men verdien av fremtidige kontantstrømmer vurdert i dag.
+
+## Hva må vi kunne for å ta investeringsbeslutninger
+
+Å avgjøre om et prosjekt er godt krever to ting. For det første må vi kunne si noe om prosjektets forventede kontantstrømmer. For det andre må vi kjenne det relevante avkastningskravet gitt prosjektets risiko og finansieringsstruktur.
+
+I denne modulen ligger hovedvekten på det første punktet. Hvordan beregne prosjektets forventede kontantstrømmer. Beregning av avkastningskrav og eksplisitt prising av risiko behandles i senere moduler om finansiering, kapitalstruktur og risiko.
+
+For å kunne analysere et prosjekts forventede avkastning må vi ha oversikt over tre forhold.
+
+1. Prosjektets kontantstrømmer.
+2. Tidshorisonten for kontantstrømmene.
+3. Risikoen knyttet til kontantstrømmene.
+
+I denne modulen håndteres risiko i hovedsak indirekte, gjennom sensitivitetsanalyser og scenarieanalyser.
+
+## Hvordan modulen er bygget opp
+
+Hoveddelen av modulen fokuserer på kontantstrømmene. Vi går gjennom hvordan kontantstrømmer beregnes, hvilke kontantstrømmer som er relevante, og hvilke som ikke er det. Videre ser vi på hvordan skatter og lån påvirker kontantstrømmene, hvordan inflasjon skal hensyntas, og hvordan analysen kan stresstestes ved hjelp av sensitivitetsanalyser og scenarieanalyser. Avslutningsvis ser vi på hvordan ulike låne og betalingsalternativer påvirker kontantstrømmene. Disse temaene dekkes i kapittel 3 til 6 i modulen.
+
+Kapittel 2, investeringsprosjekter, tar et annet utgangspunkt. Her antar vi at korrekte kontantstrømmer allerede er identifisert, og at et relevant avkastningskrav er fastsatt. Fokuset ligger på hvordan denne informasjonen brukes til å fatte en konkret investeringsbeslutning. Vi ser på metoder for å vurdere lønnsomhet, som nåverdimetoden, internrente, tilbakebetalingsmetoden og annuitetsmetoden. I tillegg diskuteres hvordan prosjekter kan rangeres når foretaket har begrensede ressurser.

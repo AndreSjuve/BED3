@@ -1,0 +1,30 @@
+---
+title: Finansielle markeder og kontrakter
+description: Moduloversikt, læringsmål, innholdsfortegnelse, og anbefalt progresjon.
+number-sections: false
+page-navigation: true
+#listing:
+#  contents: .
+#  type: default
+#  sort: asc
+#  sort-ui: false
+#  fields: [title, description]
+---
+
+## Læringsmål
+
+Når du mestrer denne modulen, skal du kunne:
+
+- Forklare hvordan finansielle markeder priser fremtidige kontantstrømmer gjennom renter, derivater og valuta.
+- Analysere obligasjoner og forstå sammenhengen mellom pris, rente, løpetid og rentekurven.
+- Tolke rentekurven og forklare hva den kan si om forventninger til økonomisk utvikling.
+- Forklare og beregne terminrenter og forstå sammenhengen mellom spotrenter og fremtidige renter.
+- Forstå hvordan termin- og futureskontrakter brukes til prising og sikring av fremtidige priser.
+- Forklare grunnleggende prinsipper for opsjonsprising og hvordan opsjoner brukes til å håndtere risiko.
+- Forstå sentrale sammenhenger i internasjonal finans, inkludert valutakurser og renteparitet.
+
+## Innhold og anbefalt progresjon
+- [1. Rentemarkedet](01-rentemarkedet)
+- [2. Opsjonskontrakter](02-opsjoner)
+- [3. Terminkontrakter](03-terminer)
+- [4. Internasjonal finans](04-valuta)

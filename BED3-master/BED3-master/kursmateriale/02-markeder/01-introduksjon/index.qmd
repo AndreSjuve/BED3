@@ -1,0 +1,28 @@
+---
+title: "Introduksjon til finansielle markeder og kontrakter"
+description: "Hvordan finansielle markeder priser tid, risiko og fremtidige kontantstrømmer"
+---
+
+## Oversikt - hvor er vi i kurset?
+
+Kurset har så langt analysert tre sentrale sider ved finansielle beslutninger.
+
+Først så vi på **investeringsanalyse**, altså hvordan foretak kan vurdere lønnsomheten av realinvesteringer ved hjelp av kontantstrømmer og nåverdi. Deretter studerte vi **finansielle investeringer**, hvor porteføljeteori og kapitalverdimodellen forklarer hvordan risiko og avkastning henger sammen i kapitalmarkedet. Videre analyserte vi **foretakets finansiering**, blant annet gjennom utbyttepolitikk og kapitalstruktur.
+
+I denne modulen flytter vi perspektivet fra foretakets beslutninger til **markedene hvor finansielle kontrakter omsettes**. Her studerer vi hvordan renter, derivater og valutamarkeder brukes til å prise fremtidige kontantstrømmer og håndtere finansiell risiko.
+
+## Finansielle markeder og kontrakter
+
+I finansielle markeder omsettes kontrakter som gir rett til fremtidige kontantstrømmer. Eksempler er obligasjoner, valutakontrakter og derivater som terminer og opsjoner.
+
+Prisene på disse kontraktene reflekterer markedets vurdering av renter, risiko og forventninger til fremtidig økonomisk utvikling. Samtidig gjør kontraktene det mulig for aktører å håndtere usikkerhet ved å flytte risiko mellom ulike parter.
+
+Denne modulen handler derfor om hvordan slike kontrakter fungerer, og hvordan de prises i finansielle markeder.
+
+## Hvordan modulen er bygget opp
+
+Modulen starter med rentemarkedet. Her analyserer vi obligasjoner, sammenhengen mellom pris og rente, teorier bak rentekurven, samt måling og styring av risiko i rentemarkedet.
+
+Deretter ser vi på opsjoner og terminkontrakter. Disse kontraktene gjør det mulig å avtale priser i fremtiden og brukes i stor grad til å håndtere finansiell risiko.
+
+Til slutt utvides perspektivet til internasjonal finans. Her analyserer vi valutamarkeder og sammenhenger mellom renter og valutakurser i en global økonomi.

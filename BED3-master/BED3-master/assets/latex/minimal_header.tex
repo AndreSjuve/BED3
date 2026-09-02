@@ -1,0 +1,37 @@
+% latex/minimal-header.tex
+\usepackage{amsmath, amssymb}
+\usepackage{lmodern}
+\usepackage{titlesec}
+
+\usepackage{longtable}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{caption}
+\usepackage{ltablex}  % longtable + tabularx
+\keepXColumns
+
+
+
+% Remove spacing around title
+\makeatletter
+\renewcommand{\maketitle}{%
+    \begin{center}
+    {\Large\bfseries \@title \par}
+    \vspace{0.5em}
+    \end{center}
+}
+\makeatother
+
+% Remove section spacing and numbering
+\titleformat{\section}[block]{\bfseries\large}{}{0pt}{}
+\titlespacing*{\section}{0pt}{1ex plus 0.2ex minus .2ex}{0.5ex plus .1ex}
+
+
+% Needed for rendering the formelark-print.qmd to PDF
+\newcommand{\blockheader}[1]{\noalign{\vskip 1.2ex}%
+\multicolumn{2}{@{}l@{}}{\normalsize\bfseries\large #1} \\
+\addlinespace}
+
+\renewcommand{\arraystretch}{1.3}
+\small

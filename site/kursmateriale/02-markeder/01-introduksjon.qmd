@@ -3,27 +3,55 @@ title: "Introduksjon"
 subtitle: "Oversikt over finansielle markeder og kontrakter"
 ---
 
-## Videoer
+## Hvor er vi i kurset?
 
-::: {.video}
-<div class="video__placeholder">
-  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
-  <span>Teorivideo — Introduksjon</span>
-</div>
-:::
+Kurset har så langt analysert tre sentrale sider ved finansielle beslutninger.
 
-::: {.video-meta}
-Ikke publisert ennå
-:::
+Først [investeringsanalyse](../01-investeringsanalyse/01-introduksjon.qmd) —
+hvordan foretak vurderer lønnsomheten av realinvesteringer ved hjelp av
+kontantstrømmer og nåverdi. Den modulen ligger her på siden. Deretter
+finansielle investeringer, der porteføljeteori og kapitalverdimodellen
+forklarer hvordan risiko og avkastning henger sammen i kapitalmarkedet, og
+videre foretakets finansiering, blant annet gjennom utbyttepolitikk og
+kapitalstruktur. Disse temaene er undervist i plenumsforelesningene, med
+materiell på Canvas.
 
-## Forelesningsplansjer
+I denne modulen flytter vi perspektivet fra foretakets beslutninger til
+**markedene hvor finansielle kontrakter omsettes**. Her studerer vi hvordan
+renter, derivater og valutamarkeder brukes til å prise fremtidige
+kontantstrømmer og håndtere finansiell risiko.
 
-- [BED3_F06_Markeder_introduksjon (PDF)](#)
+## Finansielle markeder og kontrakter
 
-## Oppgaver
+I finansielle markeder omsettes kontrakter som gir rett til fremtidige
+kontantstrømmer. Eksempler er obligasjoner, valutakontrakter og derivater som
+terminer og opsjoner.
 
-<p class="note">Oppgaver og løsningsforslag kommer.</p>
+Prisene på disse kontraktene reflekterer markedets vurdering av renter, risiko
+og forventninger til fremtidig økonomisk utvikling. Samtidig gjør kontraktene
+det mulig for aktører å håndtere usikkerhet ved å flytte risiko mellom ulike
+parter.
 
-## Sjekk forståelsen
+Denne modulen handler derfor om hvordan slike kontrakter fungerer, og hvordan
+de prises i finansielle markeder.
 
-<p class="note">Quiz kommer.</p>
+## Hvordan modulen er bygget opp
+
+Modulen består av fire deler, og de leses best i rekkefølge.
+
+Modulen starter med [Del 13, Rentemarkedet](02-rentemarkedet/index.qmd). Her
+analyserer vi obligasjoner, sammenhengen mellom pris og rente, teorier bak
+rentekurven, samt måling og styring av risiko i rentemarkedet.
+
+Deretter ser vi på derivatkontraktene:
+[Del 14, Opsjonskontrakter](03-opsjoner/index.qmd), og
+[Del 15, Terminkontrakter](04-terminer/index.qmd). Disse kontraktene gjør det
+mulig å avtale priser i fremtiden, og brukes i stor grad til å håndtere
+finansiell risiko.
+
+Til slutt utvides perspektivet til
+[Del 16, Internasjonal finans](05-valuta/index.qmd). Her analyserer vi
+valutamarkeder og sammenhenger mellom renter og valutakurser i en global
+økonomi.
+
+Begynn med [Del 13: Rentemarkedet](02-rentemarkedet/index.qmd).

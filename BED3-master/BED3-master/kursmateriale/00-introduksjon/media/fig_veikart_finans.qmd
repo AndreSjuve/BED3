@@ -1,0 +1,66 @@
+---
+published: false
+draft: true
+format:
+  pdf:
+    documentclass: standalone
+    keep-tex: true
+    include-in-header: ../../assets/latex/fig_preamble.tex
+---
+
+
+\begin{tikzpicture}
+    % Ramme og grunnposisjoner
+\begin{scope}[x=1cm,y=1cm]
+  % Hovednoder
+  \node[role, minimum width=4.5cm, minimum height=1.4cm, draw=exblue, ultra thick, fill=white] (investors) at (-6,0) {Investorer};
+  \node[role, minimum width=5.0cm, minimum height=1.6cm, draw=red!70, very thick, dashed, fill=white] (market) at (0,0) {\Large Kapitalmarked};
+  \node[role, minimum width=4.5cm, minimum height=1.4cm, draw=exblue, ultra thick, fill=white] (firms) at (6,0) {Foretak};
+
+  % Tokoblede piler mellom hovednoder
+  \draw[arrow] (investors) -- (market);
+  \draw[arrow] (market) -- (investors);
+  \draw[arrow] (firms) -- (market);
+  \draw[arrow] (market) -- (firms);
+
+  % Undertekster venstre og høyre
+  \node[align=center, text=exblue] (leftsub)  at (-6,-1.8) {Sparing og plassering\\(Forventet avkastning)};
+  \node[align=center, text=exblue] (rightsub) at ( 6,-1.8) {Realinvesteringer\\(Kapitalkostnad)};
+
+  % Prising under markedet
+  \node[align=center, text=red!70] (pricing) at (0,-1.6) {\it Prising\\(Verdsettelse)};
+
+  % Fagområder nederst
+  \node[rectangle, rounded corners=3pt, minimum width=6.0cm, minimum height=1.2cm, draw=exgreen, very thick, fill=white, align=center] (investments) at (-6,-4.0) {Finansmarkeder\\\small Investments};
+  \node[rectangle, rounded corners=3pt, minimum width=6.0cm, minimum height=1.2cm, draw=exgreen, very thick, fill=white, align=center] (corpfin)     at ( 6,-4.0) {Foretakets finansiering\\\small Corporate Finance};
+
+  % Piler fra undertekster ned til fagbokser
+  \draw[arrow] (leftsub)  -- (investments);
+  \draw[arrow] (rightsub) -- (corpfin);
+
+  % Piler opp til prising fra fagbokser
+  \draw[arrow] (investments.north) -- ++(0,0.6) -| (pricing.west);
+  \draw[arrow] (corpfin.north)     -- ++(0,0.6) -| (pricing.east);
+
+  % Fundament for faget nederst i midten
+\node[rectangle, rounded corners=3pt, draw=black!40, fill=exblue!20,
+      minimum width=12.8cm, text width=12cm, align=left, inner sep=8pt]
+      (foundation) at (0,-7.2)
+  {
+    \textbf{Byggesteiner i moderne finans:}\\[4pt]
+    \begin{multicols}{2}
+      -- Nytteteori og valg under usikkerhet\\
+      -- Tilstandsbetingede preferanser\\
+      -- Porteføljeteori\\
+      -- Kapitalverdimodellen \\
+      -- Arbitrasjeprising\\
+      -- Opsjonsteori\\
+      -- Miller--Modigliani om kapitalstruktur og utbytte
+    \end{multicols}
+  };
+
+  % Diskrete piler fra fundament til midt
+  \draw[arrow] (foundation.north) -- (pricing.south);
+\end{scope}
+
+\end{tikzpicture}

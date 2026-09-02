@@ -13,11 +13,13 @@ Kurset bygger på én idé: en krone i dag er ikke det samme som en krone om et 
 Alt annet — nåverdi, internrente, kapitalkostnad, opsjoner — er konsekvenser av
 den ene innsikten, satt i arbeid på stadig vanskeligere problemer.
 
-Undervisningen er delt i to deler. Første del handler om
-**investeringsanalyse**: hvordan vi verdsetter og rangerer realinvesteringer
-under usikkerhet, med skatt, lån og inflasjon som kompliserer bildet. Andre del
-handler om **finansielle markeder og kontrakter**: rentemarkedet, opsjoner,
-terminer og internasjonal finans.
+Denne siden dekker de delene av kurset som undervises asynkront med
+teorivideoer: **investeringsanalyse** — hvordan vi verdsetter og rangerer
+realinvesteringer, med skatt, lån og inflasjon som kompliserer bildet — og
+**finansielle markeder og kontrakter**: rentemarkedet, opsjoner, terminer og
+internasjonal finans. Kursets øvrige temaer, som porteføljeteori,
+kapitalverdimodellen, kapitalstruktur og bærekraftige investeringer, undervises
+av kollegaer i plenumsforelesninger — se [timeplanen](timeplan.qmd) og Canvas.
 
 Til hver modul hører teorivideoer du kan se når du vil, forelesningsplansjer,
 oppgaver med løsningsforslag, og korte quizer du kan bruke til å teste om du
@@ -45,7 +47,7 @@ dekker det samme stoffet, og er ment å ses før forelesning.</p>
 ::::
 :::::
 
-## Kursets to deler
+## Det du finner her
 
 ::::: {.two-col}
 :::: {.col}
@@ -76,13 +78,13 @@ hvor kapitalen kommer fra, hva den koster, og hvordan risiko prises.
 <div class="person__name">Frode Sættem</div>
 <div class="person__role">Professor · kursansvarlig</div>
 
-[frode.sattem@nhh.no](mailto:frode.sattem@nhh.no)
+[frode.saettem@nhh.no](mailto:frode.saettem@nhh.no)
 ::::
 
 :::: {.person}
 <img class="portrait" src="assets/people/andre-sjuve.jpg" alt="André Wattø Sjuve">
 <div class="person__name">André Wattø Sjuve</div>
-<div class="person__role">Førsteamanuensis · foreleser</div>
+<div class="person__role">Senior Researcher, Norges Bank Investment Management<br>Førsteamanuensis, NHH</div>
 
 [andre.sjuve@nhh.no](mailto:andre.sjuve@nhh.no)
 ::::

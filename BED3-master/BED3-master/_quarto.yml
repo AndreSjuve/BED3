@@ -1,0 +1,129 @@
+project:
+  type: website
+  output-dir: docs
+  #resources:
+  #  - assets/latex/fig_preamble.tex
+  render:
+    - "**/*.qmd"
+    - "!assets/formelark-print.qmd"
+    - "!fig_*.qmd"
+
+exclude:
+- "fig_*.qmd"
+
+metadata-files:
+  - _variables.yml
+
+website:
+  title: "BED3 – Investering og finans"
+  page-navigation: true
+
+
+  navbar:
+    logo: assets/images/nhh.png
+    search: true
+    right:
+      - text: "Om kurset"
+        icon: info-circle-fill
+        href: kursinformasjon.qmd
+     # - text: "Forelesningsplan"
+     #   icon: calendar-fill
+     #   href: forelesningsplan.qmd
+      - text: "Formelark"
+        icon: calculator
+        href: formelark.qmd
+      - text: "Kursinnhold"
+        icon: journal-richtext
+        href: kursinnhold.qmd
+      #- text: "Øving og vurdering"
+      #  icon: file-earmark-text
+      #  href: oving_vurdering.qmd
+
+  # Sidebar for hub sider. Ikke for modul sider.
+
+  sidebar:
+    - id: id-innhold
+      title: "Kursinnhold"
+      style: docked
+      contents:
+        - section: "Introduksjon til kursinnholdet"
+          collapse: false
+          contents:
+            - text: "Forord"
+              href: kursmateriale/00-introduksjon/0-forord.qmd
+            - text: "Kursets plassering i økonomi"
+              href: kursmateriale/00-introduksjon/0-intro.qmd
+            - text: "Innledning til investering og finans"
+              href: kursmateriale/00-introduksjon/0-intro_finans.qmd
+        - section: "Moduler"
+          collapse: false
+          contents:
+            - section: "Investeringsanalyse"
+              href: kursmateriale/01-investeringsanalyse/index.qmd
+              collapse: true
+              contents:
+                - text: "1. Introduksjon"
+                  href: kursmateriale/01-investeringsanalyse/01-introduksjon/index.qmd
+                - text: "2. Investeringsprosjekter"
+                  href: kursmateriale/01-investeringsanalyse/02-investeringsprosjekter/index.qmd
+                - text: "3. Effekter av skatt og lån"
+                  href: kursmateriale/01-investeringsanalyse/03-skatt-og-laan/index.qmd
+                - text: "4. Effekter av inflasjon"
+                  href: kursmateriale/01-investeringsanalyse/04-inflasjon/index.qmd
+                - text: "5. Risikovurderinger"
+                  href: kursmateriale/01-investeringsanalyse/05-risikovurderinger/index.qmd
+                - text: "6. Låne- og betalingsalternativer"
+                  href: kursmateriale/01-investeringsanalyse/06-laane-og-betalingsalternativer/index.qmd
+            - section: "Finansielle markeder og kontrakter"
+              href: kursmateriale/02-markeder/index.qmd
+              collapse: true
+              contents:
+                - text: "Introduksjon"
+                  href: kursmateriale/02-markeder/01-introduksjon/index.qmd
+                - text: "13. Rentemarkedet"
+                  href: kursmateriale/02-markeder/02-rentemarkedet/index.qmd
+                - text: "14. Opsjonskontrakter"
+                  href: kursmateriale/02-markeder/03-opsjoner/index.qmd
+                - text: "15. Terminkontrakter"
+                  href: kursmateriale/02-markeder/04-terminer/index.qmd
+                - text: "16. Internasjonal finans"
+                  href: kursmateriale/02-markeder/05-valuta/index.qmd
+
+
+
+    - id: id-oving
+      title: "Øvingsmateriale"
+      style: docked
+      contents:
+        - section: "Øvingsoppgaver"
+          contents:
+            - text: "Gruppeøving 1"
+              href: gruppeovinger/gruppeoving-1.qmd
+            - text: "Gruppeøving 2"
+              href: gruppeovinger/gruppeoving-2.qmd
+        - section: "Caseinnlevering"
+          contents:
+            - text: "Om innleveringen"
+              href: oblig_innlevering/1-info.qmd
+
+  page-footer:
+    border: false
+    center: >-
+       &#169; 2025-2026 André Wattø Sjuve  <br> <i class='far fa-calendar-alt'></i> {{< var weekday1 >}} - <i class='far fa-clock'></i> {{< var time1 >}} | <i class='far fa-calendar-alt'></i> {{< var weekday2 >}} - <i class='far fa-clock'></i> {{< var time2 >}}  <br><i class='fa fa-map-marker-alt'></i> {{< var room >}}</a>
+
+format:
+  html:
+    theme:
+      light:
+        - flatly
+        - assets/styles/custom.scss
+    toc: false
+    page-layout: full
+    number-sections: true
+    include-in-header: "_includes/header.html"
+
+execute:
+  freeze: auto
+  echo: false
+  warning: false
+  message: false

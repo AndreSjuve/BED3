@@ -3,6 +3,18 @@ title: "Kursinnhold"
 subtitle: "Teorivideoene dekker pensum modul for modul. Til hver forelesning hører plansjer, oppgaver med løsningsforslag og en kort quiz."
 ---
 
+Økonomi springer ut av knapphet: vi ønsker oss alltid mer enn vi kan få. BED3
+handler om hvordan den knappe ressursen kapital brukes og prises — hvordan
+foretak velger prosjekter som skaper verdi, hvordan markedene kanaliserer
+sparing dit den kaster mest av seg, og hvordan finansielle kontrakter flytter
+risiko mellom parter.
+
+Modulene på denne siden er de asynkrone videodelene av kurset:
+investeringsanalyse og finansielle markeder og kontrakter. Nummereringen
+følger kursets samlede modulrekke — delene imellom, fra porteføljeteori til
+bærekraftige investeringer, undervises i plenumsforelesningene, med materiell
+på Canvas.
+
 <p class="note">Se videoen før forelesningen. Forelesningen brukes til det
 videoen ikke kan gjøre: spørsmål, regning i fellesskap, og de tilfellene der
 teorien ikke gir ett entydig svar.</p>

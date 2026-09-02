@@ -6,21 +6,26 @@ subtitle: "Hva du skal kunne når kurset er ferdig, hvordan undervisningen er la
 ::::: {.aside-col}
 :::: {.col}
 
-## Læringsmål
+## Læringsutbytte
 
-Etter fullført kurs skal du kunne:
+Kurset gir innsikt i foretakets investerings- og finansieringsbeslutninger og i
+hvordan kapitalmarkedene fungerer. Etter fullført kurs skal du ha:
 
-- Regne om kontantstrømmer mellom tidspunkter, og forklare hvorfor tidsverdien
-  av penger er utgangspunktet for all investeringsanalyse.
-- Beregne nåverdi og internrente for et prosjekt, og vurdere når de to
-  kriteriene gir ulike anbefalinger.
-- Behandle skatt, lån og inflasjon riktig i en kontantstrømsanalyse.
-- Vurdere risiko i et investeringsprosjekt, og forklare hva usikkerheten gjør
-  med beslutningen.
-- Sammenligne låne- og betalingsalternativer, og regne på annuitetslån og
-  serielån.
-- Forklare hvordan renter, obligasjoner, opsjoner og terminkontrakter prises,
-  og hvordan valutakurser henger sammen med rentenivået.
+- **Kunnskap** om investerings- og finansieringsbeslutninger, hvordan
+  kapitalmarkedene fungerer, prising og risikoegenskaper ved verdipapirer,
+  konsekvensene av å finansiere med gjeld kontra egenkapital, og hvordan
+  valutamarkedene virker — samt forståelse av bærekraftige investeringer,
+  ESG-vurderinger og etiske problemstillinger i faget.
+- **Ferdigheter** i å anvende teoriene på konkrete investerings- og
+  finansieringsproblemer: beregne lønnsomhet, avkastning og risiko, vurdere
+  foretakets kapitalstruktur, håndtere risiko med derivater, og gjøre
+  lønnsomhetsberegninger for internasjonale investeringer.
+- **Generell kompetanse** til å kommunisere om finansielle spørsmål, bruke
+  innsikten på praktiske problemstillinger, og utveksle synspunkter og
+  erfaringer med andre med fagbakgrunn.
+
+Anbefalte forkunnskaper er BED1 Grunnleggende bedriftsøkonomi, BED2
+Finansregnskap, MET1 Matematikk for økonomer og MET2 Statistikk for økonomer.
 
 ::::
 :::: {.col}
@@ -31,36 +36,50 @@ Etter fullført kurs skal du kunne:
 
 <dl class="glossary">
   <dt class="tnum">7,5</dt><dd>studiepoeng</dd>
-  <dt class="tnum">4</dt><dd>timer forelesning i uken</dd>
-  <dt class="tnum">11</dt><dd>moduler</dd>
+  <dt class="tnum">4</dt><dd>timers skriftlig skoleeksamen</dd>
+  <dt class="tnum">100 %</dt><dd>av karakteren settes på eksamen</dd>
+  <dt class="tnum">5</dt><dd>gruppeøvinger</dd>
+  <dt class="tnum">3</dt><dd>maks gruppestørrelse i caset</dd>
 </dl>
 
 <hr class="rule--tight" />
 
-<p class="note">Tallene er plassholdere i denne designskissen.</p>
+<p class="note">Kurset går i vårsemesteret og undervises på norsk.
+Karakterskala A–F.</p>
 
 ::::
 :::::
 
 ## Arbeidsform
 
+Undervisningen kombinerer plenumsforelesninger med asynkrone videomoduler, og
+suppleres av fem gruppeøvinger, én obligatorisk caseinnlevering, én frivillig
+oppgaveinnlevering og en orakeltjeneste mot slutten av semesteret.
+
+Denne nettsiden dekker de asynkrone videomodulene — investeringsanalyse og
+finansielle markeder og kontrakter, som undervises av André Wattø Sjuve. De
+øvrige temaene i kurset — porteføljeteori, kapitalverdimodellen,
+kapitalstruktur, utbyttepolitikk, markedseffisiens og bærekraftige
+investeringer — undervises i plenumsforelesningene, med materiell på Canvas.
+
 ::::: {.two-col}
 :::: {.col}
-### Før forelesning
-Se teorivideoen for modulen og ta quizen som hører til. Videoen introduserer
-begrepene; quizen viser deg hva du ikke fikk med deg.
+### Videomodulene
+Se videoene i det tempoet [timeplanen](timeplan.qmd) legger opp til, og ta
+quizene som hører til. Videoene introduserer begrepene; quizene viser deg hva
+du ikke fikk med deg.
 ::::
 
 :::: {.col}
-### På forelesning
-Vi regner sammen, diskuterer forutsetningene bak modellene, og går gjennom
-spørsmål fra quizene. Forelesningene tas ikke opp.
+### Plenumsforelesningene
+Brukes til introduksjon, oppsummering, spørsmål og regning i fellesskap — og
+til temaene som ikke ligger som videomoduler. Forelesningene tas ikke opp.
 ::::
 
 :::: {.col}
-### Etter forelesning
-Oppgavesettene er der læringen faktisk skjer. Løsningsforslag ligger på hver
-modulside, men bruk dem etter forsøket, ikke i stedet for det.
+### Gruppeøvingene
+Fem gruppeøvinger gjennom semesteret er der læringen faktisk skjer. Detaljert
+informasjon om øvingene finnes på Canvas.
 ::::
 
 :::: {.col}
@@ -72,16 +91,19 @@ eksamen enklere enn å møte det for første gang i lesetiden.
 
 ## Vurdering
 
-Kurset avsluttes med en skriftlig skoleeksamen. Formelarket deles ut på eksamen,
-og kalkulator er tillatt etter skolens vanlige regler.
+Kurset avsluttes med en fire timers individuell skriftlig skoleeksamen (penn
+og papir), onsdag 20. mai kl. 09.00–13.00. Eksamen teller 100 % av karakteren,
+og karakterskalaen er A–F. Tillatte hjelpemidler er kalkulator og én tospråklig
+ordbok. Formelarket deles ut på eksamen.
 
 Kursgodkjenning krever godkjent obligatorisk caseinnlevering, levert i gruppe
-med maksimalt tre studenter. Oppgavesettene ellers er frivillige og teller ikke
-på karakteren. De er likevel den beste forberedelsen som finnes, fordi
-eksamensoppgavene ligner på dem.
+med maksimalt tre studenter — frist mandag 23. februar, se
+[timeplanen](timeplan.qmd). Den frivillige oppgaveinnleveringen og
+oppgavesettene ellers teller ikke på karakteren. De er likevel den beste
+forberedelsen som finnes, fordi eksamensoppgavene ligner på dem.
 
-<p class="note">Endelige vurderingsformer følger av kursbeskrivelsen i
-studiehåndboken.</p>
+<p class="note">Fullstendig emnebeskrivelse finnes på
+<a href="https://www.nhh.no/emner/investering-og-finans/">nhh.no</a>.</p>
 
 ## Pensum
 
@@ -99,7 +121,8 @@ Faglige spørsmål tas helst på forelesning, slik at flere får svaret. For alt
 annet, send e-post til den av oss det gjelder:
 
 <dl class="glossary">
-  <dt style="min-width:14rem">Frode Sættem</dt><dd><a href="mailto:frode.sattem@nhh.no">frode.sattem@nhh.no</a> · kursansvarlig</dd>
-  <dt style="min-width:14rem">André Wattø Sjuve</dt><dd><a href="mailto:andre.sjuve@nhh.no">andre.sjuve@nhh.no</a> · foreleser</dd>
-  <dt style="min-width:14rem">Andreas Ørpetveit</dt><dd><a href="mailto:andreas.orpetveit@nhh.no">andreas.orpetveit@nhh.no</a> · foreleser</dd>
+  <dt style="min-width:14rem">Frode Sættem</dt><dd><a href="mailto:frode.saettem@nhh.no">frode.saettem@nhh.no</a> · kursansvarlig</dd>
+  <dt style="min-width:14rem">André Wattø Sjuve</dt><dd><a href="mailto:andre.sjuve@nhh.no">andre.sjuve@nhh.no</a> · kursansvarlig, videomodulene</dd>
+  <dt style="min-width:14rem">Andreas Ørpetveit</dt><dd><a href="mailto:andreas.orpetveit@nhh.no">andreas.orpetveit@nhh.no</a> · kursansvarlig</dd>
+  <dt style="min-width:14rem">Torun Fretheim</dt><dd>foreleser, bærekraftige investeringer (NMBU)</dd>
 </dl>

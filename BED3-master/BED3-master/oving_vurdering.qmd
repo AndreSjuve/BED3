@@ -1,0 +1,5 @@
+---
+title: "Øvinger og vurderinger"
+page-layout: article
+#sidebar: id-oving
+---

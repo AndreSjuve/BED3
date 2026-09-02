@@ -285,7 +285,7 @@ innleveringene. Detaljert informasjon om gruppeøvingene finnes på Canvas.</p>
       <td role="cell">Professor</td>
       <td role="cell" data-label="Kontor"><span class="week">C523</span></td>
       <td role="cell" data-label="Telefon"><span class="week">55 95 92 72</span></td>
-      <td role="cell"><a href="mailto:frode.sattem@nhh.no">frode.sattem@nhh.no</a></td>
+      <td role="cell"><a href="mailto:frode.saettem@nhh.no">frode.saettem@nhh.no</a></td>
     </tr>
     <tr role="row">
       <th scope="row" role="rowheader">André Wattø Sjuve <span class="meta">(AWS)</span></th>

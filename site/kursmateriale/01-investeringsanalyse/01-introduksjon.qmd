@@ -3,27 +3,76 @@ title: "Introduksjon"
 subtitle: "Hva investeringsanalyse er, og hvilke spørsmål den skal svare på"
 ---
 
-## Videoer
+Investeringsanalysemodulen starter her.
 
-::: {.video}
-<div class="video__placeholder">
-  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
-  <span>Teorivideo — Introduksjon</span>
-</div>
-:::
+Utgangspunktet for hele kurset er at foretaket har ett overordnet mål: å
+maksimere foretakets verdi. For å nå dette målet må foretaket ta tre sentrale
+beslutninger — investeringsbeslutningen, finansieringsbeslutningen og
+utbyttebeslutningen. Investeringsanalyse handler om den første av disse:
+hvilke prosjekter foretaket skal velge å investere i.
 
-::: {.video-meta}
-Ikke publisert ennå
-:::
+## Hva er investeringsanalyse
 
-## Forelesningsplansjer
+Investeringsanalyse dreier seg om realinvesteringer i prosjekter. Det kan være
+investeringer i maskiner, teknologi, nye produkter eller utvidelse av
+eksisterende virksomhet. Felles for slike prosjekter er at de krever en
+investering i dag, og forventes å generere kontantstrømmer i fremtiden.
 
-- [BED3_F00_Introduksjon (PDF)](#)
+Beslutningsregelen er i seg selv enkel: **aksepter gode prosjekter**. Et
+prosjekt er godt dersom det skaper verdi for foretaket. Mer presist betyr
+dette at prosjektets forventede avkastning er høyere enn det laveste
+akseptable avkastningskravet. Avkastningskravet skal reflektere risikoen i
+prosjektet og hvordan prosjektet finansieres gjennom egenkapital og gjeld.
 
-## Oppgaver
+I praksis må avkastning måles gjennom diskonterte kontantstrømmer. Det er ikke
+prosjektets regnskapsmessige resultat som er avgjørende, men verdien av
+fremtidige kontantstrømmer vurdert i dag.
 
-<p class="note">Oppgaver og løsningsforslag kommer.</p>
+## Hva må vi kunne for å ta investeringsbeslutninger
 
-## Sjekk forståelsen
+Å avgjøre om et prosjekt er godt krever to ting. For det første må vi kunne si
+noe om prosjektets forventede kontantstrømmer. For det andre må vi kjenne det
+relevante avkastningskravet gitt prosjektets risiko og finansieringsstruktur.
 
-<p class="note">Quiz kommer.</p>
+I denne modulen ligger hovedvekten på det første punktet: hvordan beregne
+prosjektets forventede kontantstrømmer. Beregning av avkastningskrav og
+eksplisitt prising av risiko behandles senere i kurset, i forelesningene om
+porteføljeteori, kapitalverdimodellen og kapitalstruktur.
+
+For å kunne analysere et prosjekts forventede avkastning må vi ha oversikt
+over tre forhold:
+
+1. Prosjektets kontantstrømmer.
+2. Tidshorisonten for kontantstrømmene.
+3. Risikoen knyttet til kontantstrømmene.
+
+I denne modulen håndteres risiko i hovedsak indirekte, gjennom
+sensitivitetsanalyser og scenarioanalyser.
+
+## Hvordan modulen er bygget opp
+
+Modulen består av fem deler, og de leses best i rekkefølge.
+
+[Del 1, Investeringsprosjekter](02-investeringsprosjekter/index.qmd), tar et
+særegent utgangspunkt: der antar vi at korrekte kontantstrømmer allerede er
+identifisert, og at et relevant avkastningskrav er fastsatt. Fokuset ligger på
+hvordan denne informasjonen brukes til å fatte en konkret
+investeringsbeslutning. Vi ser på metoder for å vurdere lønnsomhet — som
+nåverdimetoden og internrentemetoden, med tilbakebetalingsmetoden og
+annuitetsmetoden som supplement — og diskuterer hvordan prosjekter kan
+rangeres når foretaket har begrensede ressurser.
+
+Resten av modulen fokuserer på kontantstrømmene: hvordan de beregnes, hvilke
+som er relevante, og hvilke som ikke er det.
+[Del 2, Effekter av skatt og lån](03-skatt-og-laan/index.qmd), viser hvordan
+skatter og lånefinansiering påvirker kontantstrømmene.
+[Del 3, Effekter av inflasjon](04-inflasjon/index.qmd), viser hvordan
+prisstigning skal hensyntas, og hvorfor nominelle og reelle størrelser ikke må
+blandes. [Del 4, Risikovurderinger](05-risikovurderinger/index.qmd), viser
+hvordan analysen kan stresstestes ved hjelp av sensitivitetsanalyser og
+scenarioanalyser. Avslutningsvis ser
+[Del 5, Låne- og betalingsalternativer](06-laane-og-betalingsalternativer/index.qmd),
+på hvordan ulike låne- og betalingsalternativer sammenlignes med de samme
+verktøyene.
+
+Begynn med [Del 1: Investeringsprosjekter](02-investeringsprosjekter/index.qmd).
