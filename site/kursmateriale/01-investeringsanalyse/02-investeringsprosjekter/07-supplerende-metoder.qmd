@@ -30,8 +30,8 @@ erstatter netto nåverdi; de utfyller den.
 ::::: {.corrections}
 **Rettelser.** Kjente feil i opptaket, med riktig verdi:
 
-- **09:07** — Netto nåverdi for prosjekt A oppgis som «130 000». Riktig verdi
-  er 120 000, som i video 6 — nåverdiindeksen 0,106 (= 120 000/1 130 000)
+- **09:07**: Netto nåverdi for prosjekt A oppgis som «130 000». Riktig verdi
+  er 120 000, som i video 6; nåverdiindeksen 0,106 (= 120 000/1 130 000)
   bekrefter det.
 :::::
 
@@ -54,21 +54,21 @@ ganger du vil.
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Fordi annuitetsmetoden også legger til renter på investeringsbeløpet</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Fordi 250 000 er oppgitt før skatt</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Fordi annuitetsfaktoren tar hensyn til at beløpene kommer på ulike tidspunkt</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Å dele på fire behandler en krone om fire år som om den var like mye verdt som en krone neste år. Annuitetsfaktoren gjør ikke det: den fordeler nåverdien på fire beløp som, diskontert tilbake, akkurat summerer seg til 250 000. Derfor blir hvert årlig beløp større enn det naive gjennomsnittet — 250 000 delt på annuitetsfaktoren 3,312 gir 75 481.</p>
+<p class="quiz__feedback" hidden>Å dele på fire behandler en krone om fire år som om den var like mye verdt som en krone neste år. Annuitetsfaktoren gjør ikke det: den fordeler nåverdien på fire beløp som, diskontert tilbake, akkurat summerer seg til 250 000. Derfor blir hvert årlig beløp større enn det naive gjennomsnittet: 250 000 delt på annuitetsfaktoren 3,312 gir 75 481.</p>
 </div>
 <div class="quiz__q" data-answer="b">
 <p class="quiz__prompt">2. Når er nåverdiindeksen særlig nyttig?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Når vi skal avgjøre om ett enkelt prosjekt er lønnsomt</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Når kapitalen er begrenset og flere gode prosjekter må prioriteres</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Når kontantstrømmene skifter fortegn underveis</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Skal du bare avgjøre ett prosjekt, sier nåverdiindeksen nøyaktig det samme som netto nåverdi — er den ene positiv, er den andre det også. Verdien ligger i rangeringen: ved å dele på investeringsutgiften fjerner indeksen skalaforskjeller og forteller hvor mye verdi hver knappe krone gir.</p>
+<p class="quiz__feedback" hidden>Skal du bare avgjøre ett prosjekt, sier nåverdiindeksen nøyaktig det samme som netto nåverdi: er den ene positiv, er den andre det også. Verdien ligger i rangeringen: ved å dele på investeringsutgiften fjerner indeksen skalaforskjeller og forteller hvor mye verdi hver knappe krone gir.</p>
 </div>
 <div class="quiz__q" data-answer="a">
 <p class="quiz__prompt">3. Et prosjekt har netto nåverdi 96 000 kroner og krever en investering på 600 000 kroner. Hva er nåverdiindeksen slik forelesningen definerer den?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>0,16</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>1,16</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>6,25</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>NVI = NNV/I<sub>0</sub> = 96 000/600 000 = 0,16, altså 16 øre skapt verdi per investerte krone. Alternativ B er ikke tilfeldig: det er lærebokens indeks, nåverdien av innbetalingene (696 000) delt på investeringen. De to skiller seg alltid med nøyaktig 1 og rangerer prosjekter likt — men grensen for lønnsomhet er 0 i den ene og 1 i den andre, så du må vite hvilken du bruker. Alternativ C snur brøken.</p>
+<p class="quiz__feedback" hidden>NVI = NNV/I<sub>0</sub> = 96 000/600 000 = 0,16, altså 16 øre skapt verdi per investerte krone. Alternativ B er ikke tilfeldig: det er lærebokens indeks, nåverdien av innbetalingene (696 000) delt på investeringen. De to skiller seg alltid med nøyaktig 1 og rangerer prosjekter likt, men grensen for lønnsomhet er 0 i den ene og 1 i den andre, så du må vite hvilken du bruker. Alternativ C snur brøken.</p>
 </div>
 <p class="quiz__score" role="status" aria-live="polite"></p>
 </div>

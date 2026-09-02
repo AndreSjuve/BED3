@@ -1,6 +1,6 @@
 ---
 title: "Put-call-pariteten"
-subtitle: "Sammenhengen mellom call, put, aksje og lån — og arbitrasjen bak"
+subtitle: "Sammenhengen mellom call, put, aksje og lån, og arbitrasjen bak"
 ---
 
 ## Før du ser videoen
@@ -54,7 +54,7 @@ mange ganger du vil. Det siste spørsmålet krever kalkulator.
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Kjøpe kjøpsopsjonen og håpe på kursoppgang før forfall</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Selge både kjøpsopsjonen og den syntetiske varianten og beholde begge premiene</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Selge kjøpsopsjonen og kjøpe den syntetiske: netto kontantstrøm i dag blir lik feilprisingen, og null ved forfall uansett utfall</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Prinsippet er å selge det som er dyrt og kjøpe det som er billig: selg callen, og kjøp samme eksponering billigere som aksje pluss put finansiert med lån. Posisjonene kansellerer ved forfall i begge tilstander, så overskuddet i dag (nøyaktig lik feilprisingen) er risikofritt og selvfinansierende. A er spekulasjon i noe du mener er <em>over</em>priset, med full risiko. B selger to like eksponeringer i stedet for å motsvare dem — da står du med dobbel plikt hvis kursen stiger.</p>
+<p class="quiz__feedback" hidden>Prinsippet er å selge det som er dyrt og kjøpe det som er billig: selg callen, og kjøp samme eksponering billigere som aksje pluss put finansiert med lån. Posisjonene kansellerer ved forfall i begge tilstander, så overskuddet i dag (nøyaktig lik feilprisingen) er risikofritt og selvfinansierende. A er spekulasjon i noe du mener er <em>over</em>priset, med full risiko. B selger to like eksponeringer i stedet for å motsvare dem. Da står du med dobbel plikt hvis kursen stiger.</p>
 </div>
 <div class="quiz__q" data-answer="b">
 <p class="quiz__prompt">4. En aksje handles for 90 kroner. En europeisk salgsopsjon med kontraktspris 88 og ett år til forfall koster 3,50 kroner, og risikofri rente er 10 prosent. Hva må kjøpsopsjonen med samme kontraktspris og forfall koste for at put-call-pariteten skal holde?</p>

@@ -10,7 +10,7 @@ alt annet i økonomi, og denne videoen handler derfor egentlig om
 følsomhetsanalyse: hva skjer med lønnsomheten når kravet endrer seg?
 
 Nåverdiprofilen er kurven som viser den sammenhengen, og den gir to ting nesten
-gratis. Et begrep fra forrige video kan leses rett av figuren — se om du finner
+gratis. Et begrep fra forrige video kan leses rett av figuren; se om du finner
 det. Og setter du to prosjekter i samme diagram, ser du hvor rangeringen mellom
 dem snur; det er hovedpoenget. Videoen regner gjennom et slikt par og viser hvor
 mye slingringsmonn anslaget ditt på avkastningskravet faktisk har.
@@ -38,7 +38,7 @@ ganger du vil. Det siste spørsmålet krever kalkulator.
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Fordi investeringsutgiften blir høyere</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Fordi diskonteringsfaktoren blir mindre, så framtidige kontantstrømmer veksles til en dårligere kurs</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Fordi de framtidige kontantstrømmene blir mindre</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Verken investeringen eller kontantstrømmene endrer seg — de er de samme tallene hele veien. Det som endrer seg er kursen vi veksler dem med: 1/1,1 er et større tall enn 1/1,2, så samme beløp er mindre verdt i dag når kravet er høyere.</p>
+<p class="quiz__feedback" hidden>Verken investeringen eller kontantstrømmene endrer seg; de er de samme tallene hele veien. Det som endrer seg er kursen vi veksler dem med: 1/1,1 er et større tall enn 1/1,2, så samme beløp er mindre verdt i dag når kravet er høyere.</p>
 </div>
 <div class="quiz__q" data-answer="c">
 <p class="quiz__prompt">2. Hva finner du i punktet der nåverdiprofilen krysser <em>x</em>-aksen?</p>
@@ -52,14 +52,14 @@ ganger du vil. Det siste spørsmålet krever kalkulator.
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>C, fordi kravet ligger under krysningspunktet</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>D, fordi D har høyest internrente</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>De er like gode, siden begge har positiv netto nåverdi</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Her ser du hvorfor internrenten alene ikke holder. D har høyest internrente — men internrenten avhenger ikke av avkastningskravet, mens rangeringen etter netto nåverdi gjør det, og den snur i krysningspunktet. Under 11 % ligger C-kurven øverst, og kravet er 6 %. Hadde kravet vært 15 %, ville D vunnet, og da hadde internrenten tilfeldigvis gitt riktig svar. At begge er positive avgjør bare om de er verdt å gjøre, ikke hvilket vi velger når vi må velge ett.</p>
+<p class="quiz__feedback" hidden>Her ser du hvorfor internrenten alene ikke holder. D har høyest internrente, men internrenten avhenger ikke av avkastningskravet, mens rangeringen etter netto nåverdi gjør det, og den snur i krysningspunktet. Under 11 % ligger C-kurven øverst, og kravet er 6 %. Hadde kravet vært 15 %, ville D vunnet, og da hadde internrenten tilfeldigvis gitt riktig svar. At begge er positive avgjør bare om de er verdt å gjøre, ikke hvilket vi velger når vi må velge ett.</p>
 </div>
 <div class="quiz__q" data-answer="b">
 <p class="quiz__prompt">4. Et prosjekt krever 1 000 000 kroner i dag og gir 1 160 000 kroner om ett år. Hvor ligger netto nåverdi ved et avkastningskrav på 6 %, og hvor krysser profilen x-aksen?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>NNV ≈ 160 000 kroner, og profilen krysser ved 16 %</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>NNV ≈ 94 000 kroner, og profilen krysser ved 16 %</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>NNV ≈ 94 000 kroner, og profilen krysser ved 6 %</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>NNV = 1 160 000/1,06 − 1 000 000 = 94 340 kroner. Profilen krysser x-aksen der NNV er null, altså ved internrenten: 1 160 000/1 000 000 = 1,16, så 16 %. Alternativ A glemmer å diskontere og trekker bare 1 000 000 fra 1 160 000 — det er verdien ved 0 %, ytterst til venstre i figuren. Alternativ C forveksler avkastningskravet med internrenten; ved 6 % er nåverdien positiv, så kurven har ikke krysset ennå.</p>
+<p class="quiz__feedback" hidden>NNV = 1 160 000/1,06 − 1 000 000 = 94 340 kroner. Profilen krysser x-aksen der NNV er null, altså ved internrenten: 1 160 000/1 000 000 = 1,16, så 16 %. Alternativ A glemmer å diskontere og trekker bare 1 000 000 fra 1 160 000; det er verdien ved 0 %, ytterst til venstre i figuren. Alternativ C forveksler avkastningskravet med internrenten; ved 6 % er nåverdien positiv, så kurven har ikke krysset ennå.</p>
 </div>
 <p class="quiz__score" role="status" aria-live="polite"></p>
 </div>

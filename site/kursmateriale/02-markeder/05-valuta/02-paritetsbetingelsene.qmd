@@ -1,6 +1,6 @@
 ---
 title: "Paritetsbetingelsene"
-subtitle: "Fem sammenhenger mellom valutakurser, renter og inflasjon — og en arbitrasjetest"
+subtitle: "Fem sammenhenger mellom valutakurser, renter og inflasjon, og en arbitrasjetest"
 ---
 
 ## Før du ser videoen
@@ -13,7 +13,7 @@ hver betingelse skal «holde», og hvilke av dem virkeligheten faktisk
 respekterer.
 
 Videoens tyngdepunkt er et gjennomregnet eksempel: gitt spotkurs og renter i
-to land, hva må forwardkursen være — og hva gjør du hvis markedet tilbyr noe
+to land, hva må forwardkursen være, og hva gjør du hvis markedet tilbyr noe
 annet? Følg strategien nøye, steg for steg: hva lånes, hva veksles, hva
 selges, og hvorfor blir resultatet risikofritt? Kjenner du igjen argumentet
 fra terminmarkedet i forrige del, er det ingen tilfeldighet.

@@ -37,21 +37,21 @@ ganger du vil.
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>At omsetningen øker</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>At regnskapsmessig resultat blir høyest mulig det første året</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>At dagens verdi av foretaket øker, sett fra eiernes side</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Omsetning og årsresultat er regnskapsstørrelser som lett kan gå opp uten at eierne blir rikere — et prosjekt kan doble omsetningen og likevel ødelegge verdi. Verdiskaping måles i dagens verdi av alle framtidige kontantstrømmer til eierne, sett under ett over hele levetiden.</p>
+<p class="quiz__feedback" hidden>Omsetning og årsresultat er regnskapsstørrelser som lett kan gå opp uten at eierne blir rikere; et prosjekt kan doble omsetningen og likevel ødelegge verdi. Verdiskaping måles i dagens verdi av alle framtidige kontantstrømmer til eierne, sett under ett over hele levetiden.</p>
 </div>
 <div class="quiz__q" data-answer="b">
 <p class="quiz__prompt">2. Hvilket av de tre kriteriene gir alltid riktig svar på om et prosjekt bør aksepteres?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Internrenten, fordi den uttrykker avkastningen i prosent</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Netto nåverdi</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Tilbakebetalingstid</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Netto nåverdi måler direkte det vi er ute etter: hvor mye rikere vi blir i dagens penger. Internrenten gir riktig svar bare under visse forutsetninger — video 5 går gjennom fire situasjoner der den svikter. Tilbakebetalingstid har også en beslutningsregel, kortere enn en forhåndsbestemt grense, men den måler hvor raskt pengene kommer tilbake, ikke hvor mye verdi som skapes. Den er en grov støttemetode for enkle prosjekter.</p>
+<p class="quiz__feedback" hidden>Netto nåverdi måler direkte det vi er ute etter: hvor mye rikere vi blir i dagens penger. Internrenten gir riktig svar bare under visse forutsetninger, og video 5 går gjennom fire situasjoner der den svikter. Tilbakebetalingstid har også en beslutningsregel, kortere enn en forhåndsbestemt grense, men den måler hvor raskt pengene kommer tilbake, ikke hvor mye verdi som skapes. Den er en grov støttemetode for enkle prosjekter.</p>
 </div>
 <div class="quiz__q" data-answer="a">
 <p class="quiz__prompt">3. Et prosjekt vil øke omsetningen betydelig, men netto nåverdi er negativ. Hva sier beslutningsmålet?</p>
-<button class="choice" data-key="a"><span class="choice__key">A</span><span>Forkast prosjektet — det gjør eierne fattigere i dagens penger</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Forkast prosjektet, for det gjør eierne fattigere i dagens penger</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Gjennomfør det, siden vekst i omsetning bygger verdi over tid</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Gjennomfør det hvis regnskapsresultatet blir positivt fra år to</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Dette er nettopp faren ved å optimalisere mot feil mål. Vekst i omsetning og et positivt årsresultat er lette å måle og lette å presentere, men ingen av dem er målet. Er netto nåverdi negativ, gir vi opp mer i dag enn vi får igjen — uansett hvordan omsetningen utvikler seg.</p>
+<p class="quiz__feedback" hidden>Dette er nettopp faren ved å optimalisere mot feil mål. Vekst i omsetning og et positivt årsresultat er lette å måle og lette å presentere, men ingen av dem er målet. Er netto nåverdi negativ, gir vi opp mer i dag enn vi får igjen, uansett hvordan omsetningen utvikler seg.</p>
 </div>
 <p class="quiz__score" role="status" aria-live="polite"></p>
 </div>

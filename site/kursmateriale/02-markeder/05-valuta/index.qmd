@@ -33,7 +33,7 @@ kalkulator.
   <span class="index-row__no">2</span>
   <span>
     <span class="index-row__title">Paritetsbetingelsene</span>
-    <span class="index-row__sub">Fem sammenhenger mellom valutakurser, renter og inflasjon — og en arbitrasjetest</span>
+    <span class="index-row__sub">Fem sammenhenger mellom valutakurser, renter og inflasjon, og en arbitrasjetest</span>
   </span>
   <span class="index-row__dur">20:44</span>
 </a>
@@ -58,7 +58,7 @@ per enhet utenlandsk valuta.
 
 | Symbol | Betydning |
 |---|---|
-| $s_{\text{UTL/NOK}}$ | Spotkurs — norske kroner per enhet utenlandsk valuta |
+| $s_{\text{UTL/NOK}}$ | Spotkurs: norske kroner per enhet utenlandsk valuta |
 | $f_{\text{UTL/NOK}}$ | Forwardkurs (terminkurs) på utenlandsk valuta |
 | $E(s_{\text{UTL/NOK}})$ | Forventet fremtidig spotkurs |
 | $r_{\text{NOK}}$, $r_{\text{UTL}}$ | Rente hjemme og ute |
@@ -78,7 +78,7 @@ omregningen av avkastningskrav og lånekostnaden ved utenlandske lån.
 
 Oppgavene dekker kursnoteringer, dekket renteparitet med arbitrasje, og
 verdsetting av et utenlandsprosjekt etter begge metoder. Regn dem for hånd før
-du åpner løsningsforslaget — å lese en løsning føles som å forstå den, og det
+du åpner løsningsforslaget: å lese en løsning føles som å forstå den, og det
 er sjelden det samme.
 
 ::::: {.problem}
@@ -233,7 +233,7 @@ den forventede lånekostnaden per lånte krone er
 
 $$\frac{9{,}26}{9{,}00} \cdot 1{,}02 - 1 \approx 5{,}0\ \%$$
 
-— nøyaktig den norske renten. Rentefordelen ved å låne ute spises i
+Det er nøyaktig den norske renten. Rentefordelen ved å låne ute spises i
 forventning opp av kronesvekkelsen; det billige valutalånet er billig bare
 hvis kronen gjør det bedre enn paritetsbetingelsen tilsier.
 

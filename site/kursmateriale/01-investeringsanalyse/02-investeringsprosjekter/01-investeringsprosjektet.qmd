@@ -45,11 +45,11 @@ ganger du vil.
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Om det foreligger en beslutning i dag</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Når kontantstrømmene kommer</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Hvor lønnsomt prosjektet er, og hvordan det finansieres</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Lønnsomhet, risiko og finansiering er spørsmål vi stiller etterpå — de er hele resten av kapittelet. De tre kravene til selve prosjektet er beslutning i dag, framtidige kontantstrømmer og kjent tidspunkt. Et ulønnsomt prosjekt er fortsatt et investeringsprosjekt; det er bare et vi forkaster.</p>
+<p class="quiz__feedback" hidden>Lønnsomhet, risiko og finansiering er spørsmål vi stiller etterpå; de er hele resten av kapittelet. De tre kravene til selve prosjektet er beslutning i dag, framtidige kontantstrømmer og kjent tidspunkt. Et ulønnsomt prosjekt er fortsatt et investeringsprosjekt; det er bare et vi forkaster.</p>
 </div>
 <div class="quiz__q" data-answer="a">
 <p class="quiz__prompt">3. Et prosjekt viser positivt regnskapsresultat hvert år i hele levetiden. Hva forteller det oss om investeringen?</p>
-<button class="choice" data-key="a"><span class="choice__key">A</span><span>Lite — resultatet sier ikke når kontantstrømmene faktisk oppstår</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Lite: resultatet sier ikke når kontantstrømmene faktisk oppstår</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>At prosjektet er lønnsomt, siden overskuddet er positivt hele veien</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>At prosjektet er lønnsomt, forutsatt at det ikke er gjeldsfinansiert</span><span class="choice__mark"></span></button>
 <p class="quiz__feedback" hidden>Regnskapsresultat og kontantstrøm er ulike størrelser. Periodisering, avskrivninger og bindinger i arbeidskapital gjør at et prosjekt kan ha overskudd på papiret hvert år og likevel være en dårlig investering. Derfor starter analysen alltid med kontantstrømmer.</p>

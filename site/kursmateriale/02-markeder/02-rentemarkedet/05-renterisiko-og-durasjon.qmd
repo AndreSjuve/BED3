@@ -5,7 +5,7 @@ subtitle: "Markedsrisikoen i rentepapirer, og målet som kvantifiserer den"
 
 ## Før du ser videoen
 
-For aksjer målte kapitalverdimodellen den systematiske risikoen med beta —
+For aksjer målte kapitalverdimodellen den systematiske risikoen med beta:
 risikoen du ikke blir kvitt, og den eneste du kompenseres for. Denne videoen
 stiller det samme spørsmålet for rentepapirer: hva slags risiko slipper en
 obligasjonseier aldri unna, og finnes det et tall som fanger den?

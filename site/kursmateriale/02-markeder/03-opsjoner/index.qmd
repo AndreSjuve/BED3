@@ -1,6 +1,6 @@
 ---
 title: "Opsjonskontrakter"
-subtitle: "Retten, men ikke plikten — og hva den retten er verdt"
+subtitle: "Retten, men ikke plikten, og hva den retten er verdt"
 ---
 
 Aksjer og obligasjoner er direkte krav på selskapenes kontantstrømmer. Dette
@@ -31,7 +31,7 @@ når du har sett alt, og krever kalkulator.
   <span class="index-row__no">2</span>
   <span>
     <span class="index-row__title">Kjøps- og salgsopsjoner</span>
-    <span class="index-row__sub">Rett, men ikke plikt — kontraktene og motivene bak markedet</span>
+    <span class="index-row__sub">Rett, men ikke plikt: kontraktene og motivene bak markedet</span>
   </span>
   <span class="index-row__dur">17:32</span>
 </a>
@@ -55,7 +55,7 @@ når du har sett alt, og krever kalkulator.
   <span class="index-row__no">5</span>
   <span>
     <span class="index-row__title">Put-call-pariteten</span>
-    <span class="index-row__sub">Sammenhengen mellom call, put, aksje og lån — og arbitrasjen bak</span>
+    <span class="index-row__sub">Sammenhengen mellom call, put, aksje og lån, og arbitrasjen bak</span>
   </span>
   <span class="index-row__dur">19:42</span>
 </a>
@@ -63,7 +63,7 @@ når du har sett alt, og krever kalkulator.
   <span class="index-row__no">6</span>
   <span>
     <span class="index-row__title">Opsjonsprising</span>
-    <span class="index-row__sub">Grenseverdier, egenverdi og tidsverdi — og et blikk på Black-Scholes</span>
+    <span class="index-row__sub">Grenseverdier, egenverdi og tidsverdi, og et blikk på Black-Scholes</span>
   </span>
   <span class="index-row__dur">30:19</span>
 </a>
@@ -79,8 +79,8 @@ I tillegg til symbolene fra de tidligere kapitlene bruker videoene disse:
 
 | Symbol | Betydning |
 |---|---|
-| $C$, $C_0$ | Verdien av en kjøpsopsjon (call) — ved forfall og i dag |
-| $P$, $P_0$ | Verdien av en salgsopsjon (put) — ved forfall og i dag |
+| $C$, $C_0$ | Verdien av en kjøpsopsjon (call), ved forfall og i dag |
+| $P$, $P_0$ | Verdien av en salgsopsjon (put), ved forfall og i dag |
 | $K$ | Kontraktsprisen (innløsningskursen, «strike») |
 | $S_0$, $S_T$ | Prisen på underliggende i dag og ved forfall |
 | $T$ | Tid til forfall |
@@ -101,7 +101,7 @@ $C_0 - P_0 = S_0 - PV(K)$ står under «Opsjoner og derivater» på
 
 Oppgavene tar for seg gevinstprofiler ved forfall, straddle-strategien,
 put-call-pariteten og den nedre grensen for prisen på en kjøpsopsjon. Regn dem
-for hånd før du åpner løsningsforslaget — å lese en løsning føles som å forstå
+for hånd før du åpner løsningsforslaget: å lese en løsning føles som å forstå
 den, og det er sjelden det samme.
 
 ::::: {.problem}
@@ -245,7 +245,7 @@ a) Hva er den laveste prisen kjøpsopsjonen kan ha uten at det oppstår en
 arbitrasjemulighet?
 
 b) Anta at opsjonen handles for 4 kroner. Sett opp en selvfinansierende
-strategi og vis at den gir en risikofri gevinst ved forfall — både når
+strategi og vis at den gir en risikofri gevinst ved forfall, både når
 $S_T \geq 22$ og når for eksempel $S_T = 21$.
 
 <details class="solution">

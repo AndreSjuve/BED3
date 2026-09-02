@@ -7,7 +7,7 @@ subtitle: "Oversikt over finansielle markeder og kontrakter"
 
 Kurset har så langt analysert tre sentrale sider ved finansielle beslutninger.
 
-Først [investeringsanalyse](../01-investeringsanalyse/01-introduksjon.qmd) —
+Først [investeringsanalyse](../01-investeringsanalyse/01-introduksjon.qmd):
 hvordan foretak vurderer lønnsomheten av realinvesteringer ved hjelp av
 kontantstrømmer og nåverdi. Den modulen ligger her på siden. Deretter
 finansielle investeringer, der porteføljeteori og kapitalverdimodellen

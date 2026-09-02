@@ -1,12 +1,12 @@
 ---
 title: "Beslutningstrær"
-subtitle: "Sekvensielle beslutninger under usikkerhet — og hvorfor treet løses bakfra"
+subtitle: "Sekvensielle beslutninger under usikkerhet, og hvorfor treet løses bakfra"
 ---
 
 ## Før du ser videoen
 
 Alle metodene så langt har stresstestet én og samme beslutning: ja eller nei i
-dag. Men virkelige prosjekter har milepæler — en testfase som kan lykkes eller
+dag. Men virkelige prosjekter har milepæler: en testfase som kan lykkes eller
 mislykkes, en mulighet til å skalere opp eller legge ned underveis. Hva slags
 verktøy trengs når valgene kommer etter hverandre, og utfallet av det ene
 avgjør hva det neste er verdt?

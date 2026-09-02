@@ -1,6 +1,6 @@
 ---
 title: "Internrente"
-subtitle: "Renten der nåverdien er null — og fire grunner til ikke å bruke den alene"
+subtitle: "Renten der nåverdien er null, og fire grunner til ikke å bruke den alene"
 ---
 
 ## Før du ser videoen
@@ -37,30 +37,30 @@ ganger du vil. Det siste spørsmålet krever kalkulator.
 <div class="quiz__q" data-answer="b">
 <p class="quiz__prompt">1. Hva er internrenten?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Renten bedriften faktisk betaler på lånet som finansierer prosjektet</span><span class="choice__mark"></span></button>
-<button class="choice" data-key="b"><span class="choice__key">B</span><span>Den rentesatsen som gjør netto nåverdi lik null — den høyeste kostnaden prosjektet kan bære</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Den rentesatsen som gjør netto nåverdi lik null: den høyeste kostnaden prosjektet kan bære</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Prosjektets gjennomsnittlige regnskapsmessige avkastning på investert kapital</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Internrenten kommer fra prosjektets egne kontantstrømmer, ikke fra bankens prisliste og ikke fra regnskapet. Den er grensen der nåverdien av innbetalingene akkurat dekker investeringen — passerer avkastningskravet den grensen, er prosjektet ikke lenger lønnsomt.</p>
+<p class="quiz__feedback" hidden>Internrenten kommer fra prosjektets egne kontantstrømmer, ikke fra bankens prisliste og ikke fra regnskapet. Den er grensen der nåverdien av innbetalingene akkurat dekker investeringen; passerer avkastningskravet den grensen, er prosjektet ikke lenger lønnsomt.</p>
 </div>
 <div class="quiz__q" data-answer="c">
 <p class="quiz__prompt">2. Prosjekt A har internrente 40 % og krever 250 000 kroner. Prosjekt B har internrente 12 % og krever 8 millioner. Avkastningskravet er 8 %, og du kan bare velge ett. Hva taler for B?</p>
-<button class="choice" data-key="a"><span class="choice__key">A</span><span>Ingenting — 40 % er høyere enn 12 %, så A er best</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Ingenting: 40 % er høyere enn 12 %, så A er best</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>At B har lavere risiko, siden internrenten er lavere</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>At meravkastningen over avkastningskravet gjelder et 32 ganger større beløp</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Det er meravkastningen over kravet som skaper verdi, ikke internrenten i seg selv: A tjener 32 prosentpoeng på 250 000, B tjener 4 prosentpoeng på 8 millioner — og 4 % av 8 millioner er mange ganger mer enn 32 % av 250 000. Legg merke til at avkastningskravet må være oppgitt for at spørsmålet skal ha et svar: lå kravet på 12 %, ville B ikke skapt verdi i det hele tatt. Og lav internrente er ikke det samme som lav risiko — det er to helt ulike størrelser.</p>
+<p class="quiz__feedback" hidden>Det er meravkastningen over kravet som skaper verdi, ikke internrenten i seg selv: A tjener 32 prosentpoeng på 250 000, B tjener 4 prosentpoeng på 8 millioner, og 4 % av 8 millioner er mange ganger mer enn 32 % av 250 000. Legg merke til at avkastningskravet må være oppgitt for at spørsmålet skal ha et svar: lå kravet på 12 %, ville B ikke skapt verdi i det hele tatt. Og lav internrente er ikke det samme som lav risiko; det er to helt ulike størrelser.</p>
 </div>
 <div class="quiz__q" data-answer="a">
 <p class="quiz__prompt">3. Et prosjekt krever 1 000 kroner i dag, gir 2 500 kroner om ett år, og koster 1 560 kroner om to år. Hva er problemet med å bruke internrenten her?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Kontantstrømmene skifter fortegn to ganger, og prosjektet har to internrenter</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Beløpene er for små til at internrenten blir presis</span><span class="choice__mark"></span></button>
-<button class="choice" data-key="c"><span class="choice__key">C</span><span>Ingenting — internrenten håndterer negative kontantstrømmer fint</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Størrelsen på beløpene er irrelevant. Problemet er formen på kontantstrømprofilen: fortegnet skifter to ganger — minus, pluss, minus — og her gir det faktisk to løsninger. Både 20 % og 30 % setter netto nåverdi nøyaktig lik null, så det finnes ingen entydig internrente å sammenligne med avkastningskravet. Andre profiler har ingen løsning i det hele tatt. I begge tilfeller må du regne netto nåverdi i stedet.</p>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>Ingenting: internrenten håndterer negative kontantstrømmer fint</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Størrelsen på beløpene er irrelevant. Problemet er formen på kontantstrømprofilen: fortegnet skifter to ganger (minus, pluss, minus), og her gir det faktisk to løsninger. Både 20 % og 30 % setter netto nåverdi nøyaktig lik null, så det finnes ingen entydig internrente å sammenligne med avkastningskravet. Andre profiler har ingen løsning i det hele tatt. I begge tilfeller må du regne netto nåverdi i stedet.</p>
 </div>
 <div class="quiz__q" data-answer="b">
 <p class="quiz__prompt">4. Et prosjekt krever 800 000 kroner i dag og gir én innbetaling på 920 000 kroner om ett år. Avkastningskravet er 12 %. Hva er internrenten, og hva blir konklusjonen?</p>
-<button class="choice" data-key="a"><span class="choice__key">A</span><span>12 % — vi er indifferente</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>12 %, så vi er indifferente</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>15 %, og prosjektet bør gjennomføres</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>15 %, men prosjektet bør forkastes</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Med bare én innbetaling løses ligningen direkte: 920 000/800 000 = 1,15, altså y = 15 %. Beslutningsregelen er y &gt; k, og 15 % &gt; 12 %, så prosjektet aksepteres. Kontrollen stemmer: netto nåverdi ved 12 % er 920 000/1,12 − 800 000 = 21 429 kroner, altså positiv. Merk at avkastningskravet ikke påvirker internrenten — 15 % er en egenskap ved prosjektets egne kontantstrømmer.</p>
+<p class="quiz__feedback" hidden>Med bare én innbetaling løses ligningen direkte: 920 000/800 000 = 1,15, altså y = 15 %. Beslutningsregelen er y &gt; k, og 15 % &gt; 12 %, så prosjektet aksepteres. Kontrollen stemmer: netto nåverdi ved 12 % er 920 000/1,12 − 800 000 = 21 429 kroner, altså positiv. Merk at avkastningskravet ikke påvirker internrenten; 15 % er en egenskap ved prosjektets egne kontantstrømmer.</p>
 </div>
 <p class="quiz__score" role="status" aria-live="polite"></p>
 </div>

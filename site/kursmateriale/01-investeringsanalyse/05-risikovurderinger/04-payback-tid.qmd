@@ -1,6 +1,6 @@
 ---
 title: "Payback-tid"
-subtitle: "Hvor lang tid tar det før investeringen er tilbakebetalt — med og uten renter"
+subtitle: "Hvor lang tid tar det før investeringen er tilbakebetalt, med og uten renter"
 ---
 
 ## Før du ser videoen
@@ -41,7 +41,7 @@ ganger du vil. Det siste spørsmålet krever kalkulator.
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Fordi den gir et mer presist lønnsomhetsmål enn netto nåverdi</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Fordi den er enkel og rask, og peker ut prosjekter som henter pengene tilbake tidlig</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Fordi den fanger opp alle kontantstrømmene over hele levetiden</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Kort payback betyr at mindre av prosjektets skjebne hviler på fjerne, usikre år — det er risikoinformasjon, selv om målet er grovt. Alternativ A gir metoden en presisjon den ikke har; den er et supplement til nåverdi, ikke en konkurrent. Og C er nøyaktig én av de kjente begrensningene snudd på hodet: alt som skjer etter tilbakebetalingstidspunktet, ignoreres; det er prisen for enkelheten.</p>
+<p class="quiz__feedback" hidden>Kort payback betyr at mindre av prosjektets skjebne hviler på fjerne, usikre år; det er risikoinformasjon, selv om målet er grovt. Alternativ A gir metoden en presisjon den ikke har; den er et supplement til nåverdi, ikke en konkurrent. Og C er nøyaktig én av de kjente begrensningene snudd på hodet: alt som skjer etter tilbakebetalingstidspunktet, ignoreres; det er prisen for enkelheten.</p>
 </div>
 <div class="quiz__q" data-answer="a">
 <p class="quiz__prompt">2. Et prosjekt har positive kontantstrømmer hvert år og en payback-tid uten renter på 3,0 år. Avkastningskravet er positivt. Hva vet du om den diskonterte payback-tiden?</p>

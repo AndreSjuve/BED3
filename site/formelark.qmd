@@ -15,7 +15,7 @@ toc-title: "Innhold"
 
 <p class="note">Formelarket bruker eksamensvedleggets symboler: NPV, PVI,
 I<sub>0</sub>, CF<sub>t</sub>, <em>k</em> og <em>y</em>. Videoene sier «netto
-nåverdi (NNV)» og «nåverdiindeks (NVI)» om NPV og PVI — samme størrelser.</p>
+nåverdi (NNV)» og «nåverdiindeks (NVI)» om NPV og PVI: samme størrelser.</p>
 
 ::::: {.section-index}
 [Tidens verdi](#tidens-verdi) · [Nåverdimetoder](#naaverdimetoder) · [Skatt og avskrivninger](#skatt-og-avskrivninger) · [Renteregning](#renteregning) · [Porteføljeteori og risiko](#portefoljeteori-og-risiko) · [Kapitalverdimodellen](#kapitalverdimodellen) · [Verdsettelse](#verdsettelse) · [Kapitalstruktur og vektstang](#kapitalstruktur-og-vektstang) · [Obligasjoner og durasjon](#obligasjoner-og-durasjon) · [Opsjoner og derivater](#opsjoner-og-derivater) · [Internasjonal finans](#internasjonal-finans)

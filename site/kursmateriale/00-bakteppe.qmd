@@ -353,8 +353,8 @@ Så, nå har du fått rammen for faget investering og finans:
 ## Hvor begynner du?
 
 Bakteppet du nettopp har lest spenner over hele kurset. Denne nettsiden huser
-de asynkrone videomodulene — [investeringsanalyse og finansielle markeder og
-kontrakter](../kursinnhold.qmd) — mens temaene imellom, fra porteføljeteori
+de asynkrone videomodulene, [investeringsanalyse og finansielle markeder og
+kontrakter](../kursinnhold.qmd), mens temaene imellom, fra porteføljeteori
 og kapitalverdimodellen til kapitalstruktur, utbyttepolitikk og bærekraftige
 investeringer, undervises i plenumsforelesningene med materiell på Canvas.
 Når de ulike delene kommer, ser du i [timeplanen](../timeplan.qmd).

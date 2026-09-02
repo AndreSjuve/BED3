@@ -7,7 +7,7 @@ subtitle: "Kontantstrømmen til egenkapitalen når prisene stiger"
 
 De to første videoene brukte små taleksempler. Nå flyttes inflasjonen inn i
 EcoTime-caset fra del 2, og oppstillingen fram til kontantstrømmen til
-egenkapitalen etter skatt regnes på nytt — denne gangen med priser som stiger
+egenkapitalen etter skatt regnes på nytt, denne gangen med priser som stiger
 litt hvert år. Videoen introduserer ikke noe nytt; den anvender alt du
 allerede har sett, og noen av casets forutsetninger er forenklet for å rendyrke
 inflasjonseffekten.
@@ -33,7 +33,7 @@ avsluttes?
 ::::: {.corrections}
 **Rettelser.** Kjente feil i opptaket, med riktig verdi:
 
-- **02:36** — Beløpet på 2 millioner omtales som «salgsinntekter». Det er
+- **02:36** · Beløpet på 2 millioner omtales som «salgsinntekter». Det er
   dekningsbidraget i år 1; salgsinntektene er større.
 :::::
 

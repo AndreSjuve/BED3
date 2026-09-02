@@ -40,7 +40,7 @@ krever kalkulator.
   <span class="index-row__no">3</span>
   <span>
     <span class="index-row__title">Lånetyper</span>
-    <span class="index-row__sub">Serielån og annuitetslån på nytt — og verdien av et subsidiert lån</span>
+    <span class="index-row__sub">Serielån og annuitetslån på nytt, og verdien av et subsidiert lån</span>
   </span>
   <span class="index-row__dur">06:16</span>
 </a>
@@ -89,7 +89,7 @@ forskudds- og etterskuddsrente) står under «Renteregning» på
 
 Oppgavene tar for seg effektiv rente ved ulik betalingsfrekvens og
 forskuddsbetaling, verdien av et subsidiert lån, og et «rentefritt»
-avbetalingstilbud. Regn dem for hånd før du åpner løsningsforslaget — å lese
+avbetalingstilbud. Regn dem for hånd før du åpner løsningsforslaget: å lese
 en løsning føles som å forstå den, og det er sjelden det samme.
 
 ::::: {.problem}

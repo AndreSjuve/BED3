@@ -40,7 +40,7 @@ ganger du vil.
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>En sannsynlighetsfordeling for netto nåverdi, bygget på svært mange gjennomregninger</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Et resultat som ikke avhenger av forutsetningene som legges inn</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Sikkerhet for hvilken nåverdi prosjektet faktisk vil få</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Der de enklere metodene gir noen få punkter, gir simuleringen et helt utfallsrom, og dermed kan vi lese av det vi som regel er mest opptatt av: sannsynligheten for at prosjektet ender under null. Alternativ B er ønsketenkning; resultatet står og faller med fordelingene som spesifiseres, det er metodens ømme punkt. C forveksler en fordeling med en fasit — usikkerheten beskrives bedre, den forsvinner ikke.</p>
+<p class="quiz__feedback" hidden>Der de enklere metodene gir noen få punkter, gir simuleringen et helt utfallsrom, og dermed kan vi lese av det vi som regel er mest opptatt av: sannsynligheten for at prosjektet ender under null. Alternativ B er ønsketenkning; resultatet står og faller med fordelingene som spesifiseres, det er metodens ømme punkt. C forveksler en fordeling med en fasit: usikkerheten beskrives bedre, den forsvinner ikke.</p>
 </div>
 <div class="quiz__q" data-answer="c">
 <p class="quiz__prompt">2. Hvorfor skal kontantstrømmene i en simulering diskonteres med risikofri rente?</p>

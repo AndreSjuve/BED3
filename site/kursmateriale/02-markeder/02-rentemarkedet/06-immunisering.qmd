@@ -5,7 +5,7 @@ subtitle: "Durasjonsmatching som beskyttelse mot renteendringer"
 
 ## Før du ser videoen
 
-Mange av rentemarkedets største aktører prøver ikke å slå markedet — de
+Mange av rentemarkedets største aktører prøver ikke å slå markedet. De
 prøver å ikke bli slått av det. Et pensjonsfond eier obligasjoner, men skylder
 samtidig pensjoner tiår frem i tid. Begge sider av balansen beveger seg når
 renten endrer seg. Er et rentefall da godt eller dårlig nytt?
@@ -31,10 +31,10 @@ regnestykket skal gå opp.
 ::::: {.corrections}
 **Rettelser.** Kjente feil i opptaket, med riktig verdi:
 
-- **23:55 og 24:42** — Plansjen viser salgspriser på 82,67 (etter rentefall)
+- **23:55 og 24:42**: Plansjen viser salgspriser på 82,67 (etter rentefall)
   og 80,56 (etter renteøkning); annuitetsfaktoren er der blitt stående på
   10 % mens diskonteringen bruker den nye renten. Konsistente verdier er
-  87,16 ved 9 % og 76,44 ved 11 % — og da ender begge scenarioene på om lag
+  87,16 ved 9 % og 76,44 ved 11 %, og da ender begge scenarioene på om lag
   5,01 millioner, som er nettopp poenget med immunisering.
 :::::
 

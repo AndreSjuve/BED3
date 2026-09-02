@@ -7,7 +7,7 @@ subtitle: "Eksempelprosjektet: internrenter, effektive skattesatser og reell lå
 
 Forrige video ga formelen som binder nominelle og reelle størrelser sammen.
 Denne videoen setter den i arbeid på et lite eksempelprosjekt: én investering,
-tre års kontantstrømmer — og så beregnes internrenten fire ganger, nominelt og
+tre års kontantstrømmer, og så beregnes internrenten fire ganger, nominelt og
 reelt, før og etter skatt. Spørsmålet å følge med på er rekkefølgen: hvor i
 regnestykket kommer inflasjonen inn, og hvor kommer skatten inn?
 

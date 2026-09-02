@@ -14,7 +14,7 @@ Du kjenner allerede opsjonene fra [Del 14](../03-opsjoner/index.qmd). Legg merke
 hva som skjer med valgfriheten når vi går fra opsjon til termin, og hvilke
 konsekvenser det får for prisingen senere i delen. Følg også med på skillet
 mellom to kontraktstyper som gjør samme jobb på ulikt vis, og på de tre
-motivene — sikring, spekulasjon og arbitrasje — som trekker aktører inn i
+motivene (sikring, spekulasjon og arbitrasje) som trekker aktører inn i
 markedet.
 
 ::::: {.video}

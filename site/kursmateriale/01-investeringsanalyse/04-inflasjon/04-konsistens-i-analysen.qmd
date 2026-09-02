@@ -1,12 +1,12 @@
 ---
 title: "Konsistens i analysen"
-subtitle: "Kontantstrøm og avkastningskrav må matche — og vektstangformelen"
+subtitle: "Kontantstrøm og avkastningskrav må matche, og vektstangformelen dukker opp igjen"
 ---
 
 ## Før du ser videoen
 
 Siste video samler trådene i ett ord: konsistens. Gjennom tre deler av kurset
-har kontantstrømmen skiftet drakt — før og etter skatt, nominell og reell, til
+har kontantstrømmen skiftet drakt: før og etter skatt, nominell og reell, til
 totalkapitalen og til egenkapitalen. Hvert skifte krever sitt eget
 avkastningskrav, og videoen går systematisk gjennom de tre parene: hva må
 matche hva, og hvilket av parene lar seg regne om med en formel?

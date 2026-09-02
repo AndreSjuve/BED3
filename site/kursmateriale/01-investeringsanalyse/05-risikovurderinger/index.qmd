@@ -5,7 +5,7 @@ subtitle: "Metoder for å stressteste forutsetningene bak kontantstrømmene"
 
 Så langt har analysen behandlet forutsetningene bak kontantstrømmene som sikre.
 Det er de ikke: priser, salgstall og kostnader er estimater, og verden kan endre
-seg raskt. Dette kapittelet handler om totalrisikoen i et prosjekt — og om
+seg raskt. Dette kapittelet handler om totalrisikoen i et prosjekt, og om
 verktøyene som viser hvor mye beslutningen tåler når anslagene slår feil.
 
 Åtte videoer, omtrent 74 minutter til sammen. Se dem i rekkefølge; verktøyene
@@ -20,7 +20,7 @@ regnes best når du har sett alt, og krever kalkulator.
   <span class="index-row__no">1</span>
   <span>
     <span class="index-row__title">Relevant risiko</span>
-    <span class="index-row__sub">Hvem risikoen måles for — og verktøykassen for å stressteste forutsetningene</span>
+    <span class="index-row__sub">Hvem risikoen måles for, og verktøykassen for å stressteste forutsetningene</span>
   </span>
   <span class="index-row__dur">6:23</span>
 </a>
@@ -44,7 +44,7 @@ regnes best når du har sett alt, og krever kalkulator.
   <span class="index-row__no">4</span>
   <span>
     <span class="index-row__title">Payback-tid</span>
-    <span class="index-row__sub">Hvor lang tid tar det før investeringen er tilbakebetalt — med og uten renter</span>
+    <span class="index-row__sub">Hvor lang tid tar det før investeringen er tilbakebetalt, med og uten renter</span>
   </span>
   <span class="index-row__dur">6:33</span>
 </a>
@@ -68,7 +68,7 @@ regnes best når du har sett alt, og krever kalkulator.
   <span class="index-row__no">7</span>
   <span>
     <span class="index-row__title">Beslutningstrær</span>
-    <span class="index-row__sub">Sekvensielle beslutninger under usikkerhet — og hvorfor treet løses bakfra</span>
+    <span class="index-row__sub">Sekvensielle beslutninger under usikkerhet, og hvorfor treet løses bakfra</span>
   </span>
   <span class="index-row__dur">16:19</span>
 </a>
@@ -249,7 +249,7 @@ og verdien av å starte testfasen i dag:
 $$-60 + \frac{197}{1{,}12} \approx 116 \text{ millioner}$$
 
 Netto nåverdi er positiv, så testfasen bør settes i gang. Legg merke til
-strukturen: tallet 197 finnes ikke noe sted i treet — det er verdien av å
+strukturen: tallet 197 finnes ikke noe sted i treet. Det er verdien av å
 *kunne velge* riktig gren i hvert utfall, og det er den retten testinvesteringen
 kjøper.
 

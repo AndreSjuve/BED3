@@ -1,6 +1,6 @@
 ---
 title: "Opsjonsprising"
-subtitle: "Grenseverdier, egenverdi og tidsverdi — og et blikk på Black-Scholes"
+subtitle: "Grenseverdier, egenverdi og tidsverdi, og et blikk på Black-Scholes"
 ---
 
 ## Før du ser videoen
@@ -12,8 +12,8 @@ deg det du kan resonnere deg frem til uten modeller: grenser prisen må ligge
 innenfor, og hva som skjer med den når én faktor endres og resten holdes fast.
 
 To begreper bærer mye av videoen: opsjonens egenverdi og dens tidsverdi. Hør
-etter hva hver av dem måler, og hvorfor volatilitet — som for en aksjeeier er
-et tveegget sverd — bare har én egg for opsjonseieren. Helt til slutt: hva
+etter hva hver av dem måler, og hvorfor volatilitet, som for en aksjeeier er
+et tveegget sverd, bare har én egg for opsjonseieren. Helt til slutt: hva
 delta-faktoren brukes til av dem som selger opsjoner.
 
 ::::: {.video}

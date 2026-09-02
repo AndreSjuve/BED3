@@ -4,14 +4,14 @@ subtitle: "Hvordan finansiering og beskatning endrer kontantstrømmene"
 ---
 
 Del 1 svarte på hvordan vi vurderer kontantstrømmer som er gitt. Dette
-kapittelet handler om å lage dem — og om hva skatt og lånefinansiering gjør med
+kapittelet handler om å lage dem, og om hva skatt og lånefinansiering gjør med
 dem. Alt bygges rundt ett gjennomgående case: EcoTech Electronics, som vurderer
 å lansere smartklokken EcoTime Pro. Caset foreligger som en egen skriftlig
 side, og både videoene og forelesningen forutsetter at det er lest.
 
 ## Forberedelse
 
-Les [caset — EcoTech Electronics: Lansere EcoTime Pro?](00-caset-ecotech.qmd)
+Les caset [EcoTech Electronics: Lansere EcoTime Pro?](00-caset-ecotech.qmd)
 før du ser videoene. Der finner du hele datagrunnlaget og de fire oppgavene;
 oppgave 1 og 2 løses som forberedelse, med løsningsforslag på siden. Sett av
 rundt 20 minutter til lesingen, mer om du regner oppgavene selv, som

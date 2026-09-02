@@ -1,7 +1,7 @@
 <script>
 // Prev/next links: the visible "Forrige · " / "Neste · " prefixes are CSS
 // generated content, which Quarto's aria-label (the bare page title) overrides
-// in accessible-name computation — a screen reader would hear two titles with
+// in accessible-name computation: a screen reader would hear two titles with
 // no direction. Fold the direction into the label itself.
 (function () {
   var prev = document.querySelector('.nav-page-previous a[aria-label]');

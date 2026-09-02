@@ -7,7 +7,7 @@ subtitle: "Hvorfor renter finnes, og hva formen på rentekurven forteller om fre
 
 Etter to videoer med regning stopper denne opp og stiller det grunnleggende
 spørsmålet: hva er egentlig en rente? Svaret bygges opp fra et tilsynelatende
-urelatert dilemma — dra på ferie nå, eller vente et helt år. Hva må til for at
+urelatert dilemma: dra på ferie nå, eller vente et helt år. Hva må til for at
 du frivillig venter?
 
 Videoen har tre deler. Først tankeeksperimentet, som ender i en presis idé om

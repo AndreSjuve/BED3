@@ -36,32 +36,32 @@ mange ganger du vil. Det siste spørsmålet krever kalkulator.
 ```{=html}
 <div class="quiz">
 <div class="quiz__q" data-answer="b">
-<p class="quiz__prompt">1. Et årsabonnement koster 1 200 kroner betalt i dag — eller 110 kroner i måneden, med første betaling i dag. Hva er det implisitte lånet du tar opp ved å velge månedlig betaling?</p>
-<button class="choice" data-key="a"><span class="choice__key">A</span><span>1 200 kroner — hele årsprisen</span><span class="choice__mark"></span></button>
-<button class="choice" data-key="b"><span class="choice__key">B</span><span>1 090 kroner — årsprisen minus den første månedsbetalingen</span><span class="choice__mark"></span></button>
-<button class="choice" data-key="c"><span class="choice__key">C</span><span>1 320 kroner — summen av de tolv månedsbetalingene</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Begge alternativer gir tilgang med en gang; forskjellen i hva du betaler i dag er 1 200 − 110 = 1 090 kroner. Det beløpet «låner» du av tilbyderen, mot å betale 110 kroner i hver av de elleve neste månedene — og den kontantstrømmen er det du finner den effektive renten på. A overser at du faktisk betaler 110 kroner i dag også med månedsplanen. C er totalbeløpet du ender med å betale, ikke hva du skylder i dag — å blande de to er samme feil som å summere rentekroner uten diskontering.</p>
+<p class="quiz__prompt">1. Et årsabonnement koster 1 200 kroner betalt i dag, eller 110 kroner i måneden, med første betaling i dag. Hva er det implisitte lånet du tar opp ved å velge månedlig betaling?</p>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>1 200 kroner, hele årsprisen</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>1 090 kroner, årsprisen minus den første månedsbetalingen</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>1 320 kroner, summen av de tolv månedsbetalingene</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>Begge alternativer gir tilgang med en gang; forskjellen i hva du betaler i dag er 1 200 − 110 = 1 090 kroner. Det beløpet «låner» du av tilbyderen, mot å betale 110 kroner i hver av de elleve neste månedene, og den kontantstrømmen er det du finner den effektive renten på. A overser at du faktisk betaler 110 kroner i dag også med månedsplanen. C er totalbeløpet du ender med å betale, ikke hva du skylder i dag; å blande de to er samme feil som å summere rentekroner uten diskontering.</p>
 </div>
 <div class="quiz__q" data-answer="c">
 <p class="quiz__prompt">2. Når lønner det seg å velge månedlig betaling framfor å betale hele beløpet med en gang?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Alltid, dersom du ikke har hele beløpet tilgjengelig i dag</span><span class="choice__mark"></span></button>
-<button class="choice" data-key="b"><span class="choice__key">B</span><span>Aldri — å betale alt nå er alltid billigst</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Aldri: å betale alt nå er alltid billigst</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Bare hvis all annen finansiering koster mer enn den effektive renten i det implisitte lånet</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Valget er en lånebeslutning: månedsbetalingen er ett lånetilbud, og det skal konkurrere mot alle andre måter å skaffe pengene på. Kan du låne billigere et annet sted — eller bruke egne penger med lavere alternativkostnad — betaler du opp front. A glemmer at selv et forbrukslån kan være langt billigere enn et implisitt lån med tresifret effektiv rente, slik videoens abonnementseksempel viser. B er heller ikke en regel: står du overfor et implisitt lån med lav nok rente, kan utsettelse faktisk være gunstig.</p>
+<p class="quiz__feedback" hidden>Valget er en lånebeslutning: månedsbetalingen er ett lånetilbud, og det skal konkurrere mot alle andre måter å skaffe pengene på. Kan du låne billigere et annet sted (eller bruke egne penger med lavere alternativkostnad), betaler du opp front. A glemmer at selv et forbrukslån kan være langt billigere enn et implisitt lån med tresifret effektiv rente, slik videoens abonnementseksempel viser. B er heller ikke en regel: står du overfor et implisitt lån med lav nok rente, kan utsettelse faktisk være gunstig.</p>
 </div>
 <div class="quiz__q" data-answer="a">
 <p class="quiz__prompt">3. En butikk tilbyr «rentefri» delbetaling med etableringsgebyr og månedlig administrasjonsgebyr. Hva er videoens dom over slike tilbud?</p>
-<button class="choice" data-key="a"><span class="choice__key">A</span><span>Koster det noe å utsette betalingen, betaler du renter — gebyrene er renter i forkledning</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Koster det noe å utsette betalingen, betaler du renter: gebyrene er renter i forkledning</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Tilbudet er reelt rentefritt så lenge rentesatsen i kontrakten er null</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Gebyrene kan ignoreres i analysen, siden de er faste beløp og ikke prosenter</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Effektiv rente skal fange <em>alle</em> kostnader ved å utsette betalingen — i videoens møbeleksempel priser gebyrene alene den «rentefrie» delbetalingen til en tosifret effektiv årsrente. B forveksler kontraktens rentesats med lånets faktiske kostnad; det er akkurat den forvekslingen markedsføringen satser på. C er baklengs: nettopp fordi gebyrene er kroner og ikke prosenter, må de inn i kontantstrømmen for at internrenteberegningen skal avsløre hva de tilsvarer i rente.</p>
+<p class="quiz__feedback" hidden>Effektiv rente skal fange <em>alle</em> kostnader ved å utsette betalingen. I videoens møbeleksempel priser gebyrene alene den «rentefrie» delbetalingen til en tosifret effektiv årsrente. B forveksler kontraktens rentesats med lånets faktiske kostnad; det er akkurat den forvekslingen markedsføringen satser på. C er baklengs: nettopp fordi gebyrene er kroner og ikke prosenter, må de inn i kontantstrømmen for at internrenteberegningen skal avsløre hva de tilsvarer i rente.</p>
 </div>
 <div class="quiz__q" data-answer="b">
 <p class="quiz__prompt">4. En leverandør tilbyr 2 % kontantrabatt ved betaling innen 10 dager; ellers forfaller fakturaen på 50 000 kroner etter 40 dager. Regn 360 dager i året. Hva er den effektive renten på leverandørkreditten?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>ca. 24,5 %</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>ca. 27,4 %</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>ca. 19,9 %</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Ved å vente låner du 49 000 kroner (98 % av fakturaen) i 40 − 10 = 30 ekstra dager og betaler 50 000. Delperioderenten er $50\,000/49\,000 - 1 \approx 2{,}04\ \%$, antall perioder $360/30 = 12$, og $p = (50/49)^{12} - 1 \approx 27{,}4\ \%$. A annualiserer med enkel rente ($12 \cdot 2{,}04\ \%$) og mister renters rente. C bruker hele kredittiden på 40 dager som periode — men de første 10 dagene er gratis uansett; lånet løper bare i 30.</p>
+<p class="quiz__feedback" hidden>Ved å vente låner du 49 000 kroner (98 % av fakturaen) i 40 − 10 = 30 ekstra dager og betaler 50 000. Delperioderenten er $50\,000/49\,000 - 1 \approx 2{,}04\ \%$, antall perioder $360/30 = 12$, og $p = (50/49)^{12} - 1 \approx 27{,}4\ \%$. A annualiserer med enkel rente ($12 \cdot 2{,}04\ \%$) og mister renters rente. C bruker hele kredittiden på 40 dager som periode, men de første 10 dagene er gratis uansett; lånet løper bare i 30.</p>
 </div>
 <p class="quiz__score" role="status" aria-live="polite"></p>
 </div>

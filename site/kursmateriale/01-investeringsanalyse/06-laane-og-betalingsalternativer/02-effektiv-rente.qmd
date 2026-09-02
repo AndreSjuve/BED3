@@ -41,28 +41,28 @@ mange ganger du vil. Det siste spørsmålet krever kalkulator.
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Den er den nominelle årsrenten delt på antall terminer</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Den er per definisjon årlig og etterskuddsvis, og skal fange alle kostnader ved lånet</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Den er renten for én termin, for eksempel en måned eller et kvartal</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Den effektive renten er den faktiske årskostnaden — renter, gebyrer og betalingsfrekvens medregnet — omregnet til én standard: årlig og etterskuddsvis. Det er den standardiseringen som gjør at to tilbud med ulike betingelser kan sammenlignes direkte. A beskriver veien til delperioderenten, ikke resultatet av omregningen. C er delperioderenten $q$ — byggeklossen den effektive renten regnes ut fra, ikke svaret.</p>
+<p class="quiz__feedback" hidden>Den effektive renten er den faktiske årskostnaden (renter, gebyrer og betalingsfrekvens medregnet) omregnet til én standard: årlig og etterskuddsvis. Det er den standardiseringen som gjør at to tilbud med ulike betingelser kan sammenlignes direkte. A beskriver veien til delperioderenten, ikke resultatet av omregningen. C er delperioderenten $q$: byggeklossen den effektive renten regnes ut fra, ikke svaret.</p>
 </div>
 <div class="quiz__q" data-answer="a">
 <p class="quiz__prompt">2. To lån har samme nominelle årsrente. Det ene belaster renten månedlig, det andre én gang i året. Hva gjelder?</p>
-<button class="choice" data-key="a"><span class="choice__key">A</span><span>Det månedlige er dyrest — jo oftere renten påløper, desto høyere blir den effektive renten</span><span class="choice__mark"></span></button>
-<button class="choice" data-key="b"><span class="choice__key">B</span><span>De er like dyre — det er den nominelle renten som bestemmer kostnaden</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Det månedlige er dyrest: jo oftere renten påløper, desto høyere blir den effektive renten</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>De er like dyre; det er den nominelle renten som bestemmer kostnaden</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Det månedlige er billigst, fordi renten per termin er mye lavere</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Når renten belastes månedlig, løper det renters rente innenfor året: $p = (1+q)^{12} - 1$ er alltid større enn $12q$. B er nettopp illusjonen den effektive renten skal avsløre — samme nominelle sats kan gi svært ulik årskostnad avhengig av frekvensen. C ser på størrelsen av terminrenten og overser hvor mange ganger den påløper; det er kombinasjonen som avgjør.</p>
+<p class="quiz__feedback" hidden>Når renten belastes månedlig, løper det renters rente innenfor året: $p = (1+q)^{12} - 1$ er alltid større enn $12q$. B er nettopp illusjonen den effektive renten skal avsløre: samme nominelle sats kan gi svært ulik årskostnad avhengig av frekvensen. C ser på størrelsen av terminrenten og overser hvor mange ganger den påløper; det er kombinasjonen som avgjør.</p>
 </div>
 <div class="quiz__q" data-answer="c">
 <p class="quiz__prompt">3. Et tilbud har kvartalsvise rentebetalinger på forskudd. Hva er riktig vei til effektiv rente?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Regn den kvartalsvise forskuddsrenten direkte om til årsrente, og trekk fra ett kvartals rente til slutt</span><span class="choice__mark"></span></button>
-<button class="choice" data-key="b"><span class="choice__key">B</span><span>Bruk forskuddsrenten som den er — forskudd og etterskudd gir samme årskostnad</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="b"><span class="choice__key">B</span><span>Bruk forskuddsrenten som den er; forskudd og etterskudd gir samme årskostnad</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Gjør først forskuddsrenten om til kvartalsvis etterskuddsrente, og regn deretter denne om til årsrente</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Definisjonen av effektiv rente krever etterskuddsvise betalinger, så konverteringen $q_e = q_f/(1-q_f)$ må gjøres på delperioderenten <em>før</em> den opphøyes: to steg, i den rekkefølgen. A annualiserer feil størrelse og prøver å reparere etterpå — noen slik snarvei finnes ikke. B overser at tidlig betaling koster: du gir fra deg avkastningen på rentebeløpet gjennom perioden, og derfor er en forskuddsrente alltid dyrere enn samme sats betalt etterskuddsvis.</p>
+<p class="quiz__feedback" hidden>Definisjonen av effektiv rente krever etterskuddsvise betalinger, så konverteringen $q_e = q_f/(1-q_f)$ må gjøres på delperioderenten <em>før</em> den opphøyes: to steg, i den rekkefølgen. A annualiserer feil størrelse og prøver å reparere etterpå; noen slik snarvei finnes ikke. B overser at tidlig betaling koster: du gir fra deg avkastningen på rentebeløpet gjennom perioden, og derfor er en forskuddsrente alltid dyrere enn samme sats betalt etterskuddsvis.</p>
 </div>
 <div class="quiz__q" data-answer="b">
 <p class="quiz__prompt">4. Et lån har nominell årsrente på 8 % med kvartalsvise terminer, og renten betales forskuddsvis. Hva er den effektive renten?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>ca. 8,24 %</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>ca. 8,42 %</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>8,00 %</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Delperioderenten er $q_f = 0{,}08/4 = 2\ \%$. Omregnet til etterskudd: $q_e = 0{,}02/0{,}98 \approx 2{,}041\ \%$, og deretter $p = 1{,}02041^4 - 1 \approx 8{,}42\ \%$. A hopper over forskuddskonverteringen og annualiserer 2 % direkte ($1{,}02^4 - 1 = 8{,}24\ \%$) — det er svaret for et <em>etterskuddsvis</em> kvartalslån. C setter effektiv lik nominell og ignorerer både betalingsfrekvens og forskudd.</p>
+<p class="quiz__feedback" hidden>Delperioderenten er $q_f = 0{,}08/4 = 2\ \%$. Omregnet til etterskudd: $q_e = 0{,}02/0{,}98 \approx 2{,}041\ \%$, og deretter $p = 1{,}02041^4 - 1 \approx 8{,}42\ \%$. A hopper over forskuddskonverteringen og annualiserer 2 % direkte ($1{,}02^4 - 1 = 8{,}24\ \%$); det er svaret for et <em>etterskuddsvis</em> kvartalslån. C setter effektiv lik nominell og ignorerer både betalingsfrekvens og forskudd.</p>
 </div>
 <p class="quiz__score" role="status" aria-live="polite"></p>
 </div>

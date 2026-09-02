@@ -326,7 +326,7 @@ går vi gjennom hvordan hver hovedlinje beregnes.
 ```
 ::::
 
-#### Linje 1, 2 og 7 — $I_0$, utrangering og faste kostnader
+#### Linje 1, 2 og 7: $I_0$, utrangering og faste kostnader
 
 *Investeringsbeløp* ($I_0$) *og utrangeringsverdi/skrapverdi.*
 Investeringsbeløpet sier vi skjer i dag, til tross for at det i realiteten kan
@@ -355,7 +355,7 @@ $$\begin{aligned}
 &\text{År 1–5:} \; 7\,800 \cdot 12 = 93\,600
 \end{aligned}$$
 
-#### Linje 3–6 — dekningsbidrag nytt produkt
+#### Linje 3–6: dekningsbidrag nytt produkt
 
 Verdiskaping regner vi i form av dekningsbidraget, oppgitt til EUR 200 per
 enhet. Vi selger 10 000 enheter de to første årene, og deretter 10 % mer i år
@@ -372,7 +372,7 @@ Inntekter og kostnader kommer årlig, og etter vanlig prinsipp tar vi dem ved
 slutten av året. Dekningsbidraget for det første året kommer derfor en periode
 etter at investeringen er gjort.
 
-#### Linje 8–11 — arbeidskapital
+#### Linje 8–11: arbeidskapital
 
 Det er som regel mer utfordrende å forstå arbeidskapitalen. Dette er
 tilleggsfinansiering som er nødvendig fordi du har varelager og kundefordringer
@@ -467,7 +467,7 @@ på linje 11 med arbeidskapital blir null, grunnet forutsetningen om at vi går
 tilbake til utgangspunktet. Da trenger vi ikke varelager etc., så disse pengene
 blir frigjort.
 
-#### Linje 12–19 — smitteeffekter
+#### Linje 12–19: smitteeffekter
 
 Når et nytt prosjekt lanseres, påvirker det ofte andre deler av virksomheten.
 Disse effektene kalles *smitteeffekter* og kan være enten positive eller
@@ -542,7 +542,7 @@ $$\begin{aligned}
 &\text{Frigjøring (år 5)} = -150\,000 - 15\,000 - 16\,500 = -181\,500
 \end{aligned}$$
 
-#### Linje 20 — kontantstrøm totalkapital (TK)
+#### Linje 20: kontantstrøm totalkapital (TK)
 
 Det eneste som gjenstår da, er å summere opp de relevante linjene i tabellen
 for å komme frem til linje 20. For hvert år er det følgende summering som

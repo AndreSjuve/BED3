@@ -1,12 +1,12 @@
 ---
 title: "Relevant risiko"
-subtitle: "Hvem risikoen måles for — og verktøykassen for å stressteste forutsetningene"
+subtitle: "Hvem risikoen måles for, og verktøykassen for å stressteste forutsetningene"
 ---
 
 ## Før du ser videoen
 
 Til nå har analysen tatt forutsetningene for gitt: salgstall, priser og
-kostnader ble behandlet som sikre. Men verden endrer seg — tenk på et reisebyrå
+kostnader ble behandlet som sikre. Men verden endrer seg: tenk på et reisebyrå
 som i 2019 budsjetterte med gode år fremover. Dette kapittelet handler om å
 teste hvor mye beslutningen tåler når anslagene slår feil.
 

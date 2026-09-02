@@ -41,17 +41,17 @@ ganger du vil.
 </div>
 <div class="quiz__q" data-answer="c">
 <p class="quiz__prompt">2. En analyse av et prosjekt tar med 2 millioner kroner i utviklingskostnader som allerede er brukt. Hva er galt med det?</p>
-<button class="choice" data-key="a"><span class="choice__key">A</span><span>Ingenting — kostnadene er reelle og må dekkes inn av prosjektet</span><span class="choice__mark"></span></button>
+<button class="choice" data-key="a"><span class="choice__key">A</span><span>Ingenting: kostnadene er reelle og må dekkes inn av prosjektet</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>De må først diskonteres til dagens verdi før de trekkes fra</span><span class="choice__mark"></span></button>
-<button class="choice" data-key="c"><span class="choice__key">C</span><span>De er sunk cost — de endrer seg ikke med beslutningen, og hører derfor ikke hjemme i analysen</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>De 2 millionene er brukt enten vi går videre eller lar være, så de kan ikke skille de to alternativene fra hverandre. At de føles reelle er nettopp det som gjør feilen vanlig — men en kostnad som er den samme uansett hva du velger, påvirker ikke valget. Å diskontere dem hjelper heller ikke; de skal ikke være med i det hele tatt. Bare framtidige kontantstrømmer er relevante, som vi krevde allerede i video 1.</p>
+<button class="choice" data-key="c"><span class="choice__key">C</span><span>De er sunk cost: de endrer seg ikke med beslutningen, og hører derfor ikke hjemme i analysen</span><span class="choice__mark"></span></button>
+<p class="quiz__feedback" hidden>De 2 millionene er brukt enten vi går videre eller lar være, så de kan ikke skille de to alternativene fra hverandre. At de føles reelle er nettopp det som gjør feilen vanlig, men en kostnad som er den samme uansett hva du velger, påvirker ikke valget. Å diskontere dem hjelper heller ikke; de skal ikke være med i det hele tatt. Bare framtidige kontantstrømmer er relevante, som vi krevde allerede i video 1.</p>
 </div>
 <div class="quiz__q" data-answer="c">
 <p class="quiz__prompt">3. Hvilket av disse utsagnene stemmer med kapittelet?</p>
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Et prosjekt med netto nåverdi lik null bør alltid forkastes</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Internrenten endrer seg når avkastningskravet endrer seg</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>To prosjekter kan ha samme internrente og likevel skape svært ulik verdi</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>C er skalaproblemet fra video 5: internrenten sier hvor godt hver krone arbeider, ikke hvor mange kroner som arbeider. A er for kategorisk — ved NNV lik null er vi indifferente i kroner, og andre hensyn kan avgjøre (video 4). B forveksler to størrelser: internrenten følger av prosjektets egne kontantstrømmer og står fast når kravet endrer seg — det er nettopp derfor nåverdiprofilen krysser x-aksen på samme sted uansett hvilket krav vi tror er riktig (video 6).</p>
+<p class="quiz__feedback" hidden>C er skalaproblemet fra video 5: internrenten sier hvor godt hver krone arbeider, ikke hvor mange kroner som arbeider. A er for kategorisk: ved NNV lik null er vi indifferente i kroner, og andre hensyn kan avgjøre (video 4). B forveksler to størrelser: internrenten følger av prosjektets egne kontantstrømmer og står fast når kravet endrer seg; det er nettopp derfor nåverdiprofilen krysser x-aksen på samme sted uansett hvilket krav vi tror er riktig (video 6).</p>
 </div>
 <p class="quiz__score" role="status" aria-live="polite"></p>
 </div>

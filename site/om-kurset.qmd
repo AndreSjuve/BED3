@@ -104,7 +104,7 @@ med maksimalt tre studenter med frist mandag 23. februar, se
 - Richard Brealey, Stewart Myers & Alan Marcus (BMM), *Fundamentals of
   Corporate Finance*, 11. utgave, McGraw-Hill, 2023.
 - Tilleggspensum: Knut Boye & Steen Koekebakker (BK), *Finansielle emner*,
-  14. utgave, Cappelen Akademisk Forlag, 2006 — kapittel 6.4, lagt ut på
+  14. utgave, Cappelen Akademisk Forlag, 2006, kapittel 6.4, lagt ut på
   kursets hjemmeside på Canvas.
 - Teorivideoene under [Kursinnhold](kursinnhold.qmd).
 - Oppgavesettene med løsningsforslag.

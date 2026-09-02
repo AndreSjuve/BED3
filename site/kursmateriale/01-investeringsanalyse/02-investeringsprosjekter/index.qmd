@@ -4,7 +4,7 @@ subtitle: "Beslutningsregler og lønnsomhetsmålinger for investeringsprosjekter
 ---
 
 Kapittelet handler om ett spørsmål: hvordan avgjør vi om et investeringsprosjekt
-er verdt å gjennomføre — og hvordan velger vi når vi ikke kan gjennomføre alle?
+er verdt å gjennomføre, og hvordan velger vi når vi ikke kan gjennomføre alle?
 
 Åtte videoer, omtrent 70 minutter til sammen. Se dem i rekkefølge; hver bygger
 på den forrige. Til hver video hører en kort quiz. Oppgavene nederst regnes best
@@ -49,7 +49,7 @@ når du har sett alt, og krever kalkulator.
   <span class="index-row__no">5</span>
   <span>
     <span class="index-row__title">Internrente</span>
-    <span class="index-row__sub">Renten der nåverdien er null — og fire grunner til ikke å bruke den alene</span>
+    <span class="index-row__sub">Renten der nåverdien er null, og fire grunner til ikke å bruke den alene</span>
   </span>
   <span class="index-row__dur">10:20</span>
 </a>
@@ -108,7 +108,7 @@ Formlene selv, inkludert annuitetsfaktoren video 7 viser til, står på
 
 Oppgavene tar for seg netto nåverdi, internrentens skalaproblem og
 nåverdiindeksen. Regn dem for hånd før du åpner
-løsningsforslaget — å lese en løsning føles som å forstå den, og det er sjelden
+løsningsforslaget: å lese en løsning føles som å forstå den, og det er sjelden
 det samme.
 
 ::::: {.problem}
@@ -135,7 +135,7 @@ minus de 500 000 vi betaler i dag.
 Netto nåverdi er positiv, så prosjektet bør gjennomføres, men marginen er tynn.
 Internrenten er 9,7 %, så en økning i avkastningskravet til 10 % ville snudd
 konklusjonen (netto nåverdi blir da −2 630 kroner). Beslutningen er altså følsom
-for et tall vi sjelden kjenner nøyaktig — det er den følsomheten nåverdiprofilen
+for et tall vi sjelden kjenner nøyaktig; det er den følsomheten nåverdiprofilen
 i video 6 setter i system.
 
 ::::
@@ -167,7 +167,7 @@ nøyaktig ni ganger netto nåverdi for A.
 
 Legg merke til hvorfor oppgaven måtte spesifisere lik levetid og lik tidsprofil.
 Uten den forutsetningen er svaret ikke gitt: et lite prosjekt som holder 15 % i
-tjue år kan lett slå et stort som holder 15 % i ett — samme internrente, helt
+tjue år kan lett slå et stort som holder 15 % i ett: samme internrente, helt
 ulik nåverdi. Det er internrentens tredje svakhet fra video 5, og den ville
 overstyrt skalaargumentet her.
 

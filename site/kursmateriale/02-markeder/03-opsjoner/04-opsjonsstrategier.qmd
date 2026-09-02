@@ -12,7 +12,7 @@ viktigere enn de to eksemplene: den fungerer for enhver kombinasjon du selv
 måtte finne på.
 
 De to strategiene trekker i hver sin retning. Den første kombinerer en aksje
-med en opsjon og ligner påfallende på noe du har sett før — hvilken profil
+med en opsjon og ligner påfallende på noe du har sett før: hvilken profil
 ender den opp med, og hva antyder det om slektskapet mellom kontraktene? Den
 andre kombinerer to opsjoner og tjener penger på noe du ikke får kjøpt direkte
 i noe marked. Hva da?
@@ -62,7 +62,7 @@ mange ganger du vil. Det siste spørsmålet krever kalkulator.
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>−15 kroner: kursfallet slår rett inn i porteføljen</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>−18 kroner: kursfallet pluss premien</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>−3 kroner</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Regn komponentvis, som i videoens tabell: aksjen selges for 45, salgsopsjonen er verdt max(60 − 45, 0) = 15, premien var 3 og aksjen kostet 60. Samlet: 45 + 15 − 3 − 60 = −3 kroner. Det er gulvet i forsikringen, likt for alle sluttkurser under 60. A regner bare aksjen og glemmer at putten betaler ut nettopp når kursen faller. B legger aksjetap og premie sammen, men utelater opsjonens utbetaling på 15 — da har man betalt for forsikringen uten å kreve den inn.</p>
+<p class="quiz__feedback" hidden>Regn komponentvis, som i videoens tabell: aksjen selges for 45, salgsopsjonen er verdt max(60 − 45, 0) = 15, premien var 3 og aksjen kostet 60. Samlet: 45 + 15 − 3 − 60 = −3 kroner. Det er gulvet i forsikringen, likt for alle sluttkurser under 60. A regner bare aksjen og glemmer at putten betaler ut nettopp når kursen faller. B legger aksjetap og premie sammen, men utelater opsjonens utbetaling på 15; da har man betalt for forsikringen uten å kreve den inn.</p>
 </div>
 <p class="quiz__score" role="status" aria-live="polite"></p>
 </div>

@@ -14,7 +14,7 @@ skillet avgjør hvor langt arbitrasjeargumentet rekker.
 
 Kjernen er et talleksempel der en tenkt forwardpris testes: hva skjer om den
 settes for høyt, og hva om den settes for lavt? Følg logikken i begge
-retninger — den munner ut i formelen som binder terminpris til spotpris. Og
+retninger; den munner ut i formelen som binder terminpris til spotpris. Og
 hva skjer så om aksjen betaler utbytte underveis?
 
 ::::: {.video}

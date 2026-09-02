@@ -1,6 +1,6 @@
 ---
 title: "BED3-Buddy"
-subtitle: "Kursets egen KI-assistent — en skreddersydd GPT som kan pensum, og som aldri blir lei av å forklare."
+subtitle: "Kursets egen KI-assistent: en skreddersydd GPT som kan pensum, og som aldri blir lei av å forklare."
 ---
 
 [Åpne BED3-Buddy i ChatGPT](https://chatgpt.com/g/g-6752cd1ed2e8819182def0c102bee043-bed3-buddy){.btn}

@@ -15,7 +15,7 @@ Videoen henter frem EcoTime Pro-caset igjen og spør: hvilken av forutsetningene
 kan alene velte beslutningen, og hvor mye må den i så fall bomme? Legg merke til
 hva hellingen på hver linje forteller, og hva plasseringen i forhold til
 null-linjen betyr. Og følg med helt til slutt, der metoden får en innvending
-den ikke kan svare på — det er den som motiverer neste video.
+den ikke kan svare på; det er den som motiverer neste video.
 
 ::::: {.video}
 ```{=html}

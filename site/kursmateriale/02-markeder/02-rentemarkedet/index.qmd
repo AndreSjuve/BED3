@@ -5,8 +5,8 @@ subtitle: "Prising av rentepapirer, rentens terminstruktur og styring av renteri
 
 Aksjedelen av kurset handlet om egenkapital. Dette kapittelet går inn i den
 andre hovedkilden til finansiering: gjelden, og markedet der den utstedes,
-kjøpes og selges. Kapittelet spenner fra det helt konkrete — hvordan
-obligasjoner og sertifikater prises — via det grunnleggende spørsmålet om hva
+kjøpes og selges. Kapittelet spenner fra det helt konkrete (hvordan
+obligasjoner og sertifikater prises) via det grunnleggende spørsmålet om hva
 en rente egentlig er, til hvordan durasjon brukes til å måle og styre
 renterisiko.
 
@@ -78,9 +78,9 @@ I tillegg til symbolene fra tidligere kapitler bruker videoene disse:
 
 | Symbol | Betydning |
 |---|---|
-| $F$ | Pålydende verdi (face value) — beløpet som betales tilbake ved forfall |
+| $F$ | Pålydende verdi (face value), beløpet som betales tilbake ved forfall |
 | $c$, $C$ | Kupongrenten og kupongbetalingen ($C = c \cdot F$) |
-| $y$ | Effektiv rente til forfall (yield to maturity) — markedsrenten |
+| $y$ | Effektiv rente til forfall (yield to maturity), markedsrenten |
 | $P_0$ | Prisen på obligasjonen eller sertifikatet i dag |
 | $r$ | Enkel årsrente (brukes for bedriftssertifikater) |
 | $d$ | Antall dager til forfall |

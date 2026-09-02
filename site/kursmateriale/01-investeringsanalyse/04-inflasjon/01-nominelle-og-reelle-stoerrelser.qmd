@@ -11,7 +11,7 @@ første videoen rydder i begrepene: hva er forskjellen på et nominelt og et
 reelt beløp, og hva vil det si å deflatere en kontantstrøm?
 
 Se spesielt etter to ting. Først: når analysen skal ta hensyn til
-prisstigning, finnes det to veier til samme svar — hvilke, og hva er det ene
+prisstigning, finnes det to veier til samme svar: hvilke, og hva er det ene
 ordet som avgjør om du kommer riktig fram? Deretter utledes koblingen mellom
 nominell og reell rente med et enkelt spareeksempel. Er nominell rente bare
 realrente pluss inflasjon? Svaret er nesten, og videoen viser hvorfor

@@ -11,7 +11,7 @@ videoen tilbyr en tredje innfallsvinkel som supplerer de to andre: den ser på
 hvem som faktisk deltar i markedet, og hva som skjer når gruppene ikke er i
 likevekt.
 
-Hold styr på tre roller — produsenter, forbrukere og spekulanter — og på hvem
+Hold styr på tre roller (produsenter, forbrukere og spekulanter) og på hvem
 som vil hva i terminmarkedet. Hvem må lokkes inn for at markedet skal klarere,
 og hva slags betaling krever de for å stille opp? Svaret gir navn til to
 tilstander du vil møte igjen i finanspressen: backwardation og contango.

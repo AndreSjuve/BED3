@@ -102,7 +102,7 @@ utbytte, og forventningshypotesen) står under «Opsjoner og derivater» på
 
 Oppgavene tar for seg arbitrasjeprising av forwardkontrakter, marginkonto med
 daglig oppgjør, terminpris under risikopremie og sikring av en indeksportefølje.
-Regn dem for hånd før du åpner løsningsforslaget — å lese en løsning føles som
+Regn dem for hånd før du åpner løsningsforslaget: å lese en løsning føles som
 å forstå den, og det er sjelden det samme.
 
 ::::: {.problem}
@@ -171,7 +171,7 @@ kontoen:
 
 | Dag | Oppgjørspris | Dagens gevinst/tap | Saldo |
 |---|---|---|---|
-| 0 | 90,00 | — | 12 000 |
+| 0 | 90,00 | – | 12 000 |
 | 1 | 89,20 | −0,80 · 2 000 = −1 600 | 10 400 |
 | 2 | 88,75 | −0,45 · 2 000 = −900 | 9 500 |
 | 3 | 87,90 | −0,85 · 2 000 = −1 700 | 7 800 |

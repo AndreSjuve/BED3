@@ -3,7 +3,7 @@ title: "Effekter av inflasjon"
 subtitle: "Nominelle og reelle størrelser, og hvorfor de ikke må blandes"
 ---
 
-Del 1 vurderte kontantstrømmer, del 2 lagde dem — begge i kroner, uten å
+Del 1 vurderte kontantstrømmer, del 2 lagde dem; begge i kroner, uten å
 spørre hva kronene er verdt. Dette kapittelet tar prisstigningen på alvor: hva
 skjer med kontantstrømmer, internrenter og avkastningskrav når hver krone
 kjøper litt mindre for hvert år? Nøkkelordet er konsistens: nominelle og
@@ -48,7 +48,7 @@ krever kalkulator.
   <span class="index-row__no">4</span>
   <span>
     <span class="index-row__title">Konsistens i analysen</span>
-    <span class="index-row__sub">Kontantstrøm og avkastningskrav må matche — og vektstangformelen</span>
+    <span class="index-row__sub">Kontantstrøm og avkastningskrav må matche, og vektstangformelen dukker opp igjen</span>
   </span>
   <span class="index-row__dur">08:56</span>
 </a>

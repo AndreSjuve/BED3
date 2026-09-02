@@ -1,14 +1,14 @@
 <script>
 // Quiz behaviour. Loaded site-wide but inert on pages with no .quiz block.
 // One answer per question, immediate feedback, and the explanation is shown
-// whichever way the answer went — a wrong answer is the teachable one.
+// whichever way the answer went; a wrong answer is the teachable one.
 //
 // Two things are deliberate. Answered choices are locked with aria-disabled
 // rather than the disabled property: a disabled control cannot hold focus, so
 // disabling the button the student just pressed would dump focus to <body> and
 // force a keyboard user back through the whole sidebar. And focus moves to the
 // feedback paragraph, which both keeps the student in place and gets the
-// explanation read aloud — un-hiding an element announces nothing on its own.
+// explanation read aloud; un-hiding an element announces nothing on its own.
 (function () {
   var uid = 0;
 

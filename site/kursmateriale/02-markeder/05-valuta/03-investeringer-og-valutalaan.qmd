@@ -14,7 +14,7 @@ svarene må bli like, og hvilken vei som krever minst arbeid.
 
 Til slutt: valutalån. Når renten er lavere i utlandet enn hjemme, ser et lån i
 utenlandsk valuta forlokkende ut. Regnestykket i videoen viser hva slags
-sikkerhet du gir fra deg, og hva rentefordelen egentlig består av — svaret er
+sikkerhet du gir fra deg, og hva rentefordelen egentlig består av. Svaret er
 en god lakmustest på om paritetslogikken har satt seg.
 
 ::::: {.video}

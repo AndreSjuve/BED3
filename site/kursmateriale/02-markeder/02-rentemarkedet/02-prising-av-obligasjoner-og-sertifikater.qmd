@@ -10,7 +10,7 @@ samme som for investeringsprosjekter og aksjer: verdien av en eiendel er
 nåverdien av de fremtidige kontantstrømmene. Spørsmålet er hva som står i
 telleren og nevneren når eiendelen er et lån.
 
-Videoen har tre deler. Først prises kupongobligasjoner — se etter hvilke to
+Videoen har tre deler. Først prises kupongobligasjoner; se etter hvilke to
 typer kontantstrømmer et slikt lån gir, og hva som skjer med prisen når
 markedet endrer seg etter utstedelse. Deretter: hva er riktig pris når
 obligasjonen bytter eier mellom to kupongbetalinger? Til slutt flytter videoen
@@ -68,7 +68,7 @@ ganger du vil. De to siste spørsmålene krever kalkulator.
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Om lag 6,0 prosent enkel rente</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Om lag 6,15 prosent, annualisert med renters rente</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>1,5 prosent</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Bedriftssertifikater bruker enkel rente: perioderenten er 15/1000 = 1,5 prosent, og annualisert blir det (15/1000) · (365/91) ≈ 6,02 prosent. B regner riktig tall med feil konvensjon — annualisering med renters rente, (1,015)^(365/91) − 1, er måten statssertifikater håndteres på. C er perioderenten for 91 dager og glemmer annualiseringen helt; renter oppgis alltid på årsbasis.</p>
+<p class="quiz__feedback" hidden>Bedriftssertifikater bruker enkel rente: perioderenten er 15/1000 = 1,5 prosent, og annualisert blir det (15/1000) · (365/91) ≈ 6,02 prosent. B regner riktig tall med feil konvensjon: annualisering med renters rente, (1,015)^(365/91) − 1, er måten statssertifikater håndteres på. C er perioderenten for 91 dager og glemmer annualiseringen helt; renter oppgis alltid på årsbasis.</p>
 </div>
 <p class="quiz__score" role="status" aria-live="polite"></p>
 </div>

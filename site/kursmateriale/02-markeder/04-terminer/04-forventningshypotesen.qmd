@@ -6,7 +6,7 @@ subtitle: "Når er terminprisen lik forventet spotpris?"
 ## Før du ser videoen
 
 Lagringskostnadshypotesen koblet terminprisen til dagens spotpris. Men finnes
-det også en kobling til fremtiden — til det markedet tror spotprisen blir den
+det også en kobling til fremtiden, til det markedet tror spotprisen blir den
 dagen kontrakten forfaller? Det er påstanden i forventningshypotesen, og
 videoen tar den grundig i ettersyn i stedet for å ta den for gitt.
 

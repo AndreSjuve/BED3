@@ -319,7 +319,7 @@ de relevante modulene på Canvas.</p>
   <dt style="min-width:10rem">Pensumbok</dt>
   <dd>Richard Brealey, Stewart Myers &amp; Alan Marcus (BMM), <em>Fundamentals of Corporate Finance</em>, 11. utgave, McGraw-Hill, 2023</dd>
   <dt style="min-width:10rem">Tilleggspensum</dt>
-  <dd>Knut Boye &amp; Steen Koekebakker (BK), <em>Finansielle emner</em>, 14. utgave, Cappelen Akademisk Forlag, 2006 — kapittel 6.4, lagt ut på kursets hjemmeside på Canvas</dd>
+  <dd>Knut Boye &amp; Steen Koekebakker (BK), <em>Finansielle emner</em>, 14. utgave, Cappelen Akademisk Forlag, 2006, kapittel 6.4, lagt ut på kursets hjemmeside på Canvas</dd>
   <dt style="min-width:10rem">Kursgodkjenning</dt>
   <dd>Godkjent obligatorisk caseinnlevering i gruppe med maksimalt tre studenter</dd>
   <dt style="min-width:10rem">Eksamen</dt>

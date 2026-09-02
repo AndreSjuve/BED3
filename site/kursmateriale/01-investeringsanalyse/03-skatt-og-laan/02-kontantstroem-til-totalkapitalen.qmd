@@ -31,7 +31,7 @@ avvikles.
 ::::: {.corrections}
 **Rettelser.** Kjente feil i opptaket, med riktig verdi:
 
-- **18:10** — Internrenten oppgis som «25,07 %». Riktig internrente for
+- **18:10**: Internrenten oppgis som «25,07 %». Riktig internrente for
   kontantstrømmen er ≈ 28,4 %. Konklusjonen står: begge er godt over
   avkastningskravet på 9,5 %. Samme tall står i casedokumentet.
 :::::
@@ -56,7 +56,7 @@ ganger du vil. Det siste spørsmålet krever kalkulator.
 <button class="choice" data-key="a"><span class="choice__key">A</span><span>Ved oppbyggingen, når lageret endrer størrelse, og når alt selges ut ved avvikling</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="b"><span class="choice__key">B</span><span>Hvert eneste år, siden hyllene må etterfylles kontinuerlig</span><span class="choice__mark"></span></button>
 <button class="choice" data-key="c"><span class="choice__key">C</span><span>Aldri: varelager er en balansepost og påvirker ikke kontantstrømmen</span><span class="choice__mark"></span></button>
-<p class="quiz__feedback" hidden>Etterfyllingen i B er allerede regnet med: varekostnaden for det som selges, ligger i dekningsbidraget, og påfyllet erstatter bare solgte varer. Det arbeidskapitalen fanger opp, er selve bindingen — pengene som står i hyllene så lenge butikken er åpen. Den koster ved oppbygging og ved vekst, og kommer tilbake først når driften trappes ned. C forveksler regnskap og kontanter: at posten står i balansen, hindrer ikke at det kostet ekte penger å fylle den.</p>
+<p class="quiz__feedback" hidden>Etterfyllingen i B er allerede regnet med: varekostnaden for det som selges, ligger i dekningsbidraget, og påfyllet erstatter bare solgte varer. Det arbeidskapitalen fanger opp, er selve bindingen: pengene som står i hyllene så lenge butikken er åpen. Den koster ved oppbygging og ved vekst, og kommer tilbake først når driften trappes ned. C forveksler regnskap og kontanter: at posten står i balansen, hindrer ikke at det kostet ekte penger å fylle den.</p>
 </div>
 <div class="quiz__q" data-answer="b">
 <p class="quiz__prompt">3. Et nytt prosjekt ventes å løfte salget i en annen del av bedriften. Hvilke kontantstrømeffekter gir denne positive smitteeffekten?</p>
