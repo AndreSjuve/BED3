@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="nb">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Variant B · Seddelpressen — kretsløp split test</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Spectral:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #f2ecd9;
+    --paper2: #ece4cc;
+    --ink: #16382b;
+    --ink2: #1d4a38;
+    --faded: #56705f;
+    --gold: #a8842f;
+    --gold2: #c9a44a;
+    --red: #8c2f24;
+    --hair: rgba(22, 56, 43, 0.25);
+    --hair2: rgba(22, 56, 43, 0.5);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--paper2);
+    color: var(--ink);
+    font-family: "Spectral", Georgia, serif;
+    min-height: 100vh;
+    padding: 3rem 1.5rem 5rem;
+  }
+  ::selection { background: rgba(168, 132, 47, 0.3); }
+
+  .note {
+    max-width: 74rem; margin: 0 auto;
+    background:
+      radial-gradient(120% 90% at 50% 0%, rgba(201, 164, 74, 0.10), transparent 55%),
+      var(--paper);
+    border: 1px solid var(--ink2);
+    outline: 4px double var(--ink2);
+    outline-offset: 6px;
+    padding: 3.2rem 3.4rem 2.8rem;
+    position: relative;
+  }
+  .note::before, .note::after {
+    content: "❦";
+    position: absolute; top: 0.7rem;
+    color: var(--gold);
+    font-size: 1.1rem;
+  }
+  .note::before { left: 1rem; }
+  .note::after { right: 1rem; }
+
+  header { text-align: center; margin-bottom: 2.8rem; }
+  .series {
+    font-size: 0.72rem; letter-spacing: 0.18em;
+    color: var(--red);
+    font-variant-numeric: tabular-nums;
+  }
+  h1 {
+    font-family: "Fraunces", serif;
+    font-weight: 600;
+    font-size: clamp(2.1rem, 1.3rem + 3vw, 3.4rem);
+    letter-spacing: -0.01em;
+    margin: 0.5rem 0 0.35rem;
+    color: var(--ink);
+  }
+  h1 .amp { color: var(--gold); font-style: italic; font-weight: 400; }
+  .sub {
+    font-style: italic;
+    color: var(--faded);
+    font-size: 1.02rem;
+    max-width: 46rem;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  .flourish {
+    width: 220px; height: 14px; margin: 1rem auto 0;
+    background:
+      linear-gradient(90deg, transparent, var(--gold) 20%, var(--gold2) 50%, var(--gold) 80%, transparent);
+    -webkit-mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 14"><path d="M0 7 H90 M130 7 H220 M110 1 l6 6 -6 6 -6 -6 z" stroke="black" fill="black" stroke-width="1.6"/></svg>') center/contain no-repeat;
+            mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 14"><path d="M0 7 H90 M130 7 H220 M110 1 l6 6 -6 6 -6 -6 z" stroke="black" fill="black" stroke-width="1.6"/></svg>') center/contain no-repeat;
+    animation: shimmer 5s ease-in-out infinite;
+    background-size: 220px 100%;
+  }
+  @keyframes shimmer { 50% { filter: brightness(1.35); } }
+
+  .board { position: relative; }
+  .flows { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+  .flows path {
+    fill: none;
+    stroke: var(--ink2);
+    stroke-width: 1.1;
+    stroke-dasharray: 1 6;
+    stroke-linecap: round;
+    animation: press 2.8s linear infinite;
+    transition: stroke 300ms ease, stroke-width 300ms ease;
+  }
+  .flows path.ret { stroke: var(--gold); animation-direction: reverse; }
+  .flows path.lit { stroke: var(--red); stroke-width: 1.8; }
+  .flows path.ret.lit { stroke: var(--gold2); stroke-width: 1.8; }
+  @keyframes press { to { stroke-dashoffset: -21; } }
+
+  .stations {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+    z-index: 2;
+  }
+  .station {
+    border: 1px solid var(--ink2);
+    box-shadow: inset 0 0 0 3px var(--paper), inset 0 0 0 4px var(--hair2);
+    background:
+      repeating-linear-gradient(45deg, rgba(22, 56, 43, 0.035) 0 1px, transparent 1px 5px),
+      var(--paper);
+    padding: 1.5rem 1.4rem 1.5rem;
+    text-align: center;
+    transition: opacity 260ms ease, box-shadow 260ms ease;
+  }
+  .station.lit {
+    box-shadow: inset 0 0 0 3px var(--paper), inset 0 0 0 4px var(--gold), 0 6px 24px -12px rgba(22, 56, 43, 0.5);
+  }
+  .board.exploring .station:not(.lit),
+  .board.exploring .risk:not(.lit) { opacity: 0.35; }
+
+  .rosette { width: 54px; height: 54px; margin: 0 auto 0.6rem; display: block; }
+  .rosette circle, .rosette path { fill: none; stroke: var(--gold); stroke-width: 0.8; }
+  .rosette .mid { stroke: var(--ink2); }
+  .station.lit .rosette { animation: spin 14s linear infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  .station h2 {
+    font-family: "Fraunces", serif;
+    font-weight: 600;
+    font-size: 1.35rem;
+    color: var(--ink);
+  }
+  .station .role { font-style: italic; color: var(--faded); font-size: 0.92rem; margin: 0.1rem 0 1rem; }
+  .chips { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.45rem; }
+  .chip {
+    appearance: none; cursor: pointer;
+    font: 500 0.85rem/1.1 "Spectral", serif;
+    color: var(--ink2);
+    background: var(--paper);
+    border: 1px solid var(--hair2);
+    box-shadow: 2px 2px 0 rgba(22, 56, 43, 0.15);
+    padding: 0.42rem 0.7rem;
+    transition: transform 160ms ease, box-shadow 160ms ease, background 160ms ease, color 160ms ease;
+  }
+  .chip:hover, .chip:focus-visible { transform: translate(-1px, -1px); box-shadow: 3px 3px 0 rgba(22, 56, 43, 0.2); }
+  .chip:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+  .chip.on {
+    background: var(--ink2);
+    color: var(--paper);
+    border-color: var(--ink2);
+    box-shadow: 2px 2px 0 var(--gold);
+  }
+
+  .risk {
+    position: relative; z-index: 2;
+    margin: 2.4rem auto 0;
+    width: fit-content;
+    text-align: center;
+    transition: opacity 260ms ease;
+  }
+  .risk .lbl {
+    display: block;
+    font-style: italic; color: var(--faded); font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+  }
+  .retlbl {
+    position: relative; z-index: 2;
+    margin-top: 2.4rem;
+    text-align: center;
+    font-style: italic; color: var(--faded); font-size: 0.85rem;
+  }
+  .retlbl b { color: var(--gold); font-weight: 500; font-style: normal; }
+
+  .stub {
+    margin-top: 2.2rem;
+    border-top: 1px dashed var(--hair2);
+    padding-top: 1.4rem;
+    min-height: 8.5rem;
+  }
+  .stub .hint { font-style: italic; color: var(--faded); text-align: center; }
+  .stub h3 { font-family: "Fraunces", serif; font-weight: 600; font-size: 1.5rem; }
+  .stub .meta {
+    display: inline-block;
+    font-size: 0.72rem; letter-spacing: 0.14em;
+    color: var(--red);
+    margin: 0.25rem 0 0.6rem;
+  }
+  .stub p.body { max-width: 62rem; line-height: 1.7; color: var(--ink2); }
+  .stub a {
+    display: inline-block; margin-top: 0.8rem;
+    color: var(--ink); font-weight: 500;
+    text-decoration: none;
+    border-bottom: 2px solid var(--gold);
+    transition: border-color 160ms ease, color 160ms ease;
+  }
+  .stub a:hover { color: var(--red); border-color: var(--red); }
+  .stub.pop { animation: unfold 360ms ease-out; }
+  @keyframes unfold { from { opacity: 0; transform: translateY(6px); } }
+
+  @media (max-width: 860px) {
+    .note { padding: 2.2rem 1.4rem; }
+    .stations { grid-template-columns: 1fr; gap: 2rem; }
+    .flows { display: none; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .flows path, .flourish, .station.lit .rosette, .stub.pop { animation: none; }
+  }
+</style>
+</head>
+<body>
+<div class="note">
+  <header>
+    <div class="series">BED3 · serie 2026 · nr. 001</div>
+    <h1>Kapitalens kretsløp, <span class="amp">slik henger kurset sammen</span></h1>
+    <p class="sub">Kapitalen renner fra husholdningene som sparer, gjennom kapitalmarkedet som setter en pris på den, til bedriftene som investerer den i prosjekter.</p>
+    <div class="flourish"></div>
+  </header>
+
+  <div class="board" id="board">
+    <svg class="flows" id="flows"></svg>
+
+    <div class="stations">
+      <div class="station" data-station="hush">
+        <svg class="rosette" viewBox="0 0 54 54" aria-hidden="true"></svg>
+        <h2>Husholdningene</h2>
+        <p class="role">eier ressursene og sparer</p>
+        <div class="chips">
+          <button class="chip" data-topic="portefoljeteori">Porteføljeteori</button>
+          <button class="chip" data-topic="baerekraft">Bærekraftige investeringer</button>
+        </div>
+      </div>
+      <div class="station" data-station="marked">
+        <svg class="rosette" viewBox="0 0 54 54" aria-hidden="true"></svg>
+        <h2>Kapitalmarkedet</h2>
+        <p class="role">setter prisen på kapital</p>
+        <div class="chips">
+          <button class="chip" data-topic="kvm">Kapitalverdimodellen</button>
+          <button class="chip" data-topic="rentemarkedet">Rentemarkedet</button>
+          <button class="chip" data-topic="valuta">Internasjonal finans</button>
+        </div>
+      </div>
+      <div class="station" data-station="bedrift">
+        <svg class="rosette" viewBox="0 0 54 54" aria-hidden="true"></svg>
+        <h2>Bedriftene</h2>
+        <p class="role">investerer i prosjekter</p>
+        <div class="chips">
+          <button class="chip" data-topic="investeringsprosjekter">Investeringsprosjekter</button>
+          <button class="chip" data-topic="skatt-laan">Effekter av skatt og lån</button>
+          <button class="chip" data-topic="inflasjon">Effekter av inflasjon</button>
+          <button class="chip" data-topic="risikovurderinger">Risikovurderinger</button>
+          <button class="chip" data-topic="laan-betaling">Låne- og betalingsalternativer</button>
+          <button class="chip" data-topic="kapitalstruktur">Kapitalstruktur</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="risk" data-station="risk">
+      <span class="lbl">flytter risiko mellom aktørene</span>
+      <button class="chip" data-topic="opsjoner">Opsjonskontrakter</button>
+      <button class="chip" data-topic="terminer">Terminkontrakter</button>
+    </div>
+
+    <p class="retlbl"><b>avkastningen</b> vender tilbake til husholdningene</p>
+  </div>
+
+  <div class="stub" id="card">
+    <p class="hint">Velg et tema for å se hvor det hører hjemme i kretsløpet.</p>
+  </div>
+</div>
+
+<script>
+(function () {
+  "use strict";
+  var TOPICS = {
+    portefoljeteori: { title: "Porteføljeteori", meta: "Undervises i plenum", link: "../../site/_site/timeplan.html", linkLabel: "Se timeplanen",
+      body: "Husholdningene sparer ikke i ett enkelt prosjekt, men i porteføljer av mange. Porteføljeteorien viser hvordan risiko kan spres mellom aktiva, og hvorfor det bare er risikoen som ikke lar seg diversifisere bort som gir betalt i markedet." },
+    baerekraft: { title: "Bærekraftige investeringer", meta: "Undervises i plenum", link: "../../site/_site/timeplan.html", linkLabel: "Se timeplanen",
+      body: "Sparingen skal ikke bare kaste av seg, den skal også forvaltes i tråd med det eierne står for. Vi ser på hvordan bærekraft og etiske hensyn påvirker hvilke investeringer kapitalen går til, og hva slike hensyn gjør med avkastningskravet." },
+    kvm: { title: "Kapitalverdimodellen", meta: "Undervises i plenum", link: "../../site/_site/timeplan.html", linkLabel: "Se timeplanen",
+      body: "Kapitalverdimodellen er markedets prislapp på risiko: forventet avkastning bestemmes av hvor mye markedsrisiko en investering bærer. Prisen markedet setter her, blir avkastningskravet bedriftene må regne med i sine analyser." },
+    rentemarkedet: { title: "Rentemarkedet", meta: "Modul 13 · 2 t 40 min", link: "../../site/_site/kursmateriale/02-markeder/02-rentemarkedet/index.html", linkLabel: "Gå til modulen",
+      body: "Renten er prisen på å flytte penger i tid, og rentemarkedet er der den prisen dannes. Vi priser obligasjoner og sertifikater, leser terminrenter og måler renterisiko med durasjon." },
+    valuta: { title: "Internasjonal finans", meta: "Modul 16 · 41 min", link: "../../site/_site/kursmateriale/02-markeder/05-valuta/index.html", linkLabel: "Gå til modulen",
+      body: "Kapital krysser landegrenser, og da må den veksles. Vi ser hvordan valutakurser noteres, hva paritetsbetingelsene sier om sammenhengen mellom renter og kurser, og hva det betyr for investeringer og lån i utenlandsk valuta." },
+    investeringsprosjekter: { title: "Investeringsprosjekter", meta: "Modul 1 · 71 min", link: "../../site/_site/kursmateriale/01-investeringsanalyse/02-investeringsprosjekter/index.html", linkLabel: "Gå til modulen",
+      body: "Her møter kapitalen prosjektene. Netto nåverdi og internrente er beslutningsreglene som avgjør hvilke prosjekter som skaper verdi, og hvilke som bør vrakes når kapitalen ikke strekker til alt." },
+    "skatt-laan": { title: "Effekter av skatt og lån", meta: "Modul 2 · 81 min", link: "../../site/_site/kursmateriale/01-investeringsanalyse/03-skatt-og-laan/index.html", linkLabel: "Gå til modulen",
+      body: "Et prosjekt må vurderes etter kontantstrømmene det faktisk gir eierne, og både skatt og lån endrer dem. Vi ser hvordan avskrivninger, skattesatser og lånefinansiering flettes inn i analysen." },
+    inflasjon: { title: "Effekter av inflasjon", meta: "Modul 3 · 40 min", link: "../../site/_site/kursmateriale/01-investeringsanalyse/04-inflasjon/index.html", linkLabel: "Gå til modulen",
+      body: "Når prisnivået stiger, er ikke en krone i dag og en krone om ti år samme størrelse. Vi skiller nominelle og reelle størrelser og sørger for at kontantstrømmer og avkastningskrav måles i samme enhet." },
+    risikovurderinger: { title: "Risikovurderinger", meta: "Modul 4 · 74 min", link: "../../site/_site/kursmateriale/01-investeringsanalyse/05-risikovurderinger/index.html", linkLabel: "Gå til modulen",
+      body: "Kontantstrømmene i en analyse er anslag, ikke fasit. Stjernediagram, scenarioanalyse, simulering og beslutningstrær stresstester forutsetningene og viser hvor følsom lønnsomheten er for at de ryker." },
+    "laan-betaling": { title: "Låne- og betalingsalternativer", meta: "Modul 5 · 46 min", link: "../../site/_site/kursmateriale/01-investeringsanalyse/06-laane-og-betalingsalternativer/index.html", linkLabel: "Gå til modulen",
+      body: "Samme investering kan finansieres og betales på mange måter: serielån, annuitetslån eller leasing. Effektiv rente gir en felles målestokk som gjør alternativene sammenlignbare." },
+    kapitalstruktur: { title: "Kapitalstruktur", meta: "Undervises i plenum", link: "../../site/_site/timeplan.html", linkLabel: "Se timeplanen",
+      body: "Bedriften kan hente kapitalen som gjeld eller egenkapital, og blandingen kalles kapitalstrukturen. Vi ser hva miksen gjør med risikoen, avkastningskravet og verdien av selskapet." },
+    opsjoner: { title: "Opsjonskontrakter", meta: "Modul 14 · 1 t 58 min", link: "../../site/_site/kursmateriale/02-markeder/03-opsjoner/index.html", linkLabel: "Gå til modulen",
+      body: "En opsjon gir retten, men ikke plikten, til å kjøpe eller selge til en avtalt pris. Slik kan risiko flyttes fra den som ikke vil bære den, til den som tar betalt for å gjøre det. Vi ser også hvordan slike kontrakter prises." },
+    terminer: { title: "Terminkontrakter", meta: "Modul 15 · 1 t 42 min", link: "../../site/_site/kursmateriale/02-markeder/04-terminer/index.html", linkLabel: "Gå til modulen",
+      body: "En terminkontrakt låser prisen på en fremtidig handel allerede i dag. Det gjør fremtiden mer forutsigbar for begge parter, og vi ser hvordan terminpriser henger sammen med spotpriser og forventninger." }
+  };
+  var STATION_OF = {
+    portefoljeteori: "hush", baerekraft: "hush",
+    kvm: "marked", rentemarkedet: "marked", valuta: "marked",
+    investeringsprosjekter: "bedrift", "skatt-laan": "bedrift", inflasjon: "bedrift",
+    risikovurderinger: "bedrift", "laan-betaling": "bedrift", kapitalstruktur: "bedrift",
+    opsjoner: "risk", terminer: "risk"
+  };
+  var PATHS_OF = { hush: ["p1"], marked: ["p1", "p2"], bedrift: ["p2"], risk: ["p1", "p2"] };
+
+  var board = document.getElementById("board");
+  var flows = document.getElementById("flows");
+  var card = document.getElementById("card");
+  var defaultCard = card.innerHTML;
+  var pinned = null;
+  var pathEls = {};
+
+  /* guilloché rosettes: layered rose curves r = a·cos(kθ) */
+  document.querySelectorAll(".rosette").forEach(function (svg, idx) {
+    var c = 27, parts = [];
+    parts.push('<circle cx="27" cy="27" r="25"/>');
+    parts.push('<circle class="mid" cx="27" cy="27" r="19"/>');
+    [[7, 24], [5, 17], [9, 12]].forEach(function (cfg, j) {
+      var k = cfg[0] + idx, a = cfg[1], d = "";
+      for (var i = 0; i <= 360; i += 2) {
+        var th = i * Math.PI / 180;
+        var r = a * Math.cos(k * th) * 0.5 + a * 0.5 + 3;
+        var x = c + r * Math.cos(th), y = c + r * Math.sin(th);
+        d += (i === 0 ? "M" : "L") + x.toFixed(1) + " " + y.toFixed(1);
+      }
+      parts.push('<path class="' + (j === 1 ? "mid" : "") + '" d="' + d + 'Z"/>');
+    });
+    svg.innerHTML = parts.join("");
+  });
+
+  function anchor(sel, side) {
+    var b = board.getBoundingClientRect();
+    var r = board.querySelector(sel).getBoundingClientRect();
+    return {
+      x: (side === "left" ? r.left : side === "right" ? r.right : r.left + r.width / 2) - b.left,
+      y: (side === "bottom" ? r.bottom : r.top + r.height / 2) - b.top
+    };
+  }
+  function layoutPaths() {
+    var b = board.getBoundingClientRect();
+    flows.setAttribute("viewBox", "0 0 " + b.width + " " + b.height);
+    var a1 = anchor('[data-station="hush"]', "right");
+    var b1 = anchor('[data-station="marked"]', "left");
+    var a2 = anchor('[data-station="marked"]', "right");
+    var b2 = anchor('[data-station="bedrift"]', "left");
+    var e1 = anchor('[data-station="bedrift"]', "bottom");
+    var e2 = anchor('[data-station="hush"]', "bottom");
+    var retY = b.height - 12;
+    flows.innerHTML =
+      '<path id="p1" d="M' + a1.x + " " + a1.y + " C " + (a1.x + 50) + " " + (a1.y - 24) + ", " + (b1.x - 50) + " " + (b1.y - 24) + ", " + b1.x + " " + b1.y + '"/>' +
+      '<path id="p2" d="M' + a2.x + " " + a2.y + " C " + (a2.x + 50) + " " + (a2.y - 24) + ", " + (b2.x - 50) + " " + (b2.y - 24) + ", " + b2.x + " " + b2.y + '"/>' +
+      '<path id="p3" class="ret" d="M' + e1.x + " " + (e1.y + 6) + " C " + e1.x + " " + retY + ", " + e2.x + " " + retY + ", " + e2.x + " " + (e2.y + 6) + '"/>';
+    pathEls = { p1: flows.querySelector("#p1"), p2: flows.querySelector("#p2"), p3: flows.querySelector("#p3") };
+  }
+
+  function clearState() {
+    board.classList.remove("exploring");
+    board.querySelectorAll(".lit").forEach(function (el) { el.classList.remove("lit"); });
+    board.querySelectorAll(".chip.on").forEach(function (el) { el.classList.remove("on"); });
+  }
+  function show(chip) {
+    var id = chip.getAttribute("data-topic");
+    var t = TOPICS[id];
+    clearState();
+    board.classList.add("exploring");
+    chip.classList.add("on");
+    var st = STATION_OF[id];
+    var stEl = board.querySelector('[data-station="' + st + '"]');
+    if (stEl) stEl.classList.add("lit");
+    (PATHS_OF[st] || []).forEach(function (pid) { if (pathEls[pid]) pathEls[pid].classList.add("lit"); });
+    if (!t) return;
+    card.innerHTML = "<h3></h3><span class='meta'></span><p class='body'></p><a></a>";
+    card.querySelector("h3").textContent = t.title;
+    card.querySelector(".meta").textContent = t.meta;
+    card.querySelector(".body").textContent = t.body;
+    var a = card.querySelector("a");
+    a.textContent = t.linkLabel;
+    a.href = t.link;
+    card.classList.remove("pop"); void card.offsetWidth; card.classList.add("pop");
+  }
+  function reset() { clearState(); card.innerHTML = defaultCard; pinned = null; }
+
+  board.querySelectorAll(".chip").forEach(function (chip) {
+    chip.addEventListener("mouseenter", function () { if (!pinned) show(chip); });
+    chip.addEventListener("focus", function () { if (!pinned) show(chip); });
+    chip.addEventListener("click", function () {
+      var id = chip.getAttribute("data-topic");
+      if (pinned === id) { reset(); } else { pinned = id; show(chip); }
+    });
+  });
+  board.addEventListener("mouseleave", function () { if (!pinned) reset(); });
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape" && pinned) reset(); });
+
+  layoutPaths();
+  addEventListener("resize", layoutPaths);
+})();
+</script>
+</body>
+</html>
