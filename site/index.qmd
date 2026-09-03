@@ -50,12 +50,6 @@ dekker kjernematerialet i investeringsanalyse og finansielle markeder og kontrak
 ::::
 :::::
 
-## Slik henger kurset sammen
-
-Kapitalen renner fra husholdningene som sparer, gjennom kapitalmarkedet som
-setter en pris på den, til bedriftene som investerer den i prosjekter. Hvert
-tema i kurset hører hjemme et sted i det kretsløpet.
-
 {{< include _includes/kretslop.html >}}
 
 ## Det du finner her

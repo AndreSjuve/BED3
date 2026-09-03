@@ -1,76 +1,64 @@
 ```{=html}
 <div class="kretslop" id="kretslop">
-  <div class="kretslop__diagram">
+  <div class="kl-shell">
+    <h2 class="kl-title">Slik henger kurset <em>sammen</em></h2>
+    <p class="kl-lede">Kapitalen renner fra husholdningene som sparer, gjennom markedene som setter en pris på kapital og risiko, til bedriftene som investerer den i prosjekter. Hvert tema i kurset hører hjemme et sted i det kretsløpet.</p>
 
-    <div class="kretslop__station" data-station="husholdningene">
-      <h3 class="kretslop__station-name">Husholdningene</h3>
-      <p class="kretslop__station-role">eier ressursene og sparer</p>
-      <ul class="kretslop__topics">
-        <li><a class="kretslop__topic" data-topic="portefoljeteori" href="timeplan.html">Porteføljeteori</a></li>
-        <li><a class="kretslop__topic" data-topic="baerekraft" href="timeplan.html">Bærekraftige investeringer</a></li>
-      </ul>
+    <div class="kl-board" id="kl-board">
+      <svg class="kl-flows" id="kl-flows" aria-hidden="true"></svg>
+      <canvas class="kl-sparks" id="kl-sparks" aria-hidden="true"></canvas>
+
+      <div class="kl-stations">
+        <div class="kl-station" data-station="hush">
+          <h3 class="kl-name">Husholdningene</h3>
+          <p class="kl-role">eier ressursene og sparer</p>
+          <div class="kl-chips">
+            <a class="kl-chip" data-topic="portefoljeteori" href="timeplan.html">Porteføljeteori</a>
+            <a class="kl-chip" data-topic="baerekraft" href="timeplan.html">Bærekraftige investeringer</a>
+          </div>
+        </div>
+
+        <div class="kl-station" data-station="marked">
+          <h3 class="kl-name">Markedene</h3>
+          <p class="kl-role">priser kapital og risiko</p>
+          <div class="kl-sub" data-station="kapmarked">
+            <h4 class="kl-subname">Kapitalmarkedet</h4>
+            <p class="kl-subrole">flytter sparing til investering</p>
+            <div class="kl-chips">
+              <a class="kl-chip" data-topic="kvm" href="timeplan.html">Kapitalverdimodellen</a>
+              <a class="kl-chip" data-topic="aksjeprising" href="timeplan.html">Aksjeprising og markedseffisiens</a>
+              <a class="kl-chip" data-topic="rentemarkedet" href="kursmateriale/02-markeder/02-rentemarkedet/index.html">Rentemarkedet</a>
+              <a class="kl-chip" data-topic="valuta" href="kursmateriale/02-markeder/05-valuta/index.html">Internasjonal finans</a>
+            </div>
+          </div>
+          <div class="kl-sub" data-station="derivat">
+            <h4 class="kl-subname">Derivatmarkedene</h4>
+            <p class="kl-subrole">flytter risiko mellom aktørene</p>
+            <div class="kl-chips">
+              <a class="kl-chip" data-topic="opsjoner" href="kursmateriale/02-markeder/03-opsjoner/index.html">Opsjonskontrakter</a>
+              <a class="kl-chip" data-topic="terminer" href="kursmateriale/02-markeder/04-terminer/index.html">Terminkontrakter</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="kl-station" data-station="bedrift">
+          <h3 class="kl-name">Bedriftene</h3>
+          <p class="kl-role">maksimerer verdi gjennom tre beslutninger</p>
+          <div class="kl-chips">
+            <a class="kl-chip" data-topic="investeringsbeslutningen" href="kursinnhold.html#investeringsanalyse">Investeringsbeslutningen</a>
+            <a class="kl-chip" data-topic="finansieringsbeslutningen" href="kursinnhold.html#investeringsanalyse">Finansieringsbeslutningen</a>
+            <a class="kl-chip" data-topic="utbyttebeslutningen" href="timeplan.html">Utbyttebeslutningen</a>
+          </div>
+        </div>
+      </div>
+
+      <p class="kl-retlbl"><b>avkastningen</b> vender tilbake til husholdningene</p>
     </div>
 
-    <div class="kretslop__link" data-link="til-markedet" aria-hidden="true">
-      <svg>
-        <defs>
-          <marker id="kretslop-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-            <path class="kretslop__flow-head" d="M0 0 L10 5 L0 10 Z" />
-          </marker>
-        </defs>
-        <line class="kretslop__flow-line" x1="0" y1="50%" x2="92%" y2="50%" marker-end="url(#kretslop-arrow)" />
-      </svg>
-      <span class="kretslop__link-label">sparing</span>
+    <div class="kl-card" id="kl-card">
+      <p class="kl-hint">Velg et tema for å se hvor det hører hjemme i kretsløpet, eller les
+        <a href="kursmateriale/00-bakteppe.html">hele historien i bakteppet</a>.</p>
     </div>
-
-    <div class="kretslop__station" data-station="markedet">
-      <h3 class="kretslop__station-name">Kapitalmarkedet</h3>
-      <p class="kretslop__station-role">setter prisen på kapital</p>
-      <ul class="kretslop__topics">
-        <li><a class="kretslop__topic" data-topic="kvm" href="timeplan.html">Kapitalverdimodellen</a></li>
-        <li><a class="kretslop__topic" data-topic="rentemarkedet" href="kursmateriale/02-markeder/02-rentemarkedet/index.html">Rentemarkedet</a></li>
-        <li><a class="kretslop__topic" data-topic="valuta" href="kursmateriale/02-markeder/05-valuta/index.html">Internasjonal finans</a></li>
-      </ul>
-    </div>
-
-    <div class="kretslop__link" data-link="til-bedriftene" aria-hidden="true">
-      <svg>
-        <line class="kretslop__flow-line" x1="0" y1="50%" x2="92%" y2="50%" marker-end="url(#kretslop-arrow)" />
-      </svg>
-      <span class="kretslop__link-label">kapital</span>
-    </div>
-
-    <div class="kretslop__station" data-station="bedriftene">
-      <h3 class="kretslop__station-name">Bedriftene</h3>
-      <p class="kretslop__station-role">investerer i prosjekter</p>
-      <ul class="kretslop__topics">
-        <li><a class="kretslop__topic" data-topic="investeringsprosjekter" href="kursmateriale/01-investeringsanalyse/02-investeringsprosjekter/index.html">Investeringsprosjekter</a></li>
-        <li><a class="kretslop__topic" data-topic="skatt-laan" href="kursmateriale/01-investeringsanalyse/03-skatt-og-laan/index.html">Effekter av skatt og lån</a></li>
-        <li><a class="kretslop__topic" data-topic="inflasjon" href="kursmateriale/01-investeringsanalyse/04-inflasjon/index.html">Effekter av inflasjon</a></li>
-        <li><a class="kretslop__topic" data-topic="risikovurderinger" href="kursmateriale/01-investeringsanalyse/05-risikovurderinger/index.html">Risikovurderinger</a></li>
-        <li><a class="kretslop__topic" data-topic="laan-betaling" href="kursmateriale/01-investeringsanalyse/06-laane-og-betalingsalternativer/index.html">Låne- og betalingsalternativer</a></li>
-        <li><a class="kretslop__topic" data-topic="kapitalstruktur" href="timeplan.html">Kapitalstruktur</a></li>
-      </ul>
-    </div>
-
-    <div class="kretslop__risk">
-      <span class="kretslop__risk-label">flytter risiko mellom aktørene</span>
-      <a class="kretslop__topic" data-topic="opsjoner" href="kursmateriale/02-markeder/03-opsjoner/index.html">Opsjonskontrakter</a>
-      <a class="kretslop__topic" data-topic="terminer" href="kursmateriale/02-markeder/04-terminer/index.html">Terminkontrakter</a>
-    </div>
-
-    <div class="kretslop__return" aria-hidden="true">
-      <svg>
-        <line class="kretslop__flow-line kretslop__flow-line--return" x1="1%" y1="50%" x2="100%" y2="50%" marker-start="url(#kretslop-arrow)" />
-      </svg>
-      <span class="kretslop__link-label">avkastningen vender tilbake</span>
-    </div>
-
-  </div>
-
-  <div class="kretslop__card" id="kretslop-card" aria-live="polite">
-    <p class="kretslop__card-hint">Velg et tema for å se hvor det hører hjemme i kretsløpet, eller les
-      <a href="kursmateriale/00-bakteppe.html">hele historien i bakteppet</a>.</p>
   </div>
 </div>
 <script src="assets/kretslop.js" defer></script>

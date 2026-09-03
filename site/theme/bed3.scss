@@ -547,7 +547,7 @@ main.content .btn.button--quiet, .button--quiet {
 // Lists
 // =============================================================================
 
-main.content ul:not(.sidebar-section):not(.navbar-nav):not(.breadcrumb):not(.kretslop__topics) {
+main.content ul:not(.sidebar-section):not(.navbar-nav):not(.breadcrumb) {
   padding-left: 0;
   list-style: none;
 
@@ -1095,226 +1095,276 @@ details.solution {
 }
 
 // =============================================================================
-// Kapitalens kretsløp (forsiden)
+// Kapitalens kretslop (forsiden) - the one sanctioned dark band on the site.
+// Ported from design/kretslop-variants/a2-nattborsen-hus.html; palette is the
+// "night" translation of the paper/oxblood system, documented in DESIGN.md.
 // =============================================================================
 
+$kl-bg:     #150a09;
+$kl-bg2:    #1c0f0d;
+$kl-line:   rgba(201, 169, 161, 0.14);
+$kl-dim:    #c2a89d;
+$kl-faint:  #8a6f65;
+$kl-ember:  #e05b41;
+$kl-gold:   #d3a24a;
+$kl-glass:  rgba(245, 237, 227, 0.03);
+$kl-edge:   rgba(245, 237, 227, 0.09);
+
+html:has(.kretslop), body:has(.kretslop) { overflow-x: clip; }
+
 .kretslop {
-  margin-top: 2rem;
-}
-
-.kretslop__diagram {
-  display: grid;
-  grid-template-columns: 1fr 3.5rem 1fr 3.5rem 1fr;
-  grid-template-areas:
-    "hush  linka marked linkb bedrift"
-    "risk  risk  risk   risk  risk"
-    "retur retur retur  retur retur";
-  align-items: start;
-  column-gap: 0;
-  row-gap: 1.25rem;
-}
-
-.kretslop__station[data-station="husholdningene"] { grid-area: hush; }
-.kretslop__link[data-link="til-markedet"]         { grid-area: linka; }
-.kretslop__station[data-station="markedet"]       { grid-area: marked; }
-.kretslop__link[data-link="til-bedriftene"]       { grid-area: linkb; }
-.kretslop__station[data-station="bedriftene"]     { grid-area: bedrift; }
-.kretslop__risk                                   { grid-area: risk; }
-.kretslop__return                                 { grid-area: retur; }
-
-.kretslop__station {
-  border: 1px solid $bed3-rule-strong;
-  background: $bed3-wash;
-  padding: 1rem 1.1rem 1.1rem;
-}
-
-.kretslop__station-name {
-  font-family: $bed3-display;
-  font-size: $h3-font-size;
-  margin: 0;
-}
-
-.kretslop__station-role {
-  color: $bed3-muted;
-  font-size: 0.9375rem;
-  font-style: italic;
-  margin: 0 0 0.75rem;
-}
-
-.kretslop__topics {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 0.35rem;
-}
-
-.kretslop__topic {
-  display: inline-block;
-  border: 1px solid $bed3-rule-strong;
-  background: $bed3-paper;
-  color: $bed3-oxblood;
-  padding: 0.3rem 0.75rem;
-  font-size: 0.9375rem;
-  text-decoration: none;
-}
-
-.kretslop__topic:hover,
-.kretslop__topic:focus-visible,
-.kretslop__topic.is-active {
-  background: $bed3-oxblood;
+  margin: var(--sp-6) calc(50% - 50vw);
+  padding: 4rem 0 4.5rem;
+  background:
+    radial-gradient(1100px 600px at 70% -10%, rgba(224, 91, 65, 0.09), transparent 60%),
+    radial-gradient(900px 500px at 10% 110%, rgba(211, 162, 74, 0.07), transparent 60%),
+    $kl-bg;
   color: $bed3-paper;
-  border-color: $bed3-oxblood;
+
+  ::selection { background: rgba(224, 91, 65, 0.35); }
+
+  .kl-shell {
+    max-width: 78rem;
+    margin: 0 auto;
+    padding: 0 clamp(1.5rem, 5vw, 6rem);
+  }
+
+  .kl-title {
+    font-family: $bed3-display;
+    font-size: clamp(2.2rem, 1.5rem + 2.8vw, 3.4rem);
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    line-height: 1.05;
+    color: $bed3-paper;
+    margin: 0 0 0.6rem;
+    max-width: none;
+
+    em { font-style: italic; font-weight: 500; color: $kl-ember; }
+  }
+
+  .kl-lede {
+    max-width: 44rem;
+    color: $kl-dim;
+    font-size: 1.15rem;
+    line-height: 1.65;
+    margin: 0 0 2.8rem;
+  }
+
+  .kl-board {
+    position: relative;
+    border: 1px solid $kl-line;
+    border-radius: 20px;
+    background:
+      linear-gradient(180deg, rgba(245, 237, 227, 0.02), rgba(245, 237, 227, 0) 40%),
+      $kl-bg2;
+    padding: 3rem 2.5rem 2.5rem;
+    overflow: hidden;
+
+    &::before {
+      content: "";
+      position: absolute; inset: 0;
+      background-image:
+        linear-gradient($kl-line 1px, transparent 1px),
+        linear-gradient(90deg, $kl-line 1px, transparent 1px);
+      background-size: 44px 44px;
+      opacity: 0.3;
+      mask-image: radial-gradient(closest-side at 50% 40%, #000, transparent);
+      pointer-events: none;
+    }
+  }
+
+  .kl-flows, .kl-sparks {
+    position: absolute; inset: 0;
+    width: 100%; height: 100%;
+    pointer-events: none;
+  }
+
+  .kl-flows path {
+    fill: none;
+    stroke: rgba(194, 168, 157, 0.26);
+    stroke-width: 1.25;
+    transition: stroke 300ms ease, filter 300ms ease;
+
+    &.lit {
+      stroke: $kl-ember;
+      filter: drop-shadow(0 0 6px rgba(224, 91, 65, 0.8));
+    }
+    &.ret.lit {
+      stroke: $kl-gold;
+      filter: drop-shadow(0 0 6px rgba(211, 162, 74, 0.8));
+    }
+  }
+
+  .kl-stations {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4.5rem;
+    align-items: center;
+    z-index: 2;
+  }
+
+  .kl-station {
+    border: 1px solid $kl-edge;
+    border-radius: 16px;
+    background: $kl-glass;
+    backdrop-filter: blur(14px);
+    padding: 1.4rem 1.4rem 1.5rem;
+    transition: opacity 260ms ease, border-color 260ms ease;
+  }
+
+  .kl-station.lit, .kl-sub.lit {
+    border-color: rgba(224, 91, 65, 0.5);
+    box-shadow: 0 0 0 1px rgba(224, 91, 65, 0.25), 0 18px 50px -20px rgba(224, 91, 65, 0.35);
+  }
+
+  .kl-board.exploring .kl-station:not(.lit):not(.has-lit) { opacity: 0.3; }
+  .kl-board.exploring .has-lit .kl-sub:not(.lit) { opacity: 0.35; }
+
+  .kl-name {
+    font-family: $bed3-display;
+    font-size: 1.5rem; font-weight: 600;
+    color: $bed3-paper;
+    margin: 0;
+  }
+
+  .kl-role {
+    font-family: $bed3-text; font-style: italic;
+    color: $kl-dim; font-size: 1rem; margin: 0.1rem 0 1rem;
+    max-width: none;
+  }
+
+  .kl-sub {
+    border: 1px solid $kl-edge;
+    border-radius: 12px;
+    background: rgba(245, 237, 227, 0.02);
+    padding: 1rem 1rem 1.1rem;
+    transition: opacity 260ms ease, border-color 260ms ease;
+
+    + .kl-sub { margin-top: 1rem; }
+  }
+
+  .kl-subname {
+    font-family: $bed3-display;
+    font-size: 1.2rem; font-weight: 600;
+    color: $bed3-paper;
+    margin: 0;
+  }
+
+  .kl-subrole {
+    font-family: $bed3-text; font-style: italic;
+    color: $kl-faint; font-size: 0.9rem; margin: 0 0 0.7rem;
+    max-width: none;
+  }
+
+  .kl-chips { display: flex; flex-wrap: wrap; gap: 0.45rem; }
+
+  .kl-chip {
+    border: 1px solid $kl-edge;
+    background: rgba(245, 237, 227, 0.04);
+    color: $bed3-paper;
+    font: 500 0.82rem/1.25 "Inter", system-ui, sans-serif;
+    text-align: left;
+    padding: 0.55rem 0.8rem;
+    border-radius: 999px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 180ms ease-out,
+                border-color 180ms ease, background 180ms ease, box-shadow 180ms ease;
+
+    &:hover, &:focus-visible {
+      transform: translateY(-2px);
+      border-color: rgba(224, 91, 65, 0.6);
+      color: $bed3-paper;
+    }
+    &:focus-visible { outline: 2px solid $kl-ember; outline-offset: 2px; }
+    &.on {
+      background: linear-gradient(135deg, rgba(224, 91, 65, 0.30), rgba(211, 162, 74, 0.22));
+      border-color: rgba(224, 91, 65, 0.8);
+      box-shadow: 0 0 18px -2px rgba(224, 91, 65, 0.5);
+      color: $bed3-paper;
+    }
+  }
+
+  .kl-retlbl {
+    position: relative; z-index: 2;
+    text-align: center; margin: 2.8rem 0 0;
+    font-family: $bed3-text; font-style: italic;
+    font-size: 0.9rem; color: $kl-faint;
+    max-width: none;
+
+    b { color: $kl-gold; font-weight: 500; font-style: normal; }
+  }
+
+  .kl-card {
+    margin-top: 1.6rem;
+    border: 1px solid $kl-line;
+    border-radius: 16px;
+    background: $kl-glass;
+    backdrop-filter: blur(14px);
+    padding: 1.5rem 1.7rem;
+    min-height: 10rem;
+    display: grid; align-content: center;
+  }
+
+  .kl-hint {
+    font-family: $bed3-text; font-style: italic;
+    color: $kl-dim; font-size: 1.02rem; margin: 0;
+    max-width: none;
+
+    a { color: $kl-gold; }
+  }
+
+  .kl-card-title {
+    font-family: $bed3-display;
+    font-size: 1.6rem; font-weight: 600;
+    color: $bed3-paper;
+    margin: 0;
+  }
+
+  .kl-meta {
+    display: inline-block; width: fit-content; margin: 0.4rem 0 0.7rem;
+    font-size: 0.75rem; font-weight: 600; letter-spacing: 0.02em;
+    font-family: "Inter", system-ui, sans-serif;
+    color: $kl-gold;
+    border: 1px solid rgba(211, 162, 74, 0.4);
+    border-radius: 999px; padding: 0.2rem 0.6rem;
+  }
+
+  .kl-body {
+    font-family: $bed3-text;
+    color: $kl-dim; line-height: 1.65; max-width: 60rem; font-size: 1.08rem;
+    margin: 0;
+  }
+
+  .kl-links { margin-top: 0.9rem; display: flex; flex-direction: column; gap: 0.35rem; }
+  .kl-row { display: flex; align-items: baseline; gap: 0.6rem; }
+
+  .kl-card a.kl-chip { text-decoration: none; }
+  .kl-links a, .kl-card .kl-links a {
+    display: inline-flex; align-items: center; gap: 0.35rem;
+    color: $kl-ember; font-weight: 550; font-size: 0.92rem;
+    font-family: "Inter", system-ui, sans-serif;
+    text-decoration: none;
+
+    &::after { content: "\2192"; transition: transform 180ms ease; }
+    &:hover::after { transform: translateX(4px); }
+  }
+  .kl-note { font-size: 0.8rem; color: $kl-faint; }
+
+  .kl-card.pop { animation: kl-pop 320ms ease-out; }
 }
 
-.kretslop__link {
-  align-self: start;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.15rem;
-  padding-top: 2.1rem;
+@keyframes kl-pop { from { transform: translateY(8px); opacity: 0; } }
+
+@media (max-width: 53.75rem) {
+  .kretslop .kl-stations { grid-template-columns: 1fr; gap: 2rem; }
+  .kretslop .kl-flows, .kretslop .kl-sparks { display: none; }
+  .kretslop .kl-board { padding: 2rem 1.4rem; }
 }
-
-.kretslop__link svg {
-  width: 100%;
-  height: 1.1rem;
-  display: block;
-  overflow: visible;
-}
-
-.kretslop__flow-line {
-  stroke: $bed3-oxblood;
-  stroke-width: 1.5;
-  stroke-dasharray: 4 7;
-}
-
-.kretslop__flow-head { fill: $bed3-oxblood; }
-
-.kretslop__link-label {
-  color: $bed3-muted;
-  font-size: 0.8125rem;
-  font-style: italic;
-}
-
-.kretslop__risk {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem 0.75rem;
-  border-top: 1px solid $bed3-rule;
-  padding-top: 1rem;
-}
-
-.kretslop__risk-label {
-  color: $bed3-muted;
-  font-size: 0.8125rem;
-  font-style: italic;
-  width: 100%;
-  text-align: center;
-}
-
-.kretslop__return {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.15rem;
-}
-
-.kretslop__return svg {
-  width: 100%;
-  height: 1.1rem;
-  display: block;
-  overflow: visible;
-}
-
-.kretslop__card {
-  margin-top: 1.5rem;
-  border-top: 1px solid $bed3-rule;
-  padding-top: 1rem;
-  min-height: 7.5rem;
-}
-
-.kretslop__card-hint {
-  color: $bed3-muted;
-  font-size: 0.9375rem;
-}
-
-.kretslop__card-title {
-  font-family: $bed3-display;
-  font-size: $h3-font-size;
-  margin: 0;
-}
-
-.kretslop__card-meta {
-  color: $bed3-muted;
-  font-size: 0.8125rem;
-  margin: 0 0 0.4rem;
-}
-
-.kretslop__card-body {
-  max-width: 68ch;
-  margin: 0 0 0.4rem;
-}
-
-@keyframes kretslop-flow {
-  to { stroke-dashoffset: -22; }
-}
-
-@keyframes kretslop-flow-return {
-  to { stroke-dashoffset: 22; }
-}
-
-.kretslop__flow-line { animation: kretslop-flow 2.4s linear infinite; }
-.kretslop__flow-line--return { animation: kretslop-flow-return 2.4s linear infinite; }
 
 @media (prefers-reduced-motion: reduce) {
-  .kretslop__flow-line,
-  .kretslop__flow-line--return { animation: none; }
-}
-
-// Exploring state: JS sets .is-exploring on .kretslop, .is-lit on the
-// active topic's station (or the risk strip) and the flow links beside it.
-.kretslop__station,
-.kretslop__link,
-.kretslop__risk,
-.kretslop__return {
-  transition: opacity 160ms ease;
-}
-
-.kretslop.is-exploring .kretslop__station,
-.kretslop.is-exploring .kretslop__link,
-.kretslop.is-exploring .kretslop__risk,
-.kretslop.is-exploring .kretslop__return {
-  opacity: 0.35;
-}
-
-.kretslop.is-exploring .is-lit { opacity: 1; }
-
-@media (max-width: 47.9rem) {
-  .kretslop__diagram {
-    grid-template-columns: 1fr;
-    grid-template-areas: "hush" "linka" "marked" "linkb" "bedrift" "risk" "retur";
-  }
-
-  .kretslop__link {
-    align-self: center;
-    padding-top: 0;
-    flex-direction: row;
-    justify-content: center;
-    gap: 0.5rem;
-  }
-
-  .kretslop__topic {
-    padding: 0.45rem 0.8rem;
-  }
-
-  .kretslop__link svg {
-    width: 2.2rem;
-    height: 2.2rem;
-    transform: rotate(90deg);
-    transform-origin: center;
-  }
+  .kretslop .kl-sparks { display: none; }
+  .kretslop .kl-chip, .kretslop .kl-station, .kretslop .kl-sub { transition: none; }
+  .kretslop .kl-card.pop { animation: none; }
 }

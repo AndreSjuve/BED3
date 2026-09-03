@@ -1,7 +1,19 @@
 # Kapitalens kretsløp — interactive course-map on forsiden
 
 **Date:** 2026-09-03
-**Status:** Approved design, pending implementation plan
+**Status:** Implemented, superseded in part by the A2 split test
+
+**Addendum (2026-09-03):** After implementation, a split test of off-system
+variants (`design/kretslop-variants/`) replaced the in-system look with the
+approved A2 «Nattbørsen i husets farger» design: a full-bleed dark band using
+the night palette documented in DESIGN.md («Nattpaletten»). The content model
+also changed from this spec: the middle station is now **Markedene** with two
+sub-boxes (Kapitalmarkedet: KVM, aksjeprising og markedseffisiens,
+rentemarkedet, internasjonal finans; Derivatmarkedene: opsjoner, terminer,
+with a two-way risk channel), and **Bedriftene** carries the three decisions
+from bakteppet (investerings-, finansierings-, utbyttebeslutningen) whose
+cards link the underlying modules. Flow paths and particles are drawn by JS;
+without JS the section degrades to labeled panels with chip links.
 
 ## Problem
 

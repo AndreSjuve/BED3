@@ -15,6 +15,15 @@ colors:
   visited: '#5A2430'
   print-ink: '#000'
   print-paper: '#fff'
+  night-bg: '#150a09'
+  night-panel: '#1c0f0d'
+  night-dim: '#c2a89d'
+  night-faint: '#8a6f65'
+  ember: '#e05b41'
+  gold: '#d3a24a'
+  night-line: 'rgba(201, 169, 161, 0.14)'
+  night-glass: 'rgba(245, 237, 227, 0.03)'
+  night-glass-edge: 'rgba(245, 237, 227, 0.09)'
 typography:
   display:
     fontFamily: Cormorant Garamond
@@ -141,6 +150,31 @@ permitted fill.
 
 No pure black and no pure white on screen. The print stylesheet is the single
 exception, and it is deliberate.
+
+### Nattpaletten (kretsløpet)
+
+The forsiden carries one sanctioned dark band: the interactive «kapitalens
+kretsløp» section, ported from `design/kretslop-variants/a2-nattborsen-hus.html`
+and deliberately approved as an exception to the one-background rule. Its
+palette is the night translation of the same warm family, and it is legal
+ONLY inside `.kretslop`:
+
+- **Night `#150a09` / panel `#1c0f0d`** — grounds derived from ink.
+- **Paper `#F5EDE3`** — becomes the text colour; **night-dim `#c2a89d`** and
+  **night-faint `#8a6f65`** are its muted steps on the dark ground.
+- **Ember `#e05b41`** — oxblood brightened until it can glow: capital
+  particles, lit paths and borders, card links. Never used on parchment pages.
+- **Gold `#d3a24a`** — the return flow (avkastning), meta pills, the status
+  dot. Never used on parchment pages.
+- Glass fills and edges are paper at 2–9% alpha; hairlines are
+  `rgba(201, 169, 161, 0.14)`.
+
+Inside the band the flat-world rules are also suspended: rounded corners
+(12–20px, pill chips), backdrop blur, glow shadows and canvas particles are
+part of this component's identity. **Inter** (400–600) is loaded for the small
+chip and meta UI inside the band only; everything else stays Cormorant
+Garamond and EB Garamond. Nothing from the night palette or its shape language
+leaks outside `.kretslop`.
 
 ## Typografi
 
