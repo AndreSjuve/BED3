@@ -20,6 +20,7 @@ colors:
   night-dim: '#c2a89d'
   night-faint: '#8a6f65'
   ember: '#e05b41'
+  ember-deep: '#c94a33'
   gold: '#d3a24a'
   night-line: 'rgba(201, 169, 161, 0.14)'
   night-glass: 'rgba(245, 237, 227, 0.03)'
@@ -87,12 +88,23 @@ typography:
     fontFamily: Inter
     fontSize: 12px
     fontWeight: '600'
+  night-hero:
+    fontFamily: Cormorant Garamond
+    fontSize: clamp(41.6px, 1.6rem + 3.6vw, 67.2px)
+    fontWeight: '600'
+    lineHeight: 1.02
+    letterSpacing: -0.015em
+  night-h2:
+    fontFamily: Cormorant Garamond
+    fontSize: 30.4px
+    fontWeight: '600'
 rounded:
   DEFAULT: 0
   night-board: 20px
   night-panel: 16px
   night-sub: 12px
   night-inner: 10px
+  night-bubble: 14px
   night-pill: 999px
 spacing:
   unit: 8px
