@@ -266,9 +266,9 @@
           <h3>Kapitalmarkedet</h3>
           <p class="subrole">flytter sparing til investering</p>
           <div class="chips">
-            <button class="chip" data-topic="rentemarkedet">Rentemarkedet</button>
-            <button class="chip" data-topic="aksjeprising">Aksjeprising og markedseffisiens</button>
             <button class="chip" data-topic="kvm">Kapitalverdimodellen</button>
+            <button class="chip" data-topic="aksjeprising">Aksjeprising og markedseffisiens</button>
+            <button class="chip" data-topic="rentemarkedet">Rentemarkedet</button>
             <button class="chip" data-topic="valuta">Internasjonal finans</button>
           </div>
         </div>
@@ -492,6 +492,9 @@
   });
   board.addEventListener("mouseleave", function () { if (!pinned) reset(); });
   document.addEventListener("keydown", function (e) { if (e.key === "Escape" && pinned) reset(); });
+  document.addEventListener("click", function (e) {
+    if (pinned && !e.target.closest(".chip") && !e.target.closest(".card")) reset();
+  });
 
   layoutPaths();
   addEventListener("resize", layoutPaths);
