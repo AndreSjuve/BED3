@@ -162,6 +162,7 @@ format:
     include-in-header: _includes/head.html
     include-after-body:
       - _includes/quiz.html
+      - _includes/night-bleed.html
       - _includes/nav.html
 
 lang: nb

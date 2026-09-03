@@ -1,0 +1,22 @@
+<script>
+// The video's night band bleeds to the screen edge. The page grid lives on
+// #quarto-content and the video inside main cannot reach its screen-end
+// column, so the real gaps are measured here and published as CSS variables
+// the theme consumes. Without JS the band simply stays column-width.
+(function () {
+  var main = document.querySelector("main.content");
+  if (!main || !document.querySelector(".video")) return;
+  function set() {
+    var r = main.getBoundingClientRect();
+    var vw = document.documentElement.clientWidth; // excludes the scrollbar
+    var right = Math.max(0, vw - r.right);
+    // The sidebar owns the left flank on wide screens; bleed left only when
+    // it has collapsed and the content column starts at the page edge.
+    var left = window.matchMedia("(min-width: 992px)").matches ? 0 : Math.max(0, r.left);
+    document.documentElement.style.setProperty("--night-bleed-right", right + "px");
+    document.documentElement.style.setProperty("--night-bleed-left", left + "px");
+  }
+  set();
+  addEventListener("resize", set);
+})();
+</script>

@@ -484,8 +484,12 @@ main.content .btn.button--quiet, .button--quiet {
   border-top: 1px solid $bed3-rule;
   padding-top: var(--sp-3);
   margin-top: var(--section-gap);
+  // Long titles must wrap inside the flex row instead of pushing the page
+  // sideways on narrow screens.
+  min-width: 0;
+  max-width: 100%;
 
-  .nav-page-text { font-family: $bed3-display; font-size: var(--size-h3); }
+  .nav-page-text { font-family: $bed3-display; font-size: var(--size-h3); white-space: normal; overflow-wrap: anywhere; }
   a { text-decoration: none; }
   a:hover .nav-page-text { text-decoration: underline; }
   .bi { display: none; }  // no icon font in an all-serif world
@@ -766,24 +770,36 @@ tr.row--marker td {
 // The player carries the night register: watching is doing, not reading.
 // Same palette and shape language as the kretsløp band (DESIGN.md,
 // «Nattpaletten»); the surrounding prose and metadata stay on parchment.
+// The player is a night band that breaks the page: it bleeds from the content
+// column to the screen's right edge (and both edges on mobile, where the
+// sidebar is gone). The bleed distances are measured by
+// _includes/night-bleed.html; without JS they are 0 and the band stays
+// column-width. A corner flattens exactly when its side reaches a screen
+// edge: clamp(0, 16px - bleed, 16px) is 16px at zero bleed, 0 otherwise.
 .video {
   position: relative;
   aspect-ratio: 16 / 9;
   border: 1px solid $kl-line;
-  border-radius: 16px;
+  border-radius:
+    clamp(0px, calc(16px - var(--night-bleed-left, 0px)), 16px)
+    clamp(0px, calc(16px - var(--night-bleed-right, 0px)), 16px)
+    clamp(0px, calc(16px - var(--night-bleed-right, 0px)), 16px)
+    clamp(0px, calc(16px - var(--night-bleed-left, 0px)), 16px);
   background: $kl-bg2;
-  padding: 1rem;
+  padding: 1.25rem;
   display: grid;
   place-items: center;
-  max-width: var(--measure-wide);
+  max-width: none;
   overflow: hidden;
-  margin-top: var(--sp-4);
+  margin-top: var(--sp-5);
+  margin-left: calc(-1 * var(--night-bleed-left, 0px));
+  margin-right: calc(-1 * var(--night-bleed-right, 0px));
 
   iframe {
     position: absolute;
-    inset: 1rem;
-    width: calc(100% - 2rem);
-    height: calc(100% - 2rem);
+    inset: 1.25rem;
+    width: calc(100% - 2.5rem);
+    height: calc(100% - 2.5rem);
     border: 0;
     border-radius: 10px;
     background: $kl-bg;
@@ -792,7 +808,8 @@ tr.row--marker td {
   // When the meta row follows, the panel continues into it: flat seam here,
   // the rounding finishes on the meta footer below.
   &:has(+ .video-meta) {
-    border-radius: 16px 16px 0 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
     border-bottom: 0;
   }
 }
@@ -818,16 +835,17 @@ tr.row--marker td {
 // hairline seam against the player above. Prose resumes on parchment after.
 .video + .video-meta {
   margin-top: 0;
-  margin-bottom: var(--sp-4);
-  // ch scales with the element's own font size; keep the container at body
-  // size so this cap computes identically to the player's, and let the
-  // children carry the small size.
-  font-size: var(--size-body);
-  max-width: var(--measure-wide);
+  margin-bottom: var(--sp-5);
+  margin-left: calc(-1 * var(--night-bleed-left, 0px));
+  margin-right: calc(-1 * var(--night-bleed-right, 0px));
+  max-width: none;
   background: $kl-bg2;
   border: 1px solid $kl-line;
   border-top: 1px solid rgba(245, 237, 227, 0.06);
-  border-radius: 0 0 16px 16px;
+  border-radius:
+    0 0
+    clamp(0px, calc(16px - var(--night-bleed-right, 0px)), 16px)
+    clamp(0px, calc(16px - var(--night-bleed-left, 0px)), 16px);
   padding: 0.85rem 1.25rem 0.95rem;
   color: $kl-dim;
 
