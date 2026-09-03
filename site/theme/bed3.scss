@@ -772,20 +772,28 @@ tr.row--marker td {
   border: 1px solid $kl-line;
   border-radius: 16px;
   background: $kl-bg2;
-  padding: 0.6rem;
+  padding: 1rem;
   display: grid;
   place-items: center;
   max-width: var(--measure-wide);
   overflow: hidden;
+  margin-top: var(--sp-4);
 
   iframe {
     position: absolute;
-    inset: 0.6rem;
-    width: calc(100% - 1.2rem);
-    height: calc(100% - 1.2rem);
+    inset: 1rem;
+    width: calc(100% - 2rem);
+    height: calc(100% - 2rem);
     border: 0;
     border-radius: 10px;
     background: $kl-bg;
+  }
+
+  // When the meta row follows, the panel continues into it: flat seam here,
+  // the rounding finishes on the meta footer below.
+  &:has(+ .video-meta) {
+    border-radius: 16px 16px 0 0;
+    border-bottom: 0;
   }
 }
 
@@ -804,6 +812,33 @@ tr.row--marker td {
   color: $bed3-muted;
   font-size: var(--size-small);
   font-variant-numeric: lining-nums;
+}
+
+// The meta row is the night section's footer: same surface, closing rounding,
+// hairline seam against the player above. Prose resumes on parchment after.
+.video + .video-meta {
+  margin-top: 0;
+  margin-bottom: var(--sp-4);
+  // ch scales with the element's own font size; keep the container at body
+  // size so this cap computes identically to the player's, and let the
+  // children carry the small size.
+  font-size: var(--size-body);
+  max-width: var(--measure-wide);
+  background: $kl-bg2;
+  border: 1px solid $kl-line;
+  border-top: 1px solid rgba(245, 237, 227, 0.06);
+  border-radius: 0 0 16px 16px;
+  padding: 0.85rem 1.25rem 0.95rem;
+  color: $kl-dim;
+
+  > * { font-size: var(--size-small); margin: 0; max-width: none; }
+
+  a {
+    color: $kl-gold;
+    text-decoration-color: rgba(211, 162, 74, 0.45);
+
+    &:hover { color: $bed3-paper; text-decoration-color: $kl-gold; }
+  }
 }
 
 // Errata for the recording itself — spoken slips and slide errors, with the
