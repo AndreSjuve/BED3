@@ -1242,6 +1242,23 @@ details.solution {
   font-size: 0.9375rem;
 }
 
+.kretslop__card-title {
+  font-family: $bed3-display;
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.kretslop__card-meta {
+  color: $bed3-muted;
+  font-size: 0.8125rem;
+  margin: 0 0 0.4rem;
+}
+
+.kretslop__card-body {
+  max-width: 68ch;
+  margin: 0 0 0.4rem;
+}
+
 @keyframes kretslop-flow {
   to { stroke-dashoffset: -22; }
 }

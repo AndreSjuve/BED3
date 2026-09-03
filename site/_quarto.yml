@@ -8,6 +8,7 @@ project:
     - assets/people
     # Built by tools/build-plansjer.py from docs/Forelesninger/*.zip
     - assets/plansjer
+    - assets/kretslop.js
 
 website:
   title: "BED3"
