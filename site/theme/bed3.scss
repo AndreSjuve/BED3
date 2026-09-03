@@ -19,6 +19,18 @@ $bed3-wash:        #EFE3DB;   // oxblood  6% — the one permitted fill
 $bed3-visited:     #5A2430;
 $bed3-selection:   #E5D0C8;
 
+// Night palette — the "doing" register (kretsløp, quiz, video, Buddy).
+// Documented in DESIGN.md under «Nattpaletten». Legal only on instruments.
+$kl-bg:     #150a09;
+$kl-bg2:    #1c0f0d;
+$kl-line:   rgba(201, 169, 161, 0.14);
+$kl-dim:    #c2a89d;
+$kl-faint:  #8a6f65;
+$kl-ember:  #e05b41;
+$kl-gold:   #d3a24a;
+$kl-glass:  rgba(245, 237, 227, 0.03);
+$kl-edge:   rgba(245, 237, 227, 0.09);
+
 // --- Type --------------------------------------------------------------------
 $bed3-display: "Cormorant Garamond", "EB Garamond", Georgia, serif;
 $bed3-text:    "EB Garamond", Georgia, "Times New Roman", serif;
@@ -751,22 +763,37 @@ tr.row--marker td {
 // Video
 // =============================================================================
 
+// The player carries the night register: watching is doing, not reading.
+// Same palette and shape language as the kretsløp band (DESIGN.md,
+// «Nattpaletten»); the surrounding prose and metadata stay on parchment.
 .video {
   position: relative;
   aspect-ratio: 16 / 9;
-  border: 1px solid $bed3-rule;
+  border: 1px solid $kl-line;
+  border-radius: 16px;
+  background: $kl-bg2;
+  padding: 0.6rem;
   display: grid;
   place-items: center;
   max-width: var(--measure-wide);
+  overflow: hidden;
 
-  iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+  iframe {
+    position: absolute;
+    inset: 0.6rem;
+    width: calc(100% - 1.2rem);
+    height: calc(100% - 1.2rem);
+    border: 0;
+    border-radius: 10px;
+    background: $kl-bg;
+  }
 }
 
 .video__placeholder {
   text-align: center;
-  color: $bed3-muted;
+  color: $kl-dim;
 
-  .icon { width: 2.5rem; height: 2.5rem; color: $bed3-oxblood; display: block; margin: 0 auto var(--sp-2); }
+  .icon { width: 2.5rem; height: 2.5rem; color: $kl-ember; display: block; margin: 0 auto var(--sp-2); }
 }
 
 .video-meta {
@@ -862,18 +889,38 @@ details.solution {
 }
 
 // =============================================================================
-// Quiz — every state is drawn
+// Quiz — every state is drawn. Night register: answering is doing, not
+// reading, so the quiz sits in a night panel like the kretsløp band
+// (DESIGN.md, «Nattpaletten»). Parchment resumes after the panel.
 // =============================================================================
 
-.quiz { max-width: var(--measure); }
+.quiz {
+  max-width: var(--measure-wide);
+  border: 1px solid $kl-line;
+  border-radius: 16px;
+  background:
+    linear-gradient(180deg, rgba(245, 237, 227, 0.02), rgba(245, 237, 227, 0) 40%),
+    $kl-bg2;
+  padding: var(--sp-4) var(--sp-4) var(--sp-4);
+  color: $kl-dim;
 
-.quiz__q {
-  border-top: 1px solid $bed3-rule;
-  padding-top: var(--sp-3);
-  margin-bottom: var(--sp-5);
+  ::selection { background: rgba(224, 91, 65, 0.35); }
+
+  // The parchment oxblood focus ring nearly vanishes on the night ground.
+  :focus-visible { outline-color: $kl-ember !important; }
+
+  > p, .quiz__q { max-width: var(--measure); }
 }
 
-.quiz__prompt { color: $bed3-ink; font-size: var(--size-body); margin-bottom: var(--sp-2); }
+.quiz__q {
+  border-top: 1px solid $kl-line;
+  padding-top: var(--sp-3);
+  margin-bottom: var(--sp-5);
+
+  &:first-child { border-top: 0; padding-top: 0; }
+}
+
+.quiz__prompt { color: $bed3-paper; font-size: var(--size-body); margin-bottom: var(--sp-2); }
 
 .choice {
   display: flex;
@@ -883,22 +930,22 @@ details.solution {
   text-align: left;
   background: none;
   border: 0;
-  border-bottom: 1px solid $bed3-rule;
+  border-bottom: 1px solid $kl-line;
   border-radius: 0;
   padding: 0.7rem 0.5rem 0.7rem 0;
   font: inherit;
   font-size: var(--size-small);
-  color: $bed3-sepia;
+  color: $kl-dim;
   cursor: pointer;
   transition: background 140ms ease-out, color 140ms ease-out;
 
   // Answered choices are locked with aria-disabled, not the disabled property,
   // so they stay focusable — see the note in _includes/quiz.html.
-  &:hover:not([aria-disabled="true"]) { background: $bed3-wash; color: $bed3-ink; }
+  &:hover:not([aria-disabled="true"]) { background: $kl-glass; color: $bed3-paper; }
   &[aria-disabled="true"] { cursor: default; opacity: 1; }
 }
 
-.choice__key  { color: $bed3-muted; min-width: 1.4rem; }
+.choice__key  { color: $kl-faint; min-width: 1.4rem; }
 .choice__mark {
   margin-left: auto;
   opacity: 0;
@@ -907,36 +954,35 @@ details.solution {
   padding-left: var(--sp-2);
 }
 
-// The wash fill alone sits at ~1.09:1 against paper and vanishes in forced
-// colours, so the answered states carry a rule as well — the same inset marker
-// the sidebar and marked table rows use.
+// The glass fill alone vanishes in forced colours, so the answered states
+// carry an inset rule as well — ember for right, faint for wrong.
 .choice[data-state="correct"] {
-  color: $bed3-ink;
-  background: $bed3-wash;
-  box-shadow: inset 3px 0 0 $bed3-oxblood;
+  color: $bed3-paper;
+  background: rgba(224, 91, 65, 0.12);
+  box-shadow: inset 3px 0 0 $kl-ember;
   padding-left: var(--sp-2);
 
-  .choice__key  { color: $bed3-oxblood; }
-  .choice__mark { opacity: 1; color: $bed3-oxblood; }
+  .choice__key  { color: $kl-ember; }
+  .choice__mark { opacity: 1; color: $kl-ember; }
 }
 
 .choice[data-state="wrong"] {
-  color: $bed3-muted;
-  box-shadow: inset 3px 0 0 $bed3-rule-strong;
+  color: $kl-faint;
+  box-shadow: inset 3px 0 0 $kl-faint;
   padding-left: var(--sp-2);
 
-  .choice__mark { opacity: 1; color: $bed3-muted; }
+  .choice__mark { opacity: 1; color: $kl-faint; }
 }
 
 .quiz__feedback {
   margin-top: var(--sp-2);
   font-style: italic;
   font-size: var(--size-small);
-  color: $bed3-muted;
+  color: $kl-dim;
   max-width: 52ch;
 }
 
-.quiz__score { color: $bed3-ink; font-family: $bed3-display; font-size: var(--size-h3); }
+.quiz__score { color: $bed3-paper; font-family: $bed3-display; font-size: var(--size-h3); }
 
 // The author style would otherwise beat the UA's [hidden] rule — and the
 // reset is hidden until there is something to reset.
@@ -947,15 +993,15 @@ details.solution {
   margin-top: var(--sp-3);
   background: none;
   border: 0;
-  border-bottom: 1px solid $bed3-rule-strong;
+  border-bottom: 1px solid rgba(224, 91, 65, 0.5);
   border-radius: 0;
   padding: 0.2rem 0;
   font: inherit;
   font-size: var(--size-small);
-  color: $bed3-oxblood;
+  color: $kl-ember;
   cursor: pointer;
 
-  &:hover { border-bottom-color: $bed3-oxblood; }
+  &:hover { border-bottom-color: $kl-ember; }
 }
 
 // =============================================================================
@@ -1099,16 +1145,6 @@ details.solution {
 // Ported from design/kretslop-variants/a2-nattborsen-hus.html; palette is the
 // "night" translation of the paper/oxblood system, documented in DESIGN.md.
 // =============================================================================
-
-$kl-bg:     #150a09;
-$kl-bg2:    #1c0f0d;
-$kl-line:   rgba(201, 169, 161, 0.14);
-$kl-dim:    #c2a89d;
-$kl-faint:  #8a6f65;
-$kl-ember:  #e05b41;
-$kl-gold:   #d3a24a;
-$kl-glass:  rgba(245, 237, 227, 0.03);
-$kl-edge:   rgba(245, 237, 227, 0.09);
 
 html:has(.kretslop), body:has(.kretslop) { overflow-x: clip; }
 
