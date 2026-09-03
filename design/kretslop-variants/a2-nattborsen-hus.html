@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="nb">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Variant A2 · Nattbørsen i husets farger — kretsløp split test</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=EB+Garamond:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #150a09;
+    --bg2: #1c0f0d;
+    --line: rgba(201, 169, 161, 0.14);
+    --text: #f5ede3;
+    --dim: #c2a89d;
+    --faint: #8a6f65;
+    --ember: #e05b41;
+    --ember-soft: rgba(224, 91, 65, 0.5);
+    --gold: #d3a24a;
+    --glass: rgba(245, 237, 227, 0.03);
+    --glass-edge: rgba(245, 237, 227, 0.09);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { color-scheme: dark; }
+  body {
+    background:
+      radial-gradient(1100px 600px at 70% -10%, rgba(224, 91, 65, 0.09), transparent 60%),
+      radial-gradient(900px 500px at 10% 110%, rgba(211, 162, 74, 0.07), transparent 60%),
+      var(--bg);
+    color: var(--text);
+    font-family: "Inter", system-ui, sans-serif;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+  }
+  ::selection { background: rgba(224, 91, 65, 0.35); }
+
+  .wrap { max-width: 76rem; margin: 0 auto; padding: 4.5rem 2rem 6rem; }
+
+  .tag {
+    display: inline-flex; align-items: center; gap: 0.5rem;
+    font-size: 0.78rem; font-weight: 500; letter-spacing: 0.01em;
+    color: var(--dim);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 0.3rem 0.85rem;
+    background: var(--glass);
+  }
+  .tag::before {
+    content: ""; width: 6px; height: 6px; border-radius: 50%;
+    background: var(--gold);
+    box-shadow: 0 0 10px 2px rgba(211, 162, 74, 0.6);
+  }
+  h1 {
+    font-family: "Cormorant Garamond", serif;
+    font-size: clamp(2.6rem, 1.6rem + 3.6vw, 4.2rem);
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    line-height: 1.02;
+    margin: 1.1rem 0 0.9rem;
+  }
+  h1 em {
+    font-style: italic;
+    font-weight: 500;
+    color: var(--ember);
+  }
+  .lede {
+    max-width: 44rem;
+    font-family: "EB Garamond", Georgia, serif;
+    color: var(--dim);
+    font-size: 1.15rem;
+    line-height: 1.65;
+    margin-bottom: 3.5rem;
+  }
+
+  /* --- diagram --- */
+  .board {
+    position: relative;
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    background:
+      linear-gradient(180deg, rgba(245, 237, 227, 0.02), rgba(245, 237, 227, 0) 40%),
+      var(--bg2);
+    padding: 3rem 2.5rem 2.5rem;
+    overflow: hidden;
+  }
+  .board::before {
+    content: "";
+    position: absolute; inset: 0;
+    background-image:
+      linear-gradient(var(--line) 1px, transparent 1px),
+      linear-gradient(90deg, var(--line) 1px, transparent 1px);
+    background-size: 44px 44px;
+    opacity: 0.3;
+    mask-image: radial-gradient(closest-side at 50% 40%, #000, transparent);
+    pointer-events: none;
+  }
+  .flows, .sparks {
+    position: absolute; inset: 0;
+    width: 100%; height: 100%;
+    pointer-events: none;
+  }
+  .flows path {
+    fill: none;
+    stroke: rgba(194, 168, 157, 0.26);
+    stroke-width: 1.25;
+    transition: stroke 300ms ease, filter 300ms ease;
+  }
+  .flows path.lit {
+    stroke: var(--ember);
+    filter: drop-shadow(0 0 6px rgba(224, 91, 65, 0.8));
+  }
+  .flows path.ret.lit { stroke: var(--gold); filter: drop-shadow(0 0 6px rgba(211, 162, 74, 0.8)); }
+
+  .stations {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4.5rem;
+    z-index: 2;
+  }
+  .station {
+    border: 1px solid var(--glass-edge);
+    border-radius: 16px;
+    background: var(--glass);
+    backdrop-filter: blur(14px);
+    padding: 1.4rem 1.4rem 1.5rem;
+    transition: opacity 260ms ease, border-color 260ms ease;
+  }
+  .station.lit {
+    border-color: rgba(224, 91, 65, 0.5);
+    box-shadow: 0 0 0 1px rgba(224, 91, 65, 0.25), 0 18px 50px -20px rgba(224, 91, 65, 0.35);
+  }
+  .board.exploring .station:not(.lit),
+  .board.exploring .risk:not(.lit) { opacity: 0.3; }
+  .station h2 {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.5rem; font-weight: 600; letter-spacing: 0;
+  }
+  .station .role {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic;
+    color: var(--dim); font-size: 1rem; margin: 0.1rem 0 1rem;
+  }
+  .chips { display: flex; flex-wrap: wrap; gap: 0.45rem; }
+  .chip {
+    appearance: none; border: 1px solid var(--glass-edge);
+    background: rgba(245, 237, 227, 0.04);
+    color: var(--text);
+    font: 500 0.82rem/1 "Inter", sans-serif;
+    padding: 0.55rem 0.8rem;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: transform 180ms cubic-bezier(0.2, 0.9, 0.25, 1.4),
+                border-color 180ms ease, background 180ms ease, box-shadow 180ms ease;
+  }
+  .chip:hover, .chip:focus-visible { transform: translateY(-2px); border-color: rgba(224, 91, 65, 0.6); }
+  .chip:focus-visible { outline: 2px solid var(--ember); outline-offset: 2px; }
+  .chip.on {
+    background: linear-gradient(135deg, rgba(224, 91, 65, 0.30), rgba(211, 162, 74, 0.22));
+    border-color: rgba(224, 91, 65, 0.8);
+    box-shadow: 0 0 18px -2px rgba(224, 91, 65, 0.5);
+  }
+
+  .risk {
+    position: relative; z-index: 2;
+    margin: 3.2rem auto 0;
+    width: fit-content;
+    display: flex; align-items: center; gap: 0.6rem;
+    transition: opacity 260ms ease;
+  }
+  .risk .lbl {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic;
+    font-size: 0.9rem; color: var(--faint); margin-right: 0.4rem;
+  }
+
+  .retlbl {
+    position: relative; z-index: 2;
+    text-align: center; margin-top: 2.6rem;
+    font-family: "EB Garamond", Georgia, serif; font-style: italic;
+    font-size: 0.9rem; color: var(--faint);
+  }
+  .retlbl b { color: var(--gold); font-weight: 500; font-style: normal; }
+
+  /* --- card --- */
+  .card {
+    margin-top: 1.6rem;
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    background: var(--glass);
+    backdrop-filter: blur(14px);
+    padding: 1.5rem 1.7rem;
+    min-height: 9rem;
+    display: grid; align-content: center;
+  }
+  .card .hint {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic;
+    color: var(--dim); font-size: 1.02rem;
+  }
+  .card h3 {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.6rem; font-weight: 600;
+  }
+  .card .meta {
+    display: inline-block; width: fit-content; margin: 0.4rem 0 0.7rem;
+    font-size: 0.75rem; font-weight: 600; letter-spacing: 0.02em;
+    color: var(--gold);
+    border: 1px solid rgba(211, 162, 74, 0.4);
+    border-radius: 999px; padding: 0.2rem 0.6rem;
+  }
+  .card p.body {
+    font-family: "EB Garamond", Georgia, serif;
+    color: var(--dim); line-height: 1.65; max-width: 60rem; font-size: 1.08rem;
+  }
+  .card a {
+    display: inline-flex; align-items: center; gap: 0.35rem;
+    margin-top: 0.9rem; color: var(--ember); font-weight: 550; font-size: 0.92rem;
+    text-decoration: none;
+  }
+  .card a::after { content: "→"; transition: transform 180ms ease; }
+  .card a:hover::after { transform: translateX(4px); }
+  .card.pop { animation: pop 320ms cubic-bezier(0.2, 0.9, 0.25, 1.25); }
+  @keyframes pop { from { transform: translateY(8px); opacity: 0; } }
+
+  @media (max-width: 860px) {
+    .stations { grid-template-columns: 1fr; gap: 2rem; }
+    .flows, .sparks { display: none; }
+    .board { padding: 2rem 1.4rem; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .sparks { display: none; }
+    .chip, .station, .card.pop { transition: none; animation: none; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <span class="tag">BED3 · kapitalens kretsløp</span>
+  <h1>Slik henger kurset <em>sammen</em></h1>
+  <p class="lede">Kapitalen renner fra husholdningene som sparer, gjennom kapitalmarkedet som setter en pris på den, til bedriftene som investerer den i prosjekter. Hvert tema i kurset hører hjemme et sted i det kretsløpet.</p>
+
+  <div class="board" id="board">
+    <svg class="flows" id="flows"></svg>
+    <canvas class="sparks" id="sparks"></canvas>
+
+    <div class="stations">
+      <div class="station" data-station="hush">
+        <h2>Husholdningene</h2>
+        <p class="role">eier ressursene og sparer</p>
+        <div class="chips">
+          <button class="chip" data-topic="portefoljeteori">Porteføljeteori</button>
+          <button class="chip" data-topic="baerekraft">Bærekraftige investeringer</button>
+        </div>
+      </div>
+      <div class="station" data-station="marked">
+        <h2>Kapitalmarkedet</h2>
+        <p class="role">setter prisen på kapital</p>
+        <div class="chips">
+          <button class="chip" data-topic="kvm">Kapitalverdimodellen</button>
+          <button class="chip" data-topic="rentemarkedet">Rentemarkedet</button>
+          <button class="chip" data-topic="valuta">Internasjonal finans</button>
+        </div>
+      </div>
+      <div class="station" data-station="bedrift">
+        <h2>Bedriftene</h2>
+        <p class="role">investerer i prosjekter</p>
+        <div class="chips">
+          <button class="chip" data-topic="investeringsprosjekter">Investeringsprosjekter</button>
+          <button class="chip" data-topic="skatt-laan">Effekter av skatt og lån</button>
+          <button class="chip" data-topic="inflasjon">Effekter av inflasjon</button>
+          <button class="chip" data-topic="risikovurderinger">Risikovurderinger</button>
+          <button class="chip" data-topic="laan-betaling">Låne- og betalingsalternativer</button>
+          <button class="chip" data-topic="kapitalstruktur">Kapitalstruktur</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="risk" data-station="risk">
+      <span class="lbl">flytter risiko mellom aktørene</span>
+      <button class="chip" data-topic="opsjoner">Opsjonskontrakter</button>
+      <button class="chip" data-topic="terminer">Terminkontrakter</button>
+    </div>
+
+    <p class="retlbl"><b>avkastningen</b> vender tilbake til husholdningene</p>
+  </div>
+
+  <div class="card" id="card">
+    <p class="hint">Velg et tema for å se hvor det hører hjemme i kretsløpet.</p>
+  </div>
+</div>
+
+<script>
+(function () {
+  "use strict";
+  var TOPICS = {
+    portefoljeteori: { title: "Porteføljeteori", meta: "Undervises i plenum", link: "../../site/_site/timeplan.html", linkLabel: "Se timeplanen",
+      body: "Husholdningene sparer ikke i ett enkelt prosjekt, men i porteføljer av mange. Porteføljeteorien viser hvordan risiko kan spres mellom aktiva, og hvorfor det bare er risikoen som ikke lar seg diversifisere bort som gir betalt i markedet." },
+    baerekraft: { title: "Bærekraftige investeringer", meta: "Undervises i plenum", link: "../../site/_site/timeplan.html", linkLabel: "Se timeplanen",
+      body: "Sparingen skal ikke bare kaste av seg, den skal også forvaltes i tråd med det eierne står for. Vi ser på hvordan bærekraft og etiske hensyn påvirker hvilke investeringer kapitalen går til, og hva slike hensyn gjør med avkastningskravet." },
+    kvm: { title: "Kapitalverdimodellen", meta: "Undervises i plenum", link: "../../site/_site/timeplan.html", linkLabel: "Se timeplanen",
+      body: "Kapitalverdimodellen er markedets prislapp på risiko: forventet avkastning bestemmes av hvor mye markedsrisiko en investering bærer. Prisen markedet setter her, blir avkastningskravet bedriftene må regne med i sine analyser." },
+    rentemarkedet: { title: "Rentemarkedet", meta: "Modul 13 · 2 t 40 min", link: "../../site/_site/kursmateriale/02-markeder/02-rentemarkedet/index.html", linkLabel: "Gå til modulen",
+      body: "Renten er prisen på å flytte penger i tid, og rentemarkedet er der den prisen dannes. Vi priser obligasjoner og sertifikater, leser terminrenter og måler renterisiko med durasjon." },
+    valuta: { title: "Internasjonal finans", meta: "Modul 16 · 41 min", link: "../../site/_site/kursmateriale/02-markeder/05-valuta/index.html", linkLabel: "Gå til modulen",
+      body: "Kapital krysser landegrenser, og da må den veksles. Vi ser hvordan valutakurser noteres, hva paritetsbetingelsene sier om sammenhengen mellom renter og kurser, og hva det betyr for investeringer og lån i utenlandsk valuta." },
+    investeringsprosjekter: { title: "Investeringsprosjekter", meta: "Modul 1 · 71 min", link: "../../site/_site/kursmateriale/01-investeringsanalyse/02-investeringsprosjekter/index.html", linkLabel: "Gå til modulen",
+      body: "Her møter kapitalen prosjektene. Netto nåverdi og internrente er beslutningsreglene som avgjør hvilke prosjekter som skaper verdi, og hvilke som bør vrakes når kapitalen ikke strekker til alt." },
+    "skatt-laan": { title: "Effekter av skatt og lån", meta: "Modul 2 · 81 min", link: "../../site/_site/kursmateriale/01-investeringsanalyse/03-skatt-og-laan/index.html", linkLabel: "Gå til modulen",
+      body: "Et prosjekt må vurderes etter kontantstrømmene det faktisk gir eierne, og både skatt og lån endrer dem. Vi ser hvordan avskrivninger, skattesatser og lånefinansiering flettes inn i analysen." },
+    inflasjon: { title: "Effekter av inflasjon", meta: "Modul 3 · 40 min", link: "../../site/_site/kursmateriale/01-investeringsanalyse/04-inflasjon/index.html", linkLabel: "Gå til modulen",
+      body: "Når prisnivået stiger, er ikke en krone i dag og en krone om ti år samme størrelse. Vi skiller nominelle og reelle størrelser og sørger for at kontantstrømmer og avkastningskrav måles i samme enhet." },
+    risikovurderinger: { title: "Risikovurderinger", meta: "Modul 4 · 74 min", link: "../../site/_site/kursmateriale/01-investeringsanalyse/05-risikovurderinger/index.html", linkLabel: "Gå til modulen",
+      body: "Kontantstrømmene i en analyse er anslag, ikke fasit. Stjernediagram, scenarioanalyse, simulering og beslutningstrær stresstester forutsetningene og viser hvor følsom lønnsomheten er for at de ryker." },
+    "laan-betaling": { title: "Låne- og betalingsalternativer", meta: "Modul 5 · 46 min", link: "../../site/_site/kursmateriale/01-investeringsanalyse/06-laane-og-betalingsalternativer/index.html", linkLabel: "Gå til modulen",
+      body: "Samme investering kan finansieres og betales på mange måter: serielån, annuitetslån eller leasing. Effektiv rente gir en felles målestokk som gjør alternativene sammenlignbare." },
+    kapitalstruktur: { title: "Kapitalstruktur", meta: "Undervises i plenum", link: "../../site/_site/timeplan.html", linkLabel: "Se timeplanen",
+      body: "Bedriften kan hente kapitalen som gjeld eller egenkapital, og blandingen kalles kapitalstrukturen. Vi ser hva miksen gjør med risikoen, avkastningskravet og verdien av selskapet." },
+    opsjoner: { title: "Opsjonskontrakter", meta: "Modul 14 · 1 t 58 min", link: "../../site/_site/kursmateriale/02-markeder/03-opsjoner/index.html", linkLabel: "Gå til modulen",
+      body: "En opsjon gir retten, men ikke plikten, til å kjøpe eller selge til en avtalt pris. Slik kan risiko flyttes fra den som ikke vil bære den, til den som tar betalt for å gjøre det. Vi ser også hvordan slike kontrakter prises." },
+    terminer: { title: "Terminkontrakter", meta: "Modul 15 · 1 t 42 min", link: "../../site/_site/kursmateriale/02-markeder/04-terminer/index.html", linkLabel: "Gå til modulen",
+      body: "En terminkontrakt låser prisen på en fremtidig handel allerede i dag. Det gjør fremtiden mer forutsigbar for begge parter, og vi ser hvordan terminpriser henger sammen med spotpriser og forventninger." }
+  };
+  var STATION_OF = {
+    portefoljeteori: "hush", baerekraft: "hush",
+    kvm: "marked", rentemarkedet: "marked", valuta: "marked",
+    investeringsprosjekter: "bedrift", "skatt-laan": "bedrift", inflasjon: "bedrift",
+    risikovurderinger: "bedrift", "laan-betaling": "bedrift", kapitalstruktur: "bedrift",
+    opsjoner: "risk", terminer: "risk"
+  };
+  var PATHS_OF = { hush: ["p1"], marked: ["p1", "p2"], bedrift: ["p2"], risk: ["p1", "p2"] };
+
+  var board = document.getElementById("board");
+  var flows = document.getElementById("flows");
+  var canvas = document.getElementById("sparks");
+  var card = document.getElementById("card");
+  var defaultCard = card.innerHTML;
+  var pinned = null;
+  var pathEls = {};
+
+  function anchor(sel, side) {
+    var b = board.getBoundingClientRect();
+    var r = board.querySelector(sel).getBoundingClientRect();
+    return {
+      x: (side === "left" ? r.left : side === "right" ? r.right : r.left + r.width / 2) - b.left,
+      y: (side === "bottom" ? r.bottom : r.top + r.height / 2) - b.top
+    };
+  }
+
+  function layoutPaths() {
+    var b = board.getBoundingClientRect();
+    flows.setAttribute("viewBox", "0 0 " + b.width + " " + b.height);
+    var a1 = anchor('[data-station="hush"]', "right");
+    var b1 = anchor('[data-station="marked"]', "left");
+    var a2 = anchor('[data-station="marked"]', "right");
+    var b2 = anchor('[data-station="bedrift"]', "left");
+    var e1 = anchor('[data-station="bedrift"]', "bottom");
+    var e2 = anchor('[data-station="hush"]', "bottom");
+    var retY = b.height - 46;
+    flows.innerHTML =
+      '<path id="p1" d="M' + a1.x + " " + a1.y + " C " + (a1.x + 60) + " " + (a1.y - 30) + ", " + (b1.x - 60) + " " + (b1.y - 30) + ", " + b1.x + " " + b1.y + '"/>' +
+      '<path id="p2" d="M' + a2.x + " " + a2.y + " C " + (a2.x + 60) + " " + (a2.y - 30) + ", " + (b2.x - 60) + " " + (b2.y - 30) + ", " + b2.x + " " + b2.y + '"/>' +
+      '<path id="p3" class="ret" d="M' + e1.x + " " + (e1.y + 8) + " C " + e1.x + " " + retY + ", " + e2.x + " " + retY + ", " + e2.x + " " + (e2.y + 8) + '"/>';
+    pathEls = { p1: flows.querySelector("#p1"), p2: flows.querySelector("#p2"), p3: flows.querySelector("#p3") };
+  }
+
+  /* particles */
+  var ctx = canvas.getContext("2d");
+  var parts = [];
+  var reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  function seed() {
+    parts = [];
+    ["p1", "p2", "p3"].forEach(function (id) {
+      var n = id === "p3" ? 16 : 10;
+      for (var i = 0; i < n; i++) {
+        parts.push({ id: id, t: Math.random(), v: 0.0011 + Math.random() * 0.0011 });
+      }
+    });
+  }
+  function tick() {
+    var b = board.getBoundingClientRect();
+    if (canvas.width !== b.width * devicePixelRatio) {
+      canvas.width = b.width * devicePixelRatio;
+      canvas.height = b.height * devicePixelRatio;
+    }
+    ctx.setTransform(devicePixelRatio, 0, 0, devicePixelRatio, 0, 0);
+    ctx.clearRect(0, 0, b.width, b.height);
+    parts.forEach(function (p) {
+      var el = pathEls[p.id];
+      if (!el) return;
+      p.t += p.v; if (p.t > 1) p.t -= 1;
+      var len = el.getTotalLength();
+      var pt = el.getPointAtLength(p.t * len);
+      var ret = p.id === "p3";
+      ctx.beginPath();
+      ctx.arc(pt.x, pt.y, ret ? 1.8 : 2.2, 0, 7);
+      ctx.fillStyle = ret ? "rgba(211,162,74,0.9)" : "rgba(224,91,65,0.95)";
+      ctx.shadowColor = ret ? "rgba(211,162,74,0.9)" : "rgba(224,91,65,0.9)";
+      ctx.shadowBlur = 8;
+      ctx.fill();
+      ctx.shadowBlur = 0;
+    });
+    requestAnimationFrame(tick);
+  }
+
+  /* interaction */
+  function clearState() {
+    board.classList.remove("exploring");
+    board.querySelectorAll(".lit").forEach(function (el) { el.classList.remove("lit"); });
+    board.querySelectorAll(".chip.on").forEach(function (el) { el.classList.remove("on"); });
+  }
+  function show(chip) {
+    var id = chip.getAttribute("data-topic");
+    var t = TOPICS[id];
+    clearState();
+    board.classList.add("exploring");
+    chip.classList.add("on");
+    var st = STATION_OF[id];
+    var stEl = board.querySelector('[data-station="' + st + '"]');
+    if (stEl) stEl.classList.add("lit");
+    (PATHS_OF[st] || []).forEach(function (pid) { if (pathEls[pid]) pathEls[pid].classList.add("lit"); });
+    if (!t) return;
+    card.innerHTML = "<h3></h3><span class='meta'></span><p class='body'></p><a></a>";
+    card.querySelector("h3").textContent = t.title;
+    card.querySelector(".meta").textContent = t.meta;
+    card.querySelector(".body").textContent = t.body;
+    var a = card.querySelector("a");
+    a.textContent = t.linkLabel;
+    a.href = t.link;
+    card.classList.remove("pop"); void card.offsetWidth; card.classList.add("pop");
+  }
+  function reset() { clearState(); card.innerHTML = defaultCard; pinned = null; }
+
+  board.querySelectorAll(".chip").forEach(function (chip) {
+    chip.addEventListener("mouseenter", function () { if (!pinned) show(chip); });
+    chip.addEventListener("focus", function () { if (!pinned) show(chip); });
+    chip.addEventListener("click", function () {
+      var id = chip.getAttribute("data-topic");
+      if (pinned === id) { reset(); } else { pinned = id; show(chip); }
+    });
+  });
+  board.addEventListener("mouseleave", function () { if (!pinned) reset(); });
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape" && pinned) reset(); });
+
+  layoutPaths();
+  addEventListener("resize", layoutPaths);
+  if (!reduced) { seed(); requestAnimationFrame(tick); }
+})();
+</script>
+</body>
+</html>
