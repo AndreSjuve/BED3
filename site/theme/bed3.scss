@@ -547,7 +547,7 @@ main.content .btn.button--quiet, .button--quiet {
 // Lists
 // =============================================================================
 
-main.content ul:not(.sidebar-section):not(.navbar-nav):not(.breadcrumb) {
+main.content ul:not(.sidebar-section):not(.navbar-nav):not(.breadcrumb):not(.kretslop__topics) {
   padding-left: 0;
   list-style: none;
 
@@ -1089,7 +1089,155 @@ details.solution {
 }
 
 @media print {
-  .navbar, .nav-footer, .sidebar, .nav-page, .btn { display: none; }
+  .navbar, .nav-footer, .sidebar, .nav-page, .btn, .kretslop { display: none; }
   body { background: #fff; color: #000; font-size: 11pt; }
   a { text-decoration: none; color: #000; }
+}
+
+// =============================================================================
+// Kapitalens kretsløp (forsiden)
+// =============================================================================
+
+.kretslop {
+  margin-top: 2rem;
+}
+
+.kretslop__diagram {
+  display: grid;
+  grid-template-columns: 1fr 3.5rem 1fr 3.5rem 1fr;
+  grid-template-areas:
+    "hush  linka marked linkb bedrift"
+    "risk  risk  risk   risk  risk"
+    "retur retur retur  retur retur";
+  align-items: start;
+  column-gap: 0;
+  row-gap: 1.25rem;
+}
+
+.kretslop__station[data-station="husholdningene"] { grid-area: hush; }
+.kretslop__link[data-link="til-markedet"]         { grid-area: linka; }
+.kretslop__station[data-station="markedet"]       { grid-area: marked; }
+.kretslop__link[data-link="til-bedriftene"]       { grid-area: linkb; }
+.kretslop__station[data-station="bedriftene"]     { grid-area: bedrift; }
+.kretslop__risk                                   { grid-area: risk; }
+.kretslop__return                                 { grid-area: retur; }
+
+.kretslop__station {
+  border: 1px solid $bed3-rule-strong;
+  background: $bed3-wash;
+  padding: 1rem 1.1rem 1.1rem;
+}
+
+.kretslop__station-name {
+  font-family: $bed3-display;
+  font-size: $h3-font-size;
+  margin: 0;
+}
+
+.kretslop__station-role {
+  color: $bed3-muted;
+  font-size: 0.9375rem;
+  font-style: italic;
+  margin: 0 0 0.75rem;
+}
+
+.kretslop__topics {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.kretslop__topic {
+  display: inline-block;
+  border: 1px solid $bed3-rule-strong;
+  background: $bed3-paper;
+  color: $bed3-oxblood;
+  padding: 0.2rem 0.65rem;
+  font-size: 0.9375rem;
+  text-decoration: none;
+}
+
+.kretslop__topic:hover,
+.kretslop__topic:focus-visible,
+.kretslop__topic.is-active {
+  background: $bed3-oxblood;
+  color: $bed3-paper;
+  border-color: $bed3-oxblood;
+}
+
+.kretslop__link {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.15rem;
+  padding-top: 1.5rem;
+}
+
+.kretslop__link svg {
+  width: 100%;
+  height: 1.1rem;
+  display: block;
+  overflow: visible;
+}
+
+.kretslop__flow-line {
+  stroke: $bed3-oxblood;
+  stroke-width: 1.5;
+  stroke-dasharray: 4 7;
+}
+
+.kretslop__flow-head { fill: $bed3-oxblood; }
+
+.kretslop__link-label {
+  color: $bed3-muted;
+  font-size: 0.8125rem;
+  font-style: italic;
+}
+
+.kretslop__risk {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem 0.75rem;
+  border-top: 1px solid $bed3-rule;
+  padding-top: 1rem;
+}
+
+.kretslop__risk-label {
+  color: $bed3-muted;
+  font-size: 0.8125rem;
+  font-style: italic;
+  width: 100%;
+  text-align: center;
+}
+
+.kretslop__return {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.15rem;
+}
+
+.kretslop__return svg {
+  width: 100%;
+  height: 1.1rem;
+  display: block;
+  overflow: visible;
+}
+
+.kretslop__card {
+  margin-top: 1.5rem;
+  border-top: 1px solid $bed3-rule;
+  padding-top: 1rem;
+  min-height: 7.5rem;
+}
+
+.kretslop__card-hint {
+  color: $bed3-muted;
+  font-size: 0.9375rem;
 }
