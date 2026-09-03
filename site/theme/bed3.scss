@@ -832,7 +832,8 @@ tr.row--marker td {
 }
 
 // The meta row is the night section's footer: same surface, closing rounding,
-// hairline seam against the player above. Prose resumes on parchment after.
+// hairline seam against the player above. Prose resumes on parchment after —
+// unless the band continues into the quiz (further below).
 .video + .video-meta {
   margin-top: 0;
   margin-bottom: var(--sp-5);
@@ -1665,4 +1666,66 @@ html:has(.buddy), body:has(.buddy) { overflow-x: clip; }
 @media (prefers-reduced-motion: reduce) {
   .buddy .bd-typing i { animation: none; opacity: 0.6; }
   .buddy .bd-cta, .buddy .bd-card { transition: none; }
+}
+
+// =============================================================================
+// The video+quiz night unit. On video pages the band does not end at the meta
+// row: it continues through the corrections (when present), the "Sjekk
+// forstaelsen" heading, and the quiz, as ONE full-bleed night section.
+// Watch and check is a single act of doing; parchment resumes after the quiz.
+// A quiz without a video above it keeps the standalone panel styling.
+// =============================================================================
+
+// Meta row: open bottom when the band continues.
+.video + .video-meta:has(+ h2 + .quiz),
+.video + .video-meta:has(+ .corrections + h2 + .quiz) {
+  margin-bottom: 0;
+  border-bottom: 0;
+  border-radius: 0;
+}
+
+// Corrections join the band: errata belong to the watching, and breaking the
+// surface open for them would stripe the page.
+.video-meta + .corrections:has(+ h2 + .quiz) {
+  margin: 0 calc(-1 * var(--night-bleed-right, 0px)) 0 calc(-1 * var(--night-bleed-left, 0px));
+  max-width: none;
+  background: $kl-bg2;
+  border: 1px solid $kl-line;
+  border-top: 1px solid rgba(245, 237, 227, 0.06);
+  border-bottom: 0;
+  padding: var(--sp-2) var(--sp-4) var(--sp-3);
+  color: $kl-dim;
+
+  p, ul { max-width: var(--measure); }
+  strong { color: $bed3-paper; }
+  li::marker { color: $kl-faint; }
+  a { color: $kl-gold; }
+}
+
+// The heading lives inside the band, set in paper on the night surface.
+.video-meta + h2:has(+ .quiz),
+.corrections + h2:has(+ .quiz) {
+  margin: 0 calc(-1 * var(--night-bleed-right, 0px)) 0 calc(-1 * var(--night-bleed-left, 0px));
+  max-width: none;
+  background: $kl-bg2;
+  color: $bed3-paper;
+  border-left: 1px solid $kl-line;
+  border-right: 1px solid $kl-line;
+  border-top: 1px solid rgba(245, 237, 227, 0.06);
+  padding: var(--sp-5) var(--sp-4) var(--sp-2);
+
+  .anchorjs-link { color: $kl-faint; }
+}
+
+// The quiz closes the band: no top edge of its own, rounding only at the
+// bottom, and flat against whichever screen edge the band touches.
+.video-meta + h2 + .quiz,
+.corrections + h2 + .quiz {
+  margin: 0 calc(-1 * var(--night-bleed-right, 0px)) var(--sp-6) calc(-1 * var(--night-bleed-left, 0px));
+  max-width: none;
+  border-top: 0;
+  border-radius:
+    0 0
+    clamp(0px, calc(16px - var(--night-bleed-right, 0px)), 16px)
+    clamp(0px, calc(16px - var(--night-bleed-left, 0px)), 16px);
 }
