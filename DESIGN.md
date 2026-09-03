@@ -92,6 +92,7 @@ rounded:
   night-board: 20px
   night-panel: 16px
   night-sub: 12px
+  night-inner: 10px
   night-pill: 999px
 spacing:
   unit: 8px
