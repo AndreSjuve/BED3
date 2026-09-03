@@ -1155,7 +1155,7 @@ details.solution {
   border: 1px solid $bed3-rule-strong;
   background: $bed3-paper;
   color: $bed3-oxblood;
-  padding: 0.2rem 0.65rem;
+  padding: 0.3rem 0.75rem;
   font-size: 0.9375rem;
   text-decoration: none;
 }
@@ -1169,12 +1169,12 @@ details.solution {
 }
 
 .kretslop__link {
-  align-self: center;
+  align-self: start;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 0.15rem;
-  padding-top: 1.5rem;
+  padding-top: 2.1rem;
 }
 
 .kretslop__link svg {
@@ -1244,7 +1244,7 @@ details.solution {
 
 .kretslop__card-title {
   font-family: $bed3-display;
-  font-size: 1.25rem;
+  font-size: $h3-font-size;
   margin: 0;
 }
 
@@ -1300,10 +1300,15 @@ details.solution {
   }
 
   .kretslop__link {
+    align-self: center;
     padding-top: 0;
     flex-direction: row;
     justify-content: center;
     gap: 0.5rem;
+  }
+
+  .kretslop__topic {
+    padding: 0.45rem 0.8rem;
   }
 
   .kretslop__link svg {

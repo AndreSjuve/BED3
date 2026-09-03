@@ -58,8 +58,6 @@ tema i kurset hører hjemme et sted i det kretsløpet.
 
 {{< include _includes/kretslop.html >}}
 
-<p class="note">Hele resonnementet er skrevet ut i <a href="kursmateriale/00-bakteppe.html">bakteppet</a>.</p>
-
 ## Det du finner her
 
 ::::: {.two-col}
