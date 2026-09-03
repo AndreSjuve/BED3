@@ -79,8 +79,20 @@ typography:
   asterism:
     fontFamily: EB Garamond
     fontSize: 17.6px
+  night-chip:
+    fontFamily: Inter
+    fontSize: 13.12px
+    fontWeight: '500'
+  night-meta:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '600'
 rounded:
   DEFAULT: 0
+  night-board: 20px
+  night-panel: 16px
+  night-sub: 12px
+  night-pill: 999px
 spacing:
   unit: 8px
   page-margin: clamp(24px, 5vw, 96px)
