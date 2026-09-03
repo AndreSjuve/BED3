@@ -1241,3 +1241,58 @@ details.solution {
   color: $bed3-muted;
   font-size: 0.9375rem;
 }
+
+@keyframes kretslop-flow {
+  to { stroke-dashoffset: -22; }
+}
+
+@keyframes kretslop-flow-return {
+  to { stroke-dashoffset: 22; }
+}
+
+.kretslop__flow-line { animation: kretslop-flow 2.4s linear infinite; }
+.kretslop__flow-line--return { animation: kretslop-flow-return 2.4s linear infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  .kretslop__flow-line,
+  .kretslop__flow-line--return { animation: none; }
+}
+
+// Exploring state: JS sets .is-exploring on .kretslop, .is-lit on the
+// active topic's station (or the risk strip) and the flow links beside it.
+.kretslop__station,
+.kretslop__link,
+.kretslop__risk,
+.kretslop__return {
+  transition: opacity 160ms ease;
+}
+
+.kretslop.is-exploring .kretslop__station,
+.kretslop.is-exploring .kretslop__link,
+.kretslop.is-exploring .kretslop__risk,
+.kretslop.is-exploring .kretslop__return {
+  opacity: 0.35;
+}
+
+.kretslop.is-exploring .is-lit { opacity: 1; }
+
+@media (max-width: 47.9rem) {
+  .kretslop__diagram {
+    grid-template-columns: 1fr;
+    grid-template-areas: "hush" "linka" "marked" "linkb" "bedrift" "risk" "retur";
+  }
+
+  .kretslop__link {
+    padding-top: 0;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  .kretslop__link svg {
+    width: 2.2rem;
+    height: 2.2rem;
+    transform: rotate(90deg);
+    transform-origin: center;
+  }
+}
