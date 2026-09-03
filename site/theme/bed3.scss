@@ -1199,7 +1199,8 @@ details.solution {
 // "night" translation of the paper/oxblood system, documented in DESIGN.md.
 // =============================================================================
 
-html:has(.kretslop), body:has(.kretslop) { overflow-x: clip; }
+html:has(.kretslop), body:has(.kretslop),
+html:has(.buddy), body:has(.buddy) { overflow-x: clip; }
 
 .kretslop {
   margin: var(--sp-6) calc(50% - 50vw);
@@ -1456,4 +1457,212 @@ html:has(.kretslop), body:has(.kretslop) { overflow-x: clip; }
   .kretslop .kl-sparks { display: none; }
   .kretslop .kl-chip, .kretslop .kl-station, .kretslop .kl-sub { transition: none; }
   .kretslop .kl-card.pop { animation: none; }
+}
+
+// =============================================================================
+// BED3-Buddy — the whole page is one night instrument (no sidebar here, so
+// the band spans the full viewport). Ported from design/buddy-night/.
+// =============================================================================
+
+.buddy {
+  margin: calc(-1 * var(--sp-4)) calc(50% - 50vw) calc(-1 * var(--section-gap));
+  padding: 4rem 0 5rem;
+  background:
+    radial-gradient(1100px 600px at 75% -10%, rgba(224, 91, 65, 0.09), transparent 60%),
+    radial-gradient(900px 500px at 5% 110%, rgba(211, 162, 74, 0.07), transparent 60%),
+    $kl-bg;
+  color: $bed3-paper;
+
+  ::selection { background: rgba(224, 91, 65, 0.35); }
+  :focus-visible { outline-color: $kl-ember !important; }
+
+  .bd-shell {
+    max-width: 72rem;
+    margin: 0 auto;
+    padding: 0 clamp(1.5rem, 5vw, 6rem);
+  }
+
+  .bd-hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+    gap: 4rem;
+    align-items: center;
+  }
+
+  .bd-tag {
+    display: inline-flex; align-items: center; gap: 0.5rem;
+    font: 500 0.78rem/1 "Inter", system-ui, sans-serif;
+    color: $kl-dim;
+    border: 1px solid $kl-line;
+    border-radius: 999px;
+    padding: 0.3rem 0.85rem;
+    background: $kl-glass;
+
+    &::before {
+      content: ""; width: 6px; height: 6px; border-radius: 50%;
+      background: $kl-gold;
+      box-shadow: 0 0 10px 2px rgba(211, 162, 74, 0.6);
+    }
+  }
+
+  .bd-title {
+    font-family: $bed3-display;
+    font-size: clamp(2.6rem, 1.6rem + 3.6vw, 4.2rem);
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    line-height: 1.02;
+    color: $bed3-paper;
+    margin: 1.1rem 0 0.9rem;
+    max-width: none;
+
+    em { font-style: italic; font-weight: 500; color: $kl-ember; }
+  }
+
+  .bd-lede { color: $kl-dim; font-size: 1.15rem; line-height: 1.65; max-width: 34rem; margin: 0; }
+
+  .bd-cta {
+    display: inline-flex; align-items: center; gap: 0.55rem;
+    margin-top: 1.8rem;
+    font: 600 0.95rem/1 "Inter", system-ui, sans-serif;
+    color: $kl-bg;
+    background: linear-gradient(135deg, $kl-ember, #c94a33);
+    border-radius: 999px;
+    padding: 0.85rem 1.4rem;
+    text-decoration: none;
+    box-shadow: 0 8px 30px -8px rgba(224, 91, 65, 0.55);
+    transition: transform 180ms ease-out, box-shadow 180ms ease-out;
+
+    &::after { content: "→"; }
+    &:hover {
+      color: $kl-bg;
+      transform: translateY(-2px);
+      box-shadow: 0 12px 36px -8px rgba(224, 91, 65, 0.7);
+    }
+  }
+  .bd-cta-note {
+    display: block; margin-top: 0.8rem;
+    font-size: 0.95rem; font-style: italic; color: $kl-faint;
+  }
+
+  .bd-chat {
+    border: 1px solid $kl-line;
+    border-radius: 20px;
+    background:
+      linear-gradient(180deg, rgba(245, 237, 227, 0.02), rgba(245, 237, 227, 0) 40%),
+      $kl-bg2;
+    padding: 1.4rem;
+    display: flex; flex-direction: column; gap: 0.9rem;
+  }
+  .bd-chat-head {
+    display: flex; align-items: center; gap: 0.6rem;
+    padding-bottom: 0.9rem;
+    border-bottom: 1px solid $kl-line;
+    font: 500 0.8rem/1 "Inter", system-ui, sans-serif;
+    color: $kl-faint;
+  }
+  .bd-dot {
+    width: 7px; height: 7px; border-radius: 50%;
+    background: $kl-ember;
+    box-shadow: 0 0 8px 1px rgba(224, 91, 65, 0.7);
+  }
+  .bd-msg {
+    max-width: 85%;
+    border-radius: 14px;
+    padding: 0.7rem 0.95rem;
+    font-size: 1rem;
+    line-height: 1.55;
+    margin: 0;
+  }
+  .bd-msg--student {
+    align-self: flex-end;
+    background: rgba(224, 91, 65, 0.14);
+    border: 1px solid rgba(224, 91, 65, 0.3);
+    color: $bed3-paper;
+  }
+  .bd-msg--buddy {
+    align-self: flex-start;
+    background: $kl-glass;
+    border: 1px solid $kl-edge;
+    color: $kl-dim;
+
+    b { color: $bed3-paper; font-weight: 600; }
+  }
+  .bd-typing {
+    align-self: flex-start;
+    display: inline-flex; gap: 0.3rem;
+    padding: 0.7rem 0.95rem;
+
+    i {
+      width: 6px; height: 6px; border-radius: 50%;
+      background: $kl-faint;
+      animation: bd-blink 1.2s ease-in-out infinite;
+    }
+    i:nth-child(2) { animation-delay: 0.2s; }
+    i:nth-child(3) { animation-delay: 0.4s; }
+  }
+
+  .bd-h2 {
+    font-family: $bed3-display;
+    font-size: 1.9rem; font-weight: 600;
+    color: $bed3-paper;
+    margin: 4rem 0 0.8rem;
+    border-bottom: 0;
+  }
+  .bd-prose {
+    color: $kl-dim; font-size: 1.08rem; line-height: 1.65; max-width: 62ch; margin: 0;
+
+    a {
+      color: $kl-gold;
+      text-decoration-color: rgba(211, 162, 74, 0.45);
+
+      &:hover { color: $bed3-paper; text-decoration-color: $kl-gold; }
+    }
+  }
+
+  .bd-cards {
+    margin-top: 1.6rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+    gap: 1rem;
+    max-width: none;
+  }
+  .bd-card {
+    border: 1px solid $kl-edge;
+    border-radius: 16px;
+    background: $kl-glass;
+    backdrop-filter: blur(14px);
+    padding: 1.2rem 1.2rem 1rem;
+    display: flex; flex-direction: column; gap: 0.9rem;
+    transition: border-color 200ms ease, transform 200ms ease-out;
+
+    &:hover { border-color: rgba(224, 91, 65, 0.45); transform: translateY(-2px); }
+
+    p { color: $kl-dim; font-size: 1rem; line-height: 1.55; flex: 1; margin: 0; max-width: none; }
+  }
+  .bd-copy {
+    align-self: start;
+    font: 500 0.78rem/1 "Inter", system-ui, sans-serif;
+    color: $kl-ember;
+    background: none;
+    border: 1px solid rgba(224, 91, 65, 0.4);
+    border-radius: 999px;
+    padding: 0.45rem 0.85rem;
+    cursor: pointer;
+    transition: background 160ms ease, color 160ms ease;
+
+    &:hover, &:focus-visible { background: rgba(224, 91, 65, 0.15); }
+    &.bd-copy--done { color: $kl-gold; border-color: rgba(211, 162, 74, 0.5); }
+  }
+}
+
+@keyframes bd-blink { 0%, 60%, 100% { opacity: 0.25; } 30% { opacity: 1; } }
+
+@media (max-width: 860px) {
+  .buddy .bd-hero { grid-template-columns: 1fr; gap: 2.5rem; }
+  .buddy { padding: 3rem 0 4rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .buddy .bd-typing i { animation: none; opacity: 0.6; }
+  .buddy .bd-cta, .buddy .bd-card { transition: none; }
 }

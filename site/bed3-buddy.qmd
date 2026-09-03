@@ -1,91 +1,68 @@
 ---
-title: "BED3-Buddy"
-subtitle: "Kursets egen KI-assistent: en skreddersydd GPT som kan pensum, og som aldri blir lei av å forklare."
+pagetitle: "BED3-Buddy"
 ---
 
-[Åpne BED3-Buddy i ChatGPT](https://chatgpt.com/g/g-6752cd1ed2e8819182def0c102bee043-bed3-buddy){.btn}
-
-## Hva det er
-
-BED3-Buddy er en tilpasset versjon av ChatGPT som vi har satt opp for dette
-kurset. Den kjenner kursets temaer og notasjon, og er ment som en
-samtalepartner ved siden av innholdet på denne siden og Canvas.
-
-Du trenger en ChatGPT-konto for å bruke den.
-
-## Hva den er god til og hva du må passe på
-
-Bruk den til det en tålmodig læringsassistent er god til: forklare et begrep
-på flere måter, lage nye øvingsoppgaver, finne hullet i et resonnement du
-selv har skrevet, eller stille deg kontrollspørsmål.
-
-Husk at språkmodeller kan regne feil og formulere gale påstander
-med full selvsikkerhet. Fasit i dette kurset er [videoene](kursinnhold.qmd),
-[formelarket](formelark.qmd) og pensumboken.
-
-## Kom i gang: forslag til meldinger
-
-Åpne BED3-Buddy og lim inn en av disse, eller skriv din egen.
-
 ```{=html}
-<div class="prompt-cards">
-<div class="prompt-card">
-<p>Forklar forskjellen på internrente og avkastningskrav som om jeg aldri har
-hatt finans før. Bruk et talleksempel med én investering i dag og én
-innbetaling om ett år.</p>
-<button class="prompt-card__copy" type="button">Kopier</button>
-</div>
-<div class="prompt-card">
-<p>Hør meg i effekter av skatt og lån (BED3). Still meg fem spørsmål, ett om
-gangen. Vent på svaret mitt før du går videre, og rett meg underveis.</p>
-<button class="prompt-card__copy" type="button">Kopier</button>
-</div>
-<div class="prompt-card">
-<p>Lag tre regneoppgaver om saldoavskrivninger og skattefordelen av
-avskrivninger, på nivå med et innføringskurs i finans. Vis fasit først når jeg
-ber om den.</p>
-<button class="prompt-card__copy" type="button">Kopier</button>
-</div>
-<div class="prompt-card">
-<p>Jeg står fast på nåverdiprofiler: hvorfor kan to prosjekter bytte rangering
-når avkastningskravet endres, når internrentene deres ligger fast? Forklar med
-en figur beskrevet i ord, og gi meg så et kontrollspørsmål.</p>
-<button class="prompt-card__copy" type="button">Kopier</button>
-</div>
-</div>
+<div class="buddy">
+  <div class="bd-shell">
+    <div class="bd-hero">
+      <div>
+        <span class="bd-tag">BED3 · kursets egen KI-assistent</span>
+        <h1 class="bd-title">BED3-<em>Buddy</em></h1>
+        <p class="bd-lede">En skreddersydd GPT som kan pensum, og som aldri blir lei av å forklare. Still spørsmål, be om nye oppgaver, eller la den høre deg til du sitter sikkert.</p>
+        <a class="bd-cta" href="https://chatgpt.com/g/g-6752cd1ed2e8819182def0c102bee043-bed3-buddy">Åpne BED3-Buddy i ChatGPT</a>
+        <span class="bd-cta-note">Du trenger en ChatGPT-konto for å bruke den.</span>
+      </div>
 
-<style>
-.prompt-cards { display: grid; gap: 1rem; max-width: 68ch; }
-.prompt-card {
-  border-top: 1px solid var(--rule);
-  padding-top: 0.75rem;
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  gap: 0.5rem 1.25rem;
-  align-items: start;
-}
-.prompt-card p { margin: 0; font-size: var(--size-small); color: var(--sepia); }
-.prompt-card__copy {
-  background: none; border: 0; border-bottom: 1px solid var(--rule-strong);
-  border-radius: 0; padding: 0.1rem 0; font: inherit;
-  font-size: var(--size-small); color: var(--oxblood); cursor: pointer;
-  white-space: nowrap;
-}
-.prompt-card__copy:hover { border-bottom-color: var(--oxblood); }
-</style>
+      <div class="bd-chat" aria-hidden="true">
+        <div class="bd-chat-head"><span class="bd-dot"></span>BED3-Buddy</div>
+        <p class="bd-msg bd-msg--student">Hvorfor kan to prosjekter bytte rangering når avkastningskravet endres, når internrentene deres ligger fast?</p>
+        <p class="bd-msg bd-msg--buddy">Fordi internrenten bare sier hvor kurvene krysser null, ikke hvordan de faller. <b>Nåverdiprofilene</b> til to prosjekter kan krysse hverandre: før krysningspunktet vinner det ene, etter vinner det andre. Skal vi tegne det med tall?</p>
+        <p class="bd-msg bd-msg--student">Ja, gi meg et eksempel med to prosjekter.</p>
+        <span class="bd-typing"><i></i><i></i><i></i></span>
+      </div>
+    </div>
+
+    <h2 class="bd-h2">Hva den er god til, og hva du må passe på</h2>
+    <p class="bd-prose">Bruk den til det en tålmodig læringsassistent er god til: forklare et begrep på flere måter, lage nye øvingsoppgaver, finne hullet i et resonnement du selv har skrevet, eller stille deg kontrollspørsmål. Husk at språkmodeller kan regne feil og formulere gale påstander med full selvsikkerhet. Fasit i dette kurset er <a href="kursinnhold.html">videoene</a>, <a href="formelark.html">formelarket</a> og pensumboken.</p>
+
+    <h2 class="bd-h2">Kom i gang: forslag til meldinger</h2>
+    <p class="bd-prose">Åpne BED3-Buddy og lim inn en av disse, eller skriv din egen.</p>
+
+    <div class="bd-cards">
+      <div class="bd-card">
+        <p>Forklar forskjellen på internrente og avkastningskrav som om jeg aldri har hatt finans før. Bruk et talleksempel med én investering i dag og én innbetaling om ett år.</p>
+        <button type="button" class="bd-copy">Kopier</button>
+      </div>
+      <div class="bd-card">
+        <p>Hør meg i effekter av skatt og lån (BED3). Still meg fem spørsmål, ett om gangen. Vent på svaret mitt før du går videre, og rett meg underveis.</p>
+        <button type="button" class="bd-copy">Kopier</button>
+      </div>
+      <div class="bd-card">
+        <p>Lag tre regneoppgaver om saldoavskrivninger og skattefordelen av avskrivninger, på nivå med et innføringskurs i finans. Vis fasit først når jeg ber om den.</p>
+        <button type="button" class="bd-copy">Kopier</button>
+      </div>
+      <div class="bd-card">
+        <p>Jeg står fast på nåverdiprofiler: hvorfor kan to prosjekter bytte rangering når avkastningskravet endres, når internrentene deres ligger fast? Forklar med en figur beskrevet i ord, og gi meg så et kontrollspørsmål.</p>
+        <button type="button" class="bd-copy">Kopier</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <script>
-document.querySelectorAll('.prompt-card__copy').forEach(function (btn) {
-  btn.addEventListener('click', function () {
-    var text = btn.parentElement.querySelector('p').innerText;
+document.querySelectorAll(".bd-copy").forEach(function (btn) {
+  btn.addEventListener("click", function () {
+    var text = btn.parentElement.querySelector("p").innerText;
     navigator.clipboard.writeText(text).then(function () {
-      btn.textContent = 'Kopiert';
-      setTimeout(function () { btn.textContent = 'Kopier'; }, 1600);
+      btn.textContent = "Kopiert";
+      btn.classList.add("bd-copy--done");
+      setTimeout(function () {
+        btn.textContent = "Kopier";
+        btn.classList.remove("bd-copy--done");
+      }, 1600);
     });
   });
 });
 </script>
 ```
-
-<p class="note">BED3-Buddy er et supplement, ikke pensum. Innholdet på denne
-siden og Canvas er det som gjelder.</p>
