@@ -38,7 +38,7 @@ følger dem opp.
 <table role="table">
   <caption>Raden for inneværende uke markeres automatisk med farge. En strek i
   kolonnen <em>Foreleser</em> betyr at det ikke er forelesning den dagen.
-  Pensumtallene viser kapitler i BMM; «BK» er tilleggspensumet fra Boye &amp;
+  Pensumtallene viser kapitler i BDH; «BK» er tilleggspensumet fra Boye &amp;
   Koekebakker (kapittel 6.4).</caption>
   <thead role="rowgroup">
     <tr role="row">
@@ -58,7 +58,7 @@ følger dem opp.
       <td role="cell">Tirsdag</td>
       <td role="cell"><span class="topic">Synkront: Introduksjon, asynkront: investeringsprosjekter</span></td>
       <td role="cell" data-label="Foreleser">FS/AWS</td>
-      <td role="cell" data-label="Pensum"><span class="week">1, 2</span></td>
+      <td role="cell" data-label="Pensum"><span class="week">1, 3–4, 8</span></td>
     </tr>
 
     <tr role="row" data-week-start="2026-01-05">
@@ -67,7 +67,7 @@ følger dem opp.
       <td role="cell">Fredag</td>
       <td role="cell"><span class="topic">Asynkront: Effekter av skatt og lån</span></td>
       <td role="cell" data-label="Foreleser">–</td>
-      <td role="cell" data-label="Pensum"><span class="week">5.1–5.6, 8, 19</span></td>
+      <td role="cell" data-label="Pensum"><span class="week">9</span></td>
     </tr>
 
     <tr role="row" data-week-start="2026-01-12">
@@ -76,7 +76,7 @@ følger dem opp.
       <td role="cell">Tirsdag</td>
       <td role="cell"><span class="topic">Asynkront: Effekter av inflasjon</span></td>
       <td role="cell" data-label="Foreleser">–</td>
-      <td role="cell" data-label="Pensum"><span class="week">9, BK</span></td>
+      <td role="cell" data-label="Pensum"><span class="week">5.3, BK</span></td>
     </tr>
 
     <tr role="row" data-week-start="2026-01-12">
@@ -85,7 +85,7 @@ følger dem opp.
       <td role="cell">Fredag</td>
       <td role="cell"><span class="topic">Synkront: Q&amp;A, oppgavetrening, asynkront: Risikovurderinger</span></td>
       <td role="cell" data-label="Foreleser">AWS</td>
-      <td role="cell" data-label="Pensum"><span class="week">10</span></td>
+      <td role="cell" data-label="Pensum"><span class="week">9.5–9.6</span></td>
     </tr>
 
     <tr role="row" class="row--marker" data-week-start="2026-01-19">
@@ -98,7 +98,7 @@ følger dem opp.
       <td role="cell">Tirsdag</td>
       <td role="cell"><span class="topic">Synkront: Oppsummering, asynkront: Låne- og betalingsalternativer</span></td>
       <td role="cell" data-label="Foreleser">AWS</td>
-      <td role="cell" data-label="Pensum"><span class="week">5.7</span></td>
+      <td role="cell" data-label="Pensum"><span class="week">5.1–5.2, 24 (nett)</span></td>
     </tr>
 
     <tr role="row" data-week-start="2026-01-26">
@@ -125,7 +125,7 @@ følger dem opp.
       <td role="cell">Fredag</td>
       <td role="cell"><span class="topic">Kapitalverdimodellen</span></td>
       <td role="cell" data-label="Foreleser">AØ</td>
-      <td role="cell" data-label="Pensum"><span class="week">7</span></td>
+      <td role="cell" data-label="Pensum"><span class="week">12.4</span></td>
     </tr>
 
     <tr role="row" class="row--marker" data-week-start="2026-02-09">
@@ -138,7 +138,7 @@ følger dem opp.
       <td role="cell">Tirsdag</td>
       <td role="cell"><span class="topic">Kapitalmarkedet/Markedseffisiens/Prising</span></td>
       <td role="cell" data-label="Foreleser">AØ</td>
-      <td role="cell" data-label="Pensum"><span class="week">7, 14, 15, 21</span></td>
+      <td role="cell" data-label="Pensum"><span class="week">7, 10.4</span></td>
     </tr>
 
     <tr role="row" data-week-start="2026-02-16">
@@ -191,7 +191,7 @@ følger dem opp.
       <td role="cell">Fredag</td>
       <td role="cell"><span class="topic">Synkront: Oversikt og oppgaver, asynkront: Rentemarkedet</span></td>
       <td role="cell" data-label="Foreleser">AWS</td>
-      <td role="cell" data-label="Pensum"><span class="week">6</span></td>
+      <td role="cell" data-label="Pensum"><span class="week">5.3, 6</span></td>
     </tr>
 
     <tr role="row" data-week-start="2026-03-16">
@@ -213,7 +213,7 @@ følger dem opp.
       <td role="cell">Tirsdag</td>
       <td role="cell"><span class="topic">Asynkront: Opsjonskontrakter</span></td>
       <td role="cell" data-label="Foreleser">–</td>
-      <td role="cell" data-label="Pensum"><span class="week">23, 24.2</span></td>
+      <td role="cell" data-label="Pensum"><span class="week">21</span></td>
     </tr>
 
     <tr role="row" data-week-start="2026-03-23">
@@ -222,7 +222,7 @@ følger dem opp.
       <td role="cell">Fredag</td>
       <td role="cell"><span class="topic">Synkront: Q&amp;A og oppgaver, asynkront: Terminkontrakter</span></td>
       <td role="cell" data-label="Foreleser">AWS</td>
-      <td role="cell" data-label="Pensum"><span class="week">24.1, 24.3, 24.4, 24.7</span></td>
+      <td role="cell" data-label="Pensum"></td>
     </tr>
 
     <tr role="row" class="row--marker" data-week-start="2026-03-30">
@@ -244,7 +244,7 @@ følger dem opp.
       <td role="cell">Fredag</td>
       <td role="cell"><span class="topic">Synkront: Oppsummering, asynkront: Internasjonal finans</span></td>
       <td role="cell" data-label="Foreleser">AWS</td>
-      <td role="cell" data-label="Pensum"><span class="week">22</span></td>
+      <td role="cell" data-label="Pensum"><span class="week">23</span></td>
     </tr>
 
     <tr role="row" class="row--marker" data-week-start="2026-04-13">
@@ -323,7 +323,7 @@ følger dem opp.
 
 <dl class="glossary">
   <dt style="min-width:10rem">Pensumbok</dt>
-  <dd>Richard Brealey, Stewart Myers &amp; Alan Marcus (BMM), <em>Fundamentals of Corporate Finance</em>, 11. utgave, McGraw-Hill, 2023</dd>
+  <dd>Jonathan Berk, Peter DeMarzo &amp; Jarrad Harford (BDH), <em>Fundamentals of Corporate Finance</em>, Global Edition, 6. utgave, Pearson, 2024</dd>
   <dt style="min-width:10rem">Tilleggspensum</dt>
   <dd>Knut Boye &amp; Steen Koekebakker (BK), <em>Finansielle emner</em>, 14. utgave, Cappelen Akademisk Forlag, 2006, kapittel 6.4, lagt ut på kursets hjemmeside på Canvas</dd>
   <dt style="min-width:10rem">Kursgodkjenning</dt>

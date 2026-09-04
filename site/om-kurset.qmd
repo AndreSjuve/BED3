@@ -101,8 +101,8 @@ med maksimalt tre studenter med frist mandag 23. februar, se
 
 ## Pensum
 
-- Richard Brealey, Stewart Myers & Alan Marcus (BMM), *Fundamentals of
-  Corporate Finance*, 11. utgave, McGraw-Hill, 2023.
+- Jonathan Berk, Peter DeMarzo & Jarrad Harford (BDH), *Fundamentals of
+  Corporate Finance*, Global Edition, 6. utgave, Pearson, 2024.
 - Tilleggspensum: Knut Boye & Steen Koekebakker (BK), *Finansielle emner*,
   14. utgave, Cappelen Akademisk Forlag, 2006, kapittel 6.4, lagt ut på
   kursets hjemmeside på Canvas.

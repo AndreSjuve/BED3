@@ -15,9 +15,11 @@ referanseimplementasjonen — les den før du skriver noe.
   (se K01/V06 og V07 for mønsteret). Tall som ikke lar seg verifisere brukes
   ikke i prosa eller quiz.
 - Usikre referanser i lyden (kurskoder o.l.) utelates fra prosaen.
-- Læreboken (BMM, *Fundamentals of Corporate Finance* 11e, i
-  `…/literature/books/Fagbøker/`) er **inspirasjon** for oppgaver og
-  distraktorer — aldri kilde for påstander om hva videoen sier.
+- Læreboken (BDH: Berk, DeMarzo & Harford, *Fundamentals of Corporate
+  Finance*, Global Edition, 6e, Pearson 2024 — fra og med 2026/2027 kurset;
+  tidligere pensum var Brealey/Myers/Marcus (BMM) 11e) er **inspirasjon**
+  for oppgaver og distraktorer — aldri kilde for påstander om hva videoen
+  sier.
 
 ## Sideanatomi (i denne rekkefølgen)
 
