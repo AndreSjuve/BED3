@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='518.40pt' height='316.80pt' viewBox='0 0 518.40 316.80'>
+<g class='svglite'>
+<defs>
+  <style type='text/css'><![CDATA[
+    @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600&display=swap");
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+    .svglite g.glyphgroup path {
+      fill: inherit;
+      stroke: none;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #F5EDE3;'/>
+<defs>
+  <clipPath id='cpMC4wMHw1MTguNDB8MC4wMHwzMTYuODA='>
+    <rect x='0.00' y='0.00' width='518.40' height='316.80' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHw1MTguNDB8MC4wMHwzMTYuODA=)'>
+<rect x='0.00' y='-0.000000000000057' width='518.40' height='316.80' style='stroke-width: 1.94; stroke: none; fill: #F5EDE3;' />
+</g>
+<defs>
+  <clipPath id='cpMzYuOTF8NTE0LjQxfDMuOTl8Mjc5Ljg5'>
+    <rect x='36.91' y='3.99' width='477.50' height='275.90' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMzYuOTF8NTE0LjQxfDMuOTl8Mjc5Ljg5)'>
+<rect x='36.91' y='3.99' width='477.50' height='275.90' style='stroke-width: 1.94; stroke: none; fill: #F5EDE3;' />
+<polyline points='48.89,234.08 52.53,229.11 56.18,224.27 59.83,219.58 63.47,215.01 67.12,210.58 70.76,206.26 74.41,202.07 78.06,198.00 81.70,194.04 85.35,190.20 88.99,186.46 92.64,182.83 96.28,179.30 99.93,175.87 103.58,172.54 107.22,169.30 110.87,166.16 114.51,163.10 118.16,160.14 121.81,157.25 125.45,154.46 129.10,151.74 132.74,149.10 136.39,146.54 140.04,144.05 143.68,141.64 147.33,139.29 150.97,137.02 154.62,134.81 158.27,132.66 161.91,130.58 165.56,128.57 169.20,126.61 172.85,124.71 176.50,122.87 180.14,121.08 183.79,119.35 187.43,117.67 191.08,116.04 194.73,114.46 198.37,112.93 202.02,111.45 205.66,110.02 209.31,108.62 212.95,107.28 216.60,105.97 220.25,104.71 223.89,103.49 227.54,102.31 231.18,101.16 234.83,100.06 238.48,98.99 242.12,97.96 245.77,96.96 249.41,95.99 253.06,95.06 256.71,94.16 260.35,93.29 264.00,92.45 267.64,91.65 271.29,90.87 274.94,90.12 278.58,89.39 282.23,88.70 285.87,88.03 289.52,87.38 293.17,86.77 296.81,86.17 300.46,85.60 304.10,85.05 307.75,84.53 311.39,84.03 315.04,83.54 318.69,83.08 322.33,82.65 325.98,82.23 329.62,81.83 333.27,81.45 336.92,81.08 340.56,80.74 344.21,80.42 347.85,80.11 351.50,79.82 355.15,79.54 358.79,79.28 362.44,79.04 366.08,78.81 369.73,78.60 373.38,78.40 377.02,78.22 380.67,78.05 384.31,77.90 387.96,77.76 391.61,77.63 395.25,77.51 398.90,77.41 402.54,77.32 406.19,77.24 409.84,77.18 413.48,77.12 417.13,77.08 420.77,77.05 424.42,77.03 428.06,77.02 431.71,77.02 435.36,77.03 439.00,77.05 442.65,77.08 446.29,77.12 449.94,77.16 453.59,77.22 457.23,77.29 460.88,77.37 464.52,77.45 468.17,77.54 471.82,77.65 475.46,77.76 479.11,77.87 482.75,78.00 486.40,78.13 ' style='stroke-width: 2.35; stroke: #2A1414; stroke-linecap: butt;' />
+<line x1='113.93' y1='177.99' x2='158.85' y2='115.08' style='stroke-width: 1.71; stroke: #6E1E1E; stroke-linecap: butt;' />
+<line x1='245.18' y1='123.10' x2='290.10' y2='60.19' style='stroke-width: 1.71; stroke: #6E1E1E; stroke-linecap: butt;' />
+<line x1='376.44' y1='108.87' x2='421.36' y2='45.96' style='stroke-width: 1.71; stroke: #6E1E1E; stroke-linecap: butt;' />
+<line x1='95.56' y1='122.95' x2='177.22' y2='170.13' style='stroke-width: 1.71; stroke: #6E1E1E; stroke-linecap: butt;' />
+<line x1='226.81' y1='68.05' x2='308.48' y2='115.24' style='stroke-width: 1.71; stroke: #6E1E1E; stroke-linecap: butt;' />
+<line x1='358.06' y1='53.82' x2='439.73' y2='101.00' style='stroke-width: 1.71; stroke: #6E1E1E; stroke-linecap: butt;' />
+<text x='109.56' y='190.01' text-anchor='end' style='font-size: 18.21px;fill: #2A1414; font-family: "EB Garamond";' textLength='12.20px' lengthAdjust='spacingAndGlyphs'>T</text>
+<text x='240.81' y='135.12' text-anchor='end' style='font-size: 18.21px;fill: #2A1414; font-family: "EB Garamond";' textLength='12.20px' lengthAdjust='spacingAndGlyphs'>T</text>
+<text x='372.06' y='120.89' text-anchor='end' style='font-size: 18.21px;fill: #2A1414; font-family: "EB Garamond";' textLength='12.20px' lengthAdjust='spacingAndGlyphs'>T</text>
+<text x='181.60' y='176.10' style='font-size: 18.21px;fill: #2A1414; font-family: "EB Garamond";' textLength='10.27px' lengthAdjust='spacingAndGlyphs'>E</text>
+<text x='312.85' y='121.21' style='font-size: 18.21px;fill: #2A1414; font-family: "EB Garamond";' textLength='10.27px' lengthAdjust='spacingAndGlyphs'>E</text>
+<text x='444.11' y='106.97' style='font-size: 18.21px;fill: #2A1414; font-family: "EB Garamond";' textLength='10.27px' lengthAdjust='spacingAndGlyphs'>E</text>
+</g>
+<g clip-path='url(#cpMC4wMHw1MTguNDB8MC4wMHwzMTYuODA=)'>
+<polyline points='36.91,279.89 514.41,279.89 ' style='stroke-width: 0.85; stroke: #C9A9A1; stroke-linecap: butt;' />
+<text x='275.66' y='307.30' text-anchor='middle' style='font-size: 19.00px;fill: #4A342F; font-family: "EB Garamond";' textLength='149.61px' lengthAdjust='spacingAndGlyphs'>Gjenværende løpetid</text>
+<text transform='translate(16.46,141.94) rotate(-90)' text-anchor='middle' style='font-size: 19.00px;fill: #4A342F; font-family: "EB Garamond";' textLength='97.39px' lengthAdjust='spacingAndGlyphs'>Effektiv rente</text>
+</g>
+</g>
+</svg>

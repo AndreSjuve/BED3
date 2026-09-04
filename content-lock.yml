@@ -1,0 +1,61 @@
+# Written by tools/sync-slides.py. Records which BED3-course-content
+# commit produced the slide HTML/PDF currently committed under
+# site/assets/plansjer[-html]/. Do not hand-edit; re-run the sync.
+schema_version: 1
+source_repo: https://github.com/AndreSjuve/BED3-course-content.git
+source_commit: 138cbb5b97d0ddd32545d3c063a9e2b9069ef009
+decks:
+  - id: F04
+    title: Risikovurderinger
+    pdf: site/assets/plansjer/BED3_F04_risikovurderinger.pdf
+    pdf_bytes: 3895780
+    html: site/assets/plansjer-html/F04-risikovurderinger/F04-risikovurderinger.html
+    html_bytes: 67448
+  - id: F01
+    title: Investeringsprosjekter
+    pdf: site/assets/plansjer/BED3_F01_investeringsprosjekter.pdf
+    pdf_bytes: 2216950
+    html: site/assets/plansjer-html/F01-investeringsprosjekter/F01-investeringsprosjekter.html
+    html_bytes: 44879
+  - id: F02
+    title: Effekter av skatt og lån
+    pdf: site/assets/plansjer/BED3_F02_effekter-av-skatt-og-laan.pdf
+    pdf_bytes: 4142848
+    html: site/assets/plansjer-html/F02-effekter-av-skatt-og-laan/F02-effekter-av-skatt-og-laan.html
+    html_bytes: 81395
+  - id: F03
+    title: Inflasjon
+    pdf: site/assets/plansjer/BED3_F03_inflasjon.pdf
+    pdf_bytes: 2018982
+    html: site/assets/plansjer-html/F03-inflasjon/F03-inflasjon.html
+    html_bytes: 53296
+  - id: F05
+    title: Låne- og betalingsalternativer
+    pdf: site/assets/plansjer/BED3_F05_laane-og-betalingsalternativer.pdf
+    pdf_bytes: 4901991
+    html: site/assets/plansjer-html/F05-laane-og-betalingsalternativer/F05-laane-og-betalingsalternativer.html
+    html_bytes: 64814
+  - id: F13
+    title: Rentemarkedet
+    pdf: site/assets/plansjer/BED3_F13_rentemarkedet.pdf
+    pdf_bytes: 4208081
+    html: site/assets/plansjer-html/F13-rentemarkedet/F13-rentemarkedet.html
+    html_bytes: 78104
+  - id: F14
+    title: Opsjonskontrakter
+    pdf: site/assets/plansjer/BED3_F14_opsjonskontrakter.pdf
+    pdf_bytes: 3273496
+    html: site/assets/plansjer-html/F14-opsjonskontrakter/F14-opsjonskontrakter.html
+    html_bytes: 67388
+  - id: F15
+    title: Terminkontrakter
+    pdf: site/assets/plansjer/BED3_F15_terminkontrakter.pdf
+    pdf_bytes: 3744274
+    html: site/assets/plansjer-html/F15-terminkontrakter/F15-terminkontrakter.html
+    html_bytes: 72844
+  - id: F16
+    title: Internasjonal finans
+    pdf: site/assets/plansjer/BED3_F16_internasjonal-finans.pdf
+    pdf_bytes: 3261402
+    html: site/assets/plansjer-html/F16-internasjonal-finans/F16-internasjonal-finans.html
+    html_bytes: 65800

@@ -94,7 +94,14 @@ under «Obligasjoner og durasjon» på [formelarket](../../../formelark.qmd).
 
 ## Forelesningsplansjer
 
-- [F13 · Rentemarkedet (PDF)](../../../assets/plansjer/BED3_F13_rentemarkedet.pdf)
+::: {.slides}
+<iframe src="../../../assets/plansjer-html/F13-rentemarkedet/F13-rentemarkedet.html" title="F13 · Rentemarkedet" loading="lazy" allowfullscreen></iframe>
+:::
+
+::: {.slides-actions}
+<button type="button" class="btn button--quiet slides-fullscreen">Vis i fullskjerm</button>
+[Last ned som PDF](../../../assets/plansjer/BED3_F13_rentemarkedet.pdf){.btn target="_blank"}
+:::
 
 ## Oppgaver
 

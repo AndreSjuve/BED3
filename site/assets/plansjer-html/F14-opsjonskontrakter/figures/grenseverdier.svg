@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='645.12pt' height='368.64pt' viewBox='0 0 645.12 368.64'>
+<g class='svglite'>
+<defs>
+  <style type='text/css'><![CDATA[
+    @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600&display=swap");
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+    .svglite g.glyphgroup path {
+      fill: inherit;
+      stroke: none;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #F5EDE3;'/>
+<defs>
+  <clipPath id='cpMC4wMHw2NDUuMTJ8MC4wMHwzNjguNjQ='>
+    <rect x='0.00' y='0.00' width='645.12' height='368.64' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHw2NDUuMTJ8MC4wMHwzNjguNjQ=)'>
+<rect x='0.00' y='0.00' width='645.12' height='368.64' style='stroke-width: 1.45; stroke: none; fill: #F5EDE3;' />
+<rect x='25.65' y='9.96' width='593.56' height='348.96' style='stroke-width: 1.45; stroke: none; fill: #F5EDE3;' />
+<line x1='52.63' y1='281.26' x2='592.24' y2='281.26' style='stroke-width: 0.96; stroke: #4A342F; stroke-linecap: butt;' />
+<polygon points='584.47,285.75 592.24,281.26 584.47,276.78 ' style='stroke-width: 0.96; stroke: #4A342F; stroke-linecap: butt; fill: #4A342F;' />
+<line x1='76.30' y1='343.06' x2='76.30' y2='25.82' style='stroke-width: 0.96; stroke: #4A342F; stroke-linecap: butt;' />
+<polygon points='80.78,33.59 76.30,25.82 71.82,33.59 ' style='stroke-width: 0.96; stroke: #4A342F; stroke-linecap: butt; fill: #4A342F;' />
+<polyline points='76.30,281.26 312.97,75.26 ' style='stroke-width: 1.81; stroke: #6B5750; stroke-dasharray: 16.93,7.26;' />
+<polyline points='76.30,281.26 214.71,281.26 414.40,107.45 ' style='stroke-width: 1.81; stroke: #6B5750; stroke-dasharray: 2.42,7.26,9.67,7.26;' />
+<polyline points='76.30,281.26 245.35,281.26 414.40,134.12 ' style='stroke-width: 1.81; stroke: #6B5750; stroke-dasharray: 2.42,7.26,9.67,7.26;' />
+<polyline points='76.30,281.26 79.68,281.26 83.06,281.26 86.44,281.26 89.82,281.26 93.21,281.26 96.59,281.26 99.97,281.26 103.35,281.25 106.73,281.23 110.11,281.20 113.49,281.15 116.87,281.07 120.25,280.97 123.63,280.83 127.02,280.66 130.40,280.43 133.78,280.16 137.16,279.83 140.54,279.45 143.92,279.00 147.30,278.49 150.68,277.91 154.06,277.27 157.44,276.55 160.83,275.77 164.21,274.92 167.59,273.99 170.97,273.00 174.35,271.94 177.73,270.81 181.11,269.62 184.49,268.36 187.87,267.03 191.25,265.64 194.63,264.19 198.02,262.69 201.40,261.12 204.78,259.50 208.16,257.83 211.54,256.10 214.92,254.32 218.30,252.49 221.68,250.62 225.06,248.70 228.44,246.74 231.83,244.74 235.21,242.70 238.59,240.61 241.97,238.50 245.35,236.34 248.73,234.15 252.11,231.93 255.49,229.68 258.87,227.40 262.25,225.09 265.64,222.75 269.02,220.39 272.40,218.00 275.78,215.59 279.16,213.16 282.54,210.70 285.92,208.22 289.30,205.72 292.68,203.21 296.06,200.67 299.44,198.12 302.83,195.55 306.21,192.97 309.59,190.37 312.97,187.75 316.35,185.12 319.73,182.48 323.11,179.83 326.49,177.16 329.87,174.48 333.25,171.79 336.64,169.09 340.02,166.38 343.40,163.66 346.78,160.93 350.16,158.20 353.54,155.45 356.92,152.70 360.30,149.93 363.68,147.16 367.06,144.39 370.45,141.60 373.83,138.81 377.21,136.02 380.59,133.22 383.97,130.41 387.35,127.60 390.73,124.78 394.11,121.95 397.49,119.13 400.87,116.29 404.25,113.46 407.64,110.62 411.02,107.77 414.40,104.92 ' style='stroke-width: 2.45; stroke: #6E1E1E;' />
+<text x='206.47' y='152.00' text-anchor='middle' style='font-size: 17.64px;fill: #6B5750; font-family: "EB Garamond";' textLength='80.00px' lengthAdjust='spacingAndGlyphs'>Øvre grense</text>
+<text x='440.75' y='130.07' style='font-size: 17.64px;fill: #6B5750; font-family: "EB Garamond";' textLength='94.11px' lengthAdjust='spacingAndGlyphs'>Nedre grenser</text>
+<text x='191.25' y='249.67' text-anchor='middle' style='font-size: 17.64px;fill: #6E1E1E; font-family: "EB Garamond";' textLength='84.52px' lengthAdjust='spacingAndGlyphs'>Faktisk verdi</text>
+<line x1='214.71' y1='287.03' x2='214.71' y2='275.50' style='stroke-width: 0.96; stroke: #4A342F; stroke-linecap: butt;' />
+<line x1='245.35' y1='287.03' x2='245.35' y2='275.50' style='stroke-width: 0.96; stroke: #4A342F; stroke-linecap: butt;' />
+<text x='190.56' y='310.33' style='font-size: 17.64px;fill: #2A1414; font-family: "EB Garamond";' textLength='21.59px' lengthAdjust='spacingAndGlyphs'>PV</text>
+<text x='212.15' y='310.33' style='font-size: 22.05px;fill: #2A1414; font-family: "Arial";' textLength='7.34px' lengthAdjust='spacingAndGlyphs'>(</text>
+<text x='219.49' y='310.33' style='font-size: 17.64px;fill: #2A1414; font-family: "EB Garamond";' textLength='12.02px' lengthAdjust='spacingAndGlyphs'>K</text>
+<text x='231.51' y='310.33' style='font-size: 22.05px;fill: #2A1414; font-family: "Arial";' textLength='7.34px' lengthAdjust='spacingAndGlyphs'>)</text>
+<text x='239.34' y='269.00' style='font-size: 17.64px;fill: #2A1414; font-family: "EB Garamond";' textLength='12.02px' lengthAdjust='spacingAndGlyphs'>K</text>
+<text x='65.72' y='285.56' style='font-size: 17.64px;fill: #2A1414; font-family: "EB Garamond";' textLength='8.47px' lengthAdjust='spacingAndGlyphs'>0</text>
+<line x1='296.06' y1='281.26' x2='296.06' y2='237.12' style='stroke-width: 0.85; stroke: #2A1414; stroke-linecap: butt;' />
+<polygon points='293.57,276.95 296.06,281.26 298.55,276.95 ' style='stroke-width: 0.85; stroke: #2A1414; stroke-linecap: butt; fill: #2A1414;' />
+<polygon points='298.55,241.44 296.06,237.12 293.57,241.44 ' style='stroke-width: 0.85; stroke: #2A1414; stroke-linecap: butt; fill: #2A1414;' />
+<line x1='296.06' y1='237.12' x2='296.06' y2='200.67' style='stroke-width: 0.85; stroke: #2A1414; stroke-linecap: butt;' />
+<polygon points='293.57,232.81 296.06,237.12 298.55,232.81 ' style='stroke-width: 0.85; stroke: #2A1414; stroke-linecap: butt; fill: #2A1414;' />
+<polygon points='298.55,204.99 296.06,200.67 293.57,204.99 ' style='stroke-width: 0.85; stroke: #2A1414; stroke-linecap: butt; fill: #2A1414;' />
+<text x='310.74' y='263.82' style='font-size: 17.64px;fill: #2A1414; font-family: "EB Garamond";' textLength='66.69px' lengthAdjust='spacingAndGlyphs'>Egenverdi</text>
+<text x='310.16' y='223.53' style='font-size: 17.64px;fill: #2A1414; font-family: "EB Garamond";' textLength='64.08px' lengthAdjust='spacingAndGlyphs'>Tidsverdi</text>
+<text x='79.62' y='27.46' style='font-size: 17.64px;fill: #2A1414; font-family: "EB Garamond";' textLength='12.53px' lengthAdjust='spacingAndGlyphs'>C</text>
+<text x='92.15' y='29.96' style='font-size: 12.35px;fill: #2A1414; font-family: "EB Garamond";' textLength='5.92px' lengthAdjust='spacingAndGlyphs'>0</text>
+<text x='593.65' y='269.96' style='font-size: 17.64px;fill: #2A1414; font-family: "EB Garamond";' textLength='8.20px' lengthAdjust='spacingAndGlyphs'>S</text>
+<text x='601.85' y='272.46' style='font-size: 12.35px;fill: #2A1414; font-family: "EB Garamond";' textLength='5.92px' lengthAdjust='spacingAndGlyphs'>0</text>
+</g>
+</g>
+</svg>

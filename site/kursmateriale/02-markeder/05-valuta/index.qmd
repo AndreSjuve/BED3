@@ -71,7 +71,14 @@ omregningen av avkastningskrav og lånekostnaden ved utenlandske lån.
 
 ## Forelesningsplansjer
 
-- [F16 · Internasjonal finans (PDF)](../../../assets/plansjer/BED3_F16_internasjonal-finans.pdf)
+::: {.slides}
+<iframe src="../../../assets/plansjer-html/F16-internasjonal-finans/F16-internasjonal-finans.html" title="F16 · Internasjonal finans" loading="lazy" allowfullscreen></iframe>
+:::
+
+::: {.slides-actions}
+<button type="button" class="btn button--quiet slides-fullscreen">Vis i fullskjerm</button>
+[Last ned som PDF](../../../assets/plansjer/BED3_F16_internasjonal-finans.pdf){.btn target="_blank"}
+:::
 
 ## Oppgaver
 

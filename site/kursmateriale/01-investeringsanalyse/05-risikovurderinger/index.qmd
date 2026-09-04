@@ -100,7 +100,14 @@ standardavvik) står under «Porteføljeteori og risiko» på
 
 ## Forelesningsplansjer
 
-- [F04 · Risikovurderinger (PDF)](../../../assets/plansjer/BED3_F04_risikovurderinger.pdf)
+::: {.slides}
+<iframe src="../../../assets/plansjer-html/F04-risikovurderinger/F04-risikovurderinger.html" title="F04 · Risikovurderinger" loading="lazy" allowfullscreen></iframe>
+:::
+
+::: {.slides-actions}
+<button type="button" class="btn button--quiet slides-fullscreen">Vis i fullskjerm</button>
+[Last ned som PDF](../../../assets/plansjer/BED3_F04_risikovurderinger.pdf){.btn target="_blank"}
+:::
 
 ## Oppgaver
 

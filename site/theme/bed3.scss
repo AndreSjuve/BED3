@@ -210,7 +210,7 @@ h4 { font-family: $bed3-text; font-weight: 600; color: $bed3-ink; }
 // Running text keeps a reading measure; tables and grids take the full column.
 main.content {
   p, ul, ol, dl, blockquote { max-width: var(--measure); }
-  .measure-wide, table, .formula-grid, .index-list, .video { max-width: none; }
+  .measure-wide, table, .formula-grid, .index-list, .video, .slides { max-width: none; }
 }
 
 .subtitle {
@@ -761,6 +761,44 @@ tr.row--marker td {
     &:hover { color: $bed3-oxblood; text-decoration-color: $bed3-rule-strong; }
     &:visited { color: $bed3-muted; }
   }
+}
+
+// =============================================================================
+// Lecture slides
+// =============================================================================
+
+// A parchment-register sibling of .video below: the deck is a reference to
+// read, not one of the night-register "doing" elements (video, quiz,
+// kretsløp, Buddy page). DESIGN.md's corner radius is 0 and "cards: none"
+// outside night bands, so this earns no box: a top hairline, like .formula,
+// with the iframe's own edge providing the boundary. Same 16:9 canvas as
+// the RevealJS decks (1600x900).
+.slides {
+  aspect-ratio: 16 / 9;
+  border-top: 1px solid $bed3-rule;
+  padding-top: var(--sp-3);
+  margin-top: var(--sp-5);
+
+  iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    background: $bed3-paper;
+  }
+}
+
+// The fullscreen button is raw HTML (a real <button>, matching the quiz's
+// .choice convention) and the download link is markdown syntax (a <p><a>);
+// Pandoc gives them different wrapper elements, so they need a flex row to
+// sit side by side instead of stacking on the <p>'s own block line.
+.slides-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--sp-3);
+  margin-top: var(--sp-3);
+
+  p { margin: 0; }
 }
 
 // =============================================================================

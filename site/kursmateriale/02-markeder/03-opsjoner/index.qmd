@@ -94,7 +94,14 @@ $C_0 - P_0 = S_0 - PV(K)$ står under «Opsjoner og derivater» på
 
 ## Forelesningsplansjer
 
-- [F14 · Opsjonskontrakter (PDF)](../../../assets/plansjer/BED3_F14_opsjonskontrakter.pdf)
+::: {.slides}
+<iframe src="../../../assets/plansjer-html/F14-opsjonskontrakter/F14-opsjonskontrakter.html" title="F14 · Opsjonskontrakter" loading="lazy" allowfullscreen></iframe>
+:::
+
+::: {.slides-actions}
+<button type="button" class="btn button--quiet slides-fullscreen">Vis i fullskjerm</button>
+[Last ned som PDF](../../../assets/plansjer/BED3_F14_opsjonskontrakter.pdf){.btn target="_blank"}
+:::
 
 ## Oppgaver
 

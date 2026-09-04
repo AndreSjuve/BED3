@@ -101,7 +101,14 @@ Formlene selv, inkludert annuitetsfaktoren video 7 viser til, står på
 
 ## Forelesningsplansjer
 
-- [F01 · Investeringsprosjekter (PDF)](../../../assets/plansjer/BED3_F01_investeringsprosjekter.pdf)
+::: {.slides}
+<iframe src="../../../assets/plansjer-html/F01-investeringsprosjekter/F01-investeringsprosjekter.html" title="F01 · Investeringsprosjekter" loading="lazy" allowfullscreen></iframe>
+:::
+
+::: {.slides-actions}
+<button type="button" class="btn button--quiet slides-fullscreen">Vis i fullskjerm</button>
+[Last ned som PDF](../../../assets/plansjer/BED3_F01_investeringsprosjekter.pdf){.btn target="_blank"}
+:::
 
 ## Oppgaver
 

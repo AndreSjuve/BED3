@@ -1,0 +1,21 @@
+<script>
+// Wires every "Vis i fullskjerm" button to fullscreen the .slides iframe in
+// the section it belongs to. Global include (see _quarto.yml); no-ops on
+// pages without one, same guard pattern as night-bleed.html and quiz.html.
+(function () {
+  var buttons = document.querySelectorAll(".slides-fullscreen");
+  if (!buttons.length) return;
+  buttons.forEach(function (btn) {
+    var actions = btn.closest(".slides-actions");
+    var box = actions && actions.previousElementSibling;
+    var iframe = box && box.classList.contains("slides") ? box.querySelector("iframe") : null;
+    if (!iframe) return;
+    btn.addEventListener("click", function () {
+      var request = iframe.requestFullscreen || iframe.webkitRequestFullscreen ||
+                     iframe.webkitRequestFullScreen || iframe.mozRequestFullScreen ||
+                     iframe.msRequestFullscreen;
+      if (request) request.call(iframe);
+    });
+  });
+})();
+</script>

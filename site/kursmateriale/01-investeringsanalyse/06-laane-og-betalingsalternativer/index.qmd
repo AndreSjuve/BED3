@@ -82,7 +82,14 @@ forskudds- og etterskuddsrente) står under «Renteregning» på
 
 ## Forelesningsplansjer
 
-- [F05 · Låne- og betalingsalternativer (PDF)](../../../assets/plansjer/BED3_F05_laane-og-betalingsalternativer.pdf)
+::: {.slides}
+<iframe src="../../../assets/plansjer-html/F05-laane-og-betalingsalternativer/F05-laane-og-betalingsalternativer.html" title="F05 · Låne- og betalingsalternativer" loading="lazy" allowfullscreen></iframe>
+:::
+
+::: {.slides-actions}
+<button type="button" class="btn button--quiet slides-fullscreen">Vis i fullskjerm</button>
+[Last ned som PDF](../../../assets/plansjer/BED3_F05_laane-og-betalingsalternativer.pdf){.btn target="_blank"}
+:::
 
 ## Oppgaver
 

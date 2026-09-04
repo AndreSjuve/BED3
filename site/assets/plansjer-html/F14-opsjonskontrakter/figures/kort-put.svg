@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='380.16pt' height='217.44pt' viewBox='0 0 380.16 217.44'>
+<g class='svglite'>
+<defs>
+  <style type='text/css'><![CDATA[
+    @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600&display=swap");
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+    .svglite g.glyphgroup path {
+      fill: inherit;
+      stroke: none;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #F5EDE3;'/>
+<defs>
+  <clipPath id='cpMC4wMHwzODAuMTZ8MC4wMHwyMTcuNDQ='>
+    <rect x='0.00' y='0.00' width='380.16' height='217.44' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHwzODAuMTZ8MC4wMHwyMTcuNDQ=)'>
+<rect x='-0.000000000000032' y='-0.000000000000057' width='380.16' height='217.44' style='stroke-width: 1.45; stroke: none; fill: #F5EDE3;' />
+<rect x='25.65' y='9.96' width='328.60' height='197.76' style='stroke-width: 1.45; stroke: none; fill: #F5EDE3;' />
+<line x1='40.59' y1='60.98' x2='339.32' y2='60.98' style='stroke-width: 0.96; stroke: #4A342F; stroke-linecap: butt;' />
+<polygon points='331.56,65.46 339.32,60.98 331.56,56.50 ' style='stroke-width: 0.96; stroke: #4A342F; stroke-linecap: butt; fill: #4A342F;' />
+<line x1='89.28' y1='198.74' x2='89.28' y2='18.95' style='stroke-width: 0.96; stroke: #4A342F; stroke-linecap: butt;' />
+<polygon points='93.76,26.72 89.28,18.95 84.79,26.72 ' style='stroke-width: 0.96; stroke: #4A342F; stroke-linecap: butt; fill: #4A342F;' />
+<polyline points='89.28,163.71 186.64,46.97 284.01,46.97 ' style='stroke-width: 2.45; stroke: #6E1E1E;' />
+<text x='289.70' y='42.92' style='font-size: 17.64px;fill: #6E1E1E; font-family: "EB Garamond";' textLength='20.31px' lengthAdjust='spacingAndGlyphs'>−P</text>
+<line x1='186.64' y1='64.25' x2='186.64' y2='57.71' style='stroke-width: 0.96; stroke: #4A342F; stroke-linecap: butt;' />
+<text x='180.64' y='79.88' style='font-size: 17.64px;fill: #2A1414; font-family: "EB Garamond";' textLength='12.02px' lengthAdjust='spacingAndGlyphs'>K</text>
+<text x='69.70' y='50.01' style='font-size: 17.64px;fill: #2A1414; font-family: "EB Garamond";' textLength='9.73px' lengthAdjust='spacingAndGlyphs'>P</text>
+<text x='79.43' y='52.51' style='font-size: 12.35px;fill: #2A1414; font-family: "EB Garamond";' textLength='5.92px' lengthAdjust='spacingAndGlyphs'>0</text>
+<text x='-1.58' y='167.35' style='font-size: 17.64px;fill: #2A1414; font-family: "Arial";' textLength='10.30px' lengthAdjust='spacingAndGlyphs'>−</text>
+<text x='11.37' y='167.35' style='font-size: 22.05px;fill: #2A1414; font-family: "Arial";' textLength='7.34px' lengthAdjust='spacingAndGlyphs'>(</text>
+<text x='18.71' y='167.35' style='font-size: 17.64px;fill: #2A1414; font-family: "EB Garamond";' textLength='12.02px' lengthAdjust='spacingAndGlyphs'>K</text>
+<text x='34.26' y='167.35' style='font-size: 17.64px;fill: #2A1414; font-family: "Arial";' textLength='10.30px' lengthAdjust='spacingAndGlyphs'>−</text>
+<text x='48.10' y='167.35' style='font-size: 17.64px;fill: #2A1414; font-family: "EB Garamond";' textLength='9.73px' lengthAdjust='spacingAndGlyphs'>P</text>
+<text x='57.83' y='169.85' style='font-size: 12.35px;fill: #2A1414; font-family: "EB Garamond";' textLength='5.92px' lengthAdjust='spacingAndGlyphs'>0</text>
+<text x='63.76' y='167.35' style='font-size: 22.05px;fill: #2A1414; font-family: "Arial";' textLength='7.34px' lengthAdjust='spacingAndGlyphs'>)</text>
+<text x='98.70' y='22.20' style='font-size: 17.64px;fill: #2A1414; font-family: "EB Garamond";' textLength='12.86px' lengthAdjust='spacingAndGlyphs'>G</text>
+<text x='111.55' y='22.20' style='font-size: 17.64px;fill: #2A1414; font-family: "EB Garamond";' textLength='6.88px' lengthAdjust='spacingAndGlyphs'>e</text>
+<text x='118.44' y='22.20' style='font-size: 17.64px;fill: #2A1414; font-family: "EB Garamond";' textLength='7.73px' lengthAdjust='spacingAndGlyphs'>v</text>
+<text x='126.16' y='22.20' style='font-size: 17.64px;fill: #2A1414; font-family: "EB Garamond";' textLength='4.33px' lengthAdjust='spacingAndGlyphs'>i</text>
+<text x='130.48' y='22.20' style='font-size: 17.64px;fill: #2A1414; font-family: "EB Garamond";' textLength='9.31px' lengthAdjust='spacingAndGlyphs'>n</text>
+<text x='139.80' y='22.20' style='font-size: 17.64px;fill: #2A1414; font-family: "EB Garamond";' textLength='5.70px' lengthAdjust='spacingAndGlyphs'>s</text>
+<text x='145.50' y='22.20' style='font-size: 17.64px;fill: #2A1414; font-family: "EB Garamond";' textLength='5.55px' lengthAdjust='spacingAndGlyphs'>t</text>
+<text x='94.32' y='208.39' style='font-size: 17.64px;fill: #2A1414; font-family: "EB Garamond";' textLength='11.81px' lengthAdjust='spacingAndGlyphs'>T</text>
+<text x='106.14' y='208.39' style='font-size: 17.64px;fill: #2A1414; font-family: "EB Garamond";' textLength='7.03px' lengthAdjust='spacingAndGlyphs'>a</text>
+<text x='113.18' y='208.39' style='font-size: 17.64px;fill: #2A1414; font-family: "EB Garamond";' textLength='9.16px' lengthAdjust='spacingAndGlyphs'>p</text>
+<text x='340.97' y='49.84' style='font-size: 17.64px;fill: #2A1414; font-family: "EB Garamond";' textLength='8.20px' lengthAdjust='spacingAndGlyphs'>S</text>
+<text x='349.17' y='52.35' style='font-size: 12.35px;fill: #2A1414; font-family: "EB Garamond";' textLength='8.27px' lengthAdjust='spacingAndGlyphs'>T</text>
+</g>
+</g>
+</svg>

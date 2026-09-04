@@ -82,7 +82,14 @@ og utrangeringsleddet) står under «Skatt og avskrivninger» på
 
 ## Forelesningsplansjer
 
-- [F02 · Effekter av skatt og lån (PDF)](../../../assets/plansjer/BED3_F02_effekter-av-skatt-og-laan.pdf)
+::: {.slides}
+<iframe src="../../../assets/plansjer-html/F02-effekter-av-skatt-og-laan/F02-effekter-av-skatt-og-laan.html" title="F02 · Effekter av skatt og lån" loading="lazy" allowfullscreen></iframe>
+:::
+
+::: {.slides-actions}
+<button type="button" class="btn button--quiet slides-fullscreen">Vis i fullskjerm</button>
+[Last ned som PDF](../../../assets/plansjer/BED3_F02_effekter-av-skatt-og-laan.pdf){.btn target="_blank"}
+:::
 
 ## Oppgaver
 
