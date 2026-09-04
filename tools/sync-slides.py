@@ -151,25 +151,32 @@ def sync_deck(source: Path, deck: dict) -> dict:
 
 
 def write_lock(source: Path, commit: str, synced: list[dict]) -> None:
-    lines = [
-        "# Written by tools/sync-slides.py. Records which BED3-course-content",
-        "# commit produced the slide HTML/PDF currently committed under",
-        "# site/assets/plansjer[-html]/. Do not hand-edit; re-run the sync.",
-        "schema_version: 1",
-        f"source_repo: {git(['remote', 'get-url', 'origin'], source)}",
-        f"source_commit: {commit}",
-        "decks:",
-    ]
-    for d in synced:
-        lines += [
-            f"  - id: {d['id']}",
-            f"    title: {d['title']}",
-            f"    pdf: {d['pdf']}",
-            f"    pdf_bytes: {d['pdf_bytes']}",
-            f"    html: {d['html']}",
-            f"    html_bytes: {d['html_bytes']}",
-        ]
-    LOCK_FILE.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    """content-lock.yml has one top-level key per sync script (course_content
+    here, teaching from sync-case.py) under `sources:`, so each script only
+    ever touches its own key and never clobbers the other's."""
+    import datetime
+    import yaml
+
+    doc = {}
+    if LOCK_FILE.exists():
+        doc = yaml.safe_load(LOCK_FILE.read_text(encoding="utf-8")) or {}
+    doc["schema_version"] = 2
+    doc.setdefault("sources", {})["course_content"] = {
+        "repo": git(["remote", "get-url", "origin"], source),
+        "commit": commit,
+        "synced_at": datetime.datetime.now().isoformat(timespec="seconds"),
+        "decks": synced,
+    }
+    header = (
+        "# Records which producing-repo commit generated the assets currently\n"
+        "# committed under site/assets/. One key per sync script under `sources:`\n"
+        "# (tools/sync-slides.py -> course_content, tools/sync-case.py -> teaching).\n"
+        "# Do not hand-edit; re-run the relevant sync script.\n"
+    )
+    LOCK_FILE.write_text(
+        header + yaml.dump(doc, allow_unicode=True, sort_keys=False, default_flow_style=False),
+        encoding="utf-8",
+    )
 
 
 def main() -> int:
@@ -187,9 +194,14 @@ def main() -> int:
         sys.exit(f"error: {source} is not a git repository "
                   f"(set --source or BED3_COURSE_CONTENT_PATH)")
 
-    status = git(["status", "--porcelain"], source)
+    # Scoped to the paths this script actually reads from, not the whole
+    # repo -- course-content is a shared, actively-worked-in repo, and an
+    # unrelated in-progress file elsewhere in it shouldn't block a sync
+    # that doesn't touch it.
+    status = git(["status", "--porcelain", "--", "lectures", "_artifacts"], source)
     if status and not args.force:
-        sys.exit(f"error: {source} has uncommitted changes -- commit or "
+        sys.exit(f"error: {source}'s lectures or _artifacts has uncommitted "
+                  f"changes -- commit or "
                   f"stash them first (the built artifacts might not match "
                   f"any committed source), or pass --force to sync anyway:\n{status}")
 
