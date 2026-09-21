@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='720.00pt' height='331.20pt' viewBox='0 0 720.00 331.20'>
+<g class='svglite'>
+<defs>
+  <style type='text/css'><![CDATA[
+    @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600&display=swap");
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+    .svglite g.glyphgroup path {
+      fill: inherit;
+      stroke: none;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #F5EDE3;'/>
+<defs>
+  <clipPath id='cpMC4wMHw3MjAuMDB8MC4wMHwzMzEuMjA='>
+    <rect x='0.00' y='0.00' width='720.00' height='331.20' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHw3MjAuMDB8MC4wMHwzMzEuMjA=)'>
+<rect x='-0.000000000000064' y='0.00' width='720.00' height='331.20' style='stroke-width: 1.45; stroke: none; fill: #F5EDE3;' />
+</g>
+<defs>
+  <clipPath id='cpNjMuMjR8NzE2LjAxfDUxLjE1fDI4My41Ng=='>
+    <rect x='63.24' y='51.15' width='652.78' height='232.40' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpNjMuMjR8NzE2LjAxfDUxLjE1fDI4My41Ng==)'>
+<rect x='63.24' y='51.15' width='652.78' height='232.40' style='stroke-width: 1.45; stroke: none; fill: #F5EDE3;' />
+<polyline points='63.24,263.93 716.01,263.93 ' style='stroke-width: 0.85; stroke: #E1CEC5; stroke-linecap: butt;' />
+<polyline points='63.24,217.74 716.01,217.74 ' style='stroke-width: 0.85; stroke: #E1CEC5; stroke-linecap: butt;' />
+<polyline points='63.24,171.56 716.01,171.56 ' style='stroke-width: 0.85; stroke: #E1CEC5; stroke-linecap: butt;' />
+<polyline points='63.24,125.37 716.01,125.37 ' style='stroke-width: 0.85; stroke: #E1CEC5; stroke-linecap: butt;' />
+<polyline points='63.24,79.19 716.01,79.19 ' style='stroke-width: 0.85; stroke: #E1CEC5; stroke-linecap: butt;' />
+<line x1='63.24' y1='171.56' x2='716.01' y2='171.56' style='stroke-width: 0.85; stroke: #C9A9A1; stroke-linecap: butt;' />
+<line x1='290.72' y1='283.56' x2='290.72' y2='51.15' style='stroke-width: 0.85; stroke: #C9A9A1; stroke-dasharray: 1.14,3.41; stroke-linecap: butt;' />
+<polyline points='92.91,272.99 102.80,266.78 112.69,260.71 122.58,254.78 132.47,248.98 142.36,243.30 152.25,237.75 162.14,232.32 172.03,227.01 181.92,221.81 191.81,216.73 201.70,211.76 211.60,206.89 221.49,202.13 231.38,197.48 241.27,192.92 251.16,188.46 261.05,184.10 270.94,179.83 280.83,175.65 290.72,171.56 300.61,167.55 310.50,163.63 320.39,159.80 330.28,156.04 340.17,152.37 350.06,148.77 359.95,145.24 369.84,141.79 379.73,138.41 389.63,135.10 399.52,131.86 409.41,128.69 419.30,125.58 429.19,122.54 439.08,119.56 448.97,116.64 458.86,113.77 468.75,110.97 478.64,108.23 488.53,105.54 498.42,102.90 508.31,100.32 518.20,97.79 528.09,95.31 537.98,92.88 547.87,90.50 557.77,88.17 567.66,85.88 577.55,83.64 587.44,81.44 597.33,79.29 607.22,77.18 617.11,75.11 627.00,73.08 636.89,71.09 646.78,69.14 656.67,67.23 666.56,65.36 676.45,63.52 686.34,61.72 ' style='stroke-width: 2.13; stroke: #6E1E1E; stroke-linecap: butt;' />
+<polyline points='92.91,256.54 102.80,251.39 112.69,246.35 122.58,241.41 132.47,236.58 142.36,231.85 152.25,227.22 162.14,222.69 172.03,218.25 181.92,213.90 191.81,209.64 201.70,205.47 211.60,201.38 221.49,197.38 231.38,193.46 241.27,189.62 251.16,185.86 261.05,182.18 270.94,178.56 280.83,175.02 290.72,171.56 300.61,168.16 310.50,164.83 320.39,161.56 330.28,158.36 340.17,155.23 350.06,152.15 359.95,149.14 369.84,146.19 379.73,143.29 389.63,140.45 399.52,137.66 409.41,134.93 419.30,132.25 429.19,129.63 439.08,127.05 448.97,124.52 458.86,122.04 468.75,119.61 478.64,117.23 488.53,114.89 498.42,112.59 508.31,110.34 518.20,108.13 528.09,105.96 537.98,103.83 547.87,101.74 557.77,99.69 567.66,97.68 577.55,95.71 587.44,93.77 597.33,91.87 607.22,90.00 617.11,88.16 627.00,86.36 636.89,84.60 646.78,82.86 656.67,81.16 666.56,79.48 676.45,77.84 686.34,76.22 ' style='stroke-width: 2.13; stroke: #2A1414; stroke-dasharray: 19.92,8.54; stroke-linecap: butt;' />
+<circle cx='290.72' cy='171.56' r='3.13' style='stroke-width: 0.71; stroke: #2A1414; fill: #2A1414;' />
+</g>
+<g clip-path='url(#cpMC4wMHw3MjAuMDB8MC4wMHwzMzEuMjA=)'>
+<text x='56.51' y='268.60' text-anchor='end' style='font-size: 14.25px;fill: #4A342F; font-family: "EB Garamond";' textLength='29.08px' lengthAdjust='spacingAndGlyphs'>−200</text>
+<text x='56.51' y='222.42' text-anchor='end' style='font-size: 14.25px;fill: #4A342F; font-family: "EB Garamond";' textLength='29.08px' lengthAdjust='spacingAndGlyphs'>−100</text>
+<text x='56.51' y='176.23' text-anchor='end' style='font-size: 14.25px;fill: #4A342F; font-family: "EB Garamond";' textLength='6.84px' lengthAdjust='spacingAndGlyphs'>0</text>
+<text x='56.51' y='130.05' text-anchor='end' style='font-size: 14.25px;fill: #4A342F; font-family: "EB Garamond";' textLength='20.53px' lengthAdjust='spacingAndGlyphs'>100</text>
+<text x='56.51' y='83.86' text-anchor='end' style='font-size: 14.25px;fill: #4A342F; font-family: "EB Garamond";' textLength='20.53px' lengthAdjust='spacingAndGlyphs'>200</text>
+<polyline points='63.24,283.56 716.01,283.56 ' style='stroke-width: 0.85; stroke: #C9A9A1; stroke-linecap: butt;' />
+<text x='92.91' y='299.63' text-anchor='middle' style='font-size: 14.25px;fill: #4A342F; font-family: "EB Garamond";' textLength='16.11px' lengthAdjust='spacingAndGlyphs'>0%</text>
+<text x='172.03' y='299.63' text-anchor='middle' style='font-size: 14.25px;fill: #4A342F; font-family: "EB Garamond";' textLength='16.11px' lengthAdjust='spacingAndGlyphs'>2%</text>
+<text x='251.16' y='299.63' text-anchor='middle' style='font-size: 14.25px;fill: #4A342F; font-family: "EB Garamond";' textLength='16.11px' lengthAdjust='spacingAndGlyphs'>4%</text>
+<text x='330.28' y='299.63' text-anchor='middle' style='font-size: 14.25px;fill: #4A342F; font-family: "EB Garamond";' textLength='16.11px' lengthAdjust='spacingAndGlyphs'>6%</text>
+<text x='409.41' y='299.63' text-anchor='middle' style='font-size: 14.25px;fill: #4A342F; font-family: "EB Garamond";' textLength='16.11px' lengthAdjust='spacingAndGlyphs'>8%</text>
+<text x='488.53' y='299.63' text-anchor='middle' style='font-size: 14.25px;fill: #4A342F; font-family: "EB Garamond";' textLength='22.95px' lengthAdjust='spacingAndGlyphs'>10%</text>
+<text x='567.66' y='299.63' text-anchor='middle' style='font-size: 14.25px;fill: #4A342F; font-family: "EB Garamond";' textLength='22.95px' lengthAdjust='spacingAndGlyphs'>12%</text>
+<text x='646.78' y='299.63' text-anchor='middle' style='font-size: 14.25px;fill: #4A342F; font-family: "EB Garamond";' textLength='22.95px' lengthAdjust='spacingAndGlyphs'>14%</text>
+<text x='389.63' y='323.08' text-anchor='middle' style='font-size: 14.25px;fill: #4A342F; font-family: "EB Garamond";' textLength='205.78px' lengthAdjust='spacingAndGlyphs'>Alternativ lånerente (avkastningskrav)</text>
+<text transform='translate(13.34,167.35) rotate(-90)' text-anchor='middle' style='font-size: 14.25px;fill: #4A342F; font-family: "EB Garamond";' textLength='151.70px' lengthAdjust='spacingAndGlyphs'>Netto nåverdi (tusen NOK)</text>
+<line x1='74.16' y1='20.10' x2='101.81' y2='20.10' style='stroke-width: 2.13; stroke: #6E1E1E; stroke-linecap: butt;' />
+<line x1='218.11' y1='20.10' x2='245.75' y2='20.10' style='stroke-width: 2.13; stroke: #2A1414; stroke-dasharray: 19.92,8.54; stroke-linecap: butt;' />
+<text x='112.74' y='24.77' style='font-size: 14.25px;fill: #4A342F; font-family: "EB Garamond";' textLength='94.44px' lengthAdjust='spacingAndGlyphs'>Lån A (bulletlån)</text>
+<text x='256.68' y='24.77' style='font-size: 14.25px;fill: #4A342F; font-family: "EB Garamond";' textLength='109.19px' lengthAdjust='spacingAndGlyphs'>Lån B (årlige renter)</text>
+</g>
+</g>
+</svg>

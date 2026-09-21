@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='691.20pt' height='201.60pt' viewBox='0 0 691.20 201.60'>
+<g class='svglite'>
+<defs>
+  <style type='text/css'><![CDATA[
+    @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600&display=swap");
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+    .svglite g.glyphgroup path {
+      fill: inherit;
+      stroke: none;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #F5EDE3;'/>
+<defs>
+  <clipPath id='cpMC4wMHw2OTEuMjB8MC4wMHwyMDEuNjA='>
+    <rect x='0.00' y='0.00' width='691.20' height='201.60' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHw2OTEuMjB8MC4wMHwyMDEuNjA=)'>
+<rect x='0.00' y='0.00' width='691.20' height='201.60' style='stroke-width: 1.45; stroke: none; fill: #F5EDE3;' />
+<rect x='11.71' y='7.97' width='671.52' height='181.92' style='stroke-width: 1.45; stroke: none; fill: #F5EDE3;' />
+<rect x='276.81' y='53.67' width='141.31' height='90.53' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #EFE3DB;' />
+<line x1='115.71' y1='98.93' x2='169.41' y2='98.93' style='stroke-width: 1.17; stroke: #6E1E1E; stroke-linecap: butt;' />
+<polygon points='162.51,102.92 169.41,98.93 162.51,94.95 ' style='stroke-width: 1.17; stroke: #6E1E1E; stroke-linecap: butt; fill: #6E1E1E;' />
+<line x1='231.59' y1='98.93' x2='271.16' y2='98.93' style='stroke-width: 1.17; stroke: #6E1E1E; stroke-linecap: butt;' />
+<polygon points='264.26,102.92 271.16,98.93 264.26,94.95 ' style='stroke-width: 1.17; stroke: #6E1E1E; stroke-linecap: butt; fill: #6E1E1E;' />
+<line x1='579.22' y1='98.93' x2='525.52' y2='98.93' style='stroke-width: 1.17; stroke: #6E1E1E; stroke-linecap: butt;' />
+<polygon points='532.43,94.95 525.52,98.93 532.43,102.92 ' style='stroke-width: 1.17; stroke: #6E1E1E; stroke-linecap: butt; fill: #6E1E1E;' />
+<line x1='463.35' y1='98.93' x2='423.78' y2='98.93' style='stroke-width: 1.17; stroke: #6E1E1E; stroke-linecap: butt;' />
+<polygon points='430.68,94.95 423.78,98.93 430.68,102.92 ' style='stroke-width: 1.17; stroke: #6E1E1E; stroke-linecap: butt; fill: #6E1E1E;' />
+<text x='87.45' y='104.53' text-anchor='middle' style='font-size: 17.07px;fill: #2A1414; font-family: "EB Garamond";' textLength='44.92px' lengthAdjust='spacingAndGlyphs'>Kunde</text>
+<text x='200.50' y='104.53' text-anchor='middle' style='font-size: 17.07px;fill: #2A1414; font-family: "EB Garamond";' textLength='45.56px' lengthAdjust='spacingAndGlyphs'>Megler</text>
+<text x='347.47' y='94.80' text-anchor='middle' style='font-size: 17.07px;fill: #2A1414; font-family: "EB Garamond";' textLength='86.73px' lengthAdjust='spacingAndGlyphs'>Markedsplass</text>
+<text x='347.47' y='114.26' text-anchor='middle' style='font-size: 17.07px;fill: #2A1414; font-family: "EB Garamond";' textLength='105.09px' lengthAdjust='spacingAndGlyphs'>Oppgjørssentral</text>
+<text x='494.43' y='104.53' text-anchor='middle' style='font-size: 17.07px;fill: #2A1414; font-family: "EB Garamond";' textLength='45.56px' lengthAdjust='spacingAndGlyphs'>Megler</text>
+<text x='607.49' y='104.53' text-anchor='middle' style='font-size: 17.07px;fill: #2A1414; font-family: "EB Garamond";' textLength='44.92px' lengthAdjust='spacingAndGlyphs'>Kunde</text>
+</g>
+</g>
+</svg>

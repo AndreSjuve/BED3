@@ -1,22 +1,24 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="nb" xml:lang="nb"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Hvordan inflasjon påvirker investeringsanalyse.">
 
-<title>Effekter av inflasjon – BED3 – Investering og finans</title>
+<title>Effekter av inflasjon – BED3</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -34,18 +36,19 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../../">
-<link href="../../../kursmateriale/01-investeringsanalyse/05-risikovurderinger/index.html" rel="next">
-<link href="../../../kursmateriale/01-investeringsanalyse/03-skatt-og-laan/index.html" rel="prev">
+<link href="../../../kursmateriale/01-investeringsanalyse/04-inflasjon/01-nominelle-og-reelle-stoerrelser.html" rel="next">
+<link href="../../../kursmateriale/01-investeringsanalyse/03-skatt-og-laan/04-laanefinansiering.html" rel="prev">
+<link href="../../../theme/favicon.svg" rel="icon" type="image/svg+xml">
 <script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-3ca95d720407343dd4dde218cf5978c9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-cbc338873bd1dd162d8a8ea34d1a0487.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-88eb3912a030e629ab157c5125eca5c8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -58,72 +61,113 @@ ul.task-list li input[type="checkbox"] {
     "/",
     "s"
   ],
-  "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "Ingen resultater",
+    "search-matching-documents-text": "Samsvarende dokumenter",
+    "search-copy-link-title": "Kopier link for å søke",
+    "search-hide-matches-text": "Skjul ytterlige resultater",
+    "search-more-match-text": "annet resultat i dette dokumentet",
+    "search-more-matches-text": "andre resultater i dette dokumentet",
+    "search-clear-button-title": "Tøm",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Avbryt",
+    "search-submit-button-title": "Send inn",
+    "search-label": "Søk"
   }
 }</script>
-<!-- academic icons -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 
-<!-- altmetric icons -->
-<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&amp;family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&amp;family=Inter:wght@400;500;600&amp;display=swap">
 
-<!-- fontawesome icons -->
-<script src="https://kit.fontawesome.com/1392a7030f.js" crossorigin="anonymous"></script>
 
-<!-- google font -->
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <script defer="" src="https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/katex.min.css">
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
-<body class="nav-sidebar docked nav-fixed quarto-light">
+<body class="nav-sidebar floating nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../../assets/images/nhh.png" alt="" class="navbar-logo light-content">
-    <img src="../../../assets/images/nhh.png" alt="" class="navbar-logo dark-content">
-    </a>
     <a class="navbar-brand" href="../../../index.html">
-    <span class="navbar-title">BED3 – Investering og finans</span>
+    <span class="navbar-title">BED3</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Søk"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Slå på navigering" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../kursinformasjon.html"> <i class="bi bi-info-circle-fill" role="img">
-</i> 
+    <a class="nav-link" href="../../../index.html"> 
+<span class="menu-text">Forsiden</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../om-kurset.html"> 
 <span class="menu-text">Om kurset</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../formelark.html"> <i class="bi bi-calculator" role="img">
-</i> 
+    <a class="nav-link" href="../../../kursinnhold.html"> 
+<span class="menu-text">Kursinnhold</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../formelark.html"> 
 <span class="menu-text">Formelark</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../kursinnhold.html"> <i class="bi bi-journal-richtext" role="img">
-</i> 
-<span class="menu-text">Kursinnhold</span></a>
+    <a class="nav-link" href="../../../timeplan.html"> 
+<span class="menu-text">Timeplan</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../bed3-buddy.html"> 
+<span class="menu-text">BED3-Buddy</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -133,143 +177,460 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Slå av eller på sidebarnavigering" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../kursmateriale/01-investeringsanalyse/index.html">Moduler</a></li><li class="breadcrumb-item"><a href="../../../kursmateriale/01-investeringsanalyse/index.html">Investeringsanalyse</a></li><li class="breadcrumb-item"><a href="../../../kursmateriale/01-investeringsanalyse/04-inflasjon/index.html">4. Effekter av inflasjon</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../kursmateriale/01-investeringsanalyse/01-introduksjon.html">Investeringsanalyse</a></li><li class="breadcrumb-item"><a href="../../../kursmateriale/01-investeringsanalyse/04-inflasjon/index.html">Effekter av inflasjon</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Slå av eller på sidebarnavigering" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../kursmateriale/00-bakteppe.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bakteppe</span></a>
+  </div>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">Introduksjon til kursinnholdet</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+ <span class="menu-text">Investeringsanalyse</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Slå på delen">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../kursmateriale/00-introduksjon/0-forord.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Forord</span></a>
+  <a href="../../../kursmateriale/01-investeringsanalyse/01-introduksjon.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduksjon</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../kursmateriale/01-investeringsanalyse/02-investeringsprosjekter/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Investeringsprosjekter</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Slå på delen">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../kursmateriale/01-investeringsanalyse/02-investeringsprosjekter/01-investeringsprosjektet.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Investeringsprosjektet</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../kursmateriale/00-introduksjon/0-intro.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Kursets plassering i økonomi</span></a>
+  <a href="../../../kursmateriale/01-investeringsanalyse/02-investeringsprosjekter/02-verdiskaping.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Verdiskaping som mål</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../kursmateriale/00-introduksjon/0-intro_finans.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Innledning til investering og finans</span></a>
+  <a href="../../../kursmateriale/01-investeringsanalyse/02-investeringsprosjekter/03-tid-som-valuta.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Tid som valuta</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../kursmateriale/01-investeringsanalyse/02-investeringsprosjekter/04-netto-naaverdi.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Netto nåverdi</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../kursmateriale/01-investeringsanalyse/02-investeringsprosjekter/05-internrente.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Internrente</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../kursmateriale/01-investeringsanalyse/02-investeringsprosjekter/06-naaverdiprofil.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Nåverdiprofil</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../kursmateriale/01-investeringsanalyse/02-investeringsprosjekter/07-supplerende-metoder.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Supplerende metoder</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../kursmateriale/01-investeringsanalyse/02-investeringsprosjekter/08-oppsummering.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Oppsummering</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../kursmateriale/01-investeringsanalyse/03-skatt-og-laan/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Effekter av skatt og lån</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Slå på delen">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../kursmateriale/01-investeringsanalyse/03-skatt-og-laan/00-caset-ecotech.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">EcoTech Electronics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../kursmateriale/01-investeringsanalyse/03-skatt-og-laan/01-caset-ecotime-pro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Caset EcoTime Pro</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../kursmateriale/01-investeringsanalyse/03-skatt-og-laan/02-kontantstroem-til-totalkapitalen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kontantstrøm til totalkapitalen</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../kursmateriale/01-investeringsanalyse/03-skatt-og-laan/03-skatt-og-avskrivninger.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Skatt og avskrivninger</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../kursmateriale/01-investeringsanalyse/03-skatt-og-laan/04-laanefinansiering.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lånefinansiering</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../kursmateriale/01-investeringsanalyse/04-inflasjon/index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Effekter av inflasjon</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Slå på delen">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../kursmateriale/01-investeringsanalyse/04-inflasjon/01-nominelle-og-reelle-stoerrelser.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Nominelle og reelle størrelser</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../kursmateriale/01-investeringsanalyse/04-inflasjon/02-internrenter-nominelt-og-reelt.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Internrenter nominelt og reelt</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../kursmateriale/01-investeringsanalyse/04-inflasjon/03-inflasjon-i-ecotime-caset.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Inflasjon i EcoTime-caset</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../kursmateriale/01-investeringsanalyse/04-inflasjon/04-konsistens-i-analysen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Konsistens i analysen</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../kursmateriale/01-investeringsanalyse/05-risikovurderinger/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Risikovurderinger</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Slå på delen">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../kursmateriale/01-investeringsanalyse/05-risikovurderinger/01-relevant-risiko.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Relevant risiko</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../kursmateriale/01-investeringsanalyse/05-risikovurderinger/02-stjernediagram.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Stjernediagram</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../kursmateriale/01-investeringsanalyse/05-risikovurderinger/03-scenarioanalyse.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Scenarioanalyse</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../kursmateriale/01-investeringsanalyse/05-risikovurderinger/04-payback-tid.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Payback-tid</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../kursmateriale/01-investeringsanalyse/05-risikovurderinger/05-break-even.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Break-even-analyse</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../kursmateriale/01-investeringsanalyse/05-risikovurderinger/06-simulering.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Simulering</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../kursmateriale/01-investeringsanalyse/05-risikovurderinger/07-beslutningstraer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Beslutningstrær</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../kursmateriale/01-investeringsanalyse/05-risikovurderinger/08-realopsjoner.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Realopsjoner</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../kursmateriale/01-investeringsanalyse/06-laane-og-betalingsalternativer/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Låne- og betalingsalternativer</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Slå på delen">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../kursmateriale/01-investeringsanalyse/06-laane-og-betalingsalternativer/01-naaverdiprofilen-for-laan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Nåverdiprofilen for lån</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../kursmateriale/01-investeringsanalyse/06-laane-og-betalingsalternativer/02-effektiv-rente.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Effektiv rente</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../kursmateriale/01-investeringsanalyse/06-laane-og-betalingsalternativer/03-laanetyper.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lånetyper</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../kursmateriale/01-investeringsanalyse/06-laane-og-betalingsalternativer/04-betalingsalternativer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Betalingsalternativer</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../kursmateriale/01-investeringsanalyse/06-laane-og-betalingsalternativer/05-leasing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Leasing</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
- <span class="menu-text">Moduler</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true">
+ <span class="menu-text">Finansielle markeder og kontrakter</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true" aria-label="Slå på delen">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../kursmateriale/02-markeder/01-introduksjon.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduksjon</span></a>
+  </div>
+</li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../kursmateriale/01-investeringsanalyse/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Investeringsanalyse</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <a href="../../../kursmateriale/02-markeder/02-rentemarkedet/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Rentemarkedet</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false" aria-label="Slå på delen">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 show">  
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../kursmateriale/01-investeringsanalyse/01-introduksjon/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">1. Introduksjon</span></a>
+  <a href="../../../kursmateriale/02-markeder/02-rentemarkedet/01-oversikt-over-rentemarkedet.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Oversikt over rentemarkedet</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../kursmateriale/01-investeringsanalyse/02-investeringsprosjekter/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">2. Investeringsprosjekter</span></a>
+  <a href="../../../kursmateriale/02-markeder/02-rentemarkedet/02-prising-av-obligasjoner-og-sertifikater.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Prising av obligasjoner og sertifikater</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../kursmateriale/01-investeringsanalyse/03-skatt-og-laan/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">3. Effekter av skatt og lån</span></a>
+  <a href="../../../kursmateriale/02-markeder/02-rentemarkedet/03-renten-som-prisen-paa-tid.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Renten som prisen på tid</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../kursmateriale/01-investeringsanalyse/04-inflasjon/index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">4. Effekter av inflasjon</span></a>
+  <a href="../../../kursmateriale/02-markeder/02-rentemarkedet/04-terminrenter-og-hypoteser.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Terminrenter og rentekurvens hypoteser</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../kursmateriale/01-investeringsanalyse/05-risikovurderinger/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">5. Risikovurderinger</span></a>
+  <a href="../../../kursmateriale/02-markeder/02-rentemarkedet/05-renterisiko-og-durasjon.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Renterisiko og durasjon</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../kursmateriale/01-investeringsanalyse/06-laane-og-betalingsalternativer/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">6. Låne- og betalingsalternativer</span></a>
+  <a href="../../../kursmateriale/02-markeder/02-rentemarkedet/06-immunisering.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Immunisering</span></a>
   </div>
 </li>
       </ul>
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../kursmateriale/02-markeder/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Finansielle markeder og kontrakter</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <a href="../../../kursmateriale/02-markeder/03-opsjoner/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Opsjonskontrakter</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false" aria-label="Slå på delen">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../kursmateriale/02-markeder/01-introduksjon/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Introduksjon</span></a>
+  <a href="../../../kursmateriale/02-markeder/03-opsjoner/01-derivater-og-underliggende.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Derivater og underliggende</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../kursmateriale/02-markeder/02-rentemarkedet/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">13. Rentemarkedet</span></a>
+  <a href="../../../kursmateriale/02-markeder/03-opsjoner/02-kjoeps-og-salgsopsjoner.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kjøps- og salgsopsjoner</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../kursmateriale/02-markeder/03-opsjoner/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">14. Opsjonskontrakter</span></a>
+  <a href="../../../kursmateriale/02-markeder/03-opsjoner/03-kontantstroemsdiagrammer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kontantstrømsdiagrammer</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../kursmateriale/02-markeder/04-terminer/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">15. Terminkontrakter</span></a>
+  <a href="../../../kursmateriale/02-markeder/03-opsjoner/04-opsjonsstrategier.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Opsjonsstrategier</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../kursmateriale/02-markeder/05-valuta/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">16. Internasjonal finans</span></a>
+  <a href="../../../kursmateriale/02-markeder/03-opsjoner/05-put-call-pariteten.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Put-call-pariteten</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../kursmateriale/02-markeder/03-opsjoner/06-opsjonsprising.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Opsjonsprising</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../kursmateriale/02-markeder/04-terminer/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Terminkontrakter</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false" aria-label="Slå på delen">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../kursmateriale/02-markeder/04-terminer/01-hva-er-terminhandel.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Hva er terminhandel?</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../kursmateriale/02-markeder/04-terminer/02-marked-og-oppgjoer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Marked og oppgjør</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../kursmateriale/02-markeder/04-terminer/03-lagringskostnadshypotesen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lagringskostnadshypotesen</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../kursmateriale/02-markeder/04-terminer/04-forventningshypotesen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Forventningshypotesen</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../kursmateriale/02-markeder/04-terminer/05-volumbalansen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Volumbalansen i markedet</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../kursmateriale/02-markeder/04-terminer/06-sikring-med-terminkontrakter.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Sikring med terminkontrakter</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../kursmateriale/02-markeder/05-valuta/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Internasjonal finans</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="false" aria-label="Slå på delen">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../kursmateriale/02-markeder/05-valuta/01-valutakurser-og-noteringer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Valutakurser og noteringer</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../kursmateriale/02-markeder/05-valuta/02-paritetsbetingelsene.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Paritetsbetingelsene</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../kursmateriale/02-markeder/05-valuta/03-investeringer-og-valutalaan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Internasjonale investeringer og valutalån</span></a>
   </div>
 </li>
       </ul>
@@ -281,32 +642,19 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#videoer" id="toc-videoer" class="nav-link active" data-scroll-target="#videoer">Videoer</a></li>
-  <li><a href="#forelesningsplansjer" id="toc-forelesningsplansjer" class="nav-link" data-scroll-target="#forelesningsplansjer">Forelesningsplansjer</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<main class="content column-body" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../kursmateriale/01-investeringsanalyse/index.html">Moduler</a></li><li class="breadcrumb-item"><a href="../../../kursmateriale/01-investeringsanalyse/index.html">Investeringsanalyse</a></li><li class="breadcrumb-item"><a href="../../../kursmateriale/01-investeringsanalyse/04-inflasjon/index.html">4. Effekter av inflasjon</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../kursmateriale/01-investeringsanalyse/01-introduksjon.html">Investeringsanalyse</a></li><li class="breadcrumb-item"><a href="../../../kursmateriale/01-investeringsanalyse/04-inflasjon/index.html">Effekter av inflasjon</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Effekter av inflasjon</h1>
-</div>
-
-<div>
-  <div class="description">
-    Hvordan inflasjon påvirker investeringsanalyse.
-  </div>
+<p class="subtitle lead">Nominelle og reelle størrelser, og hvorfor de ikke må blandes</p>
 </div>
 
 
-<div class="quarto-title-meta column-body">
+
+<div class="quarto-title-meta">
 
     
   
@@ -318,21 +666,480 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="videoer" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="videoer">Videoer</h2>
-<iframe src="https://nhh.cloud.panopto.eu/Panopto/Pages/EmbeddedList.aspx?folderID=09cb074c-18c9-4651-bd47-b3c900fd95bd&amp;embedded=1" style="border: 0; width: 100%; height: 550px;">
+<p>Del 1 vurderte kontantstrømmer, del 2 lagde dem; begge i kroner, uten å spørre hva kronene er verdt. Dette kapittelet tar prisstigningen på alvor: hva skjer med kontantstrømmer, internrenter og avkastningskrav når hver krone kjøper litt mindre for hvert år? Nøkkelordet er konsistens: nominelle og reelle størrelser gir samme svar, men bare når teller og nevner snakker samme språk.</p>
+<p>Fire videoer på drøyt 40 minutter dekker stoffet. De to første bygger verktøyet: begrepene og omregningsformelen, deretter et lite eksempelprosjekt der internrenter og effektive skattesatser beregnes både nominelt og reelt. Så flyttes inflasjonen inn i EcoTime-caset fra del 2, før siste video samler alt i tre konsistenskrav.</p>
+<h2 id="videoer" class="anchored">Videoer</h2>
+<div class="index-list">
+<p><a class="index-row" href="01-nominelle-og-reelle-stoerrelser.html"> <span class="index-row__no">1</span> <span> <span class="index-row__title">Nominelle og reelle størrelser</span> <span class="index-row__sub">Deflatering og sammenhengen mellom nominell og reell rente</span> </span> <span class="index-row__dur">10:15</span> </a> <a class="index-row" href="02-internrenter-nominelt-og-reelt.html"> <span class="index-row__no">2</span> <span> <span class="index-row__title">Internrenter nominelt og reelt</span> <span class="index-row__sub">Eksempelprosjektet: internrenter, effektive skattesatser og reell lånerente</span> </span> <span class="index-row__dur">11:59</span> </a> <a class="index-row" href="03-inflasjon-i-ecotime-caset.html"> <span class="index-row__no">3</span> <span> <span class="index-row__title">Inflasjon i EcoTime-caset</span> <span class="index-row__sub">Kontantstrømmen til egenkapitalen når prisene stiger</span> </span> <span class="index-row__dur">09:02</span> </a> <a class="index-row" href="04-konsistens-i-analysen.html"> <span class="index-row__no">4</span> <span> <span class="index-row__title">Konsistens i analysen</span> <span class="index-row__sub">Kontantstrøm og avkastningskrav må matche, og vektstangformelen dukker opp igjen</span> </span> <span class="index-row__dur">08:56</span> </a></p>
+</div>
+<p class="note">
+Videoene ligger også som spilleliste i <a href="https://nhh.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%2209cb074c-18c9-4651-bd47-b3c900fd95bd%22">Panopto</a> om du heller vil se dem samlet.
+</p>
+<h2 id="symboler" class="anchored">Symboler</h2>
+<p>I tillegg til symbolene fra kapittel 1 og 2 bruker videoene disse:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Symbol</th>
+<th>Betydning</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">i</span></td>
+<td>Forventet årlig inflasjon</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">x_N</span>, <span class="math inline">x_R</span></td>
+<td>En nominell og en reell størrelse (sammenhengen gjelder generelt)</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">k_N</span>, <span class="math inline">k_R</span></td>
+<td>Nominelt og reelt avkastningskrav</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">y_N</span>, <span class="math inline">y_R</span></td>
+<td>Nominell og reell internrente</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">s</span></td>
+<td>Den nominelle skattesatsen</td>
+</tr>
+</tbody>
+</table>
+<p>Omregningen mellom nominelle og reelle renter (<span class="math inline">k_R = (k_N - i)/(1+i)</span> og tilbake) står under «Renteregning» på <a href="../../../formelark.html">formelarket</a>, sammen med koblingen fra nominell lånerente før skatt til reell lånerente etter skatt.</p>
+<h2 id="forelesningsplansjer" class="anchored">Forelesningsplansjer</h2>
+<div class="slides">
+<iframe src="../../../assets/plansjer-html/F03-inflasjon/F03-inflasjon.html" title="F03 · Effekter av inflasjon" loading="lazy" allowfullscreen="">
 </iframe>
-</section>
-<section id="forelesningsplansjer" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="forelesningsplansjer">Forelesningsplansjer</h2>
-<iframe src="../../../assets/slides/BED3-F03-Inflasjon.pdf" width="100%" height="600px" style="border:none; margin-top: 1em; margin-bottom: 1em;">
-</iframe>
-<p><a href="../../../assets/slides/BED3-F03-Inflasjon.pdf" class="btn btn-primary" target="_blank">📥 Last ned presentasjonen som pdf</a></p>
+</div>
+<div class="slides-actions">
+<button type="button" class="btn button--quiet slides-fullscreen">
+Vis i fullskjerm
+</button>
+<p><a href="../../../assets/plansjer/BED3_F03_inflasjon.pdf" class="btn" target="_blank">Last ned som PDF</a></p>
+</div>
+<h2 id="oppgaver" class="anchored">Oppgaver</h2>
+<p>Oppgavene dekker omregningen mellom nominelle og reelle størrelser, inflasjonsjustering av postene i en kontantstrømoppstilling og effektive skattesatser. Regn dem for hånd før du åpner løsningsforslaget: å lese en løsning føles som å forstå den, og det er sjelden det samme.</p>
+<div class="problem">
+<p><span class="problem__no">Oppgave 1</span></p>
+<p>Et toårig prosjekt krever en investering på 900 000 kroner i dag og ventes å gi nominelle kontantstrømmer på 520 000 kroner om ett år og 540 800 kroner om to år. Forventet inflasjon er 4 % i året, og det reelle avkastningskravet er 5 %.</p>
+<ol type="a">
+<li><p>Hva er det nominelle avkastningskravet?</p></li>
+<li><p>Deflater kontantstrømmene til reelle beløp.</p></li>
+<li><p>Beregn netto nåverdi både nominelt og reelt, og vis at de to sporene gir samme svar.</p></li>
+</ol>
+<details class="solution">
+<summary>
+Vis løsningsforslag
+</summary>
+<div class="solution__body">
+<p><strong>a)</strong> Det nominelle kravet er ikke bare realkrav pluss inflasjon, for også rentedelen må inflasjonsjusteres:</p>
+<p><span class="math display">k_N = k_R \cdot (1+i) + i = 0{,}05 \cdot 1{,}04 + 0{,}04 = 9{,}2\ \%</span></p>
+<p><strong>b)</strong> Kontantstrømmen i år <span class="math inline">t</span> deflateres med <span class="math inline">(1+i)^t</span>:</p>
+<p><span class="math display">\frac{520\,000}{1{,}04} = 500\,000 \qquad \frac{540\,800}{1{,}04^2} = 500\,000</span></p>
+<p>Reelt gir prosjektet altså 500 000 i kjøpekraft hvert år.</p>
+<p><strong>c)</strong> Nominelt spor, med nominelt krav:</p>
+<p><span class="math display">\text{NNV} = -900\,000 + \frac{520\,000}{1{,}092} + \frac{540\,800}{1{,}092^2} \approx 29\,700</span></p>
+<p>Reelt spor, med reelt krav:</p>
+<p><span class="math display">\text{NNV} = -900\,000 + \frac{500\,000}{1{,}05} + \frac{500\,000}{1{,}05^2} \approx 29\,700</span></p>
+<p>Samme netto nåverdi på øret: verdiskapingen er den samme enten den måles i løpende kroner eller i kjøpekraft, så lenge teller og nevner behandles konsistent. Å blande sporene (for eksempel reelle kontantstrømmer mot nominelt krav) ville derimot undervurdert prosjektet.</p>
+</div>
+</details>
+</div>
+<div class="problem">
+<p><span class="problem__no">Oppgave 2</span></p>
+<p>Et fireårig prosjekt har et overskudd (dekningsbidrag minus betalbare faste kostnader) på 1 200 000 kroner i år 1. Deretter vokser alle priser med 2 % i året. Arbeidskapitalnivået er 350 000 kroner i år 0 og vokser i takt med prisene så lenge driften pågår; når prosjektet avvikles i år 4, frigjøres alt. Regn i tusen kroner.</p>
+<ol type="a">
+<li><p>Hva er overskuddet i år 4?</p></li>
+<li><p>Hva er kontantstrømeffekten av arbeidskapitalen i år 1 og år 2?</p></li>
+<li><p>Hvor mye arbeidskapital frigjøres i år 4?</p></li>
+</ol>
+<details class="solution">
+<summary>
+Vis løsningsforslag
+</summary>
+<div class="solution__body">
+<p><strong>a)</strong> Overskuddet på 1 200 er allerede et år 1-beløp, så fram til år 4 virker inflasjonen i tre år:</p>
+<p><span class="math display">1\,200 \cdot 1{,}02^3 \approx 1\,273{,}4</span></p>
+<p><strong>b)</strong> Det er <em>endringen</em> i arbeidskapital som er kontantstrøm. Nivået i år 1 er <span class="math inline">350 \cdot 1{,}02 = 357</span>, så endringen i år 1 er</p>
+<p><span class="math display">357 - 350 = 7{,}0</span></p>
+<p>For år 2 kan man enten inflasjonsjustere nivået en gang til (<span class="math inline">350 \cdot 1{,}02^2 = 364{,}1</span>, endring <span class="math inline">364{,}1 - 357 \approx 7{,}1</span>) eller gange fjorårets endring med inflasjonen (<span class="math inline">7{,}0 \cdot 1{,}02 \approx 7{,}1</span>); svaret blir det samme. Begge årene gir altså en liten utbetaling, enda varelageret er uendret i volum: de samme varene binder litt mer kapital når prisene stiger.</p>
+<p><strong>c)</strong> Ved avviklingen frigjøres hele det akkumulerte nivået, altså startbeløpet oppjustert med inflasjonen fram til siste driftsår:</p>
+<p><span class="math display">350 \cdot 1{,}02^3 \approx 371{,}4</span></p>
+<p>Det er startbeløpet pluss alle de små årlige økningene, ikke bare de opprinnelige 350.</p>
+</div>
+</details>
+</div>
+<div class="problem">
+<p><span class="problem__no">Oppgave 3</span></p>
+<p>Et prosjekt har en nominell internrente på 18 % før skatt og 13 % etter skatt. Forventet inflasjon er 2,5 %, og skattesatsen er 22 %.</p>
+<ol type="a">
+<li><p>Beregn den reelle internrenten før og etter skatt.</p></li>
+<li><p>Beregn den effektive skattesatsen både nominelt og reelt.</p></li>
+<li><p>Prosjektet delfinansieres med et lån til 7 % nominell rente. Hva er den reelle lånerenten etter skatt?</p></li>
+</ol>
+<details class="solution">
+<summary>
+Vis løsningsforslag
+</summary>
+<div class="solution__body">
+<p><strong>a)</strong> Siden skatt beregnes av nominelle beløp, tar vi utgangspunkt i de nominelle internrentene og bruker omregningsformelen:</p>
+<p><span class="math display">y_R = \frac{0{,}18 - 0{,}025}{1{,}025} \approx 15{,}1\ \% \qquad
+y_R^s = \frac{0{,}13 - 0{,}025}{1{,}025} \approx 10{,}2\ \%</span></p>
+<p><strong>b)</strong> Effektiv skattesats er den prosentvise reduksjonen i internrenten som følger av å betale skatt:</p>
+<p><span class="math display">\text{Nominelt: } \frac{18 - 13}{18} \approx 27{,}8\ \% \qquad
+\text{Reelt: } \frac{15{,}1 - 10{,}2}{15{,}1} \approx 32{,}3\ \%</span></p>
+<p>Merk at den reelle effektive skattesatsen er høyere enn den nominelle, og at begge avviker fra den lovbestemte satsen på 22 %.</p>
+<p><strong>c)</strong> Først skattejusteres renten, deretter deflateres den:</p>
+<p><span class="math display">\frac{0{,}07 \cdot (1 - 0{,}22) - 0{,}025}{1{,}025} =
+\frac{0{,}0546 - 0{,}025}{1{,}025} \approx 2{,}9\ \%</span></p>
+<p>Rentefradraget og prisstigningen gjør altså den virkelige lånekostnaden langt lavere enn de 7 prosentene som står i låneavtalen.</p>
+</div>
+</details>
+</div>
 
 
-</section>
 
 </main> <!-- /main -->
+<script>
+
+// Quiz behaviour. Loaded site-wide but inert on pages with no .quiz block.
+
+// One answer per question, immediate feedback, and the explanation is shown
+
+// whichever way the answer went; a wrong answer is the teachable one.
+
+//
+
+// Two things are deliberate. Answered choices are locked with aria-disabled
+
+// rather than the disabled property: a disabled control cannot hold focus, so
+
+// disabling the button the student just pressed would dump focus to <body> and
+
+// force a keyboard user back through the whole sidebar. And focus moves to the
+
+// feedback paragraph, which both keeps the student in place and gets the
+
+// explanation read aloud; un-hiding an element announces nothing on its own.
+
+(function () {
+
+  var uid = 0;
+
+
+
+  document.querySelectorAll('.quiz').forEach(function (quiz) {
+
+    var questions = quiz.querySelectorAll('.quiz__q');
+
+    var score = quiz.querySelector('.quiz__score');
+
+    var answered = 0, correct = 0;
+
+
+
+    // Tie each question's options to its prompt, so a screen reader announces
+
+    // which question it is reading options for.
+
+    questions.forEach(function (q) {
+
+      var prompt = q.querySelector('.quiz__prompt');
+
+      if (prompt) {
+
+        if (!prompt.id) prompt.id = 'quiz-q-' + (++uid);
+
+        q.setAttribute('role', 'group');
+
+        q.setAttribute('aria-labelledby', prompt.id);
+
+      }
+
+    });
+
+
+
+    function lock(q) {
+
+      q.querySelectorAll('.choice').forEach(function (b) {
+
+        b.setAttribute('aria-disabled', 'true');
+
+      });
+
+    }
+
+
+
+    function updateScore() {
+
+      // The reset affordance appears only once there is something to reset,
+
+      // and disappears again after a reset. hidden keeps it out of the tab
+
+      // order while hidden; once shown it is a normal focusable button.
+
+      var reset = quiz.querySelector('.quiz__reset');
+
+      if (reset) reset.hidden = answered === 0;
+
+      if (!score) return;
+
+      if (answered === 0) { score.textContent = ''; return; }
+
+      var left = questions.length - answered;
+
+      score.textContent = correct + ' av ' + answered + ' riktig.' +
+
+        (left > 0 ? ' ' + left + (left === 1 ? ' spørsmål igjen.' : ' spørsmål igjen.') : '');
+
+    }
+
+
+
+    questions.forEach(function (q) {
+
+      var right = q.getAttribute('data-answer');
+
+      var feedback = q.querySelector('.quiz__feedback');
+
+
+
+      q.querySelectorAll('.choice').forEach(function (btn) {
+
+        btn.addEventListener('click', function () {
+
+          if (q.dataset.done) return;
+
+          q.dataset.done = '1';
+
+          answered++;
+
+
+
+          if (btn.getAttribute('data-key') === right) correct++;
+
+
+
+          q.querySelectorAll('.choice').forEach(function (b) {
+
+            if (b.getAttribute('data-key') === right) {
+
+              b.dataset.state = 'correct';
+
+              b.querySelector('.choice__mark').textContent = 'riktig';
+
+            } else if (b === btn) {
+
+              b.dataset.state = 'wrong';
+
+              b.querySelector('.choice__mark').textContent = 'ditt svar';
+
+            }
+
+          });
+
+          lock(q);
+
+
+
+          if (feedback) {
+
+            feedback.hidden = false;
+
+            feedback.setAttribute('tabindex', '-1');
+
+            feedback.focus();
+
+          }
+
+
+
+          updateScore();
+
+        });
+
+      });
+
+    });
+
+
+
+    // Retake. The pages promise this in so many words, so it has to exist.
+
+    if (score && questions.length) {
+
+      var reset = document.createElement('button');
+
+      reset.type = 'button';
+
+      reset.className = 'quiz__reset';
+
+      reset.hidden = true;  // nothing to reset before the first answer
+
+      reset.textContent = 'Ta quizen på nytt';
+
+      reset.addEventListener('click', function () {
+
+        answered = 0;
+
+        correct = 0;
+
+        questions.forEach(function (q) {
+
+          delete q.dataset.done;
+
+          var fb = q.querySelector('.quiz__feedback');
+
+          if (fb) { fb.hidden = true; fb.removeAttribute('tabindex'); }
+
+          q.querySelectorAll('.choice').forEach(function (b) {
+
+            b.removeAttribute('aria-disabled');
+
+            delete b.dataset.state;
+
+            b.querySelector('.choice__mark').textContent = '';
+
+          });
+
+        });
+
+        updateScore();
+
+        var first = quiz.querySelector('.choice');
+
+        if (first) first.focus();
+
+      });
+
+      score.insertAdjacentElement('afterend', reset);
+
+    }
+
+  });
+
+})();
+
+</script>
+
+<script>
+
+// The video's night band bleeds to the screen edge. The page grid lives on
+
+// #quarto-content and the video inside main cannot reach its screen-end
+
+// column, so the real gaps are measured here and published as CSS variables
+
+// the theme consumes. Without JS the band simply stays column-width.
+
+(function () {
+
+  var main = document.querySelector("main.content");
+
+  if (!main || !document.querySelector(".video")) return;
+
+  function set() {
+
+    var r = main.getBoundingClientRect();
+
+    var vw = document.documentElement.clientWidth; // excludes the scrollbar
+
+    var right = Math.max(0, vw - r.right);
+
+    // The sidebar owns the left flank on wide screens; bleed left only when
+
+    // it has collapsed and the content column starts at the page edge.
+
+    var left = window.matchMedia("(min-width: 992px)").matches ? 0 : Math.max(0, r.left);
+
+    document.documentElement.style.setProperty("--night-bleed-right", right + "px");
+
+    document.documentElement.style.setProperty("--night-bleed-left", left + "px");
+
+  }
+
+  set();
+
+  addEventListener("resize", set);
+
+})();
+
+</script>
+
+<script>
+
+// Wires every "Vis i fullskjerm" button to fullscreen the .slides iframe in
+
+// the section it belongs to. Global include (see _quarto.yml); no-ops on
+
+// pages without one, same guard pattern as night-bleed.html and quiz.html.
+
+(function () {
+
+  var buttons = document.querySelectorAll(".slides-fullscreen");
+
+  if (!buttons.length) return;
+
+  buttons.forEach(function (btn) {
+
+    var actions = btn.closest(".slides-actions");
+
+    var box = actions && actions.previousElementSibling;
+
+    var iframe = box && box.classList.contains("slides") ? box.querySelector("iframe") : null;
+
+    if (!iframe) return;
+
+    btn.addEventListener("click", function () {
+
+      var request = iframe.requestFullscreen || iframe.webkitRequestFullscreen ||
+
+                     iframe.webkitRequestFullScreen || iframe.mozRequestFullScreen ||
+
+                     iframe.msRequestFullscreen;
+
+      if (request) request.call(iframe);
+
+    });
+
+  });
+
+})();
+
+</script>
+
+<script>
+
+// Prev/next links: the visible "Forrige · " / "Neste · " prefixes are CSS
+
+// generated content, which Quarto's aria-label (the bare page title) overrides
+
+// in accessible-name computation: a screen reader would hear two titles with
+
+// no direction. Fold the direction into the label itself.
+
+(function () {
+
+  var prev = document.querySelector('.nav-page-previous a[aria-label]');
+
+  var next = document.querySelector('.nav-page-next a[aria-label]');
+
+  if (prev) prev.setAttribute('aria-label', 'Forrige: ' + prev.getAttribute('aria-label'));
+
+  if (next) next.setAttribute('aria-label', 'Neste: ' + next.getAttribute('aria-label'));
+
+})();
+
+</script>
+
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -358,12 +1165,12 @@ ul.task-list li input[type="checkbox"] {
       // flash "checked"
       button.classList.add('code-copy-button-checked');
       var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copied!");
+      button.setAttribute("title", "Kopiert!");
       let tooltip;
       if (window.bootstrap) {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copied!");
+        button.setAttribute("data-bs-title", "Kopiert!");
         tooltip = new bootstrap.Tooltip(button, 
           { trigger: "manual", 
             customClass: "code-copy-button-tooltip",
@@ -406,7 +1213,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/AndreSjuve\.github\.io\/BED3\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -420,6 +1227,11 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -733,15 +1545,15 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
-<nav class="page-navigation column-body">
+<nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../../kursmateriale/01-investeringsanalyse/03-skatt-og-laan/index.html" class="pagination-link" aria-label="3. Effekter av skatt og lån">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">3. Effekter av skatt og lån</span>
+      <a href="../../../kursmateriale/01-investeringsanalyse/03-skatt-og-laan/04-laanefinansiering.html" class="pagination-link" aria-label="Lånefinansiering">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Lånefinansiering</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../../kursmateriale/01-investeringsanalyse/05-risikovurderinger/index.html" class="pagination-link" aria-label="5. Risikovurderinger">
-        <span class="nav-page-text">5. Risikovurderinger</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../../kursmateriale/01-investeringsanalyse/04-inflasjon/01-nominelle-og-reelle-stoerrelser.html" class="pagination-link" aria-label="Nominelle og reelle størrelser">
+        <span class="nav-page-text">Nominelle og reelle størrelser</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -749,14 +1561,14 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-      &nbsp;
-    </div>   
+<p><strong>BED3 – Investering og finans</strong><br>Norges Handelshøyskole</p>
+</div>   
     <div class="nav-footer-center">
-<p>© 2025-2026 André Wattø Sjuve <br> <i class="far fa-calendar-alt"></i> Tirsdag - <i class="far fa-clock"></i> 12:15 - 14:00 | <i class="far fa-calendar-alt"></i> Fredag - <i class="far fa-clock"></i> 10:15 - 12:00 <br><i class="fa fa-map-marker-alt"></i> Aud. Max.</p>
+<p>Tirsdag 12:15–14:00 · Fredag 10:15–12:00<br>Aud. Max.</p>
 </div>
     <div class="nav-footer-right">
-      &nbsp;
-    </div>
+<p><a href="mailto:andre.sjuve@nhh.no">andre.sjuve@nhh.no</a><br>© 2025–2026 André Wattø Sjuve</p>
+</div>
   </div>
 </footer>
 
